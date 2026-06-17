@@ -1,0 +1,15 @@
+{
+  "index": "cap-of-water-breathing",
+  "name": "Cap of Water Breathing",
+  "equipment_category": {
+    "index": "wondrous-items",
+    "name": "Wondrous Items",
+    "url": "/api/2024/equipment-categories/wondrous-items"
+  },
+  "rarity": { "name": "Uncommon" },
+  "attunement": false,
+  "desc": "While wearing this cap underwater, you can take a Magic action to create a bubble of air around your head. This bubble allows you to breathe normally underwater. This bubble stays with you until the cap is removed or you are no longer underwater.",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/cap-of-water-breathing"
+}

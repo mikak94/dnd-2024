@@ -1,0 +1,20 @@
+{
+  "index": "knowledge-domain-3-mind-magic",
+  "name": "Mind Magic",
+  "level": 3,
+  "class": {
+    "index": "cleric",
+    "name": "Cleric",
+    "url": "/api/2024/classes/cleric"
+  },
+  "subclass": {
+    "index": "knowledge-domain",
+    "name": "Knowledge Domain",
+    "url": "/api/2024/subclasses/knowledge-domain"
+  },
+  "desc": [
+    "As a Magic action, you can expend one use of your Channel Divinity to manifest your magical knowledge. Choose one spell from the Divination school on the Knowledge Domain Spells table that you have prepared. As part of that action, you cast that spell without expending a spell slot or needing Material components."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/knowledge-domain-3-mind-magic"
+}

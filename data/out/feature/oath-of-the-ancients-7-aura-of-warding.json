@@ -1,0 +1,20 @@
+{
+  "index": "oath-of-the-ancients-7-aura-of-warding",
+  "name": "Aura of Warding",
+  "level": 7,
+  "class": {
+    "index": "paladin",
+    "name": "Paladin",
+    "url": "/api/2024/classes/paladin"
+  },
+  "subclass": {
+    "index": "oath-of-the-ancients",
+    "name": "Oath of the Ancients",
+    "url": "/api/2024/subclasses/oath-of-the-ancients"
+  },
+  "desc": [
+    "Ancient magic lies so heavily upon you that it forms an eldritch ward, blunting energy from beyond the Material Plane; you and your allies have Resistance to Necrotic, Psychic and Radiant damage while in your Aura of Protection."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/oath-of-the-ancients-7-aura-of-warding"
+}

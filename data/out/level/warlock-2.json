@@ -1,0 +1,27 @@
+{
+  "index": "warlock-2",
+  "level": 2,
+  "ability_score_bonuses": 0,
+  "prof_bonus": 2,
+  "features": [
+    {
+      "index": "magical-cunning",
+      "name": "Magical Cunning",
+      "url": "/api/2024/features/magical-cunning"
+    }
+  ],
+  "class": {
+    "index": "warlock",
+    "name": "Warlock",
+    "url": "/api/2024/classes/warlock"
+  },
+  "class_specific": {
+    "invocations_known": 3
+  },
+  "spellcasting": {
+    "cantrips_known": 2,
+    "spells_known": 3,
+    "spell_slots_level_1": 2
+  },
+  "url": "/api/2024/classes/warlock/levels/2"
+}

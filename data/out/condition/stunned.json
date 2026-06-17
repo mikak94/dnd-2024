@@ -1,0 +1,11 @@
+{
+  "index": "stunned",
+  "name": "Stunned",
+  "desc": [
+    "While you have the Stunned condition, you experience the following effects.",
+    "**Incapacitated.** You have the Incapacitated condition.",
+    "**Saving Throws Affected.** You automatically fail Strength and Dexterity saving throws.",
+    "**Attacks Affected.** Attack rolls against you have Advantage."
+  ],
+  "url": "/api/2024/conditions/stunned"
+}

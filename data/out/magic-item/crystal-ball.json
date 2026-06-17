@@ -1,0 +1,15 @@
+{
+  "index": "crystal-ball",
+  "name": "Crystal Ball",
+  "equipment_category": {
+    "index": "wondrous-items",
+    "name": "Wondrous Items",
+    "url": "/api/2024/equipment-categories/wondrous-items"
+  },
+  "rarity": { "name": "Very Rare" },
+  "attunement": true,
+  "desc": "While touching this crystal orb, you can cast Scrying (save DC 17) with it.",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/crystal-ball"
+}

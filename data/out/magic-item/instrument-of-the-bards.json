@@ -1,0 +1,16 @@
+{
+  "index": "instrument-of-the-bards",
+  "name": "Instrument of the Bards",
+  "equipment_category": {
+    "index": "wondrous-items",
+    "name": "Wondrous Items",
+    "url": "/api/2024/equipment-categories/wondrous-items"
+  },
+  "rarity": { "name": "Varies" },
+  "attunement": true,
+  "desc": "An Instrument of the Bards is superior to an ordinary instrument in every way. Seven types of these instruments exist, each named after a bard college. The Instruments of the Bards table lists the spells common to all instruments, as well as the spells specific to each one and its rarity. A creature that attempts to play the instrument without being attuned to it must succeed on a DC 15 Wisdom saving throw or take 2d4 Psychic damage.\n\nYou can play the instrument to cast one of its spells. Once the instrument has been used to cast a spell, it can't be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC.\n\n##### Instruments of the Bards\n\n| Instrument | Rarity | Spells |\n| --- | --- | --- |\n| All | - | Fly, Invisibility, Levitate, Protection from Evil and Good, plus the spells listed for the particular instrument |\n| Anstruth harp | Very Rare | Cure Wounds (level 5), Ice Storm, Wall of Thorns |\n| Canaith mandolin | Rare | Cure Wounds (level 3), Dispel Magic, Protection from Energy (Lightning damage only) |\n| Cli lyre | Rare | Stone Shape, Wall of Fire, Wind Wall |\n| Doss lute | Uncommon | Animal Friendship, Protection from Energy (Fire damage only), Protection from Poison |\n| Fochlucan bandore | Uncommon | Entangle, Faerie Fire, Shillelagh, Speak with Animals |\n| Mac-Fuirmidh cittern | Uncommon | Barkskin, Cure Wounds, Fog Cloud |\n| Ollamh harp | Legendary | Confusion, Control Weather, Fire Storm |",
+  "limited-to": "Bard",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/instrument-of-the-bards"
+}

@@ -1,0 +1,15 @@
+{
+  "index": "backpack",
+  "name": "Backpack",
+  "equipment_categories": [
+    {
+      "index": "adventuring-gear",
+      "name": "Adventuring Gear",
+      "url": "/api/2024/equipment-categories/adventuring-gear"
+    }
+  ],
+  "cost": { "quantity": 2, "unit": "gp" },
+  "weight": 5,
+  "description": "A Backpack holds up to 30 pounds within 1 cubic foot. It can also serve as a saddlebag.",
+  "url": "/api/2024/equipment/backpack"
+}

@@ -1,0 +1,47 @@
+{
+  "index": "grease",
+  "name": "Grease",
+  "level": 1,
+  "school": {
+    "index": "conjuration",
+    "name": "Conjuration",
+    "url": "/api/2024/magic-schools/conjuration"
+  },
+  "casting_time": "Action",
+  "range": "60 feet",
+  "components": ["V", "S", "M"],
+  "material": "a bit of pork rind or butter",
+  "ritual": false,
+  "concentration": false,
+  "duration": "1 minute",
+  "desc": [
+    "Nonflammable grease covers the ground in a 10-foot square centered on a point within range and turns it into Difficult Terrain for the duration.",
+    "When the grease appears, each creature standing in its area must succeed on a Dexterity saving throw or have the Prone condition. A creature that enters the area or ends its turn there must also succeed on that save or fall Prone."
+  ],
+  "dc": {
+    "dc_type": {
+      "index": "dex",
+      "name": "DEX",
+      "url": "/api/2024/ability-scores/dex"
+    },
+    "dc_success": "none"
+  },
+  "classes": [
+    {
+      "index": "artificer",
+      "name": "Artificer",
+      "url": "/api/2024/classes/artificer"
+    },
+    {
+      "index": "sorcerer",
+      "name": "Sorcerer",
+      "url": "/api/2024/classes/sorcerer"
+    },
+    {
+      "index": "wizard",
+      "name": "Wizard",
+      "url": "/api/2024/classes/wizard"
+    }
+  ],
+  "url": "/api/2024/spells/grease"
+}

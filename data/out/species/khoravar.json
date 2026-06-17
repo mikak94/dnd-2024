@@ -1,0 +1,48 @@
+{
+  "index": "khoravar",
+  "name": "Khoravar",
+  "size_options": {
+    "desc": "Choose Small or Medium",
+    "choose": 1,
+    "type": "size",
+    "from": {
+      "option_set_type": "options_array",
+      "options": [
+        { "option_type": "size", "size": "Medium" },
+        { "option_type": "size", "size": "Small" }
+      ]
+    }
+  },
+  "size_description": "Medium (about 4–6 feet tall) or Small (about 2–4 feet tall), chosen when you select this species",
+  "speed": 30,
+  "type": "Humanoid",
+  "traits": [
+    {
+      "index": "khoravar-darkvision",
+      "name": "Darkvision",
+      "url": "/api/2024/traits/khoravar-darkvision"
+    },
+    {
+      "index": "khoravar-fey-ancestry",
+      "name": "Fey Ancestry",
+      "url": "/api/2024/traits/khoravar-fey-ancestry"
+    },
+    {
+      "index": "khoravar-fey-gift",
+      "name": "Fey Gift",
+      "url": "/api/2024/traits/khoravar-fey-gift"
+    },
+    {
+      "index": "khoravar-lethargy-resilience",
+      "name": "Lethargy Resilience",
+      "url": "/api/2024/traits/khoravar-lethargy-resilience"
+    },
+    {
+      "index": "khoravar-skill-versatility",
+      "name": "Skill Versatility",
+      "url": "/api/2024/traits/khoravar-skill-versatility"
+    }
+  ],
+  "subspecies": [],
+  "url": "/api/2024/species/khoravar"
+}

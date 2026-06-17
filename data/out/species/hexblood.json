@@ -1,0 +1,38 @@
+{
+  "index": "hexblood",
+  "name": "Hexblood",
+  "size_options": {
+    "desc": "Choose Small or Medium",
+    "choose": 1,
+    "type": "size",
+    "from": {
+      "option_set_type": "options_array",
+      "options": [
+        { "option_type": "size", "size": "Medium" },
+        { "option_type": "size", "size": "Small" }
+      ]
+    }
+  },
+  "size_description": "Medium (about 4–7 feet tall) or Small (about 2–4 feet tall), chosen when you select this species",
+  "speed": 30,
+  "type": "Fey",
+  "traits": [
+    {
+      "index": "hexblood-darkvision",
+      "name": "Darkvision",
+      "url": "/api/2024/traits/hexblood-darkvision"
+    },
+    {
+      "index": "hexblood-eerie-token",
+      "name": "Eerie Token",
+      "url": "/api/2024/traits/hexblood-eerie-token"
+    },
+    {
+      "index": "hexblood-hex-magic",
+      "name": "Hex Magic",
+      "url": "/api/2024/traits/hexblood-hex-magic"
+    }
+  ],
+  "subspecies": [],
+  "url": "/api/2024/species/hexblood"
+}

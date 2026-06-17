@@ -1,0 +1,52 @@
+{
+  "index": "elf-keen-senses",
+  "name": "Keen Senses",
+  "species": [
+    {
+      "index": "elf",
+      "name": "Elf",
+      "url": "/api/2024/species/elf"
+    }
+  ],
+  "subspecies": [],
+  "desc": [
+    "You have proficiency in the Insight, Perception, or Survival skill."
+  ],
+  "proficiency_choices": [
+    {
+      "desc": "Choose one skill: Insight, Perception, or Survival.",
+      "choose": 1,
+      "type": "proficiencies",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-insight",
+              "name": "Insight",
+              "url": "/api/2024/proficiencies/skill-insight"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-perception",
+              "name": "Perception",
+              "url": "/api/2024/proficiencies/skill-perception"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-survival",
+              "name": "Survival",
+              "url": "/api/2024/proficiencies/skill-survival"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "url": "/api/2024/traits/elf-keen-senses"
+}

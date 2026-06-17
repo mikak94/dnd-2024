@@ -1,0 +1,20 @@
+{
+  "index": "eldritch-knight-15-arcane-charge",
+  "name": "Arcane Charge",
+  "level": 15,
+  "class": {
+    "index": "fighter",
+    "name": "Fighter",
+    "url": "/api/2024/classes/fighter"
+  },
+  "subclass": {
+    "index": "eldritch-knight",
+    "name": "Eldritch Knight",
+    "url": "/api/2024/subclasses/eldritch-knight"
+  },
+  "desc": [
+    "When you use your Action Surge, you can teleport up to 30 feet to an unoccupied space you can see. You can teleport before or after the additional action."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/eldritch-knight-15-arcane-charge"
+}

@@ -1,0 +1,25 @@
+{
+  "index": "druid-3",
+  "level": 3,
+  "ability_score_bonuses": 0,
+  "prof_bonus": 2,
+  "features": [
+    {
+      "index": "druid-subclass",
+      "name": "Druid Subclass",
+      "url": "/api/2024/features/druid-subclass"
+    }
+  ],
+  "class": {
+    "index": "druid",
+    "name": "Druid",
+    "url": "/api/2024/classes/druid"
+  },
+  "spellcasting": {
+    "cantrips_known": 2,
+    "spells_known": 6,
+    "spell_slots_level_1": 4,
+    "spell_slots_level_2": 2
+  },
+  "url": "/api/2024/classes/druid/levels/3"
+}

@@ -1,0 +1,11 @@
+{
+  "index": "saving-throw-wis",
+  "name": "Saving Throw: WIS",
+  "type": "Saving Throws",
+  "reference": {
+    "index": "wis",
+    "name": "WIS",
+    "url": "/api/2024/ability-scores/wis"
+  },
+  "url": "/api/2024/proficiencies/saving-throw-wis"
+}

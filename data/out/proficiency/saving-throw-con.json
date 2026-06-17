@@ -1,0 +1,11 @@
+{
+  "index": "saving-throw-con",
+  "name": "Saving Throw: CON",
+  "type": "Saving Throws",
+  "reference": {
+    "index": "con",
+    "name": "CON",
+    "url": "/api/2024/ability-scores/con"
+  },
+  "url": "/api/2024/proficiencies/saving-throw-con"
+}

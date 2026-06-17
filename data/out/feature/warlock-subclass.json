@@ -1,0 +1,15 @@
+{
+  "index": "warlock-subclass",
+  "name": "Warlock Subclass",
+  "level": 3,
+  "class": {
+    "index": "warlock",
+    "name": "Warlock",
+    "url": "/api/2024/classes/warlock"
+  },
+  "desc": [
+    "You gain a Warlock subclass of your choice. The Archfey Patron, Celestial Patron, Fiend Patron, and Great Old One Patron subclasses are detailed after this class's description. A subclass is a specialization that grants you features at certain Warlock levels. For the rest of your career, you gain each of your subclass's features that are of your Warlock level or lower."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/warlock-subclass"
+}

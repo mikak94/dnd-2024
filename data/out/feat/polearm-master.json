@@ -1,0 +1,64 @@
+{
+  "index": "polearm-master",
+  "name": "Polearm Master",
+  "type": "general",
+  "prerequisites": [
+    {
+      "type": "level",
+      "level": 4
+    },
+    {
+      "type": "ability_score",
+      "ability_score": {
+        "index": "str",
+        "name": "STR",
+        "url": "/api/2024/ability-scores/str"
+      },
+      "minimum_score": 13
+    },
+    {
+      "type": "ability_score",
+      "ability_score": {
+        "index": "dex",
+        "name": "DEX",
+        "url": "/api/2024/ability-scores/dex"
+      },
+      "minimum_score": 13
+    }
+  ],
+  "desc": [
+    "You gain the following benefits.",
+    "Ability Score Increase. Increase your Dexterity or Strength score by 1, to a maximum of 20.",
+    "Pole Strike. Immediately after you take the Attack action and attack with a Quarterstaff, a Spear, or a weapon that has the Heavy and Reach properties, you can use a Bonus Action to make a melee attack with the opposite end of the weapon. The weapon deals Bludgeoning damage, and the weapon’s damage die for this attack is a d4.",
+    "Reactive Strike. While you're holding a Quarterstaff, a Spear, or a weapon that has the Heavy and Reach properties, you can take a Reaction to make one melee attack against a creature that enters the reach you have with that weapon."
+  ],
+  "choices": [
+    {
+      "desc": "Increase your Dexterity or Strength score by 1, to a maximum of 20.",
+      "choose": 1,
+      "type": "abilities",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "str",
+              "name": "STR",
+              "url": "/api/2024/ability-scores/str"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "dex",
+              "name": "DEX",
+              "url": "/api/2024/ability-scores/dex"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "url": "/api/2024/feats/polearm-master"
+}

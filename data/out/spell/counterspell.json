@@ -1,0 +1,45 @@
+{
+  "index": "counterspell",
+  "name": "Counterspell",
+  "level": 3,
+  "school": {
+    "index": "abjuration",
+    "name": "Abjuration",
+    "url": "/api/2024/magic-schools/abjuration"
+  },
+  "casting_time": "Reaction, which you take when you see a creature within 60 feet of yourself casting a spell with Verbal, Somatic, or Material components",
+  "range": "60 feet",
+  "components": ["S"],
+  "ritual": false,
+  "concentration": false,
+  "duration": "Instantaneous",
+  "desc": [
+    "You attempt to interrupt a creature in the process of casting a spell. The creature makes a Constitution saving throw. On a failed save, the spell dissipates with no effect, and the action, Bonus Action, or Reaction used to cast it is wasted. If that spell was cast with a spell slot, the slot isn't expended."
+  ],
+  "dc": {
+    "dc_type": {
+      "index": "con",
+      "name": "CON",
+      "url": "/api/2024/ability-scores/con"
+    },
+    "dc_success": "none"
+  },
+  "classes": [
+    {
+      "index": "sorcerer",
+      "name": "Sorcerer",
+      "url": "/api/2024/classes/sorcerer"
+    },
+    {
+      "index": "warlock",
+      "name": "Warlock",
+      "url": "/api/2024/classes/warlock"
+    },
+    {
+      "index": "wizard",
+      "name": "Wizard",
+      "url": "/api/2024/classes/wizard"
+    }
+  ],
+  "url": "/api/2024/spells/counterspell"
+}

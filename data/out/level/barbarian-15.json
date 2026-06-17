@@ -1,0 +1,24 @@
+{
+  "index": "barbarian-15",
+  "level": 15,
+  "ability_score_bonuses": 3,
+  "prof_bonus": 5,
+  "features": [
+    {
+      "index": "persistent-rage",
+      "name": "Persistent Rage",
+      "url": "/api/2024/features/persistent-rage"
+    }
+  ],
+  "class": {
+    "index": "barbarian",
+    "name": "Barbarian",
+    "url": "/api/2024/classes/barbarian"
+  },
+  "class_specific": {
+    "rage_count": 5,
+    "rage_damage_bonus": 3,
+    "brutal_critical_dice": 0
+  },
+  "url": "/api/2024/classes/barbarian/levels/15"
+}

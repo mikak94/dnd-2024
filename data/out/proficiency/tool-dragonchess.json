@@ -1,0 +1,11 @@
+{
+  "index": "tool-dragonchess",
+  "name": "Tool: Dragonchess",
+  "type": "Tools",
+  "reference": {
+    "index": "dragonchess",
+    "name": "Dragonchess",
+    "url": "/api/2024/equipment/dragonchess"
+  },
+  "url": "/api/2024/proficiencies/tool-dragonchess"
+}

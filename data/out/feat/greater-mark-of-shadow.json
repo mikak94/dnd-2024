@@ -1,0 +1,86 @@
+{
+  "index": "greater-mark-of-shadow",
+  "name": "Greater Mark of Shadow",
+  "type": "general",
+  "prerequisites": [
+    {
+      "type": "level",
+      "level": 4
+    },
+    {
+      "type": "feat",
+      "feat": {
+        "index": "mark-of-shadow",
+        "name": "Mark of Shadow",
+        "url": "/api/2024/feats/mark-of-shadow"
+      }
+    }
+  ],
+  "desc": [
+    "You gain the following benefits.",
+    "Ability Score Increase. Increase one ability score of your choice by 1, to a maximum of 20.",
+    "Improved Intuition. When you use the Cunning Intuition benefit of your Mark of Shadow feat, you can roll 1d6 instead of 1d4.",
+    "Improved Shadow. When you use the Shape Shadows benefit of your Mark of Shadow feat to cast Invisibility without a spell slot, you cast the spell as its level 3 version."
+  ],
+  "choices": [
+    {
+      "desc": "Increase one ability score of your choice by 1, to a maximum of 20.",
+      "choose": 1,
+      "type": "abilities",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "str",
+              "name": "STR",
+              "url": "/api/2024/ability-scores/str"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "dex",
+              "name": "DEX",
+              "url": "/api/2024/ability-scores/dex"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "con",
+              "name": "CON",
+              "url": "/api/2024/ability-scores/con"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "int",
+              "name": "INT",
+              "url": "/api/2024/ability-scores/int"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "wis",
+              "name": "WIS",
+              "url": "/api/2024/ability-scores/wis"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "cha",
+              "name": "CHA",
+              "url": "/api/2024/ability-scores/cha"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "url": "/api/2024/feats/greater-mark-of-shadow"
+}

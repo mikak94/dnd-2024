@@ -1,0 +1,49 @@
+{
+  "index": "spiritual-weapon",
+  "name": "Spiritual Weapon",
+  "level": 2,
+  "school": {
+    "index": "evocation",
+    "name": "Evocation",
+    "url": "/api/2024/magic-schools/evocation"
+  },
+  "casting_time": "Bonus Action",
+  "range": "60 feet",
+  "components": ["V", "S"],
+  "ritual": false,
+  "concentration": true,
+  "duration": "Concentration, up to 1 minute",
+  "desc": [
+    "You create a floating, spectral force that resembles a weapon of your choice and lasts for the duration. The force appears within range in a space of your choice, and you can immediately make one melee spell attack against one creature within 5 feet of the force. On a hit, the target takes Force damage equal to 1d8 plus your spellcasting ability modifier.",
+    "As a Bonus Action on your later turns, you can move the force up to 20 feet and repeat the attack against a creature within 5 feet of it."
+  ],
+  "higher_level": [
+    "Using a Higher-Level Spell Slot. The damage increases by 1d8 for every slot level above 2."
+  ],
+  "attack_type": "melee",
+  "damage": {
+    "damage_type": {
+      "index": "force",
+      "name": "Force",
+      "url": "/api/2024/damage-types/force"
+    },
+    "damage_at_slot_level": {
+      "2": "1d8",
+      "3": "2d8",
+      "4": "3d8",
+      "5": "4d8",
+      "6": "5d8",
+      "7": "6d8",
+      "8": "7d8",
+      "9": "8d8"
+    }
+  },
+  "classes": [
+    {
+      "index": "cleric",
+      "name": "Cleric",
+      "url": "/api/2024/classes/cleric"
+    }
+  ],
+  "url": "/api/2024/spells/spiritual-weapon"
+}

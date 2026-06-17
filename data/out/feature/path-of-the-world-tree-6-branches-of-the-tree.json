@@ -1,0 +1,20 @@
+{
+  "index": "path-of-the-world-tree-6-branches-of-the-tree",
+  "name": "Branches of the Tree",
+  "level": 6,
+  "class": {
+    "index": "barbarian",
+    "name": "Barbarian",
+    "url": "/api/2024/classes/barbarian"
+  },
+  "subclass": {
+    "index": "path-of-the-world-tree",
+    "name": "Path of the World Tree",
+    "url": "/api/2024/subclasses/path-of-the-world-tree"
+  },
+  "desc": [
+    "Whenever a creature you can see starts its turn within 30 feet of you while your Rage is active, you can take a Reaction to summon spectral branches of the World Tree around it. The target must succeed on a Strength saving throw (DC 8 plus your Strength modifier and Proficiency Bonus) or be teleported to an unoccupied space you can see within 5 feet of yourself or in the nearest unoccupied space you can see. After the target teleports, you can reduce its Speed to 0 until the end of the current turn."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/path-of-the-world-tree-6-branches-of-the-tree"
+}

@@ -1,0 +1,13 @@
+{
+  "index": "ammunition",
+  "name": "Ammunition",
+  "equipment_categories": [
+    {
+      "index": "ammunition",
+      "name": "Ammunition",
+      "url": "/api/2024/equipment-categories/ammunition"
+    }
+  ],
+  "description": "Ammunition is required by a weapon that has the Ammunition property. A weapon's description specifies the type of ammunition used by the weapon. The Ammunition table lists the different types and the amount you get when you buy them.",
+  "url": "/api/2024/equipment/ammunition"
+}

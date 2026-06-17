@@ -1,0 +1,15 @@
+{
+  "index": "mythallar-bracelet",
+  "name": "Mythallar Bracelet",
+  "equipment_category": {
+    "index": "wondrous-items",
+    "name": "Wondrous Items",
+    "url": "/api/2024/equipment-categories/wondrous-items"
+  },
+  "rarity": { "name": "Common" },
+  "attunement": false,
+  "desc": "Three small, crystal beads made from a decommissioned mythallar are strung on this leather bracelet. As a Magic action, you can pluck one bead from the bracelet to gain Advantage on Strength (Athletics) checks for 1 minute.\n\nA bead disappears immediately after it's plucked. Once all three beads have been plucked, the bracelet loses its magic.",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/mythallar-bracelet"
+}

@@ -1,0 +1,87 @@
+{
+  "index": "greater-mark-of-handling",
+  "name": "Greater Mark of Handling",
+  "type": "general",
+  "prerequisites": [
+    {
+      "type": "level",
+      "level": 4
+    },
+    {
+      "type": "feat",
+      "feat": {
+        "index": "mark-of-handling",
+        "name": "Mark of Handling",
+        "url": "/api/2024/feats/mark-of-handling"
+      }
+    }
+  ],
+  "desc": [
+    "You gain the following benefits.",
+    "Ability Score Increase. Increase one ability score of your choice by 1, to a maximum of 20.",
+    "Improved Intuition. When you use the Wild Intuition benefit of your Mark of Handling feat, you can roll 1d6 instead of 1d4.",
+    "Improved Handling. While you are mounted, immediately after you hit a target within 5 feet of your mount with a melee attack roll, your mount can take a Reaction to move up to its Speed or take the Attack action to make one attack only (your choice).",
+    "Subdue Animal. As a Magic action, you exert command over one Beast or Monstrosity you can see within 30 feet of yourself. The target must succeed on a Wisdom saving throw (DC 8 plus your Wisdom modifier and Proficiency Bonus) or have the Frightened condition until the start of your next turn. You can use this benefit a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest."
+  ],
+  "choices": [
+    {
+      "desc": "Increase one ability score of your choice by 1, to a maximum of 20.",
+      "choose": 1,
+      "type": "abilities",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "str",
+              "name": "STR",
+              "url": "/api/2024/ability-scores/str"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "dex",
+              "name": "DEX",
+              "url": "/api/2024/ability-scores/dex"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "con",
+              "name": "CON",
+              "url": "/api/2024/ability-scores/con"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "int",
+              "name": "INT",
+              "url": "/api/2024/ability-scores/int"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "wis",
+              "name": "WIS",
+              "url": "/api/2024/ability-scores/wis"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "cha",
+              "name": "CHA",
+              "url": "/api/2024/ability-scores/cha"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "url": "/api/2024/feats/greater-mark-of-handling"
+}

@@ -1,0 +1,1018 @@
+[
+  {
+    "index": "aasimar",
+    "name": "Aasimar",
+    "size_options": {
+      "desc": "Medium or Small, chosen when you select this species",
+      "choose": 1,
+      "type": "size",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "size",
+            "size": "Medium"
+          },
+          {
+            "option_type": "size",
+            "size": "Small"
+          }
+        ]
+      }
+    },
+    "size_description": "about 4-7 feet tall if Medium, or about 2-4 feet tall if Small",
+    "speed": 30,
+    "type": "Humanoid",
+    "traits": [
+      {
+        "index": "aasimar-celestial-resistance",
+        "name": "Celestial Resistance",
+        "url": "/api/2024/traits/aasimar-celestial-resistance"
+      },
+      {
+        "index": "aasimar-darkvision",
+        "name": "Darkvision",
+        "url": "/api/2024/traits/aasimar-darkvision"
+      },
+      {
+        "index": "aasimar-healing-hands",
+        "name": "Healing Hands",
+        "url": "/api/2024/traits/aasimar-healing-hands"
+      },
+      {
+        "index": "aasimar-light-bearer",
+        "name": "Light Bearer",
+        "url": "/api/2024/traits/aasimar-light-bearer"
+      },
+      {
+        "index": "aasimar-celestial-revelation",
+        "name": "Celestial Revelation",
+        "url": "/api/2024/traits/aasimar-celestial-revelation"
+      }
+    ],
+    "subspecies": [],
+    "url": "/api/2024/species/aasimar"
+  },
+  {
+    "index": "boggart",
+    "name": "Boggart",
+    "size": "Small",
+    "size_description": "about 2–4 feet tall",
+    "speed": 30,
+    "type": "Humanoid",
+    "traits": [
+      {
+        "index": "boggart-darkvision",
+        "name": "Darkvision",
+        "url": "/api/2024/traits/boggart-darkvision"
+      },
+      {
+        "index": "boggart-fey-ancestry",
+        "name": "Fey Ancestry",
+        "url": "/api/2024/traits/boggart-fey-ancestry"
+      },
+      {
+        "index": "boggart-fury-of-the-small",
+        "name": "Fury of the Small",
+        "url": "/api/2024/traits/boggart-fury-of-the-small"
+      },
+      {
+        "index": "boggart-nimble-escape",
+        "name": "Nimble Escape",
+        "url": "/api/2024/traits/boggart-nimble-escape"
+      }
+    ],
+    "subspecies": [],
+    "url": "/api/2024/species/boggart"
+  },
+  {
+    "index": "changeling",
+    "name": "Changeling",
+    "size_options": {
+      "desc": "Medium or Small, chosen when you select this species",
+      "choose": 1,
+      "type": "size",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "size",
+            "size": "Medium"
+          },
+          {
+            "option_type": "size",
+            "size": "Small"
+          }
+        ]
+      }
+    },
+    "size_description": "about 4–7 feet tall if Medium, or about 2–4 feet tall if Small",
+    "speed": 30,
+    "type": "Fey",
+    "traits": [
+      {
+        "index": "changeling-changeling-instincts",
+        "name": "Changeling Instincts",
+        "url": "/api/2024/traits/changeling-changeling-instincts"
+      },
+      {
+        "index": "changeling-shape-shifter",
+        "name": "Shape-Shifter",
+        "url": "/api/2024/traits/changeling-shape-shifter"
+      }
+    ],
+    "subspecies": [],
+    "url": "/api/2024/species/changeling"
+  },
+  {
+    "index": "dhampir",
+    "name": "Dhampir",
+    "size_options": {
+      "desc": "Medium or Small, chosen when you select this species",
+      "choose": 1,
+      "type": "size",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "size",
+            "size": "Medium"
+          },
+          {
+            "option_type": "size",
+            "size": "Small"
+          }
+        ]
+      }
+    },
+    "size_description": "about 4–7 feet tall if Medium, or about 2–4 feet tall if Small",
+    "speed": 35,
+    "type": "Humanoid",
+    "traits": [
+      {
+        "index": "dhampir-darkvision",
+        "name": "Darkvision",
+        "url": "/api/2024/traits/dhampir-darkvision"
+      },
+      {
+        "index": "dhampir-spider-climb",
+        "name": "Spider Climb",
+        "url": "/api/2024/traits/dhampir-spider-climb"
+      },
+      {
+        "index": "dhampir-trace-of-undeath",
+        "name": "Trace of Undeath",
+        "url": "/api/2024/traits/dhampir-trace-of-undeath"
+      },
+      {
+        "index": "dhampir-vampiric-bite",
+        "name": "Vampiric Bite",
+        "url": "/api/2024/traits/dhampir-vampiric-bite"
+      }
+    ],
+    "subspecies": [],
+    "url": "/api/2024/species/dhampir"
+  },
+  {
+    "index": "dragonborn",
+    "name": "Dragonborn",
+    "size": "Medium",
+    "size_description": "about 5-7 feet tall",
+    "speed": 30,
+    "type": "Humanoid",
+    "traits": [
+      {
+        "index": "dragonborn-draconic-ancestry",
+        "name": "Draconic Ancestry",
+        "url": "/api/2024/traits/dragonborn-draconic-ancestry"
+      },
+      {
+        "index": "dragonborn-breath-weapon",
+        "name": "Breath Weapon",
+        "url": "/api/2024/traits/dragonborn-breath-weapon"
+      },
+      {
+        "index": "dragonborn-damage-resistance",
+        "name": "Damage Resistance",
+        "url": "/api/2024/traits/dragonborn-damage-resistance"
+      },
+      {
+        "index": "dragonborn-darkvision",
+        "name": "Darkvision",
+        "url": "/api/2024/traits/dragonborn-darkvision"
+      },
+      {
+        "index": "dragonborn-draconic-flight",
+        "name": "Draconic Flight",
+        "url": "/api/2024/traits/dragonborn-draconic-flight"
+      }
+    ],
+    "subspecies": [],
+    "url": "/api/2024/species/dragonborn"
+  },
+  {
+    "index": "dwarf",
+    "name": "Dwarf",
+    "size": "Medium",
+    "size_description": "about 4-5 feet tall",
+    "speed": 30,
+    "type": "Humanoid",
+    "traits": [
+      {
+        "index": "dwarf-darkvision",
+        "name": "Darkvision",
+        "url": "/api/2024/traits/dwarf-darkvision"
+      },
+      {
+        "index": "dwarf-dwarven-resilience",
+        "name": "Dwarven Resilience",
+        "url": "/api/2024/traits/dwarf-dwarven-resilience"
+      },
+      {
+        "index": "dwarf-dwarven-toughness",
+        "name": "Dwarven Toughness",
+        "url": "/api/2024/traits/dwarf-dwarven-toughness"
+      },
+      {
+        "index": "dwarf-stonecunning",
+        "name": "Stonecunning",
+        "url": "/api/2024/traits/dwarf-stonecunning"
+      }
+    ],
+    "subspecies": [],
+    "url": "/api/2024/species/dwarf"
+  },
+  {
+    "index": "elf",
+    "name": "Elf",
+    "size": "Medium",
+    "size_description": "about 5-6 feet tall",
+    "speed": 30,
+    "type": "Humanoid",
+    "age": "Elves live for around 750 years, and they don't sleep but instead enter a trance when they need to rest.",
+    "traits": [
+      {
+        "index": "elf-darkvision",
+        "name": "Darkvision",
+        "url": "/api/2024/traits/elf-darkvision"
+      },
+      {
+        "index": "elf-elven-lineage",
+        "name": "Elven Lineage",
+        "url": "/api/2024/traits/elf-elven-lineage"
+      },
+      {
+        "index": "elf-fey-ancestry",
+        "name": "Fey Ancestry",
+        "url": "/api/2024/traits/elf-fey-ancestry"
+      },
+      {
+        "index": "elf-keen-senses",
+        "name": "Keen Senses",
+        "url": "/api/2024/traits/elf-keen-senses"
+      },
+      {
+        "index": "elf-trance",
+        "name": "Trance",
+        "url": "/api/2024/traits/elf-trance"
+      }
+    ],
+    "subspecies": [
+      {
+        "index": "drow",
+        "name": "Drow",
+        "url": "/api/2024/subspecies/drow"
+      },
+      {
+        "index": "high-elf",
+        "name": "High Elf",
+        "url": "/api/2024/subspecies/high-elf"
+      },
+      {
+        "index": "wood-elf",
+        "name": "Wood Elf",
+        "url": "/api/2024/subspecies/wood-elf"
+      },
+      {
+        "index": "lorwyn-elf",
+        "name": "Lorwyn Elf",
+        "url": "/api/2024/subspecies/lorwyn-elf"
+      },
+      {
+        "index": "shadowmoor-elf",
+        "name": "Shadowmoor Elf",
+        "url": "/api/2024/subspecies/shadowmoor-elf"
+      }
+    ],
+    "url": "/api/2024/species/elf"
+  },
+  {
+    "index": "faerie",
+    "name": "Faerie",
+    "size": "Small",
+    "size_description": "about 2–4 feet tall",
+    "speed": 30,
+    "type": "Fey",
+    "traits": [
+      {
+        "index": "faerie-fairy-magic",
+        "name": "Fairy Magic",
+        "url": "/api/2024/traits/faerie-fairy-magic"
+      },
+      {
+        "index": "faerie-flight",
+        "name": "Flight",
+        "url": "/api/2024/traits/faerie-flight"
+      }
+    ],
+    "subspecies": [],
+    "url": "/api/2024/species/faerie"
+  },
+  {
+    "index": "flamekin",
+    "name": "Flamekin",
+    "size_options": {
+      "desc": "Medium or Small, chosen when you select this species",
+      "choose": 1,
+      "type": "size",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "size",
+            "size": "Medium"
+          },
+          {
+            "option_type": "size",
+            "size": "Small"
+          }
+        ]
+      }
+    },
+    "size_description": "about 4–7 feet tall if Medium, or about 2–4 feet tall if Small",
+    "speed": 30,
+    "type": "Humanoid",
+    "traits": [
+      {
+        "index": "flamekin-darkvision",
+        "name": "Darkvision",
+        "url": "/api/2024/traits/flamekin-darkvision"
+      },
+      {
+        "index": "flamekin-fire-resistance",
+        "name": "Fire Resistance",
+        "url": "/api/2024/traits/flamekin-fire-resistance"
+      },
+      {
+        "index": "flamekin-reach-to-the-blaze",
+        "name": "Reach to the Blaze",
+        "url": "/api/2024/traits/flamekin-reach-to-the-blaze"
+      }
+    ],
+    "subspecies": [],
+    "url": "/api/2024/species/flamekin"
+  },
+  {
+    "index": "gnome",
+    "name": "Gnome",
+    "size": "Small",
+    "size_description": "about 3-4 feet tall",
+    "speed": 30,
+    "type": "Humanoid",
+    "age": "Gnomes live around 425 years.",
+    "traits": [
+      {
+        "index": "gnome-darkvision",
+        "name": "Darkvision",
+        "url": "/api/2024/traits/gnome-darkvision"
+      },
+      {
+        "index": "gnome-gnomish-cunning",
+        "name": "Gnomish Cunning",
+        "url": "/api/2024/traits/gnome-gnomish-cunning"
+      },
+      {
+        "index": "gnome-gnomish-lineage",
+        "name": "Gnomish Lineage",
+        "url": "/api/2024/traits/gnome-gnomish-lineage"
+      }
+    ],
+    "subspecies": [
+      {
+        "index": "forest-gnome",
+        "name": "Forest Gnome",
+        "url": "/api/2024/subspecies/forest-gnome"
+      },
+      {
+        "index": "rock-gnome",
+        "name": "Rock Gnome",
+        "url": "/api/2024/subspecies/rock-gnome"
+      }
+    ],
+    "url": "/api/2024/species/gnome"
+  },
+  {
+    "index": "goliath",
+    "name": "Goliath",
+    "size": "Medium",
+    "size_description": "about 7-8 feet tall",
+    "speed": 35,
+    "type": "Humanoid",
+    "traits": [
+      {
+        "index": "goliath-giant-ancestry",
+        "name": "Giant Ancestry",
+        "url": "/api/2024/traits/goliath-giant-ancestry"
+      },
+      {
+        "index": "goliath-large-form",
+        "name": "Large Form",
+        "url": "/api/2024/traits/goliath-large-form"
+      },
+      {
+        "index": "goliath-powerful-build",
+        "name": "Powerful Build",
+        "url": "/api/2024/traits/goliath-powerful-build"
+      }
+    ],
+    "subspecies": [],
+    "url": "/api/2024/species/goliath"
+  },
+  {
+    "index": "halfling",
+    "name": "Halfling",
+    "size": "Small",
+    "size_description": "about 2-3 feet tall",
+    "speed": 30,
+    "type": "Humanoid",
+    "age": "Halflings have robust life spans of about 150 years.",
+    "traits": [
+      {
+        "index": "halfling-brave",
+        "name": "Brave",
+        "url": "/api/2024/traits/halfling-brave"
+      },
+      {
+        "index": "halfling-halfling-nimbleness",
+        "name": "Halfling Nimbleness",
+        "url": "/api/2024/traits/halfling-halfling-nimbleness"
+      },
+      {
+        "index": "halfling-luck",
+        "name": "Luck",
+        "url": "/api/2024/traits/halfling-luck"
+      },
+      {
+        "index": "halfling-naturally-stealthy",
+        "name": "Naturally Stealthy",
+        "url": "/api/2024/traits/halfling-naturally-stealthy"
+      }
+    ],
+    "subspecies": [],
+    "url": "/api/2024/species/halfling"
+  },
+  {
+    "index": "hexblood",
+    "name": "Hexblood",
+    "size_options": {
+      "desc": "Choose Small or Medium",
+      "choose": 1,
+      "type": "size",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "size",
+            "size": "Medium"
+          },
+          {
+            "option_type": "size",
+            "size": "Small"
+          }
+        ]
+      }
+    },
+    "size_description": "Medium (about 4–7 feet tall) or Small (about 2–4 feet tall), chosen when you select this species",
+    "speed": 30,
+    "type": "Fey",
+    "traits": [
+      {
+        "index": "hexblood-darkvision",
+        "name": "Darkvision",
+        "url": "/api/2024/traits/hexblood-darkvision"
+      },
+      {
+        "index": "hexblood-eerie-token",
+        "name": "Eerie Token",
+        "url": "/api/2024/traits/hexblood-eerie-token"
+      },
+      {
+        "index": "hexblood-hex-magic",
+        "name": "Hex Magic",
+        "url": "/api/2024/traits/hexblood-hex-magic"
+      }
+    ],
+    "subspecies": [],
+    "url": "/api/2024/species/hexblood"
+  },
+  {
+    "index": "human",
+    "name": "Human",
+    "size_options": {
+      "desc": "Choose Small or Medium",
+      "choose": 1,
+      "type": "size",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "size",
+            "size": "Medium"
+          },
+          {
+            "option_type": "size",
+            "size": "Small"
+          }
+        ]
+      }
+    },
+    "size_description": "Medium (about 4-7 feet tall) or Small (about 2-4 feet tall), chosen when you select this species",
+    "speed": 30,
+    "type": "Humanoid",
+    "traits": [
+      {
+        "index": "human-resourceful",
+        "name": "Resourceful",
+        "url": "/api/2024/traits/human-resourceful"
+      },
+      {
+        "index": "human-skillful",
+        "name": "Skillful",
+        "url": "/api/2024/traits/human-skillful"
+      },
+      {
+        "index": "human-versatile",
+        "name": "Versatile",
+        "url": "/api/2024/traits/human-versatile"
+      }
+    ],
+    "subspecies": [],
+    "url": "/api/2024/species/human"
+  },
+  {
+    "index": "kalashtar",
+    "name": "Kalashtar",
+    "size": "Medium",
+    "size_description": "about 6–7 feet tall",
+    "speed": 30,
+    "type": "Aberration",
+    "traits": [
+      {
+        "index": "kalashtar-dual-mind",
+        "name": "Dual Mind",
+        "url": "/api/2024/traits/kalashtar-dual-mind"
+      },
+      {
+        "index": "kalashtar-mental-discipline",
+        "name": "Mental Discipline",
+        "url": "/api/2024/traits/kalashtar-mental-discipline"
+      },
+      {
+        "index": "kalashtar-mind-link",
+        "name": "Mind Link",
+        "url": "/api/2024/traits/kalashtar-mind-link"
+      },
+      {
+        "index": "kalashtar-severed-from-dreams",
+        "name": "Severed from Dreams",
+        "url": "/api/2024/traits/kalashtar-severed-from-dreams"
+      }
+    ],
+    "subspecies": [],
+    "url": "/api/2024/species/kalashtar"
+  },
+  {
+    "index": "khoravar",
+    "name": "Khoravar",
+    "size_options": {
+      "desc": "Choose Small or Medium",
+      "choose": 1,
+      "type": "size",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "size",
+            "size": "Medium"
+          },
+          {
+            "option_type": "size",
+            "size": "Small"
+          }
+        ]
+      }
+    },
+    "size_description": "Medium (about 4–6 feet tall) or Small (about 2–4 feet tall), chosen when you select this species",
+    "speed": 30,
+    "type": "Humanoid",
+    "traits": [
+      {
+        "index": "khoravar-darkvision",
+        "name": "Darkvision",
+        "url": "/api/2024/traits/khoravar-darkvision"
+      },
+      {
+        "index": "khoravar-fey-ancestry",
+        "name": "Fey Ancestry",
+        "url": "/api/2024/traits/khoravar-fey-ancestry"
+      },
+      {
+        "index": "khoravar-fey-gift",
+        "name": "Fey Gift",
+        "url": "/api/2024/traits/khoravar-fey-gift"
+      },
+      {
+        "index": "khoravar-lethargy-resilience",
+        "name": "Lethargy Resilience",
+        "url": "/api/2024/traits/khoravar-lethargy-resilience"
+      },
+      {
+        "index": "khoravar-skill-versatility",
+        "name": "Skill Versatility",
+        "url": "/api/2024/traits/khoravar-skill-versatility"
+      }
+    ],
+    "subspecies": [],
+    "url": "/api/2024/species/khoravar"
+  },
+  {
+    "index": "lorwyn-changeling",
+    "name": "Lorwyn Changeling",
+    "size_options": {
+      "desc": "Choose Small or Medium",
+      "choose": 1,
+      "type": "size",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "size",
+            "size": "Medium"
+          },
+          {
+            "option_type": "size",
+            "size": "Small"
+          }
+        ]
+      }
+    },
+    "size_description": "Medium (about 4–7 feet tall) or Small (about 2–4 feet tall), chosen when you select this species",
+    "speed": 30,
+    "type": "Fey",
+    "traits": [
+      {
+        "index": "lorwyn-changeling-shape-self",
+        "name": "Shape Self",
+        "url": "/api/2024/traits/lorwyn-changeling-shape-self"
+      },
+      {
+        "index": "lorwyn-changeling-darkvision",
+        "name": "Darkvision",
+        "url": "/api/2024/traits/lorwyn-changeling-darkvision"
+      },
+      {
+        "index": "lorwyn-changeling-delightful-imitator",
+        "name": "Delightful Imitator",
+        "url": "/api/2024/traits/lorwyn-changeling-delightful-imitator"
+      },
+      {
+        "index": "lorwyn-changeling-unpredictable-movement",
+        "name": "Unpredictable Movement",
+        "url": "/api/2024/traits/lorwyn-changeling-unpredictable-movement"
+      }
+    ],
+    "subspecies": [],
+    "url": "/api/2024/species/lorwyn-changeling"
+  },
+  {
+    "index": "lupin",
+    "name": "Lupin",
+    "size_options": {
+      "choose": 1,
+      "type": "size",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "size",
+            "size": "Small"
+          },
+          {
+            "option_type": "size",
+            "size": "Medium"
+          }
+        ]
+      }
+    },
+    "size_description": "about 4–7 feet tall (Medium) or about 2–4 feet tall (Small), chosen when you select this species",
+    "speed": 30,
+    "type": "Humanoid",
+    "traits": [
+      {
+        "index": "lupin-darkvision",
+        "name": "Darkvision",
+        "url": "/api/2024/traits/lupin-darkvision"
+      },
+      {
+        "index": "lupin-feral-pounce",
+        "name": "Feral Pounce",
+        "url": "/api/2024/traits/lupin-feral-pounce"
+      },
+      {
+        "index": "lupin-howl",
+        "name": "Howl",
+        "url": "/api/2024/traits/lupin-howl"
+      },
+      {
+        "index": "lupin-werewolf-instincts",
+        "name": "Werewolf Instincts",
+        "url": "/api/2024/traits/lupin-werewolf-instincts"
+      }
+    ],
+    "subspecies": [],
+    "url": "/api/2024/species/lupin"
+  },
+  {
+    "index": "orc",
+    "name": "Orc",
+    "size": "Medium",
+    "size_description": "about 6-7 feet tall",
+    "speed": 30,
+    "type": "Humanoid",
+    "traits": [
+      {
+        "index": "orc-adrenaline-rush",
+        "name": "Adrenaline Rush",
+        "url": "/api/2024/traits/orc-adrenaline-rush"
+      },
+      {
+        "index": "orc-darkvision",
+        "name": "Darkvision",
+        "url": "/api/2024/traits/orc-darkvision"
+      },
+      {
+        "index": "orc-relentless-endurance",
+        "name": "Relentless Endurance",
+        "url": "/api/2024/traits/orc-relentless-endurance"
+      }
+    ],
+    "subspecies": [],
+    "url": "/api/2024/species/orc"
+  },
+  {
+    "index": "reborn",
+    "name": "Reborn",
+    "size_options": {
+      "choose": 1,
+      "type": "size",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "size",
+            "size": "Small"
+          },
+          {
+            "option_type": "size",
+            "size": "Medium"
+          }
+        ]
+      }
+    },
+    "size_description": "about 4–7 feet tall (Medium) or about 2–4 feet tall (Small), chosen when you select this species",
+    "speed": 30,
+    "type": "Humanoid",
+    "traits": [
+      {
+        "index": "reborn-escaped-death",
+        "name": "Escaped Death",
+        "url": "/api/2024/traits/reborn-escaped-death"
+      },
+      {
+        "index": "reborn-everlasting",
+        "name": "Everlasting",
+        "url": "/api/2024/traits/reborn-everlasting"
+      },
+      {
+        "index": "reborn-knowledge-from-a-past-life",
+        "name": "Knowledge from a Past Life",
+        "url": "/api/2024/traits/reborn-knowledge-from-a-past-life"
+      },
+      {
+        "index": "reborn-strange-endurance",
+        "name": "Strange Endurance",
+        "url": "/api/2024/traits/reborn-strange-endurance"
+      }
+    ],
+    "subspecies": [],
+    "url": "/api/2024/species/reborn"
+  },
+  {
+    "index": "rimekin",
+    "name": "Rimekin",
+    "size_options": {
+      "choose": 1,
+      "type": "size",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "size",
+            "size": "Small"
+          },
+          {
+            "option_type": "size",
+            "size": "Medium"
+          }
+        ]
+      }
+    },
+    "size_description": "about 4–7 feet tall (Medium) or about 2–4 feet tall (Small), chosen when you select this species",
+    "speed": 30,
+    "type": "Humanoid",
+    "traits": [
+      {
+        "index": "rimekin-cold-fire-magic",
+        "name": "Cold Fire Magic",
+        "url": "/api/2024/traits/rimekin-cold-fire-magic"
+      },
+      {
+        "index": "rimekin-cold-resistance",
+        "name": "Cold Resistance",
+        "url": "/api/2024/traits/rimekin-cold-resistance"
+      },
+      {
+        "index": "rimekin-darkvision",
+        "name": "Darkvision",
+        "url": "/api/2024/traits/rimekin-darkvision"
+      }
+    ],
+    "subspecies": [],
+    "url": "/api/2024/species/rimekin"
+  },
+  {
+    "index": "shifter",
+    "name": "Shifter",
+    "size_options": {
+      "choose": 1,
+      "type": "size",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "size",
+            "size": "Small"
+          },
+          {
+            "option_type": "size",
+            "size": "Medium"
+          }
+        ]
+      }
+    },
+    "size_description": "about 4–7 feet tall (Medium) or about 2–4 feet tall (Small), chosen when you select this species",
+    "speed": 30,
+    "type": "Humanoid",
+    "traits": [
+      {
+        "index": "shifter-bestial-instincts",
+        "name": "Bestial Instincts",
+        "url": "/api/2024/traits/shifter-bestial-instincts"
+      },
+      {
+        "index": "shifter-darkvision",
+        "name": "Darkvision",
+        "url": "/api/2024/traits/shifter-darkvision"
+      },
+      {
+        "index": "shifter-shifting",
+        "name": "Shifting",
+        "url": "/api/2024/traits/shifter-shifting"
+      }
+    ],
+    "subspecies": [],
+    "url": "/api/2024/species/shifter"
+  },
+  {
+    "index": "tiefling",
+    "name": "Tiefling",
+    "size_options": {
+      "choose": 1,
+      "type": "size",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "size",
+            "size": "Small"
+          },
+          {
+            "option_type": "size",
+            "size": "Medium"
+          }
+        ]
+      }
+    },
+    "size_description": "about 4-7 feet tall (Medium) or about 3-4 feet tall (Small), chosen when you select this species",
+    "speed": 30,
+    "type": "Humanoid",
+    "traits": [
+      {
+        "index": "tiefling-darkvision",
+        "name": "Darkvision",
+        "url": "/api/2024/traits/tiefling-darkvision"
+      },
+      {
+        "index": "tiefling-fiendish-legacy",
+        "name": "Fiendish Legacy",
+        "url": "/api/2024/traits/tiefling-fiendish-legacy"
+      },
+      {
+        "index": "tiefling-otherworldly-presence",
+        "name": "Otherworldly Presence",
+        "url": "/api/2024/traits/tiefling-otherworldly-presence"
+      }
+    ],
+    "subspecies": [
+      {
+        "index": "abyssal",
+        "name": "Abyssal",
+        "url": "/api/2024/subspecies/abyssal"
+      },
+      {
+        "index": "chthonic",
+        "name": "Chthonic",
+        "url": "/api/2024/subspecies/chthonic"
+      },
+      {
+        "index": "infernal",
+        "name": "Infernal",
+        "url": "/api/2024/subspecies/infernal"
+      }
+    ],
+    "url": "/api/2024/species/tiefling"
+  },
+  {
+    "index": "warforged",
+    "name": "Warforged",
+    "size_options": {
+      "choose": 1,
+      "type": "size",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "size",
+            "size": "Small"
+          },
+          {
+            "option_type": "size",
+            "size": "Medium"
+          }
+        ]
+      }
+    },
+    "size_description": "about 6–8 feet tall (Medium) or about 3–4 feet tall (Small), chosen when you select this species",
+    "speed": 30,
+    "type": "Construct",
+    "traits": [
+      {
+        "index": "warforged-construct-resilience",
+        "name": "Construct Resilience",
+        "url": "/api/2024/traits/warforged-construct-resilience"
+      },
+      {
+        "index": "warforged-integrated-protection",
+        "name": "Integrated Protection",
+        "url": "/api/2024/traits/warforged-integrated-protection"
+      },
+      {
+        "index": "warforged-sentrys-rest",
+        "name": "Sentry's Rest",
+        "url": "/api/2024/traits/warforged-sentrys-rest"
+      },
+      {
+        "index": "warforged-specialized-design",
+        "name": "Specialized Design",
+        "url": "/api/2024/traits/warforged-specialized-design"
+      },
+      {
+        "index": "warforged-tireless",
+        "name": "Tireless",
+        "url": "/api/2024/traits/warforged-tireless"
+      }
+    ],
+    "subspecies": [],
+    "url": "/api/2024/species/warforged"
+  }
+]

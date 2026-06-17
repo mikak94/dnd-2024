@@ -1,0 +1,86 @@
+{
+  "index": "greater-mark-of-scribing",
+  "name": "Greater Mark of Scribing",
+  "type": "general",
+  "prerequisites": [
+    {
+      "type": "level",
+      "level": 4
+    },
+    {
+      "type": "feat",
+      "feat": {
+        "index": "mark-of-scribing",
+        "name": "Mark of Scribing",
+        "url": "/api/2024/feats/mark-of-scribing"
+      }
+    }
+  ],
+  "desc": [
+    "You gain the following benefits.",
+    "Ability Score Increase. Increase one ability score of your choice by 1, to a maximum of 20.",
+    "Improved Intuition. When you use the Gifted Scribe benefit of your Mark of Scribing feat, you can roll 1d6 instead of 1d4.",
+    "Inspired Scribing. When you cast Comprehend Languages, you can modify the spell to encompass up to three willing creatures you can see within 30 feet of yourself. Each chosen creature also gains the benefits of the spell for the duration. In addition, for the duration of the spell, you and the chosen creatures can communicate telepathically with each other while within 1 mile of each other. Once you modify the spell with this benefit, you can’t do so again until you finish a Long Rest."
+  ],
+  "choices": [
+    {
+      "desc": "Increase one ability score of your choice by 1, to a maximum of 20.",
+      "choose": 1,
+      "type": "abilities",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "str",
+              "name": "STR",
+              "url": "/api/2024/ability-scores/str"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "dex",
+              "name": "DEX",
+              "url": "/api/2024/ability-scores/dex"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "con",
+              "name": "CON",
+              "url": "/api/2024/ability-scores/con"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "int",
+              "name": "INT",
+              "url": "/api/2024/ability-scores/int"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "wis",
+              "name": "WIS",
+              "url": "/api/2024/ability-scores/wis"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "cha",
+              "name": "CHA",
+              "url": "/api/2024/ability-scores/cha"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "url": "/api/2024/feats/greater-mark-of-scribing"
+}

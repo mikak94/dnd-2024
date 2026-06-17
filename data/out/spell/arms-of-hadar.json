@@ -1,0 +1,60 @@
+{
+  "index": "arms-of-hadar",
+  "name": "Arms of Hadar",
+  "level": 1,
+  "school": {
+    "index": "conjuration",
+    "name": "Conjuration",
+    "url": "/api/2024/magic-schools/conjuration"
+  },
+  "casting_time": "Action",
+  "range": "Self",
+  "components": ["V", "S"],
+  "ritual": false,
+  "concentration": false,
+  "duration": "Instantaneous",
+  "desc": [
+    "Invoking Hadar, you cause tendrils to erupt from yourself. Each creature in a 10-foot Emanation originating from you makes a Strength saving throw. On a failed save, a target takes 2d6 Necrotic damage and can't take Reactions until the start of its next turn. On a successful save, a target takes half as much damage only."
+  ],
+  "higher_level": [
+    "Using a Higher-Level Spell Slot. The damage increases by 1d6 for each spell slot level above 1."
+  ],
+  "damage": {
+    "damage_type": {
+      "index": "necrotic",
+      "name": "Necrotic",
+      "url": "/api/2024/damage-types/necrotic"
+    },
+    "damage_at_slot_level": {
+      "1": "2d6",
+      "2": "3d6",
+      "3": "4d6",
+      "4": "5d6",
+      "5": "6d6",
+      "6": "7d6",
+      "7": "8d6",
+      "8": "9d6",
+      "9": "10d6"
+    }
+  },
+  "dc": {
+    "dc_type": {
+      "index": "str",
+      "name": "STR",
+      "url": "/api/2024/ability-scores/str"
+    },
+    "dc_success": "half"
+  },
+  "area_of_effect": {
+    "type": "sphere",
+    "size": 10
+  },
+  "classes": [
+    {
+      "index": "warlock",
+      "name": "Warlock",
+      "url": "/api/2024/classes/warlock"
+    }
+  ],
+  "url": "/api/2024/spells/arms-of-hadar"
+}

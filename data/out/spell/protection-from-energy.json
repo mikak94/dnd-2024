@@ -1,0 +1,52 @@
+{
+  "index": "protection-from-energy",
+  "name": "Protection from Energy",
+  "level": 3,
+  "school": {
+    "index": "abjuration",
+    "name": "Abjuration",
+    "url": "/api/2024/magic-schools/abjuration"
+  },
+  "casting_time": "Action",
+  "range": "Touch",
+  "components": ["V", "S"],
+  "ritual": false,
+  "concentration": true,
+  "duration": "Concentration, up to 1 hour",
+  "desc": [
+    "For the duration, the willing creature you touch has Resistance to one damage type of your choice: Acid, Cold, Fire, Lightning, or Thunder."
+  ],
+  "classes": [
+    {
+      "index": "artificer",
+      "name": "Artificer",
+      "url": "/api/2024/classes/artificer"
+    },
+    {
+      "index": "cleric",
+      "name": "Cleric",
+      "url": "/api/2024/classes/cleric"
+    },
+    {
+      "index": "druid",
+      "name": "Druid",
+      "url": "/api/2024/classes/druid"
+    },
+    {
+      "index": "ranger",
+      "name": "Ranger",
+      "url": "/api/2024/classes/ranger"
+    },
+    {
+      "index": "sorcerer",
+      "name": "Sorcerer",
+      "url": "/api/2024/classes/sorcerer"
+    },
+    {
+      "index": "wizard",
+      "name": "Wizard",
+      "url": "/api/2024/classes/wizard"
+    }
+  ],
+  "url": "/api/2024/spells/protection-from-energy"
+}

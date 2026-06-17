@@ -1,0 +1,29 @@
+{
+  "index": "eldritch-invocation-thirsting-blade",
+  "name": "Eldritch Invocation: Thirsting Blade",
+  "level": 5,
+  "class": {
+    "index": "warlock",
+    "name": "Warlock",
+    "url": "/api/2024/classes/warlock"
+  },
+  "parent": {
+    "index": "eldritch-invocations",
+    "name": "Eldritch Invocations",
+    "url": "/api/2024/features/eldritch-invocations"
+  },
+  "desc": [
+    "You gain the Extra Attack feature for your pact weapon only. With that feature, you can attack twice with the weapon instead of once when you take the Attack action on your turn."
+  ],
+  "prerequisites": [
+    {
+      "type": "level",
+      "level": 5
+    },
+    {
+      "type": "feature",
+      "feature": "eldritch-invocation-pact-of-the-blade"
+    }
+  ],
+  "url": "/api/2024/features/eldritch-invocation-thirsting-blade"
+}

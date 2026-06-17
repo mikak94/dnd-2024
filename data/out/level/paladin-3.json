@@ -1,0 +1,28 @@
+{
+  "index": "paladin-3",
+  "level": 3,
+  "ability_score_bonuses": 0,
+  "prof_bonus": 2,
+  "features": [
+    {
+      "index": "channel-divinity-paladin",
+      "name": "Channel Divinity",
+      "url": "/api/2024/features/channel-divinity-paladin"
+    },
+    {
+      "index": "paladin-subclass",
+      "name": "Paladin Subclass",
+      "url": "/api/2024/features/paladin-subclass"
+    }
+  ],
+  "class": {
+    "index": "paladin",
+    "name": "Paladin",
+    "url": "/api/2024/classes/paladin"
+  },
+  "spellcasting": {
+    "spells_known": 4,
+    "spell_slots_level_1": 3
+  },
+  "url": "/api/2024/classes/paladin/levels/3"
+}

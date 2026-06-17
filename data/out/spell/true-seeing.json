@@ -1,0 +1,48 @@
+{
+  "index": "true-seeing",
+  "name": "True Seeing",
+  "level": 6,
+  "school": {
+    "index": "divination",
+    "name": "Divination",
+    "url": "/api/2024/magic-schools/divination"
+  },
+  "casting_time": "Action",
+  "range": "Touch",
+  "components": ["V", "S", "M"],
+  "material": "mushroom powder worth 25+ GP, which the spell consumes",
+  "ritual": false,
+  "concentration": false,
+  "duration": "1 hour",
+  "desc": [
+    "For the duration, the willing creature you touch has Truesight with a range of 120 feet."
+  ],
+  "classes": [
+    {
+      "index": "bard",
+      "name": "Bard",
+      "url": "/api/2024/classes/bard"
+    },
+    {
+      "index": "cleric",
+      "name": "Cleric",
+      "url": "/api/2024/classes/cleric"
+    },
+    {
+      "index": "sorcerer",
+      "name": "Sorcerer",
+      "url": "/api/2024/classes/sorcerer"
+    },
+    {
+      "index": "warlock",
+      "name": "Warlock",
+      "url": "/api/2024/classes/warlock"
+    },
+    {
+      "index": "wizard",
+      "name": "Wizard",
+      "url": "/api/2024/classes/wizard"
+    }
+  ],
+  "url": "/api/2024/spells/true-seeing"
+}

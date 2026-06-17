@@ -1,0 +1,27 @@
+{
+  "index": "warlock-8",
+  "level": 8,
+  "ability_score_bonuses": 2,
+  "prof_bonus": 3,
+  "features": [
+    {
+      "index": "ability-score-improvement",
+      "name": "Ability Score Improvement",
+      "url": "/api/2024/features/ability-score-improvement"
+    }
+  ],
+  "class": {
+    "index": "warlock",
+    "name": "Warlock",
+    "url": "/api/2024/classes/warlock"
+  },
+  "class_specific": {
+    "invocations_known": 6
+  },
+  "spellcasting": {
+    "cantrips_known": 3,
+    "spells_known": 9,
+    "spell_slots_level_4": 2
+  },
+  "url": "/api/2024/classes/warlock/levels/8"
+}

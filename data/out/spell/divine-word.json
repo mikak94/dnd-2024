@@ -1,0 +1,36 @@
+{
+  "index": "divine-word",
+  "name": "Divine Word",
+  "level": 7,
+  "school": {
+    "index": "evocation",
+    "name": "Evocation",
+    "url": "/api/2024/magic-schools/evocation"
+  },
+  "casting_time": "Bonus Action",
+  "range": "30 feet",
+  "components": ["V"],
+  "ritual": false,
+  "concentration": false,
+  "duration": "Instantaneous",
+  "desc": [
+    "You utter a word imbued with power from the Upper Planes. Each creature of your choice in range makes a Charisma saving throw. On a failed save, a target that has 50 Hit Points or fewer suffers an effect based on its current Hit Points, as shown in the Divine Word Effects table. Regardless of its Hit Points, a Celestial, an Elemental, a Fey, or a Fiend target that fails its save is forced back to its plane of origin (if it isn't there already) and can't return to the current plane for 24 hours by any means short of a Wish spell.",
+    "Divine Word Effects. 0-20 Hit Points: The target dies. 21-30 Hit Points: The target has the Blinded, Deafened, and Stunned conditions for 1 hour. 31-40 Hit Points: The target has the Blinded and Deafened conditions for 10 minutes. 41-50 Hit Points: The target has the Deafened condition for 1 minute."
+  ],
+  "dc": {
+    "dc_type": {
+      "index": "cha",
+      "name": "CHA",
+      "url": "/api/2024/ability-scores/cha"
+    },
+    "dc_success": "none"
+  },
+  "classes": [
+    {
+      "index": "cleric",
+      "name": "Cleric",
+      "url": "/api/2024/classes/cleric"
+    }
+  ],
+  "url": "/api/2024/spells/divine-word"
+}

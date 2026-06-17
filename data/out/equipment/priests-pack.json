@@ -1,0 +1,78 @@
+{
+  "index": "priests-pack",
+  "name": "Priest's Pack",
+  "equipment_categories": [
+    {
+      "index": "equipment-packs",
+      "name": "Equipment Packs",
+      "url": "/api/2024/equipment-categories/equipment-packs"
+    },
+    {
+      "index": "adventuring-gear",
+      "name": "Adventuring Gear",
+      "url": "/api/2024/equipment-categories/adventuring-gear"
+    }
+  ],
+  "cost": { "quantity": 33, "unit": "gp" },
+  "weight": 29,
+  "description": "A Priest's Pack contains the following items: Backpack, Blanket, Holy Water, Lamp, 7 days of Rations, Robe, and Tinderbox.",
+  "contents": [
+    {
+      "item": {
+        "index": "backpack",
+        "name": "Backpack",
+        "url": "/api/2024/equipment/backpack"
+      },
+      "quantity": 1
+    },
+    {
+      "item": {
+        "index": "blanket",
+        "name": "Blanket",
+        "url": "/api/2024/equipment/blanket"
+      },
+      "quantity": 1
+    },
+    {
+      "item": {
+        "index": "holy-water",
+        "name": "Holy Water",
+        "url": "/api/2024/equipment/holy-water"
+      },
+      "quantity": 1
+    },
+    {
+      "item": {
+        "index": "lamp",
+        "name": "Lamp",
+        "url": "/api/2024/equipment/lamp"
+      },
+      "quantity": 1
+    },
+    {
+      "item": {
+        "index": "rations",
+        "name": "Rations",
+        "url": "/api/2024/equipment/rations"
+      },
+      "quantity": 7
+    },
+    {
+      "item": {
+        "index": "robe",
+        "name": "Robe",
+        "url": "/api/2024/equipment/robe"
+      },
+      "quantity": 1
+    },
+    {
+      "item": {
+        "index": "tinderbox",
+        "name": "Tinderbox",
+        "url": "/api/2024/equipment/tinderbox"
+      },
+      "quantity": 1
+    }
+  ],
+  "url": "/api/2024/equipment/priests-pack"
+}

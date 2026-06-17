@@ -1,0 +1,10 @@
+{
+  "index": "elf-darkvision",
+  "name": "Darkvision",
+  "species": [
+    { "index": "elf", "name": "Elf", "url": "/api/2024/species/elf" }
+  ],
+  "subspecies": [],
+  "desc": ["You have Darkvision with a range of 60 feet."],
+  "url": "/api/2024/traits/elf-darkvision"
+}

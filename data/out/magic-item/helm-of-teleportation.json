@@ -1,0 +1,15 @@
+{
+  "index": "helm-of-teleportation",
+  "name": "Helm of Teleportation",
+  "equipment_category": {
+    "index": "wondrous-items",
+    "name": "Wondrous Items",
+    "url": "/api/2024/equipment-categories/wondrous-items"
+  },
+  "rarity": { "name": "Rare" },
+  "attunement": true,
+  "desc": "This helm has 3 charges. While wearing it, you can expend 1 charge to cast Teleport from it. The helm regains 1d3 expended charges daily at dawn.",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/helm-of-teleportation"
+}

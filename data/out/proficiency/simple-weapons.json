@@ -1,0 +1,11 @@
+{
+  "index": "simple-weapons",
+  "name": "Simple Weapons",
+  "type": "Weapons",
+  "reference": {
+    "index": "simple-weapons",
+    "name": "Simple Weapons",
+    "url": "/api/2024/equipment-categories/simple-weapons"
+  },
+  "url": "/api/2024/proficiencies/simple-weapons"
+}

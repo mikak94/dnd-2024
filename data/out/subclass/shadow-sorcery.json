@@ -1,0 +1,98 @@
+{
+  "index": "shadow-sorcery",
+  "class": {
+    "index": "sorcerer",
+    "name": "Sorcerer",
+    "url": "/api/2024/classes/sorcerer"
+  },
+  "name": "Shadow Sorcery",
+  "subclass_flavor": "Sorcerous Origin",
+  "desc": [
+    "Bend Doom and Darkness to Your Will",
+    "Your innate magic comes from the most nebulous and inscrutable forces of the Shadowfell or from other regions of supernatural darkness. You might trace your lineage to an entity from such a place, or perhaps you were exposed to the sinister energy of a shadow dragon and were transformed by it. Your shadowy magic allows you to command darkness, undeath, and woe."
+  ],
+  "subclass_levels": "/api/2024/subclasses/shadow-sorcery/levels",
+  "spells": [
+    {
+      "prerequisites": [{ "index": "shadow-sorcery-3", "type": "level" }],
+      "spell": {
+        "index": "bane",
+        "name": "Bane",
+        "url": "/api/2024/spells/bane"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "shadow-sorcery-3", "type": "level" }],
+      "spell": {
+        "index": "darkness",
+        "name": "Darkness",
+        "url": "/api/2024/spells/darkness"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "shadow-sorcery-3", "type": "level" }],
+      "spell": {
+        "index": "inflict-wounds",
+        "name": "Inflict Wounds",
+        "url": "/api/2024/spells/inflict-wounds"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "shadow-sorcery-3", "type": "level" }],
+      "spell": {
+        "index": "pass-without-trace",
+        "name": "Pass Without Trace",
+        "url": "/api/2024/spells/pass-without-trace"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "shadow-sorcery-5", "type": "level" }],
+      "spell": {
+        "index": "hunger-of-hadar",
+        "name": "Hunger of Hadar",
+        "url": "/api/2024/spells/hunger-of-hadar"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "shadow-sorcery-5", "type": "level" }],
+      "spell": {
+        "index": "nondetection",
+        "name": "Nondetection",
+        "url": "/api/2024/spells/nondetection"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "shadow-sorcery-7", "type": "level" }],
+      "spell": {
+        "index": "greater-invisibility",
+        "name": "Greater Invisibility",
+        "url": "/api/2024/spells/greater-invisibility"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "shadow-sorcery-7", "type": "level" }],
+      "spell": {
+        "index": "phantasmal-killer",
+        "name": "Phantasmal Killer",
+        "url": "/api/2024/spells/phantasmal-killer"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "shadow-sorcery-9", "type": "level" }],
+      "spell": {
+        "index": "contagion",
+        "name": "Contagion",
+        "url": "/api/2024/spells/contagion"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "shadow-sorcery-9", "type": "level" }],
+      "spell": {
+        "index": "creation",
+        "name": "Creation",
+        "url": "/api/2024/spells/creation"
+      }
+    }
+  ],
+  "url": "/api/2024/subclasses/shadow-sorcery"
+}

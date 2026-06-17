@@ -1,0 +1,21 @@
+{
+  "index": "phantom-3-wails-from-the-grave",
+  "name": "Wails from the Grave",
+  "level": 3,
+  "class": {
+    "index": "rogue",
+    "name": "Rogue",
+    "url": "/api/2024/classes/rogue"
+  },
+  "subclass": {
+    "index": "phantom",
+    "name": "Phantom",
+    "url": "/api/2024/subclasses/phantom"
+  },
+  "desc": [
+    "Immediately after you deal Sneak Attack damage to a creature on your turn, you can target a second creature that you can see within 30 feet of the first creature. Roll half the number of Sneak Attack damage dice for your level (round up), and the second creature takes Necrotic damage equal to the roll's total as wails of the dead sound around it.",
+    "You can use this feature a number of times equal to your Dexterity modifier (minimum of once), and you regain all expended uses when you finish a Long Rest."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/phantom-3-wails-from-the-grave"
+}

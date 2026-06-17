@@ -1,0 +1,74 @@
+{
+  "index": "lorwyn-elf-elven-lineage",
+  "name": "Elven Lineage",
+  "species": [],
+  "subspecies": [
+    {
+      "index": "lorwyn-elf",
+      "name": "Lorwyn Elf",
+      "url": "/api/2024/subspecies/lorwyn-elf"
+    }
+  ],
+  "desc": [
+    "Level 1: You know the Thorn Whip cantrip. Whenever you finish a Long Rest, you can replace that cantrip with a different cantrip from the Druid spell list.",
+    "Level 3: You always have the Command spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level.",
+    "Level 5: You always have the Silence spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level.",
+    "Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells (choose the ability when you select this lineage)."
+  ],
+  "parent": {
+    "index": "elf-elven-lineage",
+    "name": "Elven Lineage",
+    "url": "/api/2024/traits/elf-elven-lineage"
+  },
+  "trait_specific": {
+    "spellcasting": {
+      "ability": [
+        {
+          "index": "int",
+          "name": "INT",
+          "url": "/api/2024/ability-scores/int"
+        },
+        {
+          "index": "wis",
+          "name": "WIS",
+          "url": "/api/2024/ability-scores/wis"
+        },
+        {
+          "index": "cha",
+          "name": "CHA",
+          "url": "/api/2024/ability-scores/cha"
+        }
+      ],
+      "spells": [
+        {
+          "spell": {
+            "index": "thorn-whip",
+            "name": "Thorn Whip",
+            "url": "/api/2024/spells/thorn-whip"
+          },
+          "level": 1,
+          "swappable_from": [
+            "druid"
+          ]
+        },
+        {
+          "spell": {
+            "index": "command",
+            "name": "Command",
+            "url": "/api/2024/spells/command"
+          },
+          "level": 3
+        },
+        {
+          "spell": {
+            "index": "silence",
+            "name": "Silence",
+            "url": "/api/2024/spells/silence"
+          },
+          "level": 5
+        }
+      ]
+    }
+  },
+  "url": "/api/2024/traits/lorwyn-elf-elven-lineage"
+}

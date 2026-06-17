@@ -1,0 +1,19 @@
+{
+  "index": "carriage",
+  "name": "Carriage",
+  "equipment_categories": [
+    {
+      "index": "tack-harness-and-drawn-vehicles",
+      "name": "Tack, Harness, and Drawn Vehicles",
+      "url": "/api/2024/equipment-categories/tack-harness-and-drawn-vehicles"
+    },
+    {
+      "index": "mounts-and-vehicles",
+      "name": "Mounts and Vehicles",
+      "url": "/api/2024/equipment-categories/mounts-and-vehicles"
+    }
+  ],
+  "url": "/api/2024/equipment/carriage",
+  "cost": { "quantity": 100, "unit": "gp" },
+  "weight": 600
+}

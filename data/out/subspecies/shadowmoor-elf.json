@@ -1,0 +1,20 @@
+{
+  "index": "shadowmoor-elf",
+  "name": "Shadowmoor Elf",
+  "species": { "index": "elf", "name": "Elf", "url": "/api/2024/species/elf" },
+  "desc": [
+    "Elves in the realm of Lorwyn-Shadowmoor possess black, pupilless eyes; curved horns; legs that end in cloven hooves; and pointed ears.",
+    "Shadowmoor elves' horns are long, wavy, and covered with a rough, thorny texture. Their pointed ears are usually longer than those of their Lorwyn counterparts.",
+    "Like Lorwyn elves, Shadowmoor elves protect beauty, though a Shadowmoor elf's definition of \"beautiful\" can be abstract. Many of their kind believe beauty is gained or lost in accordance with one's actions; in particular, they consider heroism and self-sacrifice the highest forms of beauty.",
+    "Bloomseekers are Shadowmoor elves who study and explore Lorwyn. Each one carries a Reliquary of Twilight. Alongside Safewrights - Shadowmoor elves who venture across their realm in search of beautiful things - Bloomseekers are among the most trusted and revered members of their society.",
+    "Level 1: The range of your Darkvision increases to 120 feet. You also know the Starry Wisp cantrip. Level 3: Heroism. Level 5: Gentle Repose."
+  ],
+  "traits": [
+    {
+      "index": "shadowmoor-elf-elven-lineage",
+      "name": "Elven Lineage",
+      "url": "/api/2024/traits/shadowmoor-elf-elven-lineage"
+    }
+  ],
+  "url": "/api/2024/subspecies/shadowmoor-elf"
+}

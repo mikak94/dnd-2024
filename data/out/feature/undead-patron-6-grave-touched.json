@@ -1,0 +1,23 @@
+{
+  "index": "undead-patron-6-grave-touched",
+  "name": "Grave Touched",
+  "level": 6,
+  "class": {
+    "index": "warlock",
+    "name": "Warlock",
+    "url": "/api/2024/classes/warlock"
+  },
+  "subclass": {
+    "index": "undead-patron",
+    "name": "Undead Patron",
+    "url": "/api/2024/subclasses/undead-patron"
+  },
+  "desc": [
+    "Your patron's powers have a profound effect on your body and magic, granting you the following benefits.",
+    "**Arcane Necrosis.** Necrotic damage from your attacks, Warlock spells, and Warlock features ignores Resistance to Necrotic damage. Once per turn when you cast a spell that deals damage, you can change that spell's damage type to Necrotic.",
+    "**Dreaded Necrosis.** When you hit a creature with an attack roll and deal Necrotic damage while using your Form of Dread, you can roll one additional damage die when determining the Necrotic damage the target takes. You can use this benefit only once per turn.",
+    "**Undead Endurance.** You don't gain Exhaustion levels from dehydration, malnutrition, or suffocation. In addition, you don't need to sleep, and magic can't put you to sleep."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/undead-patron-6-grave-touched"
+}

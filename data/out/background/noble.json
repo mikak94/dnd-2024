@@ -1,0 +1,101 @@
+{
+  "index": "noble",
+  "name": "Noble",
+  "starting_proficiencies": [
+    {
+      "index": "skill-history",
+      "name": "Skill: History",
+      "url": "/api/2024/proficiencies/skill-history"
+    },
+    {
+      "index": "skill-persuasion",
+      "name": "Skill: Persuasion",
+      "url": "/api/2024/proficiencies/skill-persuasion"
+    },
+    {
+      "index": "gaming-set",
+      "name": "Gaming Set",
+      "url": "/api/2024/proficiencies/gaming-set"
+    }
+  ],
+  "ability_scores": [
+    {
+      "index": "str",
+      "name": "STR",
+      "url": "/api/2024/ability-scores/str"
+    },
+    {
+      "index": "int",
+      "name": "INT",
+      "url": "/api/2024/ability-scores/int"
+    },
+    {
+      "index": "cha",
+      "name": "CHA",
+      "url": "/api/2024/ability-scores/cha"
+    }
+  ],
+  "feat": {
+    "index": "skilled",
+    "name": "Skilled",
+    "url": "/api/2024/feats/skilled"
+  },
+  "starting_equipment_options": [
+    {
+      "desc": "Choose A or B: (A) Gaming Set (same as above), Fine Clothes, Perfume, 29 GP; or (B) 50 GP",
+      "choose": 1,
+      "type": "equipment",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "multiple",
+            "items": [
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "gaming-set",
+                  "name": "Gaming Set",
+                  "url": "/api/2024/equipment/gaming-set"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "fine-clothes",
+                  "name": "Fine Clothes",
+                  "url": "/api/2024/equipment/fine-clothes"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "perfume",
+                  "name": "Perfume",
+                  "url": "/api/2024/equipment/perfume"
+                }
+              },
+              {
+                "option_type": "money",
+                "count": 29,
+                "unit": "GP"
+              }
+            ]
+          },
+          {
+            "option_type": "money",
+            "count": 50,
+            "unit": "GP"
+          }
+        ]
+      }
+    }
+  ],
+  "desc": [
+    "You were raised in a castle, surrounded by wealth, power, and privilege. Your family of minor aristocrats ensured that you received a first-class education, some of which you appreciated and some of which you resented. Your time in the castle, especially the many hours you spent observing your family at court, also taught you a great deal about leadership."
+  ],
+  "url": "/api/2024/backgrounds/noble"
+}

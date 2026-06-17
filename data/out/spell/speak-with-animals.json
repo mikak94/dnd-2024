@@ -1,0 +1,43 @@
+{
+  "index": "speak-with-animals",
+  "name": "Speak with Animals",
+  "level": 1,
+  "school": {
+    "index": "divination",
+    "name": "Divination",
+    "url": "/api/2024/magic-schools/divination"
+  },
+  "casting_time": "Action",
+  "range": "Self",
+  "components": ["V", "S"],
+  "ritual": true,
+  "concentration": false,
+  "duration": "10 minutes",
+  "desc": [
+    "For the duration, you can comprehend and verbally communicate with Beasts, and you can use any of the Influence action's skill options with them.",
+    "Most Beasts have little to say about topics that don't pertain to survival or companionship, but at minimum, a Beast can give you information about nearby locations and monsters, including whatever it has perceived within the past day."
+  ],
+  "classes": [
+    {
+      "index": "bard",
+      "name": "Bard",
+      "url": "/api/2024/classes/bard"
+    },
+    {
+      "index": "druid",
+      "name": "Druid",
+      "url": "/api/2024/classes/druid"
+    },
+    {
+      "index": "ranger",
+      "name": "Ranger",
+      "url": "/api/2024/classes/ranger"
+    },
+    {
+      "index": "warlock",
+      "name": "Warlock",
+      "url": "/api/2024/classes/warlock"
+    }
+  ],
+  "url": "/api/2024/spells/speak-with-animals"
+}

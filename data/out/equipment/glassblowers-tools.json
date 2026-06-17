@@ -1,0 +1,24 @@
+{
+  "index": "glassblowers-tools",
+  "name": "Glassblower's Tools",
+  "equipment_categories": [
+    {
+      "index": "artisans-tools",
+      "name": "Artisan's Tools",
+      "url": "/api/2024/equipment-categories/artisans-tools"
+    },
+    {
+      "index": "tools",
+      "name": "Tools",
+      "url": "/api/2024/equipment-categories/tools"
+    }
+  ],
+  "url": "/api/2024/equipment/glassblowers-tools",
+  "cost": { "quantity": 30, "unit": "gp" },
+  "weight": 5,
+  "ability": {
+    "index": "int",
+    "name": "INT",
+    "url": "/api/2024/ability-scores/int"
+  }
+}

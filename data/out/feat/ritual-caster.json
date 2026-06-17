@@ -1,0 +1,88 @@
+{
+  "index": "ritual-caster",
+  "name": "Ritual Caster",
+  "type": "general",
+  "prerequisites": [
+    { "type": "level", "level": 4 },
+    {
+      "type": "ability_score",
+      "ability_score": {
+        "index": "int",
+        "name": "INT",
+        "url": "/api/2024/ability-scores/int"
+      },
+      "minimum_score": 13
+    },
+    {
+      "type": "ability_score",
+      "ability_score": {
+        "index": "wis",
+        "name": "WIS",
+        "url": "/api/2024/ability-scores/wis"
+      },
+      "minimum_score": 13
+    },
+    {
+      "type": "ability_score",
+      "ability_score": {
+        "index": "cha",
+        "name": "CHA",
+        "url": "/api/2024/ability-scores/cha"
+      },
+      "minimum_score": 13
+    }
+  ],
+  "desc": [
+    "You gain the following benefits.",
+    "Ability Score Increase. Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.",
+    "Ritual Spells. Choose a number of level 1 spells equal to your Proficiency Bonus that have the Ritual tag. You always have those spells prepared, and you can cast them with any spell slots you have. The spells' spellcasting ability is the ability increased by this feat. Whenever your Proficiency Bonus increases thereafter, you can add an additional level 1 spell with the Ritual tag to the spells always prepared with this feature.",
+    "Quick Ritual. With this benefit, you can cast a Ritual spell that you have prepared using its regular casting time rather than the extended time for a Ritual. Doing so doesn't require a spell slot. Once you cast the spell in this way, you can't use this benefit again until you finish a Long Rest."
+  ],
+  "choices": [
+    {
+      "desc": "Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20. This is also the spellcasting ability for this feat's spells.",
+      "choose": 1,
+      "type": "abilities",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "int",
+              "name": "INT",
+              "url": "/api/2024/ability-scores/int"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "wis",
+              "name": "WIS",
+              "url": "/api/2024/ability-scores/wis"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "cha",
+              "name": "CHA",
+              "url": "/api/2024/ability-scores/cha"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "desc": "Choose a number of level 1 spells equal to your Proficiency Bonus (2 at the level this feat can first be taken) that have the Ritual tag, from the spells list. You add one more such spell each time your Proficiency Bonus increases.",
+      "choose": 2,
+      "type": "spells",
+      "spell_source": { "level": 1, "ritual_only": true },
+      "from": {
+        "option_set_type": "resource_list",
+        "resource_list_url": "/api/2024/spells"
+      }
+    }
+  ],
+  "url": "/api/2024/feats/ritual-caster"
+}

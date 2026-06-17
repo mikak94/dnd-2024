@@ -1,0 +1,24 @@
+{
+  "index": "cartographers-tools",
+  "name": "Cartographer's Tools",
+  "equipment_categories": [
+    {
+      "index": "artisans-tools",
+      "name": "Artisan's Tools",
+      "url": "/api/2024/equipment-categories/artisans-tools"
+    },
+    {
+      "index": "tools",
+      "name": "Tools",
+      "url": "/api/2024/equipment-categories/tools"
+    }
+  ],
+  "url": "/api/2024/equipment/cartographers-tools",
+  "cost": { "quantity": 15, "unit": "gp" },
+  "weight": 6,
+  "ability": {
+    "index": "wis",
+    "name": "WIS",
+    "url": "/api/2024/ability-scores/wis"
+  }
+}

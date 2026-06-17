@@ -1,0 +1,21 @@
+{
+  "index": "winter-walker-3-winter-walker-spells",
+  "name": "Winter Walker Spells",
+  "level": 3,
+  "class": {
+    "index": "ranger",
+    "name": "Ranger",
+    "url": "/api/2024/classes/ranger"
+  },
+  "subclass": {
+    "index": "winter-walker",
+    "name": "Winter Walker",
+    "url": "/api/2024/subclasses/winter-walker"
+  },
+  "desc": [
+    "When you reach a Ranger level specified in the Winter Walker Spells table, you thereafter always have the listed spells prepared.",
+    "| Ranger Level | Spells |\n| --- | --- |\n| 3 | Ice Knife |\n| 5 | Hold Person |\n| 9 | Remove Curse |\n| 13 | Ice Storm |\n| 17 | Cone of Cold |"
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/winter-walker-3-winter-walker-spells"
+}

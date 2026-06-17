@@ -1,0 +1,15 @@
+{
+  "index": "perfume-of-bewitching",
+  "name": "Perfume of Bewitching",
+  "equipment_category": {
+    "index": "wondrous-items",
+    "name": "Wondrous Items",
+    "url": "/api/2024/equipment-categories/wondrous-items"
+  },
+  "rarity": { "name": "Common" },
+  "attunement": false,
+  "desc": "This tiny vial contains magic perfume, enough for one use. You can take a Magic action to apply the perfume to yourself, and its effect lasts 1 hour. For the duration, you have Advantage on all Charisma (Deception and Persuasion) checks made to influence a creature within 5 feet of yourself.",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/perfume-of-bewitching"
+}

@@ -1,0 +1,36 @@
+{
+  "index": "sorcerer-20",
+  "level": 20,
+  "ability_score_bonuses": 4,
+  "prof_bonus": 6,
+  "features": [
+    {
+      "index": "arcane-apotheosis",
+      "name": "Arcane Apotheosis",
+      "url": "/api/2024/features/arcane-apotheosis"
+    }
+  ],
+  "class": {
+    "index": "sorcerer",
+    "name": "Sorcerer",
+    "url": "/api/2024/classes/sorcerer"
+  },
+  "class_specific": {
+    "sorcery_points": 20,
+    "metamagic_known": 6
+  },
+  "spellcasting": {
+    "cantrips_known": 6,
+    "spells_known": 22,
+    "spell_slots_level_1": 4,
+    "spell_slots_level_2": 3,
+    "spell_slots_level_3": 3,
+    "spell_slots_level_4": 3,
+    "spell_slots_level_5": 3,
+    "spell_slots_level_6": 2,
+    "spell_slots_level_7": 2,
+    "spell_slots_level_8": 1,
+    "spell_slots_level_9": 1
+  },
+  "url": "/api/2024/classes/sorcerer/levels/20"
+}

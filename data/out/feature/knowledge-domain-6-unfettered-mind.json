@@ -1,0 +1,21 @@
+{
+  "index": "knowledge-domain-6-unfettered-mind",
+  "name": "Unfettered Mind",
+  "level": 6,
+  "class": {
+    "index": "cleric",
+    "name": "Cleric",
+    "url": "/api/2024/classes/cleric"
+  },
+  "subclass": {
+    "index": "knowledge-domain",
+    "name": "Knowledge Domain",
+    "url": "/api/2024/subclasses/knowledge-domain"
+  },
+  "desc": [
+    "You gain telepathy out to 60 feet. When you use this telepathy, you can simultaneously contact a number of creatures equal to your Wisdom modifier (minimum of one).",
+    "Additionally, you gain proficiency in Intelligence saving throws. If you already have this proficiency, you instead gain saving throw proficiency with one ability in which you lack it."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/knowledge-domain-6-unfettered-mind"
+}

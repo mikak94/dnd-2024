@@ -1,0 +1,20 @@
+{
+  "index": "circle-of-the-stars-14-full-of-stars",
+  "name": "Full of Stars",
+  "level": 14,
+  "class": {
+    "index": "druid",
+    "name": "Druid",
+    "url": "/api/2024/classes/druid"
+  },
+  "subclass": {
+    "index": "circle-of-the-stars",
+    "name": "Circle of the Stars",
+    "url": "/api/2024/subclasses/circle-of-the-stars"
+  },
+  "desc": [
+    "While in your Starry Form, you become partially incorporeal, giving you Resistance to Bludgeoning, Piercing, and Slashing damage."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/circle-of-the-stars-14-full-of-stars"
+}

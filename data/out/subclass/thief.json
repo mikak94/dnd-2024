@@ -1,0 +1,16 @@
+{
+  "index": "thief",
+  "class": {
+    "index": "rogue",
+    "name": "Rogue",
+    "url": "/api/2024/classes/rogue"
+  },
+  "name": "Thief",
+  "subclass_flavor": "Roguish Archetype",
+  "desc": [
+    "Hunt for Treasure as a Classic Adventurer",
+    "A mix of burglar, treasure hunter, and explorer, you are the epitome of an adventurer. In addition to improving your agility and stealth, you gain abilities useful for delving into ruins and getting maximum benefit from the magic items you find there."
+  ],
+  "subclass_levels": "/api/2024/subclasses/thief/levels",
+  "url": "/api/2024/subclasses/thief"
+}

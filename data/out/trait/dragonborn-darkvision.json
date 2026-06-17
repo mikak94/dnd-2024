@@ -1,0 +1,14 @@
+{
+  "index": "dragonborn-darkvision",
+  "name": "Darkvision",
+  "species": [
+    {
+      "index": "dragonborn",
+      "name": "Dragonborn",
+      "url": "/api/2024/species/dragonborn"
+    }
+  ],
+  "subspecies": [],
+  "desc": ["You have Darkvision with a range of 60 feet."],
+  "url": "/api/2024/traits/dragonborn-darkvision"
+}

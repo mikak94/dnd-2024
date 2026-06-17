@@ -1,0 +1,108 @@
+{
+  "index": "metamagic",
+  "name": "Metamagic",
+  "level": 10,
+  "class": {
+    "index": "sorcerer",
+    "name": "Sorcerer",
+    "url": "/api/2024/classes/sorcerer"
+  },
+  "desc": [
+    "Because your magic flows from within, you can alter your spells to suit your needs; you gain two Metamagic options of your choice from \"Metamagic Options\" later in this class's description. You use the chosen options to temporarily modify spells you cast. To use an option, you must spend the number of Sorcery Points that it costs.",
+    "You can use only one Metamagic option on a spell when you cast it unless otherwise noted in one of those options.",
+    "Whenever you gain a Sorcerer level, you can replace one of your Metamagic options with one you don't know. You gain two more options at Sorcerer level 10 and two more at Sorcerer level 17."
+  ],
+  "prerequisites": [],
+  "feature_specific": {
+    "subfeature_options": {
+      "choose": 2,
+      "type": "feature",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "metamagic-careful-spell",
+              "name": "Metamagic: Careful Spell",
+              "url": "/api/2024/features/metamagic-careful-spell"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "metamagic-distant-spell",
+              "name": "Metamagic: Distant Spell",
+              "url": "/api/2024/features/metamagic-distant-spell"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "metamagic-empowered-spell",
+              "name": "Metamagic: Empowered Spell",
+              "url": "/api/2024/features/metamagic-empowered-spell"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "metamagic-extended-spell",
+              "name": "Metamagic: Extended Spell",
+              "url": "/api/2024/features/metamagic-extended-spell"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "metamagic-heightened-spell",
+              "name": "Metamagic: Heightened Spell",
+              "url": "/api/2024/features/metamagic-heightened-spell"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "metamagic-quickened-spell",
+              "name": "Metamagic: Quickened Spell",
+              "url": "/api/2024/features/metamagic-quickened-spell"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "metamagic-seeking-spell",
+              "name": "Metamagic: Seeking Spell",
+              "url": "/api/2024/features/metamagic-seeking-spell"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "metamagic-subtle-spell",
+              "name": "Metamagic: Subtle Spell",
+              "url": "/api/2024/features/metamagic-subtle-spell"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "metamagic-transmuted-spell",
+              "name": "Metamagic: Transmuted Spell",
+              "url": "/api/2024/features/metamagic-transmuted-spell"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "metamagic-twinned-spell",
+              "name": "Metamagic: Twinned Spell",
+              "url": "/api/2024/features/metamagic-twinned-spell"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "url": "/api/2024/features/metamagic"
+}

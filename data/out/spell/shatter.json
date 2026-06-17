@@ -1,0 +1,71 @@
+{
+  "index": "shatter",
+  "name": "Shatter",
+  "level": 2,
+  "school": {
+    "index": "evocation",
+    "name": "Evocation",
+    "url": "/api/2024/magic-schools/evocation"
+  },
+  "casting_time": "Action",
+  "range": "60 feet",
+  "components": ["V", "S", "M"],
+  "material": "a chip of mica",
+  "ritual": false,
+  "concentration": false,
+  "duration": "Instantaneous",
+  "desc": [
+    "A loud noise erupts from a point of your choice within range. Each creature in a 10-foot-radius Sphere centered there makes a Constitution saving throw, taking 3d8 Thunder damage on a failed save or half as much damage on a successful one. A Construct has Disadvantage on the save.",
+    "A nonmagical object that isn't being worn or carried also takes the damage if it's in the spell's area."
+  ],
+  "higher_level": [
+    "Using a Higher-Level Spell Slot. The damage increases by 1d8 for each spell slot level above 2."
+  ],
+  "damage": {
+    "damage_type": {
+      "index": "thunder",
+      "name": "Thunder",
+      "url": "/api/2024/damage-types/thunder"
+    },
+    "damage_at_slot_level": {
+      "2": "3d8",
+      "3": "4d8",
+      "4": "5d8",
+      "5": "6d8",
+      "6": "7d8",
+      "7": "8d8",
+      "8": "9d8",
+      "9": "10d8"
+    }
+  },
+  "dc": {
+    "dc_type": {
+      "index": "con",
+      "name": "CON",
+      "url": "/api/2024/ability-scores/con"
+    },
+    "dc_success": "half"
+  },
+  "area_of_effect": {
+    "type": "sphere",
+    "size": 10
+  },
+  "classes": [
+    {
+      "index": "bard",
+      "name": "Bard",
+      "url": "/api/2024/classes/bard"
+    },
+    {
+      "index": "sorcerer",
+      "name": "Sorcerer",
+      "url": "/api/2024/classes/sorcerer"
+    },
+    {
+      "index": "wizard",
+      "name": "Wizard",
+      "url": "/api/2024/classes/wizard"
+    }
+  ],
+  "url": "/api/2024/spells/shatter"
+}

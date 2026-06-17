@@ -1,0 +1,15 @@
+{
+  "index": "dragon-scale-mail",
+  "name": "Dragon Scale Mail",
+  "equipment_category": {
+    "index": "armor",
+    "name": "Armor",
+    "url": "/api/2024/equipment-categories/armor"
+  },
+  "rarity": { "name": "Very Rare" },
+  "attunement": true,
+  "desc": "Dragon Scale Mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them. Other times, hunters carefully preserve the hide of a dead dragon. In either case, Dragon Scale Mail is highly valued.\n\nWhile wearing this armor, you gain a +1 bonus to Armor Class, you have Advantage on saving throws against the breath weapons of Dragons, and you have Resistance to one damage type determined by the kind of dragon that provided the scales (see the accompanying table).\n\nAdditionally, you can focus your senses as a Magic action to discern the distance and direction to the closest dragon within 30 miles of yourself that is of the same type as the armor. This action can't be used again until the next dawn.\n\n| Dragon | Resistance |\n| --- | --- |\n| Black | Acid |\n| Blue | Lightning |\n| Brass | Fire |\n| Bronze | Lightning |\n| Copper | Acid |\n| Gold | Fire |\n| Green | Poison |\n| Red | Fire |\n| Silver | Cold |\n| White | Cold |",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/dragon-scale-mail"
+}

@@ -1,0 +1,69 @@
+{
+  "index": "cacophonic-shield",
+  "name": "Cacophonic Shield",
+  "level": 3,
+  "school": {
+    "index": "evocation",
+    "name": "Evocation",
+    "url": "/api/2024/magic-schools/evocation"
+  },
+  "casting_time": "Action",
+  "range": "Self",
+  "components": ["V", "S"],
+  "ritual": false,
+  "concentration": true,
+  "duration": "Concentration, up to 10 minutes",
+  "desc": [
+    "Thunderous reverberations fill a 10-foot Emanation originating from you for the duration. Whenever the Emanation enters a creature's space and whenever a creature enters the Emanation or ends its turn there, the creature makes a Constitution saving throw. On a failed save, the creature takes 3d6 Thunder damage and has the Deafened condition until the start of your next turn. On a successful save, the creature takes half as much damage only. A creature makes this save only once per turn. When you cast this spell, you can designate creatures to be unaffected by it.",
+    "In addition, you have Resistance to Thunder damage, and ranged attack rolls against you are made with Disadvantage."
+  ],
+  "higher_level": [
+    "Using a Higher-Level Spell Slot. The damage increases by 1d6 for each spell slot level above 3."
+  ],
+  "damage": {
+    "damage_type": {
+      "index": "thunder",
+      "name": "Thunder",
+      "url": "/api/2024/damage-types/thunder"
+    },
+    "damage_at_slot_level": {
+      "3": "3d6",
+      "4": "4d6",
+      "5": "5d6",
+      "6": "6d6",
+      "7": "7d6",
+      "8": "8d6",
+      "9": "9d6"
+    }
+  },
+  "dc": {
+    "dc_type": {
+      "index": "con",
+      "name": "CON",
+      "url": "/api/2024/ability-scores/con"
+    },
+    "dc_success": "half"
+  },
+  "area_of_effect": {
+    "type": "sphere",
+    "size": 10
+  },
+  "classes": [
+    {
+      "index": "bard",
+      "name": "Bard",
+      "url": "/api/2024/classes/bard"
+    },
+    {
+      "index": "sorcerer",
+      "name": "Sorcerer",
+      "url": "/api/2024/classes/sorcerer"
+    },
+    {
+      "index": "wizard",
+      "name": "Wizard",
+      "url": "/api/2024/classes/wizard"
+    }
+  ],
+  "url": "/api/2024/spells/cacophonic-shield"
+}

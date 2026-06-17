@@ -1,0 +1,17 @@
+{
+  "index": "amulet-of-health",
+  "name": "Amulet of Health",
+  "equipment_category": {
+    "index": "wondrous-items",
+    "name": "Wondrous Items",
+    "url": "/api/2024/equipment-categories/wondrous-items"
+  },
+  "rarity": {
+    "name": "Rare"
+  },
+  "attunement": true,
+  "desc": "Your Constitution is 19 while you wear this amulet. It has no effect on you if your Constitution is 19 or higher without it.",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/amulet-of-health"
+}

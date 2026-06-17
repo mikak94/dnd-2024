@@ -1,0 +1,20 @@
+{
+  "index": "psi-warrior-10-guarded-mind",
+  "name": "Guarded Mind",
+  "level": 10,
+  "class": {
+    "index": "fighter",
+    "name": "Fighter",
+    "url": "/api/2024/classes/fighter"
+  },
+  "subclass": {
+    "index": "psi-warrior",
+    "name": "Psi Warrior",
+    "url": "/api/2024/subclasses/psi-warrior"
+  },
+  "desc": [
+    "You have Resistance to Psychic damage. Moreover, if you start your turn with the Charmed or Frightened condition, you can expend a Psionic Energy Die (no action required) and end every effect on yourself giving you those conditions."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/psi-warrior-10-guarded-mind"
+}

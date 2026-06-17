@@ -1,0 +1,26 @@
+{
+  "index": "cleric-6",
+  "level": 6,
+  "ability_score_bonuses": 1,
+  "prof_bonus": 3,
+  "features": [
+    {
+      "index": "cleric-subclass",
+      "name": "Subclass Feature",
+      "url": "/api/2024/features/cleric-subclass"
+    }
+  ],
+  "class": {
+    "index": "cleric",
+    "name": "Cleric",
+    "url": "/api/2024/classes/cleric"
+  },
+  "spellcasting": {
+    "cantrips_known": 4,
+    "spells_known": 10,
+    "spell_slots_level_1": 4,
+    "spell_slots_level_2": 3,
+    "spell_slots_level_3": 3
+  },
+  "url": "/api/2024/classes/cleric/levels/6"
+}

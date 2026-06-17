@@ -1,0 +1,15 @@
+{
+  "index": "epic-boon-fighter",
+  "name": "Epic Boon",
+  "level": 19,
+  "class": {
+    "index": "fighter",
+    "name": "Fighter",
+    "url": "/api/2024/classes/fighter"
+  },
+  "desc": [
+    "You gain an Epic Boon feat or another feat of your choice for which you qualify. Boon of Combat Prowess is recommended."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/epic-boon-fighter"
+}

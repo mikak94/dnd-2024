@@ -1,0 +1,30 @@
+{
+  "index": "wizard-8",
+  "level": 8,
+  "ability_score_bonuses": 2,
+  "prof_bonus": 3,
+  "features": [
+    {
+      "index": "ability-score-improvement",
+      "name": "Ability Score Improvement",
+      "url": "/api/2024/features/ability-score-improvement"
+    }
+  ],
+  "class": {
+    "index": "wizard",
+    "name": "Wizard",
+    "url": "/api/2024/classes/wizard"
+  },
+  "class_specific": {
+    "arcane_recovery_levels": 4
+  },
+  "spellcasting": {
+    "cantrips_known": 4,
+    "spells_known": 12,
+    "spell_slots_level_1": 4,
+    "spell_slots_level_2": 3,
+    "spell_slots_level_3": 3,
+    "spell_slots_level_4": 2
+  },
+  "url": "/api/2024/classes/wizard/levels/8"
+}

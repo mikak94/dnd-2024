@@ -1,0 +1,21 @@
+{
+  "index": "circle-of-the-sea-6-aquatic-affinity",
+  "name": "Aquatic Affinity",
+  "level": 6,
+  "class": {
+    "index": "druid",
+    "name": "Druid",
+    "url": "/api/2024/classes/druid"
+  },
+  "subclass": {
+    "index": "circle-of-the-sea",
+    "name": "Circle of the Sea",
+    "url": "/api/2024/subclasses/circle-of-the-sea"
+  },
+  "desc": [
+    "The size of the Emanation created by your Wrath of the Sea increases to 10 feet.",
+    "In addition, you gain a Swim Speed equal to your Speed."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/circle-of-the-sea-6-aquatic-affinity"
+}

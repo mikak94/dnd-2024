@@ -1,0 +1,15 @@
+{
+  "index": "deflect-energy",
+  "name": "Deflect Energy",
+  "level": 13,
+  "class": {
+    "index": "monk",
+    "name": "Monk",
+    "url": "/api/2024/classes/monk"
+  },
+  "desc": [
+    "You can now use your Deflect Attacks feature against attacks that deal any damage type, not just Bludgeoning, Piercing, or Slashing."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/deflect-energy"
+}

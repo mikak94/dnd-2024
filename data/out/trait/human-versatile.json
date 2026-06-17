@@ -1,0 +1,10 @@
+{
+  "index": "human-versatile",
+  "name": "Versatile",
+  "species": [
+    { "index": "human", "name": "Human", "url": "/api/2024/species/human" }
+  ],
+  "subspecies": [],
+  "desc": ["You gain an Origin feat of your choice. Skilled is recommended."],
+  "url": "/api/2024/traits/human-versatile"
+}

@@ -1,0 +1,24 @@
+{
+  "index": "brewers-supplies",
+  "name": "Brewer's Supplies",
+  "equipment_categories": [
+    {
+      "index": "artisans-tools",
+      "name": "Artisan's Tools",
+      "url": "/api/2024/equipment-categories/artisans-tools"
+    },
+    {
+      "index": "tools",
+      "name": "Tools",
+      "url": "/api/2024/equipment-categories/tools"
+    }
+  ],
+  "url": "/api/2024/equipment/brewers-supplies",
+  "cost": { "quantity": 20, "unit": "gp" },
+  "weight": 9,
+  "ability": {
+    "index": "int",
+    "name": "INT",
+    "url": "/api/2024/ability-scores/int"
+  }
+}

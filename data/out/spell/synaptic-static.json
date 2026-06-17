@@ -1,0 +1,65 @@
+{
+  "index": "synaptic-static",
+  "name": "Synaptic Static",
+  "level": 5,
+  "school": {
+    "index": "enchantment",
+    "name": "Enchantment",
+    "url": "/api/2024/magic-schools/enchantment"
+  },
+  "casting_time": "Action",
+  "range": "120 feet",
+  "components": ["V", "S"],
+  "ritual": false,
+  "concentration": false,
+  "duration": "Instantaneous",
+  "desc": [
+    "You cause psychic energy to erupt at a point within range. Each creature in a 20-foot-radius Sphere centered on that point makes an Intelligence saving throw, taking 8d6 Psychic damage on a failed save or half as much damage on a successful one.",
+    "On a failed save, a target also has muddled thoughts for 1 minute. During that time, it subtracts 1d6 from all its attack rolls and ability checks, as well as any Constitution saving throws to maintain Concentration. The target makes an Intelligence saving throw at the end of each of its turns, ending the effect on itself on a success."
+  ],
+  "damage": {
+    "damage_type": {
+      "index": "psychic",
+      "name": "Psychic",
+      "url": "/api/2024/damage-types/psychic"
+    },
+    "damage_at_slot_level": {
+      "5": "8d6"
+    }
+  },
+  "dc": {
+    "dc_type": {
+      "index": "int",
+      "name": "INT",
+      "url": "/api/2024/ability-scores/int"
+    },
+    "dc_success": "half"
+  },
+  "area_of_effect": {
+    "type": "sphere",
+    "size": 20
+  },
+  "classes": [
+    {
+      "index": "bard",
+      "name": "Bard",
+      "url": "/api/2024/classes/bard"
+    },
+    {
+      "index": "sorcerer",
+      "name": "Sorcerer",
+      "url": "/api/2024/classes/sorcerer"
+    },
+    {
+      "index": "warlock",
+      "name": "Warlock",
+      "url": "/api/2024/classes/warlock"
+    },
+    {
+      "index": "wizard",
+      "name": "Wizard",
+      "url": "/api/2024/classes/wizard"
+    }
+  ],
+  "url": "/api/2024/spells/synaptic-static"
+}

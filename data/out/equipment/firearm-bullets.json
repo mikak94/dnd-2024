@@ -1,0 +1,15 @@
+{
+  "index": "firearm-bullets",
+  "name": "Firearm Bullets",
+  "equipment_categories": [
+    {
+      "index": "ammunition",
+      "name": "Ammunition",
+      "url": "/api/2024/equipment-categories/ammunition"
+    }
+  ],
+  "cost": { "quantity": 3, "unit": "gp" },
+  "weight": 2,
+  "description": "10 Firearm Bullets; stored in a Pouch.",
+  "url": "/api/2024/equipment/firearm-bullets"
+}

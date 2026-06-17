@@ -1,0 +1,21 @@
+{
+  "index": "celestial-patron-14-searing-vengeance",
+  "name": "Searing Vengeance",
+  "level": 14,
+  "class": {
+    "index": "warlock",
+    "name": "Warlock",
+    "url": "/api/2024/classes/warlock"
+  },
+  "subclass": {
+    "index": "celestial-patron",
+    "name": "Celestial Patron",
+    "url": "/api/2024/subclasses/celestial-patron"
+  },
+  "desc": [
+    "When you or an ally within 60 feet of you is about to make a Death Saving Throw, you can unleash radiant energy to save the creature. The creature regains Hit Points equal to half its Hit Point maximum and can end the Prone condition on itself. Each creature of your choice that is within 30 feet of the creature takes Radiant damage equal to 2d8 plus your Charisma modifier, and each has the Blinded condition until the end of the current turn.",
+    "Once you use this feature, you can't use it again until you finish a Long Rest."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/celestial-patron-14-searing-vengeance"
+}

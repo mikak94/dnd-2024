@@ -1,0 +1,37 @@
+{
+  "index": "dragonborn",
+  "name": "Dragonborn",
+  "size": "Medium",
+  "size_description": "about 5-7 feet tall",
+  "speed": 30,
+  "type": "Humanoid",
+  "traits": [
+    {
+      "index": "dragonborn-draconic-ancestry",
+      "name": "Draconic Ancestry",
+      "url": "/api/2024/traits/dragonborn-draconic-ancestry"
+    },
+    {
+      "index": "dragonborn-breath-weapon",
+      "name": "Breath Weapon",
+      "url": "/api/2024/traits/dragonborn-breath-weapon"
+    },
+    {
+      "index": "dragonborn-damage-resistance",
+      "name": "Damage Resistance",
+      "url": "/api/2024/traits/dragonborn-damage-resistance"
+    },
+    {
+      "index": "dragonborn-darkvision",
+      "name": "Darkvision",
+      "url": "/api/2024/traits/dragonborn-darkvision"
+    },
+    {
+      "index": "dragonborn-draconic-flight",
+      "name": "Draconic Flight",
+      "url": "/api/2024/traits/dragonborn-draconic-flight"
+    }
+  ],
+  "subspecies": [],
+  "url": "/api/2024/species/dragonborn"
+}

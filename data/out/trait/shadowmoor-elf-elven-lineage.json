@@ -1,0 +1,71 @@
+{
+  "index": "shadowmoor-elf-elven-lineage",
+  "name": "Elven Lineage",
+  "species": [],
+  "subspecies": [
+    {
+      "index": "shadowmoor-elf",
+      "name": "Shadowmoor Elf",
+      "url": "/api/2024/subspecies/shadowmoor-elf"
+    }
+  ],
+  "desc": [
+    "Level 1: The range of your Darkvision increases to 120 feet. You also know the Starry Wisp cantrip.",
+    "Level 3: You always have the Heroism spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level.",
+    "Level 5: You always have the Gentle Repose spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level.",
+    "Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells (choose the ability when you select this lineage)."
+  ],
+  "parent": {
+    "index": "elf-elven-lineage",
+    "name": "Elven Lineage",
+    "url": "/api/2024/traits/elf-elven-lineage"
+  },
+  "trait_specific": {
+    "spellcasting": {
+      "ability": [
+        {
+          "index": "int",
+          "name": "INT",
+          "url": "/api/2024/ability-scores/int"
+        },
+        {
+          "index": "wis",
+          "name": "WIS",
+          "url": "/api/2024/ability-scores/wis"
+        },
+        {
+          "index": "cha",
+          "name": "CHA",
+          "url": "/api/2024/ability-scores/cha"
+        }
+      ],
+      "spells": [
+        {
+          "spell": {
+            "index": "starry-wisp",
+            "name": "Starry Wisp",
+            "url": "/api/2024/spells/starry-wisp"
+          },
+          "level": 1
+        },
+        {
+          "spell": {
+            "index": "heroism",
+            "name": "Heroism",
+            "url": "/api/2024/spells/heroism"
+          },
+          "level": 3
+        },
+        {
+          "spell": {
+            "index": "gentle-repose",
+            "name": "Gentle Repose",
+            "url": "/api/2024/spells/gentle-repose"
+          },
+          "level": 5
+        }
+      ]
+    }
+  },
+  "url": "/api/2024/traits/shadowmoor-elf-elven-lineage"
+}

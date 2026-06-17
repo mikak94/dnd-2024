@@ -1,0 +1,27 @@
+{
+  "index": "warlock-6",
+  "level": 6,
+  "ability_score_bonuses": 1,
+  "prof_bonus": 3,
+  "features": [
+    {
+      "index": "subclass-feature",
+      "name": "Subclass Feature",
+      "url": "/api/2024/features/subclass-feature"
+    }
+  ],
+  "class": {
+    "index": "warlock",
+    "name": "Warlock",
+    "url": "/api/2024/classes/warlock"
+  },
+  "class_specific": {
+    "invocations_known": 5
+  },
+  "spellcasting": {
+    "cantrips_known": 3,
+    "spells_known": 7,
+    "spell_slots_level_3": 2
+  },
+  "url": "/api/2024/classes/warlock/levels/6"
+}

@@ -1,0 +1,146 @@
+{
+  "index": "vampire-devotee",
+  "name": "Vampire Devotee",
+  "starting_proficiencies": [
+    {
+      "index": "skill-persuasion",
+      "name": "Skill: Persuasion",
+      "url": "/api/2024/proficiencies/skill-persuasion"
+    },
+    {
+      "index": "skill-stealth",
+      "name": "Skill: Stealth",
+      "url": "/api/2024/proficiencies/skill-stealth"
+    },
+    {
+      "index": "cooks-utensils",
+      "name": "Cook's Utensils",
+      "url": "/api/2024/proficiencies/cooks-utensils"
+    }
+  ],
+  "ability_scores": [
+    {
+      "index": "str",
+      "name": "STR",
+      "url": "/api/2024/ability-scores/str"
+    },
+    {
+      "index": "con",
+      "name": "CON",
+      "url": "/api/2024/ability-scores/con"
+    },
+    {
+      "index": "cha",
+      "name": "CHA",
+      "url": "/api/2024/ability-scores/cha"
+    }
+  ],
+  "feat": {
+    "index": "vampire-s-plaything",
+    "name": "Vampire's Plaything",
+    "url": "/api/2024/feats/vampire-s-plaything"
+  },
+  "starting_equipment_options": [
+    {
+      "desc": "Choose A or B: (A) Cook's Utensils, Fine Clothes, 2 Glass Bottles, Healer's Kit, Perfume, Lamp, Oil (3 flasks), Waterskin, 19 GP; or (B) 50 GP",
+      "choose": 1,
+      "type": "equipment",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "multiple",
+            "items": [
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "cooks-utensils",
+                  "name": "Cook's Utensils",
+                  "url": "/api/2024/equipment/cooks-utensils"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "fine-clothes",
+                  "name": "Fine Clothes",
+                  "url": "/api/2024/equipment/fine-clothes"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 2,
+                "of": {
+                  "index": "glass-bottle",
+                  "name": "Glass Bottle",
+                  "url": "/api/2024/equipment/glass-bottle"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "healers-kit",
+                  "name": "Healer's Kit",
+                  "url": "/api/2024/equipment/healers-kit"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "perfume",
+                  "name": "Perfume",
+                  "url": "/api/2024/equipment/perfume"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "lamp",
+                  "name": "Lamp",
+                  "url": "/api/2024/equipment/lamp"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 3,
+                "of": {
+                  "index": "oil",
+                  "name": "Oil",
+                  "url": "/api/2024/equipment/oil"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "waterskin",
+                  "name": "Waterskin",
+                  "url": "/api/2024/equipment/waterskin"
+                }
+              },
+              {
+                "option_type": "money",
+                "count": 19,
+                "unit": "GP"
+              }
+            ]
+          },
+          {
+            "option_type": "money",
+            "count": 50,
+            "unit": "GP"
+          }
+        ]
+      }
+    }
+  ],
+  "desc": [
+    "You were in service to a vampire or a small group of vampires lairing together. The Undead drank your blood more times than you can count. You might have served willingly, perhaps with aspirations of one day becoming a vampire yourself. Or you might have been magically charmed and retain only a few muddled memories of your time as a vampire familiar. In either case, your time in the vampire den is over."
+  ],
+  "url": "/api/2024/backgrounds/vampire-devotee"
+}

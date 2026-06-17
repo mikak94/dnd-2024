@@ -1,0 +1,15 @@
+{
+  "index": "improved-brutal-strike-17",
+  "name": "Improved Brutal Strike",
+  "level": 17,
+  "class": {
+    "index": "barbarian",
+    "name": "Barbarian",
+    "url": "/api/2024/classes/barbarian"
+  },
+  "desc": [
+    "The extra damage of your Brutal Strike increases to 2d10. In addition, you can use two different Brutal Strike effects whenever you use your Brutal Strike feature."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/improved-brutal-strike-17"
+}

@@ -1,0 +1,20 @@
+{
+  "index": "undead-patron-3-undead-spells",
+  "name": "Undead Spells",
+  "level": 3,
+  "class": {
+    "index": "warlock",
+    "name": "Warlock",
+    "url": "/api/2024/classes/warlock"
+  },
+  "subclass": {
+    "index": "undead-patron",
+    "name": "Undead Patron",
+    "url": "/api/2024/subclasses/undead-patron"
+  },
+  "desc": [
+    "The magic of your patron ensures you always have certain spells ready; when you reach a Warlock level specified in the Undead Spells table, you thereafter always have the listed spells prepared."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/undead-patron-3-undead-spells"
+}

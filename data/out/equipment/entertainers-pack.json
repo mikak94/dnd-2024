@@ -1,0 +1,102 @@
+{
+  "index": "entertainers-pack",
+  "name": "Entertainer's Pack",
+  "equipment_categories": [
+    {
+      "index": "equipment-packs",
+      "name": "Equipment Packs",
+      "url": "/api/2024/equipment-categories/equipment-packs"
+    },
+    {
+      "index": "adventuring-gear",
+      "name": "Adventuring Gear",
+      "url": "/api/2024/equipment-categories/adventuring-gear"
+    }
+  ],
+  "cost": { "quantity": 40, "unit": "gp" },
+  "weight": 58.5,
+  "description": "An Entertainer's Pack contains the following items: Backpack, Bedroll, Bell, Bullseye Lantern, 3 Costumes, Mirror, 8 flasks of Oil, 9 days of Rations, Tinderbox, and Waterskin.",
+  "contents": [
+    {
+      "item": {
+        "index": "backpack",
+        "name": "Backpack",
+        "url": "/api/2024/equipment/backpack"
+      },
+      "quantity": 1
+    },
+    {
+      "item": {
+        "index": "bedroll",
+        "name": "Bedroll",
+        "url": "/api/2024/equipment/bedroll"
+      },
+      "quantity": 1
+    },
+    {
+      "item": {
+        "index": "bell",
+        "name": "Bell",
+        "url": "/api/2024/equipment/bell"
+      },
+      "quantity": 1
+    },
+    {
+      "item": {
+        "index": "bullseye-lantern",
+        "name": "Bullseye Lantern",
+        "url": "/api/2024/equipment/bullseye-lantern"
+      },
+      "quantity": 1
+    },
+    {
+      "item": {
+        "index": "costume",
+        "name": "Costume",
+        "url": "/api/2024/equipment/costume"
+      },
+      "quantity": 3
+    },
+    {
+      "item": {
+        "index": "mirror",
+        "name": "Mirror",
+        "url": "/api/2024/equipment/mirror"
+      },
+      "quantity": 1
+    },
+    {
+      "item": {
+        "index": "oil",
+        "name": "Oil",
+        "url": "/api/2024/equipment/oil"
+      },
+      "quantity": 8
+    },
+    {
+      "item": {
+        "index": "rations",
+        "name": "Rations",
+        "url": "/api/2024/equipment/rations"
+      },
+      "quantity": 9
+    },
+    {
+      "item": {
+        "index": "tinderbox",
+        "name": "Tinderbox",
+        "url": "/api/2024/equipment/tinderbox"
+      },
+      "quantity": 1
+    },
+    {
+      "item": {
+        "index": "waterskin",
+        "name": "Waterskin",
+        "url": "/api/2024/equipment/waterskin"
+      },
+      "quantity": 1
+    }
+  ],
+  "url": "/api/2024/equipment/entertainers-pack"
+}

@@ -1,0 +1,98 @@
+{
+  "index": "clockwork-sorcery",
+  "class": {
+    "index": "sorcerer",
+    "name": "Sorcerer",
+    "url": "/api/2024/classes/sorcerer"
+  },
+  "name": "Clockwork Sorcery",
+  "subclass_flavor": "Sorcerous Origin",
+  "desc": [
+    "Channel Cosmic Forces of Order",
+    "The cosmic force of order has suffused you with magic. That power arises from Mechanus or a realm like it—a plane of existence shaped entirely by clockwork efficiency. You or someone from your lineage might have become entangled in the machinations of modrons, the orderly beings who inhabit Mechanus. Perhaps your ancestor even took part in the Great Modron March. Whatever its origin within you, the power of order can seem strange to others, but for you, it's part of a vast and glorious system."
+  ],
+  "subclass_levels": "/api/2024/subclasses/clockwork-sorcery/levels",
+  "spells": [
+    {
+      "prerequisites": [{ "index": "clockwork-sorcery-3", "type": "level" }],
+      "spell": {
+        "index": "aid",
+        "name": "Aid",
+        "url": "/api/2024/spells/aid"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "clockwork-sorcery-3", "type": "level" }],
+      "spell": {
+        "index": "alarm",
+        "name": "Alarm",
+        "url": "/api/2024/spells/alarm"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "clockwork-sorcery-3", "type": "level" }],
+      "spell": {
+        "index": "lesser-restoration",
+        "name": "Lesser Restoration",
+        "url": "/api/2024/spells/lesser-restoration"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "clockwork-sorcery-3", "type": "level" }],
+      "spell": {
+        "index": "protection-from-evil-and-good",
+        "name": "Protection from Evil and Good",
+        "url": "/api/2024/spells/protection-from-evil-and-good"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "clockwork-sorcery-5", "type": "level" }],
+      "spell": {
+        "index": "dispel-magic",
+        "name": "Dispel Magic",
+        "url": "/api/2024/spells/dispel-magic"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "clockwork-sorcery-5", "type": "level" }],
+      "spell": {
+        "index": "protection-from-energy",
+        "name": "Protection from Energy",
+        "url": "/api/2024/spells/protection-from-energy"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "clockwork-sorcery-7", "type": "level" }],
+      "spell": {
+        "index": "freedom-of-movement",
+        "name": "Freedom of Movement",
+        "url": "/api/2024/spells/freedom-of-movement"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "clockwork-sorcery-7", "type": "level" }],
+      "spell": {
+        "index": "summon-construct",
+        "name": "Summon Construct",
+        "url": "/api/2024/spells/summon-construct"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "clockwork-sorcery-9", "type": "level" }],
+      "spell": {
+        "index": "greater-restoration",
+        "name": "Greater Restoration",
+        "url": "/api/2024/spells/greater-restoration"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "clockwork-sorcery-9", "type": "level" }],
+      "spell": {
+        "index": "wall-of-force",
+        "name": "Wall of Force",
+        "url": "/api/2024/spells/wall-of-force"
+      }
+    }
+  ],
+  "url": "/api/2024/subclasses/clockwork-sorcery"
+}

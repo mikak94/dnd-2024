@@ -1,0 +1,47 @@
+{
+  "index": "tiefling-otherworldly-presence",
+  "name": "Otherworldly Presence",
+  "species": [
+    {
+      "index": "tiefling",
+      "name": "Tiefling",
+      "url": "/api/2024/species/tiefling"
+    }
+  ],
+  "subspecies": [],
+  "desc": [
+    "You know the Thaumaturgy cantrip. When you cast it with this trait, the spell uses the same spellcasting ability you use for your Fiendish Legacy trait."
+  ],
+  "trait_specific": {
+    "spellcasting": {
+      "ability": [
+        {
+          "index": "int",
+          "name": "INT",
+          "url": "/api/2024/ability-scores/int"
+        },
+        {
+          "index": "wis",
+          "name": "WIS",
+          "url": "/api/2024/ability-scores/wis"
+        },
+        {
+          "index": "cha",
+          "name": "CHA",
+          "url": "/api/2024/ability-scores/cha"
+        }
+      ],
+      "spells": [
+        {
+          "spell": {
+            "index": "thaumaturgy",
+            "name": "Thaumaturgy",
+            "url": "/api/2024/spells/thaumaturgy"
+          },
+          "level": 1
+        }
+      ]
+    }
+  },
+  "url": "/api/2024/traits/tiefling-otherworldly-presence"
+}

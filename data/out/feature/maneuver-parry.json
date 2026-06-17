@@ -1,0 +1,25 @@
+{
+  "index": "maneuver-parry",
+  "name": "Maneuver: Parry",
+  "level": 3,
+  "class": {
+    "index": "fighter",
+    "name": "Fighter",
+    "url": "/api/2024/classes/fighter"
+  },
+  "subclass": {
+    "index": "battle-master",
+    "name": "Battle Master",
+    "url": "/api/2024/subclasses/battle-master"
+  },
+  "parent": {
+    "index": "battle-master-3-combat-superiority",
+    "name": "Combat Superiority",
+    "url": "/api/2024/features/battle-master-3-combat-superiority"
+  },
+  "desc": [
+    "When another creature damages you with a melee attack roll, you can take a Reaction and expend one Superiority Die to reduce the damage by the number you roll on your Superiority Die plus your Strength or Dexterity modifier (your choice)."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/maneuver-parry"
+}

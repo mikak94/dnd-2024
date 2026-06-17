@@ -1,0 +1,16 @@
+{
+  "index": "arcane-trickster",
+  "class": {
+    "index": "rogue",
+    "name": "Rogue",
+    "url": "/api/2024/classes/rogue"
+  },
+  "name": "Arcane Trickster",
+  "subclass_flavor": "Roguish Archetype",
+  "desc": [
+    "Enhance Stealth with Arcane Spells",
+    "Some Rogues enhance their fine-honed skills of stealth and agility with spells, learning magical tricks to aid them in their trade. Some Arcane Tricksters use their talents as pickpockets and burglars, while others are pranksters."
+  ],
+  "subclass_levels": "/api/2024/subclasses/arcane-trickster/levels",
+  "url": "/api/2024/subclasses/arcane-trickster"
+}

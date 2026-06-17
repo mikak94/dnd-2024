@@ -1,0 +1,10 @@
+{
+  "index": "weapon-mastery",
+  "name": "Weapon Mastery",
+  "level": 1,
+  "desc": [
+    "Your training with weapons allows you to use the mastery properties of certain weapons with which you have proficiency. Whenever you finish a Long Rest, you can practice weapon drills and change which weapons benefit from this feature."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/weapon-mastery"
+}

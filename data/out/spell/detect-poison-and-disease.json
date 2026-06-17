@@ -1,0 +1,44 @@
+{
+  "index": "detect-poison-and-disease",
+  "name": "Detect Poison and Disease",
+  "level": 1,
+  "school": {
+    "index": "divination",
+    "name": "Divination",
+    "url": "/api/2024/magic-schools/divination"
+  },
+  "casting_time": "Action",
+  "range": "Self",
+  "components": ["V", "S", "M"],
+  "material": "a yew leaf",
+  "ritual": true,
+  "concentration": true,
+  "duration": "Concentration, up to 10 minutes",
+  "desc": [
+    "For the duration, you sense the location of poisons, poisonous or venomous creatures, and magical contagions within 30 feet of yourself. You sense the kind of poison, creature, or contagion in each case.",
+    "The spell is blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of lead."
+  ],
+  "classes": [
+    {
+      "index": "cleric",
+      "name": "Cleric",
+      "url": "/api/2024/classes/cleric"
+    },
+    {
+      "index": "druid",
+      "name": "Druid",
+      "url": "/api/2024/classes/druid"
+    },
+    {
+      "index": "paladin",
+      "name": "Paladin",
+      "url": "/api/2024/classes/paladin"
+    },
+    {
+      "index": "ranger",
+      "name": "Ranger",
+      "url": "/api/2024/classes/ranger"
+    }
+  ],
+  "url": "/api/2024/spells/detect-poison-and-disease"
+}

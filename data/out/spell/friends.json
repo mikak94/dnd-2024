@@ -1,0 +1,52 @@
+{
+  "index": "friends",
+  "name": "Friends",
+  "level": 0,
+  "school": {
+    "index": "enchantment",
+    "name": "Enchantment",
+    "url": "/api/2024/magic-schools/enchantment"
+  },
+  "casting_time": "Action",
+  "range": "10 feet",
+  "components": ["S", "M"],
+  "material": "some makeup",
+  "ritual": false,
+  "concentration": true,
+  "duration": "Concentration, up to 1 minute",
+  "desc": [
+    "You magically emanate a sense of friendship toward one creature you can see within range. The target must succeed on a Wisdom saving throw or have the Charmed condition for the duration. The target succeeds automatically if it isn't a Humanoid, if you're fighting it, or if you have cast this spell on it within the past 24 hours.",
+    "The spell ends early if the target takes damage or if you make an attack roll, deal damage, or force anyone to make a saving throw. When the spell ends, the target knows it was Charmed by you."
+  ],
+  "dc": {
+    "dc_type": {
+      "index": "wis",
+      "name": "WIS",
+      "url": "/api/2024/ability-scores/wis"
+    },
+    "dc_success": "none"
+  },
+  "classes": [
+    {
+      "index": "bard",
+      "name": "Bard",
+      "url": "/api/2024/classes/bard"
+    },
+    {
+      "index": "sorcerer",
+      "name": "Sorcerer",
+      "url": "/api/2024/classes/sorcerer"
+    },
+    {
+      "index": "warlock",
+      "name": "Warlock",
+      "url": "/api/2024/classes/warlock"
+    },
+    {
+      "index": "wizard",
+      "name": "Wizard",
+      "url": "/api/2024/classes/wizard"
+    }
+  ],
+  "url": "/api/2024/spells/friends"
+}

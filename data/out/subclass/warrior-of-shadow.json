@@ -1,0 +1,16 @@
+{
+  "index": "warrior-of-shadow",
+  "class": {
+    "index": "monk",
+    "name": "Monk",
+    "url": "/api/2024/classes/monk"
+  },
+  "name": "Warrior of Shadow",
+  "subclass_flavor": "Monastic Tradition",
+  "desc": [
+    "Harness Shadow Power for Stealth and Subterfuge",
+    "Warriors of Shadow practice stealth and subterfuge, harnessing the power of the Shadowfell. They are at home in darkness, able to draw gloom around themselves to hide, leap from shadow to shadow, and take on a wraithlike form."
+  ],
+  "subclass_levels": "/api/2024/subclasses/warrior-of-shadow/levels",
+  "url": "/api/2024/subclasses/warrior-of-shadow"
+}

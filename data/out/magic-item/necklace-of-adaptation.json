@@ -1,0 +1,15 @@
+{
+  "index": "necklace-of-adaptation",
+  "name": "Necklace of Adaptation",
+  "equipment_category": {
+    "index": "wondrous-items",
+    "name": "Wondrous Items",
+    "url": "/api/2024/equipment-categories/wondrous-items"
+  },
+  "rarity": { "name": "Uncommon" },
+  "attunement": true,
+  "desc": "While wearing this necklace, you can breathe normally in any environment, and you have Advantage on saving throws made to avoid or end the Poisoned condition.",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/necklace-of-adaptation"
+}

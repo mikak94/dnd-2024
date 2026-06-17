@@ -1,0 +1,20 @@
+{
+  "index": "oath-of-vengeance-15-soul-of-vengeance",
+  "name": "Soul of Vengeance",
+  "level": 15,
+  "class": {
+    "index": "paladin",
+    "name": "Paladin",
+    "url": "/api/2024/classes/paladin"
+  },
+  "subclass": {
+    "index": "oath-of-vengeance",
+    "name": "Oath of Vengeance",
+    "url": "/api/2024/subclasses/oath-of-vengeance"
+  },
+  "desc": [
+    "Immediately after a creature under the effect of your Vow of Enmity hits or misses with an attack roll, you can take a Reaction to make a melee attack against that creature if it's within range."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/oath-of-vengeance-15-soul-of-vengeance"
+}

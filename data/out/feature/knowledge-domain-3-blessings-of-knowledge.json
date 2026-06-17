@@ -1,0 +1,20 @@
+{
+  "index": "knowledge-domain-3-blessings-of-knowledge",
+  "name": "Blessings of Knowledge",
+  "level": 3,
+  "class": {
+    "index": "cleric",
+    "name": "Cleric",
+    "url": "/api/2024/classes/cleric"
+  },
+  "subclass": {
+    "index": "knowledge-domain",
+    "name": "Knowledge Domain",
+    "url": "/api/2024/subclasses/knowledge-domain"
+  },
+  "desc": [
+    "You gain proficiency with one type of Artisan's Tools of your choice and in two of the following skills of your choice: Arcana, History, Nature, or Religion. You have Expertise in those two skills."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/knowledge-domain-3-blessings-of-knowledge"
+}

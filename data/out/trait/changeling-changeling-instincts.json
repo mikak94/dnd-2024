@@ -1,0 +1,68 @@
+{
+  "index": "changeling-changeling-instincts",
+  "name": "Changeling Instincts",
+  "species": [
+    {
+      "index": "changeling",
+      "name": "Changeling",
+      "url": "/api/2024/species/changeling"
+    }
+  ],
+  "subspecies": [],
+  "desc": [
+    "Thanks to your connection to the fey realm, you gain proficiency in two of the following skills of your choice: Deception, Insight, Intimidation, Performance, or Persuasion."
+  ],
+  "proficiency_choices": [
+    {
+      "desc": "Choose two skills from Deception, Insight, Intimidation, Performance, or Persuasion",
+      "choose": 2,
+      "type": "proficiencies",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-deception",
+              "name": "Deception",
+              "url": "/api/2024/proficiencies/skill-deception"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-insight",
+              "name": "Insight",
+              "url": "/api/2024/proficiencies/skill-insight"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-intimidation",
+              "name": "Intimidation",
+              "url": "/api/2024/proficiencies/skill-intimidation"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-performance",
+              "name": "Performance",
+              "url": "/api/2024/proficiencies/skill-performance"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-persuasion",
+              "name": "Persuasion",
+              "url": "/api/2024/proficiencies/skill-persuasion"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "url": "/api/2024/traits/changeling-changeling-instincts"
+}

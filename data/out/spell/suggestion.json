@@ -1,0 +1,52 @@
+{
+  "index": "suggestion",
+  "name": "Suggestion",
+  "level": 2,
+  "school": {
+    "index": "enchantment",
+    "name": "Enchantment",
+    "url": "/api/2024/magic-schools/enchantment"
+  },
+  "casting_time": "Action",
+  "range": "30 feet",
+  "components": ["V", "M"],
+  "material": "a drop of honey",
+  "ritual": false,
+  "concentration": true,
+  "duration": "Concentration, up to 8 hours",
+  "desc": [
+    "You suggest a course of activity--described in no more than 25 words--to one creature you can see within range that can hear and understand you. The suggestion must sound achievable and not involve anything that would obviously deal damage to the target or its allies. For example, you could say, \"Fetch the key to the cult's treasure vault, and give the key to me.\" Or you could say, \"Stop fighting, leave this library peacefully, and don't return.\"",
+    "The target must succeed on a Wisdom saving throw or have the Charmed condition for the duration or until you or your allies deal damage to the target. The Charmed target pursues the suggestion to the best of its ability. The suggested activity can continue for the entire duration, but if the suggested activity can be completed in a shorter time, the spell ends for the target upon completing it."
+  ],
+  "dc": {
+    "dc_type": {
+      "index": "wis",
+      "name": "WIS",
+      "url": "/api/2024/ability-scores/wis"
+    },
+    "dc_success": "none"
+  },
+  "classes": [
+    {
+      "index": "bard",
+      "name": "Bard",
+      "url": "/api/2024/classes/bard"
+    },
+    {
+      "index": "sorcerer",
+      "name": "Sorcerer",
+      "url": "/api/2024/classes/sorcerer"
+    },
+    {
+      "index": "warlock",
+      "name": "Warlock",
+      "url": "/api/2024/classes/warlock"
+    },
+    {
+      "index": "wizard",
+      "name": "Wizard",
+      "url": "/api/2024/classes/wizard"
+    }
+  ],
+  "url": "/api/2024/spells/suggestion"
+}

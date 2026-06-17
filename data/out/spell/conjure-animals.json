@@ -1,0 +1,61 @@
+{
+  "index": "conjure-animals",
+  "name": "Conjure Animals",
+  "level": 3,
+  "school": {
+    "index": "conjuration",
+    "name": "Conjuration",
+    "url": "/api/2024/magic-schools/conjuration"
+  },
+  "casting_time": "Action",
+  "range": "60 feet",
+  "components": ["V", "S"],
+  "ritual": false,
+  "concentration": true,
+  "duration": "Concentration, up to 10 minutes",
+  "desc": [
+    "You conjure nature spirits that appear as a Large pack of spectral, intangible animals in an unoccupied space you can see within range. The pack lasts for the duration, and you choose the spirits' animal form, such as wolves, serpents, or birds.",
+    "You have Advantage on Strength saving throws while you're within 5 feet of the pack, and when you move on your turn, you can also move the pack up to 30 feet to an unoccupied space you can see.",
+    "Whenever the pack moves within 10 feet of a creature you can see and whenever a creature you can see enters a space within 10 feet of the pack or ends its turn there, you can force that creature to make a Dexterity saving throw. On a failed save, the creature takes 3d10 Slashing damage. A creature makes this save only once per turn."
+  ],
+  "higher_level": [
+    "Using a Higher-Level Spell Slot. The damage increases by 1d10 for each spell slot level above 3."
+  ],
+  "damage": {
+    "damage_type": {
+      "index": "slashing",
+      "name": "Slashing",
+      "url": "/api/2024/damage-types/slashing"
+    },
+    "damage_at_slot_level": {
+      "3": "3d10",
+      "4": "4d10",
+      "5": "5d10",
+      "6": "6d10",
+      "7": "7d10",
+      "8": "8d10",
+      "9": "9d10"
+    }
+  },
+  "dc": {
+    "dc_type": {
+      "index": "dex",
+      "name": "DEX",
+      "url": "/api/2024/ability-scores/dex"
+    },
+    "dc_success": "none"
+  },
+  "classes": [
+    {
+      "index": "druid",
+      "name": "Druid",
+      "url": "/api/2024/classes/druid"
+    },
+    {
+      "index": "ranger",
+      "name": "Ranger",
+      "url": "/api/2024/classes/ranger"
+    }
+  ],
+  "url": "/api/2024/spells/conjure-animals"
+}

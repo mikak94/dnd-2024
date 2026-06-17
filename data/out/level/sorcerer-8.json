@@ -1,0 +1,31 @@
+{
+  "index": "sorcerer-8",
+  "level": 8,
+  "ability_score_bonuses": 2,
+  "prof_bonus": 3,
+  "features": [
+    {
+      "index": "ability-score-improvement",
+      "name": "Ability Score Improvement",
+      "url": "/api/2024/features/ability-score-improvement"
+    }
+  ],
+  "class": {
+    "index": "sorcerer",
+    "name": "Sorcerer",
+    "url": "/api/2024/classes/sorcerer"
+  },
+  "class_specific": {
+    "sorcery_points": 8,
+    "metamagic_known": 2
+  },
+  "spellcasting": {
+    "cantrips_known": 5,
+    "spells_known": 12,
+    "spell_slots_level_1": 4,
+    "spell_slots_level_2": 3,
+    "spell_slots_level_3": 3,
+    "spell_slots_level_4": 2
+  },
+  "url": "/api/2024/classes/sorcerer/levels/8"
+}

@@ -1,0 +1,25 @@
+{
+  "index": "rogue-13",
+  "level": 13,
+  "ability_score_bonuses": 4,
+  "prof_bonus": 5,
+  "features": [
+    {
+      "index": "subclass-feature",
+      "name": "Subclass Feature",
+      "url": "/api/2024/features/subclass-feature"
+    }
+  ],
+  "class": {
+    "index": "rogue",
+    "name": "Rogue",
+    "url": "/api/2024/classes/rogue"
+  },
+  "class_specific": {
+    "sneak_attack": {
+      "dice_count": 7,
+      "dice_value": 6
+    }
+  },
+  "url": "/api/2024/classes/rogue/levels/13"
+}

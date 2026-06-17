@@ -1,0 +1,55 @@
+{
+  "index": "lordly-resolve",
+  "name": "Lordly Resolve",
+  "type": "general",
+  "prerequisites": [
+    {
+      "type": "level",
+      "level": 4
+    },
+    {
+      "type": "feat",
+      "feat": {
+        "index": "lords-alliance-agent",
+        "name": "Lords' Alliance Agent",
+        "url": "/api/2024/feats/lords-alliance-agent"
+      }
+    }
+  ],
+  "desc": [
+    "You gain the following benefits.",
+    "Ability Score Increase. Increase your Strength or Charisma score by 1, to a maximum of 20.",
+    "Standard Bearer. As a Bonus Action, choose up to three creatures within 60 feet of yourself that can see you. Each target can immediately take a Reaction to right itself and end the Prone condition, provided its Speed isn’t 0.",
+    "Additionally, you bolster the targets’ resolve, which lasts for 1 minute or until you have the Incapacitated condition. While bolstered, a target can’t be possessed or gain the Charmed or Frightened condition; if a target is already possessed, Charmed, or Frightened, the target has Advantage on any new saving throw against the relevant effect.",
+    "Once you use this benefit, you can’t do so again until you finish a Long Rest."
+  ],
+  "choices": [
+    {
+      "desc": "Increase your Strength or Charisma score by 1, to a maximum of 20.",
+      "choose": 1,
+      "type": "abilities",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "str",
+              "name": "STR",
+              "url": "/api/2024/ability-scores/str"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "cha",
+              "name": "CHA",
+              "url": "/api/2024/ability-scores/cha"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "url": "/api/2024/feats/lordly-resolve"
+}

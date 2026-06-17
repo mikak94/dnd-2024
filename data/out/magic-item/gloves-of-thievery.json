@@ -1,0 +1,15 @@
+{
+  "index": "gloves-of-thievery",
+  "name": "Gloves of Thievery",
+  "equipment_category": {
+    "index": "wondrous-items",
+    "name": "Wondrous Items",
+    "url": "/api/2024/equipment-categories/wondrous-items"
+  },
+  "rarity": { "name": "Uncommon" },
+  "attunement": false,
+  "desc": "These gloves are imperceptible while worn. While wearing them, you gain a +5 bonus to Dexterity (Sleight of Hand) checks.",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/gloves-of-thievery"
+}

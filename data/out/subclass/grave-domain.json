@@ -1,0 +1,107 @@
+{
+  "index": "grave-domain",
+  "class": {
+    "index": "cleric",
+    "name": "Cleric",
+    "url": "/api/2024/classes/cleric"
+  },
+  "name": "Grave Domain",
+  "subclass_flavor": "Divine Domain",
+  "desc": [
+    "Embody Deific Forces of Death",
+    "The Grave Domain concerns itself with the boundary between life and death. To those who tap into this domain's power, death is a natural and inevitable part of the multiverse. Such Clerics seek to destroy undead and shepherd spirits.",
+    "The magic of this domain also allows these Clerics to stave off death for a time. But this is merely a delay of death, not a denial of it, for the grave will always claim its due."
+  ],
+  "subclass_levels": "/api/2024/subclasses/grave-domain/levels",
+  "spells": [
+    {
+      "prerequisites": [{ "index": "grave-domain-3", "type": "level" }],
+      "spell": {
+        "index": "detect-evil-and-good",
+        "name": "Detect Evil and Good",
+        "url": "/api/2024/spells/detect-evil-and-good"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "grave-domain-3", "type": "level" }],
+      "spell": {
+        "index": "false-life",
+        "name": "False Life",
+        "url": "/api/2024/spells/false-life"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "grave-domain-3", "type": "level" }],
+      "spell": {
+        "index": "gentle-repose",
+        "name": "Gentle Repose",
+        "url": "/api/2024/spells/gentle-repose"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "grave-domain-3", "type": "level" }],
+      "spell": {
+        "index": "ray-of-enfeeblement",
+        "name": "Ray of Enfeeblement",
+        "url": "/api/2024/spells/ray-of-enfeeblement"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "grave-domain-3", "type": "level" }],
+      "spell": {
+        "index": "spare-the-dying",
+        "name": "Spare the Dying",
+        "url": "/api/2024/spells/spare-the-dying"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "grave-domain-5", "type": "level" }],
+      "spell": {
+        "index": "revivify",
+        "name": "Revivify",
+        "url": "/api/2024/spells/revivify"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "grave-domain-5", "type": "level" }],
+      "spell": {
+        "index": "vampiric-touch",
+        "name": "Vampiric Touch",
+        "url": "/api/2024/spells/vampiric-touch"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "grave-domain-7", "type": "level" }],
+      "spell": {
+        "index": "blight",
+        "name": "Blight",
+        "url": "/api/2024/spells/blight"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "grave-domain-7", "type": "level" }],
+      "spell": {
+        "index": "death-ward",
+        "name": "Death Ward",
+        "url": "/api/2024/spells/death-ward"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "grave-domain-9", "type": "level" }],
+      "spell": {
+        "index": "dispel-evil-and-good",
+        "name": "Dispel Evil and Good",
+        "url": "/api/2024/spells/dispel-evil-and-good"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "grave-domain-9", "type": "level" }],
+      "spell": {
+        "index": "raise-dead",
+        "name": "Raise Dead",
+        "url": "/api/2024/spells/raise-dead"
+      }
+    }
+  ],
+  "url": "/api/2024/subclasses/grave-domain"
+}

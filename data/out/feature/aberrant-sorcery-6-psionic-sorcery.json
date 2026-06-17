@@ -1,0 +1,20 @@
+{
+  "index": "aberrant-sorcery-6-psionic-sorcery",
+  "name": "Psionic Sorcery",
+  "level": 6,
+  "class": {
+    "index": "sorcerer",
+    "name": "Sorcerer",
+    "url": "/api/2024/classes/sorcerer"
+  },
+  "subclass": {
+    "index": "aberrant-sorcery",
+    "name": "Aberrant Sorcery",
+    "url": "/api/2024/subclasses/aberrant-sorcery"
+  },
+  "desc": [
+    "When you cast any level 1+ spell from your Psionic Spells feature, you can cast it by expending a spell slot as normal or by spending a number of Sorcery Points equal to the spell's level. If you cast the spell using Sorcery Points, it requires no Verbal or Somatic components, and it requires no Material components unless they are consumed by the spell or have a cost specified in it."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/aberrant-sorcery-6-psionic-sorcery"
+}

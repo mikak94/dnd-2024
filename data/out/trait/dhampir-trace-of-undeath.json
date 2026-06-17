@@ -1,0 +1,14 @@
+{
+  "index": "dhampir-trace-of-undeath",
+  "name": "Trace of Undeath",
+  "species": [
+    {
+      "index": "dhampir",
+      "name": "Dhampir",
+      "url": "/api/2024/species/dhampir"
+    }
+  ],
+  "subspecies": [],
+  "desc": ["You have Resistance to Necrotic damage."],
+  "url": "/api/2024/traits/dhampir-trace-of-undeath"
+}

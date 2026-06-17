@@ -1,0 +1,19 @@
+{
+  "index": "hexblood-eerie-token",
+  "name": "Eerie Token",
+  "species": [
+    {
+      "index": "hexblood",
+      "name": "Hexblood",
+      "url": "/api/2024/species/hexblood"
+    }
+  ],
+  "subspecies": [],
+  "desc": [
+    "As a Bonus Action, you can create a magical token by harmlessly removing a lock of hair, detaching a nail, or using some other method. While the token exists, you gain the following benefits:",
+    "Distant Message. As a Magic action, you can send a telepathic message of 25 words or fewer to a creature holding or carrying the token, as long as you are within 10 miles of it.",
+    "Remote Viewing. If you are within 10 miles of the token, you can take a Magic action to extend your senses through the token for 1 minute, until you have the Incapacitated condition, or until you end this state (no action required). During this state, you can see and hear from the token as if you were located where it is. When this state ends, the token is harmlessly destroyed.",
+    "Unless the token is destroyed early, it lasts until you finish a Long Rest. Once you create a token using this feature, you can't do so again until you finish a Long Rest."
+  ],
+  "url": "/api/2024/traits/hexblood-eerie-token"
+}

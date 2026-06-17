@@ -1,0 +1,15 @@
+{
+  "index": "boots-of-striding-and-springing",
+  "name": "Boots of Striding and Springing",
+  "equipment_category": {
+    "index": "wondrous-items",
+    "name": "Wondrous Items",
+    "url": "/api/2024/equipment-categories/wondrous-items"
+  },
+  "rarity": { "name": "Uncommon" },
+  "attunement": true,
+  "desc": "While you wear these boots, your Speed becomes 30 feet unless your Speed is higher, and your Speed isn't reduced by you carrying weight in excess of your carrying capacity or wearing Heavy Armor.\n\nOnce on each of your turns, you can jump up to 30 feet by spending only 10 feet of movement.",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/boots-of-striding-and-springing"
+}

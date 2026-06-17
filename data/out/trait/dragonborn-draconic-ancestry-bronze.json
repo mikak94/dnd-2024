@@ -1,0 +1,28 @@
+{
+  "index": "dragonborn-draconic-ancestry-bronze",
+  "name": "Draconic Ancestry (Bronze)",
+  "species": [
+    {
+      "index": "dragonborn",
+      "name": "Dragonborn",
+      "url": "/api/2024/species/dragonborn"
+    }
+  ],
+  "subspecies": [],
+  "desc": [
+    "Your draconic lineage is that of a Bronze dragon. Your Breath Weapon and Damage Resistance are associated with Lightning damage."
+  ],
+  "parent": {
+    "index": "dragonborn-draconic-ancestry",
+    "name": "Draconic Ancestry",
+    "url": "/api/2024/traits/dragonborn-draconic-ancestry"
+  },
+  "trait_specific": {
+    "damage_type": {
+      "index": "lightning",
+      "name": "Lightning",
+      "url": "/api/2024/damage-types/lightning"
+    }
+  },
+  "url": "/api/2024/traits/dragonborn-draconic-ancestry-bronze"
+}

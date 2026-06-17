@@ -1,0 +1,146 @@
+{
+  "index": "carouser",
+  "name": "Carouser",
+  "starting_proficiencies": [
+    {
+      "index": "skill-deception",
+      "name": "Skill: Deception",
+      "url": "/api/2024/proficiencies/skill-deception"
+    },
+    {
+      "index": "skill-persuasion",
+      "name": "Skill: Persuasion",
+      "url": "/api/2024/proficiencies/skill-persuasion"
+    },
+    {
+      "index": "gaming-set",
+      "name": "Gaming Set",
+      "url": "/api/2024/proficiencies/gaming-set"
+    }
+  ],
+  "ability_scores": [
+    {
+      "index": "dex",
+      "name": "DEX",
+      "url": "/api/2024/ability-scores/dex"
+    },
+    {
+      "index": "int",
+      "name": "INT",
+      "url": "/api/2024/ability-scores/int"
+    },
+    {
+      "index": "cha",
+      "name": "CHA",
+      "url": "/api/2024/ability-scores/cha"
+    }
+  ],
+  "feat": {
+    "index": "tireless-reveler",
+    "name": "Tireless Reveler",
+    "url": "/api/2024/feats/tireless-reveler"
+  },
+  "starting_equipment_options": [
+    {
+      "desc": "Choose A or B: (A) Dagger, Gaming Set (same as above), Fine Clothes, Glass Bottle, Mirror, Perfume, Pouch, Tinderbox, 19 GP; or (B) 50 GP",
+      "choose": 1,
+      "type": "equipment",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "multiple",
+            "items": [
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "dagger",
+                  "name": "Dagger",
+                  "url": "/api/2024/equipment/dagger"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "gaming-set",
+                  "name": "Gaming Set",
+                  "url": "/api/2024/equipment/gaming-set"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "fine-clothes",
+                  "name": "Fine Clothes",
+                  "url": "/api/2024/equipment/fine-clothes"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "glass-bottle",
+                  "name": "Glass Bottle",
+                  "url": "/api/2024/equipment/glass-bottle"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "mirror",
+                  "name": "Mirror",
+                  "url": "/api/2024/equipment/mirror"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "perfume",
+                  "name": "Perfume",
+                  "url": "/api/2024/equipment/perfume"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "pouch",
+                  "name": "Pouch",
+                  "url": "/api/2024/equipment/pouch"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "tinderbox",
+                  "name": "Tinderbox",
+                  "url": "/api/2024/equipment/tinderbox"
+                }
+              },
+              {
+                "option_type": "money",
+                "count": 19,
+                "unit": "GP"
+              }
+            ]
+          },
+          {
+            "option_type": "money",
+            "count": 50,
+            "unit": "GP"
+          }
+        ]
+      }
+    }
+  ],
+  "desc": [
+    "You grew to adulthood in the beating heart of a large city, such as Baldur's Gate. You spent countless evenings in taverns, playhouses, parlors, and gambling dens, savoring all the city had to offer. You're a natural at interacting with people to learn their secrets, whether over a high-stakes game or at a high-class soiree. You might have been thrown out of an establishment or ten, but only by people who don't know how to party."
+  ],
+  "url": "/api/2024/backgrounds/carouser"
+}

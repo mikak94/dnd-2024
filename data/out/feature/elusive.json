@@ -1,0 +1,15 @@
+{
+  "index": "elusive",
+  "name": "Elusive",
+  "level": 18,
+  "class": {
+    "index": "rogue",
+    "name": "Rogue",
+    "url": "/api/2024/classes/rogue"
+  },
+  "desc": [
+    "You're so evasive that attackers rarely gain the upper hand against you. No attack roll can have advantage against you unless you have the Incapacitated condition."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/elusive"
+}

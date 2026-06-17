@@ -1,0 +1,32 @@
+{
+  "index": "power-word-fortify",
+  "name": "Power Word Fortify",
+  "level": 7,
+  "school": {
+    "index": "enchantment",
+    "name": "Enchantment",
+    "url": "/api/2024/magic-schools/enchantment"
+  },
+  "casting_time": "Action",
+  "range": "60 foot",
+  "components": ["V"],
+  "ritual": false,
+  "concentration": false,
+  "duration": "Instantaneous",
+  "desc": [
+    "You fortify up to six creatures you can see within range. The spell bestows 120 Temporary Hit Points, which you divide among the spell's recipients."
+  ],
+  "classes": [
+    {
+      "index": "bard",
+      "name": "Bard",
+      "url": "/api/2024/classes/bard"
+    },
+    {
+      "index": "cleric",
+      "name": "Cleric",
+      "url": "/api/2024/classes/cleric"
+    }
+  ],
+  "url": "/api/2024/spells/power-word-fortify"
+}

@@ -1,0 +1,22 @@
+{
+  "index": "college-of-spirits-3-channeler",
+  "name": "Channeler",
+  "level": 3,
+  "class": {
+    "index": "bard",
+    "name": "Bard",
+    "url": "/api/2024/classes/bard"
+  },
+  "subclass": {
+    "index": "college-of-spirits",
+    "name": "College of Spirits",
+    "url": "/api/2024/subclasses/college-of-spirits"
+  },
+  "desc": [
+    "You learn how to contact spirits beyond the grave, letting their power and knowledge flow through you. You gain the following benefits.",
+    "Guiding Whispers. You know the Guidance cantrip. It has a range of 60 feet when you cast it.",
+    "Spiritual Focus. You employ tools that aid you in channeling spirits. You gain a Gaming Set (playing cards). You have proficiency with this Gaming Set, and you can use it or one of the following items as a Spellcasting Focus for your Bard spells: Arcane Focus (crystal or orb), Candle, or Ink Pen."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/college-of-spirits-3-channeler"
+}

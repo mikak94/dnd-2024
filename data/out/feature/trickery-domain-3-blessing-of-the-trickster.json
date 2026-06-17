@@ -1,0 +1,20 @@
+{
+  "index": "trickery-domain-3-blessing-of-the-trickster",
+  "name": "Blessing of the Trickster",
+  "level": 3,
+  "class": {
+    "index": "cleric",
+    "name": "Cleric",
+    "url": "/api/2024/classes/cleric"
+  },
+  "subclass": {
+    "index": "trickery-domain",
+    "name": "Trickery Domain",
+    "url": "/api/2024/subclasses/trickery-domain"
+  },
+  "desc": [
+    "As a Magic action, you can choose yourself or a willing creature within 30 feet of yourself to have Advantage on Dexterity (Stealth) checks. This blessing lasts until you finish a Long Rest or you use this feature again."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/trickery-domain-3-blessing-of-the-trickster"
+}

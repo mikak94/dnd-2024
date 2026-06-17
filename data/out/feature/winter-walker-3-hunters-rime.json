@@ -1,0 +1,21 @@
+{
+  "index": "winter-walker-3-hunters-rime",
+  "name": "Hunter's Rime",
+  "level": 3,
+  "class": {
+    "index": "ranger",
+    "name": "Ranger",
+    "url": "/api/2024/classes/ranger"
+  },
+  "subclass": {
+    "index": "winter-walker",
+    "name": "Winter Walker",
+    "url": "/api/2024/subclasses/winter-walker"
+  },
+  "desc": [
+    "Ice rimes you and your prey, protecting you and hindering them. When you cast Hunter's Mark, you gain Temporary Hit Points equal to 1d10 plus your Ranger level.",
+    "Additionally, while a creature is marked by your Hunter's Mark, it can't take the Disengage action."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/winter-walker-3-hunters-rime"
+}

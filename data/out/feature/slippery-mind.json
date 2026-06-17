@@ -1,0 +1,15 @@
+{
+  "index": "slippery-mind",
+  "name": "Slippery Mind",
+  "level": 15,
+  "class": {
+    "index": "rogue",
+    "name": "Rogue",
+    "url": "/api/2024/classes/rogue"
+  },
+  "desc": [
+    "Your mind is exceptionally difficult to control. You gain proficiency in Wisdom and Charisma saving throws."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/slippery-mind"
+}

@@ -1,0 +1,99 @@
+{
+  "index": "trickery-domain",
+  "class": {
+    "index": "cleric",
+    "name": "Cleric",
+    "url": "/api/2024/classes/cleric"
+  },
+  "name": "Trickery Domain",
+  "subclass_flavor": "Divine Domain",
+  "desc": [
+    "Make Mischief and Challenge Authority",
+    "The Trickery Domain offers magic of deception, illusion, and stealth. Clerics who wield this magic are a disruptive force in the world, puncturing pride, mocking tyrants, freeing captives, and flouting hollow traditions. They prefer subterfuge and pranks to direct confrontation.",
+    "Gods of trickery are mischief-makers and instigators who stand as a constant challenge to the accepted order among both gods and mortals. They embody the forces of change and social upheaval, and they're patrons of thieves, scoundrels, gamblers, rebels, and liberators. Religious orders that operate in secret, especially those that seek to undermine oppressive governments or hierarchies, also draw on the power of the Trickery Domain."
+  ],
+  "subclass_levels": "/api/2024/subclasses/trickery-domain/levels",
+  "spells": [
+    {
+      "prerequisites": [{ "index": "trickery-domain-3", "type": "level" }],
+      "spell": {
+        "index": "charm-person",
+        "name": "Charm Person",
+        "url": "/api/2024/spells/charm-person"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "trickery-domain-3", "type": "level" }],
+      "spell": {
+        "index": "disguise-self",
+        "name": "Disguise Self",
+        "url": "/api/2024/spells/disguise-self"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "trickery-domain-3", "type": "level" }],
+      "spell": {
+        "index": "invisibility",
+        "name": "Invisibility",
+        "url": "/api/2024/spells/invisibility"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "trickery-domain-3", "type": "level" }],
+      "spell": {
+        "index": "pass-without-trace",
+        "name": "Pass without Trace",
+        "url": "/api/2024/spells/pass-without-trace"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "trickery-domain-5", "type": "level" }],
+      "spell": {
+        "index": "hypnotic-pattern",
+        "name": "Hypnotic Pattern",
+        "url": "/api/2024/spells/hypnotic-pattern"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "trickery-domain-5", "type": "level" }],
+      "spell": {
+        "index": "nondetection",
+        "name": "Nondetection",
+        "url": "/api/2024/spells/nondetection"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "trickery-domain-7", "type": "level" }],
+      "spell": {
+        "index": "confusion",
+        "name": "Confusion",
+        "url": "/api/2024/spells/confusion"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "trickery-domain-7", "type": "level" }],
+      "spell": {
+        "index": "dimension-door",
+        "name": "Dimension Door",
+        "url": "/api/2024/spells/dimension-door"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "trickery-domain-9", "type": "level" }],
+      "spell": {
+        "index": "dominate-person",
+        "name": "Dominate Person",
+        "url": "/api/2024/spells/dominate-person"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "trickery-domain-9", "type": "level" }],
+      "spell": {
+        "index": "modify-memory",
+        "name": "Modify Memory",
+        "url": "/api/2024/spells/modify-memory"
+      }
+    }
+  ],
+  "url": "/api/2024/subclasses/trickery-domain"
+}

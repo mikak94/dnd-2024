@@ -1,0 +1,19 @@
+{
+  "index": "pony",
+  "name": "Pony",
+  "equipment_categories": [
+    {
+      "index": "mounts-and-other-animals",
+      "name": "Mounts and Other Animals",
+      "url": "/api/2024/equipment-categories/mounts-and-other-animals"
+    },
+    {
+      "index": "mounts-and-vehicles",
+      "name": "Mounts and Vehicles",
+      "url": "/api/2024/equipment-categories/mounts-and-vehicles"
+    }
+  ],
+  "url": "/api/2024/equipment/pony",
+  "cost": { "quantity": 30, "unit": "gp" },
+  "description": "Carrying capacity 225 lb."
+}

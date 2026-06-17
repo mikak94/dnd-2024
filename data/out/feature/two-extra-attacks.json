@@ -1,0 +1,15 @@
+{
+  "index": "two-extra-attacks",
+  "name": "Two Extra Attacks",
+  "level": 11,
+  "class": {
+    "index": "fighter",
+    "name": "Fighter",
+    "url": "/api/2024/classes/fighter"
+  },
+  "desc": [
+    "You can attack three times instead of once whenever you take the Attack action on your turn."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/two-extra-attacks"
+}

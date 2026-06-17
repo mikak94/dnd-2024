@@ -1,0 +1,64 @@
+{
+  "index": "doomtide",
+  "name": "Doomtide",
+  "level": 4,
+  "school": {
+    "index": "conjuration",
+    "name": "Conjuration",
+    "url": "/api/2024/magic-schools/conjuration"
+  },
+  "casting_time": "Action",
+  "range": "120 feet",
+  "components": ["V", "S", "M"],
+  "material": "soot and a dried eel",
+  "ritual": false,
+  "concentration": true,
+  "duration": "Concentration, up to 1 minute",
+  "desc": [
+    "You create a 20-foot-radius Sphere of inky fog within range. The fog is magical Darkness and lasts for the duration or until a strong wind (such as the one created by the Gust of Wind spell) disperses it, ending the spell.",
+    "Each creature in the Sphere when it appears makes a Wisdom saving throw. On a failed save, a creature takes 5d6 Psychic damage and subtracts 1d6 from its saving throws until the end of its next turn. On a successful save, a creature takes half as much damage only. A creature also makes this save when the Sphere moves into its space, when it enters the Sphere, or when it ends its turn inside the Sphere. A creature makes this save only once per turn.",
+    "The Sphere moves 10 feet away from you at the start of each of your turns.",
+    "Casting as a Circle Spell. Casting this as a Circle spell requires a minimum of five secondary casters. In addition to the spell's usual components, you must provide a special component (a string of three black pearls from Pandemonium), which the spell consumes. The spell's range increases to 1 mile, and its duration increases to until dispelled (no Concentration required). The spell ends early if any caster who participated in this casting contributes to another casting of Doomtide as a Circle spell.",
+    "When the spell is cast, each secondary caster must expend a level 3+ spell slot; otherwise, the spell fails."
+  ],
+  "damage": {
+    "damage_type": {
+      "index": "psychic",
+      "name": "Psychic",
+      "url": "/api/2024/damage-types/psychic"
+    },
+    "damage_at_slot_level": {
+      "4": "5d6"
+    }
+  },
+  "dc": {
+    "dc_type": {
+      "index": "wis",
+      "name": "WIS",
+      "url": "/api/2024/ability-scores/wis"
+    },
+    "dc_success": "half"
+  },
+  "area_of_effect": {
+    "type": "sphere",
+    "size": 20
+  },
+  "classes": [
+    {
+      "index": "bard",
+      "name": "Bard",
+      "url": "/api/2024/classes/bard"
+    },
+    {
+      "index": "cleric",
+      "name": "Cleric",
+      "url": "/api/2024/classes/cleric"
+    },
+    {
+      "index": "warlock",
+      "name": "Warlock",
+      "url": "/api/2024/classes/warlock"
+    }
+  ],
+  "url": "/api/2024/spells/doomtide"
+}

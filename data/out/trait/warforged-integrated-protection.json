@@ -1,0 +1,16 @@
+{
+  "index": "warforged-integrated-protection",
+  "name": "Integrated Protection",
+  "species": [
+    {
+      "index": "warforged",
+      "name": "Warforged",
+      "url": "/api/2024/species/warforged"
+    }
+  ],
+  "subspecies": [],
+  "desc": [
+    "You gain a +1 bonus to your Armor Class. In addition, armor you have donned can't be removed against your will while you're alive."
+  ],
+  "url": "/api/2024/traits/warforged-integrated-protection"
+}

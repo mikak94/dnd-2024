@@ -1,0 +1,39 @@
+{
+  "index": "divination",
+  "name": "Divination",
+  "level": 4,
+  "school": {
+    "index": "divination",
+    "name": "Divination",
+    "url": "/api/2024/magic-schools/divination"
+  },
+  "casting_time": "Action",
+  "range": "Self",
+  "components": ["V", "S", "M"],
+  "material": "incense worth 25+ GP, which the spell consumes",
+  "ritual": true,
+  "concentration": false,
+  "duration": "Instantaneous",
+  "desc": [
+    "This spell puts you in contact with a god or a god's servants. You ask one question about a specific goal, event, or activity to occur within 7 days. The DM offers a truthful reply, which might be a short phrase or cryptic rhyme. The spell doesn't account for circumstances that might change the answer, such as the casting of other spells.",
+    "If you cast the spell more than once before finishing a Long Rest, there is a cumulative 25 percent chance for each casting after the first that you get no answer."
+  ],
+  "classes": [
+    {
+      "index": "cleric",
+      "name": "Cleric",
+      "url": "/api/2024/classes/cleric"
+    },
+    {
+      "index": "druid",
+      "name": "Druid",
+      "url": "/api/2024/classes/druid"
+    },
+    {
+      "index": "wizard",
+      "name": "Wizard",
+      "url": "/api/2024/classes/wizard"
+    }
+  ],
+  "url": "/api/2024/spells/divination"
+}

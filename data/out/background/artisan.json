@@ -1,0 +1,101 @@
+{
+  "index": "artisan",
+  "name": "Artisan",
+  "starting_proficiencies": [
+    {
+      "index": "skill-investigation",
+      "name": "Skill: Investigation",
+      "url": "/api/2024/proficiencies/skill-investigation"
+    },
+    {
+      "index": "skill-persuasion",
+      "name": "Skill: Persuasion",
+      "url": "/api/2024/proficiencies/skill-persuasion"
+    },
+    {
+      "index": "artisans-tools",
+      "name": "Artisan's Tools",
+      "url": "/api/2024/proficiencies/artisans-tools"
+    }
+  ],
+  "ability_scores": [
+    {
+      "index": "str",
+      "name": "STR",
+      "url": "/api/2024/ability-scores/str"
+    },
+    {
+      "index": "dex",
+      "name": "DEX",
+      "url": "/api/2024/ability-scores/dex"
+    },
+    {
+      "index": "int",
+      "name": "INT",
+      "url": "/api/2024/ability-scores/int"
+    }
+  ],
+  "feat": {
+    "index": "crafter",
+    "name": "Crafter",
+    "url": "/api/2024/feats/crafter"
+  },
+  "starting_equipment_options": [
+    {
+      "desc": "Choose A or B: (A) Artisan's Tools (same as above), 2 Pouches, Traveler's Clothes, 32 GP; or (B) 50 GP",
+      "choose": 1,
+      "type": "equipment",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "multiple",
+            "items": [
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "artisans-tools",
+                  "name": "Artisan's Tools",
+                  "url": "/api/2024/equipment/artisans-tools"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 2,
+                "of": {
+                  "index": "pouch",
+                  "name": "Pouch",
+                  "url": "/api/2024/equipment/pouch"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "travelers-clothes",
+                  "name": "Traveler's Clothes",
+                  "url": "/api/2024/equipment/travelers-clothes"
+                }
+              },
+              {
+                "option_type": "money",
+                "count": 32,
+                "unit": "GP"
+              }
+            ]
+          },
+          {
+            "option_type": "money",
+            "count": 50,
+            "unit": "GP"
+          }
+        ]
+      }
+    }
+  ],
+  "desc": [
+    "You began mopping floors and scrubbing counters in an artisan's workshop for a few coppers per day as soon as you were strong enough to carry a bucket. When you were old enough to apprentice, you learned to create basic crafts of your own, as well as how to sweet-talk the occasional demanding customer. Your trade has also given you a keen eye for detail."
+  ],
+  "url": "/api/2024/backgrounds/artisan"
+}

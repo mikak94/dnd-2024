@@ -1,0 +1,14 @@
+# Aberrant Anatomy
+
+Source: Ravenloft - The Horrors Within
+
+_Dark Gift Feat (Prerequisite: Ravenloft Campaign)_
+
+Exposure to alien horrors like those of the Far Realm has warmed your physical form in supernatural ways. You gain the following features.
+
+**Breathless.** You can hold your breath for 1 hour.
+
+**Extrasensory Perception.** You have proficiency in the Perception skill, if you lack it. You also gain Expertise in that skill.  
+In addition, you have Blindsight with a range of 15 feet.
+
+**Warping Flesh.** Immediately after you make a D20 Test and roll a 1 on the d20, the aberrant influence infecting your form flares, wrenching control of your flesh. Make a Constitution saving throw (DC 13 plus your Proficiency Bonus). On a failed save, you have the Stunned condition until the end of your next turn.

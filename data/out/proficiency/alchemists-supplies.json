@@ -1,0 +1,11 @@
+{
+  "index": "alchemists-supplies",
+  "name": "Alchemist's Supplies",
+  "type": "Artisan's Tools",
+  "reference": {
+    "index": "alchemists-supplies",
+    "name": "Alchemist's Supplies",
+    "url": "/api/2024/equipment/alchemists-supplies"
+  },
+  "url": "/api/2024/proficiencies/alchemists-supplies"
+}

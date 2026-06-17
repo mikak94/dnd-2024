@@ -1,0 +1,20 @@
+{
+  "index": "war-domain-6-war-gods-blessing",
+  "name": "War God's Blessing",
+  "level": 6,
+  "class": {
+    "index": "cleric",
+    "name": "Cleric",
+    "url": "/api/2024/classes/cleric"
+  },
+  "subclass": {
+    "index": "war-domain",
+    "name": "War Domain",
+    "url": "/api/2024/subclasses/war-domain"
+  },
+  "desc": [
+    "You can expend a use of your Channel Divinity to cast Shield of Faith or Spiritual Weapon rather than expending a spell slot. When you cast either spell in this way, the spell doesn't require Concentration. Instead the spell lasts for 1 minute, but it ends early if you cast that spell again, have the Incapacitated condition, or die."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/war-domain-6-war-gods-blessing"
+}

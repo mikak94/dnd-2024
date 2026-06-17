@@ -1,0 +1,21 @@
+{
+  "index": "metamagic-subtle-spell",
+  "name": "Metamagic: Subtle Spell",
+  "level": 2,
+  "class": {
+    "index": "sorcerer",
+    "name": "Sorcerer",
+    "url": "/api/2024/classes/sorcerer"
+  },
+  "parent": {
+    "index": "metamagic",
+    "name": "Metamagic",
+    "url": "/api/2024/features/metamagic"
+  },
+  "desc": [
+    "Cost: 1 Sorcery Point",
+    "When you cast a spell, you can spend 1 Sorcery Point to cast it without any Verbal, Somatic, or Material components, except Material components that are consumed by the spell or that have a cost specified in the spell."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/metamagic-subtle-spell"
+}

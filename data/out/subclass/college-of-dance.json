@@ -1,0 +1,16 @@
+{
+  "index": "college-of-dance",
+  "class": {
+    "index": "bard",
+    "name": "Bard",
+    "url": "/api/2024/classes/bard"
+  },
+  "name": "College of Dance",
+  "subclass_flavor": "Bard College",
+  "desc": [
+    "Move in Harmony with the Cosmos",
+    "Bards of the College of Dance know that the Words of Creation can't be contained within speech or song; the words are uttered by the movements of celestial bodies and flow through the motions of the smallest creatures. These Bards practice a way of being in harmony with the whirling cosmos that emphasizes agility, speed, and grace."
+  ],
+  "subclass_levels": "/api/2024/subclasses/college-of-dance/levels",
+  "url": "/api/2024/subclasses/college-of-dance"
+}

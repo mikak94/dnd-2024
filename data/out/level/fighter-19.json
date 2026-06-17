@@ -1,0 +1,24 @@
+{
+  "index": "fighter-19",
+  "level": 19,
+  "ability_score_bonuses": 7,
+  "prof_bonus": 6,
+  "features": [
+    {
+      "index": "epic-boon-fighter",
+      "name": "Epic Boon",
+      "url": "/api/2024/features/epic-boon-fighter"
+    }
+  ],
+  "class": {
+    "index": "fighter",
+    "name": "Fighter",
+    "url": "/api/2024/classes/fighter"
+  },
+  "class_specific": {
+    "extra_attacks": 3,
+    "action_surges": 2,
+    "indomitable_uses": 3
+  },
+  "url": "/api/2024/classes/fighter/levels/19"
+}

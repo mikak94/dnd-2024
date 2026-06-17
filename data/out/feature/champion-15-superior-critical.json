@@ -1,0 +1,20 @@
+{
+  "index": "champion-15-superior-critical",
+  "name": "Superior Critical",
+  "level": 15,
+  "class": {
+    "index": "fighter",
+    "name": "Fighter",
+    "url": "/api/2024/classes/fighter"
+  },
+  "subclass": {
+    "index": "champion",
+    "name": "Champion",
+    "url": "/api/2024/subclasses/champion"
+  },
+  "desc": [
+    "Your attack rolls with weapons and Unarmed Strikes can now score a Critical Hit on a roll of 18-20 on the d20."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/champion-15-superior-critical"
+}

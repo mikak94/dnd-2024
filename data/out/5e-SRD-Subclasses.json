@@ -1,0 +1,4850 @@
+[
+  {
+    "index": "aberrant-sorcery",
+    "class": {
+      "index": "sorcerer",
+      "name": "Sorcerer",
+      "url": "/api/2024/classes/sorcerer"
+    },
+    "name": "Aberrant Sorcery",
+    "subclass_flavor": "Sorcerous Origin",
+    "desc": [
+      "Wield Unnatural Psionic Power",
+      "An alien influence has wrapped its tendrils around your mind, giving you psionic power. You can now touch other minds with that power and alter the world around you. Will this power shine from you as a hopeful beacon to others? Or will you be a terror to those who feel the stab of your mind?",
+      "Perhaps a psychic wind from the Astral Plane carried psionic energy to you, or you were exposed to the Far Realm's warping influence. Alternatively, you were implanted with a mind flayer tadpole, but your transformation into a mind flayer never occurred; now the tadpole's psionic power is yours. However you acquired this power, your mind is aflame with it."
+    ],
+    "subclass_levels": "/api/2024/subclasses/aberrant-sorcery/levels",
+    "spells": [
+      {
+        "prerequisites": [
+          {
+            "index": "aberrant-sorcery-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "arms-of-hadar",
+          "name": "Arms of Hadar",
+          "url": "/api/2024/spells/arms-of-hadar"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "aberrant-sorcery-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "calm-emotions",
+          "name": "Calm Emotions",
+          "url": "/api/2024/spells/calm-emotions"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "aberrant-sorcery-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "detect-thoughts",
+          "name": "Detect Thoughts",
+          "url": "/api/2024/spells/detect-thoughts"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "aberrant-sorcery-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "dissonant-whispers",
+          "name": "Dissonant Whispers",
+          "url": "/api/2024/spells/dissonant-whispers"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "aberrant-sorcery-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "mind-sliver",
+          "name": "Mind Sliver",
+          "url": "/api/2024/spells/mind-sliver"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "aberrant-sorcery-5",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "hunger-of-hadar",
+          "name": "Hunger of Hadar",
+          "url": "/api/2024/spells/hunger-of-hadar"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "aberrant-sorcery-5",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "sending",
+          "name": "Sending",
+          "url": "/api/2024/spells/sending"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "aberrant-sorcery-7",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "evards-black-tentacles",
+          "name": "Evard's Black Tentacles",
+          "url": "/api/2024/spells/evards-black-tentacles"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "aberrant-sorcery-7",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "summon-aberration",
+          "name": "Summon Aberration",
+          "url": "/api/2024/spells/summon-aberration"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "aberrant-sorcery-9",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "rarys-telepathic-bond",
+          "name": "Rary's Telepathic Bond",
+          "url": "/api/2024/spells/rarys-telepathic-bond"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "aberrant-sorcery-9",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "telekinesis",
+          "name": "Telekinesis",
+          "url": "/api/2024/spells/telekinesis"
+        }
+      }
+    ],
+    "url": "/api/2024/subclasses/aberrant-sorcery"
+  },
+  {
+    "index": "abjurer",
+    "class": {
+      "index": "wizard",
+      "name": "Wizard",
+      "url": "/api/2024/classes/wizard"
+    },
+    "name": "Abjurer",
+    "subclass_flavor": "Arcane Tradition",
+    "desc": [
+      "Shield Companions and Banish Foes",
+      "Your study of magic is focused on spells that block, banish, or protect—ending harmful effects, banishing evil influences, and protecting the weak. Abjurers are sought when baleful spirits require exorcism, when locations must be guarded against magical spying, and when portals to other planes of existence must be closed. Adventuring parties value Abjurers for the protection they provide against a variety of hostile magic and other attacks."
+    ],
+    "subclass_levels": "/api/2024/subclasses/abjurer/levels",
+    "url": "/api/2024/subclasses/abjurer"
+  },
+  {
+    "index": "arcane-trickster",
+    "class": {
+      "index": "rogue",
+      "name": "Rogue",
+      "url": "/api/2024/classes/rogue"
+    },
+    "name": "Arcane Trickster",
+    "subclass_flavor": "Roguish Archetype",
+    "desc": [
+      "Enhance Stealth with Arcane Spells",
+      "Some Rogues enhance their fine-honed skills of stealth and agility with spells, learning magical tricks to aid them in their trade. Some Arcane Tricksters use their talents as pickpockets and burglars, while others are pranksters."
+    ],
+    "subclass_levels": "/api/2024/subclasses/arcane-trickster/levels",
+    "url": "/api/2024/subclasses/arcane-trickster"
+  },
+  {
+    "index": "archfey-patron",
+    "class": {
+      "index": "warlock",
+      "name": "Warlock",
+      "url": "/api/2024/classes/warlock"
+    },
+    "name": "Archfey Patron",
+    "subclass_flavor": "Otherworldly Patron",
+    "desc": [
+      "Bargain with Whimsical Fey",
+      "Your pact draws on the power of the Feywild. When you choose this subclass, you might make a deal with an archfey, such as the Prince of Frost; the Queen of Air and Darkness, ruler of the Gloaming Court; Titania of the Summer Court; or an ancient hag. Or you might call on a spectrum of Fey, weaving a web of favors and debts. Whoever they are, your patron is often inscrutable and whimsical."
+    ],
+    "subclass_levels": "/api/2024/subclasses/archfey-patron/levels",
+    "spells": [
+      {
+        "prerequisites": [
+          {
+            "index": "archfey-patron-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "calm-emotions",
+          "name": "Calm Emotions",
+          "url": "/api/2024/spells/calm-emotions"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "archfey-patron-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "faerie-fire",
+          "name": "Faerie Fire",
+          "url": "/api/2024/spells/faerie-fire"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "archfey-patron-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "misty-step",
+          "name": "Misty Step",
+          "url": "/api/2024/spells/misty-step"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "archfey-patron-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "phantasmal-force",
+          "name": "Phantasmal Force",
+          "url": "/api/2024/spells/phantasmal-force"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "archfey-patron-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "sleep",
+          "name": "Sleep",
+          "url": "/api/2024/spells/sleep"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "archfey-patron-5",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "blink",
+          "name": "Blink",
+          "url": "/api/2024/spells/blink"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "archfey-patron-5",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "plant-growth",
+          "name": "Plant Growth",
+          "url": "/api/2024/spells/plant-growth"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "archfey-patron-7",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "dominate-beast",
+          "name": "Dominate Beast",
+          "url": "/api/2024/spells/dominate-beast"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "archfey-patron-7",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "greater-invisibility",
+          "name": "Greater Invisibility",
+          "url": "/api/2024/spells/greater-invisibility"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "archfey-patron-9",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "dominate-person",
+          "name": "Dominate Person",
+          "url": "/api/2024/spells/dominate-person"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "archfey-patron-9",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "seeming",
+          "name": "Seeming",
+          "url": "/api/2024/spells/seeming"
+        }
+      }
+    ],
+    "url": "/api/2024/subclasses/archfey-patron"
+  },
+  {
+    "index": "assassin",
+    "class": {
+      "index": "rogue",
+      "name": "Rogue",
+      "url": "/api/2024/classes/rogue"
+    },
+    "name": "Assassin",
+    "subclass_flavor": "Roguish Archetype",
+    "desc": [
+      "Practice the Grim Art of Death",
+      "An Assassin's training focuses on using stealth, poison, and disguise to eliminate foes with deadly efficiency. While some Rogues who follow this path are hired killers, spies, or bounty hunters, the capabilities of this subclass are equally useful for adventurers facing a variety of monstrous enemies."
+    ],
+    "subclass_levels": "/api/2024/subclasses/assassin/levels",
+    "url": "/api/2024/subclasses/assassin"
+  },
+  {
+    "index": "banneret",
+    "class": {
+      "index": "fighter",
+      "name": "Fighter",
+      "url": "/api/2024/classes/fighter"
+    },
+    "name": "Banneret",
+    "subclass_flavor": "Martial Archetype",
+    "desc": [
+      "Rally Fellow Heroes with Inspiring Leadership",
+      "Bannerets are paragons of valor and leadership who protect the innocent and rally fellow adventurers to the causes of justice and freedom. Many are knights serving in Cormyr, the Silver Marches, Damara, Chessenta, or other lands across Faerun. They wander the realms as knights errant, taking the fight against evil beyond their kingdom's borders.",
+      "A Banneret relies on judgment, bravery, and fidelity to the code of chivalry to guide them in defeating evildoers. A lone Banneret is a skilled warrior, but when leading a band of allies one of these warriors can transform even a poorly equipped militia into a ferocious war band."
+    ],
+    "subclass_levels": "/api/2024/subclasses/banneret/levels",
+    "url": "/api/2024/subclasses/banneret"
+  },
+  {
+    "index": "battle-master",
+    "class": {
+      "index": "fighter",
+      "name": "Fighter",
+      "url": "/api/2024/classes/fighter"
+    },
+    "name": "Battle Master",
+    "subclass_flavor": "Martial Archetype",
+    "desc": [
+      "Master Sophisticated Battle Maneuvers",
+      "Battle Masters are students of the art of battle, learning martial techniques passed down through generations. The most accomplished Battle Masters are well-rounded figures who combine their carefully honed combat skills with academic study in the fields of history, theory, and the arts."
+    ],
+    "subclass_levels": "/api/2024/subclasses/battle-master/levels",
+    "url": "/api/2024/subclasses/battle-master"
+  },
+  {
+    "index": "beast-master",
+    "class": {
+      "index": "ranger",
+      "name": "Ranger",
+      "url": "/api/2024/classes/ranger"
+    },
+    "name": "Beast Master",
+    "subclass_flavor": "Ranger Archetype",
+    "desc": [
+      "Bond with a Primal Beast",
+      "A Beast Master forms a mystical bond with a special animal, drawing on primal magic and a deep connection to the natural world."
+    ],
+    "subclass_levels": "/api/2024/subclasses/beast-master/levels",
+    "url": "/api/2024/subclasses/beast-master"
+  },
+  {
+    "index": "bladesinger",
+    "class": {
+      "index": "wizard",
+      "name": "Wizard",
+      "url": "/api/2024/classes/wizard"
+    },
+    "name": "Bladesinger",
+    "subclass_flavor": "Arcane Tradition",
+    "desc": [
+      "Wield Weapon and Wizardry in Elegant Tandem",
+      "Bladesingers master a tradition of wizardry that incorporates swordplay and dance. In combat, a Bladesinger uses intricate, elegant maneuvers that fend off harm and allow the Bladesinger to channel magic into devastating attacks and a cunning defense. Many who have observed a Bladesinger at work remember the display as one of the more beautiful experiences in their life—a glorious dance accompanied by a singing blade.",
+      "Bladesinging is associated with the ancient elven societies that first mastered the art and coined the term. Even today, most Bladesingers still hail from old elven realms, such as Myth Drannor, or from non-elven societies that share land and history with elves, such as the Silver Marches. Wherever they hail from, Bladesingers take their talents all across the Realms to help common people and perform heroic deeds. Most communities greet the arrival of a Bladesinger as a good omen."
+    ],
+    "subclass_levels": "/api/2024/subclasses/bladesinger/levels",
+    "url": "/api/2024/subclasses/bladesinger"
+  },
+  {
+    "index": "celestial-patron",
+    "class": {
+      "index": "warlock",
+      "name": "Warlock",
+      "url": "/api/2024/classes/warlock"
+    },
+    "name": "Celestial Patron",
+    "subclass_flavor": "Otherworldly Patron",
+    "desc": [
+      "Call on the Power of the Heavens",
+      "Your pact draws on the Upper Planes, the realms of everlasting bliss. You might enter an agreement with an empyrean, a couatl, a sphinx, a unicorn, or another heavenly entity. Or you might call on numerous such beings as you pursue goals aligned with theirs. Your pact allows you to experience a hint of the holy light that illuminates the multiverse."
+    ],
+    "subclass_levels": "/api/2024/subclasses/celestial-patron/levels",
+    "spells": [
+      {
+        "prerequisites": [
+          {
+            "index": "celestial-patron-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "aid",
+          "name": "Aid",
+          "url": "/api/2024/spells/aid"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "celestial-patron-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "cure-wounds",
+          "name": "Cure Wounds",
+          "url": "/api/2024/spells/cure-wounds"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "celestial-patron-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "guiding-bolt",
+          "name": "Guiding Bolt",
+          "url": "/api/2024/spells/guiding-bolt"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "celestial-patron-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "lesser-restoration",
+          "name": "Lesser Restoration",
+          "url": "/api/2024/spells/lesser-restoration"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "celestial-patron-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "light",
+          "name": "Light",
+          "url": "/api/2024/spells/light"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "celestial-patron-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "sacred-flame",
+          "name": "Sacred Flame",
+          "url": "/api/2024/spells/sacred-flame"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "celestial-patron-5",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "daylight",
+          "name": "Daylight",
+          "url": "/api/2024/spells/daylight"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "celestial-patron-5",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "revivify",
+          "name": "Revivify",
+          "url": "/api/2024/spells/revivify"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "celestial-patron-7",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "guardian-of-faith",
+          "name": "Guardian of Faith",
+          "url": "/api/2024/spells/guardian-of-faith"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "celestial-patron-7",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "wall-of-fire",
+          "name": "Wall of Fire",
+          "url": "/api/2024/spells/wall-of-fire"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "celestial-patron-9",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "greater-restoration",
+          "name": "Greater Restoration",
+          "url": "/api/2024/spells/greater-restoration"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "celestial-patron-9",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "summon-celestial",
+          "name": "Summon Celestial",
+          "url": "/api/2024/spells/summon-celestial"
+        }
+      }
+    ],
+    "url": "/api/2024/subclasses/celestial-patron"
+  },
+  {
+    "index": "champion",
+    "class": {
+      "index": "fighter",
+      "name": "Fighter",
+      "url": "/api/2024/classes/fighter"
+    },
+    "name": "Champion",
+    "subclass_flavor": "Martial Archetype",
+    "desc": [
+      "Pursue Physical Excellence in Combat",
+      "A Champion focuses on the development of martial prowess in a relentless pursuit of victory. Champions combine rigorous training with physical excellence to deal devastating blows, withstand peril, and garner glory. Whether in athletic contests or bloody battle, Champions strive for the crown of the victor."
+    ],
+    "subclass_levels": "/api/2024/subclasses/champion/levels",
+    "url": "/api/2024/subclasses/champion"
+  },
+  {
+    "index": "circle-of-the-land",
+    "class": {
+      "index": "druid",
+      "name": "Druid",
+      "url": "/api/2024/classes/druid"
+    },
+    "name": "Circle of the Land",
+    "subclass_flavor": "Druid Circle",
+    "desc": [
+      "Celebrate Connection to the Natural World",
+      "The Circle of the Land comprises mystics and sages who safeguard ancient knowledge and rites. These Druids meet within sacred circles of trees or standing stones to whisper primal secrets in Druidic. The circle's wisest members preside as the chief priests of their communities."
+    ],
+    "subclass_levels": "/api/2024/subclasses/circle-of-the-land/levels",
+    "spells": [
+      {
+        "prerequisites": [
+          {
+            "index": "circle-of-the-land-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "blur",
+          "name": "Blur",
+          "url": "/api/2024/spells/blur"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "circle-of-the-land-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "burning-hands",
+          "name": "Burning Hands",
+          "url": "/api/2024/spells/burning-hands"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "circle-of-the-land-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "fire-bolt",
+          "name": "Fire Bolt",
+          "url": "/api/2024/spells/fire-bolt"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "circle-of-the-land-5",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "fireball",
+          "name": "Fireball",
+          "url": "/api/2024/spells/fireball"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "circle-of-the-land-7",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "blight",
+          "name": "Blight",
+          "url": "/api/2024/spells/blight"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "circle-of-the-land-9",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "wall-of-stone",
+          "name": "Wall of Stone",
+          "url": "/api/2024/spells/wall-of-stone"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "circle-of-the-land-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "fog-cloud",
+          "name": "Fog Cloud",
+          "url": "/api/2024/spells/fog-cloud"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "circle-of-the-land-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "hold-person",
+          "name": "Hold Person",
+          "url": "/api/2024/spells/hold-person"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "circle-of-the-land-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "ray-of-frost",
+          "name": "Ray of Frost",
+          "url": "/api/2024/spells/ray-of-frost"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "circle-of-the-land-5",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "sleet-storm",
+          "name": "Sleet Storm",
+          "url": "/api/2024/spells/sleet-storm"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "circle-of-the-land-7",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "ice-storm",
+          "name": "Ice Storm",
+          "url": "/api/2024/spells/ice-storm"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "circle-of-the-land-9",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "cone-of-cold",
+          "name": "Cone of Cold",
+          "url": "/api/2024/spells/cone-of-cold"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "circle-of-the-land-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "misty-step",
+          "name": "Misty Step",
+          "url": "/api/2024/spells/misty-step"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "circle-of-the-land-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "shocking-grasp",
+          "name": "Shocking Grasp",
+          "url": "/api/2024/spells/shocking-grasp"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "circle-of-the-land-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "sleep",
+          "name": "Sleep",
+          "url": "/api/2024/spells/sleep"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "circle-of-the-land-5",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "lightning-bolt",
+          "name": "Lightning Bolt",
+          "url": "/api/2024/spells/lightning-bolt"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "circle-of-the-land-7",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "freedom-of-movement",
+          "name": "Freedom of Movement",
+          "url": "/api/2024/spells/freedom-of-movement"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "circle-of-the-land-9",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "tree-stride",
+          "name": "Tree Stride",
+          "url": "/api/2024/spells/tree-stride"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "circle-of-the-land-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "acid-splash",
+          "name": "Acid Splash",
+          "url": "/api/2024/spells/acid-splash"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "circle-of-the-land-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "ray-of-sickness",
+          "name": "Ray of Sickness",
+          "url": "/api/2024/spells/ray-of-sickness"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "circle-of-the-land-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "web",
+          "name": "Web",
+          "url": "/api/2024/spells/web"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "circle-of-the-land-5",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "stinking-cloud",
+          "name": "Stinking Cloud",
+          "url": "/api/2024/spells/stinking-cloud"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "circle-of-the-land-7",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "polymorph",
+          "name": "Polymorph",
+          "url": "/api/2024/spells/polymorph"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "circle-of-the-land-9",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "insect-plague",
+          "name": "Insect Plague",
+          "url": "/api/2024/spells/insect-plague"
+        }
+      }
+    ],
+    "url": "/api/2024/subclasses/circle-of-the-land"
+  },
+  {
+    "index": "circle-of-the-moon",
+    "class": {
+      "index": "druid",
+      "name": "Druid",
+      "url": "/api/2024/classes/druid"
+    },
+    "name": "Circle of the Moon",
+    "subclass_flavor": "Druid Circle",
+    "desc": [
+      "Adopt Animal Forms to Guard the Wilds",
+      "Druids of the Circle of the Moon draw on lunar magic to transform themselves. Their order gathers under the moon to share news and perform rituals.",
+      "Changeable as the moon, a Druid of this circle might prowl as a great cat one night, soar over the treetops as an eagle the next day, and then crash through undergrowth as a bear to drive off a trespassing monster. The wild is in the Druid's blood."
+    ],
+    "subclass_levels": "/api/2024/subclasses/circle-of-the-moon/levels",
+    "spells": [
+      {
+        "prerequisites": [
+          {
+            "index": "circle-of-the-moon-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "cure-wounds",
+          "name": "Cure Wounds",
+          "url": "/api/2024/spells/cure-wounds"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "circle-of-the-moon-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "moonbeam",
+          "name": "Moonbeam",
+          "url": "/api/2024/spells/moonbeam"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "circle-of-the-moon-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "starry-wisp",
+          "name": "Starry Wisp",
+          "url": "/api/2024/spells/starry-wisp"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "circle-of-the-moon-5",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "conjure-animals",
+          "name": "Conjure Animals",
+          "url": "/api/2024/spells/conjure-animals"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "circle-of-the-moon-7",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "fount-of-moonlight",
+          "name": "Fount of Moonlight",
+          "url": "/api/2024/spells/fount-of-moonlight"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "circle-of-the-moon-9",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "mass-cure-wounds",
+          "name": "Mass Cure Wounds",
+          "url": "/api/2024/spells/mass-cure-wounds"
+        }
+      }
+    ],
+    "url": "/api/2024/subclasses/circle-of-the-moon"
+  },
+  {
+    "index": "circle-of-the-sea",
+    "class": {
+      "index": "druid",
+      "name": "Druid",
+      "url": "/api/2024/classes/druid"
+    },
+    "name": "Circle of the Sea",
+    "subclass_flavor": "Druid Circle",
+    "desc": [
+      "Become One with Tides and Storms",
+      "Druids of the Circle of the Sea draw on the tempestuous forces of oceans and storms. Some view themselves as embodiments of nature's wrath, seeking vengeance against those who despoil nature. Others seek mystical unity with nature by attuning themselves to the ebb and flow of the tides, following the rush of currents and waves and listening to the inscrutable whispers and roars of the winds."
+    ],
+    "subclass_levels": "/api/2024/subclasses/circle-of-the-sea/levels",
+    "spells": [
+      {
+        "prerequisites": [
+          {
+            "index": "circle-of-the-sea-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "fog-cloud",
+          "name": "Fog Cloud",
+          "url": "/api/2024/spells/fog-cloud"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "circle-of-the-sea-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "gust-of-wind",
+          "name": "Gust of Wind",
+          "url": "/api/2024/spells/gust-of-wind"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "circle-of-the-sea-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "ray-of-frost",
+          "name": "Ray of Frost",
+          "url": "/api/2024/spells/ray-of-frost"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "circle-of-the-sea-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "thunderwave",
+          "name": "Thunderwave",
+          "url": "/api/2024/spells/thunderwave"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "circle-of-the-sea-5",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "lightning-bolt",
+          "name": "Lightning Bolt",
+          "url": "/api/2024/spells/lightning-bolt"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "circle-of-the-sea-5",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "water-breathing",
+          "name": "Water Breathing",
+          "url": "/api/2024/spells/water-breathing"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "circle-of-the-sea-7",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "control-water",
+          "name": "Control Water",
+          "url": "/api/2024/spells/control-water"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "circle-of-the-sea-7",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "ice-storm",
+          "name": "Ice Storm",
+          "url": "/api/2024/spells/ice-storm"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "circle-of-the-sea-9",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "conjure-elemental",
+          "name": "Conjure Elemental",
+          "url": "/api/2024/spells/conjure-elemental"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "circle-of-the-sea-9",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "hold-monster",
+          "name": "Hold Monster",
+          "url": "/api/2024/spells/hold-monster"
+        }
+      }
+    ],
+    "url": "/api/2024/subclasses/circle-of-the-sea"
+  },
+  {
+    "index": "circle-of-the-stars",
+    "class": {
+      "index": "druid",
+      "name": "Druid",
+      "url": "/api/2024/classes/druid"
+    },
+    "name": "Circle of the Stars",
+    "subclass_flavor": "Druid Circle",
+    "desc": [
+      "Harness Secrets Hidden in Constellations",
+      "The Circle of the Stars has tracked heavenly patterns since time immemorial, discovering secrets hidden amid the constellations. By understanding these secrets, the Druids of this circle seek to harness the powers of the cosmos."
+    ],
+    "subclass_levels": "/api/2024/subclasses/circle-of-the-stars/levels",
+    "spells": [
+      {
+        "prerequisites": [
+          {
+            "index": "circle-of-the-stars-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "guidance",
+          "name": "Guidance",
+          "url": "/api/2024/spells/guidance"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "circle-of-the-stars-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "guiding-bolt",
+          "name": "Guiding Bolt",
+          "url": "/api/2024/spells/guiding-bolt"
+        }
+      }
+    ],
+    "url": "/api/2024/subclasses/circle-of-the-stars"
+  },
+  {
+    "index": "clockwork-sorcery",
+    "class": {
+      "index": "sorcerer",
+      "name": "Sorcerer",
+      "url": "/api/2024/classes/sorcerer"
+    },
+    "name": "Clockwork Sorcery",
+    "subclass_flavor": "Sorcerous Origin",
+    "desc": [
+      "Channel Cosmic Forces of Order",
+      "The cosmic force of order has suffused you with magic. That power arises from Mechanus or a realm like it—a plane of existence shaped entirely by clockwork efficiency. You or someone from your lineage might have become entangled in the machinations of modrons, the orderly beings who inhabit Mechanus. Perhaps your ancestor even took part in the Great Modron March. Whatever its origin within you, the power of order can seem strange to others, but for you, it's part of a vast and glorious system."
+    ],
+    "subclass_levels": "/api/2024/subclasses/clockwork-sorcery/levels",
+    "spells": [
+      {
+        "prerequisites": [
+          {
+            "index": "clockwork-sorcery-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "aid",
+          "name": "Aid",
+          "url": "/api/2024/spells/aid"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "clockwork-sorcery-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "alarm",
+          "name": "Alarm",
+          "url": "/api/2024/spells/alarm"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "clockwork-sorcery-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "lesser-restoration",
+          "name": "Lesser Restoration",
+          "url": "/api/2024/spells/lesser-restoration"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "clockwork-sorcery-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "protection-from-evil-and-good",
+          "name": "Protection from Evil and Good",
+          "url": "/api/2024/spells/protection-from-evil-and-good"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "clockwork-sorcery-5",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "dispel-magic",
+          "name": "Dispel Magic",
+          "url": "/api/2024/spells/dispel-magic"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "clockwork-sorcery-5",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "protection-from-energy",
+          "name": "Protection from Energy",
+          "url": "/api/2024/spells/protection-from-energy"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "clockwork-sorcery-7",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "freedom-of-movement",
+          "name": "Freedom of Movement",
+          "url": "/api/2024/spells/freedom-of-movement"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "clockwork-sorcery-7",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "summon-construct",
+          "name": "Summon Construct",
+          "url": "/api/2024/spells/summon-construct"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "clockwork-sorcery-9",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "greater-restoration",
+          "name": "Greater Restoration",
+          "url": "/api/2024/spells/greater-restoration"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "clockwork-sorcery-9",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "wall-of-force",
+          "name": "Wall of Force",
+          "url": "/api/2024/spells/wall-of-force"
+        }
+      }
+    ],
+    "url": "/api/2024/subclasses/clockwork-sorcery"
+  },
+  {
+    "index": "college-of-dance",
+    "class": {
+      "index": "bard",
+      "name": "Bard",
+      "url": "/api/2024/classes/bard"
+    },
+    "name": "College of Dance",
+    "subclass_flavor": "Bard College",
+    "desc": [
+      "Move in Harmony with the Cosmos",
+      "Bards of the College of Dance know that the Words of Creation can't be contained within speech or song; the words are uttered by the movements of celestial bodies and flow through the motions of the smallest creatures. These Bards practice a way of being in harmony with the whirling cosmos that emphasizes agility, speed, and grace."
+    ],
+    "subclass_levels": "/api/2024/subclasses/college-of-dance/levels",
+    "url": "/api/2024/subclasses/college-of-dance"
+  },
+  {
+    "index": "college-of-glamour",
+    "class": {
+      "index": "bard",
+      "name": "Bard",
+      "url": "/api/2024/classes/bard"
+    },
+    "name": "College of Glamour",
+    "subclass_flavor": "Bard College",
+    "desc": [
+      "Weave Beguiling Fey Magic",
+      "The College of Glamour traces its origins to the beguiling magic of the Feywild. Bards who study this magic weave threads of beauty and terror into their songs and stories, and the mightiest among them can cloak themselves in otherworldly majesty. Their performances stir up wistful longing for forgotten innocence, evoke unconscious memories of longheld fears, and tug at the emotions of even the most hard-hearted listeners."
+    ],
+    "subclass_levels": "/api/2024/subclasses/college-of-glamour/levels",
+    "spells": [
+      {
+        "prerequisites": [
+          {
+            "index": "college-of-glamour-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "charm-person",
+          "name": "Charm Person",
+          "url": "/api/2024/spells/charm-person"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "college-of-glamour-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "mirror-image",
+          "name": "Mirror Image",
+          "url": "/api/2024/spells/mirror-image"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "college-of-glamour-6",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "command",
+          "name": "Command",
+          "url": "/api/2024/spells/command"
+        }
+      }
+    ],
+    "url": "/api/2024/subclasses/college-of-glamour"
+  },
+  {
+    "index": "college-of-lore",
+    "class": {
+      "index": "bard",
+      "name": "Bard",
+      "url": "/api/2024/classes/bard"
+    },
+    "name": "College of Lore",
+    "subclass_flavor": "Bard College",
+    "desc": [
+      "Plumb the Depths of Magical Knowledge",
+      "Bards of the College of Lore collect spells and secrets from diverse sources, such as scholarly tomes, mystical rites, and peasant tales. The college's members gather in libraries and universities to share their lore with one another. They also meet at festivals or affairs of state, where they can expose corruption, unravel lies, and poke fun at self-important figures of authority."
+    ],
+    "subclass_levels": "/api/2024/subclasses/college-of-lore/levels",
+    "url": "/api/2024/subclasses/college-of-lore"
+  },
+  {
+    "index": "college-of-spirits",
+    "class": {
+      "index": "bard",
+      "name": "Bard",
+      "url": "/api/2024/classes/bard"
+    },
+    "name": "College of Spirits",
+    "subclass_flavor": "Bard College",
+    "desc": [
+      "Call Forth Spirits from Beyond the Grave",
+      "Bards of the College of Spirits conjure legendary spirits to change the world. But such entities are capricious, and what a Bard summons isn't always entirely under their control."
+    ],
+    "subclass_levels": "/api/2024/subclasses/college-of-spirits/levels",
+    "spells": [
+      {
+        "prerequisites": [
+          {
+            "index": "college-of-spirits-6",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "spirit-guardians",
+          "name": "Spirit Guardians",
+          "url": "/api/2024/spells/spirit-guardians"
+        }
+      }
+    ],
+    "url": "/api/2024/subclasses/college-of-spirits"
+  },
+  {
+    "index": "college-of-the-moon",
+    "class": {
+      "index": "bard",
+      "name": "Bard",
+      "url": "/api/2024/classes/bard"
+    },
+    "name": "College of the Moon",
+    "subclass_flavor": "Bard College",
+    "desc": [
+      "Inspire Allies with Primal Tales",
+      "The College of the Moon traces its origins to the ancient druidic circles of the Moonshae Isles, who entrusted the first Bards of this tradition with chronicling the stories of the islands and their people. Bards of this college draw from the isles' fey magic and the primal power of the moonwells to bolster their allies, protect the natural world, and inspire their bardic works."
+    ],
+    "subclass_levels": "/api/2024/subclasses/college-of-the-moon/levels",
+    "spells": [
+      {
+        "prerequisites": [
+          {
+            "index": "college-of-the-moon-6",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "moonbeam",
+          "name": "Moonbeam",
+          "url": "/api/2024/spells/moonbeam"
+        }
+      }
+    ],
+    "url": "/api/2024/subclasses/college-of-the-moon"
+  },
+  {
+    "index": "college-of-valor",
+    "class": {
+      "index": "bard",
+      "name": "Bard",
+      "url": "/api/2024/classes/bard"
+    },
+    "name": "College of Valor",
+    "subclass_flavor": "Bard College",
+    "desc": [
+      "Sing the Deeds of Ancient Heroes",
+      "Bards of the College of Valor are daring storytellers whose tales preserve the memory of the great heroes of the past. These Bards sing the deeds of the mighty in vaulted halls or to crowds gathered around great bonfires. They travel to witness great events firsthand and to ensure that the memory of these events doesn't pass away. With their songs, they inspire new generations to reach the same heights of accomplishment as the heroes of old."
+    ],
+    "subclass_levels": "/api/2024/subclasses/college-of-valor/levels",
+    "url": "/api/2024/subclasses/college-of-valor"
+  },
+  {
+    "index": "diviner",
+    "class": {
+      "index": "wizard",
+      "name": "Wizard",
+      "url": "/api/2024/classes/wizard"
+    },
+    "name": "Diviner",
+    "subclass_flavor": "Arcane Tradition",
+    "desc": [
+      "Learn the Secrets of the Multiverse",
+      "The counsel of a Diviner is sought by those who want a clearer understanding of the past, present, and future. As a Diviner, you strive to part the veils of space, time, and consciousness. You work to master spells of discernment, remote viewing, supernatural knowledge, and foresight."
+    ],
+    "subclass_levels": "/api/2024/subclasses/diviner/levels",
+    "url": "/api/2024/subclasses/diviner"
+  },
+  {
+    "index": "draconic-sorcery",
+    "class": {
+      "index": "sorcerer",
+      "name": "Sorcerer",
+      "url": "/api/2024/classes/sorcerer"
+    },
+    "name": "Draconic Sorcery",
+    "subclass_flavor": "Sorcerous Origin",
+    "desc": [
+      "Breathe the Magic of Dragons",
+      "Your innate magic comes from the gift of a dragon. Perhaps an ancient dragon facing death bequeathed some of its magical power to you or your ancestor. You might have absorbed magic from a site infused with dragons' power. Or perhaps you handled a treasure taken from a dragon's hoard that was steeped in draconic power. Or you might have a dragon for an ancestor."
+    ],
+    "subclass_levels": "/api/2024/subclasses/draconic-sorcery/levels",
+    "spells": [
+      {
+        "prerequisites": [
+          {
+            "index": "draconic-sorcery-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "alter-self",
+          "name": "Alter Self",
+          "url": "/api/2024/spells/alter-self"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "draconic-sorcery-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "chromatic-orb",
+          "name": "Chromatic Orb",
+          "url": "/api/2024/spells/chromatic-orb"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "draconic-sorcery-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "command",
+          "name": "Command",
+          "url": "/api/2024/spells/command"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "draconic-sorcery-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "dragon-s-breath",
+          "name": "Dragon's Breath",
+          "url": "/api/2024/spells/dragon-s-breath"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "draconic-sorcery-5",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "fear",
+          "name": "Fear",
+          "url": "/api/2024/spells/fear"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "draconic-sorcery-5",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "fly",
+          "name": "Fly",
+          "url": "/api/2024/spells/fly"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "draconic-sorcery-7",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "arcane-eye",
+          "name": "Arcane Eye",
+          "url": "/api/2024/spells/arcane-eye"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "draconic-sorcery-7",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "charm-monster",
+          "name": "Charm Monster",
+          "url": "/api/2024/spells/charm-monster"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "draconic-sorcery-9",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "legend-lore",
+          "name": "Legend Lore",
+          "url": "/api/2024/spells/legend-lore"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "draconic-sorcery-9",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "summon-dragon",
+          "name": "Summon Dragon",
+          "url": "/api/2024/spells/summon-dragon"
+        }
+      }
+    ],
+    "url": "/api/2024/subclasses/draconic-sorcery"
+  },
+  {
+    "index": "eldritch-knight",
+    "class": {
+      "index": "fighter",
+      "name": "Fighter",
+      "url": "/api/2024/classes/fighter"
+    },
+    "name": "Eldritch Knight",
+    "subclass_flavor": "Martial Archetype",
+    "desc": [
+      "Support Combat Skills with Arcane Magic",
+      "Eldritch Knights combine the martial mastery common to all Fighters with a careful study of magic. Their spells both complement and extend their combat skills, providing additional protection to shore up their armor and also allowing them to engage many foes at once with explosive magic."
+    ],
+    "subclass_levels": "/api/2024/subclasses/eldritch-knight/levels",
+    "url": "/api/2024/subclasses/eldritch-knight"
+  },
+  {
+    "index": "evoker",
+    "class": {
+      "index": "wizard",
+      "name": "Wizard",
+      "url": "/api/2024/classes/wizard"
+    },
+    "name": "Evoker",
+    "subclass_flavor": "Arcane Tradition",
+    "desc": [
+      "Create Explosive Elemental Effects",
+      "Your studies focus on magic that creates powerful elemental effects such as bitter cold, searing flame, rolling thunder, crackling lightning, and burning acid. Some Evokers find employment in military forces, serving as artillery to blast armies from afar. Others use their power to protect others, while some seek their own gain."
+    ],
+    "subclass_levels": "/api/2024/subclasses/evoker/levels",
+    "url": "/api/2024/subclasses/evoker"
+  },
+  {
+    "index": "fey-wanderer",
+    "class": {
+      "index": "ranger",
+      "name": "Ranger",
+      "url": "/api/2024/classes/ranger"
+    },
+    "name": "Fey Wanderer",
+    "subclass_flavor": "Ranger Archetype",
+    "desc": [
+      "Wield Fey Mirth and Fury",
+      "A fey mystique surrounds you, thanks to the boon of an archfey or a location in the Feywild that transformed you. However you gained fey magic, you are now a Fey Wanderer. Your joyful laughter brightens the hearts of the downtrodden, and your martial prowess strikes terror in your foes, for great is the mirth of the fey and dreadful is their fury."
+    ],
+    "subclass_levels": "/api/2024/subclasses/fey-wanderer/levels",
+    "spells": [
+      {
+        "prerequisites": [
+          {
+            "index": "fey-wanderer-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "charm-person",
+          "name": "Charm Person",
+          "url": "/api/2024/spells/charm-person"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "fey-wanderer-5",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "misty-step",
+          "name": "Misty Step",
+          "url": "/api/2024/spells/misty-step"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "fey-wanderer-9",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "summon-fey",
+          "name": "Summon Fey",
+          "url": "/api/2024/spells/summon-fey"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "fey-wanderer-13",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "dimension-door",
+          "name": "Dimension Door",
+          "url": "/api/2024/spells/dimension-door"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "fey-wanderer-17",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "mislead",
+          "name": "Mislead",
+          "url": "/api/2024/spells/mislead"
+        }
+      }
+    ],
+    "url": "/api/2024/subclasses/fey-wanderer"
+  },
+  {
+    "index": "fiend-patron",
+    "class": {
+      "index": "warlock",
+      "name": "Warlock",
+      "url": "/api/2024/classes/warlock"
+    },
+    "name": "Fiend Patron",
+    "subclass_flavor": "Otherworldly Patron",
+    "desc": [
+      "Make a Deal with the Lower Planes",
+      "Your pact draws on the Lower Planes, the realms of perdition. You might forge a bargain with a demon lord such as Demogorgon or Orcus; an archdevil such as Asmodeus; or a pit fiend, balor, yugoloth, or night hag that is especially mighty. That patron's aims are evil—the corruption or destruction of all things, ultimately including you—and your path is defined by the extent to which you strive against those aims."
+    ],
+    "subclass_levels": "/api/2024/subclasses/fiend-patron/levels",
+    "spells": [
+      {
+        "prerequisites": [
+          {
+            "index": "fiend-patron-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "burning-hands",
+          "name": "Burning Hands",
+          "url": "/api/2024/spells/burning-hands"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "fiend-patron-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "command",
+          "name": "Command",
+          "url": "/api/2024/spells/command"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "fiend-patron-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "scorching-ray",
+          "name": "Scorching Ray",
+          "url": "/api/2024/spells/scorching-ray"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "fiend-patron-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "suggestion",
+          "name": "Suggestion",
+          "url": "/api/2024/spells/suggestion"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "fiend-patron-5",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "fireball",
+          "name": "Fireball",
+          "url": "/api/2024/spells/fireball"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "fiend-patron-5",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "stinking-cloud",
+          "name": "Stinking Cloud",
+          "url": "/api/2024/spells/stinking-cloud"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "fiend-patron-7",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "fire-shield",
+          "name": "Fire Shield",
+          "url": "/api/2024/spells/fire-shield"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "fiend-patron-7",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "wall-of-fire",
+          "name": "Wall of Fire",
+          "url": "/api/2024/spells/wall-of-fire"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "fiend-patron-9",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "geas",
+          "name": "Geas",
+          "url": "/api/2024/spells/geas"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "fiend-patron-9",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "insect-plague",
+          "name": "Insect Plague",
+          "url": "/api/2024/spells/insect-plague"
+        }
+      }
+    ],
+    "url": "/api/2024/subclasses/fiend-patron"
+  },
+  {
+    "index": "gloom-stalker",
+    "class": {
+      "index": "ranger",
+      "name": "Ranger",
+      "url": "/api/2024/classes/ranger"
+    },
+    "name": "Gloom Stalker",
+    "subclass_flavor": "Ranger Archetype",
+    "desc": [
+      "Draw on Shadow Magic to Fight Your Foes",
+      "Gloom Stalkers are at home in the darkest places, wielding magic drawn from the Shadowfell to combat enemies that lurk in darkness."
+    ],
+    "subclass_levels": "/api/2024/subclasses/gloom-stalker/levels",
+    "spells": [
+      {
+        "prerequisites": [
+          {
+            "index": "gloom-stalker-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "disguise-self",
+          "name": "Disguise Self",
+          "url": "/api/2024/spells/disguise-self"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "gloom-stalker-5",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "rope-trick",
+          "name": "Rope Trick",
+          "url": "/api/2024/spells/rope-trick"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "gloom-stalker-9",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "fear",
+          "name": "Fear",
+          "url": "/api/2024/spells/fear"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "gloom-stalker-13",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "greater-invisibility",
+          "name": "Greater Invisibility",
+          "url": "/api/2024/spells/greater-invisibility"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "gloom-stalker-17",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "seeming",
+          "name": "Seeming",
+          "url": "/api/2024/spells/seeming"
+        }
+      }
+    ],
+    "url": "/api/2024/subclasses/gloom-stalker"
+  },
+  {
+    "index": "grave-domain",
+    "class": {
+      "index": "cleric",
+      "name": "Cleric",
+      "url": "/api/2024/classes/cleric"
+    },
+    "name": "Grave Domain",
+    "subclass_flavor": "Divine Domain",
+    "desc": [
+      "Embody Deific Forces of Death",
+      "The Grave Domain concerns itself with the boundary between life and death. To those who tap into this domain's power, death is a natural and inevitable part of the multiverse. Such Clerics seek to destroy undead and shepherd spirits.",
+      "The magic of this domain also allows these Clerics to stave off death for a time. But this is merely a delay of death, not a denial of it, for the grave will always claim its due."
+    ],
+    "subclass_levels": "/api/2024/subclasses/grave-domain/levels",
+    "spells": [
+      {
+        "prerequisites": [
+          {
+            "index": "grave-domain-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "detect-evil-and-good",
+          "name": "Detect Evil and Good",
+          "url": "/api/2024/spells/detect-evil-and-good"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "grave-domain-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "false-life",
+          "name": "False Life",
+          "url": "/api/2024/spells/false-life"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "grave-domain-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "gentle-repose",
+          "name": "Gentle Repose",
+          "url": "/api/2024/spells/gentle-repose"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "grave-domain-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "ray-of-enfeeblement",
+          "name": "Ray of Enfeeblement",
+          "url": "/api/2024/spells/ray-of-enfeeblement"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "grave-domain-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "spare-the-dying",
+          "name": "Spare the Dying",
+          "url": "/api/2024/spells/spare-the-dying"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "grave-domain-5",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "revivify",
+          "name": "Revivify",
+          "url": "/api/2024/spells/revivify"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "grave-domain-5",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "vampiric-touch",
+          "name": "Vampiric Touch",
+          "url": "/api/2024/spells/vampiric-touch"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "grave-domain-7",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "blight",
+          "name": "Blight",
+          "url": "/api/2024/spells/blight"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "grave-domain-7",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "death-ward",
+          "name": "Death Ward",
+          "url": "/api/2024/spells/death-ward"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "grave-domain-9",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "dispel-evil-and-good",
+          "name": "Dispel Evil and Good",
+          "url": "/api/2024/spells/dispel-evil-and-good"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "grave-domain-9",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "raise-dead",
+          "name": "Raise Dead",
+          "url": "/api/2024/spells/raise-dead"
+        }
+      }
+    ],
+    "url": "/api/2024/subclasses/grave-domain"
+  },
+  {
+    "index": "great-old-one-patron",
+    "class": {
+      "index": "warlock",
+      "name": "Warlock",
+      "url": "/api/2024/classes/warlock"
+    },
+    "name": "Great Old One Patron",
+    "subclass_flavor": "Otherworldly Patron",
+    "desc": [
+      "Unearth Forbidden Lore of Ineffable Beings",
+      "When you choose this subclass, you might bind yourself to an unspeakable being from the Far Realm or an elder god—a being such as Tharizdun, the Chained God; Zargon, the Returner; Hadar, the Dark Hunger; or Great Cthulhu. Or you might invoke several entities without yoking yourself to one. The motives of these beings are incomprehensible, and the Great Old One might be indifferent to your existence. But the secrets you've learned nevertheless allow you to draw strange magic from it."
+    ],
+    "subclass_levels": "/api/2024/subclasses/great-old-one-patron/levels",
+    "spells": [
+      {
+        "prerequisites": [
+          {
+            "index": "great-old-one-patron-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "detect-thoughts",
+          "name": "Detect Thoughts",
+          "url": "/api/2024/spells/detect-thoughts"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "great-old-one-patron-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "dissonant-whispers",
+          "name": "Dissonant Whispers",
+          "url": "/api/2024/spells/dissonant-whispers"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "great-old-one-patron-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "phantasmal-force",
+          "name": "Phantasmal Force",
+          "url": "/api/2024/spells/phantasmal-force"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "great-old-one-patron-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "tasha-s-hideous-laughter",
+          "name": "Tasha's Hideous Laughter",
+          "url": "/api/2024/spells/tasha-s-hideous-laughter"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "great-old-one-patron-5",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "clairvoyance",
+          "name": "Clairvoyance",
+          "url": "/api/2024/spells/clairvoyance"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "great-old-one-patron-5",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "hunger-of-hadar",
+          "name": "Hunger of Hadar",
+          "url": "/api/2024/spells/hunger-of-hadar"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "great-old-one-patron-7",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "confusion",
+          "name": "Confusion",
+          "url": "/api/2024/spells/confusion"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "great-old-one-patron-7",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "summon-aberration",
+          "name": "Summon Aberration",
+          "url": "/api/2024/spells/summon-aberration"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "great-old-one-patron-9",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "modify-memory",
+          "name": "Modify Memory",
+          "url": "/api/2024/spells/modify-memory"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "great-old-one-patron-9",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "telekinesis",
+          "name": "Telekinesis",
+          "url": "/api/2024/spells/telekinesis"
+        }
+      }
+    ],
+    "url": "/api/2024/subclasses/great-old-one-patron"
+  },
+  {
+    "index": "hollow-warden",
+    "class": {
+      "index": "ranger",
+      "name": "Ranger",
+      "url": "/api/2024/classes/ranger"
+    },
+    "name": "Hollow Warden",
+    "subclass_flavor": "Ranger Archetype",
+    "desc": [
+      "Draw on the Might of Ancient Wild Terrors",
+      "Legends tell that the most ancient and bloodthirsty terrors lurk deep within the old places of the earth. Hollow Wardens venerate and draw power from such beings, transforming themselves into merciless and monstrous guardians that stalk jagged coastlines, steep mountain crags, and other dark and wild places."
+    ],
+    "subclass_levels": "/api/2024/subclasses/hollow-warden/levels",
+    "spells": [
+      {
+        "prerequisites": [
+          {
+            "index": "hollow-warden-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "wrathful-smite",
+          "name": "Wrathful Smite",
+          "url": "/api/2024/spells/wrathful-smite"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "hollow-warden-5",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "alter-self",
+          "name": "Alter Self",
+          "url": "/api/2024/spells/alter-self"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "hollow-warden-9",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "phantom-steed",
+          "name": "Phantom Steed",
+          "url": "/api/2024/spells/phantom-steed"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "hollow-warden-13",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "dominate-beast",
+          "name": "Dominate Beast",
+          "url": "/api/2024/spells/dominate-beast"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "hollow-warden-17",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "steel-wind-strike",
+          "name": "Steel Wind Strike",
+          "url": "/api/2024/spells/steel-wind-strike"
+        }
+      }
+    ],
+    "url": "/api/2024/subclasses/hollow-warden"
+  },
+  {
+    "index": "hunter",
+    "class": {
+      "index": "ranger",
+      "name": "Ranger",
+      "url": "/api/2024/classes/ranger"
+    },
+    "name": "Hunter",
+    "subclass_flavor": "Ranger Archetype",
+    "desc": [
+      "Protect Nature and People from Destruction",
+      "You stalk prey in the wilds and elsewhere, using your abilities as a Hunter to protect nature and people everywhere from forces that would destroy them."
+    ],
+    "subclass_levels": "/api/2024/subclasses/hunter/levels",
+    "url": "/api/2024/subclasses/hunter"
+  },
+  {
+    "index": "illusionist",
+    "class": {
+      "index": "wizard",
+      "name": "Wizard",
+      "url": "/api/2024/classes/wizard"
+    },
+    "name": "Illusionist",
+    "subclass_flavor": "Arcane Tradition",
+    "desc": [
+      "Weave Subtle Spells of Deception",
+      "You specialize in magic that dazzles the senses and tricks the mind, and the illusions you craft make the impossible seem real."
+    ],
+    "subclass_levels": "/api/2024/subclasses/illusionist/levels",
+    "url": "/api/2024/subclasses/illusionist"
+  },
+  {
+    "index": "knowledge-domain",
+    "class": {
+      "index": "cleric",
+      "name": "Cleric",
+      "url": "/api/2024/classes/cleric"
+    },
+    "name": "Knowledge Domain",
+    "subclass_flavor": "Divine Domain",
+    "desc": [
+      "Unearth Secrets and Master the Mind",
+      "The Knowledge Domain values learning and understanding above all. Clerics who tap into this domain study esoteric lore, collect old tomes, delve into secret places, and examine the processes of the mind. To them, knowledge is more valuable than material wealth, and learning is an act of worship. Libraries, universities, and other educational institutions also draw on the power of the Knowledge Domain.",
+      "Gods of knowledge vary from masters of arcane magic to patrons of craft and invention. In Faerun, Clerics of the Knowledge Domain worship deities of learning and ingenuity such as Oghma and Gond, among many others."
+    ],
+    "subclass_levels": "/api/2024/subclasses/knowledge-domain/levels",
+    "spells": [
+      {
+        "prerequisites": [
+          {
+            "index": "knowledge-domain-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "command",
+          "name": "Command",
+          "url": "/api/2024/spells/command"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "knowledge-domain-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "comprehend-languages",
+          "name": "Comprehend Languages",
+          "url": "/api/2024/spells/comprehend-languages"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "knowledge-domain-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "detect-magic",
+          "name": "Detect Magic",
+          "url": "/api/2024/spells/detect-magic"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "knowledge-domain-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "detect-thoughts",
+          "name": "Detect Thoughts",
+          "url": "/api/2024/spells/detect-thoughts"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "knowledge-domain-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "identify",
+          "name": "Identify",
+          "url": "/api/2024/spells/identify"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "knowledge-domain-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "mind-spike",
+          "name": "Mind Spike",
+          "url": "/api/2024/spells/mind-spike"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "knowledge-domain-5",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "dispel-magic",
+          "name": "Dispel Magic",
+          "url": "/api/2024/spells/dispel-magic"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "knowledge-domain-5",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "nondetection",
+          "name": "Nondetection",
+          "url": "/api/2024/spells/nondetection"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "knowledge-domain-5",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "tongues",
+          "name": "Tongues",
+          "url": "/api/2024/spells/tongues"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "knowledge-domain-7",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "arcane-eye",
+          "name": "Arcane Eye",
+          "url": "/api/2024/spells/arcane-eye"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "knowledge-domain-7",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "banishment",
+          "name": "Banishment",
+          "url": "/api/2024/spells/banishment"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "knowledge-domain-7",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "confusion",
+          "name": "Confusion",
+          "url": "/api/2024/spells/confusion"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "knowledge-domain-9",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "legend-lore",
+          "name": "Legend Lore",
+          "url": "/api/2024/spells/legend-lore"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "knowledge-domain-9",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "scrying",
+          "name": "Scrying",
+          "url": "/api/2024/spells/scrying"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "knowledge-domain-9",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "synaptic-static",
+          "name": "Synaptic Static",
+          "url": "/api/2024/spells/synaptic-static"
+        }
+      }
+    ],
+    "url": "/api/2024/subclasses/knowledge-domain"
+  },
+  {
+    "index": "life-domain",
+    "class": {
+      "index": "cleric",
+      "name": "Cleric",
+      "url": "/api/2024/classes/cleric"
+    },
+    "name": "Life Domain",
+    "subclass_flavor": "Divine Domain",
+    "desc": [
+      "Soothe the Hurts of the World",
+      "The Life Domain focuses on the positive energy that helps sustain all life in the multiverse. Clerics who tap into this domain are masters of healing, using that life force to cure many hurts.",
+      "Existence itself relies on the positive energy associated with this domain, so a Cleric of almost any religious tradition might choose it. This domain is particularly associated with agricultural deities, gods of healing or endurance, and gods of home and community. Religious orders of healing also seek the magic of this domain."
+    ],
+    "subclass_levels": "/api/2024/subclasses/life-domain/levels",
+    "spells": [
+      {
+        "prerequisites": [
+          {
+            "index": "life-domain-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "aid",
+          "name": "Aid",
+          "url": "/api/2024/spells/aid"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "life-domain-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "bless",
+          "name": "Bless",
+          "url": "/api/2024/spells/bless"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "life-domain-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "cure-wounds",
+          "name": "Cure Wounds",
+          "url": "/api/2024/spells/cure-wounds"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "life-domain-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "lesser-restoration",
+          "name": "Lesser Restoration",
+          "url": "/api/2024/spells/lesser-restoration"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "life-domain-5",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "mass-healing-word",
+          "name": "Mass Healing Word",
+          "url": "/api/2024/spells/mass-healing-word"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "life-domain-5",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "revivify",
+          "name": "Revivify",
+          "url": "/api/2024/spells/revivify"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "life-domain-7",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "aura-of-life",
+          "name": "Aura of Life",
+          "url": "/api/2024/spells/aura-of-life"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "life-domain-7",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "death-ward",
+          "name": "Death Ward",
+          "url": "/api/2024/spells/death-ward"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "life-domain-9",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "greater-restoration",
+          "name": "Greater Restoration",
+          "url": "/api/2024/spells/greater-restoration"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "life-domain-9",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "mass-cure-wounds",
+          "name": "Mass Cure Wounds",
+          "url": "/api/2024/spells/mass-cure-wounds"
+        }
+      }
+    ],
+    "url": "/api/2024/subclasses/life-domain"
+  },
+  {
+    "index": "light-domain",
+    "class": {
+      "index": "cleric",
+      "name": "Cleric",
+      "url": "/api/2024/classes/cleric"
+    },
+    "name": "Light Domain",
+    "subclass_flavor": "Divine Domain",
+    "desc": [
+      "Bring Light to Banish Darkness",
+      "The Light Domain emphasizes the divine power to bring about blazing fire and revelation. Clerics who wield this power are enlightened souls infused with radiance and the power of their deities' discerning vision, charged with chasing away lies and burning away darkness.",
+      "The Light Domain is associated with gods of truth, vigilance, beauty, insight, and renewal. Some of these gods are identified with the sun or as charioteers who guide the sun across the sky. Others are sentinels who pierce deception. Some are deities of beauty and artistry who teach that art is a vehicle for the soul's improvement."
+    ],
+    "subclass_levels": "/api/2024/subclasses/light-domain/levels",
+    "spells": [
+      {
+        "prerequisites": [
+          {
+            "index": "light-domain-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "burning-hands",
+          "name": "Burning Hands",
+          "url": "/api/2024/spells/burning-hands"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "light-domain-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "faerie-fire",
+          "name": "Faerie Fire",
+          "url": "/api/2024/spells/faerie-fire"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "light-domain-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "scorching-ray",
+          "name": "Scorching Ray",
+          "url": "/api/2024/spells/scorching-ray"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "light-domain-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "see-invisibility",
+          "name": "See Invisibility",
+          "url": "/api/2024/spells/see-invisibility"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "light-domain-5",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "daylight",
+          "name": "Daylight",
+          "url": "/api/2024/spells/daylight"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "light-domain-5",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "fireball",
+          "name": "Fireball",
+          "url": "/api/2024/spells/fireball"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "light-domain-7",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "arcane-eye",
+          "name": "Arcane Eye",
+          "url": "/api/2024/spells/arcane-eye"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "light-domain-7",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "wall-of-fire",
+          "name": "Wall of Fire",
+          "url": "/api/2024/spells/wall-of-fire"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "light-domain-9",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "flame-strike",
+          "name": "Flame Strike",
+          "url": "/api/2024/spells/flame-strike"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "light-domain-9",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "scrying",
+          "name": "Scrying",
+          "url": "/api/2024/spells/scrying"
+        }
+      }
+    ],
+    "url": "/api/2024/subclasses/light-domain"
+  },
+  {
+    "index": "oath-of-devotion",
+    "class": {
+      "index": "paladin",
+      "name": "Paladin",
+      "url": "/api/2024/classes/paladin"
+    },
+    "name": "Oath of Devotion",
+    "subclass_flavor": "Sacred Oath",
+    "desc": [
+      "Uphold the Ideals of Justice and Order",
+      "The Oath of Devotion binds Paladins to the ideals of Justice and Order. These Paladins meet the archetype of the knight in shining armor. They hold themselves to the highest standards of conduct, and some - for better or worse - hold the rest of the world to the same standards.",
+      "Many who swear this oath are devoted to gods of law and good and use their gods' tenets as the measure of personal devotion. Others holed angels as their ideals and incorporate images of angelic wings into their helmets or coats of arms.",
+      "These Paladins share the following tenets:",
+      "Let your word be your promise.",
+      "Protect the weak and never fear to act.",
+      "Let your honorable deeds be an example."
+    ],
+    "subclass_levels": "/api/2024/subclasses/oath-of-devotion/levels",
+    "spells": [
+      {
+        "prerequisites": [
+          {
+            "index": "oath-of-devotion-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "protection-from-evil-and-good",
+          "name": "Protection from Evil and Good",
+          "url": "/api/2024/spells/protection-from-evil-and-good"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "oath-of-devotion-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "shield-of-faith",
+          "name": "Shield of Faith",
+          "url": "/api/2024/spells/shield-of-faith"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "oath-of-devotion-5",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "aid",
+          "name": "Aid",
+          "url": "/api/2024/spells/aid"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "oath-of-devotion-5",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "zone-of-truth",
+          "name": "Zone of Truth",
+          "url": "/api/2024/spells/zone-of-truth"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "oath-of-devotion-9",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "beacon-of-hope",
+          "name": "Beacon of Hope",
+          "url": "/api/2024/spells/beacon-of-hope"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "oath-of-devotion-9",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "dispel-magic",
+          "name": "Dispel Magic",
+          "url": "/api/2024/spells/dispel-magic"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "oath-of-devotion-13",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "freedom-of-movement",
+          "name": "Freedom of Movement",
+          "url": "/api/2024/spells/freedom-of-movement"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "oath-of-devotion-13",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "guardian-of-faith",
+          "name": "Guardian of Faith",
+          "url": "/api/2024/spells/guardian-of-faith"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "oath-of-devotion-17",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "commune",
+          "name": "Commune",
+          "url": "/api/2024/spells/commune"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "oath-of-devotion-17",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "flame-strike",
+          "name": "Flame Strike",
+          "url": "/api/2024/spells/flame-strike"
+        }
+      }
+    ],
+    "url": "/api/2024/subclasses/oath-of-devotion"
+  },
+  {
+    "index": "oath-of-glory",
+    "class": {
+      "index": "paladin",
+      "name": "Paladin",
+      "url": "/api/2024/classes/paladin"
+    },
+    "name": "Oath of Glory",
+    "subclass_flavor": "Sacred Oath",
+    "desc": [
+      "Strive for the Heights of Heroism",
+      "Paladins who take the Oath of Glory believe they and their companions are destined to achieve glory through deeds of heroism. They train diligently and encourage their companions, so that they're all ready when destiny calls.",
+      "These Paladins share the following tenets:",
+      "Endeavor to be known by your deeds.",
+      "Face hardships with courage.",
+      "Inspire others to strive for glory."
+    ],
+    "subclass_levels": "/api/2024/subclasses/oath-of-glory/levels",
+    "spells": [
+      {
+        "prerequisites": [
+          {
+            "index": "oath-of-glory-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "guiding-bolt",
+          "name": "Guiding Bolt",
+          "url": "/api/2024/spells/guiding-bolt"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "oath-of-glory-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "heroism",
+          "name": "Heroism",
+          "url": "/api/2024/spells/heroism"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "oath-of-glory-5",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "enhance-ability",
+          "name": "Enhance Ability",
+          "url": "/api/2024/spells/enhance-ability"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "oath-of-glory-5",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "magic-weapon",
+          "name": "Magic Weapon",
+          "url": "/api/2024/spells/magic-weapon"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "oath-of-glory-9",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "haste",
+          "name": "Haste",
+          "url": "/api/2024/spells/haste"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "oath-of-glory-9",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "protection-from-energy",
+          "name": "Protection from Energy",
+          "url": "/api/2024/spells/protection-from-energy"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "oath-of-glory-13",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "compulsion",
+          "name": "Compulsion",
+          "url": "/api/2024/spells/compulsion"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "oath-of-glory-13",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "freedom-of-movement",
+          "name": "Freedom of Movement",
+          "url": "/api/2024/spells/freedom-of-movement"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "oath-of-glory-17",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "legend-lore",
+          "name": "Legend Lore",
+          "url": "/api/2024/spells/legend-lore"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "oath-of-glory-17",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "yolande-s-regal-presence",
+          "name": "Yolande's Regal Presence",
+          "url": "/api/2024/spells/yolande-s-regal-presence"
+        }
+      }
+    ],
+    "url": "/api/2024/subclasses/oath-of-glory"
+  },
+  {
+    "index": "oath-of-the-ancients",
+    "class": {
+      "index": "paladin",
+      "name": "Paladin",
+      "url": "/api/2024/classes/paladin"
+    },
+    "name": "Oath of the Ancients",
+    "subclass_flavor": "Sacred Oath",
+    "desc": [
+      "Preserve Life and Light in the World",
+      "The Oath of the Ancients is as old as the first elves. Paladins who swear this oath cherish the light; they love the beautiful and life-giving things of the world more than any principles of honor, courage and justice. They often adorn their armor and clothing with images of growing things - leaves, antlers, or flowers - to reflect their commitment to preserving life and light.",
+      "These Paladins share the following tenets:",
+      "Kindle the light of hope.",
+      "Shelter life.",
+      "Delight in art and laughter."
+    ],
+    "subclass_levels": "/api/2024/subclasses/oath-of-the-ancients/levels",
+    "spells": [
+      {
+        "prerequisites": [
+          {
+            "index": "oath-of-the-ancients-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "ensnaring-strike",
+          "name": "Ensnaring Strike",
+          "url": "/api/2024/spells/ensnaring-strike"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "oath-of-the-ancients-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "speak-with-animals",
+          "name": "Speak with Animals",
+          "url": "/api/2024/spells/speak-with-animals"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "oath-of-the-ancients-5",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "misty-step",
+          "name": "Misty Step",
+          "url": "/api/2024/spells/misty-step"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "oath-of-the-ancients-5",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "moonbeam",
+          "name": "Moonbeam",
+          "url": "/api/2024/spells/moonbeam"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "oath-of-the-ancients-9",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "plant-growth",
+          "name": "Plant Growth",
+          "url": "/api/2024/spells/plant-growth"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "oath-of-the-ancients-9",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "protection-from-energy",
+          "name": "Protection from Energy",
+          "url": "/api/2024/spells/protection-from-energy"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "oath-of-the-ancients-13",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "ice-storm",
+          "name": "Ice Storm",
+          "url": "/api/2024/spells/ice-storm"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "oath-of-the-ancients-13",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "stoneskin",
+          "name": "Stoneskin",
+          "url": "/api/2024/spells/stoneskin"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "oath-of-the-ancients-17",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "commune-with-nature",
+          "name": "Commune with Nature",
+          "url": "/api/2024/spells/commune-with-nature"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "oath-of-the-ancients-17",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "tree-stride",
+          "name": "Tree Stride",
+          "url": "/api/2024/spells/tree-stride"
+        }
+      }
+    ],
+    "url": "/api/2024/subclasses/oath-of-the-ancients"
+  },
+  {
+    "index": "oath-of-the-noble-genies",
+    "class": {
+      "index": "paladin",
+      "name": "Paladin",
+      "url": "/api/2024/classes/paladin"
+    },
+    "name": "Oath of the Noble Genies",
+    "subclass_flavor": "Sacred Oath",
+    "desc": [
+      "Brandish the Elemental Splendor of Genies",
+      "Paladins sworn to the Oath of the Noble Genies revere the forces of the Elemental Planes. Through taking this oath, Paladins draw power from the four different types of genies—dao, masters of earth; djinn, masters of air; efreet, masters of fire; and marids, masters of water. In Faerûn, many Paladins who swear this oath hail from Calimshan, a land teeming with genies.",
+      "Paladins who swear this oath often undertake quests that take them all over the Realms and across the multiverse—including the Elemental Planes. These paladins share the following tenets:",
+      "Sow the seeds of creation amid the ashes of destruction.",
+      "Lead with splendor and grace.",
+      "Respect the elements, and fear their wrath."
+    ],
+    "subclass_levels": "/api/2024/subclasses/oath-of-the-noble-genies/levels",
+    "spells": [
+      {
+        "prerequisites": [
+          {
+            "index": "oath-of-the-noble-genies-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "chromatic-orb",
+          "name": "Chromatic Orb",
+          "url": "/api/2024/spells/chromatic-orb"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "oath-of-the-noble-genies-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "elementalism",
+          "name": "Elementalism",
+          "url": "/api/2024/spells/elementalism"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "oath-of-the-noble-genies-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "thunderous-smite",
+          "name": "Thunderous Smite",
+          "url": "/api/2024/spells/thunderous-smite"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "oath-of-the-noble-genies-5",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "mirror-image",
+          "name": "Mirror Image",
+          "url": "/api/2024/spells/mirror-image"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "oath-of-the-noble-genies-5",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "phantasmal-force",
+          "name": "Phantasmal Force",
+          "url": "/api/2024/spells/phantasmal-force"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "oath-of-the-noble-genies-9",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "fly",
+          "name": "Fly",
+          "url": "/api/2024/spells/fly"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "oath-of-the-noble-genies-9",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "gaseous-form",
+          "name": "Gaseous Form",
+          "url": "/api/2024/spells/gaseous-form"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "oath-of-the-noble-genies-13",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "conjure-minor-elementals",
+          "name": "Conjure Minor Elementals",
+          "url": "/api/2024/spells/conjure-minor-elementals"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "oath-of-the-noble-genies-13",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "summon-elemental",
+          "name": "Summon Elemental",
+          "url": "/api/2024/spells/summon-elemental"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "oath-of-the-noble-genies-17",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "banishing-smite",
+          "name": "Banishing Smite",
+          "url": "/api/2024/spells/banishing-smite"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "oath-of-the-noble-genies-17",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "contact-other-plane",
+          "name": "Contact Other Plane",
+          "url": "/api/2024/spells/contact-other-plane"
+        }
+      }
+    ],
+    "url": "/api/2024/subclasses/oath-of-the-noble-genies"
+  },
+  {
+    "index": "oath-of-vengeance",
+    "class": {
+      "index": "paladin",
+      "name": "Paladin",
+      "url": "/api/2024/classes/paladin"
+    },
+    "name": "Oath of Vengeance",
+    "subclass_flavor": "Sacred Oath",
+    "desc": [
+      "Punish Evildoers at Any Cost",
+      "The Oath of Vengeance is a solemn commitment to punish those who have committed grievously evil acts. When evil armies slaughter helpless villagers, when a tyrant defies the will of the gods, when a thieves' guild grows too violent, when a dragon rampages though the countryside - at times like these, Paladins arise and swear the Oath of Vengeance to set right what has gone wrong.",
+      "These Paladins share the following tenets:",
+      "Show the wicked no mercy.",
+      "Fight injustice and its causes.",
+      "Aid those harmed by injustice."
+    ],
+    "subclass_levels": "/api/2024/subclasses/oath-of-vengeance/levels",
+    "spells": [
+      {
+        "prerequisites": [
+          {
+            "index": "oath-of-vengeance-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "bane",
+          "name": "Bane",
+          "url": "/api/2024/spells/bane"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "oath-of-vengeance-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "hunter-s-mark",
+          "name": "Hunter's Mark",
+          "url": "/api/2024/spells/hunter-s-mark"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "oath-of-vengeance-5",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "hold-person",
+          "name": "Hold Person",
+          "url": "/api/2024/spells/hold-person"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "oath-of-vengeance-5",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "misty-step",
+          "name": "Misty Step",
+          "url": "/api/2024/spells/misty-step"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "oath-of-vengeance-9",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "haste",
+          "name": "Haste",
+          "url": "/api/2024/spells/haste"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "oath-of-vengeance-9",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "protection-from-energy",
+          "name": "Protection from Energy",
+          "url": "/api/2024/spells/protection-from-energy"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "oath-of-vengeance-13",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "banishment",
+          "name": "Banishment",
+          "url": "/api/2024/spells/banishment"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "oath-of-vengeance-13",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "dimension-door",
+          "name": "Dimension Door",
+          "url": "/api/2024/spells/dimension-door"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "oath-of-vengeance-17",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "hold-monster",
+          "name": "Hold Monster",
+          "url": "/api/2024/spells/hold-monster"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "oath-of-vengeance-17",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "scrying",
+          "name": "Scrying",
+          "url": "/api/2024/spells/scrying"
+        }
+      }
+    ],
+    "url": "/api/2024/subclasses/oath-of-vengeance"
+  },
+  {
+    "index": "path-of-the-berserker",
+    "class": {
+      "index": "barbarian",
+      "name": "Barbarian",
+      "url": "/api/2024/classes/barbarian"
+    },
+    "name": "Path of the Berserker",
+    "subclass_flavor": "Primal Path",
+    "desc": [
+      "Channel Rage into Violent Fury",
+      "Barbarians who walk the Path of the Berserker direct their Rage primarily toward violence. Their path is one of untrammeled fury, and they thrill in the chaos of battle as they allow their Rage to seize and empower them."
+    ],
+    "subclass_levels": "/api/2024/subclasses/path-of-the-berserker/levels",
+    "url": "/api/2024/subclasses/path-of-the-berserker"
+  },
+  {
+    "index": "path-of-the-wild-heart",
+    "class": {
+      "index": "barbarian",
+      "name": "Barbarian",
+      "url": "/api/2024/classes/barbarian"
+    },
+    "name": "Path of the Wild Heart",
+    "subclass_flavor": "Primal Path",
+    "desc": [
+      "Walk in Community with the Animal World",
+      "Barbarians who follow the Path of the Wild Heart view themselves as kin to animals. These Barbarians learn magical means to communicate with animals, and their Rage heightens their connection to animals as it fills them with supernatural might."
+    ],
+    "subclass_levels": "/api/2024/subclasses/path-of-the-wild-heart/levels",
+    "url": "/api/2024/subclasses/path-of-the-wild-heart"
+  },
+  {
+    "index": "path-of-the-world-tree",
+    "class": {
+      "index": "barbarian",
+      "name": "Barbarian",
+      "url": "/api/2024/classes/barbarian"
+    },
+    "name": "Path of the World Tree",
+    "subclass_flavor": "Primal Path",
+    "desc": [
+      "Trace the Roots and Branches of the Multiverse",
+      "Barbarians who follow the Path of the World Tree connect with the cosmic tree Yggdrasil through their Rage. This tree grows among the Outer Planes, connecting them to each other and the Material Plane. These Barbarians draw on the tree's magic for vitality and as a means of dimensional travel."
+    ],
+    "subclass_levels": "/api/2024/subclasses/path-of-the-world-tree/levels",
+    "url": "/api/2024/subclasses/path-of-the-world-tree"
+  },
+  {
+    "index": "path-of-the-zealot",
+    "class": {
+      "index": "barbarian",
+      "name": "Barbarian",
+      "url": "/api/2024/classes/barbarian"
+    },
+    "name": "Path of the Zealot",
+    "subclass_flavor": "Primal Path",
+    "desc": [
+      "Rage in Ecstatic Union with a God",
+      "Barbarians who walk the Path of the Zealot receive boons from a god or pantheon. These Barbarians experience their Rage as an ecstatic episode of divine union that infuses them with power. They are often allies to the priests and other followers of their god or pantheon."
+    ],
+    "subclass_levels": "/api/2024/subclasses/path-of-the-zealot/levels",
+    "url": "/api/2024/subclasses/path-of-the-zealot"
+  },
+  {
+    "index": "phantom",
+    "class": {
+      "index": "rogue",
+      "name": "Rogue",
+      "url": "/api/2024/classes/rogue"
+    },
+    "name": "Phantom",
+    "subclass_flavor": "Roguish Archetype",
+    "desc": [
+      "Embrace Death and Wield Ghostly Power",
+      "Some Rogues traverse the veil between life and death, shepherding opponents to the grave and slipping through the world as undetectable as a spirit. In these pursuits, a Rogue might discover a mystical connection to death itself. Such an individual becomes immersed in negative energy, infusing their strikes with deathly energy and stealing knowledge from souls who have passed on. Thieves' guilds value Rogues of this persuasion as highly effective information gatherers and spies."
+    ],
+    "subclass_levels": "/api/2024/subclasses/phantom/levels",
+    "url": "/api/2024/subclasses/phantom"
+  },
+  {
+    "index": "psi-warrior",
+    "class": {
+      "index": "fighter",
+      "name": "Fighter",
+      "url": "/api/2024/classes/fighter"
+    },
+    "name": "Psi Warrior",
+    "subclass_flavor": "Martial Archetype",
+    "desc": [
+      "Augment Physical Might with Psionic Power",
+      "Psi Warriors awaken the power of their minds to augment their physical might. They harness this psionic power to infuse their weapon strikes, lash out with telekinetic energy, and create barriers of mental force."
+    ],
+    "subclass_levels": "/api/2024/subclasses/psi-warrior/levels",
+    "spells": [
+      {
+        "prerequisites": [
+          {
+            "index": "psi-warrior-18",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "telekinesis",
+          "name": "Telekinesis",
+          "url": "/api/2024/spells/telekinesis"
+        }
+      }
+    ],
+    "url": "/api/2024/subclasses/psi-warrior"
+  },
+  {
+    "index": "scion-of-the-three",
+    "class": {
+      "index": "rogue",
+      "name": "Rogue",
+      "url": "/api/2024/classes/rogue"
+    },
+    "name": "Scion of the Three",
+    "subclass_flavor": "Roguish Archetype",
+    "desc": [
+      "Become a Gruesome Agent of Malice",
+      "A Scion of the Three draws power from a group of malevolent gods known in Baldur's Gate as the Dead Three: Bane, a god of tyranny; Bhaal, a god of violence and murder; and Myrkul, a god of death. While some Rogues of this subclass pledge themselves ardently to those three macabre gods, others are thrust on this path by a curse. Either way, a scion's power manifests as various occult gifts, as well as an uncanny talent for striking and terrifying foes.",
+      "Scions of the Three are most common in Baldur's Gate, where the Dead Three lived as mortals before ascending to godhood. Underground cults to Bane, Bhaal, and Myrkul often count Scions of the Three among their most useful agents. Outside Baldur's Gate, secular thieves' guilds such as the Shadow Thieves of Amn or the Xanathar Guild in Waterdeep might call on a Scion of the Three to undertake an especially violent contract."
+    ],
+    "subclass_levels": "/api/2024/subclasses/scion-of-the-three/levels",
+    "url": "/api/2024/subclasses/scion-of-the-three"
+  },
+  {
+    "index": "shadow-sorcery",
+    "class": {
+      "index": "sorcerer",
+      "name": "Sorcerer",
+      "url": "/api/2024/classes/sorcerer"
+    },
+    "name": "Shadow Sorcery",
+    "subclass_flavor": "Sorcerous Origin",
+    "desc": [
+      "Bend Doom and Darkness to Your Will",
+      "Your innate magic comes from the most nebulous and inscrutable forces of the Shadowfell or from other regions of supernatural darkness. You might trace your lineage to an entity from such a place, or perhaps you were exposed to the sinister energy of a shadow dragon and were transformed by it. Your shadowy magic allows you to command darkness, undeath, and woe."
+    ],
+    "subclass_levels": "/api/2024/subclasses/shadow-sorcery/levels",
+    "spells": [
+      {
+        "prerequisites": [
+          {
+            "index": "shadow-sorcery-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "bane",
+          "name": "Bane",
+          "url": "/api/2024/spells/bane"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "shadow-sorcery-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "darkness",
+          "name": "Darkness",
+          "url": "/api/2024/spells/darkness"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "shadow-sorcery-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "inflict-wounds",
+          "name": "Inflict Wounds",
+          "url": "/api/2024/spells/inflict-wounds"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "shadow-sorcery-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "pass-without-trace",
+          "name": "Pass Without Trace",
+          "url": "/api/2024/spells/pass-without-trace"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "shadow-sorcery-5",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "hunger-of-hadar",
+          "name": "Hunger of Hadar",
+          "url": "/api/2024/spells/hunger-of-hadar"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "shadow-sorcery-5",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "nondetection",
+          "name": "Nondetection",
+          "url": "/api/2024/spells/nondetection"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "shadow-sorcery-7",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "greater-invisibility",
+          "name": "Greater Invisibility",
+          "url": "/api/2024/spells/greater-invisibility"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "shadow-sorcery-7",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "phantasmal-killer",
+          "name": "Phantasmal Killer",
+          "url": "/api/2024/spells/phantasmal-killer"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "shadow-sorcery-9",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "contagion",
+          "name": "Contagion",
+          "url": "/api/2024/spells/contagion"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "shadow-sorcery-9",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "creation",
+          "name": "Creation",
+          "url": "/api/2024/spells/creation"
+        }
+      }
+    ],
+    "url": "/api/2024/subclasses/shadow-sorcery"
+  },
+  {
+    "index": "soulknife",
+    "class": {
+      "index": "rogue",
+      "name": "Rogue",
+      "url": "/api/2024/classes/rogue"
+    },
+    "name": "Soulknife",
+    "subclass_flavor": "Roguish Archetype",
+    "desc": [
+      "Strike Foes with Psionic Blades",
+      "A Soulknife strikes with the mind, cutting through barriers both physical and psychic. These Rogues discover psionic power within themselves and channel it to do their roguish work. As a Soulknife your psionic abilities might have haunted you since childhood, revealing their full potential only as you experienced the stress of adventure. Or you might have sought out an order of psychic adepts and spent years learning how to manifest your power."
+    ],
+    "subclass_levels": "/api/2024/subclasses/soulknife/levels",
+    "url": "/api/2024/subclasses/soulknife"
+  },
+  {
+    "index": "spellfire-sorcery",
+    "class": {
+      "index": "sorcerer",
+      "name": "Sorcerer",
+      "url": "/api/2024/classes/sorcerer"
+    },
+    "name": "Spellfire Sorcery",
+    "subclass_flavor": "Sorcerous Origin",
+    "desc": [
+      "Wield Raw Magic",
+      "Your innate power stems from the source of magic itself: the Weave. This connection manifests as a rare ability known as spellfire, and you surge with radiant bursts of this raw magic. Your talent with spellfire allows you to heal allies, sear enemies, and absorb powerful spells.",
+      "Wielders of spellfire tend to have a penchant for wandering. Many travel between cosmopolitan settlements, such as those along the Sword Coast, and wield their magic in service of the common good. Others realize their own strange powers by roaming equally strange lands, from the magic-blasted wastes of the desert of Anauroch to the god-touched wilds of the Old Empires. Wherever they go in the Realms, spellfire Sorcerers are courted by factions with interests in the arcane arts, such as the Harpers, Cult of the Dragon, and Red Wizards."
+    ],
+    "subclass_levels": "/api/2024/subclasses/spellfire-sorcery/levels",
+    "spells": [
+      {
+        "prerequisites": [
+          {
+            "index": "spellfire-sorcery-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "cure-wounds",
+          "name": "Cure Wounds",
+          "url": "/api/2024/spells/cure-wounds"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "spellfire-sorcery-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "guiding-bolt",
+          "name": "Guiding Bolt",
+          "url": "/api/2024/spells/guiding-bolt"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "spellfire-sorcery-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "lesser-restoration",
+          "name": "Lesser Restoration",
+          "url": "/api/2024/spells/lesser-restoration"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "spellfire-sorcery-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "scorching-ray",
+          "name": "Scorching Ray",
+          "url": "/api/2024/spells/scorching-ray"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "spellfire-sorcery-5",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "aura-of-vitality",
+          "name": "Aura of Vitality",
+          "url": "/api/2024/spells/aura-of-vitality"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "spellfire-sorcery-5",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "dispel-magic",
+          "name": "Dispel Magic",
+          "url": "/api/2024/spells/dispel-magic"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "spellfire-sorcery-7",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "fire-shield",
+          "name": "Fire Shield",
+          "url": "/api/2024/spells/fire-shield"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "spellfire-sorcery-7",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "wall-of-fire",
+          "name": "Wall of Fire",
+          "url": "/api/2024/spells/wall-of-fire"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "spellfire-sorcery-9",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "greater-restoration",
+          "name": "Greater Restoration",
+          "url": "/api/2024/spells/greater-restoration"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "spellfire-sorcery-9",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "flame-strike",
+          "name": "Flame Strike",
+          "url": "/api/2024/spells/flame-strike"
+        }
+      }
+    ],
+    "url": "/api/2024/subclasses/spellfire-sorcery"
+  },
+  {
+    "index": "thief",
+    "class": {
+      "index": "rogue",
+      "name": "Rogue",
+      "url": "/api/2024/classes/rogue"
+    },
+    "name": "Thief",
+    "subclass_flavor": "Roguish Archetype",
+    "desc": [
+      "Hunt for Treasure as a Classic Adventurer",
+      "A mix of burglar, treasure hunter, and explorer, you are the epitome of an adventurer. In addition to improving your agility and stealth, you gain abilities useful for delving into ruins and getting maximum benefit from the magic items you find there."
+    ],
+    "subclass_levels": "/api/2024/subclasses/thief/levels",
+    "url": "/api/2024/subclasses/thief"
+  },
+  {
+    "index": "trickery-domain",
+    "class": {
+      "index": "cleric",
+      "name": "Cleric",
+      "url": "/api/2024/classes/cleric"
+    },
+    "name": "Trickery Domain",
+    "subclass_flavor": "Divine Domain",
+    "desc": [
+      "Make Mischief and Challenge Authority",
+      "The Trickery Domain offers magic of deception, illusion, and stealth. Clerics who wield this magic are a disruptive force in the world, puncturing pride, mocking tyrants, freeing captives, and flouting hollow traditions. They prefer subterfuge and pranks to direct confrontation.",
+      "Gods of trickery are mischief-makers and instigators who stand as a constant challenge to the accepted order among both gods and mortals. They embody the forces of change and social upheaval, and they're patrons of thieves, scoundrels, gamblers, rebels, and liberators. Religious orders that operate in secret, especially those that seek to undermine oppressive governments or hierarchies, also draw on the power of the Trickery Domain."
+    ],
+    "subclass_levels": "/api/2024/subclasses/trickery-domain/levels",
+    "spells": [
+      {
+        "prerequisites": [
+          {
+            "index": "trickery-domain-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "charm-person",
+          "name": "Charm Person",
+          "url": "/api/2024/spells/charm-person"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "trickery-domain-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "disguise-self",
+          "name": "Disguise Self",
+          "url": "/api/2024/spells/disguise-self"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "trickery-domain-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "invisibility",
+          "name": "Invisibility",
+          "url": "/api/2024/spells/invisibility"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "trickery-domain-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "pass-without-trace",
+          "name": "Pass without Trace",
+          "url": "/api/2024/spells/pass-without-trace"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "trickery-domain-5",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "hypnotic-pattern",
+          "name": "Hypnotic Pattern",
+          "url": "/api/2024/spells/hypnotic-pattern"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "trickery-domain-5",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "nondetection",
+          "name": "Nondetection",
+          "url": "/api/2024/spells/nondetection"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "trickery-domain-7",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "confusion",
+          "name": "Confusion",
+          "url": "/api/2024/spells/confusion"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "trickery-domain-7",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "dimension-door",
+          "name": "Dimension Door",
+          "url": "/api/2024/spells/dimension-door"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "trickery-domain-9",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "dominate-person",
+          "name": "Dominate Person",
+          "url": "/api/2024/spells/dominate-person"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "trickery-domain-9",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "modify-memory",
+          "name": "Modify Memory",
+          "url": "/api/2024/spells/modify-memory"
+        }
+      }
+    ],
+    "url": "/api/2024/subclasses/trickery-domain"
+  },
+  {
+    "index": "undead-patron",
+    "class": {
+      "index": "warlock",
+      "name": "Warlock",
+      "url": "/api/2024/classes/warlock"
+    },
+    "name": "Undead Patron",
+    "subclass_flavor": "Otherworldly Patron",
+    "desc": [
+      "Defy Death for Profane Power",
+      "You've made a pact with a creature that defies the cycle of life and death: a powerful lich, a vampire, or another entity of undeath. Having once been mortal, these ancient patrons know firsthand the paths of ambition and the routes past the doors of death. They eagerly share this profane knowledge and other secrets with those who work their will among the living."
+    ],
+    "subclass_levels": "/api/2024/subclasses/undead-patron/levels",
+    "spells": [
+      {
+        "prerequisites": [
+          {
+            "index": "undead-patron-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "bane",
+          "name": "Bane",
+          "url": "/api/2024/spells/bane"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "undead-patron-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "blindness-deafness",
+          "name": "Blindness/Deafness",
+          "url": "/api/2024/spells/blindness-deafness"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "undead-patron-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "phantasmal-force",
+          "name": "Phantasmal Force",
+          "url": "/api/2024/spells/phantasmal-force"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "undead-patron-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "ray-of-sickness",
+          "name": "Ray of Sickness",
+          "url": "/api/2024/spells/ray-of-sickness"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "undead-patron-5",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "speak-with-dead",
+          "name": "Speak with Dead",
+          "url": "/api/2024/spells/speak-with-dead"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "undead-patron-5",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "summon-undead",
+          "name": "Summon Undead",
+          "url": "/api/2024/spells/summon-undead"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "undead-patron-7",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "greater-invisibility",
+          "name": "Greater Invisibility",
+          "url": "/api/2024/spells/greater-invisibility"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "undead-patron-7",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "phantasmal-killer",
+          "name": "Phantasmal Killer",
+          "url": "/api/2024/spells/phantasmal-killer"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "undead-patron-9",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "antilife-shell",
+          "name": "Antilife Shell",
+          "url": "/api/2024/spells/antilife-shell"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "undead-patron-9",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "cloudkill",
+          "name": "Cloudkill",
+          "url": "/api/2024/spells/cloudkill"
+        }
+      }
+    ],
+    "url": "/api/2024/subclasses/undead-patron"
+  },
+  {
+    "index": "war-domain",
+    "class": {
+      "index": "cleric",
+      "name": "Cleric",
+      "url": "/api/2024/classes/cleric"
+    },
+    "name": "War Domain",
+    "subclass_flavor": "Divine Domain",
+    "desc": [
+      "Inspire Valor and Smite Foes",
+      "War has many manifestations. It can make heroes of ordinary people. It can be desperate and horrific, with acts of cruelty and cowardice eclipsing instances of excellence and courage. Clerics who tap into the magic of the War Domain excel in battle, inspiring others to fight the good fight or offering acts of violence as prayers.",
+      "Gods of the War Domain watch over warriors and reward them for their great deeds. They include champions of honor and chivalry as well as gods of destruction and pillage. Other war gods take a more neutral stance, promoting war in all its manifestations and supporting warriors in any circumstance."
+    ],
+    "subclass_levels": "/api/2024/subclasses/war-domain/levels",
+    "spells": [
+      {
+        "prerequisites": [
+          {
+            "index": "war-domain-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "guiding-bolt",
+          "name": "Guiding Bolt",
+          "url": "/api/2024/spells/guiding-bolt"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "war-domain-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "magic-weapon",
+          "name": "Magic Weapon",
+          "url": "/api/2024/spells/magic-weapon"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "war-domain-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "shield-of-faith",
+          "name": "Shield of Faith",
+          "url": "/api/2024/spells/shield-of-faith"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "war-domain-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "spiritual-weapon",
+          "name": "Spiritual Weapon",
+          "url": "/api/2024/spells/spiritual-weapon"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "war-domain-5",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "crusader-s-mantle",
+          "name": "Crusader's Mantle",
+          "url": "/api/2024/spells/crusader-s-mantle"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "war-domain-5",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "spirit-guardians",
+          "name": "Spirit Guardians",
+          "url": "/api/2024/spells/spirit-guardians"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "war-domain-7",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "fire-shield",
+          "name": "Fire Shield",
+          "url": "/api/2024/spells/fire-shield"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "war-domain-7",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "freedom-of-movement",
+          "name": "Freedom of Movement",
+          "url": "/api/2024/spells/freedom-of-movement"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "war-domain-9",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "hold-monster",
+          "name": "Hold Monster",
+          "url": "/api/2024/spells/hold-monster"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "war-domain-9",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "steel-wind-strike",
+          "name": "Steel Wind Strike",
+          "url": "/api/2024/spells/steel-wind-strike"
+        }
+      }
+    ],
+    "url": "/api/2024/subclasses/war-domain"
+  },
+  {
+    "index": "warrior-of-mercy",
+    "class": {
+      "index": "monk",
+      "name": "Monk",
+      "url": "/api/2024/classes/monk"
+    },
+    "name": "Warrior of Mercy",
+    "subclass_flavor": "Monastic Tradition",
+    "desc": [
+      "Manipulate Forces of Life and Death",
+      "Warriors of Mercy manipulate the life force of others. These Monks are wandering physicians, but they bring a swift end to their enemies. They often wear masks, presenting themselves as faceless bringers of life and death."
+    ],
+    "subclass_levels": "/api/2024/subclasses/warrior-of-mercy/levels",
+    "url": "/api/2024/subclasses/warrior-of-mercy"
+  },
+  {
+    "index": "warrior-of-shadow",
+    "class": {
+      "index": "monk",
+      "name": "Monk",
+      "url": "/api/2024/classes/monk"
+    },
+    "name": "Warrior of Shadow",
+    "subclass_flavor": "Monastic Tradition",
+    "desc": [
+      "Harness Shadow Power for Stealth and Subterfuge",
+      "Warriors of Shadow practice stealth and subterfuge, harnessing the power of the Shadowfell. They are at home in darkness, able to draw gloom around themselves to hide, leap from shadow to shadow, and take on a wraithlike form."
+    ],
+    "subclass_levels": "/api/2024/subclasses/warrior-of-shadow/levels",
+    "url": "/api/2024/subclasses/warrior-of-shadow"
+  },
+  {
+    "index": "warrior-of-the-elements",
+    "class": {
+      "index": "monk",
+      "name": "Monk",
+      "url": "/api/2024/classes/monk"
+    },
+    "name": "Warrior of the Elements",
+    "subclass_flavor": "Monastic Tradition",
+    "desc": [
+      "Wield Strikes and Bursts of Elemental Power",
+      "Warriors of the Elements tap into the power of the Elemental Planes. Harnessing their supernatural focus, these Monks momentarily tame the energy of the Elemental Chaos to empower themselves in and out of battle."
+    ],
+    "subclass_levels": "/api/2024/subclasses/warrior-of-the-elements/levels",
+    "url": "/api/2024/subclasses/warrior-of-the-elements"
+  },
+  {
+    "index": "warrior-of-the-open-hand",
+    "class": {
+      "index": "monk",
+      "name": "Monk",
+      "url": "/api/2024/classes/monk"
+    },
+    "name": "Warrior of the Open Hand",
+    "subclass_flavor": "Monastic Tradition",
+    "desc": [
+      "Master Unarmed Combat Techniques",
+      "Warriors of the Open Hand are masters of unarmed combat. They learn techniques to push and trip their opponents and manipulate their own energy to protect themselves from harm."
+    ],
+    "subclass_levels": "/api/2024/subclasses/warrior-of-the-open-hand/levels",
+    "url": "/api/2024/subclasses/warrior-of-the-open-hand"
+  },
+  {
+    "index": "wild-magic-sorcery",
+    "class": {
+      "index": "sorcerer",
+      "name": "Sorcerer",
+      "url": "/api/2024/classes/sorcerer"
+    },
+    "name": "Wild Magic Sorcery",
+    "subclass_flavor": "Sorcerous Origin",
+    "desc": [
+      "Unleash Chaotic Magic",
+      "Your innate magic stems from the forces of chaos that underlie the order of creation. You or an ancestor might have endured exposure to raw magic, perhaps through a planar portal leading to Limbo or the Elemental Planes. Perhaps you were blessed by a fey being or marked by a demon. Or your magic could be a fluke with no apparent cause. Whatever its source, this magic churns within you, waiting for any outlet."
+    ],
+    "subclass_levels": "/api/2024/subclasses/wild-magic-sorcery/levels",
+    "url": "/api/2024/subclasses/wild-magic-sorcery"
+  },
+  {
+    "index": "winter-walker",
+    "class": {
+      "index": "ranger",
+      "name": "Ranger",
+      "url": "/api/2024/classes/ranger"
+    },
+    "name": "Winter Walker",
+    "subclass_flavor": "Ranger Archetype",
+    "desc": [
+      "Withstand the Horrors of Frigid Wastelands",
+      "Winter Walkers hone their craft in the bleak and frozen wilds of places like Icewind Dale. These ruthless, rimed Rangers hunt monsters that haunt arctic wastelands, eventually becoming frigid terrors themselves. Winter Walkers are well versed in the phenomena of Icewind Dale, including the latent magic of fallen Netherese cities, endemic monsters like yetis and crag cats, and the rising threat of Underdark invaders. Due to their cold pragmatism, terrifying magic, and mastery of the region, Winter Walkers are regarded with equal parts respect and fear. Ten-Towns citizens say that Winter Walkers' frequent exposure to malignant entities gives them their fearsome powers. Many Reghed nomads, on the other hand, believe that nature spirits bestow on Winter Walkers a unique curse."
+    ],
+    "subclass_levels": "/api/2024/subclasses/winter-walker/levels",
+    "spells": [
+      {
+        "prerequisites": [
+          {
+            "index": "winter-walker-3",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "ice-knife",
+          "name": "Ice Knife",
+          "url": "/api/2024/spells/ice-knife"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "winter-walker-5",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "hold-person",
+          "name": "Hold Person",
+          "url": "/api/2024/spells/hold-person"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "winter-walker-9",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "remove-curse",
+          "name": "Remove Curse",
+          "url": "/api/2024/spells/remove-curse"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "winter-walker-13",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "ice-storm",
+          "name": "Ice Storm",
+          "url": "/api/2024/spells/ice-storm"
+        }
+      },
+      {
+        "prerequisites": [
+          {
+            "index": "winter-walker-17",
+            "type": "level"
+          }
+        ],
+        "spell": {
+          "index": "cone-of-cold",
+          "name": "Cone of Cold",
+          "url": "/api/2024/spells/cone-of-cold"
+        }
+      }
+    ],
+    "url": "/api/2024/subclasses/winter-walker"
+  }
+]

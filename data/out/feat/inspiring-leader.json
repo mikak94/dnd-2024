@@ -1,0 +1,60 @@
+{
+  "index": "inspiring-leader",
+  "name": "Inspiring Leader",
+  "type": "general",
+  "prerequisites": [
+    { "type": "level", "level": 4 },
+    {
+      "type": "ability_score",
+      "ability_score": {
+        "index": "wis",
+        "name": "WIS",
+        "url": "/api/2024/ability-scores/wis"
+      },
+      "minimum_score": 13
+    },
+    {
+      "type": "ability_score",
+      "ability_score": {
+        "index": "cha",
+        "name": "CHA",
+        "url": "/api/2024/ability-scores/cha"
+      },
+      "minimum_score": 13
+    }
+  ],
+  "desc": [
+    "You gain the following benefits.",
+    "Ability Score Increase. Increase your Wisdom or Charisma score by 1, to a maximum of 20.",
+    "Bolstering Performance. When you finish a Short or Long Rest, you can give an inspiring performance: a speech, song, or dance. When you do so, choose up to six allies (which can include yourself) within 30 feet of yourself who witness the performance. The chosen creatures each gain Temporary Hit Points equal to your character level plus the modifier of the ability you increased with this feat."
+  ],
+  "choices": [
+    {
+      "desc": "Increase your Wisdom or Charisma score by 1, to a maximum of 20.",
+      "choose": 1,
+      "type": "abilities",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "wis",
+              "name": "WIS",
+              "url": "/api/2024/ability-scores/wis"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "cha",
+              "name": "CHA",
+              "url": "/api/2024/ability-scores/cha"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "url": "/api/2024/feats/inspiring-leader"
+}

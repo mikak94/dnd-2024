@@ -1,0 +1,108 @@
+{
+  "index": "lords-alliance-vassal",
+  "name": "Lords' Alliance Vassal",
+  "starting_proficiencies": [
+    {
+      "index": "skill-insight",
+      "name": "Skill: Insight",
+      "url": "/api/2024/proficiencies/skill-insight"
+    },
+    {
+      "index": "skill-persuasion",
+      "name": "Skill: Persuasion",
+      "url": "/api/2024/proficiencies/skill-persuasion"
+    },
+    {
+      "index": "tool-calligraphers-supplies",
+      "name": "Tool: Calligrapher's Supplies",
+      "url": "/api/2024/proficiencies/tool-calligraphers-supplies"
+    }
+  ],
+  "ability_scores": [
+    { "index": "str", "name": "STR", "url": "/api/2024/ability-scores/str" },
+    { "index": "int", "name": "INT", "url": "/api/2024/ability-scores/int" },
+    { "index": "cha", "name": "CHA", "url": "/api/2024/ability-scores/cha" }
+  ],
+  "feat": {
+    "index": "lords-alliance-agent",
+    "name": "Lords' Alliance Agent",
+    "url": "/api/2024/feats/lords-alliance-agent"
+  },
+  "starting_equipment_options": [
+    {
+      "desc": "Choose A or B: (A) 2 Javelins, Calligrapher's Supplies, Fine Clothes, Ink, 5 Ink Pens, Parchment (9 sheets), 13 GP; or (B) 50 GP",
+      "choose": 1,
+      "type": "equipment",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "multiple",
+            "items": [
+              {
+                "option_type": "counted_reference",
+                "count": 2,
+                "of": {
+                  "index": "javelin",
+                  "name": "Javelin",
+                  "url": "/api/2024/equipment/javelin"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "calligraphers-supplies",
+                  "name": "Calligrapher's Supplies",
+                  "url": "/api/2024/equipment/calligraphers-supplies"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "fine-clothes",
+                  "name": "Fine Clothes",
+                  "url": "/api/2024/equipment/fine-clothes"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "ink",
+                  "name": "Ink",
+                  "url": "/api/2024/equipment/ink"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 5,
+                "of": {
+                  "index": "ink-pen",
+                  "name": "Ink Pen",
+                  "url": "/api/2024/equipment/ink-pen"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 9,
+                "of": {
+                  "index": "parchment",
+                  "name": "Parchment",
+                  "url": "/api/2024/equipment/parchment"
+                }
+              },
+              { "option_type": "money", "count": 13, "unit": "GP" }
+            ]
+          },
+          { "option_type": "money", "count": 50, "unit": "GP" }
+        ]
+      }
+    }
+  ],
+  "desc": [
+    "You've pledged your loyalty to a member-city of the Lords' Alliance. As an Alliance agent, you must uphold the tenets of the Alliance and seek to increase safety and prosperity along the Sword Coast. You're sworn to bring honor and glory to your lord's house, whether that means securing trade roads for a merchant-lord of Waterdeep or vanquishing monsters upriver of Daggerford. You've trained in the arts of swordplay and statecraft and are as deft with a blade as you are with a quill."
+  ],
+  "url": "/api/2024/backgrounds/lords-alliance-vassal"
+}

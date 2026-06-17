@@ -1,0 +1,56 @@
+{
+  "index": "fire-storm",
+  "name": "Fire Storm",
+  "level": 7,
+  "school": {
+    "index": "evocation",
+    "name": "Evocation",
+    "url": "/api/2024/magic-schools/evocation"
+  },
+  "casting_time": "Action",
+  "range": "150 feet",
+  "components": ["V", "S"],
+  "ritual": false,
+  "concentration": false,
+  "duration": "Instantaneous",
+  "desc": [
+    "A storm of fire appears within range. The area of the storm consists of up to ten 10-foot Cubes, which you arrange as you like. Each Cube must be contiguous with at least one other Cube. Each creature in the area makes a Dexterity saving throw, taking 7d10 Fire damage on a failed save or half as much damage on a successful one.",
+    "Flammable objects in the area that aren't being worn or carried start burning."
+  ],
+  "damage": {
+    "damage_type": {
+      "index": "fire",
+      "name": "Fire",
+      "url": "/api/2024/damage-types/fire"
+    },
+    "damage_at_slot_level": {
+      "7": "7d10"
+    }
+  },
+  "dc": {
+    "dc_type": {
+      "index": "dex",
+      "name": "DEX",
+      "url": "/api/2024/ability-scores/dex"
+    },
+    "dc_success": "half"
+  },
+  "classes": [
+    {
+      "index": "cleric",
+      "name": "Cleric",
+      "url": "/api/2024/classes/cleric"
+    },
+    {
+      "index": "druid",
+      "name": "Druid",
+      "url": "/api/2024/classes/druid"
+    },
+    {
+      "index": "sorcerer",
+      "name": "Sorcerer",
+      "url": "/api/2024/classes/sorcerer"
+    }
+  ],
+  "url": "/api/2024/spells/fire-storm"
+}

@@ -1,0 +1,16 @@
+{
+  "index": "dhampir-spider-climb",
+  "name": "Spider Climb",
+  "species": [
+    {
+      "index": "dhampir",
+      "name": "Dhampir",
+      "url": "/api/2024/species/dhampir"
+    }
+  ],
+  "subspecies": [],
+  "desc": [
+    "You have a Climb Speed equal to your Speed. When you reach character level 3, you can move up, down, and across vertical surfaces and along ceilings while leaving your hands free."
+  ],
+  "url": "/api/2024/traits/dhampir-spider-climb"
+}

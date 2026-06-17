@@ -1,0 +1,21 @@
+{
+  "index": "college-of-valor-3-martial-training",
+  "name": "Martial Training",
+  "level": 3,
+  "class": {
+    "index": "bard",
+    "name": "Bard",
+    "url": "/api/2024/classes/bard"
+  },
+  "subclass": {
+    "index": "college-of-valor",
+    "name": "College of Valor",
+    "url": "/api/2024/subclasses/college-of-valor"
+  },
+  "desc": [
+    "You gain proficiency with Martial weapons and training with Medium armor and Shields.",
+    "In addition, you can use a Simple or Martial weapon as a Spellcasting Focus to cast spells from your Bard spell list."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/college-of-valor-3-martial-training"
+}

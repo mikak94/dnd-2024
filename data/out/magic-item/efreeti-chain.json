@@ -1,0 +1,15 @@
+{
+  "index": "efreeti-chain",
+  "name": "Efreeti Chain",
+  "equipment_category": {
+    "index": "armor",
+    "name": "Armor",
+    "url": "/api/2024/equipment-categories/armor"
+  },
+  "rarity": { "name": "Legendary" },
+  "attunement": true,
+  "desc": "While wearing this armor, you gain a +3 bonus to Armor Class, you have Immunity to Fire damage, and you know Primordial. In addition, you can stand on and move across molten rock as if it were solid ground.",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/efreeti-chain"
+}

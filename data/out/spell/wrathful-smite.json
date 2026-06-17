@@ -1,0 +1,56 @@
+{
+  "index": "wrathful-smite",
+  "name": "Wrathful Smite",
+  "level": 1,
+  "school": {
+    "index": "necromancy",
+    "name": "Necromancy",
+    "url": "/api/2024/magic-schools/necromancy"
+  },
+  "casting_time": "Bonus Action, which you take immediately after hitting a creature with a Melee weapon or an Unarmed Strike",
+  "range": "Self",
+  "components": ["V"],
+  "ritual": false,
+  "concentration": false,
+  "duration": "1 minute",
+  "desc": [
+    "The target takes an extra 1d6 Necrotic damage from the attack, and it must succeed on a Wisdom saving throw or have the Frightened condition until the spell ends. At the end of each of its turns, the Frightened target repeats the save, ending the spell on itself on a success."
+  ],
+  "higher_level": [
+    "Using a Higher-Level Spell Slot. The damage increases by 1d6 for each spell slot level above 1."
+  ],
+  "damage": {
+    "damage_type": {
+      "index": "necrotic",
+      "name": "Necrotic",
+      "url": "/api/2024/damage-types/necrotic"
+    },
+    "damage_at_slot_level": {
+      "1": "1d6",
+      "2": "2d6",
+      "3": "3d6",
+      "4": "4d6",
+      "5": "5d6",
+      "6": "6d6",
+      "7": "7d6",
+      "8": "8d6",
+      "9": "9d6"
+    }
+  },
+  "dc": {
+    "dc_type": {
+      "index": "wis",
+      "name": "WIS",
+      "url": "/api/2024/ability-scores/wis"
+    },
+    "dc_success": "none"
+  },
+  "classes": [
+    {
+      "index": "paladin",
+      "name": "Paladin",
+      "url": "/api/2024/classes/paladin"
+    }
+  ],
+  "url": "/api/2024/spells/wrathful-smite"
+}

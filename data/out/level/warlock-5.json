@@ -1,0 +1,21 @@
+{
+  "index": "warlock-5",
+  "level": 5,
+  "ability_score_bonuses": 1,
+  "prof_bonus": 3,
+  "features": [],
+  "class": {
+    "index": "warlock",
+    "name": "Warlock",
+    "url": "/api/2024/classes/warlock"
+  },
+  "class_specific": {
+    "invocations_known": 5
+  },
+  "spellcasting": {
+    "cantrips_known": 3,
+    "spells_known": 6,
+    "spell_slots_level_3": 2
+  },
+  "url": "/api/2024/classes/warlock/levels/5"
+}

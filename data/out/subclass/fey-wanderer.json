@@ -1,0 +1,58 @@
+{
+  "index": "fey-wanderer",
+  "class": {
+    "index": "ranger",
+    "name": "Ranger",
+    "url": "/api/2024/classes/ranger"
+  },
+  "name": "Fey Wanderer",
+  "subclass_flavor": "Ranger Archetype",
+  "desc": [
+    "Wield Fey Mirth and Fury",
+    "A fey mystique surrounds you, thanks to the boon of an archfey or a location in the Feywild that transformed you. However you gained fey magic, you are now a Fey Wanderer. Your joyful laughter brightens the hearts of the downtrodden, and your martial prowess strikes terror in your foes, for great is the mirth of the fey and dreadful is their fury."
+  ],
+  "subclass_levels": "/api/2024/subclasses/fey-wanderer/levels",
+  "spells": [
+    {
+      "prerequisites": [{ "index": "fey-wanderer-3", "type": "level" }],
+      "spell": {
+        "index": "charm-person",
+        "name": "Charm Person",
+        "url": "/api/2024/spells/charm-person"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "fey-wanderer-5", "type": "level" }],
+      "spell": {
+        "index": "misty-step",
+        "name": "Misty Step",
+        "url": "/api/2024/spells/misty-step"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "fey-wanderer-9", "type": "level" }],
+      "spell": {
+        "index": "summon-fey",
+        "name": "Summon Fey",
+        "url": "/api/2024/spells/summon-fey"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "fey-wanderer-13", "type": "level" }],
+      "spell": {
+        "index": "dimension-door",
+        "name": "Dimension Door",
+        "url": "/api/2024/spells/dimension-door"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "fey-wanderer-17", "type": "level" }],
+      "spell": {
+        "index": "mislead",
+        "name": "Mislead",
+        "url": "/api/2024/spells/mislead"
+      }
+    }
+  ],
+  "url": "/api/2024/subclasses/fey-wanderer"
+}

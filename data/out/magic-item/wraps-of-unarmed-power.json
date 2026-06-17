@@ -1,0 +1,17 @@
+{
+  "index": "wraps-of-unarmed-power",
+  "name": "Wraps of Unarmed Power",
+  "equipment_category": {
+    "index": "wondrous-items",
+    "name": "Wondrous Items",
+    "url": "/api/2024/equipment-categories/wondrous-items"
+  },
+  "rarity": {
+    "name": "Varies"
+  },
+  "attunement": false,
+  "desc": "While wearing these wraps, you have a bonus to attack rolls and damage rolls made with your Unarmed Strikes. The bonus is determined by the wraps' rarity, and those strikes deal your choice of Force damage or their normal damage type.",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/wraps-of-unarmed-power"
+}

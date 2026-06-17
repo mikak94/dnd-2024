@@ -1,0 +1,15 @@
+{
+  "index": "potion-of-pugilism",
+  "name": "Potion of Pugilism",
+  "equipment_category": {
+    "index": "potions",
+    "name": "Potions",
+    "url": "/api/2024/equipment-categories/potions"
+  },
+  "rarity": { "name": "Uncommon" },
+  "attunement": false,
+  "desc": "After you drink this potion, each Unarmed Strike you make deals an extra 1d6 Force damage on a hit. This effect lasts 10 minutes.\n\nThis potion is a thick green fluid that tastes like spinach.",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/potion-of-pugilism"
+}

@@ -1,0 +1,48 @@
+{
+  "index": "dragonborn-breath-weapon",
+  "name": "Breath Weapon",
+  "species": [
+    {
+      "index": "dragonborn",
+      "name": "Dragonborn",
+      "url": "/api/2024/species/dragonborn"
+    }
+  ],
+  "subspecies": [],
+  "desc": [
+    "When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in either a 15-foot Cone or a 30-foot Line that is 5 feet wide (choose the shape each time). Each creature in that area must make a Dexterity saving throw (DC 8 plus your Constitution modifier and Proficiency Bonus). On a failed save, a creature takes 1d10 damage of the type determined by your Draconic Ancestry trait. On a successful save, a creature takes half as much damage. This damage increases by 1d10 when you reach character levels 5 (2d10), 11 (3d10), and 17 (4d10).",
+    "You can use this Breath Weapon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest."
+  ],
+  "trait_specific": {
+    "breath_weapon": {
+      "name": "Breath Weapon",
+      "desc": "Each creature in the area must make a Dexterity saving throw (DC 8 plus your Constitution modifier and Proficiency Bonus). On a failed save, a creature takes 1d10 damage of the type determined by your Draconic Ancestry trait. On a successful save, a creature takes half as much damage.",
+      "area_of_effect": { "type": "cone", "size": 15 },
+      "usage": { "type": "per long rest", "times": 1 },
+      "dc": {
+        "dc_type": {
+          "index": "dex",
+          "name": "DEX",
+          "url": "/api/2024/ability-scores/dex"
+        },
+        "success_type": "half"
+      },
+      "damage": [
+        {
+          "damage_type": {
+            "index": "fire",
+            "name": "Fire",
+            "url": "/api/2024/damage-types/fire"
+          },
+          "damage_at_character_level": {
+            "1": "1d10",
+            "5": "2d10",
+            "11": "3d10",
+            "17": "4d10"
+          }
+        }
+      ]
+    }
+  },
+  "url": "/api/2024/traits/dragonborn-breath-weapon"
+}

@@ -1,0 +1,50 @@
+{
+  "index": "conjure-minor-elementals",
+  "name": "Conjure Minor Elementals",
+  "level": 4,
+  "school": {
+    "index": "conjuration",
+    "name": "Conjuration",
+    "url": "/api/2024/magic-schools/conjuration"
+  },
+  "casting_time": "Action",
+  "range": "Self",
+  "components": ["V", "S"],
+  "ritual": false,
+  "concentration": true,
+  "duration": "Concentration, up to 10 minutes",
+  "desc": [
+    "You conjure spirits from the Elemental Planes that flit around you in a 15-foot Emanation for the duration. Until the spell ends, any attack you make deals an extra 2d8 damage when you hit a creature in the Emanation. This damage is Acid, Cold, Fire, or Lightning (your choice when you make the attack).",
+    "In addition, the ground in the Emanation is Difficult Terrain for your enemies."
+  ],
+  "higher_level": [
+    "Using a Higher-Level Spell Slot. The damage increases by 1d8 for each spell slot level above 4."
+  ],
+  "damage": {
+    "damage_at_slot_level": {
+      "4": "2d8",
+      "5": "3d8",
+      "6": "4d8",
+      "7": "5d8",
+      "8": "6d8",
+      "9": "7d8"
+    }
+  },
+  "area_of_effect": {
+    "type": "sphere",
+    "size": 15
+  },
+  "classes": [
+    {
+      "index": "druid",
+      "name": "Druid",
+      "url": "/api/2024/classes/druid"
+    },
+    {
+      "index": "wizard",
+      "name": "Wizard",
+      "url": "/api/2024/classes/wizard"
+    }
+  ],
+  "url": "/api/2024/spells/conjure-minor-elementals"
+}

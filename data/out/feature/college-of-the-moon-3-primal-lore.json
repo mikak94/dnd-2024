@@ -1,0 +1,21 @@
+{
+  "index": "college-of-the-moon-3-primal-lore",
+  "name": "Primal Lore",
+  "level": 3,
+  "class": {
+    "index": "bard",
+    "name": "Bard",
+    "url": "/api/2024/classes/bard"
+  },
+  "subclass": {
+    "index": "college-of-the-moon",
+    "name": "College of the Moon",
+    "url": "/api/2024/subclasses/college-of-the-moon"
+  },
+  "desc": [
+    "You learn Druidic and one cantrip from the Druid spell list. It counts as a Bard spell for you but doesn't count against the number of cantrips you know. Whenever you gain a Bard level, you can replace this cantrip with another cantrip of your choice from the Druid spell list.",
+    "Additionally, choose one of the following skills: Animal Handling, Insight, Medicine, Nature, Perception, or Survival. You have proficiency in that skill."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/college-of-the-moon-3-primal-lore"
+}

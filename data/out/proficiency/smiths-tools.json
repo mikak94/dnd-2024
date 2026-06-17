@@ -1,0 +1,11 @@
+{
+  "index": "smiths-tools",
+  "name": "Smith's Tools",
+  "type": "Artisan's Tools",
+  "reference": {
+    "index": "smiths-tools",
+    "name": "Smith's Tools",
+    "url": "/api/2024/equipment/smiths-tools"
+  },
+  "url": "/api/2024/proficiencies/smiths-tools"
+}

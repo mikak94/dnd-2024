@@ -1,0 +1,21 @@
+{
+  "index": "beast-master-7-exceptional-training",
+  "name": "Exceptional Training",
+  "level": 7,
+  "class": {
+    "index": "ranger",
+    "name": "Ranger",
+    "url": "/api/2024/classes/ranger"
+  },
+  "subclass": {
+    "index": "beast-master",
+    "name": "Beast Master",
+    "url": "/api/2024/subclasses/beast-master"
+  },
+  "desc": [
+    "When you take a Bonus Action to command your Primal Companion beast to take an action, you can also command it to take the Dash, Disengage, Dodge, or Help action using its Bonus Action.",
+    "In addition, whenever it hits with an attack roll and deals damage, it can deal your choice of Force damage or its normal damage type."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/beast-master-7-exceptional-training"
+}

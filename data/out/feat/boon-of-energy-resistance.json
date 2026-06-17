@@ -1,0 +1,160 @@
+{
+  "index": "boon-of-energy-resistance",
+  "name": "Boon of Energy Resistance",
+  "type": "epic-boon",
+  "prerequisites": [
+    {
+      "type": "level",
+      "level": 19
+    }
+  ],
+  "desc": [
+    "You gain the following benefits.",
+    "Ability Score Increase. Increase one ability score of your choice by 1, to a maximum of 30.",
+    "Energy Resistances. You gain Resistance to two of the following damage types of your choice: Acid, Cold, Fire, Lightning, Necrotic, Poison, Psychic, Radiant, or Thunder. Whenever you finish a Long Rest, you can change your choices.",
+    "Energy Redirection. When you take damage of one of the types chosen for the Energy Resistances benefit, you can take a Reaction to direct damage of the same type toward another creature you can see within 60 feet of yourself that isn’t behind Total Cover. If you do so, that creature must succeed on a Dexterity saving throw (DC 8 plus your Constitution modifier and Proficiency Bonus) or take damage equal to 2d12 plus your Constitution modifier."
+  ],
+  "choices": [
+    {
+      "desc": "Increase one ability score of your choice by 1, to a maximum of 30.",
+      "choose": 1,
+      "type": "abilities",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "str",
+              "name": "STR",
+              "url": "/api/2024/ability-scores/str"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "dex",
+              "name": "DEX",
+              "url": "/api/2024/ability-scores/dex"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "con",
+              "name": "CON",
+              "url": "/api/2024/ability-scores/con"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "int",
+              "name": "INT",
+              "url": "/api/2024/ability-scores/int"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "wis",
+              "name": "WIS",
+              "url": "/api/2024/ability-scores/wis"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "cha",
+              "name": "CHA",
+              "url": "/api/2024/ability-scores/cha"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "desc": "You gain Resistance to two of the following damage types of your choice: Acid, Cold, Fire, Lightning, Necrotic, Poison, Psychic, Radiant, or Thunder.",
+      "choose": 2,
+      "type": "damage_types",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "acid",
+              "name": "Acid",
+              "url": "/api/2024/damage-types/acid"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "cold",
+              "name": "Cold",
+              "url": "/api/2024/damage-types/cold"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "fire",
+              "name": "Fire",
+              "url": "/api/2024/damage-types/fire"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "lightning",
+              "name": "Lightning",
+              "url": "/api/2024/damage-types/lightning"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "necrotic",
+              "name": "Necrotic",
+              "url": "/api/2024/damage-types/necrotic"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "poison",
+              "name": "Poison",
+              "url": "/api/2024/damage-types/poison"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "psychic",
+              "name": "Psychic",
+              "url": "/api/2024/damage-types/psychic"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "radiant",
+              "name": "Radiant",
+              "url": "/api/2024/damage-types/radiant"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "thunder",
+              "name": "Thunder",
+              "url": "/api/2024/damage-types/thunder"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "url": "/api/2024/feats/boon-of-energy-resistance"
+}

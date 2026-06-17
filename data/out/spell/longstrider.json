@@ -1,0 +1,51 @@
+{
+  "index": "longstrider",
+  "name": "Longstrider",
+  "level": 1,
+  "school": {
+    "index": "transmutation",
+    "name": "Transmutation",
+    "url": "/api/2024/magic-schools/transmutation"
+  },
+  "casting_time": "Action",
+  "range": "Touch",
+  "components": ["V", "S", "M"],
+  "material": "a pinch of dirt",
+  "ritual": false,
+  "concentration": false,
+  "duration": "1 hour",
+  "desc": [
+    "You touch a creature. The target's Speed increases by 10 feet until the spell ends."
+  ],
+  "higher_level": [
+    "Using a Higher-Level Spell Slot. You can target one additional creature for each spell slot level above 1."
+  ],
+  "classes": [
+    {
+      "index": "artificer",
+      "name": "Artificer",
+      "url": "/api/2024/classes/artificer"
+    },
+    {
+      "index": "bard",
+      "name": "Bard",
+      "url": "/api/2024/classes/bard"
+    },
+    {
+      "index": "druid",
+      "name": "Druid",
+      "url": "/api/2024/classes/druid"
+    },
+    {
+      "index": "ranger",
+      "name": "Ranger",
+      "url": "/api/2024/classes/ranger"
+    },
+    {
+      "index": "wizard",
+      "name": "Wizard",
+      "url": "/api/2024/classes/wizard"
+    }
+  ],
+  "url": "/api/2024/spells/longstrider"
+}

@@ -1,0 +1,96 @@
+{
+  "index": "observant",
+  "name": "Observant",
+  "type": "general",
+  "prerequisites": [
+    { "type": "level", "level": 4 },
+    {
+      "type": "ability_score",
+      "ability_score": {
+        "index": "int",
+        "name": "INT",
+        "url": "/api/2024/ability-scores/int"
+      },
+      "minimum_score": 13
+    },
+    {
+      "type": "ability_score",
+      "ability_score": {
+        "index": "wis",
+        "name": "WIS",
+        "url": "/api/2024/ability-scores/wis"
+      },
+      "minimum_score": 13
+    }
+  ],
+  "desc": [
+    "You gain the following benefits.",
+    "Ability Score Increase. Increase your Intelligence or Wisdom score by 1, to a maximum of 20.",
+    "Keen Observer. Choose one of the following skills: Insight, Investigation, or Perception. If you lack proficiency with the chosen skill, you gain proficiency in it, and if you already have proficiency in it, you gain Expertise in it.",
+    "Quick Search. You can take the Search action as a Bonus Action."
+  ],
+  "choices": [
+    {
+      "desc": "Increase your Intelligence or Wisdom score by 1, to a maximum of 20.",
+      "choose": 1,
+      "type": "abilities",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "int",
+              "name": "INT",
+              "url": "/api/2024/ability-scores/int"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "wis",
+              "name": "WIS",
+              "url": "/api/2024/ability-scores/wis"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "desc": "Choose one of the following skills: Insight, Investigation, or Perception. If you lack proficiency with the chosen skill, you gain proficiency in it; if you already have proficiency, you gain Expertise in it.",
+      "choose": 1,
+      "type": "proficiencies",
+      "grants": "proficiency_or_expertise",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-insight",
+              "name": "Skill: Insight",
+              "url": "/api/2024/proficiencies/skill-insight"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-investigation",
+              "name": "Skill: Investigation",
+              "url": "/api/2024/proficiencies/skill-investigation"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-perception",
+              "name": "Skill: Perception",
+              "url": "/api/2024/proficiencies/skill-perception"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "url": "/api/2024/feats/observant"
+}

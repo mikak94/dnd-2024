@@ -1,0 +1,45 @@
+{
+  "index": "martial-weapon-training",
+  "name": "Martial Weapon Training",
+  "type": "general",
+  "prerequisites": [
+    {
+      "type": "level",
+      "level": 4
+    }
+  ],
+  "desc": [
+    "You gain the following benefits.",
+    "Ability Score Increase. Increase your Strength or Dexterity score by 1, to a maximum of 20.",
+    "Weapon Proficiency. You gain proficiency with Martial weapons."
+  ],
+  "choices": [
+    {
+      "desc": "Increase your Strength or Dexterity score by 1, to a maximum of 20.",
+      "choose": 1,
+      "type": "abilities",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "str",
+              "name": "STR",
+              "url": "/api/2024/ability-scores/str"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "dex",
+              "name": "DEX",
+              "url": "/api/2024/ability-scores/dex"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "url": "/api/2024/feats/martial-weapon-training"
+}

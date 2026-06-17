@@ -1,0 +1,98 @@
+{
+  "index": "great-old-one-patron",
+  "class": {
+    "index": "warlock",
+    "name": "Warlock",
+    "url": "/api/2024/classes/warlock"
+  },
+  "name": "Great Old One Patron",
+  "subclass_flavor": "Otherworldly Patron",
+  "desc": [
+    "Unearth Forbidden Lore of Ineffable Beings",
+    "When you choose this subclass, you might bind yourself to an unspeakable being from the Far Realm or an elder god—a being such as Tharizdun, the Chained God; Zargon, the Returner; Hadar, the Dark Hunger; or Great Cthulhu. Or you might invoke several entities without yoking yourself to one. The motives of these beings are incomprehensible, and the Great Old One might be indifferent to your existence. But the secrets you've learned nevertheless allow you to draw strange magic from it."
+  ],
+  "subclass_levels": "/api/2024/subclasses/great-old-one-patron/levels",
+  "spells": [
+    {
+      "prerequisites": [{ "index": "great-old-one-patron-3", "type": "level" }],
+      "spell": {
+        "index": "detect-thoughts",
+        "name": "Detect Thoughts",
+        "url": "/api/2024/spells/detect-thoughts"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "great-old-one-patron-3", "type": "level" }],
+      "spell": {
+        "index": "dissonant-whispers",
+        "name": "Dissonant Whispers",
+        "url": "/api/2024/spells/dissonant-whispers"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "great-old-one-patron-3", "type": "level" }],
+      "spell": {
+        "index": "phantasmal-force",
+        "name": "Phantasmal Force",
+        "url": "/api/2024/spells/phantasmal-force"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "great-old-one-patron-3", "type": "level" }],
+      "spell": {
+        "index": "tasha-s-hideous-laughter",
+        "name": "Tasha's Hideous Laughter",
+        "url": "/api/2024/spells/tasha-s-hideous-laughter"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "great-old-one-patron-5", "type": "level" }],
+      "spell": {
+        "index": "clairvoyance",
+        "name": "Clairvoyance",
+        "url": "/api/2024/spells/clairvoyance"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "great-old-one-patron-5", "type": "level" }],
+      "spell": {
+        "index": "hunger-of-hadar",
+        "name": "Hunger of Hadar",
+        "url": "/api/2024/spells/hunger-of-hadar"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "great-old-one-patron-7", "type": "level" }],
+      "spell": {
+        "index": "confusion",
+        "name": "Confusion",
+        "url": "/api/2024/spells/confusion"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "great-old-one-patron-7", "type": "level" }],
+      "spell": {
+        "index": "summon-aberration",
+        "name": "Summon Aberration",
+        "url": "/api/2024/spells/summon-aberration"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "great-old-one-patron-9", "type": "level" }],
+      "spell": {
+        "index": "modify-memory",
+        "name": "Modify Memory",
+        "url": "/api/2024/spells/modify-memory"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "great-old-one-patron-9", "type": "level" }],
+      "spell": {
+        "index": "telekinesis",
+        "name": "Telekinesis",
+        "url": "/api/2024/spells/telekinesis"
+      }
+    }
+  ],
+  "url": "/api/2024/subclasses/great-old-one-patron"
+}

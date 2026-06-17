@@ -1,0 +1,21 @@
+{
+  "index": "abyssal",
+  "name": "Abyssal",
+  "species": {
+    "index": "tiefling",
+    "name": "Tiefling",
+    "url": "/api/2024/species/tiefling"
+  },
+  "desc": [
+    "The entropy of the Abyss, the chaos of Pandemonium, and the despair of Carceri call to tieflings who have the abyssal legacy. Horns, fur, tusks, and peculiar scents are common physical features of such tieflings, most of whom have the blood of demons coursing through their veins.",
+    "Level 1: You have Resistance to Poison damage. You also know the Poison Spray cantrip. Level 3: Ray of Sickness. Level 5: Hold Person. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the legacy)."
+  ],
+  "traits": [
+    {
+      "index": "abyssal-fiendish-legacy",
+      "name": "Fiendish Legacy",
+      "url": "/api/2024/traits/abyssal-fiendish-legacy"
+    }
+  ],
+  "url": "/api/2024/subspecies/abyssal"
+}

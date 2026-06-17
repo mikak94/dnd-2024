@@ -1,0 +1,14 @@
+{
+  "index": "devil-mask",
+  "name": "Devil Mask",
+  "equipment_categories": [
+    {
+      "index": "adventuring-gear",
+      "name": "Adventuring Gear",
+      "url": "/api/2024/equipment-categories/adventuring-gear"
+    }
+  ],
+  "cost": { "quantity": 25, "unit": "gp" },
+  "description": "While you are wearing a Devil Mask, other creatures have Disadvantage on Intelligence (Investigation) and Wisdom (Insight) checks made to discern your true identity or intentions.",
+  "url": "/api/2024/equipment/devil-mask"
+}

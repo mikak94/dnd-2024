@@ -1,0 +1,11 @@
+{
+  "index": "tool-three-dragon-ante",
+  "name": "Tool: Three-Dragon Ante",
+  "type": "Tools",
+  "reference": {
+    "index": "three-dragon-ante",
+    "name": "Three-Dragon Ante",
+    "url": "/api/2024/equipment/three-dragon-ante"
+  },
+  "url": "/api/2024/proficiencies/tool-three-dragon-ante"
+}

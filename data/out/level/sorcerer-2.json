@@ -1,0 +1,33 @@
+{
+  "index": "sorcerer-2",
+  "level": 2,
+  "ability_score_bonuses": 0,
+  "prof_bonus": 2,
+  "features": [
+    {
+      "index": "font-of-magic",
+      "name": "Font of Magic",
+      "url": "/api/2024/features/font-of-magic"
+    },
+    {
+      "index": "metamagic",
+      "name": "Metamagic",
+      "url": "/api/2024/features/metamagic"
+    }
+  ],
+  "class": {
+    "index": "sorcerer",
+    "name": "Sorcerer",
+    "url": "/api/2024/classes/sorcerer"
+  },
+  "class_specific": {
+    "sorcery_points": 2,
+    "metamagic_known": 2
+  },
+  "spellcasting": {
+    "cantrips_known": 4,
+    "spells_known": 4,
+    "spell_slots_level_1": 3
+  },
+  "url": "/api/2024/classes/sorcerer/levels/2"
+}

@@ -1,0 +1,54 @@
+{
+  "index": "greatsword",
+  "name": "Greatsword",
+  "equipment_categories": [
+    {
+      "index": "martial-melee-weapons",
+      "name": "Martial Melee Weapons",
+      "url": "/api/2024/equipment-categories/martial-melee-weapons"
+    },
+    {
+      "index": "martial-weapons",
+      "name": "Martial Weapons",
+      "url": "/api/2024/equipment-categories/martial-weapons"
+    },
+    {
+      "index": "melee-weapons",
+      "name": "Melee Weapons",
+      "url": "/api/2024/equipment-categories/melee-weapons"
+    },
+    {
+      "index": "weapons",
+      "name": "Weapons",
+      "url": "/api/2024/equipment-categories/weapons"
+    }
+  ],
+  "cost": { "quantity": 50, "unit": "gp" },
+  "weight": 6,
+  "damage": {
+    "damage_dice": "2d6",
+    "damage_type": {
+      "index": "slashing",
+      "name": "Slashing",
+      "url": "/api/2024/damage-types/slashing"
+    }
+  },
+  "properties": [
+    {
+      "index": "heavy",
+      "name": "Heavy",
+      "url": "/api/2024/weapon-properties/heavy"
+    },
+    {
+      "index": "two-handed",
+      "name": "Two-Handed",
+      "url": "/api/2024/weapon-properties/two-handed"
+    }
+  ],
+  "mastery": {
+    "index": "graze",
+    "name": "Graze",
+    "url": "/api/2024/weapon-mastery-properties/graze"
+  },
+  "url": "/api/2024/equipment/greatsword"
+}

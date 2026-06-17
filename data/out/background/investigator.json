@@ -1,0 +1,119 @@
+{
+  "index": "investigator",
+  "name": "Investigator",
+  "starting_proficiencies": [
+    {
+      "index": "skill-insight",
+      "name": "Skill: Insight",
+      "url": "/api/2024/proficiencies/skill-insight"
+    },
+    {
+      "index": "skill-investigation",
+      "name": "Skill: Investigation",
+      "url": "/api/2024/proficiencies/skill-investigation"
+    },
+    {
+      "index": "disguise-kit",
+      "name": "Disguise Kit",
+      "url": "/api/2024/proficiencies/disguise-kit"
+    }
+  ],
+  "ability_scores": [
+    {
+      "index": "int",
+      "name": "INT",
+      "url": "/api/2024/ability-scores/int"
+    },
+    {
+      "index": "wis",
+      "name": "WIS",
+      "url": "/api/2024/ability-scores/wis"
+    },
+    {
+      "index": "cha",
+      "name": "CHA",
+      "url": "/api/2024/ability-scores/cha"
+    }
+  ],
+  "feat": {
+    "index": "sharp-eye",
+    "name": "Sharp Eye",
+    "url": "/api/2024/feats/sharp-eye"
+  },
+  "starting_equipment_options": [
+    {
+      "desc": "Choose A or B: (A) Disguise Kit, Manacles, Shovel, Traveler's Clothes, 3 Vials, and 16 GP; or (B) 50 GP",
+      "choose": 1,
+      "type": "equipment",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "multiple",
+            "items": [
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "disguise-kit",
+                  "name": "Disguise Kit",
+                  "url": "/api/2024/equipment/disguise-kit"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "manacles",
+                  "name": "Manacles",
+                  "url": "/api/2024/equipment/manacles"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "shovel",
+                  "name": "Shovel",
+                  "url": "/api/2024/equipment/shovel"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "travelers-clothes",
+                  "name": "Traveler's Clothes",
+                  "url": "/api/2024/equipment/travelers-clothes"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 3,
+                "of": {
+                  "index": "vial",
+                  "name": "Vial",
+                  "url": "/api/2024/equipment/vial"
+                }
+              },
+              {
+                "option_type": "money",
+                "count": 16,
+                "unit": "GP"
+              }
+            ]
+          },
+          {
+            "option_type": "money",
+            "count": 50,
+            "unit": "GP"
+          }
+        ]
+      }
+    }
+  ],
+  "desc": [
+    "You relentlessly seek the truth. Perhaps you witnessed something remarkable or terrible and now desire to unravel its mystery, or maybe you're motivated by universal justice and honesty. Whether the cases you're embroiled in are local crimes or eldritch conspiracies, you're driven to reveal what others would keep hidden."
+  ],
+  "url": "/api/2024/backgrounds/investigator"
+}

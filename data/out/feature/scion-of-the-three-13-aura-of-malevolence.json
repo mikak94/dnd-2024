@@ -1,0 +1,20 @@
+{
+  "index": "scion-of-the-three-13-aura-of-malevolence",
+  "name": "Aura of Malevolence",
+  "level": 13,
+  "class": {
+    "index": "rogue",
+    "name": "Rogue",
+    "url": "/api/2024/classes/rogue"
+  },
+  "subclass": {
+    "index": "scion-of-the-three",
+    "name": "Scion of the Three",
+    "url": "/api/2024/subclasses/scion-of-the-three"
+  },
+  "desc": [
+    "You radiate malignant power associated with one of the Dead Three. When you use Bloodthirst and teleport, each creature of your choice within 10 feet of either the space you left or your destination space (your choice) takes damage equal to your Intelligence modifier; the damage type is the same as the damage Resistance granted by your choice in the Dread Allegiance feature. Damage dealt by this feature ignores Resistance."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/scion-of-the-three-13-aura-of-malevolence"
+}

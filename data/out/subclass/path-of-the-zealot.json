@@ -1,0 +1,16 @@
+{
+  "index": "path-of-the-zealot",
+  "class": {
+    "index": "barbarian",
+    "name": "Barbarian",
+    "url": "/api/2024/classes/barbarian"
+  },
+  "name": "Path of the Zealot",
+  "subclass_flavor": "Primal Path",
+  "desc": [
+    "Rage in Ecstatic Union with a God",
+    "Barbarians who walk the Path of the Zealot receive boons from a god or pantheon. These Barbarians experience their Rage as an ecstatic episode of divine union that infuses them with power. They are often allies to the priests and other followers of their god or pantheon."
+  ],
+  "subclass_levels": "/api/2024/subclasses/path-of-the-zealot/levels",
+  "url": "/api/2024/subclasses/path-of-the-zealot"
+}

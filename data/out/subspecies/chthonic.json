@@ -1,0 +1,21 @@
+{
+  "index": "chthonic",
+  "name": "Chthonic",
+  "species": {
+    "index": "tiefling",
+    "name": "Tiefling",
+    "url": "/api/2024/species/tiefling"
+  },
+  "desc": [
+    "Tieflings who have the chthonic legacy feel not only the tug of Carceri but also the greed of Gehenna and the gloom of Hades. Some of these tieflings look cadaverous. Others possess the unearthly beauty of a succubus, or they have physical features in common with a night hag, a yugoloth, or some other Neutral Evil fiendish ancestor.",
+    "Level 1: You have Resistance to Necrotic damage. You also know the Chill Touch cantrip. Level 3: False Life. Level 5: Ray of Enfeeblement. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the legacy)."
+  ],
+  "traits": [
+    {
+      "index": "chthonic-fiendish-legacy",
+      "name": "Fiendish Legacy",
+      "url": "/api/2024/traits/chthonic-fiendish-legacy"
+    }
+  ],
+  "url": "/api/2024/subspecies/chthonic"
+}

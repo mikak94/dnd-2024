@@ -1,0 +1,29 @@
+{
+  "index": "fighter-13",
+  "level": 13,
+  "ability_score_bonuses": 4,
+  "prof_bonus": 5,
+  "features": [
+    {
+      "index": "indomitable",
+      "name": "Indomitable",
+      "url": "/api/2024/features/indomitable"
+    },
+    {
+      "index": "studied-attacks",
+      "name": "Studied Attacks",
+      "url": "/api/2024/features/studied-attacks"
+    }
+  ],
+  "class": {
+    "index": "fighter",
+    "name": "Fighter",
+    "url": "/api/2024/classes/fighter"
+  },
+  "class_specific": {
+    "extra_attacks": 3,
+    "action_surges": 1,
+    "indomitable_uses": 2
+  },
+  "url": "/api/2024/classes/fighter/levels/13"
+}

@@ -1,0 +1,15 @@
+{
+  "index": "bracers-of-archery",
+  "name": "Bracers of Archery",
+  "equipment_category": {
+    "index": "wondrous-items",
+    "name": "Wondrous Items",
+    "url": "/api/2024/equipment-categories/wondrous-items"
+  },
+  "rarity": { "name": "Uncommon" },
+  "attunement": true,
+  "desc": "While wearing these bracers, you have proficiency with the Longbow and Shortbow, and you gain a +2 bonus to damage rolls made with such weapons.",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/bracers-of-archery"
+}

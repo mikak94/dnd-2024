@@ -1,0 +1,11 @@
+{
+  "index": "rapiers",
+  "name": "Rapiers",
+  "type": "Weapons",
+  "reference": {
+    "index": "rapier",
+    "name": "Rapier",
+    "url": "/api/2024/equipment/rapier"
+  },
+  "url": "/api/2024/proficiencies/rapiers"
+}

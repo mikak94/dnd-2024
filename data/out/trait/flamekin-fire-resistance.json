@@ -1,0 +1,14 @@
+{
+  "index": "flamekin-fire-resistance",
+  "name": "Fire Resistance",
+  "species": [
+    {
+      "index": "flamekin",
+      "name": "Flamekin",
+      "url": "/api/2024/species/flamekin"
+    }
+  ],
+  "subspecies": [],
+  "desc": ["You have resistance to fire damage."],
+  "url": "/api/2024/traits/flamekin-fire-resistance"
+}

@@ -1,0 +1,90 @@
+{
+  "index": "crafter",
+  "name": "Crafter",
+  "type": "origin",
+  "prerequisites": [],
+  "desc": [
+    "You gain the following benefits.",
+    "Tool Proficiency. You gain proficiency with three different Artisan's Tools of your choice from the Fast Crafting table.",
+    "Discount. Whenever you buy a nonmagical item, you receive a 20 percent discount on it.",
+    "Fast Crafting. When you finish a Long Rest, you can craft one piece of gear from the Fast Crafting table, provided you have the Artisan's Tools associated with that item and have proficiency with those tools. The item lasts until you finish another Long Rest, at which point the item falls apart.",
+    "Fast Crafting Table: Carpenter's Tools - Ladder, Torch; Leatherworker's Tools - Case, Pouch; Mason's Tools - Block and Tackle; Potter's Tools - Jug, Lamp; Smith's Tools - Ball Bearings, Bucket, Caltrops, Grappling Hook, Iron Pot; Tinker's Tools - Bell, Shovel, Tinder Box; Weaver's Tools - Basket, Rope, Net, Tent; Woodcarver's Tools - Club, Greatclub, Quarterstaff."
+  ],
+  "choices": [
+    {
+      "desc": "You gain proficiency with three different Artisan's Tools of your choice from the Fast Crafting table.",
+      "choose": 3,
+      "type": "proficiencies",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "carpenters-tools",
+              "name": "Carpenter's Tools",
+              "url": "/api/2024/proficiencies/carpenters-tools"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "leatherworkers-tools",
+              "name": "Leatherworker's Tools",
+              "url": "/api/2024/proficiencies/leatherworkers-tools"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "masons-tools",
+              "name": "Mason's Tools",
+              "url": "/api/2024/proficiencies/masons-tools"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "potters-tools",
+              "name": "Potter's Tools",
+              "url": "/api/2024/proficiencies/potters-tools"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "smiths-tools",
+              "name": "Smith's Tools",
+              "url": "/api/2024/proficiencies/smiths-tools"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "tinkers-tools",
+              "name": "Tinker's Tools",
+              "url": "/api/2024/proficiencies/tinkers-tools"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "weavers-tools",
+              "name": "Weaver's Tools",
+              "url": "/api/2024/proficiencies/weavers-tools"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "woodcarvers-tools",
+              "name": "Woodcarver's Tools",
+              "url": "/api/2024/proficiencies/woodcarvers-tools"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "url": "/api/2024/feats/crafter"
+}

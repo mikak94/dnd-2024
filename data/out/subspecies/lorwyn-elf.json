@@ -1,0 +1,20 @@
+{
+  "index": "lorwyn-elf",
+  "name": "Lorwyn Elf",
+  "species": { "index": "elf", "name": "Elf", "url": "/api/2024/species/elf" },
+  "desc": [
+    "Elves in the realm of Lorwyn-Shadowmoor possess black, pupilless eyes; curved horns; legs that end in cloven hooves; and pointed ears. The elves of Lorwyn exhibit stark differences physically as well as culturally from their Shadowmoor counterparts.",
+    "The horns of Lorwyn elves are stubby like a goat's or curved like a ram's, but always ridged. Their pointed ears are long and slender.",
+    "In Lorwyn, elves value beauty above all, though what any given elf deems beautiful can seem arbitrary. Some Lorwyn elves assume authority over the land's other peoples, using their fallen empire to support their claims.",
+    "These elves blame the fall of their empire on outside threats, especially the Phyrexian invasion. Though the invasion was the empire's death knell, its people's self-importance and unwillingness to collaborate with other species had already led to the empire's decline.",
+    "Level 1: You know the Thorn Whip cantrip. Whenever you finish a Long Rest, you can replace that cantrip with a different cantrip from the Druid spell list. Level 3: Command. Level 5: Silence."
+  ],
+  "traits": [
+    {
+      "index": "lorwyn-elf-elven-lineage",
+      "name": "Elven Lineage",
+      "url": "/api/2024/traits/lorwyn-elf-elven-lineage"
+    }
+  ],
+  "url": "/api/2024/subspecies/lorwyn-elf"
+}

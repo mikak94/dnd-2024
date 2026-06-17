@@ -1,0 +1,22 @@
+{
+  "index": "metamagic-seeking-spell",
+  "name": "Metamagic: Seeking Spell",
+  "level": 2,
+  "class": {
+    "index": "sorcerer",
+    "name": "Sorcerer",
+    "url": "/api/2024/classes/sorcerer"
+  },
+  "parent": {
+    "index": "metamagic",
+    "name": "Metamagic",
+    "url": "/api/2024/features/metamagic"
+  },
+  "desc": [
+    "Cost: 1 Sorcery Point",
+    "If you make an attack roll for a spell and miss, you can spend 1 Sorcery Point to reroll the d20, and you must use the new roll.",
+    "You can use Seeking Spell even if you've already used a different Metamagic option during the casting of the spell."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/metamagic-seeking-spell"
+}

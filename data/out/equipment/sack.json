@@ -1,0 +1,15 @@
+{
+  "index": "sack",
+  "name": "Sack",
+  "equipment_categories": [
+    {
+      "index": "adventuring-gear",
+      "name": "Adventuring Gear",
+      "url": "/api/2024/equipment-categories/adventuring-gear"
+    }
+  ],
+  "cost": { "quantity": 1, "unit": "cp" },
+  "weight": 0.5,
+  "description": "A Sack holds up to 30 pounds within 1 cubic foot.",
+  "url": "/api/2024/equipment/sack"
+}

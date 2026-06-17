@@ -1,0 +1,15 @@
+{
+  "index": "quiver-of-ehlonna",
+  "name": "Quiver of Ehlonna",
+  "equipment_category": {
+    "index": "wondrous-items",
+    "name": "Wondrous Items",
+    "url": "/api/2024/equipment-categories/wondrous-items"
+  },
+  "rarity": { "name": "Uncommon" },
+  "attunement": false,
+  "desc": "Each of the quiver's three compartments connects to an extradimensional space that allows the quiver to hold numerous items while never weighing more than 2 pounds. The shortest compartment can hold up to 60 Arrows, Bolts, or similar objects. The midsize compartment holds up to 18 Javelins or similar objects. The longest compartment holds up to 6 long objects, such as bows, Quarterstaffs, or Spears.\n\nYou can draw any item the quiver contains as if doing so from a regular quiver or scabbard.",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/quiver-of-ehlonna"
+}

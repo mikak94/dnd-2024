@@ -1,0 +1,16 @@
+{
+  "index": "halfling-luck",
+  "name": "Luck",
+  "species": [
+    {
+      "index": "halfling",
+      "name": "Halfling",
+      "url": "/api/2024/species/halfling"
+    }
+  ],
+  "subspecies": [],
+  "desc": [
+    "When you roll a 1 on the d20 of a D20 Test, you can reroll the die, and you must use the new roll."
+  ],
+  "url": "/api/2024/traits/halfling-luck"
+}

@@ -1,0 +1,27 @@
+{
+  "index": "monk-19",
+  "level": 19,
+  "ability_score_bonuses": 5,
+  "prof_bonus": 6,
+  "features": [
+    {
+      "index": "epic-boon-monk",
+      "name": "Epic Boon",
+      "url": "/api/2024/features/epic-boon-monk"
+    }
+  ],
+  "class": {
+    "index": "monk",
+    "name": "Monk",
+    "url": "/api/2024/classes/monk"
+  },
+  "url": "/api/2024/classes/monk/levels/19",
+  "class_specific": {
+    "ki_points": 19,
+    "unarmored_movement": 30,
+    "martial_arts": {
+      "dice_count": 1,
+      "dice_value": 12
+    }
+  }
+}

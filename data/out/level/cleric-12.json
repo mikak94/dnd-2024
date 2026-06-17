@@ -1,0 +1,29 @@
+{
+  "index": "cleric-12",
+  "level": 12,
+  "ability_score_bonuses": 3,
+  "prof_bonus": 4,
+  "features": [
+    {
+      "index": "ability-score-improvement-cleric",
+      "name": "Ability Score Improvement",
+      "url": "/api/2024/features/ability-score-improvement-cleric"
+    }
+  ],
+  "class": {
+    "index": "cleric",
+    "name": "Cleric",
+    "url": "/api/2024/classes/cleric"
+  },
+  "spellcasting": {
+    "cantrips_known": 5,
+    "spells_known": 16,
+    "spell_slots_level_1": 4,
+    "spell_slots_level_2": 3,
+    "spell_slots_level_3": 3,
+    "spell_slots_level_4": 3,
+    "spell_slots_level_5": 2,
+    "spell_slots_level_6": 1
+  },
+  "url": "/api/2024/classes/cleric/levels/12"
+}

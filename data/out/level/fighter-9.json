@@ -1,0 +1,29 @@
+{
+  "index": "fighter-9",
+  "level": 9,
+  "ability_score_bonuses": 3,
+  "prof_bonus": 4,
+  "features": [
+    {
+      "index": "indomitable",
+      "name": "Indomitable",
+      "url": "/api/2024/features/indomitable"
+    },
+    {
+      "index": "tactical-master",
+      "name": "Tactical Master",
+      "url": "/api/2024/features/tactical-master"
+    }
+  ],
+  "class": {
+    "index": "fighter",
+    "name": "Fighter",
+    "url": "/api/2024/classes/fighter"
+  },
+  "class_specific": {
+    "extra_attacks": 2,
+    "action_surges": 1,
+    "indomitable_uses": 1
+  },
+  "url": "/api/2024/classes/fighter/levels/9"
+}

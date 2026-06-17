@@ -1,0 +1,59 @@
+{
+  "index": "pike",
+  "name": "Pike",
+  "equipment_categories": [
+    {
+      "index": "martial-melee-weapons",
+      "name": "Martial Melee Weapons",
+      "url": "/api/2024/equipment-categories/martial-melee-weapons"
+    },
+    {
+      "index": "martial-weapons",
+      "name": "Martial Weapons",
+      "url": "/api/2024/equipment-categories/martial-weapons"
+    },
+    {
+      "index": "melee-weapons",
+      "name": "Melee Weapons",
+      "url": "/api/2024/equipment-categories/melee-weapons"
+    },
+    {
+      "index": "weapons",
+      "name": "Weapons",
+      "url": "/api/2024/equipment-categories/weapons"
+    }
+  ],
+  "cost": { "quantity": 5, "unit": "gp" },
+  "weight": 18,
+  "damage": {
+    "damage_dice": "1d10",
+    "damage_type": {
+      "index": "piercing",
+      "name": "Piercing",
+      "url": "/api/2024/damage-types/piercing"
+    }
+  },
+  "properties": [
+    {
+      "index": "heavy",
+      "name": "Heavy",
+      "url": "/api/2024/weapon-properties/heavy"
+    },
+    {
+      "index": "reach",
+      "name": "Reach",
+      "url": "/api/2024/weapon-properties/reach"
+    },
+    {
+      "index": "two-handed",
+      "name": "Two-Handed",
+      "url": "/api/2024/weapon-properties/two-handed"
+    }
+  ],
+  "mastery": {
+    "index": "push",
+    "name": "Push",
+    "url": "/api/2024/weapon-mastery-properties/push"
+  },
+  "url": "/api/2024/equipment/pike"
+}

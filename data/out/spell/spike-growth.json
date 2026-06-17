@@ -1,0 +1,48 @@
+{
+  "index": "spike-growth",
+  "name": "Spike Growth",
+  "level": 2,
+  "school": {
+    "index": "transmutation",
+    "name": "Transmutation",
+    "url": "/api/2024/magic-schools/transmutation"
+  },
+  "casting_time": "Action",
+  "range": "150 feet",
+  "components": ["V", "S", "M"],
+  "material": "seven thorns",
+  "ritual": false,
+  "concentration": true,
+  "duration": "Concentration, up to 10 minutes",
+  "desc": [
+    "The ground in a 20-foot-radius Sphere centered on a point within range sprouts hard spikes and thorns. The area becomes Difficult Terrain for the duration. When a creature moves into or within the area, it takes 2d4 Piercing damage for every 5 feet it travels.",
+    "The transformation of the ground is camouflaged to look natural. Any creature that can't see the area when the spell is cast must take a Search action and succeed on a Wisdom (Perception or Survival) check against your spell save DC to recognize the terrain as hazardous before entering it."
+  ],
+  "damage": {
+    "damage_type": {
+      "index": "piercing",
+      "name": "Piercing",
+      "url": "/api/2024/damage-types/piercing"
+    },
+    "damage_at_slot_level": {
+      "2": "2d4"
+    }
+  },
+  "area_of_effect": {
+    "type": "sphere",
+    "size": 20
+  },
+  "classes": [
+    {
+      "index": "druid",
+      "name": "Druid",
+      "url": "/api/2024/classes/druid"
+    },
+    {
+      "index": "ranger",
+      "name": "Ranger",
+      "url": "/api/2024/classes/ranger"
+    }
+  ],
+  "url": "/api/2024/spells/spike-growth"
+}

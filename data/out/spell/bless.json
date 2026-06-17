@@ -1,0 +1,36 @@
+{
+  "index": "bless",
+  "name": "Bless",
+  "level": 1,
+  "school": {
+    "index": "enchantment",
+    "name": "Enchantment",
+    "url": "/api/2024/magic-schools/enchantment"
+  },
+  "casting_time": "Action",
+  "range": "30 feet",
+  "components": ["V", "S", "M"],
+  "material": "a Holy Symbol worth 5+ GP",
+  "ritual": false,
+  "concentration": true,
+  "duration": "Concentration, up to 1 minute",
+  "desc": [
+    "You bless up to three creatures within range. Whenever a target makes an attack roll or a saving throw before the spell ends, the target adds 1d4 to the attack roll or save."
+  ],
+  "higher_level": [
+    "Using a Higher-Level Spell Slot. You can target one additional creature for each spell slot level above 1."
+  ],
+  "classes": [
+    {
+      "index": "cleric",
+      "name": "Cleric",
+      "url": "/api/2024/classes/cleric"
+    },
+    {
+      "index": "paladin",
+      "name": "Paladin",
+      "url": "/api/2024/classes/paladin"
+    }
+  ],
+  "url": "/api/2024/spells/bless"
+}

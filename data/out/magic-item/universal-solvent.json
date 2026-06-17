@@ -1,0 +1,17 @@
+{
+  "index": "universal-solvent",
+  "name": "Universal Solvent",
+  "equipment_category": {
+    "index": "wondrous-items",
+    "name": "Wondrous Items",
+    "url": "/api/2024/equipment-categories/wondrous-items"
+  },
+  "rarity": {
+    "name": "Legendary"
+  },
+  "attunement": false,
+  "desc": "This tube holds milky liquid with a strong alcohol smell. When found, a tube contains 1d6 + 1 ounces.\n\nYou can take a Utilize action to pour 1 or more ounces of solvent from the tube onto a surface within reach. Each ounce instantly dissolves up to 1 square foot of adhesive it touches, including Sovereign Glue.",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/universal-solvent"
+}

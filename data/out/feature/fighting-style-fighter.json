@@ -1,0 +1,107 @@
+{
+  "index": "fighting-style-fighter",
+  "name": "Fighting Style",
+  "level": 1,
+  "class": {
+    "index": "fighter",
+    "name": "Fighter",
+    "url": "/api/2024/classes/fighter"
+  },
+  "desc": [
+    "You gain a Fighting Style feat of your choice (see chapter 5). Defense is recommended.",
+    "Whenever you gain a Fighter level, you can replace the feat you chose with a different Fighting Style feat."
+  ],
+  "prerequisites": [],
+  "feature_specific": {
+    "subfeature_options": {
+      "choose": 1,
+      "type": "feat",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "archery",
+              "name": "Archery",
+              "url": "/api/2024/feats/archery"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "blind-fighting",
+              "name": "Blind Fighting",
+              "url": "/api/2024/feats/blind-fighting"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "defense",
+              "name": "Defense",
+              "url": "/api/2024/feats/defense"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "dueling",
+              "name": "Dueling",
+              "url": "/api/2024/feats/dueling"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "great-weapon-fighting",
+              "name": "Great Weapon Fighting",
+              "url": "/api/2024/feats/great-weapon-fighting"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "interception",
+              "name": "Interception",
+              "url": "/api/2024/feats/interception"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "protection",
+              "name": "Protection",
+              "url": "/api/2024/feats/protection"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "thrown-weapon-fighting",
+              "name": "Thrown Weapon Fighting",
+              "url": "/api/2024/feats/thrown-weapon-fighting"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "two-weapon-fighting",
+              "name": "Two Weapon Fighting",
+              "url": "/api/2024/feats/two-weapon-fighting"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "unarmed-fighting",
+              "name": "Unarmed Fighting",
+              "url": "/api/2024/feats/unarmed-fighting"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "url": "/api/2024/features/fighting-style-fighter"
+}

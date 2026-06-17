@@ -1,0 +1,15 @@
+{
+  "index": "periapt-of-proof-against-poison",
+  "name": "Periapt of Proof against Poison",
+  "equipment_category": {
+    "index": "wondrous-items",
+    "name": "Wondrous Items",
+    "url": "/api/2024/equipment-categories/wondrous-items"
+  },
+  "rarity": { "name": "Rare" },
+  "attunement": true,
+  "desc": "This delicate silver chain has a brilliant-cut black gem pendant. While you wear it, you have Immunity to the Poisoned condition and Poison damage.",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/periapt-of-proof-against-poison"
+}

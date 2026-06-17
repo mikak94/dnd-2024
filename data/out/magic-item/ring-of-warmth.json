@@ -1,0 +1,15 @@
+{
+  "index": "ring-of-warmth",
+  "name": "Ring of Warmth",
+  "equipment_category": {
+    "index": "rings",
+    "name": "Rings",
+    "url": "/api/2024/equipment-categories/rings"
+  },
+  "rarity": { "name": "Uncommon" },
+  "attunement": true,
+  "desc": "If you take Cold damage while wearing this ring, the ring reduces the damage you take by 2d8.\n\nIn addition, while wearing this ring, you and everything you wear and carry are unharmed by temperatures of 0 degrees Fahrenheit or lower.",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/ring-of-warmth"
+}

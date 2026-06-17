@@ -1,0 +1,24 @@
+{
+  "index": "poisoners-kit",
+  "name": "Poisoner's Kit",
+  "equipment_categories": [
+    {
+      "index": "other-tools",
+      "name": "Other Tools",
+      "url": "/api/2024/equipment-categories/other-tools"
+    },
+    {
+      "index": "tools",
+      "name": "Tools",
+      "url": "/api/2024/equipment-categories/tools"
+    }
+  ],
+  "url": "/api/2024/equipment/poisoners-kit",
+  "cost": { "quantity": 50, "unit": "gp" },
+  "weight": 2,
+  "ability": {
+    "index": "int",
+    "name": "INT",
+    "url": "/api/2024/ability-scores/int"
+  }
+}

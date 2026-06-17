@@ -1,0 +1,44 @@
+{
+  "index": "mass-healing-word",
+  "name": "Mass Healing Word",
+  "level": 3,
+  "school": {
+    "index": "abjuration",
+    "name": "Abjuration",
+    "url": "/api/2024/magic-schools/abjuration"
+  },
+  "casting_time": "Bonus Action",
+  "range": "60 feet",
+  "components": ["V"],
+  "ritual": false,
+  "concentration": false,
+  "duration": "Instantaneous",
+  "desc": [
+    "Up to six creatures of your choice that you can see within range regain Hit Points equal to 2d4 plus your spellcasting ability modifier."
+  ],
+  "higher_level": [
+    "Using a Higher-Level Spell Slot. The healing increases by 1d4 for each spell slot level above 3."
+  ],
+  "heal_at_slot_level": {
+    "3": "2d4",
+    "4": "3d4",
+    "5": "4d4",
+    "6": "5d4",
+    "7": "6d4",
+    "8": "7d4",
+    "9": "8d4"
+  },
+  "classes": [
+    {
+      "index": "bard",
+      "name": "Bard",
+      "url": "/api/2024/classes/bard"
+    },
+    {
+      "index": "cleric",
+      "name": "Cleric",
+      "url": "/api/2024/classes/cleric"
+    }
+  ],
+  "url": "/api/2024/spells/mass-healing-word"
+}

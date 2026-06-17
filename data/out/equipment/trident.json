@@ -1,0 +1,63 @@
+{
+  "index": "trident",
+  "name": "Trident",
+  "equipment_categories": [
+    {
+      "index": "martial-melee-weapons",
+      "name": "Martial Melee Weapons",
+      "url": "/api/2024/equipment-categories/martial-melee-weapons"
+    },
+    {
+      "index": "martial-weapons",
+      "name": "Martial Weapons",
+      "url": "/api/2024/equipment-categories/martial-weapons"
+    },
+    {
+      "index": "melee-weapons",
+      "name": "Melee Weapons",
+      "url": "/api/2024/equipment-categories/melee-weapons"
+    },
+    {
+      "index": "weapons",
+      "name": "Weapons",
+      "url": "/api/2024/equipment-categories/weapons"
+    }
+  ],
+  "cost": { "quantity": 5, "unit": "gp" },
+  "weight": 4,
+  "damage": {
+    "damage_dice": "1d8",
+    "damage_type": {
+      "index": "piercing",
+      "name": "Piercing",
+      "url": "/api/2024/damage-types/piercing"
+    }
+  },
+  "two_handed_damage": {
+    "damage_dice": "1d10",
+    "damage_type": {
+      "index": "piercing",
+      "name": "Piercing",
+      "url": "/api/2024/damage-types/piercing"
+    }
+  },
+  "throw_range": { "normal": 20, "long": 60 },
+  "properties": [
+    {
+      "index": "thrown",
+      "name": "Thrown",
+      "url": "/api/2024/weapon-properties/thrown"
+    },
+    {
+      "index": "versatile",
+      "name": "Versatile",
+      "url": "/api/2024/weapon-properties/versatile"
+    }
+  ],
+  "mastery": {
+    "index": "topple",
+    "name": "Topple",
+    "url": "/api/2024/weapon-mastery-properties/topple"
+  },
+  "url": "/api/2024/equipment/trident"
+}

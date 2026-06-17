@@ -1,0 +1,68 @@
+{
+  "index": "cloud-of-daggers",
+  "name": "Cloud Of Daggers",
+  "level": 2,
+  "school": {
+    "index": "conjuration",
+    "name": "Conjuration",
+    "url": "/api/2024/magic-schools/conjuration"
+  },
+  "casting_time": "Action",
+  "range": "60 feet",
+  "components": ["V", "S", "M"],
+  "material": "a sliver of glass",
+  "ritual": false,
+  "concentration": true,
+  "duration": "Concentration, up to 1 minute",
+  "desc": [
+    "You conjure spinning daggers in a 5-foot Cube centered on a point within range. Each creature in that area takes 4d4 Slashing damage. A creature also takes this damage if it enters the Cube or ends its turn there or if the Cube moves into its space. A creature takes this damage only once per turn.",
+    "On your later turns, you can take a Magic action to teleport the Cube up to 30 feet."
+  ],
+  "higher_level": [
+    "Using a Higher-Level Spell Slot. The damage increases by 2d4 for each spell slot level above 2."
+  ],
+  "damage": {
+    "damage_type": {
+      "index": "slashing",
+      "name": "Slashing",
+      "url": "/api/2024/damage-types/slashing"
+    },
+    "damage_at_slot_level": {
+      "2": "4d4",
+      "3": "6d4",
+      "4": "8d4",
+      "5": "10d4",
+      "6": "12d4",
+      "7": "14d4",
+      "8": "16d4",
+      "9": "18d4"
+    }
+  },
+  "area_of_effect": {
+    "type": "cube",
+    "size": 5
+  },
+  "classes": [
+    {
+      "index": "bard",
+      "name": "Bard",
+      "url": "/api/2024/classes/bard"
+    },
+    {
+      "index": "sorcerer",
+      "name": "Sorcerer",
+      "url": "/api/2024/classes/sorcerer"
+    },
+    {
+      "index": "warlock",
+      "name": "Warlock",
+      "url": "/api/2024/classes/warlock"
+    },
+    {
+      "index": "wizard",
+      "name": "Wizard",
+      "url": "/api/2024/classes/wizard"
+    }
+  ],
+  "url": "/api/2024/spells/cloud-of-daggers"
+}

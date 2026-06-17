@@ -1,0 +1,24 @@
+{
+  "index": "barbarian-20",
+  "level": 20,
+  "ability_score_bonuses": 5,
+  "prof_bonus": 6,
+  "features": [
+    {
+      "index": "primal-champion",
+      "name": "Primal Champion",
+      "url": "/api/2024/features/primal-champion"
+    }
+  ],
+  "class": {
+    "index": "barbarian",
+    "name": "Barbarian",
+    "url": "/api/2024/classes/barbarian"
+  },
+  "class_specific": {
+    "rage_count": 6,
+    "rage_damage_bonus": 4,
+    "brutal_critical_dice": 0
+  },
+  "url": "/api/2024/classes/barbarian/levels/20"
+}

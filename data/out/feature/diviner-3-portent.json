@@ -1,0 +1,21 @@
+{
+  "index": "diviner-3-portent",
+  "name": "Portent",
+  "level": 3,
+  "class": {
+    "index": "wizard",
+    "name": "Wizard",
+    "url": "/api/2024/classes/wizard"
+  },
+  "subclass": {
+    "index": "diviner",
+    "name": "Diviner",
+    "url": "/api/2024/subclasses/diviner"
+  },
+  "desc": [
+    "Glimpses of the future begin to press on your awareness. Whenever you finish a Long Rest, roll two d20s and record the numbers rolled. You can replace any D20 Test made by you or a creature that you can see with one of these foretelling rolls. You must choose to do so before the roll, and you can replace a roll in this way only once per turn.",
+    "Each foretelling roll can be used only once. When you finish a Long Rest, you lose any unused foretelling rolls."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/diviner-3-portent"
+}

@@ -1,0 +1,31 @@
+{
+  "index": "crusader-s-mantle",
+  "name": "Crusader's Mantle",
+  "level": 3,
+  "school": {
+    "index": "evocation",
+    "name": "Evocation",
+    "url": "/api/2024/magic-schools/evocation"
+  },
+  "casting_time": "Action",
+  "range": "Self",
+  "components": ["V"],
+  "ritual": false,
+  "concentration": true,
+  "duration": "Concentration, up to 1 minute",
+  "desc": [
+    "You radiate a magical aura in a 30-foot Emanation. While in the aura, you and your allies each deal an extra 1d4 Radiant damage when hitting with a weapon or an Unarmed Strike."
+  ],
+  "area_of_effect": {
+    "type": "sphere",
+    "size": 30
+  },
+  "classes": [
+    {
+      "index": "paladin",
+      "name": "Paladin",
+      "url": "/api/2024/classes/paladin"
+    }
+  ],
+  "url": "/api/2024/spells/crusader-s-mantle"
+}

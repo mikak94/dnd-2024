@@ -1,0 +1,68 @@
+{
+  "index": "abyssal-fiendish-legacy",
+  "name": "Fiendish Legacy",
+  "species": [],
+  "subspecies": [
+    {
+      "index": "abyssal",
+      "name": "Abyssal",
+      "url": "/api/2024/subspecies/abyssal"
+    }
+  ],
+  "desc": [
+    "Level 1: You have Resistance to Poison damage. You also know the Poison Spray cantrip. Level 3: Ray of Sickness. Level 5: Hold Person. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the legacy)."
+  ],
+  "parent": {
+    "index": "tiefling-fiendish-legacy",
+    "name": "Fiendish Legacy",
+    "url": "/api/2024/traits/tiefling-fiendish-legacy"
+  },
+  "trait_specific": {
+    "spellcasting": {
+      "ability": [
+        {
+          "index": "int",
+          "name": "INT",
+          "url": "/api/2024/ability-scores/int"
+        },
+        {
+          "index": "wis",
+          "name": "WIS",
+          "url": "/api/2024/ability-scores/wis"
+        },
+        {
+          "index": "cha",
+          "name": "CHA",
+          "url": "/api/2024/ability-scores/cha"
+        }
+      ],
+      "spells": [
+        {
+          "spell": {
+            "index": "poison-spray",
+            "name": "Poison Spray",
+            "url": "/api/2024/spells/poison-spray"
+          },
+          "level": 1
+        },
+        {
+          "spell": {
+            "index": "ray-of-sickness",
+            "name": "Ray of Sickness",
+            "url": "/api/2024/spells/ray-of-sickness"
+          },
+          "level": 3
+        },
+        {
+          "spell": {
+            "index": "hold-person",
+            "name": "Hold Person",
+            "url": "/api/2024/spells/hold-person"
+          },
+          "level": 5
+        }
+      ]
+    }
+  },
+  "url": "/api/2024/traits/abyssal-fiendish-legacy"
+}

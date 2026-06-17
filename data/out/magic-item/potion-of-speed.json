@@ -1,0 +1,15 @@
+{
+  "index": "potion-of-speed",
+  "name": "Potion of Speed",
+  "equipment_category": {
+    "index": "potions",
+    "name": "Potions",
+    "url": "/api/2024/equipment-categories/potions"
+  },
+  "rarity": { "name": "Very Rare" },
+  "attunement": false,
+  "desc": "When you drink this potion, you gain the effect of the Haste spell for 1 minute (no Concentration required) without suffering the wave of lethargy that typically occurs when the effect ends.\n\nThis potion's yellow fluid is streaked with black and swirls on its own.",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/potion-of-speed"
+}

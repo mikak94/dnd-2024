@@ -1,0 +1,15 @@
+{
+  "index": "pipes-of-pestilence",
+  "name": "Pipes Of Pestilence",
+  "equipment_category": {
+    "index": "wondrous-items",
+    "name": "Wondrous Items",
+    "url": "/api/2024/equipment-categories/wondrous-items"
+  },
+  "rarity": { "name": "Uncommon" },
+  "attunement": true,
+  "desc": "If you play these pipes as a Magic action, you summon one Swarm of Corrupted Rats in an unoccupied space within 60 feet of yourself. The swarm is Friendly to you and your allies for as long as you continue to play the pipes each round as a Magic action. While Friendly, the swarm is under your control, obeys your commands, and takes no action other than to defend itself if you issue it no commands. Once your control ends, the swarm vanishes, and the pipes can't be used again until the next dawn.",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/pipes-of-pestilence"
+}

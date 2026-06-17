@@ -1,0 +1,15 @@
+{
+  "index": "mariner-s-armor",
+  "name": "Mariner's Armor",
+  "equipment_category": {
+    "index": "armor",
+    "name": "Armor",
+    "url": "/api/2024/equipment-categories/armor"
+  },
+  "rarity": { "name": "Uncommon" },
+  "attunement": false,
+  "desc": "While wearing this armor, you have a Swim Speed equal to your Speed. In addition, if you start your turn underwater with 0 Hit Points, you immediately regain 1d4 Hit Points. The armor can't heal anyone again until the next dawn.\n\nThe armor is decorated with fish and shell motifs.",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/mariner-s-armor"
+}

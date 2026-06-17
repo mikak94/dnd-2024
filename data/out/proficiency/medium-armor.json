@@ -1,0 +1,11 @@
+{
+  "index": "medium-armor",
+  "name": "Medium Armor",
+  "type": "Armor",
+  "reference": {
+    "index": "medium-armor",
+    "name": "Medium Armor",
+    "url": "/api/2024/equipment-categories/medium-armor"
+  },
+  "url": "/api/2024/proficiencies/medium-armor"
+}

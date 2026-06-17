@@ -1,0 +1,25 @@
+{
+  "index": "ranger-9",
+  "level": 9,
+  "ability_score_bonuses": 2,
+  "prof_bonus": 4,
+  "features": [
+    {
+      "index": "expertise",
+      "name": "Expertise",
+      "url": "/api/2024/features/expertise"
+    }
+  ],
+  "class": {
+    "index": "ranger",
+    "name": "Ranger",
+    "url": "/api/2024/classes/ranger"
+  },
+  "spellcasting": {
+    "spells_known": 9,
+    "spell_slots_level_1": 4,
+    "spell_slots_level_2": 3,
+    "spell_slots_level_3": 2
+  },
+  "url": "/api/2024/classes/ranger/levels/9"
+}

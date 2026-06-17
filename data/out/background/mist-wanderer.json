@@ -1,0 +1,137 @@
+{
+  "index": "mist-wanderer",
+  "name": "Mist Wanderer",
+  "starting_proficiencies": [
+    {
+      "index": "skill-survival",
+      "name": "Skill: Survival",
+      "url": "/api/2024/proficiencies/skill-survival"
+    },
+    {
+      "index": "skill-stealth",
+      "name": "Skill: Stealth",
+      "url": "/api/2024/proficiencies/skill-stealth"
+    },
+    {
+      "index": "artisans-tools",
+      "name": "Artisan's Tools",
+      "url": "/api/2024/proficiencies/artisans-tools"
+    }
+  ],
+  "ability_scores": [
+    {
+      "index": "dex",
+      "name": "DEX",
+      "url": "/api/2024/ability-scores/dex"
+    },
+    {
+      "index": "con",
+      "name": "CON",
+      "url": "/api/2024/ability-scores/con"
+    },
+    {
+      "index": "wis",
+      "name": "WIS",
+      "url": "/api/2024/ability-scores/wis"
+    }
+  ],
+  "feat": {
+    "index": "mist-walker",
+    "name": "Mist Walker",
+    "url": "/api/2024/feats/mist-walker"
+  },
+  "starting_equipment_options": [
+    {
+      "desc": "Choose A or B: (A) Artisan's Tools (same as above), Lamp, Oil (5 flasks), Pouch, Rope, Tinderbox, Traveler's Clothes, and 30 GP; or (B) 50 GP",
+      "choose": 1,
+      "type": "equipment",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "multiple",
+            "items": [
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "artisans-tools",
+                  "name": "Artisan's Tools",
+                  "url": "/api/2024/equipment/artisans-tools"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "lamp",
+                  "name": "Lamp",
+                  "url": "/api/2024/equipment/lamp"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 5,
+                "of": {
+                  "index": "oil",
+                  "name": "Oil",
+                  "url": "/api/2024/equipment/oil"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "pouch",
+                  "name": "Pouch",
+                  "url": "/api/2024/equipment/pouch"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "rope",
+                  "name": "Rope",
+                  "url": "/api/2024/equipment/rope"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "tinderbox",
+                  "name": "Tinderbox",
+                  "url": "/api/2024/equipment/tinderbox"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "travelers-clothes",
+                  "name": "Traveler's Clothes",
+                  "url": "/api/2024/equipment/travelers-clothes"
+                }
+              },
+              {
+                "option_type": "money",
+                "count": 30,
+                "unit": "GP"
+              }
+            ]
+          },
+          {
+            "option_type": "money",
+            "count": 50,
+            "unit": "GP"
+          }
+        ]
+      }
+    }
+  ],
+  "desc": [
+    "You once knew your home. But one day, the Mists rose and drew you into a Domain of Dread. Ever since, you have wandered between domains, braving the mercurial Mists as you search for a way home. Your time in these cursed realms has changed you, yet you find solace in communities of fellow wanderers throughout the Mists."
+  ],
+  "url": "/api/2024/backgrounds/mist-wanderer"
+}

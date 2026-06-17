@@ -1,0 +1,20 @@
+{
+  "index": "oath-of-devotion-7-aura-of-devotion",
+  "name": "Aura of Devotion",
+  "level": 7,
+  "class": {
+    "index": "paladin",
+    "name": "Paladin",
+    "url": "/api/2024/classes/paladin"
+  },
+  "subclass": {
+    "index": "oath-of-devotion",
+    "name": "Oath of Devotion",
+    "url": "/api/2024/subclasses/oath-of-devotion"
+  },
+  "desc": [
+    "You and your allies have Immunity to the Charmed condition while in your Aura of Protection. If a Charmed ally enters the aura, that condition has no effect on that ally while there."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/oath-of-devotion-7-aura-of-devotion"
+}

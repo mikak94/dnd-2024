@@ -1,0 +1,103 @@
+{
+  "index": "oath-of-devotion",
+  "class": {
+    "index": "paladin",
+    "name": "Paladin",
+    "url": "/api/2024/classes/paladin"
+  },
+  "name": "Oath of Devotion",
+  "subclass_flavor": "Sacred Oath",
+  "desc": [
+    "Uphold the Ideals of Justice and Order",
+    "The Oath of Devotion binds Paladins to the ideals of Justice and Order. These Paladins meet the archetype of the knight in shining armor. They hold themselves to the highest standards of conduct, and some - for better or worse - hold the rest of the world to the same standards.",
+    "Many who swear this oath are devoted to gods of law and good and use their gods' tenets as the measure of personal devotion. Others holed angels as their ideals and incorporate images of angelic wings into their helmets or coats of arms.",
+    "These Paladins share the following tenets:",
+    "Let your word be your promise.",
+    "Protect the weak and never fear to act.",
+    "Let your honorable deeds be an example."
+  ],
+  "subclass_levels": "/api/2024/subclasses/oath-of-devotion/levels",
+  "spells": [
+    {
+      "prerequisites": [{ "index": "oath-of-devotion-3", "type": "level" }],
+      "spell": {
+        "index": "protection-from-evil-and-good",
+        "name": "Protection from Evil and Good",
+        "url": "/api/2024/spells/protection-from-evil-and-good"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "oath-of-devotion-3", "type": "level" }],
+      "spell": {
+        "index": "shield-of-faith",
+        "name": "Shield of Faith",
+        "url": "/api/2024/spells/shield-of-faith"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "oath-of-devotion-5", "type": "level" }],
+      "spell": {
+        "index": "aid",
+        "name": "Aid",
+        "url": "/api/2024/spells/aid"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "oath-of-devotion-5", "type": "level" }],
+      "spell": {
+        "index": "zone-of-truth",
+        "name": "Zone of Truth",
+        "url": "/api/2024/spells/zone-of-truth"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "oath-of-devotion-9", "type": "level" }],
+      "spell": {
+        "index": "beacon-of-hope",
+        "name": "Beacon of Hope",
+        "url": "/api/2024/spells/beacon-of-hope"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "oath-of-devotion-9", "type": "level" }],
+      "spell": {
+        "index": "dispel-magic",
+        "name": "Dispel Magic",
+        "url": "/api/2024/spells/dispel-magic"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "oath-of-devotion-13", "type": "level" }],
+      "spell": {
+        "index": "freedom-of-movement",
+        "name": "Freedom of Movement",
+        "url": "/api/2024/spells/freedom-of-movement"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "oath-of-devotion-13", "type": "level" }],
+      "spell": {
+        "index": "guardian-of-faith",
+        "name": "Guardian of Faith",
+        "url": "/api/2024/spells/guardian-of-faith"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "oath-of-devotion-17", "type": "level" }],
+      "spell": {
+        "index": "commune",
+        "name": "Commune",
+        "url": "/api/2024/spells/commune"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "oath-of-devotion-17", "type": "level" }],
+      "spell": {
+        "index": "flame-strike",
+        "name": "Flame Strike",
+        "url": "/api/2024/spells/flame-strike"
+      }
+    }
+  ],
+  "url": "/api/2024/subclasses/oath-of-devotion"
+}

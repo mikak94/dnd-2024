@@ -1,0 +1,20 @@
+{
+  "index": "banneret-7-team-tactics",
+  "name": "Team Tactics",
+  "level": 7,
+  "class": {
+    "index": "fighter",
+    "name": "Fighter",
+    "url": "/api/2024/classes/fighter"
+  },
+  "subclass": {
+    "index": "banneret",
+    "name": "Banneret",
+    "url": "/api/2024/subclasses/banneret"
+  },
+  "desc": [
+    "When you use Group Recovery, each chosen ally has Advantage on D20 Tests until the start of your next turn."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/banneret-7-team-tactics"
+}

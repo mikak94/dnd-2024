@@ -1,0 +1,128 @@
+{
+  "index": "house-ghallanda-heir",
+  "name": "House Ghallanda Heir",
+  "starting_proficiencies": [
+    {
+      "index": "skill-insight",
+      "name": "Skill: Insight",
+      "url": "/api/2024/proficiencies/skill-insight"
+    },
+    {
+      "index": "skill-persuasion",
+      "name": "Skill: Persuasion",
+      "url": "/api/2024/proficiencies/skill-persuasion"
+    },
+    {
+      "index": "cooks-utensils",
+      "name": "Cook's Utensils",
+      "url": "/api/2024/proficiencies/cooks-utensils"
+    }
+  ],
+  "ability_scores": [
+    {
+      "index": "dex",
+      "name": "DEX",
+      "url": "/api/2024/ability-scores/dex"
+    },
+    {
+      "index": "wis",
+      "name": "WIS",
+      "url": "/api/2024/ability-scores/wis"
+    },
+    {
+      "index": "cha",
+      "name": "CHA",
+      "url": "/api/2024/ability-scores/cha"
+    }
+  ],
+  "feat": {
+    "index": "mark-of-hospitality",
+    "name": "Mark of Hospitality",
+    "url": "/api/2024/feats/mark-of-hospitality"
+  },
+  "starting_equipment_options": [
+    {
+      "desc": "Choose A or B: (A) Cook's Utensils, Fine Clothes, Iron Pot, Lamp, Oil (5 flasks), Perfume, 26 GP; or (B) 50 GP",
+      "choose": 1,
+      "type": "equipment",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "multiple",
+            "items": [
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "cooks-utensils",
+                  "name": "Cook's Utensils",
+                  "url": "/api/2024/equipment/cooks-utensils"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "fine-clothes",
+                  "name": "Fine Clothes",
+                  "url": "/api/2024/equipment/fine-clothes"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "iron-pot",
+                  "name": "Iron Pot",
+                  "url": "/api/2024/equipment/iron-pot"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "lamp",
+                  "name": "Lamp",
+                  "url": "/api/2024/equipment/lamp"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 5,
+                "of": {
+                  "index": "oil",
+                  "name": "Oil",
+                  "url": "/api/2024/equipment/oil"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "perfume",
+                  "name": "Perfume",
+                  "url": "/api/2024/equipment/perfume"
+                }
+              },
+              {
+                "option_type": "money",
+                "count": 26,
+                "unit": "GP"
+              }
+            ]
+          },
+          {
+            "option_type": "money",
+            "count": 50,
+            "unit": "GP"
+          }
+        ]
+      }
+    }
+  ],
+  "desc": [
+    "Thanks to your connections to House Ghallanda, you grew up accustomed to creature comforts, lively conversation, good drink, and delicious food. You might be a charming and witty scion of the house who loves nothing more than a pleasant evening beside a warm hearth. Or you could be a schemer who exploits bonds of trust and friendship to bend others to your will. You might pursue an adventuring career to master the cuisines of other cultures and ages, expand your network of useful contacts, or earn enough money to open your own inn."
+  ],
+  "url": "/api/2024/backgrounds/house-ghallanda-heir"
+}

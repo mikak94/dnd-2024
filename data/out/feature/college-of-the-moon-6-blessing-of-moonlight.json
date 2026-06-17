@@ -1,0 +1,22 @@
+{
+  "index": "college-of-the-moon-6-blessing-of-moonlight",
+  "name": "Blessing of Moonlight",
+  "level": 6,
+  "class": {
+    "index": "bard",
+    "name": "Bard",
+    "url": "/api/2024/classes/bard"
+  },
+  "subclass": {
+    "index": "college-of-the-moon",
+    "name": "College of the Moon",
+    "url": "/api/2024/subclasses/college-of-the-moon"
+  },
+  "desc": [
+    "You always have the Moonbeam spell prepared.",
+    "When you cast Moonbeam, you can modify the spell so that you glow faintly while the spell is active. While glowing, you shed Dim Light out to 5 feet, and whenever a creature fails its saving throw against the effects of this Moonbeam, another creature of your choice that you can see within 60 feet of yourself regains 2d4 Hit Points.",
+    "Once you use this feature to modify a casting of Moonbeam, you can't use it again until you finish a Long Rest."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/college-of-the-moon-6-blessing-of-moonlight"
+}

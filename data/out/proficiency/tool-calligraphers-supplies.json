@@ -1,0 +1,11 @@
+{
+  "index": "tool-calligraphers-supplies",
+  "name": "Tool: Calligrapher's Supplies",
+  "type": "Tools",
+  "reference": {
+    "index": "calligraphers-supplies",
+    "name": "Calligrapher's Supplies",
+    "url": "/api/2024/equipment/calligraphers-supplies"
+  },
+  "url": "/api/2024/proficiencies/tool-calligraphers-supplies"
+}

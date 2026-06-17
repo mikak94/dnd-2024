@@ -1,0 +1,22 @@
+{
+  "index": "splint-armor",
+  "name": "Splint Armor",
+  "equipment_categories": [
+    {
+      "index": "heavy-armor",
+      "name": "Heavy Armor",
+      "url": "/api/2024/equipment-categories/heavy-armor"
+    },
+    {
+      "index": "armor",
+      "name": "Armor",
+      "url": "/api/2024/equipment-categories/armor"
+    }
+  ],
+  "url": "/api/2024/equipment/splint-armor",
+  "cost": { "quantity": 200, "unit": "gp" },
+  "weight": 60,
+  "armor_class": { "base": 17, "dex_bonus": false },
+  "str_minimum": 15,
+  "stealth_disadvantage": true
+}

@@ -1,0 +1,20 @@
+{
+  "index": "shadow-sorcery-14-shadow-walk",
+  "name": "Shadow Walk",
+  "level": 14,
+  "class": {
+    "index": "sorcerer",
+    "name": "Sorcerer",
+    "url": "/api/2024/classes/sorcerer"
+  },
+  "subclass": {
+    "index": "shadow-sorcery",
+    "name": "Shadow Sorcery",
+    "url": "/api/2024/subclasses/shadow-sorcery"
+  },
+  "desc": [
+    "While you are in Dim Light or Darkness, you can take a Bonus Action to teleport up to 120 feet to an unoccupied space you can see that is also in Dim Light or Darkness."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/shadow-sorcery-14-shadow-walk"
+}

@@ -1,0 +1,11 @@
+{
+  "index": "heavy-armor",
+  "name": "Heavy Armor",
+  "type": "Armor",
+  "reference": {
+    "index": "heavy-armor",
+    "name": "Heavy Armor",
+    "url": "/api/2024/equipment-categories/heavy-armor"
+  },
+  "url": "/api/2024/proficiencies/heavy-armor"
+}

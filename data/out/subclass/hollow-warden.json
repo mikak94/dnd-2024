@@ -1,0 +1,58 @@
+{
+  "index": "hollow-warden",
+  "class": {
+    "index": "ranger",
+    "name": "Ranger",
+    "url": "/api/2024/classes/ranger"
+  },
+  "name": "Hollow Warden",
+  "subclass_flavor": "Ranger Archetype",
+  "desc": [
+    "Draw on the Might of Ancient Wild Terrors",
+    "Legends tell that the most ancient and bloodthirsty terrors lurk deep within the old places of the earth. Hollow Wardens venerate and draw power from such beings, transforming themselves into merciless and monstrous guardians that stalk jagged coastlines, steep mountain crags, and other dark and wild places."
+  ],
+  "subclass_levels": "/api/2024/subclasses/hollow-warden/levels",
+  "spells": [
+    {
+      "prerequisites": [{ "index": "hollow-warden-3", "type": "level" }],
+      "spell": {
+        "index": "wrathful-smite",
+        "name": "Wrathful Smite",
+        "url": "/api/2024/spells/wrathful-smite"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "hollow-warden-5", "type": "level" }],
+      "spell": {
+        "index": "alter-self",
+        "name": "Alter Self",
+        "url": "/api/2024/spells/alter-self"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "hollow-warden-9", "type": "level" }],
+      "spell": {
+        "index": "phantom-steed",
+        "name": "Phantom Steed",
+        "url": "/api/2024/spells/phantom-steed"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "hollow-warden-13", "type": "level" }],
+      "spell": {
+        "index": "dominate-beast",
+        "name": "Dominate Beast",
+        "url": "/api/2024/spells/dominate-beast"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "hollow-warden-17", "type": "level" }],
+      "spell": {
+        "index": "steel-wind-strike",
+        "name": "Steel Wind Strike",
+        "url": "/api/2024/spells/steel-wind-strike"
+      }
+    }
+  ],
+  "url": "/api/2024/subclasses/hollow-warden"
+}

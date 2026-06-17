@@ -1,0 +1,32 @@
+{
+  "index": "dwarf",
+  "name": "Dwarf",
+  "size": "Medium",
+  "size_description": "about 4-5 feet tall",
+  "speed": 30,
+  "type": "Humanoid",
+  "traits": [
+    {
+      "index": "dwarf-darkvision",
+      "name": "Darkvision",
+      "url": "/api/2024/traits/dwarf-darkvision"
+    },
+    {
+      "index": "dwarf-dwarven-resilience",
+      "name": "Dwarven Resilience",
+      "url": "/api/2024/traits/dwarf-dwarven-resilience"
+    },
+    {
+      "index": "dwarf-dwarven-toughness",
+      "name": "Dwarven Toughness",
+      "url": "/api/2024/traits/dwarf-dwarven-toughness"
+    },
+    {
+      "index": "dwarf-stonecunning",
+      "name": "Stonecunning",
+      "url": "/api/2024/traits/dwarf-stonecunning"
+    }
+  ],
+  "subspecies": [],
+  "url": "/api/2024/species/dwarf"
+}

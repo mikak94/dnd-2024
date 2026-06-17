@@ -1,0 +1,21 @@
+{
+  "index": "aberrant-sorcery-3-telepathic-speech",
+  "name": "Telepathic Speech",
+  "level": 3,
+  "class": {
+    "index": "sorcerer",
+    "name": "Sorcerer",
+    "url": "/api/2024/classes/sorcerer"
+  },
+  "subclass": {
+    "index": "aberrant-sorcery",
+    "name": "Aberrant Sorcery",
+    "url": "/api/2024/subclasses/aberrant-sorcery"
+  },
+  "desc": [
+    "You can form a telepathic connection between your mind and the mind of another. As a Bonus Action, choose one creature you can see within 30 feet of yourself. You and the chosen creature can communicate telepathically with each other while the two of you are within a number of miles of each other equal to your Charisma modifier (minimum of 1 mile). To understand each other, you each must mentally use a language the other knows.",
+    "The telepathic connection lasts for a number of minutes equal to your Sorcerer level. It ends early if you use this ability to form a connection with a different creature."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/aberrant-sorcery-3-telepathic-speech"
+}

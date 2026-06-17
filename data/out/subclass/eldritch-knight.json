@@ -1,0 +1,16 @@
+{
+  "index": "eldritch-knight",
+  "class": {
+    "index": "fighter",
+    "name": "Fighter",
+    "url": "/api/2024/classes/fighter"
+  },
+  "name": "Eldritch Knight",
+  "subclass_flavor": "Martial Archetype",
+  "desc": [
+    "Support Combat Skills with Arcane Magic",
+    "Eldritch Knights combine the martial mastery common to all Fighters with a careful study of magic. Their spells both complement and extend their combat skills, providing additional protection to shore up their armor and also allowing them to engage many foes at once with explosive magic."
+  ],
+  "subclass_levels": "/api/2024/subclasses/eldritch-knight/levels",
+  "url": "/api/2024/subclasses/eldritch-knight"
+}

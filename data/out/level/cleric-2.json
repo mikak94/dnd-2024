@@ -1,0 +1,24 @@
+{
+  "index": "cleric-2",
+  "level": 2,
+  "ability_score_bonuses": 0,
+  "prof_bonus": 2,
+  "features": [
+    {
+      "index": "channel-divinity-cleric",
+      "name": "Channel Divinity",
+      "url": "/api/2024/features/channel-divinity-cleric"
+    }
+  ],
+  "class": {
+    "index": "cleric",
+    "name": "Cleric",
+    "url": "/api/2024/classes/cleric"
+  },
+  "spellcasting": {
+    "cantrips_known": 3,
+    "spells_known": 5,
+    "spell_slots_level_1": 3
+  },
+  "url": "/api/2024/classes/cleric/levels/2"
+}

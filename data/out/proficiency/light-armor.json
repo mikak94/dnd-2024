@@ -1,0 +1,11 @@
+{
+  "index": "light-armor",
+  "name": "Light Armor",
+  "type": "Armor",
+  "reference": {
+    "index": "light-armor",
+    "name": "Light Armor",
+    "url": "/api/2024/equipment-categories/light-armor"
+  },
+  "url": "/api/2024/proficiencies/light-armor"
+}

@@ -1,0 +1,68 @@
+{
+  "index": "genie-magic",
+  "name": "Genie Magic",
+  "type": "general",
+  "prerequisites": [
+    {
+      "type": "level",
+      "level": 4
+    }
+  ],
+  "desc": [
+    "You gain the following benefits.",
+    "Ability Score Increase. Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.",
+    "Wish Magic. As a Magic action, you can cast a level 1 spell of your choice from the Sorcerer spell list that has a casting time of an action. Once you use this benefit, you can’t do so again until you finish a Long Rest. The spell’s spellcasting ability is the ability increased by this feat.",
+    "When you reach level 11, the spell you cast with this feat is cast as though using a level 2 spell slot. When you reach level 17, the spell is cast as though using a level 3 spell slot."
+  ],
+  "choices": [
+    {
+      "desc": "Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.",
+      "choose": 1,
+      "type": "abilities",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "int",
+              "name": "INT",
+              "url": "/api/2024/ability-scores/int"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "wis",
+              "name": "WIS",
+              "url": "/api/2024/ability-scores/wis"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "cha",
+              "name": "CHA",
+              "url": "/api/2024/ability-scores/cha"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "desc": "As a Magic action, you can cast a level 1 spell of your choice from the Sorcerer spell list that has a casting time of an action.",
+      "choose": 1,
+      "type": "spells",
+      "spell_source": {
+        "level": 1,
+        "classes": ["sorcerer"],
+        "casting_time": "action"
+      },
+      "from": {
+        "option_set_type": "resource_list",
+        "resource_list_url": "/api/2024/classes/sorcerer/spells"
+      }
+    }
+  ],
+  "url": "/api/2024/feats/genie-magic"
+}

@@ -1,0 +1,29 @@
+{
+  "index": "fighter-2",
+  "level": 2,
+  "ability_score_bonuses": 0,
+  "prof_bonus": 2,
+  "features": [
+    {
+      "index": "action-surge",
+      "name": "Action Surge",
+      "url": "/api/2024/features/action-surge"
+    },
+    {
+      "index": "tactical-mind",
+      "name": "Tactical Mind",
+      "url": "/api/2024/features/tactical-mind"
+    }
+  ],
+  "class": {
+    "index": "fighter",
+    "name": "Fighter",
+    "url": "/api/2024/classes/fighter"
+  },
+  "class_specific": {
+    "extra_attacks": 1,
+    "action_surges": 1,
+    "indomitable_uses": 0
+  },
+  "url": "/api/2024/classes/fighter/levels/2"
+}

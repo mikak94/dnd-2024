@@ -1,0 +1,20 @@
+{
+  "index": "path-of-the-wild-heart-10-nature-speaker",
+  "name": "Nature Speaker",
+  "level": 10,
+  "class": {
+    "index": "barbarian",
+    "name": "Barbarian",
+    "url": "/api/2024/classes/barbarian"
+  },
+  "subclass": {
+    "index": "path-of-the-wild-heart",
+    "name": "Path of the Wild Heart",
+    "url": "/api/2024/subclasses/path-of-the-wild-heart"
+  },
+  "desc": [
+    "You can cast the Commune with Nature spell but only as a Ritual. Wisdom is your spellcasting ability for it."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/path-of-the-wild-heart-10-nature-speaker"
+}

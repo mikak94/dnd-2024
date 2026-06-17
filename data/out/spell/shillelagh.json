@@ -1,0 +1,32 @@
+{
+  "index": "shillelagh",
+  "name": "Shillelagh",
+  "level": 0,
+  "school": {
+    "index": "transmutation",
+    "name": "Transmutation",
+    "url": "/api/2024/magic-schools/transmutation"
+  },
+  "casting_time": "Bonus Action",
+  "range": "Self",
+  "components": ["V", "S", "M"],
+  "material": "mistletoe",
+  "ritual": false,
+  "concentration": false,
+  "duration": "1 minute",
+  "desc": [
+    "A Club or Quarterstaff you are holding is imbued with nature's power. For the duration, you can use your spellcasting ability instead of Strength for the attack and damage rolls of melee attacks using that weapon, and the weapon's damage die becomes a d8. If the attack deals damage, it can be Force damage or the weapon's normal damage type (your choice).",
+    "The spell ends early if you cast it again or if you let go of the weapon."
+  ],
+  "higher_level": [
+    "Cantrip Upgrade. The damage die changes when you reach levels 5 (d10), 11 (d12), and 17 (2d6)."
+  ],
+  "classes": [
+    {
+      "index": "druid",
+      "name": "Druid",
+      "url": "/api/2024/classes/druid"
+    }
+  ],
+  "url": "/api/2024/spells/shillelagh"
+}

@@ -1,0 +1,20 @@
+{
+  "index": "fiend-patron-3-fiend-spells",
+  "name": "Fiend Spells",
+  "level": 3,
+  "class": {
+    "index": "warlock",
+    "name": "Warlock",
+    "url": "/api/2024/classes/warlock"
+  },
+  "subclass": {
+    "index": "fiend-patron",
+    "name": "Fiend Patron",
+    "url": "/api/2024/subclasses/fiend-patron"
+  },
+  "desc": [
+    "The magic of your patron ensures you always have certain spells ready; when you reach a Warlock level specified in the Fiend Spells table, you thereafter always have the listed spells prepared."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/fiend-patron-3-fiend-spells"
+}

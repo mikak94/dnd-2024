@@ -1,0 +1,15 @@
+{
+  "index": "ability-score-improvement-monk",
+  "name": "Ability Score Improvement",
+  "level": 12,
+  "class": {
+    "index": "monk",
+    "name": "Monk",
+    "url": "/api/2024/classes/monk"
+  },
+  "desc": [
+    "You gain the Ability Score Improvement feat or another feat of your choice for which you qualify. You gain this feature again at Monk levels 8, 12, and 16."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/ability-score-improvement-monk"
+}

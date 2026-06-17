@@ -1,0 +1,30 @@
+{
+  "index": "rogue-7",
+  "level": 7,
+  "ability_score_bonuses": 1,
+  "prof_bonus": 3,
+  "features": [
+    {
+      "index": "evasion",
+      "name": "Evasion",
+      "url": "/api/2024/features/evasion"
+    },
+    {
+      "index": "reliable-talent",
+      "name": "Reliable Talent",
+      "url": "/api/2024/features/reliable-talent"
+    }
+  ],
+  "class": {
+    "index": "rogue",
+    "name": "Rogue",
+    "url": "/api/2024/classes/rogue"
+  },
+  "class_specific": {
+    "sneak_attack": {
+      "dice_count": 4,
+      "dice_value": 6
+    }
+  },
+  "url": "/api/2024/classes/rogue/levels/7"
+}

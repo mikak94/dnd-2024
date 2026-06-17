@@ -1,0 +1,50 @@
+{
+  "index": "alustriel-s-mooncloak",
+  "name": "Alustriel's Mooncloak",
+  "level": 5,
+  "school": {
+    "index": "abjuration",
+    "name": "Abjuration",
+    "url": "/api/2024/magic-schools/abjuration"
+  },
+  "casting_time": "Action",
+  "range": "Self",
+  "components": ["V", "S", "M"],
+  "material": "a moonstone worth 50+ GP",
+  "ritual": false,
+  "concentration": true,
+  "duration": "Concentration, up to 1 minute",
+  "desc": [
+    "For the duration, moonlight fills a 20-foot Emanation originating from you with Dim Light. While in that area, you and your allies have Half Cover and Resistance to Cold, Lightning, and Radiant damage.",
+    "While the spell lasts, you can use one of the following options, ending the spell immediately:",
+    "Liberation. When you fail a saving throw to avoid or end the Frightened, Grappled, or Restrained condition, you can take a Reaction to succeed on the save instead.",
+    "Respite. As a Magic action, you or an ally within the area regains Hit Points equal to 4d10 plus your spellcasting ability modifier."
+  ],
+  "area_of_effect": {
+    "type": "sphere",
+    "size": 20
+  },
+  "classes": [
+    {
+      "index": "bard",
+      "name": "Bard",
+      "url": "/api/2024/classes/bard"
+    },
+    {
+      "index": "druid",
+      "name": "Druid",
+      "url": "/api/2024/classes/druid"
+    },
+    {
+      "index": "ranger",
+      "name": "Ranger",
+      "url": "/api/2024/classes/ranger"
+    },
+    {
+      "index": "wizard",
+      "name": "Wizard",
+      "url": "/api/2024/classes/wizard"
+    }
+  ],
+  "url": "/api/2024/spells/alustriel-s-mooncloak"
+}

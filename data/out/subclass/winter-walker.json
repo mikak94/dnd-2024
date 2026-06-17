@@ -1,0 +1,58 @@
+{
+  "index": "winter-walker",
+  "class": {
+    "index": "ranger",
+    "name": "Ranger",
+    "url": "/api/2024/classes/ranger"
+  },
+  "name": "Winter Walker",
+  "subclass_flavor": "Ranger Archetype",
+  "desc": [
+    "Withstand the Horrors of Frigid Wastelands",
+    "Winter Walkers hone their craft in the bleak and frozen wilds of places like Icewind Dale. These ruthless, rimed Rangers hunt monsters that haunt arctic wastelands, eventually becoming frigid terrors themselves. Winter Walkers are well versed in the phenomena of Icewind Dale, including the latent magic of fallen Netherese cities, endemic monsters like yetis and crag cats, and the rising threat of Underdark invaders. Due to their cold pragmatism, terrifying magic, and mastery of the region, Winter Walkers are regarded with equal parts respect and fear. Ten-Towns citizens say that Winter Walkers' frequent exposure to malignant entities gives them their fearsome powers. Many Reghed nomads, on the other hand, believe that nature spirits bestow on Winter Walkers a unique curse."
+  ],
+  "subclass_levels": "/api/2024/subclasses/winter-walker/levels",
+  "spells": [
+    {
+      "prerequisites": [{ "index": "winter-walker-3", "type": "level" }],
+      "spell": {
+        "index": "ice-knife",
+        "name": "Ice Knife",
+        "url": "/api/2024/spells/ice-knife"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "winter-walker-5", "type": "level" }],
+      "spell": {
+        "index": "hold-person",
+        "name": "Hold Person",
+        "url": "/api/2024/spells/hold-person"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "winter-walker-9", "type": "level" }],
+      "spell": {
+        "index": "remove-curse",
+        "name": "Remove Curse",
+        "url": "/api/2024/spells/remove-curse"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "winter-walker-13", "type": "level" }],
+      "spell": {
+        "index": "ice-storm",
+        "name": "Ice Storm",
+        "url": "/api/2024/spells/ice-storm"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "winter-walker-17", "type": "level" }],
+      "spell": {
+        "index": "cone-of-cold",
+        "name": "Cone of Cold",
+        "url": "/api/2024/spells/cone-of-cold"
+      }
+    }
+  ],
+  "url": "/api/2024/subclasses/winter-walker"
+}

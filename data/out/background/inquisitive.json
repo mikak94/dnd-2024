@@ -1,0 +1,95 @@
+{
+  "index": "inquisitive",
+  "name": "Inquisitive",
+  "starting_proficiencies": [
+    {
+      "index": "skill-insight",
+      "name": "Skill: Insight",
+      "url": "/api/2024/proficiencies/skill-insight"
+    },
+    {
+      "index": "skill-investigation",
+      "name": "Skill: Investigation",
+      "url": "/api/2024/proficiencies/skill-investigation"
+    },
+    {
+      "index": "tool-thieves-tools",
+      "name": "Tool: Thieves' Tools",
+      "url": "/api/2024/proficiencies/tool-thieves-tools"
+    }
+  ],
+  "ability_scores": [
+    { "index": "con", "name": "CON", "url": "/api/2024/ability-scores/con" },
+    { "index": "int", "name": "INT", "url": "/api/2024/ability-scores/int" },
+    { "index": "cha", "name": "CHA", "url": "/api/2024/ability-scores/cha" }
+  ],
+  "feat": { "index": "alert", "name": "Alert", "url": "/api/2024/feats/alert" },
+  "starting_equipment_options": [
+    {
+      "desc": "Choose A or B: (A) Thieves' Tools, Bullseye Lantern, Crowbar, Oil (10 flasks), Traveler's Clothes, 10 GP; or (B) 50 GP",
+      "choose": 1,
+      "type": "equipment",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "multiple",
+            "items": [
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "thieves-tools",
+                  "name": "Thieves' Tools",
+                  "url": "/api/2024/equipment/thieves-tools"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "bullseye-lantern",
+                  "name": "Bullseye Lantern",
+                  "url": "/api/2024/equipment/bullseye-lantern"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "crowbar",
+                  "name": "Crowbar",
+                  "url": "/api/2024/equipment/crowbar"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 10,
+                "of": {
+                  "index": "oil",
+                  "name": "Oil",
+                  "url": "/api/2024/equipment/oil"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "travelers-clothes",
+                  "name": "Traveler's Clothes",
+                  "url": "/api/2024/equipment/travelers-clothes"
+                }
+              },
+              { "option_type": "money", "count": 10, "unit": "GP" }
+            ]
+          },
+          { "option_type": "money", "count": 50, "unit": "GP" }
+        ]
+      }
+    }
+  ],
+  "desc": [
+    "You have honed your talents of investigation and deduction—fueled by a boundless curiosity—to explore mysteries, find missing people, recover stolen goods, unearth corruption and conspiracies, and solve crimes. As an inquisitive, you might have pursued freelance work, signed on with an inquisitive agency (perhaps one licensed by a dragonmarked house such as Medani or Tharashk), reported for a broadsheet, or worked for a police force."
+  ],
+  "url": "/api/2024/backgrounds/inquisitive"
+}

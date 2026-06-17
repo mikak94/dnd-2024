@@ -1,0 +1,27 @@
+{
+  "index": "monk-18",
+  "level": 18,
+  "ability_score_bonuses": 4,
+  "prof_bonus": 6,
+  "features": [
+    {
+      "index": "superior-defense",
+      "name": "Superior Defense",
+      "url": "/api/2024/features/superior-defense"
+    }
+  ],
+  "class": {
+    "index": "monk",
+    "name": "Monk",
+    "url": "/api/2024/classes/monk"
+  },
+  "url": "/api/2024/classes/monk/levels/18",
+  "class_specific": {
+    "ki_points": 18,
+    "unarmored_movement": 30,
+    "martial_arts": {
+      "dice_count": 1,
+      "dice_value": 12
+    }
+  }
+}

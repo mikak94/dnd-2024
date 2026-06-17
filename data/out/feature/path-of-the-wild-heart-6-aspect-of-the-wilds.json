@@ -1,0 +1,23 @@
+{
+  "index": "path-of-the-wild-heart-6-aspect-of-the-wilds",
+  "name": "Aspect of the Wilds",
+  "level": 6,
+  "class": {
+    "index": "barbarian",
+    "name": "Barbarian",
+    "url": "/api/2024/classes/barbarian"
+  },
+  "subclass": {
+    "index": "path-of-the-wild-heart",
+    "name": "Path of the Wild Heart",
+    "url": "/api/2024/subclasses/path-of-the-wild-heart"
+  },
+  "desc": [
+    "You gain one of the following options of your choice. Whenever you finish a Long Rest, you can change your choice.",
+    "Owl. You have Darkvision with a range of 60 feet. If you already have Darkvision, its range increases by 60 feet.",
+    "Panther. You have a Climb Speed equal to your Speed.",
+    "Salmon. You have a Swim Speed equal to your Speed."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/path-of-the-wild-heart-6-aspect-of-the-wilds"
+}

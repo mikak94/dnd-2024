@@ -1,0 +1,60 @@
+{
+  "index": "dagger",
+  "name": "Dagger",
+  "equipment_categories": [
+    {
+      "index": "simple-melee-weapons",
+      "name": "Simple Melee Weapons",
+      "url": "/api/2024/equipment-categories/simple-melee-weapons"
+    },
+    {
+      "index": "simple-weapons",
+      "name": "Simple Weapons",
+      "url": "/api/2024/equipment-categories/simple-weapons"
+    },
+    {
+      "index": "melee-weapons",
+      "name": "Melee Weapons",
+      "url": "/api/2024/equipment-categories/melee-weapons"
+    },
+    {
+      "index": "weapons",
+      "name": "Weapons",
+      "url": "/api/2024/equipment-categories/weapons"
+    }
+  ],
+  "cost": { "quantity": 2, "unit": "gp" },
+  "weight": 1,
+  "damage": {
+    "damage_dice": "1d4",
+    "damage_type": {
+      "index": "piercing",
+      "name": "Piercing",
+      "url": "/api/2024/damage-types/piercing"
+    }
+  },
+  "throw_range": { "normal": 20, "long": 60 },
+  "properties": [
+    {
+      "index": "finesse",
+      "name": "Finesse",
+      "url": "/api/2024/weapon-properties/finesse"
+    },
+    {
+      "index": "light",
+      "name": "Light",
+      "url": "/api/2024/weapon-properties/light"
+    },
+    {
+      "index": "thrown",
+      "name": "Thrown",
+      "url": "/api/2024/weapon-properties/thrown"
+    }
+  ],
+  "mastery": {
+    "index": "nick",
+    "name": "Nick",
+    "url": "/api/2024/weapon-mastery-properties/nick"
+  },
+  "url": "/api/2024/equipment/dagger"
+}

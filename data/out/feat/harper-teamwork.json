@@ -1,0 +1,54 @@
+{
+  "index": "harper-teamwork",
+  "name": "Harper Teamwork",
+  "type": "general",
+  "prerequisites": [
+    {
+      "type": "level",
+      "level": 4
+    },
+    {
+      "type": "feat",
+      "feat": {
+        "index": "harper-agent",
+        "name": "Harper Agent",
+        "url": "/api/2024/feats/harper-agent"
+      }
+    }
+  ],
+  "desc": [
+    "You gain the following benefits.",
+    "Ability Score Increase. Increase your Dexterity or Charisma score by 1, to a maximum of 20.",
+    "Withering Wordplay. When you take the Help action to assist an ally’s attack roll against an enemy, that enemy also has Disadvantage on the first saving throw it makes before the start of your next turn.",
+    "Inspiring Willpower. If you succeed on a saving throw to end the Frightened or Paralyzed condition on yourself, you can choose one ally you can see within 30 feet of yourself that has the same condition. That condition immediately ends for that ally."
+  ],
+  "choices": [
+    {
+      "desc": "Increase your Dexterity or Charisma score by 1, to a maximum of 20.",
+      "choose": 1,
+      "type": "abilities",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "dex",
+              "name": "DEX",
+              "url": "/api/2024/ability-scores/dex"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "cha",
+              "name": "CHA",
+              "url": "/api/2024/ability-scores/cha"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "url": "/api/2024/feats/harper-teamwork"
+}

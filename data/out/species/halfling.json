@@ -1,0 +1,33 @@
+{
+  "index": "halfling",
+  "name": "Halfling",
+  "size": "Small",
+  "size_description": "about 2-3 feet tall",
+  "speed": 30,
+  "type": "Humanoid",
+  "age": "Halflings have robust life spans of about 150 years.",
+  "traits": [
+    {
+      "index": "halfling-brave",
+      "name": "Brave",
+      "url": "/api/2024/traits/halfling-brave"
+    },
+    {
+      "index": "halfling-halfling-nimbleness",
+      "name": "Halfling Nimbleness",
+      "url": "/api/2024/traits/halfling-halfling-nimbleness"
+    },
+    {
+      "index": "halfling-luck",
+      "name": "Luck",
+      "url": "/api/2024/traits/halfling-luck"
+    },
+    {
+      "index": "halfling-naturally-stealthy",
+      "name": "Naturally Stealthy",
+      "url": "/api/2024/traits/halfling-naturally-stealthy"
+    }
+  ],
+  "subspecies": [],
+  "url": "/api/2024/species/halfling"
+}

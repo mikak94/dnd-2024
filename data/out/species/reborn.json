@@ -1,0 +1,42 @@
+{
+  "index": "reborn",
+  "name": "Reborn",
+  "size_options": {
+    "choose": 1,
+    "type": "size",
+    "from": {
+      "option_set_type": "options_array",
+      "options": [
+        { "option_type": "size", "size": "Small" },
+        { "option_type": "size", "size": "Medium" }
+      ]
+    }
+  },
+  "size_description": "about 4–7 feet tall (Medium) or about 2–4 feet tall (Small), chosen when you select this species",
+  "speed": 30,
+  "type": "Humanoid",
+  "traits": [
+    {
+      "index": "reborn-escaped-death",
+      "name": "Escaped Death",
+      "url": "/api/2024/traits/reborn-escaped-death"
+    },
+    {
+      "index": "reborn-everlasting",
+      "name": "Everlasting",
+      "url": "/api/2024/traits/reborn-everlasting"
+    },
+    {
+      "index": "reborn-knowledge-from-a-past-life",
+      "name": "Knowledge from a Past Life",
+      "url": "/api/2024/traits/reborn-knowledge-from-a-past-life"
+    },
+    {
+      "index": "reborn-strange-endurance",
+      "name": "Strange Endurance",
+      "url": "/api/2024/traits/reborn-strange-endurance"
+    }
+  ],
+  "subspecies": [],
+  "url": "/api/2024/species/reborn"
+}

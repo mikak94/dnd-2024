@@ -1,0 +1,137 @@
+{
+  "index": "lorwyn-expert",
+  "name": "Lorwyn Expert",
+  "starting_proficiencies": [
+    {
+      "index": "skill-athletics",
+      "name": "Skill: Athletics",
+      "url": "/api/2024/proficiencies/skill-athletics"
+    },
+    {
+      "index": "skill-nature",
+      "name": "Skill: Nature",
+      "url": "/api/2024/proficiencies/skill-nature"
+    },
+    {
+      "index": "cartographers-tools",
+      "name": "Cartographer's Tools",
+      "url": "/api/2024/proficiencies/cartographers-tools"
+    }
+  ],
+  "ability_scores": [
+    {
+      "index": "str",
+      "name": "STR",
+      "url": "/api/2024/ability-scores/str"
+    },
+    {
+      "index": "con",
+      "name": "CON",
+      "url": "/api/2024/ability-scores/con"
+    },
+    {
+      "index": "wis",
+      "name": "WIS",
+      "url": "/api/2024/ability-scores/wis"
+    }
+  ],
+  "feat": {
+    "index": "child-of-the-sun",
+    "name": "Child of the Sun",
+    "url": "/api/2024/feats/child-of-the-sun"
+  },
+  "starting_equipment_options": [
+    {
+      "desc": "Choose A or B: (A) Quarterstaff, Cartographer's Tools, Backpack, Basket, Parchment (4 sheets), Rope, Traveler's Clothes, 29 GP; or (B) 50 GP",
+      "choose": 1,
+      "type": "equipment",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "multiple",
+            "items": [
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "quarterstaff",
+                  "name": "Quarterstaff",
+                  "url": "/api/2024/equipment/quarterstaff"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "cartographers-tools",
+                  "name": "Cartographer's Tools",
+                  "url": "/api/2024/equipment/cartographers-tools"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "backpack",
+                  "name": "Backpack",
+                  "url": "/api/2024/equipment/backpack"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "basket",
+                  "name": "Basket",
+                  "url": "/api/2024/equipment/basket"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 4,
+                "of": {
+                  "index": "parchment",
+                  "name": "Parchment",
+                  "url": "/api/2024/equipment/parchment"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "rope",
+                  "name": "Rope",
+                  "url": "/api/2024/equipment/rope"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "travelers-clothes",
+                  "name": "Traveler's Clothes",
+                  "url": "/api/2024/equipment/travelers-clothes"
+                }
+              },
+              {
+                "option_type": "money",
+                "count": 29,
+                "unit": "GP"
+              }
+            ]
+          },
+          {
+            "option_type": "money",
+            "count": 50,
+            "unit": "GP"
+          }
+        ]
+      }
+    }
+  ],
+  "desc": [
+    "You hail from Lorwyn, a land of eternal sunshine, or you have studied the place with great intensity. You consider the majestic creature Eirdu the living embodiment of the sun, and you love embarking on whimsical adventures. You hold your loved ones close, even if only emotionally, for you've seen some venture into Shadowmoor or beyond and become faded versions of themselves. You're nevertheless courageous and always long for new experiences."
+  ],
+  "url": "/api/2024/backgrounds/lorwyn-expert"
+}

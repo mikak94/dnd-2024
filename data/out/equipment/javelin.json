@@ -1,0 +1,50 @@
+{
+  "index": "javelin",
+  "name": "Javelin",
+  "equipment_categories": [
+    {
+      "index": "simple-melee-weapons",
+      "name": "Simple Melee Weapons",
+      "url": "/api/2024/equipment-categories/simple-melee-weapons"
+    },
+    {
+      "index": "simple-weapons",
+      "name": "Simple Weapons",
+      "url": "/api/2024/equipment-categories/simple-weapons"
+    },
+    {
+      "index": "melee-weapons",
+      "name": "Melee Weapons",
+      "url": "/api/2024/equipment-categories/melee-weapons"
+    },
+    {
+      "index": "weapons",
+      "name": "Weapons",
+      "url": "/api/2024/equipment-categories/weapons"
+    }
+  ],
+  "cost": { "quantity": 5, "unit": "sp" },
+  "weight": 2,
+  "damage": {
+    "damage_dice": "1d6",
+    "damage_type": {
+      "index": "piercing",
+      "name": "Piercing",
+      "url": "/api/2024/damage-types/piercing"
+    }
+  },
+  "throw_range": { "normal": 30, "long": 120 },
+  "properties": [
+    {
+      "index": "thrown",
+      "name": "Thrown",
+      "url": "/api/2024/weapon-properties/thrown"
+    }
+  ],
+  "mastery": {
+    "index": "slow",
+    "name": "Slow",
+    "url": "/api/2024/weapon-mastery-properties/slow"
+  },
+  "url": "/api/2024/equipment/javelin"
+}

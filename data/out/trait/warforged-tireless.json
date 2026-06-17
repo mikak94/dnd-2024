@@ -1,0 +1,16 @@
+{
+  "index": "warforged-tireless",
+  "name": "Tireless",
+  "species": [
+    {
+      "index": "warforged",
+      "name": "Warforged",
+      "url": "/api/2024/species/warforged"
+    }
+  ],
+  "subspecies": [],
+  "desc": [
+    "You don't gain Exhaustion levels from dehydration, malnutrition, or suffocation."
+  ],
+  "url": "/api/2024/traits/warforged-tireless"
+}

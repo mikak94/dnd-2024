@@ -1,0 +1,16 @@
+{
+  "index": "halfling-brave",
+  "name": "Brave",
+  "species": [
+    {
+      "index": "halfling",
+      "name": "Halfling",
+      "url": "/api/2024/species/halfling"
+    }
+  ],
+  "subspecies": [],
+  "desc": [
+    "You have Advantage on saving throws you make to avoid or end the Frightened condition."
+  ],
+  "url": "/api/2024/traits/halfling-brave"
+}

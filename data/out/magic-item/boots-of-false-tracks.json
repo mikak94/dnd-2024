@@ -1,0 +1,15 @@
+{
+  "index": "boots-of-false-tracks",
+  "name": "Boots of False Tracks",
+  "equipment_category": {
+    "index": "wondrous-items",
+    "name": "Wondrous Items",
+    "url": "/api/2024/equipment-categories/wondrous-items"
+  },
+  "rarity": { "name": "Common" },
+  "attunement": true,
+  "desc": "While wearing these boots, you can have them leave tracks like those of any kind of Humanoid of your size.",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/boots-of-false-tracks"
+}

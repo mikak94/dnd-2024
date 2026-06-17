@@ -1,0 +1,43 @@
+{
+  "index": "control-weather",
+  "name": "Control Weather",
+  "level": 8,
+  "school": {
+    "index": "transmutation",
+    "name": "Transmutation",
+    "url": "/api/2024/magic-schools/transmutation"
+  },
+  "casting_time": "10 minutes",
+  "range": "Self",
+  "components": ["V", "S", "M"],
+  "material": "burning incense",
+  "ritual": false,
+  "concentration": true,
+  "duration": "Concentration, up to 8 hours",
+  "desc": [
+    "You take control of the weather within 5 miles of you for the duration. You must be outdoors to cast this spell, and it ends early if you go indoors.",
+    "When you cast the spell, you change the current weather conditions, which are determined by the DM. You can change precipitation, temperature, and wind. It takes 1d4 x 10 minutes for the new conditions to take effect. Once they do so, you can change the conditions again. When the spell ends, the weather gradually returns to normal.",
+    "When you change the weather conditions, find a current condition on the following tables and change its stage by one, up or down. When changing the wind, you can change its direction.",
+    "Precipitation. Stage 1: Clear. Stage 2: Light clouds. Stage 3: Overcast or ground fog. Stage 4: Rain, hail, or snow. Stage 5: Torrential rain, driving hail, or blizzard.",
+    "Temperature. Stage 1: Heat wave. Stage 2: Hot. Stage 3: Warm. Stage 4: Cool. Stage 5: Cold. Stage 6: Freezing.",
+    "Wind. Stage 1: Calm. Stage 2: Moderate wind. Stage 3: Strong wind. Stage 4: Gale. Stage 5: Storm."
+  ],
+  "classes": [
+    {
+      "index": "cleric",
+      "name": "Cleric",
+      "url": "/api/2024/classes/cleric"
+    },
+    {
+      "index": "druid",
+      "name": "Druid",
+      "url": "/api/2024/classes/druid"
+    },
+    {
+      "index": "wizard",
+      "name": "Wizard",
+      "url": "/api/2024/classes/wizard"
+    }
+  ],
+  "url": "/api/2024/spells/control-weather"
+}

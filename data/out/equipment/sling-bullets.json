@@ -1,0 +1,15 @@
+{
+  "index": "sling-bullets",
+  "name": "Sling Bullets",
+  "equipment_categories": [
+    {
+      "index": "ammunition",
+      "name": "Ammunition",
+      "url": "/api/2024/equipment-categories/ammunition"
+    }
+  ],
+  "cost": { "quantity": 4, "unit": "cp" },
+  "weight": 1.5,
+  "description": "20 Sling Bullets; stored in a Pouch.",
+  "url": "/api/2024/equipment/sling-bullets"
+}

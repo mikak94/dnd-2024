@@ -1,0 +1,10 @@
+{
+  "index": "dwarf-darkvision",
+  "name": "Darkvision",
+  "species": [
+    { "index": "dwarf", "name": "Dwarf", "url": "/api/2024/species/dwarf" }
+  ],
+  "subspecies": [],
+  "desc": ["You have Darkvision with a range of 120 feet."],
+  "url": "/api/2024/traits/dwarf-darkvision"
+}

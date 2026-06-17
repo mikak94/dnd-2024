@@ -1,0 +1,49 @@
+{
+  "index": "sickle",
+  "name": "Sickle",
+  "equipment_categories": [
+    {
+      "index": "simple-melee-weapons",
+      "name": "Simple Melee Weapons",
+      "url": "/api/2024/equipment-categories/simple-melee-weapons"
+    },
+    {
+      "index": "simple-weapons",
+      "name": "Simple Weapons",
+      "url": "/api/2024/equipment-categories/simple-weapons"
+    },
+    {
+      "index": "melee-weapons",
+      "name": "Melee Weapons",
+      "url": "/api/2024/equipment-categories/melee-weapons"
+    },
+    {
+      "index": "weapons",
+      "name": "Weapons",
+      "url": "/api/2024/equipment-categories/weapons"
+    }
+  ],
+  "cost": { "quantity": 1, "unit": "gp" },
+  "weight": 2,
+  "damage": {
+    "damage_dice": "1d4",
+    "damage_type": {
+      "index": "slashing",
+      "name": "Slashing",
+      "url": "/api/2024/damage-types/slashing"
+    }
+  },
+  "properties": [
+    {
+      "index": "light",
+      "name": "Light",
+      "url": "/api/2024/weapon-properties/light"
+    }
+  ],
+  "mastery": {
+    "index": "nick",
+    "name": "Nick",
+    "url": "/api/2024/weapon-mastery-properties/nick"
+  },
+  "url": "/api/2024/equipment/sickle"
+}

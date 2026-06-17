@@ -1,0 +1,15 @@
+{
+  "index": "indomitable-might",
+  "name": "Indomitable Might",
+  "level": 18,
+  "class": {
+    "index": "barbarian",
+    "name": "Barbarian",
+    "url": "/api/2024/classes/barbarian"
+  },
+  "desc": [
+    "If your total for a Strength check or Strength saving throw is less than your Strength score, you can use that score in place of the total."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/indomitable-might"
+}

@@ -1,0 +1,17 @@
+{
+  "index": "wand-of-the-war-mage-1-2-or-3",
+  "name": "Wand of the War Mage, +1, +2 or +3",
+  "equipment_category": {
+    "index": "wands",
+    "name": "Wands",
+    "url": "/api/2024/equipment-categories/wands"
+  },
+  "rarity": {
+    "name": "Varies"
+  },
+  "attunement": true,
+  "desc": "While holding this wand, you gain a bonus to spell attack rolls determined by the wand's rarity. In addition, you ignore Half Cover when making a spell attack roll.",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/wand-of-the-war-mage-1-2-or-3"
+}

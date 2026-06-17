@@ -1,0 +1,20 @@
+{
+  "index": "path-of-the-berserker-10-retaliation",
+  "name": "Retaliation",
+  "level": 10,
+  "class": {
+    "index": "barbarian",
+    "name": "Barbarian",
+    "url": "/api/2024/classes/barbarian"
+  },
+  "subclass": {
+    "index": "path-of-the-berserker",
+    "name": "Path of the Berserker",
+    "url": "/api/2024/subclasses/path-of-the-berserker"
+  },
+  "desc": [
+    "When you take damage from a creature that is within 5 feet of you, you can take a Reaction to make one melee attack against that creature, using a weapon or an Unarmed Strike."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/path-of-the-berserker-10-retaliation"
+}

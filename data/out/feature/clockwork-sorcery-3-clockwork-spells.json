@@ -1,0 +1,35 @@
+{
+  "index": "clockwork-sorcery-3-clockwork-spells",
+  "name": "Clockwork Spells",
+  "level": 3,
+  "class": {
+    "index": "sorcerer",
+    "name": "Sorcerer",
+    "url": "/api/2024/classes/sorcerer"
+  },
+  "subclass": {
+    "index": "clockwork-sorcery",
+    "name": "Clockwork Sorcery",
+    "url": "/api/2024/subclasses/clockwork-sorcery"
+  },
+  "desc": [
+    "When you reach a Sorcerer level specified in the Clockwork Spells table, you thereafter always have the listed spells prepared.",
+    "| Sorcerer Level | Spells |",
+    "| --- | --- |",
+    "| 3 | Aid, Alarm, Lesser Restoration, Protection from Evil and Good |",
+    "| 5 | Dispel Magic, Protection from Energy |",
+    "| 7 | Freedom of Movement, Summon Construct |",
+    "| 9 | Greater Restoration, Wall of Force |",
+    "In addition, consult the Manifestations of Order table and choose or randomly determine a way your connection to order manifests while you are casting any of your Sorcerer spells.",
+    "| 1d6 | Manifestation |",
+    "| --- | --- |",
+    "| 1 | Spectral cogwheels hover behind you. |",
+    "| 2 | The hands of a clock spin in your eyes. |",
+    "| 3 | Your skin glows with a brassy sheen. |",
+    "| 4 | Floating equations and geometric objects overlay your body. |",
+    "| 5 | Your Spellcasting Focus temporarily takes the form of a Tiny clockwork mechanism. |",
+    "| 6 | The ticking of gears or ringing of a clock can be heard by you and those affected by your magic. |"
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/clockwork-sorcery-3-clockwork-spells"
+}

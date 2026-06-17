@@ -1,0 +1,24 @@
+{
+  "index": "pan-flute",
+  "name": "Pan Flute",
+  "equipment_categories": [
+    {
+      "index": "musical-instruments",
+      "name": "Musical Instruments",
+      "url": "/api/2024/equipment-categories/musical-instruments"
+    },
+    {
+      "index": "tools",
+      "name": "Tools",
+      "url": "/api/2024/equipment-categories/tools"
+    }
+  ],
+  "url": "/api/2024/equipment/pan-flute",
+  "cost": { "quantity": 12, "unit": "gp" },
+  "weight": 2,
+  "ability": {
+    "index": "cha",
+    "name": "CHA",
+    "url": "/api/2024/ability-scores/cha"
+  }
+}

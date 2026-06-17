@@ -1,0 +1,15 @@
+{
+  "index": "roving",
+  "name": "Roving",
+  "level": 6,
+  "class": {
+    "index": "ranger",
+    "name": "Ranger",
+    "url": "/api/2024/classes/ranger"
+  },
+  "desc": [
+    "Your speed increases by 10 feet while you aren't wearing Heavy Armor. You also have a Climb speed and a Swim Speed equal to your Speed."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/roving"
+}

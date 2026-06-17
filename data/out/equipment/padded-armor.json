@@ -1,0 +1,21 @@
+{
+  "index": "padded-armor",
+  "name": "Padded Armor",
+  "equipment_categories": [
+    {
+      "index": "light-armor",
+      "name": "Light Armor",
+      "url": "/api/2024/equipment-categories/light-armor"
+    },
+    {
+      "index": "armor",
+      "name": "Armor",
+      "url": "/api/2024/equipment-categories/armor"
+    }
+  ],
+  "url": "/api/2024/equipment/padded-armor",
+  "cost": { "quantity": 5, "unit": "gp" },
+  "weight": 8,
+  "armor_class": { "base": 11, "dex_bonus": true },
+  "stealth_disadvantage": true
+}

@@ -1,0 +1,15 @@
+{
+  "index": "gem-of-seeing",
+  "name": "Gem of Seeing",
+  "equipment_category": {
+    "index": "wondrous-items",
+    "name": "Wondrous Items",
+    "url": "/api/2024/equipment-categories/wondrous-items"
+  },
+  "rarity": { "name": "Rare" },
+  "attunement": true,
+  "desc": "This gem has 3 charges. As a Magic action, you can expend 1 charge. For the next 10 minutes, you have Truesight out to 120 feet when you peer through the gem.\n\nThe gem regains 1d3 expended charges daily at dawn.",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/gem-of-seeing"
+}

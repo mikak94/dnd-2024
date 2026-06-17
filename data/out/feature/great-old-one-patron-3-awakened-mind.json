@@ -1,0 +1,21 @@
+{
+  "index": "great-old-one-patron-3-awakened-mind",
+  "name": "Awakened Mind",
+  "level": 3,
+  "class": {
+    "index": "warlock",
+    "name": "Warlock",
+    "url": "/api/2024/classes/warlock"
+  },
+  "subclass": {
+    "index": "great-old-one-patron",
+    "name": "Great Old One Patron",
+    "url": "/api/2024/subclasses/great-old-one-patron"
+  },
+  "desc": [
+    "You can form a telepathic connection between your mind and the mind of another. As a Bonus Action, choose one creature you can see within 30 feet of yourself. You and the chosen creature can communicate telepathically with each other while the two of you are within a number of miles of each other equal to your Charisma modifier (minimum of 1 mile). To understand each other, you each must mentally use a language the other knows.",
+    "The telepathic connection lasts for a number of minutes equal to your Warlock level. It ends early if you use this feature to connect with a different creature."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/great-old-one-patron-3-awakened-mind"
+}

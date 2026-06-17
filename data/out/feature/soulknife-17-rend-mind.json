@@ -1,0 +1,21 @@
+{
+  "index": "soulknife-17-rend-mind",
+  "name": "Rend Mind",
+  "level": 17,
+  "class": {
+    "index": "rogue",
+    "name": "Rogue",
+    "url": "/api/2024/classes/rogue"
+  },
+  "subclass": {
+    "index": "soulknife",
+    "name": "Soulknife",
+    "url": "/api/2024/subclasses/soulknife"
+  },
+  "desc": [
+    "You can sweep your Psychic Blades through a creature's mind. When you use you Psychic Blades to deal Sneak Attack damage to a creature, you can force that target to make a Wisdom saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus). If the save fails, the target has the Stunned condition for 1 minute. The Stunned target repeats the save at the end of each of its turns, ending the effect on itself with a success.",
+    "Once you use this feature, you can't do so again until you finish a Long Rest unless you expend three Psionic Energy Dice (no action required) to restore your use of it."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/soulknife-17-rend-mind"
+}

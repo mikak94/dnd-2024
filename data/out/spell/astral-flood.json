@@ -1,0 +1,76 @@
+{
+  "index": "astral-flood",
+  "name": "Astral Flood",
+  "level": 3,
+  "school": {
+    "index": "evocation",
+    "name": "Evocation",
+    "url": "/api/2024/magic-schools/evocation"
+  },
+  "casting_time": "Action",
+  "range": "Self",
+  "components": ["V", "S", "M"],
+  "material": "a mixture of water and powdered silver",
+  "ritual": false,
+  "concentration": false,
+  "duration": "Instantaneous",
+  "desc": [
+    "You channel energy from the Astral Sea to unleash a torrent of magic from you in a 30-foot Cone. Each creature in the Cone must succeed on a Dexterity saving throw or take 4d10 Cold or Radiant damage (chosen when you cast this spell). Your choice of damage type determines an additional effect:",
+    "Cold Damage. The target has Disadvantage on the next D20 Test it makes before the end of your next turn.",
+    "Radiant Damage. The target can see only within 15 feet of itself, and it has the Blinded condition for everything beyond that distance until the end of your next turn."
+  ],
+  "higher_level": [
+    "Using a Higher-Level Spell Slot. The damage increases by 1d10 for each spell slot above 3."
+  ],
+  "damage": {
+    "damage_type": {
+      "index": "cold",
+      "name": "Cold",
+      "url": "/api/2024/damage-types/cold"
+    },
+    "damage_at_slot_level": {
+      "3": "4d10",
+      "4": "5d10",
+      "5": "6d10",
+      "6": "7d10",
+      "7": "8d10",
+      "8": "9d10",
+      "9": "10d10"
+    }
+  },
+  "dc": {
+    "dc_type": {
+      "index": "dex",
+      "name": "DEX",
+      "url": "/api/2024/ability-scores/dex"
+    },
+    "dc_success": "none"
+  },
+  "area_of_effect": {
+    "type": "cone",
+    "size": 30
+  },
+  "classes": [
+    {
+      "index": "bard",
+      "name": "Bard",
+      "url": "/api/2024/classes/bard"
+    },
+    {
+      "index": "cleric",
+      "name": "Cleric",
+      "url": "/api/2024/classes/cleric"
+    },
+    {
+      "index": "sorcerer",
+      "name": "Sorcerer",
+      "url": "/api/2024/classes/sorcerer"
+    },
+    {
+      "index": "wizard",
+      "name": "Wizard",
+      "url": "/api/2024/classes/wizard"
+    }
+  ],
+  "url": "/api/2024/spells/astral-flood"
+}

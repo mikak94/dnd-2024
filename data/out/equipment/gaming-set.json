@@ -1,0 +1,18 @@
+{
+  "index": "gaming-set",
+  "name": "Gaming Set",
+  "equipment_categories": [
+    {
+      "index": "gaming-sets",
+      "name": "Gaming Sets",
+      "url": "/api/2024/equipment-categories/gaming-sets"
+    },
+    {
+      "index": "tools",
+      "name": "Tools",
+      "url": "/api/2024/equipment-categories/tools"
+    }
+  ],
+  "description": "A category of gaming sets (Dice, Dragonchess, Playing Cards, Three-Dragon Ante); backgrounds grant a choice of one kind. Each requires a separate proficiency.",
+  "url": "/api/2024/equipment/gaming-set"
+}

@@ -1,0 +1,18 @@
+{
+  "index": "musical-instrument",
+  "name": "Musical Instrument",
+  "equipment_categories": [
+    {
+      "index": "musical-instruments",
+      "name": "Musical Instruments",
+      "url": "/api/2024/equipment-categories/musical-instruments"
+    },
+    {
+      "index": "tools",
+      "name": "Tools",
+      "url": "/api/2024/equipment-categories/tools"
+    }
+  ],
+  "description": "A category of musical instruments (Bagpipes, Drum, Dulcimer, Flute, Horn, Lute, Lyre, Pan Flute, Shawm, Viol); backgrounds grant a choice of one kind. Each requires a separate proficiency.",
+  "url": "/api/2024/equipment/musical-instrument"
+}

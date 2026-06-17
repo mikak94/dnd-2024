@@ -1,0 +1,20 @@
+{
+  "index": "war-domain-3-guided-strike",
+  "name": "Guided Strike",
+  "level": 3,
+  "class": {
+    "index": "cleric",
+    "name": "Cleric",
+    "url": "/api/2024/classes/cleric"
+  },
+  "subclass": {
+    "index": "war-domain",
+    "name": "War Domain",
+    "url": "/api/2024/subclasses/war-domain"
+  },
+  "desc": [
+    "When you or a creature within 30 feet of you misses with an attack roll, you can expend one use of your Channel Divinity and give that roll a +10 bonus, potentially causing it to hit. When you use this feature to benefit another creature's attack roll, you must take a Reaction to do so."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/war-domain-3-guided-strike"
+}

@@ -1,0 +1,20 @@
+{
+  "index": "celestial-patron-6-radiant-soul",
+  "name": "Radiant Soul",
+  "level": 6,
+  "class": {
+    "index": "warlock",
+    "name": "Warlock",
+    "url": "/api/2024/classes/warlock"
+  },
+  "subclass": {
+    "index": "celestial-patron",
+    "name": "Celestial Patron",
+    "url": "/api/2024/subclasses/celestial-patron"
+  },
+  "desc": [
+    "Your link to your patron allows you to serve as a conduit for radiant energy. You have Resistance to Radiant damage. Once per turn, when a spell you cast deals Radiant or Fire damage, you can add your Charisma modifier to that spell's damage against one of the spell's targets."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/celestial-patron-6-radiant-soul"
+}

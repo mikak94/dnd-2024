@@ -1,0 +1,14 @@
+{
+  "index": "ink",
+  "name": "Ink",
+  "equipment_categories": [
+    {
+      "index": "adventuring-gear",
+      "name": "Adventuring Gear",
+      "url": "/api/2024/equipment-categories/adventuring-gear"
+    }
+  ],
+  "cost": { "quantity": 10, "unit": "gp" },
+  "description": "Ink comes in a 1-ounce bottle, which provides enough ink to write about 500 pages.",
+  "url": "/api/2024/equipment/ink"
+}

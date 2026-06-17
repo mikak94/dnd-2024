@@ -1,0 +1,15 @@
+{
+  "index": "eternal-chalk",
+  "name": "Eternal Chalk",
+  "equipment_category": {
+    "index": "wondrous-items",
+    "name": "Wondrous Items",
+    "url": "/api/2024/equipment-categories/wondrous-items"
+  },
+  "rarity": { "name": "Common" },
+  "attunement": false,
+  "desc": "A stick of Eternal Chalk never breaks or wears down with normal use. When using this chalk you can choose the color of its marks and whether they emit a faint glow. Any marks you make with this chalk can't be erased for 7 days by anyone except you.",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/eternal-chalk"
+}

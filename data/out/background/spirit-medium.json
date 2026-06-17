@@ -1,0 +1,164 @@
+{
+  "index": "spirit-medium",
+  "name": "Spirit Medium",
+  "starting_proficiencies": [
+    {
+      "index": "skill-insight",
+      "name": "Skill: Insight",
+      "url": "/api/2024/proficiencies/skill-insight"
+    },
+    {
+      "index": "skill-religion",
+      "name": "Skill: Religion",
+      "url": "/api/2024/proficiencies/skill-religion"
+    },
+    {
+      "index": "gaming-set",
+      "name": "Gaming Set",
+      "url": "/api/2024/proficiencies/gaming-set"
+    }
+  ],
+  "ability_scores": [
+    {
+      "index": "con",
+      "name": "CON",
+      "url": "/api/2024/ability-scores/con"
+    },
+    {
+      "index": "int",
+      "name": "INT",
+      "url": "/api/2024/ability-scores/int"
+    },
+    {
+      "index": "wis",
+      "name": "WIS",
+      "url": "/api/2024/ability-scores/wis"
+    }
+  ],
+  "feat": {
+    "index": "gathered-whispers",
+    "name": "Gathered Whispers",
+    "url": "/api/2024/feats/gathered-whispers"
+  },
+  "starting_equipment_options": [
+    {
+      "desc": "Choose A or B: (A) Dagger, Gaming Set (same as above), Basket, Bell, 8 Candles, Ink, Ink Pen, Paper (5 sheets), Tinderbox, Traveler's Clothes, and 32 GP; or (B) 50 GP",
+      "choose": 1,
+      "type": "equipment",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "multiple",
+            "items": [
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "dagger",
+                  "name": "Dagger",
+                  "url": "/api/2024/equipment/dagger"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "gaming-set",
+                  "name": "Gaming Set",
+                  "url": "/api/2024/equipment/gaming-set"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "basket",
+                  "name": "Basket",
+                  "url": "/api/2024/equipment/basket"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "bell",
+                  "name": "Bell",
+                  "url": "/api/2024/equipment/bell"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 8,
+                "of": {
+                  "index": "candle",
+                  "name": "Candle",
+                  "url": "/api/2024/equipment/candle"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "ink",
+                  "name": "Ink",
+                  "url": "/api/2024/equipment/ink"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "ink-pen",
+                  "name": "Ink Pen",
+                  "url": "/api/2024/equipment/ink-pen"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 5,
+                "of": {
+                  "index": "paper",
+                  "name": "Paper",
+                  "url": "/api/2024/equipment/paper"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "tinderbox",
+                  "name": "Tinderbox",
+                  "url": "/api/2024/equipment/tinderbox"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "travelers-clothes",
+                  "name": "Traveler's Clothes",
+                  "url": "/api/2024/equipment/travelers-clothes"
+                }
+              },
+              {
+                "option_type": "money",
+                "count": 32,
+                "unit": "GP"
+              }
+            ]
+          },
+          {
+            "option_type": "money",
+            "count": 50,
+            "unit": "GP"
+          }
+        ]
+      }
+    }
+  ],
+  "desc": [
+    "Through strange rituals and fateful encounters, you've discovered that you bear a unique connection to the spirits of the dead and damned. Your body is a conduit for such spirits, granting you prescient insight from beyond. But these spirits' intentions aren't always innocent, and their gifts come at a haunting cost."
+  ],
+  "url": "/api/2024/backgrounds/spirit-medium"
+}

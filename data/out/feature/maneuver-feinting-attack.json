@@ -1,0 +1,25 @@
+{
+  "index": "maneuver-feinting-attack",
+  "name": "Maneuver: Feinting Attack",
+  "level": 3,
+  "class": {
+    "index": "fighter",
+    "name": "Fighter",
+    "url": "/api/2024/classes/fighter"
+  },
+  "subclass": {
+    "index": "battle-master",
+    "name": "Battle Master",
+    "url": "/api/2024/subclasses/battle-master"
+  },
+  "parent": {
+    "index": "battle-master-3-combat-superiority",
+    "name": "Combat Superiority",
+    "url": "/api/2024/features/battle-master-3-combat-superiority"
+  },
+  "desc": [
+    "As a Bonus Action, you can expend one Superiority Die to feint, choosing one creature within 5 feet of yourself as your target. You have Advantage on your next attack roll against that target this turn. If that attack hits, add the Superiority Die to the attack's damage roll."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/maneuver-feinting-attack"
+}

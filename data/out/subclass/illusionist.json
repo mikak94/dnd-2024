@@ -1,0 +1,16 @@
+{
+  "index": "illusionist",
+  "class": {
+    "index": "wizard",
+    "name": "Wizard",
+    "url": "/api/2024/classes/wizard"
+  },
+  "name": "Illusionist",
+  "subclass_flavor": "Arcane Tradition",
+  "desc": [
+    "Weave Subtle Spells of Deception",
+    "You specialize in magic that dazzles the senses and tricks the mind, and the illusions you craft make the impossible seem real."
+  ],
+  "subclass_levels": "/api/2024/subclasses/illusionist/levels",
+  "url": "/api/2024/subclasses/illusionist"
+}

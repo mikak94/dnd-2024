@@ -1,0 +1,15 @@
+{
+  "index": "feral-senses",
+  "name": "Feral Senses",
+  "level": 18,
+  "class": {
+    "index": "ranger",
+    "name": "Ranger",
+    "url": "/api/2024/classes/ranger"
+  },
+  "desc": [
+    "Your connection to the forces of nature grants you Blindsight with a range of 30 feet."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/feral-senses"
+}

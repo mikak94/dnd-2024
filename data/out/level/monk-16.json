@@ -1,0 +1,27 @@
+{
+  "index": "monk-16",
+  "level": 16,
+  "ability_score_bonuses": 4,
+  "prof_bonus": 5,
+  "features": [
+    {
+      "index": "ability-score-improvement-monk",
+      "name": "Ability Score Improvement",
+      "url": "/api/2024/features/ability-score-improvement-monk"
+    }
+  ],
+  "class": {
+    "index": "monk",
+    "name": "Monk",
+    "url": "/api/2024/classes/monk"
+  },
+  "url": "/api/2024/classes/monk/levels/16",
+  "class_specific": {
+    "ki_points": 16,
+    "unarmored_movement": 25,
+    "martial_arts": {
+      "dice_count": 1,
+      "dice_value": 10
+    }
+  }
+}

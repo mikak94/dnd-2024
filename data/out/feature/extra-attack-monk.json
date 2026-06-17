@@ -1,0 +1,15 @@
+{
+  "index": "extra-attack-monk",
+  "name": "Extra Attack",
+  "level": 5,
+  "class": {
+    "index": "monk",
+    "name": "Monk",
+    "url": "/api/2024/classes/monk"
+  },
+  "desc": [
+    "You can attack twice instead of once whenever you take the Attack action on your turn."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/extra-attack-monk"
+}

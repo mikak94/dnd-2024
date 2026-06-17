@@ -1,0 +1,11 @@
+{
+  "index": "cooks-utensils",
+  "name": "Cook's Utensils",
+  "type": "Artisan's Tools",
+  "reference": {
+    "index": "cooks-utensils",
+    "name": "Cook's Utensils",
+    "url": "/api/2024/equipment/cooks-utensils"
+  },
+  "url": "/api/2024/proficiencies/cooks-utensils"
+}

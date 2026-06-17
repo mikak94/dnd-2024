@@ -1,0 +1,10 @@
+{
+  "index": "ability-score-improvement",
+  "name": "Ability Score Improvement",
+  "level": 4,
+  "desc": [
+    "You gain the Ability Score Improvement feat or another feat of your choice for which you qualify."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/ability-score-improvement"
+}

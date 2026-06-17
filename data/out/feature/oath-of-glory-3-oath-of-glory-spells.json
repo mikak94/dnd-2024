@@ -1,0 +1,21 @@
+{
+  "index": "oath-of-glory-3-oath-of-glory-spells",
+  "name": "Oath of Glory Spells",
+  "level": 3,
+  "class": {
+    "index": "paladin",
+    "name": "Paladin",
+    "url": "/api/2024/classes/paladin"
+  },
+  "subclass": {
+    "index": "oath-of-glory",
+    "name": "Oath of Glory",
+    "url": "/api/2024/subclasses/oath-of-glory"
+  },
+  "desc": [
+    "The magic of your oath ensures you always have certain spells ready; when you reach a Paladin level specified in the Oath of Glory Spells table, you thereafter always have the listed spells prepared.",
+    "| Paladin Level | Spells |\n| --- | --- |\n| 3 | Guiding Bolt, Heroism |\n| 5 | Enhance Ability, Magic Weapon |\n| 9 | Haste, Protection from Energy |\n| 13 | Compulsion, Freedom of Movement |\n| 17 | Legend Lore, Yolande's Regal Presence |"
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/oath-of-glory-3-oath-of-glory-spells"
+}

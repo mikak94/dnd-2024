@@ -1,0 +1,20 @@
+{
+  "index": "bladesinger-6-extra-attack",
+  "name": "Extra Attack",
+  "level": 6,
+  "class": {
+    "index": "wizard",
+    "name": "Wizard",
+    "url": "/api/2024/classes/wizard"
+  },
+  "subclass": {
+    "index": "bladesinger",
+    "name": "Bladesinger",
+    "url": "/api/2024/subclasses/bladesinger"
+  },
+  "desc": [
+    "You can attack twice, instead of once, whenever you take the Attack action on your turn. Moreover, you can cast one of your Wizard cantrips that has a casting time of an action in place of one of those attacks."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/bladesinger-6-extra-attack"
+}

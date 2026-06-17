@@ -1,0 +1,15 @@
+{
+  "index": "arcane-battery",
+  "name": "Arcane Battery",
+  "equipment_category": {
+    "index": "wondrous-items",
+    "name": "Wondrous Items",
+    "url": "/api/2024/equipment-categories/wondrous-items"
+  },
+  "rarity": { "name": "Uncommon" },
+  "attunement": false,
+  "desc": "This smooth, oval stone is etched with faintly glowing, magical symbols. While holding the battery, you can take a Magic action to touch the battery to one magic item. If that magic item normally regains expended charges daily, it immediately regains 1d4 + 1 expended charges, and the battery loses its magic.",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/arcane-battery"
+}

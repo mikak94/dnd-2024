@@ -1,0 +1,25 @@
+{
+  "index": "eldritch-invocation-one-with-shadows",
+  "name": "Eldritch Invocation: One with Shadows",
+  "level": 5,
+  "class": {
+    "index": "warlock",
+    "name": "Warlock",
+    "url": "/api/2024/classes/warlock"
+  },
+  "parent": {
+    "index": "eldritch-invocations",
+    "name": "Eldritch Invocations",
+    "url": "/api/2024/features/eldritch-invocations"
+  },
+  "desc": [
+    "While you’re in an area of Dim Light or Darkness, you can cast Invisibility on yourself without expending a spell slot."
+  ],
+  "prerequisites": [
+    {
+      "type": "level",
+      "level": 5
+    }
+  ],
+  "url": "/api/2024/features/eldritch-invocation-one-with-shadows"
+}

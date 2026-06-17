@@ -1,0 +1,15 @@
+{
+  "index": "eyes-of-minute-seeing",
+  "name": "Eyes of Minute Seeing",
+  "equipment_category": {
+    "index": "wondrous-items",
+    "name": "Wondrous Items",
+    "url": "/api/2024/equipment-categories/wondrous-items"
+  },
+  "rarity": { "name": "Uncommon" },
+  "attunement": false,
+  "desc": "These crystal lenses fit over the eyes. While wearing them, your vision improves significantly out to a range of 1 foot, granting you Darkvision within that range and Advantage on Intelligence (Investigation) checks made to examine something within that range.",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/eyes-of-minute-seeing"
+}

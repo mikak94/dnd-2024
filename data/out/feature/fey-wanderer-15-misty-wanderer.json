@@ -1,0 +1,21 @@
+{
+  "index": "fey-wanderer-15-misty-wanderer",
+  "name": "Misty Wanderer",
+  "level": 15,
+  "class": {
+    "index": "ranger",
+    "name": "Ranger",
+    "url": "/api/2024/classes/ranger"
+  },
+  "subclass": {
+    "index": "fey-wanderer",
+    "name": "Fey Wanderer",
+    "url": "/api/2024/subclasses/fey-wanderer"
+  },
+  "desc": [
+    "You can cast Misty Step without expending a spell slot. You can do so a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.",
+    "In addition, whenever you cast Misty Step, you can bring along one willing creature you can see within 5 feet of yourself. That creature teleports to an unoccupied space of your choice within 5 feet of your destination space."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/fey-wanderer-15-misty-wanderer"
+}

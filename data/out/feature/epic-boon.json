@@ -1,0 +1,10 @@
+{
+  "index": "epic-boon",
+  "name": "Epic Boon",
+  "level": 19,
+  "desc": [
+    "You gain an Epic Boon feat or another feat of your choice for which you qualify."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/epic-boon"
+}

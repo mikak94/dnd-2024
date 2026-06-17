@@ -1,0 +1,21 @@
+{
+  "index": "oath-of-the-noble-genies-3-genie-spells",
+  "name": "Genie Spells",
+  "level": 3,
+  "class": {
+    "index": "paladin",
+    "name": "Paladin",
+    "url": "/api/2024/classes/paladin"
+  },
+  "subclass": {
+    "index": "oath-of-the-noble-genies",
+    "name": "Oath of the Noble Genies",
+    "url": "/api/2024/subclasses/oath-of-the-noble-genies"
+  },
+  "desc": [
+    "When you reach a Paladin level specified in the Genie Spells table, you thereafter always have the listed spells prepared.",
+    "| Paladin Level | Spells |\n| --- | --- |\n| 3 | Chromatic Orb, Elementalism, Thunderous Smite |\n| 5 | Mirror Image, Phantasmal Force |\n| 9 | Fly, Gaseous Form |\n| 13 | Conjure Minor Elementals, Summon Elemental |\n| 17 | Banishing Smite, Contact Other Plane |"
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/oath-of-the-noble-genies-3-genie-spells"
+}

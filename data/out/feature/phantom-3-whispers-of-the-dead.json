@@ -1,0 +1,20 @@
+{
+  "index": "phantom-3-whispers-of-the-dead",
+  "name": "Whispers of the Dead",
+  "level": 3,
+  "class": {
+    "index": "rogue",
+    "name": "Rogue",
+    "url": "/api/2024/classes/rogue"
+  },
+  "subclass": {
+    "index": "phantom",
+    "name": "Phantom",
+    "url": "/api/2024/subclasses/phantom"
+  },
+  "desc": [
+    "Whenever you finish a Short or Long Rest, you can choose one skill or tool proficiency that you lack and gain it, as a ghostly presence shares its knowledge with you. You lose this proficiency when you use this benefit again to choose a different proficiency."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/phantom-3-whispers-of-the-dead"
+}

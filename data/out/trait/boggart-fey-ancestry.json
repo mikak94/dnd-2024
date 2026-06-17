@@ -1,0 +1,16 @@
+{
+  "index": "boggart-fey-ancestry",
+  "name": "Fey Ancestry",
+  "species": [
+    {
+      "index": "boggart",
+      "name": "Boggart",
+      "url": "/api/2024/species/boggart"
+    }
+  ],
+  "subspecies": [],
+  "desc": [
+    "You have advantage on saving throws you make to avoid or end the charmed condition on yourself."
+  ],
+  "url": "/api/2024/traits/boggart-fey-ancestry"
+}

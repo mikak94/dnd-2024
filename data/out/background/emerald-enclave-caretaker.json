@@ -1,0 +1,146 @@
+{
+  "index": "emerald-enclave-caretaker",
+  "name": "Emerald Enclave Caretaker",
+  "starting_proficiencies": [
+    {
+      "index": "skill-nature",
+      "name": "Skill: Nature",
+      "url": "/api/2024/proficiencies/skill-nature"
+    },
+    {
+      "index": "skill-survival",
+      "name": "Skill: Survival",
+      "url": "/api/2024/proficiencies/skill-survival"
+    },
+    {
+      "index": "herbalism-kit",
+      "name": "Herbalism Kit",
+      "url": "/api/2024/proficiencies/herbalism-kit"
+    }
+  ],
+  "ability_scores": [
+    {
+      "index": "con",
+      "name": "CON",
+      "url": "/api/2024/ability-scores/con"
+    },
+    {
+      "index": "int",
+      "name": "INT",
+      "url": "/api/2024/ability-scores/int"
+    },
+    {
+      "index": "wis",
+      "name": "WIS",
+      "url": "/api/2024/ability-scores/wis"
+    }
+  ],
+  "feat": {
+    "index": "emerald-enclave-fledgling",
+    "name": "Emerald Enclave Fledgling",
+    "url": "/api/2024/feats/emerald-enclave-fledgling"
+  },
+  "starting_equipment_options": [
+    {
+      "desc": "Choose A or B: (A) Shortbow, 20 Arrows, Herbalism Kit, Bedroll, Blanket, Pouch, Tent, Traveler's Clothes, 13 GP; or (B) 50 GP",
+      "choose": 1,
+      "type": "equipment",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "multiple",
+            "items": [
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "shortbow",
+                  "name": "Shortbow",
+                  "url": "/api/2024/equipment/shortbow"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 20,
+                "of": {
+                  "index": "arrow",
+                  "name": "Arrow",
+                  "url": "/api/2024/equipment/arrow"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "herbalism-kit",
+                  "name": "Herbalism Kit",
+                  "url": "/api/2024/equipment/herbalism-kit"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "bedroll",
+                  "name": "Bedroll",
+                  "url": "/api/2024/equipment/bedroll"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "blanket",
+                  "name": "Blanket",
+                  "url": "/api/2024/equipment/blanket"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "pouch",
+                  "name": "Pouch",
+                  "url": "/api/2024/equipment/pouch"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "tent",
+                  "name": "Tent",
+                  "url": "/api/2024/equipment/tent"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "travelers-clothes",
+                  "name": "Traveler's Clothes",
+                  "url": "/api/2024/equipment/travelers-clothes"
+                }
+              },
+              {
+                "option_type": "money",
+                "count": 13,
+                "unit": "GP"
+              }
+            ]
+          },
+          {
+            "option_type": "money",
+            "count": 50,
+            "unit": "GP"
+          }
+        ]
+      }
+    }
+  ],
+  "desc": [
+    "As a Caretaker with the Emerald Enclave, you take care of those who care for the world. Either alongside your fellow Emerald Enclave members or by yourself, you've learned essential skills for living with the land: how to track game, where to forage for useful herbs, and even how to forecast the weather. You use these talents to maintain the balance between civilization and the wilds and to rid the world of unnatural creatures."
+  ],
+  "url": "/api/2024/backgrounds/emerald-enclave-caretaker"
+}

@@ -1,0 +1,25 @@
+{
+  "index": "maneuver-trip-attack",
+  "name": "Maneuver: Trip Attack",
+  "level": 3,
+  "class": {
+    "index": "fighter",
+    "name": "Fighter",
+    "url": "/api/2024/classes/fighter"
+  },
+  "subclass": {
+    "index": "battle-master",
+    "name": "Battle Master",
+    "url": "/api/2024/subclasses/battle-master"
+  },
+  "parent": {
+    "index": "battle-master-3-combat-superiority",
+    "name": "Combat Superiority",
+    "url": "/api/2024/features/battle-master-3-combat-superiority"
+  },
+  "desc": [
+    "When you hit a creature with an attack roll using a weapon or an Unarmed Strike, you can expend one Superiority Die and add the die to the attack's damage roll. If the target is Large or smaller, it must succeed on a Strength saving throw or have the Prone condition."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/maneuver-trip-attack"
+}

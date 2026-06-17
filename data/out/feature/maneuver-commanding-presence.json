@@ -1,0 +1,25 @@
+{
+  "index": "maneuver-commanding-presence",
+  "name": "Maneuver: Commanding Presence",
+  "level": 3,
+  "class": {
+    "index": "fighter",
+    "name": "Fighter",
+    "url": "/api/2024/classes/fighter"
+  },
+  "subclass": {
+    "index": "battle-master",
+    "name": "Battle Master",
+    "url": "/api/2024/subclasses/battle-master"
+  },
+  "parent": {
+    "index": "battle-master-3-combat-superiority",
+    "name": "Combat Superiority",
+    "url": "/api/2024/features/battle-master-3-combat-superiority"
+  },
+  "desc": [
+    "When you make a Charisma (Intimidation, Performance, or Persuasion) check, you can expend one Superiority Die and add that die to the roll."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/maneuver-commanding-presence"
+}

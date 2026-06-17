@@ -1,0 +1,11 @@
+{
+  "index": "tool-navigators-tools",
+  "name": "Tool: Navigator's Tools",
+  "type": "Tools",
+  "reference": {
+    "index": "navigators-tools",
+    "name": "Navigator's Tools",
+    "url": "/api/2024/equipment/navigators-tools"
+  },
+  "url": "/api/2024/proficiencies/tool-navigators-tools"
+}

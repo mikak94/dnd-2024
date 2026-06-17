@@ -1,0 +1,25 @@
+{
+  "index": "maneuver-sweeping-attack",
+  "name": "Maneuver: Sweeping Attack",
+  "level": 3,
+  "class": {
+    "index": "fighter",
+    "name": "Fighter",
+    "url": "/api/2024/classes/fighter"
+  },
+  "subclass": {
+    "index": "battle-master",
+    "name": "Battle Master",
+    "url": "/api/2024/subclasses/battle-master"
+  },
+  "parent": {
+    "index": "battle-master-3-combat-superiority",
+    "name": "Combat Superiority",
+    "url": "/api/2024/features/battle-master-3-combat-superiority"
+  },
+  "desc": [
+    "When you hit a creature with a melee attack roll using a weapon or an Unarmed Strike, you can expend one Superiority Die to attempt to damage another creature. Choose another creature within 5 feet of the original target and within your reach. If the original attack roll would hit the second creature, it takes damage equal to the number you roll on your Superiority Die. The damage is of the same type dealt by the original attack."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/maneuver-sweeping-attack"
+}

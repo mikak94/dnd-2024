@@ -1,0 +1,40 @@
+{
+  "index": "gnome-gnomish-lineage",
+  "name": "Gnomish Lineage",
+  "species": [
+    { "index": "gnome", "name": "Gnome", "url": "/api/2024/species/gnome" }
+  ],
+  "subspecies": [],
+  "desc": [
+    "You are part of a lineage that grants you supernatural abilities. Choose one of the following options; whichever one you choose, Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the lineage): Forest Gnome or Rock Gnome."
+  ],
+  "trait_specific": {
+    "subtrait_options": {
+      "desc": "Choose a Gnomish Lineage",
+      "choose": 1,
+      "type": "lineage",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "forest-gnome",
+              "name": "Forest Gnome",
+              "url": "/api/2024/subspecies/forest-gnome"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "rock-gnome",
+              "name": "Rock Gnome",
+              "url": "/api/2024/subspecies/rock-gnome"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "url": "/api/2024/traits/gnome-gnomish-lineage"
+}

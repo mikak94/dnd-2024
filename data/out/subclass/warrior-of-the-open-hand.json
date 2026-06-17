@@ -1,0 +1,16 @@
+{
+  "index": "warrior-of-the-open-hand",
+  "class": {
+    "index": "monk",
+    "name": "Monk",
+    "url": "/api/2024/classes/monk"
+  },
+  "name": "Warrior of the Open Hand",
+  "subclass_flavor": "Monastic Tradition",
+  "desc": [
+    "Master Unarmed Combat Techniques",
+    "Warriors of the Open Hand are masters of unarmed combat. They learn techniques to push and trip their opponents and manipulate their own energy to protect themselves from harm."
+  ],
+  "subclass_levels": "/api/2024/subclasses/warrior-of-the-open-hand/levels",
+  "url": "/api/2024/subclasses/warrior-of-the-open-hand"
+}

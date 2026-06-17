@@ -1,0 +1,25 @@
+{
+  "index": "eldritch-invocation-devil-s-sight",
+  "name": "Eldritch Invocation: Devil’s Sight",
+  "level": 2,
+  "class": {
+    "index": "warlock",
+    "name": "Warlock",
+    "url": "/api/2024/classes/warlock"
+  },
+  "parent": {
+    "index": "eldritch-invocations",
+    "name": "Eldritch Invocations",
+    "url": "/api/2024/features/eldritch-invocations"
+  },
+  "desc": [
+    "You can see normally in Dim Light and Darkness—both magical and nonmagical—within 120 feet of yourself."
+  ],
+  "prerequisites": [
+    {
+      "type": "level",
+      "level": 2
+    }
+  ],
+  "url": "/api/2024/features/eldritch-invocation-devil-s-sight"
+}

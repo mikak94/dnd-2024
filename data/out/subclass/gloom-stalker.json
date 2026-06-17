@@ -1,0 +1,58 @@
+{
+  "index": "gloom-stalker",
+  "class": {
+    "index": "ranger",
+    "name": "Ranger",
+    "url": "/api/2024/classes/ranger"
+  },
+  "name": "Gloom Stalker",
+  "subclass_flavor": "Ranger Archetype",
+  "desc": [
+    "Draw on Shadow Magic to Fight Your Foes",
+    "Gloom Stalkers are at home in the darkest places, wielding magic drawn from the Shadowfell to combat enemies that lurk in darkness."
+  ],
+  "subclass_levels": "/api/2024/subclasses/gloom-stalker/levels",
+  "spells": [
+    {
+      "prerequisites": [{ "index": "gloom-stalker-3", "type": "level" }],
+      "spell": {
+        "index": "disguise-self",
+        "name": "Disguise Self",
+        "url": "/api/2024/spells/disguise-self"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "gloom-stalker-5", "type": "level" }],
+      "spell": {
+        "index": "rope-trick",
+        "name": "Rope Trick",
+        "url": "/api/2024/spells/rope-trick"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "gloom-stalker-9", "type": "level" }],
+      "spell": {
+        "index": "fear",
+        "name": "Fear",
+        "url": "/api/2024/spells/fear"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "gloom-stalker-13", "type": "level" }],
+      "spell": {
+        "index": "greater-invisibility",
+        "name": "Greater Invisibility",
+        "url": "/api/2024/spells/greater-invisibility"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "gloom-stalker-17", "type": "level" }],
+      "spell": {
+        "index": "seeming",
+        "name": "Seeming",
+        "url": "/api/2024/spells/seeming"
+      }
+    }
+  ],
+  "url": "/api/2024/subclasses/gloom-stalker"
+}

@@ -1,0 +1,15 @@
+{
+  "index": "eyes-of-the-eagle",
+  "name": "Eyes of the Eagle",
+  "equipment_category": {
+    "index": "wondrous-items",
+    "name": "Wondrous Items",
+    "url": "/api/2024/equipment-categories/wondrous-items"
+  },
+  "rarity": { "name": "Uncommon" },
+  "attunement": false,
+  "desc": "These crystal lenses fit over the eyes. While wearing them, you have Advantage on Wisdom (Perception) checks that rely on sight. In conditions of clear visibility, you can make out details of even extremely distant creatures and objects as small as 2 feet across.",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/eyes-of-the-eagle"
+}

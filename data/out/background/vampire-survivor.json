@@ -1,0 +1,164 @@
+{
+  "index": "vampire-survivor",
+  "name": "Vampire Survivor",
+  "starting_proficiencies": [
+    {
+      "index": "skill-insight",
+      "name": "Skill: Insight",
+      "url": "/api/2024/proficiencies/skill-insight"
+    },
+    {
+      "index": "skill-religion",
+      "name": "Skill: Religion",
+      "url": "/api/2024/proficiencies/skill-religion"
+    },
+    {
+      "index": "woodcarvers-tools",
+      "name": "Woodcarver's Tools",
+      "url": "/api/2024/proficiencies/woodcarvers-tools"
+    }
+  ],
+  "ability_scores": [
+    {
+      "index": "dex",
+      "name": "DEX",
+      "url": "/api/2024/ability-scores/dex"
+    },
+    {
+      "index": "con",
+      "name": "CON",
+      "url": "/api/2024/ability-scores/con"
+    },
+    {
+      "index": "wis",
+      "name": "WIS",
+      "url": "/api/2024/ability-scores/wis"
+    }
+  ],
+  "feat": {
+    "index": "vampire-hunter",
+    "name": "Vampire Hunter",
+    "url": "/api/2024/feats/vampire-hunter"
+  },
+  "starting_equipment_options": [
+    {
+      "desc": "Choose A or B: (A) Woodcarver's Tools, Crowbar, Hooded Lantern, Holy Symbol (reliquary), Holy Water, Mirror, Oil (3 flasks), Tinderbox, Traveler's Clothes, Waterskin, 4 GP; or (B) 50 GP",
+      "choose": 1,
+      "type": "equipment",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "multiple",
+            "items": [
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "woodcarvers-tools",
+                  "name": "Woodcarver's Tools",
+                  "url": "/api/2024/equipment/woodcarvers-tools"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "crowbar",
+                  "name": "Crowbar",
+                  "url": "/api/2024/equipment/crowbar"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "hooded-lantern",
+                  "name": "Hooded Lantern",
+                  "url": "/api/2024/equipment/hooded-lantern"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "holy-symbol",
+                  "name": "Holy Symbol",
+                  "url": "/api/2024/equipment/holy-symbol"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "holy-water",
+                  "name": "Holy Water",
+                  "url": "/api/2024/equipment/holy-water"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "mirror",
+                  "name": "Mirror",
+                  "url": "/api/2024/equipment/mirror"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 3,
+                "of": {
+                  "index": "oil",
+                  "name": "Oil",
+                  "url": "/api/2024/equipment/oil"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "tinderbox",
+                  "name": "Tinderbox",
+                  "url": "/api/2024/equipment/tinderbox"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "travelers-clothes",
+                  "name": "Traveler's Clothes",
+                  "url": "/api/2024/equipment/travelers-clothes"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "waterskin",
+                  "name": "Waterskin",
+                  "url": "/api/2024/equipment/waterskin"
+                }
+              },
+              {
+                "option_type": "money",
+                "count": 4,
+                "unit": "GP"
+              }
+            ]
+          },
+          {
+            "option_type": "money",
+            "count": 50,
+            "unit": "GP"
+          }
+        ]
+      }
+    }
+  ],
+  "desc": [
+    "You witnessed or survived a vampire attack. You might have been directly involved in this confrontation, or perhaps you were frozen in terror by what you saw. Regardless, you remain vigilant for monster attacks and pride yourself on being ready for anything. No vampire will catch you or your allies by surprise again."
+  ],
+  "url": "/api/2024/backgrounds/vampire-survivor"
+}

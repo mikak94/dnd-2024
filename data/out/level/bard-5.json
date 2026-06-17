@@ -1,0 +1,26 @@
+{
+  "index": "bard-5",
+  "level": 5,
+  "ability_score_bonuses": 1,
+  "prof_bonus": 3,
+  "features": [
+    {
+      "index": "font-of-inspiration",
+      "name": "Font of Inspiration",
+      "url": "/api/2024/features/font-of-inspiration"
+    }
+  ],
+  "class": {
+    "index": "bard",
+    "name": "Bard",
+    "url": "/api/2024/classes/bard"
+  },
+  "spellcasting": {
+    "cantrips_known": 3,
+    "spells_known": 9,
+    "spell_slots_level_1": 4,
+    "spell_slots_level_2": 3,
+    "spell_slots_level_3": 2
+  },
+  "url": "/api/2024/classes/bard/levels/5"
+}

@@ -1,0 +1,11 @@
+{
+  "index": "shields",
+  "name": "Shields",
+  "type": "Armor",
+  "reference": {
+    "index": "shield",
+    "name": "Shield",
+    "url": "/api/2024/equipment/shield"
+  },
+  "url": "/api/2024/proficiencies/shields"
+}

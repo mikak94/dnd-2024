@@ -1,0 +1,101 @@
+{
+  "index": "house-jorasco-heir",
+  "name": "House Jorasco Heir",
+  "starting_proficiencies": [
+    {
+      "index": "skill-medicine",
+      "name": "Skill: Medicine",
+      "url": "/api/2024/proficiencies/skill-medicine"
+    },
+    {
+      "index": "skill-stealth",
+      "name": "Skill: Stealth",
+      "url": "/api/2024/proficiencies/skill-stealth"
+    },
+    {
+      "index": "herbalism-kit",
+      "name": "Herbalism Kit",
+      "url": "/api/2024/proficiencies/herbalism-kit"
+    }
+  ],
+  "ability_scores": [
+    {
+      "index": "dex",
+      "name": "DEX",
+      "url": "/api/2024/ability-scores/dex"
+    },
+    {
+      "index": "con",
+      "name": "CON",
+      "url": "/api/2024/ability-scores/con"
+    },
+    {
+      "index": "wis",
+      "name": "WIS",
+      "url": "/api/2024/ability-scores/wis"
+    }
+  ],
+  "feat": {
+    "index": "mark-of-healing",
+    "name": "Mark of Healing",
+    "url": "/api/2024/feats/mark-of-healing"
+  },
+  "starting_equipment_options": [
+    {
+      "desc": "Choose A or B: (A) Herbalism Kit, Fine Clothes, Healer's Kit, 25 GP; or (B) 50 GP",
+      "choose": 1,
+      "type": "equipment",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "multiple",
+            "items": [
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "herbalism-kit",
+                  "name": "Herbalism Kit",
+                  "url": "/api/2024/equipment/herbalism-kit"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "fine-clothes",
+                  "name": "Fine Clothes",
+                  "url": "/api/2024/equipment/fine-clothes"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "healers-kit",
+                  "name": "Healer's Kit",
+                  "url": "/api/2024/equipment/healers-kit"
+                }
+              },
+              {
+                "option_type": "money",
+                "count": 25,
+                "unit": "GP"
+              }
+            ]
+          },
+          {
+            "option_type": "money",
+            "count": 50,
+            "unit": "GP"
+          }
+        ]
+      }
+    }
+  ],
+  "desc": [
+    "House Jorasco teaches that illness and injury stalk the living like ghosts, robbing people of health and longevity. You've been taught ways to combat these scourges, both magically and medically. You're trained to use those skills in the service of others—and to ascertain that you are always appropriately compensated for this service, ensuring the health and longevity of House Jorasco. You might be a kindly healer with no stomach for combat or a dispassionate specialist who knows exactly how to incapacitate or kill an enemy with precise strikes."
+  ],
+  "url": "/api/2024/backgrounds/house-jorasco-heir"
+}

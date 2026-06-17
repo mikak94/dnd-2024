@@ -1,0 +1,15 @@
+{
+  "index": "thieves-cant",
+  "name": "Thieves' Cant",
+  "level": 1,
+  "class": {
+    "index": "rogue",
+    "name": "Rogue",
+    "url": "/api/2024/classes/rogue"
+  },
+  "desc": [
+    "You picked up various languages in the communities where you plied your roguish talents. You know Thieves' Cant and one other language of your choice, which you choose from the language tables in Chapter 2."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/thieves-cant"
+}

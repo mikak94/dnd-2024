@@ -1,0 +1,20 @@
+{
+  "index": "celestial-patron-3-celestial-spells",
+  "name": "Celestial Spells",
+  "level": 3,
+  "class": {
+    "index": "warlock",
+    "name": "Warlock",
+    "url": "/api/2024/classes/warlock"
+  },
+  "subclass": {
+    "index": "celestial-patron",
+    "name": "Celestial Patron",
+    "url": "/api/2024/subclasses/celestial-patron"
+  },
+  "desc": [
+    "The magic of your patron ensures you always have certain spells ready; when you reach a Warlock level specified in the Celestial Spells table, you thereafter always have the listed spells prepared."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/celestial-patron-3-celestial-spells"
+}

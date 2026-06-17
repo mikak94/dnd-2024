@@ -1,0 +1,32 @@
+{
+  "index": "monk-10",
+  "level": 10,
+  "ability_score_bonuses": 2,
+  "prof_bonus": 4,
+  "features": [
+    {
+      "index": "heightened-focus",
+      "name": "Heightened Focus",
+      "url": "/api/2024/features/heightened-focus"
+    },
+    {
+      "index": "self-restoration",
+      "name": "Self-Restoration",
+      "url": "/api/2024/features/self-restoration"
+    }
+  ],
+  "class": {
+    "index": "monk",
+    "name": "Monk",
+    "url": "/api/2024/classes/monk"
+  },
+  "url": "/api/2024/classes/monk/levels/10",
+  "class_specific": {
+    "ki_points": 10,
+    "unarmored_movement": 20,
+    "martial_arts": {
+      "dice_count": 1,
+      "dice_value": 8
+    }
+  }
+}

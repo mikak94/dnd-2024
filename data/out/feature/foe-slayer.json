@@ -1,0 +1,13 @@
+{
+  "index": "foe-slayer",
+  "name": "Foe Slayer",
+  "level": 20,
+  "class": {
+    "index": "ranger",
+    "name": "Ranger",
+    "url": "/api/2024/classes/ranger"
+  },
+  "desc": ["The damage die of your Hunter's Mark is a d10 rather than a d6."],
+  "prerequisites": [],
+  "url": "/api/2024/features/foe-slayer"
+}

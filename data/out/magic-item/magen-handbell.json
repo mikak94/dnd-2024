@@ -1,0 +1,15 @@
+{
+  "index": "magen-handbell",
+  "name": "Magen Handbell",
+  "equipment_category": {
+    "index": "wondrous-items",
+    "name": "Wondrous Items",
+    "url": "/api/2024/equipment-categories/wondrous-items"
+  },
+  "rarity": { "name": "Rare" },
+  "attunement": false,
+  "desc": "While holding this brass handbell, you can take a Magic action to ring it and summon a Terran Magen (see Netheril's Fall). The magen appears in an unoccupied space you choose within 30 feet of yourself, understands your languages, obeys your commands, and takes its turn immediately after you on your Initiative count. The magen disappears after 1 hour, when it dies, or when you dismiss it as a Bonus Action. The bell can't be used this way again for 1d6 days.\n\nBerserk Magen. Whenever the magen summoned by this item starts its turn Bloodied, roll 1d6. On a 6, the magen goes berserk.\n\nWhile berserk, the magen no longer obeys your commands, and you can't dismiss it as a Bonus Action. On each of its turns, the berserk magen attacks the nearest creature it can see. If no creature is near enough for the magen to move to and attack, the magen attacks an object. The magen remains berserk until it disappears, or until a creature holding the handbell takes an Influence action and succeeds on a DC 15 Charisma (Persuasion) check to regain control of the magen.",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/magen-handbell"
+}

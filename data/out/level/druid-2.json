@@ -1,0 +1,29 @@
+{
+  "index": "druid-2",
+  "level": 2,
+  "ability_score_bonuses": 0,
+  "prof_bonus": 2,
+  "features": [
+    {
+      "index": "wild-shape",
+      "name": "Wild Shape",
+      "url": "/api/2024/features/wild-shape"
+    },
+    {
+      "index": "wild-companion",
+      "name": "Wild Companion",
+      "url": "/api/2024/features/wild-companion"
+    }
+  ],
+  "class": {
+    "index": "druid",
+    "name": "Druid",
+    "url": "/api/2024/classes/druid"
+  },
+  "spellcasting": {
+    "cantrips_known": 2,
+    "spells_known": 5,
+    "spell_slots_level_1": 3
+  },
+  "url": "/api/2024/classes/druid/levels/2"
+}

@@ -1,0 +1,26 @@
+{
+  "index": "war-domain-3-war-domain-spells",
+  "name": "War Domain Spells",
+  "level": 3,
+  "class": {
+    "index": "cleric",
+    "name": "Cleric",
+    "url": "/api/2024/classes/cleric"
+  },
+  "subclass": {
+    "index": "war-domain",
+    "name": "War Domain",
+    "url": "/api/2024/subclasses/war-domain"
+  },
+  "desc": [
+    "Your connection to this divine domain ensures you always have certain spells ready. When you reach a Cleric level specified in the War Domain Spells table, you thereafter always have the listed spells prepared.",
+    "| Cleric Level | Prepared Spells |",
+    "| --- | --- |",
+    "| 3 | Guiding Bolt, Magic Weapon, Shield of Faith, Spiritual Weapon |",
+    "| 5 | Crusader's Mantle, Spirit Guardians |",
+    "| 7 | Fire Shield, Freedom of Movement |",
+    "| 9 | Hold Monster, Steel Wind Strike |"
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/war-domain-3-war-domain-spells"
+}

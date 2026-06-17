@@ -1,0 +1,14 @@
+{
+  "index": "tiefling-darkvision",
+  "name": "Darkvision",
+  "species": [
+    {
+      "index": "tiefling",
+      "name": "Tiefling",
+      "url": "/api/2024/species/tiefling"
+    }
+  ],
+  "subspecies": [],
+  "desc": ["You have Darkvision with a range of 60 feet."],
+  "url": "/api/2024/traits/tiefling-darkvision"
+}

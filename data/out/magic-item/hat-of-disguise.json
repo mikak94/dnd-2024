@@ -1,0 +1,15 @@
+{
+  "index": "hat-of-disguise",
+  "name": "Hat of Disguise",
+  "equipment_category": {
+    "index": "wondrous-items",
+    "name": "Wondrous Items",
+    "url": "/api/2024/equipment-categories/wondrous-items"
+  },
+  "rarity": { "name": "Uncommon" },
+  "attunement": true,
+  "desc": "While wearing this hat, you can cast the Disguise Self spell. The spell ends if the hat is removed.",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/hat-of-disguise"
+}

@@ -1,0 +1,17 @@
+{
+  "index": "drow",
+  "name": "Drow",
+  "species": { "index": "elf", "name": "Elf", "url": "/api/2024/species/elf" },
+  "desc": [
+    "Drow typically dwell in the Underdark and have been shaped by it. Some drow individuals and societies avoid the Underdark altogether yet carry its magic. In the Eberron setting, for example, drow dwell in rainforests and cyclopean ruins on the continent of Xen'drik.",
+    "Level 1: The range of your Darkvision increases to 120 feet. You also know the Dancing Lights cantrip. Level 3: Faerie Fire. Level 5: Darkness."
+  ],
+  "traits": [
+    {
+      "index": "drow-elven-lineage",
+      "name": "Elven Lineage",
+      "url": "/api/2024/traits/drow-elven-lineage"
+    }
+  ],
+  "url": "/api/2024/subspecies/drow"
+}

@@ -1,0 +1,110 @@
+{
+  "index": "oath-of-the-ancients",
+  "class": {
+    "index": "paladin",
+    "name": "Paladin",
+    "url": "/api/2024/classes/paladin"
+  },
+  "name": "Oath of the Ancients",
+  "subclass_flavor": "Sacred Oath",
+  "desc": [
+    "Preserve Life and Light in the World",
+    "The Oath of the Ancients is as old as the first elves. Paladins who swear this oath cherish the light; they love the beautiful and life-giving things of the world more than any principles of honor, courage and justice. They often adorn their armor and clothing with images of growing things - leaves, antlers, or flowers - to reflect their commitment to preserving life and light.",
+    "These Paladins share the following tenets:",
+    "Kindle the light of hope.",
+    "Shelter life.",
+    "Delight in art and laughter."
+  ],
+  "subclass_levels": "/api/2024/subclasses/oath-of-the-ancients/levels",
+  "spells": [
+    {
+      "prerequisites": [{ "index": "oath-of-the-ancients-3", "type": "level" }],
+      "spell": {
+        "index": "ensnaring-strike",
+        "name": "Ensnaring Strike",
+        "url": "/api/2024/spells/ensnaring-strike"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "oath-of-the-ancients-3", "type": "level" }],
+      "spell": {
+        "index": "speak-with-animals",
+        "name": "Speak with Animals",
+        "url": "/api/2024/spells/speak-with-animals"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "oath-of-the-ancients-5", "type": "level" }],
+      "spell": {
+        "index": "misty-step",
+        "name": "Misty Step",
+        "url": "/api/2024/spells/misty-step"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "oath-of-the-ancients-5", "type": "level" }],
+      "spell": {
+        "index": "moonbeam",
+        "name": "Moonbeam",
+        "url": "/api/2024/spells/moonbeam"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "oath-of-the-ancients-9", "type": "level" }],
+      "spell": {
+        "index": "plant-growth",
+        "name": "Plant Growth",
+        "url": "/api/2024/spells/plant-growth"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "oath-of-the-ancients-9", "type": "level" }],
+      "spell": {
+        "index": "protection-from-energy",
+        "name": "Protection from Energy",
+        "url": "/api/2024/spells/protection-from-energy"
+      }
+    },
+    {
+      "prerequisites": [
+        { "index": "oath-of-the-ancients-13", "type": "level" }
+      ],
+      "spell": {
+        "index": "ice-storm",
+        "name": "Ice Storm",
+        "url": "/api/2024/spells/ice-storm"
+      }
+    },
+    {
+      "prerequisites": [
+        { "index": "oath-of-the-ancients-13", "type": "level" }
+      ],
+      "spell": {
+        "index": "stoneskin",
+        "name": "Stoneskin",
+        "url": "/api/2024/spells/stoneskin"
+      }
+    },
+    {
+      "prerequisites": [
+        { "index": "oath-of-the-ancients-17", "type": "level" }
+      ],
+      "spell": {
+        "index": "commune-with-nature",
+        "name": "Commune with Nature",
+        "url": "/api/2024/spells/commune-with-nature"
+      }
+    },
+    {
+      "prerequisites": [
+        { "index": "oath-of-the-ancients-17", "type": "level" }
+      ],
+      "spell": {
+        "index": "tree-stride",
+        "name": "Tree Stride",
+        "url": "/api/2024/spells/tree-stride"
+      }
+    }
+  ],
+  "url": "/api/2024/subclasses/oath-of-the-ancients"
+}

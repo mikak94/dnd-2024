@@ -1,0 +1,15 @@
+{
+  "index": "philter-of-love",
+  "name": "Philter of Love",
+  "equipment_category": {
+    "index": "potions",
+    "name": "Potions",
+    "url": "/api/2024/equipment-categories/potions"
+  },
+  "rarity": { "name": "Uncommon" },
+  "attunement": false,
+  "desc": "The next time you see a creature within 10 minutes after drinking this philter, you are charmed by that creature and have the Charmed condition for 1 hour.\n\nThis rose-hued, effervescent liquid contains one easy-to-miss bubble shaped like a heart.",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/philter-of-love"
+}

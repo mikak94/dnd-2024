@@ -1,0 +1,135 @@
+{
+  "index": "dragon-cultist",
+  "name": "Dragon Cultist",
+  "starting_proficiencies": [
+    {
+      "index": "skill-deception",
+      "name": "Skill: Deception",
+      "url": "/api/2024/proficiencies/skill-deception"
+    },
+    {
+      "index": "skill-stealth",
+      "name": "Skill: Stealth",
+      "url": "/api/2024/proficiencies/skill-stealth"
+    },
+    {
+      "index": "tool-calligraphers-supplies",
+      "name": "Tool: Calligrapher's Supplies",
+      "url": "/api/2024/proficiencies/tool-calligraphers-supplies"
+    }
+  ],
+  "ability_scores": [
+    { "index": "dex", "name": "DEX", "url": "/api/2024/ability-scores/dex" },
+    { "index": "con", "name": "CON", "url": "/api/2024/ability-scores/con" },
+    { "index": "int", "name": "INT", "url": "/api/2024/ability-scores/int" }
+  ],
+  "feat": {
+    "index": "cult-of-the-dragon-initiate",
+    "name": "Cult of the Dragon Initiate",
+    "url": "/api/2024/feats/cult-of-the-dragon-initiate"
+  },
+  "starting_equipment_options": [
+    {
+      "desc": "Choose A or B: (A) Calligrapher's Supplies, Dagger, Glass Bottle, Lamp, Manacles, Oil (5 flasks), 2 Pouches, Robe, Rope, 30 GP; or (B) 50 GP",
+      "choose": 1,
+      "type": "equipment",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "multiple",
+            "items": [
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "calligraphers-supplies",
+                  "name": "Calligrapher's Supplies",
+                  "url": "/api/2024/equipment/calligraphers-supplies"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "dagger",
+                  "name": "Dagger",
+                  "url": "/api/2024/equipment/dagger"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "glass-bottle",
+                  "name": "Glass Bottle",
+                  "url": "/api/2024/equipment/glass-bottle"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "lamp",
+                  "name": "Lamp",
+                  "url": "/api/2024/equipment/lamp"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "manacles",
+                  "name": "Manacles",
+                  "url": "/api/2024/equipment/manacles"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 5,
+                "of": {
+                  "index": "oil",
+                  "name": "Oil",
+                  "url": "/api/2024/equipment/oil"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 2,
+                "of": {
+                  "index": "pouch",
+                  "name": "Pouch",
+                  "url": "/api/2024/equipment/pouch"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "robe",
+                  "name": "Robe",
+                  "url": "/api/2024/equipment/robe"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "rope",
+                  "name": "Rope",
+                  "url": "/api/2024/equipment/rope"
+                }
+              },
+              { "option_type": "money", "count": 30, "unit": "GP" }
+            ]
+          },
+          { "option_type": "money", "count": 50, "unit": "GP" }
+        ]
+      }
+    }
+  ],
+  "desc": [
+    "You are an initiate of the Cult of the Dragon. You discovered or were brought to a cell cult, where you exemplified the values honored by dragon cultists: duplicity, secrecy, and determination. In exchange for your oath to serve the cult, the cult offered you the company of fellow dragon worshipers, plus access to resources that might help further your studies in the realms of arcana and occultism."
+  ],
+  "url": "/api/2024/backgrounds/dragon-cultist"
+}

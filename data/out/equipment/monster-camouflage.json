@@ -1,0 +1,14 @@
+{
+  "index": "monster-camouflage",
+  "name": "Monster Camouflage",
+  "equipment_categories": [
+    {
+      "index": "adventuring-gear",
+      "name": "Adventuring Gear",
+      "url": "/api/2024/equipment-categories/adventuring-gear"
+    }
+  ],
+  "cost": { "quantity": 50, "unit": "gp" },
+  "description": "A suit of Monster Camouflage looks like a Beast or Monstrosity, such as an owlbear. To discern that you're disguised, a creature must take the Study action to inspect your appearance and succeed on a DC 10 Intelligence (Investigation or Nature) check. The creature has Advantage on this check if it is within 30 feet of you and automatically succeeds on this check if you do anything the monster you're disguised as couldn't do.",
+  "url": "/api/2024/equipment/monster-camouflage"
+}

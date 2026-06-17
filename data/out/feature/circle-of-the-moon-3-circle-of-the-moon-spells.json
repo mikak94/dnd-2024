@@ -1,0 +1,27 @@
+{
+  "index": "circle-of-the-moon-3-circle-of-the-moon-spells",
+  "name": "Circle of the Moon Spells",
+  "level": 3,
+  "class": {
+    "index": "druid",
+    "name": "Druid",
+    "url": "/api/2024/classes/druid"
+  },
+  "subclass": {
+    "index": "circle-of-the-moon",
+    "name": "Circle of the Moon",
+    "url": "/api/2024/subclasses/circle-of-the-moon"
+  },
+  "desc": [
+    "When you reach a Druid level specified in the Circle of the Moon Spells table, you thereafter always have the listed spells prepared.",
+    "In addition, you can cast the spells from this feature while you're in a Wild Shape form.",
+    "| Druid Level | Prepared Spells |",
+    "| --- | --- |",
+    "| 3 | Cure Wounds, Moonbeam, Starry Wisp |",
+    "| 5 | Conjure Animals |",
+    "| 7 | Fount of Moonlight |",
+    "| 9 | Mass Cure Wounds |"
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/circle-of-the-moon-3-circle-of-the-moon-spells"
+}

@@ -1,0 +1,11 @@
+{
+  "index": "tool-playing-cards",
+  "name": "Tool: Playing Cards",
+  "type": "Tools",
+  "reference": {
+    "index": "playing-cards",
+    "name": "Playing Cards",
+    "url": "/api/2024/equipment/playing-cards"
+  },
+  "url": "/api/2024/proficiencies/tool-playing-cards"
+}

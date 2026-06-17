@@ -1,0 +1,25 @@
+{
+  "index": "rogue-2",
+  "level": 2,
+  "ability_score_bonuses": 0,
+  "prof_bonus": 2,
+  "features": [
+    {
+      "index": "cunning-action",
+      "name": "Cunning Action",
+      "url": "/api/2024/features/cunning-action"
+    }
+  ],
+  "class": {
+    "index": "rogue",
+    "name": "Rogue",
+    "url": "/api/2024/classes/rogue"
+  },
+  "class_specific": {
+    "sneak_attack": {
+      "dice_count": 1,
+      "dice_value": 6
+    }
+  },
+  "url": "/api/2024/classes/rogue/levels/2"
+}

@@ -1,0 +1,20 @@
+{
+  "index": "evoker-10-empowered-evocation",
+  "name": "Empowered Evocation",
+  "level": 10,
+  "class": {
+    "index": "wizard",
+    "name": "Wizard",
+    "url": "/api/2024/classes/wizard"
+  },
+  "subclass": {
+    "index": "evoker",
+    "name": "Evoker",
+    "url": "/api/2024/subclasses/evoker"
+  },
+  "desc": [
+    "Whenever you cast a Wizard spell from the Evocation school, you can add your Intelligence modifier to one damage roll of that spell."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/evoker-10-empowered-evocation"
+}

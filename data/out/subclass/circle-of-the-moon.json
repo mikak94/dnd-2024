@@ -1,0 +1,67 @@
+{
+  "index": "circle-of-the-moon",
+  "class": {
+    "index": "druid",
+    "name": "Druid",
+    "url": "/api/2024/classes/druid"
+  },
+  "name": "Circle of the Moon",
+  "subclass_flavor": "Druid Circle",
+  "desc": [
+    "Adopt Animal Forms to Guard the Wilds",
+    "Druids of the Circle of the Moon draw on lunar magic to transform themselves. Their order gathers under the moon to share news and perform rituals.",
+    "Changeable as the moon, a Druid of this circle might prowl as a great cat one night, soar over the treetops as an eagle the next day, and then crash through undergrowth as a bear to drive off a trespassing monster. The wild is in the Druid's blood."
+  ],
+  "subclass_levels": "/api/2024/subclasses/circle-of-the-moon/levels",
+  "spells": [
+    {
+      "prerequisites": [{ "index": "circle-of-the-moon-3", "type": "level" }],
+      "spell": {
+        "index": "cure-wounds",
+        "name": "Cure Wounds",
+        "url": "/api/2024/spells/cure-wounds"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "circle-of-the-moon-3", "type": "level" }],
+      "spell": {
+        "index": "moonbeam",
+        "name": "Moonbeam",
+        "url": "/api/2024/spells/moonbeam"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "circle-of-the-moon-3", "type": "level" }],
+      "spell": {
+        "index": "starry-wisp",
+        "name": "Starry Wisp",
+        "url": "/api/2024/spells/starry-wisp"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "circle-of-the-moon-5", "type": "level" }],
+      "spell": {
+        "index": "conjure-animals",
+        "name": "Conjure Animals",
+        "url": "/api/2024/spells/conjure-animals"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "circle-of-the-moon-7", "type": "level" }],
+      "spell": {
+        "index": "fount-of-moonlight",
+        "name": "Fount of Moonlight",
+        "url": "/api/2024/spells/fount-of-moonlight"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "circle-of-the-moon-9", "type": "level" }],
+      "spell": {
+        "index": "mass-cure-wounds",
+        "name": "Mass Cure Wounds",
+        "url": "/api/2024/spells/mass-cure-wounds"
+      }
+    }
+  ],
+  "url": "/api/2024/subclasses/circle-of-the-moon"
+}

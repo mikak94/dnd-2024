@@ -1,0 +1,26 @@
+{
+  "index": "paladin-14",
+  "level": 14,
+  "ability_score_bonuses": 3,
+  "prof_bonus": 5,
+  "features": [
+    {
+      "index": "restoring-touch",
+      "name": "Restoring Touch",
+      "url": "/api/2024/features/restoring-touch"
+    }
+  ],
+  "class": {
+    "index": "paladin",
+    "name": "Paladin",
+    "url": "/api/2024/classes/paladin"
+  },
+  "spellcasting": {
+    "spells_known": 11,
+    "spell_slots_level_1": 4,
+    "spell_slots_level_2": 3,
+    "spell_slots_level_3": 3,
+    "spell_slots_level_4": 1
+  },
+  "url": "/api/2024/classes/paladin/levels/14"
+}

@@ -1,0 +1,29 @@
+{
+  "index": "bard-1",
+  "level": 1,
+  "ability_score_bonuses": 0,
+  "prof_bonus": 2,
+  "features": [
+    {
+      "index": "bardic-inspiration",
+      "name": "Bardic Inspiration",
+      "url": "/api/2024/features/bardic-inspiration"
+    },
+    {
+      "index": "spellcasting-bard",
+      "name": "Spellcasting",
+      "url": "/api/2024/features/spellcasting-bard"
+    }
+  ],
+  "class": {
+    "index": "bard",
+    "name": "Bard",
+    "url": "/api/2024/classes/bard"
+  },
+  "spellcasting": {
+    "cantrips_known": 2,
+    "spells_known": 4,
+    "spell_slots_level_1": 2
+  },
+  "url": "/api/2024/classes/bard/levels/1"
+}

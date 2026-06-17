@@ -1,0 +1,26 @@
+{
+  "index": "eldritch-invocation-eldritch-spear",
+  "name": "Eldritch Invocation: Eldritch Spear",
+  "level": 2,
+  "class": {
+    "index": "warlock",
+    "name": "Warlock",
+    "url": "/api/2024/classes/warlock"
+  },
+  "parent": {
+    "index": "eldritch-invocations",
+    "name": "Eldritch Invocations",
+    "url": "/api/2024/features/eldritch-invocations"
+  },
+  "desc": [
+    "Choose one of your known Warlock cantrips that deals damage and has a range of 10+ feet. When you cast that spell, its range increases by a number of feet equal to 30 times your Warlock level.",
+    "**Repeatable.** You can gain this invocation more than once. Each time you do so, choose a different eligible cantrip."
+  ],
+  "prerequisites": [
+    {
+      "type": "level",
+      "level": 2
+    }
+  ],
+  "url": "/api/2024/features/eldritch-invocation-eldritch-spear"
+}

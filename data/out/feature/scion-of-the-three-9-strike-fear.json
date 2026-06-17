@@ -1,0 +1,22 @@
+{
+  "index": "scion-of-the-three-9-strike-fear",
+  "name": "Strike Fear",
+  "level": 9,
+  "class": {
+    "index": "rogue",
+    "name": "Rogue",
+    "url": "/api/2024/classes/rogue"
+  },
+  "subclass": {
+    "index": "scion-of-the-three",
+    "name": "Scion of the Three",
+    "url": "/api/2024/subclasses/scion-of-the-three"
+  },
+  "desc": [
+    "You gain the following Cunning Strike option.",
+    "**Terrify (Cost: 1d6).** The target must succeed on a Wisdom saving throw, or it has the Frightened condition for 1 minute. While the target is Frightened in this way, you have Advantage on attack rolls against the target.",
+    "The Frightened target repeats the save at the end of each of its turns, ending the effect on itself on a success."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/scion-of-the-three-9-strike-fear"
+}

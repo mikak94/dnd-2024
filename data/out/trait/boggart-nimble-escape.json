@@ -1,0 +1,16 @@
+{
+  "index": "boggart-nimble-escape",
+  "name": "Nimble Escape",
+  "species": [
+    {
+      "index": "boggart",
+      "name": "Boggart",
+      "url": "/api/2024/species/boggart"
+    }
+  ],
+  "subspecies": [],
+  "desc": [
+    "You can take the Disengage or Hide action as a bonus action on each of your turns."
+  ],
+  "url": "/api/2024/traits/boggart-nimble-escape"
+}

@@ -1,0 +1,144 @@
+{
+  "index": "boon-of-siberys",
+  "name": "Boon of Siberys",
+  "type": "epic-boon",
+  "prerequisites": [
+    {
+      "type": "level",
+      "level": 19
+    },
+    {
+      "type": "other",
+      "desc": "Eberron Campaign"
+    }
+  ],
+  "desc": [
+    "You gain the following benefits.",
+    "Ability Score Increase. Increase one ability score of your choice by 1, to a maximum of 30.",
+    "Aberrant Magic. Choose a level 8 or lower spell from the Sorcerer spell list or a spell from the Siberys Dragonmark Spells table (the table includes dragonmark suggestions if you'd like to associate a spell with one of the marks). You always have that spell prepared. You can cast it once without a spell slot or spell components, and you regain the ability to cast it in that way when you finish a Short or Long Rest. You can also cast this spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell (choose when you gain this feat).",
+    "Siberys Dragonmark Spells: Animal Shapes (Handling); Control Weather (Storm); Demiplane (Making); Heroes' Feast (Hospitality); Maze (Warding); Mind Blank (Sentinel); Plane Shift (Passage); Project Image (Shadow); Regenerate (Healing); Symbol (Scribing); Teleport (Finding); True Seeing (Detection)"
+  ],
+  "choices": [
+    {
+      "desc": "Increase one ability score of your choice by 1, to a maximum of 30.",
+      "choose": 1,
+      "type": "abilities",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "str",
+              "name": "STR",
+              "url": "/api/2024/ability-scores/str"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "dex",
+              "name": "DEX",
+              "url": "/api/2024/ability-scores/dex"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "con",
+              "name": "CON",
+              "url": "/api/2024/ability-scores/con"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "int",
+              "name": "INT",
+              "url": "/api/2024/ability-scores/int"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "wis",
+              "name": "WIS",
+              "url": "/api/2024/ability-scores/wis"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "cha",
+              "name": "CHA",
+              "url": "/api/2024/ability-scores/cha"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "desc": "Choose a level 8 or lower spell from the Sorcerer spell list or a spell from the Siberys Dragonmark Spells table.",
+      "choose": 1,
+      "type": "spells",
+      "spell_source": {
+        "max_level": 8,
+        "classes": ["sorcerer"],
+        "also_spells": [
+          "animal-shapes",
+          "control-weather",
+          "demiplane",
+          "heroes-feast",
+          "maze",
+          "mind-blank",
+          "plane-shift",
+          "project-image",
+          "regenerate",
+          "symbol",
+          "teleport",
+          "true-seeing"
+        ]
+      },
+      "from": {
+        "option_set_type": "resource_list",
+        "resource_list_url": "/api/2024/classes/sorcerer/spells"
+      }
+    },
+    {
+      "desc": "Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell (choose when you gain this feat).",
+      "choose": 1,
+      "type": "abilities",
+      "ability_use": "spellcasting",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "int",
+              "name": "INT",
+              "url": "/api/2024/ability-scores/int"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "wis",
+              "name": "WIS",
+              "url": "/api/2024/ability-scores/wis"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "cha",
+              "name": "CHA",
+              "url": "/api/2024/ability-scores/cha"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "url": "/api/2024/feats/boon-of-siberys"
+}

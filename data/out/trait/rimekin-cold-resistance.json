@@ -1,0 +1,14 @@
+{
+  "index": "rimekin-cold-resistance",
+  "name": "Cold Resistance",
+  "species": [
+    {
+      "index": "rimekin",
+      "name": "Rimekin",
+      "url": "/api/2024/species/rimekin"
+    }
+  ],
+  "subspecies": [],
+  "desc": ["You have Resistance to Cold damage."],
+  "url": "/api/2024/traits/rimekin-cold-resistance"
+}

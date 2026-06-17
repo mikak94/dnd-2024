@@ -1,0 +1,20 @@
+{
+  "index": "path-of-the-berserker-6-mindless-rage",
+  "name": "Mindless Rage",
+  "level": 6,
+  "class": {
+    "index": "barbarian",
+    "name": "Barbarian",
+    "url": "/api/2024/classes/barbarian"
+  },
+  "subclass": {
+    "index": "path-of-the-berserker",
+    "name": "Path of the Berserker",
+    "url": "/api/2024/subclasses/path-of-the-berserker"
+  },
+  "desc": [
+    "You have Immunity to the Charmed and Frightened conditions while your Rage is active. If you're Charmed or Frightened when you enter your Rage, the condition ends on you."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/path-of-the-berserker-6-mindless-rage"
+}

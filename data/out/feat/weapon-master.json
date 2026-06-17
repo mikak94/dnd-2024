@@ -1,0 +1,49 @@
+{
+  "index": "weapon-master",
+  "name": "Weapon Master",
+  "type": "general",
+  "prerequisites": [{ "type": "level", "level": 4 }],
+  "desc": [
+    "You gain the following benefits.",
+    "Ability Score Increase. Increase your Strength or Dexterity score by 1, to a maximum of 20.",
+    "Mastery Property. Your training with weapons allows you to use the mastery property of one kind of Simple or Martial weapon of your choice, provided you have proficiency with it. Whenever you finish a Long Rest, you can change the kind of weapon to another eligible kind."
+  ],
+  "choices": [
+    {
+      "desc": "Increase your Strength or Dexterity score by 1, to a maximum of 20.",
+      "choose": 1,
+      "type": "abilities",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "str",
+              "name": "STR",
+              "url": "/api/2024/ability-scores/str"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "dex",
+              "name": "DEX",
+              "url": "/api/2024/ability-scores/dex"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "desc": "Choose one kind of Simple or Martial weapon you have proficiency with; you can use its mastery property. The chosen weapon is drawn from the Weapons equipment category.",
+      "choose": 1,
+      "type": "weapons",
+      "from": {
+        "option_set_type": "resource_list",
+        "resource_list_url": "/api/2024/equipment-categories/weapons"
+      }
+    }
+  ],
+  "url": "/api/2024/feats/weapon-master"
+}

@@ -1,0 +1,155 @@
+{
+  "index": "rashemi-wanderer",
+  "name": "Rashemi Wanderer",
+  "starting_proficiencies": [
+    {
+      "index": "skill-intimidation",
+      "name": "Skill: Intimidation",
+      "url": "/api/2024/proficiencies/skill-intimidation"
+    },
+    {
+      "index": "skill-perception",
+      "name": "Skill: Perception",
+      "url": "/api/2024/proficiencies/skill-perception"
+    },
+    {
+      "index": "cartographers-tools",
+      "name": "Cartographer's Tools",
+      "url": "/api/2024/proficiencies/cartographers-tools"
+    }
+  ],
+  "ability_scores": [
+    {
+      "index": "str",
+      "name": "STR",
+      "url": "/api/2024/ability-scores/str"
+    },
+    {
+      "index": "con",
+      "name": "CON",
+      "url": "/api/2024/ability-scores/con"
+    },
+    {
+      "index": "cha",
+      "name": "CHA",
+      "url": "/api/2024/ability-scores/cha"
+    }
+  ],
+  "feat": {
+    "index": "tough",
+    "name": "Tough",
+    "url": "/api/2024/feats/tough"
+  },
+  "starting_equipment_options": [
+    {
+      "desc": "Choose A or B: (A) Cartographer's Tools, Backpack, Bedroll, Hooded Lantern, Oil (3 flasks), Rope, Tinderbox, Traveler's Clothes, Waterskin, 23 GP; or (B) 50 GP",
+      "choose": 1,
+      "type": "equipment",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "multiple",
+            "items": [
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "cartographers-tools",
+                  "name": "Cartographer's Tools",
+                  "url": "/api/2024/equipment/cartographers-tools"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "backpack",
+                  "name": "Backpack",
+                  "url": "/api/2024/equipment/backpack"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "bedroll",
+                  "name": "Bedroll",
+                  "url": "/api/2024/equipment/bedroll"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "hooded-lantern",
+                  "name": "Hooded Lantern",
+                  "url": "/api/2024/equipment/hooded-lantern"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 3,
+                "of": {
+                  "index": "oil",
+                  "name": "Oil",
+                  "url": "/api/2024/equipment/oil"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "rope",
+                  "name": "Rope",
+                  "url": "/api/2024/equipment/rope"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "tinderbox",
+                  "name": "Tinderbox",
+                  "url": "/api/2024/equipment/tinderbox"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "travelers-clothes",
+                  "name": "Traveler's Clothes",
+                  "url": "/api/2024/equipment/travelers-clothes"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "waterskin",
+                  "name": "Waterskin",
+                  "url": "/api/2024/equipment/waterskin"
+                }
+              },
+              {
+                "option_type": "money",
+                "count": 23,
+                "unit": "GP"
+              }
+            ]
+          },
+          {
+            "option_type": "money",
+            "count": 50,
+            "unit": "GP"
+          }
+        ]
+      }
+    }
+  ],
+  "desc": [
+    "You spent years wandering the highlands of Rashemen, a dangerous windswept heath that's dotted with ancient obelisks enchanted to imprison Fiends and home to dragons, gnolls, and other deadly creatures. Friendships are hard to find in such an isolated land, and you've learned to keep strangers at a distance."
+  ],
+  "url": "/api/2024/backgrounds/rashemi-wanderer"
+}

@@ -1,0 +1,28 @@
+{
+  "index": "paladin-2",
+  "level": 2,
+  "ability_score_bonuses": 0,
+  "prof_bonus": 2,
+  "features": [
+    {
+      "index": "fighting-style-paladin",
+      "name": "Fighting Style",
+      "url": "/api/2024/features/fighting-style-paladin"
+    },
+    {
+      "index": "paladins-smite",
+      "name": "Paladin's Smite",
+      "url": "/api/2024/features/paladins-smite"
+    }
+  ],
+  "class": {
+    "index": "paladin",
+    "name": "Paladin",
+    "url": "/api/2024/classes/paladin"
+  },
+  "spellcasting": {
+    "spells_known": 3,
+    "spell_slots_level_1": 2
+  },
+  "url": "/api/2024/classes/paladin/levels/2"
+}

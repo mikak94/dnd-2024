@@ -1,0 +1,29 @@
+{
+  "index": "eldritch-invocation-eldritch-smite",
+  "name": "Eldritch Invocation: Eldritch Smite",
+  "level": 5,
+  "class": {
+    "index": "warlock",
+    "name": "Warlock",
+    "url": "/api/2024/classes/warlock"
+  },
+  "parent": {
+    "index": "eldritch-invocations",
+    "name": "Eldritch Invocations",
+    "url": "/api/2024/features/eldritch-invocations"
+  },
+  "desc": [
+    "Once per turn when you hit a creature with your pact weapon, you can expend a Pact Magic spell slot to deal an extra 1d8 Force damage to the target, plus another 1d8 per level of the spell slot, and you can give the target the Prone condition if it is Huge or smaller."
+  ],
+  "prerequisites": [
+    {
+      "type": "level",
+      "level": 5
+    },
+    {
+      "type": "feature",
+      "feature": "eldritch-invocation-pact-of-the-blade"
+    }
+  ],
+  "url": "/api/2024/features/eldritch-invocation-eldritch-smite"
+}

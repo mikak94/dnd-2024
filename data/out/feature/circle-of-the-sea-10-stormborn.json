@@ -1,0 +1,22 @@
+{
+  "index": "circle-of-the-sea-10-stormborn",
+  "name": "Stormborn",
+  "level": 10,
+  "class": {
+    "index": "druid",
+    "name": "Druid",
+    "url": "/api/2024/classes/druid"
+  },
+  "subclass": {
+    "index": "circle-of-the-sea",
+    "name": "Circle of the Sea",
+    "url": "/api/2024/subclasses/circle-of-the-sea"
+  },
+  "desc": [
+    "Your Wrath of the Sea confers two more benefits while active, as detailed below.",
+    "**Flight.** You gain a Fly Speed equal to your Speed.",
+    "**Resistance.** You have Resistance to Cold, Lightning, and Thunder damage."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/circle-of-the-sea-10-stormborn"
+}

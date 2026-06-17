@@ -1,0 +1,15 @@
+{
+  "index": "silvered-weapon",
+  "name": "Silvered Weapon",
+  "equipment_category": {
+    "index": "weapons",
+    "name": "Weapons",
+    "url": "/api/2024/equipment-categories/weapons"
+  },
+  "rarity": { "name": "Common" },
+  "attunement": false,
+  "desc": "An alchemical process has bonded silver to this magic weapon. When you score a Critical Hit with it against a creature that is shape-shifted, the weapon deals one additional die of damage.",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/silvered-weapon"
+}

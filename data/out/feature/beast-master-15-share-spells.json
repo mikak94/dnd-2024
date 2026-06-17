@@ -1,0 +1,20 @@
+{
+  "index": "beast-master-15-share-spells",
+  "name": "Share Spells",
+  "level": 15,
+  "class": {
+    "index": "ranger",
+    "name": "Ranger",
+    "url": "/api/2024/classes/ranger"
+  },
+  "subclass": {
+    "index": "beast-master",
+    "name": "Beast Master",
+    "url": "/api/2024/subclasses/beast-master"
+  },
+  "desc": [
+    "When you cast a spell targeting yourself, you can also affect your Primal Companion beast with the spell if the beast is within 30 feet of you."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/beast-master-15-share-spells"
+}

@@ -1,0 +1,11 @@
+{
+  "index": "painters-supplies",
+  "name": "Painter's Supplies",
+  "type": "Artisan's Tools",
+  "reference": {
+    "index": "painters-supplies",
+    "name": "Painter's Supplies",
+    "url": "/api/2024/equipment/painters-supplies"
+  },
+  "url": "/api/2024/proficiencies/painters-supplies"
+}

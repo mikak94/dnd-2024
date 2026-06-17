@@ -1,0 +1,21 @@
+{
+  "index": "oath-of-glory-7-aura-of-alacrity",
+  "name": "Aura of Alacrity",
+  "level": 7,
+  "class": {
+    "index": "paladin",
+    "name": "Paladin",
+    "url": "/api/2024/classes/paladin"
+  },
+  "subclass": {
+    "index": "oath-of-glory",
+    "name": "Oath of Glory",
+    "url": "/api/2024/subclasses/oath-of-glory"
+  },
+  "desc": [
+    "Your Speed increases by 10 feet.",
+    "In addition, whenever an ally enters your Aura of Protection for the first time on a turn or starts their turn there, the ally's Speed increases by 10 feet until the end of their next turn."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/oath-of-glory-7-aura-of-alacrity"
+}

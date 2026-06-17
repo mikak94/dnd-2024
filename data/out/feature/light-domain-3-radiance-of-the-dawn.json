@@ -1,0 +1,20 @@
+{
+  "index": "light-domain-3-radiance-of-the-dawn",
+  "name": "Radiance of the Dawn",
+  "level": 3,
+  "class": {
+    "index": "cleric",
+    "name": "Cleric",
+    "url": "/api/2024/classes/cleric"
+  },
+  "subclass": {
+    "index": "light-domain",
+    "name": "Light Domain",
+    "url": "/api/2024/subclasses/light-domain"
+  },
+  "desc": [
+    "As a Magic action, you present your Holy Symbol and expend a use of your Channel Divinity to emit a flash of light in a 30-foot Emanation originating from yourself. Any magical Darkness--such as that created by the Darkness spell--in that area is dispelled. Additionally, each creature of your choice in that area must make a Constitution saving throw, taking Radiant damage equal to 2d10 plus your Cleric level on a failed save or half as much damage on a successful one."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/light-domain-3-radiance-of-the-dawn"
+}

@@ -1,0 +1,32 @@
+{
+  "index": "warlock-1",
+  "level": 1,
+  "ability_score_bonuses": 0,
+  "prof_bonus": 2,
+  "features": [
+    {
+      "index": "eldritch-invocations",
+      "name": "Eldritch Invocations",
+      "url": "/api/2024/features/eldritch-invocations"
+    },
+    {
+      "index": "pact-magic",
+      "name": "Pact Magic",
+      "url": "/api/2024/features/pact-magic"
+    }
+  ],
+  "class": {
+    "index": "warlock",
+    "name": "Warlock",
+    "url": "/api/2024/classes/warlock"
+  },
+  "class_specific": {
+    "invocations_known": 1
+  },
+  "spellcasting": {
+    "cantrips_known": 2,
+    "spells_known": 2,
+    "spell_slots_level_1": 1
+  },
+  "url": "/api/2024/classes/warlock/levels/1"
+}

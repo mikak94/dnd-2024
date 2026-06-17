@@ -1,0 +1,11 @@
+{
+  "index": "brewers-supplies",
+  "name": "Brewer's Supplies",
+  "type": "Artisan's Tools",
+  "reference": {
+    "index": "brewers-supplies",
+    "name": "Brewer's Supplies",
+    "url": "/api/2024/equipment/brewers-supplies"
+  },
+  "url": "/api/2024/proficiencies/brewers-supplies"
+}

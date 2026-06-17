@@ -1,0 +1,15 @@
+{
+  "index": "ear-horn-of-hearing",
+  "name": "Ear Horn of Hearing",
+  "equipment_category": {
+    "index": "wondrous-items",
+    "name": "Wondrous Items",
+    "url": "/api/2024/equipment-categories/wondrous-items"
+  },
+  "rarity": { "name": "Common" },
+  "attunement": false,
+  "desc": "While held up to your ear, this horn suppresses the effects of the Deafened condition on you.",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/ear-horn-of-hearing"
+}

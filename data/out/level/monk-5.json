@@ -1,0 +1,32 @@
+{
+  "index": "monk-5",
+  "level": 5,
+  "ability_score_bonuses": 1,
+  "prof_bonus": 3,
+  "features": [
+    {
+      "index": "extra-attack-monk",
+      "name": "Extra Attack",
+      "url": "/api/2024/features/extra-attack-monk"
+    },
+    {
+      "index": "stunning-strike",
+      "name": "Stunning Strike",
+      "url": "/api/2024/features/stunning-strike"
+    }
+  ],
+  "class": {
+    "index": "monk",
+    "name": "Monk",
+    "url": "/api/2024/classes/monk"
+  },
+  "url": "/api/2024/classes/monk/levels/5",
+  "class_specific": {
+    "ki_points": 5,
+    "unarmored_movement": 10,
+    "martial_arts": {
+      "dice_count": 1,
+      "dice_value": 8
+    }
+  }
+}

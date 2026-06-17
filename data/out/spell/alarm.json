@@ -1,0 +1,44 @@
+{
+  "index": "alarm",
+  "name": "Alarm",
+  "level": 1,
+  "school": {
+    "index": "abjuration",
+    "name": "Abjuration",
+    "url": "/api/2024/magic-schools/abjuration"
+  },
+  "casting_time": "1 minute",
+  "range": "30 feet",
+  "components": ["V", "S", "M"],
+  "material": "a bell and silver wire",
+  "ritual": true,
+  "concentration": false,
+  "duration": "8 hours",
+  "desc": [
+    "You set an alarm against intrusion. Choose a door, a window, or an area within range that is no larger than a 20-foot Cube. Until the spell ends, an alarm alerts you whenever a creature touches or enters the warded area. When you cast the spell, you can designate creatures that won't set off the alarm. You also choose whether the alarm is audible or mental:",
+    "Audible Alarm. The alarm produces the sound of a handbell for 10 seconds within 60 feet of the warded area.",
+    "Mental Alarm. You are alerted by a mental ping if you are within 1 mile of the warded area. This ping awakens you if you're asleep."
+  ],
+  "area_of_effect": {
+    "type": "cube",
+    "size": 20
+  },
+  "classes": [
+    {
+      "index": "artificer",
+      "name": "Artificer",
+      "url": "/api/2024/classes/artificer"
+    },
+    {
+      "index": "ranger",
+      "name": "Ranger",
+      "url": "/api/2024/classes/ranger"
+    },
+    {
+      "index": "wizard",
+      "name": "Wizard",
+      "url": "/api/2024/classes/wizard"
+    }
+  ],
+  "url": "/api/2024/spells/alarm"
+}

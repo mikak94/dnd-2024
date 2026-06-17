@@ -1,0 +1,15 @@
+{
+  "index": "component-pouch",
+  "name": "Component Pouch",
+  "equipment_categories": [
+    {
+      "index": "adventuring-gear",
+      "name": "Adventuring Gear",
+      "url": "/api/2024/equipment-categories/adventuring-gear"
+    }
+  ],
+  "cost": { "quantity": 25, "unit": "gp" },
+  "weight": 2,
+  "description": "A Component Pouch is watertight and filled with compartments that hold all the free Material components of your spells.",
+  "url": "/api/2024/equipment/component-pouch"
+}

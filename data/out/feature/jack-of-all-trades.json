@@ -1,0 +1,16 @@
+{
+  "index": "jack-of-all-trades",
+  "name": "Jack of all Trades",
+  "level": 2,
+  "class": {
+    "index": "bard",
+    "name": "Bard",
+    "url": "/api/2024/classes/bard"
+  },
+  "desc": [
+    "You can add half your Proficiency Bonus (round down) to any ability check you make that uses a skill proficiency you lack and that doesn't otherwise use your Proficiency Bonus.",
+    "For example, if you make a Strength (Athletics) check and lack Athletics proficiency, you can add half your Proficiency Bonus to the check."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/jack-of-all-trades"
+}

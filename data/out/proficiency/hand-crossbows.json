@@ -1,0 +1,11 @@
+{
+  "index": "hand-crossbows",
+  "name": "Hand crossbows",
+  "type": "Weapons",
+  "reference": {
+    "index": "hand-crossbow",
+    "name": "Hand Crossbow",
+    "url": "/api/2024/equipment/hand-crossbow"
+  },
+  "url": "/api/2024/proficiencies/hand-crossbows"
+}

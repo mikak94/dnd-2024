@@ -1,0 +1,21 @@
+{
+  "index": "college-of-dance-14-leading-evasion",
+  "name": "Leading Evasion",
+  "level": 14,
+  "class": {
+    "index": "bard",
+    "name": "Bard",
+    "url": "/api/2024/classes/bard"
+  },
+  "subclass": {
+    "index": "college-of-dance",
+    "name": "College of Dance",
+    "url": "/api/2024/subclasses/college-of-dance"
+  },
+  "desc": [
+    "When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw and only half damage if you fail. If any creatures within 5 feet of you are making the same Dexterity saving throw, you can share this benefit with them for that save.",
+    "You can't use this feature if you have the Incapacitated condition."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/college-of-dance-14-leading-evasion"
+}

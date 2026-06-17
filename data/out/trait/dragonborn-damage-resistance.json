@@ -1,0 +1,16 @@
+{
+  "index": "dragonborn-damage-resistance",
+  "name": "Damage Resistance",
+  "species": [
+    {
+      "index": "dragonborn",
+      "name": "Dragonborn",
+      "url": "/api/2024/species/dragonborn"
+    }
+  ],
+  "subspecies": [],
+  "desc": [
+    "You have Resistance to the damage type determined by your Draconic Ancestry trait."
+  ],
+  "url": "/api/2024/traits/dragonborn-damage-resistance"
+}

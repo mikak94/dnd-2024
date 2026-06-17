@@ -1,0 +1,49 @@
+{
+  "index": "medium-armor-master",
+  "name": "Medium Armor Master",
+  "type": "general",
+  "prerequisites": [
+    {
+      "type": "level",
+      "level": 4
+    },
+    {
+      "type": "other",
+      "desc": "Medium Armor Training"
+    }
+  ],
+  "desc": [
+    "You gain the following benefits.",
+    "Ability Score Increase. Increase your Strength or Dexterity score by 1, to a maximum of 20.",
+    "Dexterous Wearer. While you're wearing Medium armor, you can add 3, rather than 2, to your AC if you have a Dexterity score of 16 or higher."
+  ],
+  "choices": [
+    {
+      "desc": "Increase your Strength or Dexterity score by 1, to a maximum of 20.",
+      "choose": 1,
+      "type": "abilities",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "str",
+              "name": "STR",
+              "url": "/api/2024/ability-scores/str"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "dex",
+              "name": "DEX",
+              "url": "/api/2024/ability-scores/dex"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "url": "/api/2024/feats/medium-armor-master"
+}

@@ -1,0 +1,37 @@
+{
+  "index": "wizard-1",
+  "level": 1,
+  "ability_score_bonuses": 0,
+  "prof_bonus": 2,
+  "features": [
+    {
+      "index": "spellcasting-wizard",
+      "name": "Spellcasting",
+      "url": "/api/2024/features/spellcasting-wizard"
+    },
+    {
+      "index": "ritual-adept",
+      "name": "Ritual Adept",
+      "url": "/api/2024/features/ritual-adept"
+    },
+    {
+      "index": "arcane-recovery",
+      "name": "Arcane Recovery",
+      "url": "/api/2024/features/arcane-recovery"
+    }
+  ],
+  "class": {
+    "index": "wizard",
+    "name": "Wizard",
+    "url": "/api/2024/classes/wizard"
+  },
+  "class_specific": {
+    "arcane_recovery_levels": 1
+  },
+  "spellcasting": {
+    "cantrips_known": 3,
+    "spells_known": 4,
+    "spell_slots_level_1": 2
+  },
+  "url": "/api/2024/classes/wizard/levels/1"
+}

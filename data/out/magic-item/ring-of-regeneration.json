@@ -1,0 +1,15 @@
+{
+  "index": "ring-of-regeneration",
+  "name": "Ring of Regeneration",
+  "equipment_category": {
+    "index": "rings",
+    "name": "Rings",
+    "url": "/api/2024/equipment-categories/rings"
+  },
+  "rarity": { "name": "Very Rare" },
+  "attunement": true,
+  "desc": "While wearing this ring, you regain 1d6 Hit Points every 10 minutes if you have at least 1 Hit Point. If you lose a body part, the ring causes the missing part to regrow and return to full functionality after 1d6 + 1 days if you have at least 1 Hit Point the whole time.",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/ring-of-regeneration"
+}

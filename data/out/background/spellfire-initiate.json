@@ -1,0 +1,110 @@
+{
+  "index": "spellfire-initiate",
+  "name": "Spellfire Initiate",
+  "starting_proficiencies": [
+    {
+      "index": "skill-arcana",
+      "name": "Skill: Arcana",
+      "url": "/api/2024/proficiencies/skill-arcana"
+    },
+    {
+      "index": "skill-perception",
+      "name": "Skill: Perception",
+      "url": "/api/2024/proficiencies/skill-perception"
+    },
+    {
+      "index": "gaming-set",
+      "name": "Gaming Set",
+      "url": "/api/2024/proficiencies/gaming-set"
+    }
+  ],
+  "ability_scores": [
+    {
+      "index": "con",
+      "name": "CON",
+      "url": "/api/2024/ability-scores/con"
+    },
+    {
+      "index": "int",
+      "name": "INT",
+      "url": "/api/2024/ability-scores/int"
+    },
+    {
+      "index": "cha",
+      "name": "CHA",
+      "url": "/api/2024/ability-scores/cha"
+    }
+  ],
+  "feat": {
+    "index": "spellfire-spark",
+    "name": "Spellfire Spark",
+    "url": "/api/2024/feats/spellfire-spark"
+  },
+  "starting_equipment_options": [
+    {
+      "desc": "Choose A or B: (A) Gaming Set (same as above), Arcane Focus (Crystal or Wand), 2 Pouches, Traveler's Clothes, 36 GP; or (B) 50 GP",
+      "choose": 1,
+      "type": "equipment",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "multiple",
+            "items": [
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "gaming-set",
+                  "name": "Gaming Set",
+                  "url": "/api/2024/equipment/gaming-set"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "arcane-focus",
+                  "name": "Arcane Focus",
+                  "url": "/api/2024/equipment/arcane-focus"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 2,
+                "of": {
+                  "index": "pouch",
+                  "name": "Pouch",
+                  "url": "/api/2024/equipment/pouch"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "travelers-clothes",
+                  "name": "Traveler's Clothes",
+                  "url": "/api/2024/equipment/travelers-clothes"
+                }
+              },
+              {
+                "option_type": "money",
+                "count": 36,
+                "unit": "GP"
+              }
+            ]
+          },
+          {
+            "option_type": "money",
+            "count": 50,
+            "unit": "GP"
+          }
+        ]
+      }
+    }
+  ],
+  "desc": [
+    "You bear the gift of spellfire: a rare form of magic that channels the raw power of the Weave. Wielding spellfire takes a heavy toll on the body. You've trained both mind and body to efficiently wield this sacred power."
+  ],
+  "url": "/api/2024/backgrounds/spellfire-initiate"
+}

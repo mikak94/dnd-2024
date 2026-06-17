@@ -1,0 +1,20 @@
+{
+  "index": "hunter-15-superior-hunters-defense",
+  "name": "Superior Hunter's Defense",
+  "level": 15,
+  "class": {
+    "index": "ranger",
+    "name": "Ranger",
+    "url": "/api/2024/classes/ranger"
+  },
+  "subclass": {
+    "index": "hunter",
+    "name": "Hunter",
+    "url": "/api/2024/subclasses/hunter"
+  },
+  "desc": [
+    "When you take damage, you can take a Reaction to give yourself Resistance to that damage and any other damage of the same type until the end of the current turn."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/hunter-15-superior-hunters-defense"
+}

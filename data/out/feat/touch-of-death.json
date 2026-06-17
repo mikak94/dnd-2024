@@ -1,0 +1,12 @@
+{
+  "index": "touch-of-death",
+  "name": "Touch of Death",
+  "type": "general",
+  "prerequisites": [{ "type": "other", "desc": "Ravenloft Campaign" }],
+  "desc": [
+    "Deathly power resides within you, bursting out at the slightest provocation. You gain the following features.",
+    "Death Touch. You learn the Chill Touch spell and can cast it without spell components. Necrotic damage you deal with this spell ignores Resistance. Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell (choose when you select this feat).",
+    "Pull of the Grave. You have Disadvantage on Death Saving Throws."
+  ],
+  "url": "/api/2024/feats/touch-of-death"
+}

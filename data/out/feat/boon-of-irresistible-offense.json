@@ -1,0 +1,46 @@
+{
+  "index": "boon-of-irresistible-offense",
+  "name": "Boon of Irresistible Offense",
+  "type": "epic-boon",
+  "prerequisites": [
+    {
+      "type": "level",
+      "level": 19
+    }
+  ],
+  "desc": [
+    "You gain the following benefits.",
+    "Ability Score Increase. Increase your Strength or Dexterity score by 1, to a maximum of 30.",
+    "Overcome Defenses. The Bludgeoning, Piercing, and Slashing damage you deal always ignores Resistance.",
+    "Overwhelming Strike. When you roll a 20 on the d20 for an attack roll, you can deal extra damage to the target equal to the ability score increased by this feat. The extra damage’s type is the same as the attack’s type."
+  ],
+  "choices": [
+    {
+      "desc": "Increase your Strength or Dexterity score by 1, to a maximum of 30.",
+      "choose": 1,
+      "type": "abilities",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "str",
+              "name": "STR",
+              "url": "/api/2024/ability-scores/str"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "dex",
+              "name": "DEX",
+              "url": "/api/2024/ability-scores/dex"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "url": "/api/2024/feats/boon-of-irresistible-offense"
+}

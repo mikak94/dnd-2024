@@ -1,0 +1,15 @@
+{
+  "index": "wizard-subclass",
+  "name": "Wizard Subclass",
+  "level": 3,
+  "class": {
+    "index": "wizard",
+    "name": "Wizard",
+    "url": "/api/2024/classes/wizard"
+  },
+  "desc": [
+    "You gain a Wizard subclass of your choice. The Abjurer, Diviner, Evoker, and Illusionist subclasses are detailed after this class's description. A subclass is a specialization that grants you features at certain Wizard levels. For the rest of your career, you gain each of your subclass's features that are of your Wizard level or lower."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/wizard-subclass"
+}

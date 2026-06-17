@@ -1,0 +1,79 @@
+{
+  "index": "boon-of-blazing-dawn",
+  "name": "Boon of Blazing Dawn",
+  "type": "epic-boon",
+  "prerequisites": [
+    {
+      "type": "level",
+      "level": 19
+    }
+  ],
+  "desc": [
+    "You gain the following benefits.",
+    "Ability Score Increase. Increase one ability score of your choice by 1, to a maximum of 30.",
+    "Beloved of the Sun. You have Immunity to Radiant damage.",
+    "Blazing Strike. When you hit a creature with a weapon attack, the damage can be Radiant or the weapon’s normal damage type (your choice).",
+    "Burst of Sunlight. Once per turn when you hit a creature with an attack that deals Radiant damage, you can emit Bright Light in a 30-foot radius from yourself and Dim Light for an additional 30 feet until the start of your next turn. This light is sunlight."
+  ],
+  "choices": [
+    {
+      "desc": "Increase one ability score of your choice by 1, to a maximum of 30.",
+      "choose": 1,
+      "type": "abilities",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "str",
+              "name": "STR",
+              "url": "/api/2024/ability-scores/str"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "dex",
+              "name": "DEX",
+              "url": "/api/2024/ability-scores/dex"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "con",
+              "name": "CON",
+              "url": "/api/2024/ability-scores/con"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "int",
+              "name": "INT",
+              "url": "/api/2024/ability-scores/int"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "wis",
+              "name": "WIS",
+              "url": "/api/2024/ability-scores/wis"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "cha",
+              "name": "CHA",
+              "url": "/api/2024/ability-scores/cha"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "url": "/api/2024/feats/boon-of-blazing-dawn"
+}

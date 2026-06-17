@@ -1,0 +1,23 @@
+{
+  "index": "circle-of-the-moon-3-circle-forms",
+  "name": "Circle Forms",
+  "level": 3,
+  "class": {
+    "index": "druid",
+    "name": "Druid",
+    "url": "/api/2024/classes/druid"
+  },
+  "subclass": {
+    "index": "circle-of-the-moon",
+    "name": "Circle of the Moon",
+    "url": "/api/2024/subclasses/circle-of-the-moon"
+  },
+  "desc": [
+    "You can channel lunar magic when you assume a Wild Shape form, granting you the benefits below.",
+    "**Challenge Rating.** The maximum Challenge Rating for the form equals your Druid level divided by 3 (round down).",
+    "**Armor Class.** Until you leave the form, your AC equals 13 plus your Wisdom modifier if that total is higher than the Beast's AC.",
+    "**Temporary Hit Points.** You gain a number of Temporary Hit Points equal to three times your Druid level."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/circle-of-the-moon-3-circle-forms"
+}

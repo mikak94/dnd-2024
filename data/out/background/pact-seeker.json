@@ -1,0 +1,128 @@
+{
+  "index": "pact-seeker",
+  "name": "Pact Seeker",
+  "starting_proficiencies": [
+    {
+      "index": "skill-arcana",
+      "name": "Skill: Arcana",
+      "url": "/api/2024/proficiencies/skill-arcana"
+    },
+    {
+      "index": "skill-persuasion",
+      "name": "Skill: Persuasion",
+      "url": "/api/2024/proficiencies/skill-persuasion"
+    },
+    {
+      "index": "tool-calligraphers-supplies",
+      "name": "Tool: Calligrapher's Supplies",
+      "url": "/api/2024/proficiencies/tool-calligraphers-supplies"
+    }
+  ],
+  "ability_scores": [
+    {
+      "index": "con",
+      "name": "CON",
+      "url": "/api/2024/ability-scores/con"
+    },
+    {
+      "index": "int",
+      "name": "INT",
+      "url": "/api/2024/ability-scores/int"
+    },
+    {
+      "index": "cha",
+      "name": "CHA",
+      "url": "/api/2024/ability-scores/cha"
+    }
+  ],
+  "feat": {
+    "index": "fey-pact",
+    "name": "Fey Pact",
+    "url": "/api/2024/feats/fey-pact"
+  },
+  "starting_equipment_options": [
+    {
+      "desc": "Choose A or B: (A) Book, Calligrapher's Supplies, Ink, Ink Pen, Parchment (10 sheets), Traveler's Clothes, 2 GP; or (B) 50 GP",
+      "choose": 1,
+      "type": "equipment",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "multiple",
+            "items": [
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "book",
+                  "name": "Book",
+                  "url": "/api/2024/equipment/book"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "calligraphers-supplies",
+                  "name": "Calligrapher's Supplies",
+                  "url": "/api/2024/equipment/calligraphers-supplies"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "ink",
+                  "name": "Ink",
+                  "url": "/api/2024/equipment/ink"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "ink-pen",
+                  "name": "Ink Pen",
+                  "url": "/api/2024/equipment/ink-pen"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 10,
+                "of": {
+                  "index": "parchment",
+                  "name": "Parchment",
+                  "url": "/api/2024/equipment/parchment"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "travelers-clothes",
+                  "name": "Traveler's Clothes",
+                  "url": "/api/2024/equipment/travelers-clothes"
+                }
+              },
+              {
+                "option_type": "money",
+                "count": 2,
+                "unit": "GP"
+              }
+            ]
+          },
+          {
+            "option_type": "money",
+            "count": 50,
+            "unit": "GP"
+          }
+        ]
+      }
+    }
+  ],
+  "desc": [
+    "You had a purpose in mind. Perhaps you were seeking out knowledge or power. Or maybe you were in search of hidden secrets. One way or another, your journey lead you to seek out an extraplanar entity. Once you made contact, a deal was struck, and your life changed."
+  ],
+  "url": "/api/2024/backgrounds/pact-seeker"
+}

@@ -1,0 +1,15 @@
+{
+  "index": "dread-helm",
+  "name": "Dread Helm",
+  "equipment_category": {
+    "index": "wondrous-items",
+    "name": "Wondrous Items",
+    "url": "/api/2024/equipment-categories/wondrous-items"
+  },
+  "rarity": { "name": "Common" },
+  "attunement": false,
+  "desc": "While you're wearing this fearsome steel helm, your eyes glow red and the rest of your face is hidden in shadow.",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/dread-helm"
+}

@@ -1,0 +1,20 @@
+{
+  "index": "hunter-3-hunters-lore",
+  "name": "Hunter's Lore",
+  "level": 3,
+  "class": {
+    "index": "ranger",
+    "name": "Ranger",
+    "url": "/api/2024/classes/ranger"
+  },
+  "subclass": {
+    "index": "hunter",
+    "name": "Hunter",
+    "url": "/api/2024/subclasses/hunter"
+  },
+  "desc": [
+    "You can call upon the forces of nature to reveal certain strengths and weaknesses of your prey. While a creature is marked by your Hunter's Mark, you know whether the creature has any Immunities, Resistances, or Vulnerabilities, and if the creature has any, you know what they are."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/hunter-3-hunters-lore"
+}

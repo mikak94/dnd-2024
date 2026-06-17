@@ -1,0 +1,21 @@
+{
+  "index": "winter-walker-7-fortifying-soul",
+  "name": "Fortifying Soul",
+  "level": 7,
+  "class": {
+    "index": "ranger",
+    "name": "Ranger",
+    "url": "/api/2024/classes/ranger"
+  },
+  "subclass": {
+    "index": "winter-walker",
+    "name": "Winter Walker",
+    "url": "/api/2024/subclasses/winter-walker"
+  },
+  "desc": [
+    "Your experience surviving harrowing environments allows you to bolster your allies in addition to yourself. As a Magic action, choose a number of creatures you can see equal to your Wisdom modifier (minimum of one). Each chosen creature regains Hit Points equal to 1d10 plus your Ranger level and has Advantage on saving throws to avoid or end the Frightened condition for 1 hour.",
+    "Once you use this feature, you can't use it again until you finish a Long Rest."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/winter-walker-7-fortifying-soul"
+}

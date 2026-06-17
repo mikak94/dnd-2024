@@ -1,0 +1,15 @@
+{
+  "index": "cube-of-force",
+  "name": "Cube of Force",
+  "equipment_category": {
+    "index": "wondrous-items",
+    "name": "Wondrous Items",
+    "url": "/api/2024/equipment-categories/wondrous-items"
+  },
+  "rarity": { "name": "Rare" },
+  "attunement": true,
+  "desc": "This cube is about an inch across. Each face has a distinct marking on it. You can press one of those faces, expend the number of charges required for it, and thereby cast the spell associated with it (save DC 17), as shown in the Cube of Force Faces table.\n\nThe cube starts with 10 charges, and it regains 1d6 expended charges daily at dawn.\n\n#### Cube of Force Faces\n\n| Spell | Charge Cost |\n| --- | --- |\n| Mage Armor | 1 |\n| Shield | 1 |\n| Leomund's Tiny Hut | 3 |\n| Mordenkainen's Private Sanctum | 4 |\n| Otiluke's Resilient Sphere | 4 |\n| Wall of Force | 5 |",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/cube-of-force"
+}

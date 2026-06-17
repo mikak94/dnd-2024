@@ -1,0 +1,27 @@
+{
+  "index": "orc",
+  "name": "Orc",
+  "size": "Medium",
+  "size_description": "about 6-7 feet tall",
+  "speed": 30,
+  "type": "Humanoid",
+  "traits": [
+    {
+      "index": "orc-adrenaline-rush",
+      "name": "Adrenaline Rush",
+      "url": "/api/2024/traits/orc-adrenaline-rush"
+    },
+    {
+      "index": "orc-darkvision",
+      "name": "Darkvision",
+      "url": "/api/2024/traits/orc-darkvision"
+    },
+    {
+      "index": "orc-relentless-endurance",
+      "name": "Relentless Endurance",
+      "url": "/api/2024/traits/orc-relentless-endurance"
+    }
+  ],
+  "subspecies": [],
+  "url": "/api/2024/species/orc"
+}

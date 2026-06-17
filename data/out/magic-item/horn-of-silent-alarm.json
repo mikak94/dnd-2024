@@ -1,0 +1,15 @@
+{
+  "index": "horn-of-silent-alarm",
+  "name": "Horn of Silent Alarm",
+  "equipment_category": {
+    "index": "wondrous-items",
+    "name": "Wondrous Items",
+    "url": "/api/2024/equipment-categories/wondrous-items"
+  },
+  "rarity": { "name": "Common" },
+  "attunement": false,
+  "desc": "This horn has 4 charges and regains 1d4 expended charges daily at dawn. As a Magic action, you can blow the horn while expending 1 charge. One creature of your choice hears the horn's blare, provided that creature is within 600 feet of the horn. No other creature hears the horn.",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/horn-of-silent-alarm"
+}

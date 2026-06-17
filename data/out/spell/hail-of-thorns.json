@@ -1,0 +1,56 @@
+{
+  "index": "hail-of-thorns",
+  "name": "Hail of Thorns",
+  "level": 1,
+  "school": {
+    "index": "conjuration",
+    "name": "Conjuration",
+    "url": "/api/2024/magic-schools/conjuration"
+  },
+  "casting_time": "Bonus Action, which you take immediately after hitting a creature with a Ranged weapon",
+  "range": "Self",
+  "components": ["V"],
+  "ritual": false,
+  "concentration": false,
+  "duration": "Instantaneous",
+  "desc": [
+    "As you hit the creature, this spell creates a rain of thorns that sprouts from your Ranged weapon or ammunition. The target of the attack and each creature within 5 feet of it make a Dexterity saving throw, taking 1d10 Piercing damage on a failed save or half as much damage on a successful one."
+  ],
+  "higher_level": [
+    "Using a Higher-Level Spell Slot. The damage increases by 1d10 for each spell slot level above 1."
+  ],
+  "damage": {
+    "damage_type": {
+      "index": "piercing",
+      "name": "Piercing",
+      "url": "/api/2024/damage-types/piercing"
+    },
+    "damage_at_slot_level": {
+      "1": "1d10",
+      "2": "2d10",
+      "3": "3d10",
+      "4": "4d10",
+      "5": "5d10",
+      "6": "6d10",
+      "7": "7d10",
+      "8": "8d10",
+      "9": "9d10"
+    }
+  },
+  "dc": {
+    "dc_type": {
+      "index": "dex",
+      "name": "DEX",
+      "url": "/api/2024/ability-scores/dex"
+    },
+    "dc_success": "half"
+  },
+  "classes": [
+    {
+      "index": "ranger",
+      "name": "Ranger",
+      "url": "/api/2024/classes/ranger"
+    }
+  ],
+  "url": "/api/2024/spells/hail-of-thorns"
+}

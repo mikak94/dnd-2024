@@ -1,0 +1,18 @@
+{
+  "index": "battle-master-10-improved-combat-superiority",
+  "name": "Improved Combat Superiority",
+  "level": 10,
+  "class": {
+    "index": "fighter",
+    "name": "Fighter",
+    "url": "/api/2024/classes/fighter"
+  },
+  "subclass": {
+    "index": "battle-master",
+    "name": "Battle Master",
+    "url": "/api/2024/subclasses/battle-master"
+  },
+  "desc": ["Your Superiority Die becomes a d10."],
+  "prerequisites": [],
+  "url": "/api/2024/features/battle-master-10-improved-combat-superiority"
+}

@@ -1,0 +1,20 @@
+{
+  "index": "warrior-of-shadow-11-improved-shadow-step",
+  "name": "Improved Shadow Step",
+  "level": 11,
+  "class": {
+    "index": "monk",
+    "name": "Monk",
+    "url": "/api/2024/classes/monk"
+  },
+  "subclass": {
+    "index": "warrior-of-shadow",
+    "name": "Warrior of Shadow",
+    "url": "/api/2024/subclasses/warrior-of-shadow"
+  },
+  "desc": [
+    "You can draw on your Shadowfell connection to empower your teleportation. When you use your Shadow Step, you can expend 1 Focus Point to remove the requirement that you must start and end in Dim Light or Darkness for that use of the feature. As part of this Bonus Action, you can make an Unarmed Strike immediately after you teleport."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/warrior-of-shadow-11-improved-shadow-step"
+}

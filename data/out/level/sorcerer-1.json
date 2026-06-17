@@ -1,0 +1,29 @@
+{
+  "index": "sorcerer-1",
+  "level": 1,
+  "ability_score_bonuses": 0,
+  "prof_bonus": 2,
+  "features": [
+    {
+      "index": "spellcasting-sorcerer",
+      "name": "Spellcasting",
+      "url": "/api/2024/features/spellcasting-sorcerer"
+    },
+    {
+      "index": "innate-sorcery",
+      "name": "Innate Sorcery",
+      "url": "/api/2024/features/innate-sorcery"
+    }
+  ],
+  "class": {
+    "index": "sorcerer",
+    "name": "Sorcerer",
+    "url": "/api/2024/classes/sorcerer"
+  },
+  "spellcasting": {
+    "cantrips_known": 4,
+    "spells_known": 2,
+    "spell_slots_level_1": 2
+  },
+  "url": "/api/2024/classes/sorcerer/levels/1"
+}

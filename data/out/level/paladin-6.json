@@ -1,0 +1,24 @@
+{
+  "index": "paladin-6",
+  "level": 6,
+  "ability_score_bonuses": 1,
+  "prof_bonus": 3,
+  "features": [
+    {
+      "index": "aura-of-protection",
+      "name": "Aura of Protection",
+      "url": "/api/2024/features/aura-of-protection"
+    }
+  ],
+  "class": {
+    "index": "paladin",
+    "name": "Paladin",
+    "url": "/api/2024/classes/paladin"
+  },
+  "spellcasting": {
+    "spells_known": 6,
+    "spell_slots_level_1": 4,
+    "spell_slots_level_2": 2
+  },
+  "url": "/api/2024/classes/paladin/levels/6"
+}

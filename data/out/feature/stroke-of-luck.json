@@ -1,0 +1,16 @@
+{
+  "index": "stroke-of-luck",
+  "name": "Stroke of Luck",
+  "level": 20,
+  "class": {
+    "index": "rogue",
+    "name": "Rogue",
+    "url": "/api/2024/classes/rogue"
+  },
+  "desc": [
+    "You have a marvelous knack for succeeding when you need to. If you fail a d20 Test, you can turn the roll into a 20.",
+    "Once you use this feature, you can't use it again until you finish a Short or Long Rest."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/stroke-of-luck"
+}

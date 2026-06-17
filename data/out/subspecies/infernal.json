@@ -1,0 +1,21 @@
+{
+  "index": "infernal",
+  "name": "Infernal",
+  "species": {
+    "index": "tiefling",
+    "name": "Tiefling",
+    "url": "/api/2024/species/tiefling"
+  },
+  "desc": [
+    "The infernal legacy connects tieflings not only to Gehenna but also the Nine Hells and the raging battlefields of Acheron. Horns, spines, tails, golden eyes, and a faint odor of sulfur or smoke are common physical features of such tieflings, most of whom trace their ancestry to devils.",
+    "Level 1: You have Resistance to Fire damage. You also know the Fire Bolt cantrip. Level 3: Hellish Rebuke. Level 5: Darkness. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the legacy)."
+  ],
+  "traits": [
+    {
+      "index": "infernal-fiendish-legacy",
+      "name": "Fiendish Legacy",
+      "url": "/api/2024/traits/infernal-fiendish-legacy"
+    }
+  ],
+  "url": "/api/2024/subspecies/infernal"
+}

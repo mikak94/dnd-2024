@@ -1,0 +1,19 @@
+{
+  "index": "rowboat",
+  "name": "Rowboat",
+  "equipment_categories": [
+    {
+      "index": "waterborne-vehicles",
+      "name": "Waterborne Vehicles",
+      "url": "/api/2024/equipment-categories/waterborne-vehicles"
+    },
+    {
+      "index": "mounts-and-vehicles",
+      "name": "Mounts and Vehicles",
+      "url": "/api/2024/equipment-categories/mounts-and-vehicles"
+    }
+  ],
+  "url": "/api/2024/equipment/rowboat",
+  "cost": { "quantity": 50, "unit": "gp" },
+  "description": "Speed 1½ mph. Crew 1. Passengers 3. Cargo —. AC 11. HP 50. Damage Threshold —."
+}

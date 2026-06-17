@@ -1,0 +1,28 @@
+{
+  "index": "cleric-10",
+  "level": 10,
+  "ability_score_bonuses": 2,
+  "prof_bonus": 4,
+  "features": [
+    {
+      "index": "divine-intervention",
+      "name": "Divine Intervention",
+      "url": "/api/2024/features/divine-intervention"
+    }
+  ],
+  "class": {
+    "index": "cleric",
+    "name": "Cleric",
+    "url": "/api/2024/classes/cleric"
+  },
+  "spellcasting": {
+    "cantrips_known": 5,
+    "spells_known": 15,
+    "spell_slots_level_1": 4,
+    "spell_slots_level_2": 3,
+    "spell_slots_level_3": 3,
+    "spell_slots_level_4": 3,
+    "spell_slots_level_5": 2
+  },
+  "url": "/api/2024/classes/cleric/levels/10"
+}

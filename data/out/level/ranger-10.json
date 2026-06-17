@@ -1,0 +1,25 @@
+{
+  "index": "ranger-10",
+  "level": 10,
+  "ability_score_bonuses": 2,
+  "prof_bonus": 4,
+  "features": [
+    {
+      "index": "tireless",
+      "name": "Tireless",
+      "url": "/api/2024/features/tireless"
+    }
+  ],
+  "class": {
+    "index": "ranger",
+    "name": "Ranger",
+    "url": "/api/2024/classes/ranger"
+  },
+  "spellcasting": {
+    "spells_known": 9,
+    "spell_slots_level_1": 4,
+    "spell_slots_level_2": 3,
+    "spell_slots_level_3": 2
+  },
+  "url": "/api/2024/classes/ranger/levels/10"
+}

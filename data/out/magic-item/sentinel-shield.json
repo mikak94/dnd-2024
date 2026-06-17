@@ -1,0 +1,15 @@
+{
+  "index": "sentinel-shield",
+  "name": "Sentinel Shield",
+  "equipment_category": {
+    "index": "armor",
+    "name": "Armor",
+    "url": "/api/2024/equipment-categories/armor"
+  },
+  "rarity": { "name": "Uncommon" },
+  "attunement": false,
+  "desc": "While holding this Shield, you have Advantage on Initiative rolls and Wisdom (Perception) checks. The Shield is emblazoned with a symbol of an eye.",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/sentinel-shield"
+}

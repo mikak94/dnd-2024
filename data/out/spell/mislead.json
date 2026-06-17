@@ -1,0 +1,39 @@
+{
+  "index": "mislead",
+  "name": "Mislead",
+  "level": 5,
+  "school": {
+    "index": "illusion",
+    "name": "Illusion",
+    "url": "/api/2024/magic-schools/illusion"
+  },
+  "casting_time": "Action",
+  "range": "Self",
+  "components": ["S"],
+  "ritual": false,
+  "concentration": true,
+  "duration": "Concentration, up to 1 hour",
+  "desc": [
+    "You gain the Invisible condition at the same time that an illusory double of you appears where you are standing. The double lasts for the duration, but the invisibility ends immediately after you make an attack roll, deal damage, or cast a spell.",
+    "As a Magic action, you can move the illusory double up to twice your Speed and make it gesture, speak, and behave in whatever way you choose. It is intangible and invulnerable.",
+    "You can see through its eyes and hear through its ears as if you were located where it is."
+  ],
+  "classes": [
+    {
+      "index": "bard",
+      "name": "Bard",
+      "url": "/api/2024/classes/bard"
+    },
+    {
+      "index": "warlock",
+      "name": "Warlock",
+      "url": "/api/2024/classes/warlock"
+    },
+    {
+      "index": "wizard",
+      "name": "Wizard",
+      "url": "/api/2024/classes/wizard"
+    }
+  ],
+  "url": "/api/2024/spells/mislead"
+}

@@ -1,0 +1,24 @@
+{
+  "index": "shawm",
+  "name": "Shawm",
+  "equipment_categories": [
+    {
+      "index": "musical-instruments",
+      "name": "Musical Instruments",
+      "url": "/api/2024/equipment-categories/musical-instruments"
+    },
+    {
+      "index": "tools",
+      "name": "Tools",
+      "url": "/api/2024/equipment-categories/tools"
+    }
+  ],
+  "url": "/api/2024/equipment/shawm",
+  "cost": { "quantity": 2, "unit": "gp" },
+  "weight": 1,
+  "ability": {
+    "index": "cha",
+    "name": "CHA",
+    "url": "/api/2024/ability-scores/cha"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "index": "hollow-warden-15-ancient-might",
+  "name": "Ancient Might",
+  "level": 15,
+  "class": {
+    "index": "ranger",
+    "name": "Ranger",
+    "url": "/api/2024/classes/ranger"
+  },
+  "subclass": {
+    "index": "hollow-warden",
+    "name": "Hollow Warden",
+    "url": "/api/2024/subclasses/hollow-warden"
+  },
+  "desc": [
+    "You become wholly suffused with the wild's ancient and terrible power, granting you the following benefits.",
+    "**Ominous Strikes.** When you hit a creature that has the Frightened condition with an attack roll, that attack deals extra damage equal to your Wisdom modifier.",
+    "**Persistent Wrath.** If you're reduced to 0 Hit Points but not killed outright while transformed using Wrath of the Wild, you can surge with wild power. Your Hit Points instead change to a number equal to twice your Ranger level. Once you use this feature, you can't do so again until you finish a Long Rest. You can also expend a level 4+ spell slot (no action required) to restore your use of this feature.",
+    "**Timeless.** You have Immunity to the Exhaustion condition."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/hollow-warden-15-ancient-might"
+}

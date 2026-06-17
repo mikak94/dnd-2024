@@ -1,0 +1,14 @@
+{
+  "index": "winter-camouflage",
+  "name": "Winter Camouflage",
+  "equipment_categories": [
+    {
+      "index": "adventuring-gear",
+      "name": "Adventuring Gear",
+      "url": "/api/2024/equipment-categories/adventuring-gear"
+    }
+  ],
+  "cost": { "quantity": 50, "unit": "gp" },
+  "description": "While you wear Winter Camouflage in an appropriate environment, you have Advantage on Dexterity (Stealth) checks.",
+  "url": "/api/2024/equipment/winter-camouflage"
+}

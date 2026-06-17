@@ -1,0 +1,20 @@
+{
+  "index": "great-old-one-patron-10-thought-shield",
+  "name": "Thought Shield",
+  "level": 10,
+  "class": {
+    "index": "warlock",
+    "name": "Warlock",
+    "url": "/api/2024/classes/warlock"
+  },
+  "subclass": {
+    "index": "great-old-one-patron",
+    "name": "Great Old One Patron",
+    "url": "/api/2024/subclasses/great-old-one-patron"
+  },
+  "desc": [
+    "Your thoughts can't be read by telepathy or other means unless you allow it. You also have Resistance to Psychic damage, and whenever a creature deals Psychic damage to you, that creature takes the same amount of damage that you take."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/great-old-one-patron-10-thought-shield"
+}

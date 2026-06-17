@@ -1,0 +1,15 @@
+{
+  "index": "lamp",
+  "name": "Lamp",
+  "equipment_categories": [
+    {
+      "index": "adventuring-gear",
+      "name": "Adventuring Gear",
+      "url": "/api/2024/equipment-categories/adventuring-gear"
+    }
+  ],
+  "cost": { "quantity": 5, "unit": "sp" },
+  "weight": 1,
+  "description": "A Lamp burns Oil as fuel to cast Bright Light in a 15-foot radius and Dim Light for an additional 30 feet.",
+  "url": "/api/2024/equipment/lamp"
+}

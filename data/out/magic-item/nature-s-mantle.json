@@ -1,0 +1,15 @@
+{
+  "index": "nature-s-mantle",
+  "name": "Nature's Mantle",
+  "equipment_category": {
+    "index": "wondrous-items",
+    "name": "Wondrous Items",
+    "url": "/api/2024/equipment-categories/wondrous-items"
+  },
+  "rarity": { "name": "Uncommon" },
+  "attunement": true,
+  "desc": "This cloak shifts color and texture to blend with the terrain surrounding you. While wearing the cloak, you can use it as a Spellcasting Focus for your Druid and Ranger spells.\n\nWhile you are in an area that is Lightly Obscured, you can Hide as a Bonus Action even if you are being directly observed.",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/nature-s-mantle"
+}

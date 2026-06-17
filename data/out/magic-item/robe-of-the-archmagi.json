@@ -1,0 +1,15 @@
+{
+  "index": "robe-of-the-archmagi",
+  "name": "Robe of the Archmagi",
+  "equipment_category": {
+    "index": "wondrous-items",
+    "name": "Wondrous Items",
+    "url": "/api/2024/equipment-categories/wondrous-items"
+  },
+  "rarity": { "name": "Legendary" },
+  "attunement": true,
+  "desc": "This elegant garment is made from exquisite cloth and adorned with runes.\n\nYou gain these benefits while wearing the robe.\n\nArmor. If you aren't wearing armor, your base Armor Class is 15 plus your Dexterity modifier.\n\nMagic Resistance. You have Advantage on saving throws against spells and other magical effects.\n\nWar Mage. Your spell save DC and spell attack bonus each increase by 2.",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/robe-of-the-archmagi"
+}

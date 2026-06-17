@@ -1,0 +1,33 @@
+{
+  "index": "barkskin",
+  "name": "Barkskin",
+  "level": 2,
+  "school": {
+    "index": "transmutation",
+    "name": "Transmutation",
+    "url": "/api/2024/magic-schools/transmutation"
+  },
+  "casting_time": "Bonus Action",
+  "range": "Touch",
+  "components": ["V", "S", "M"],
+  "material": "a handful of bark",
+  "ritual": false,
+  "concentration": false,
+  "duration": "1 hour",
+  "desc": [
+    "You touch a willing creature. Until the spell ends, the target's skin assumes a bark-like appearance, and the target has an Armor Class of 17 if its AC is lower than that."
+  ],
+  "classes": [
+    {
+      "index": "druid",
+      "name": "Druid",
+      "url": "/api/2024/classes/druid"
+    },
+    {
+      "index": "ranger",
+      "name": "Ranger",
+      "url": "/api/2024/classes/ranger"
+    }
+  ],
+  "url": "/api/2024/spells/barkskin"
+}

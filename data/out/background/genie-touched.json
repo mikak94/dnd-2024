@@ -1,0 +1,128 @@
+{
+  "index": "genie-touched",
+  "name": "Genie Touched",
+  "starting_proficiencies": [
+    {
+      "index": "skill-perception",
+      "name": "Skill: Perception",
+      "url": "/api/2024/proficiencies/skill-perception"
+    },
+    {
+      "index": "skill-persuasion",
+      "name": "Skill: Persuasion",
+      "url": "/api/2024/proficiencies/skill-persuasion"
+    },
+    {
+      "index": "glassblowers-tools",
+      "name": "Glassblower's Tools",
+      "url": "/api/2024/proficiencies/glassblowers-tools"
+    }
+  ],
+  "ability_scores": [
+    {
+      "index": "dex",
+      "name": "DEX",
+      "url": "/api/2024/ability-scores/dex"
+    },
+    {
+      "index": "wis",
+      "name": "WIS",
+      "url": "/api/2024/ability-scores/wis"
+    },
+    {
+      "index": "cha",
+      "name": "CHA",
+      "url": "/api/2024/ability-scores/cha"
+    }
+  ],
+  "feat": {
+    "index": "magic-initiate",
+    "name": "Magic Initiate",
+    "url": "/api/2024/feats/magic-initiate"
+  },
+  "starting_equipment_options": [
+    {
+      "desc": "Choose A or B: (A) Light Hammer, Glassblower's Tools, Fine Clothes, Lamp, Oil (3 flasks), Waterskin, 2 GP; or (B) 50 GP",
+      "choose": 1,
+      "type": "equipment",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "multiple",
+            "items": [
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "light-hammer",
+                  "name": "Light Hammer",
+                  "url": "/api/2024/equipment/light-hammer"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "glassblowers-tools",
+                  "name": "Glassblower's Tools",
+                  "url": "/api/2024/equipment/glassblowers-tools"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "fine-clothes",
+                  "name": "Fine Clothes",
+                  "url": "/api/2024/equipment/fine-clothes"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "lamp",
+                  "name": "Lamp",
+                  "url": "/api/2024/equipment/lamp"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 3,
+                "of": {
+                  "index": "oil",
+                  "name": "Oil",
+                  "url": "/api/2024/equipment/oil"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "waterskin",
+                  "name": "Waterskin",
+                  "url": "/api/2024/equipment/waterskin"
+                }
+              },
+              {
+                "option_type": "money",
+                "count": 2,
+                "unit": "GP"
+              }
+            ]
+          },
+          {
+            "option_type": "money",
+            "count": 50,
+            "unit": "GP"
+          }
+        ]
+      }
+    }
+  ],
+  "desc": [
+    "Although genies no longer rule Calimshan, genie magic is still common in your homeland. Perhaps you inadvertently summoned a djinni from a magic lamp, or maybe you came upon an oasis guarded by a marid. A dao might have saved you from a landslide, or you bargained with an efreeti for fleeting wealth. However your fate intersected with that of a genie, the experience left you with a keen eye, a silver tongue, and more than a touch of magic."
+  ],
+  "url": "/api/2024/backgrounds/genie-touched"
+}

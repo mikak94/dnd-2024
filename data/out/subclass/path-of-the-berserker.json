@@ -1,0 +1,16 @@
+{
+  "index": "path-of-the-berserker",
+  "class": {
+    "index": "barbarian",
+    "name": "Barbarian",
+    "url": "/api/2024/classes/barbarian"
+  },
+  "name": "Path of the Berserker",
+  "subclass_flavor": "Primal Path",
+  "desc": [
+    "Channel Rage into Violent Fury",
+    "Barbarians who walk the Path of the Berserker direct their Rage primarily toward violence. Their path is one of untrammeled fury, and they thrill in the chaos of battle as they allow their Rage to seize and empower them."
+  ],
+  "subclass_levels": "/api/2024/subclasses/path-of-the-berserker/levels",
+  "url": "/api/2024/subclasses/path-of-the-berserker"
+}

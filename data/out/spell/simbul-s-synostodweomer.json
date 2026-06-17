@@ -1,0 +1,32 @@
+{
+  "index": "simbuls-synostodweomer",
+  "name": "Simbul's Synostodweomer",
+  "level": 7,
+  "school": {
+    "index": "transmutation",
+    "name": "Transmutation",
+    "url": "/api/2024/magic-schools/transmutation"
+  },
+  "casting_time": "Action",
+  "range": "Touch",
+  "components": ["V", "S"],
+  "ritual": false,
+  "concentration": false,
+  "duration": "1 hour",
+  "desc": [
+    "You imbue one creature you touch with magical healing energy for the duration. Whenever the target casts a spell using a spell slot, the target can immediately roll a number of unexpended Hit Point Dice equal to the spell slot's level and regain Hit Points equal to the roll's total plus your spellcasting ability modifier; those dice are then expended."
+  ],
+  "classes": [
+    {
+      "index": "sorcerer",
+      "name": "Sorcerer",
+      "url": "/api/2024/classes/sorcerer"
+    },
+    {
+      "index": "wizard",
+      "name": "Wizard",
+      "url": "/api/2024/classes/wizard"
+    }
+  ],
+  "url": "/api/2024/spells/simbuls-synostodweomer"
+}

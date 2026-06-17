@@ -1,0 +1,16 @@
+{
+  "index": "college-of-valor",
+  "class": {
+    "index": "bard",
+    "name": "Bard",
+    "url": "/api/2024/classes/bard"
+  },
+  "name": "College of Valor",
+  "subclass_flavor": "Bard College",
+  "desc": [
+    "Sing the Deeds of Ancient Heroes",
+    "Bards of the College of Valor are daring storytellers whose tales preserve the memory of the great heroes of the past. These Bards sing the deeds of the mighty in vaulted halls or to crowds gathered around great bonfires. They travel to witness great events firsthand and to ensure that the memory of these events doesn't pass away. With their songs, they inspire new generations to reach the same heights of accomplishment as the heroes of old."
+  ],
+  "subclass_levels": "/api/2024/subclasses/college-of-valor/levels",
+  "url": "/api/2024/subclasses/college-of-valor"
+}

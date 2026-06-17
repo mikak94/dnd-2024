@@ -1,0 +1,16 @@
+{
+  "index": "font-of-inspiration",
+  "name": "Font of Inspiration",
+  "level": 5,
+  "class": {
+    "index": "bard",
+    "name": "Bard",
+    "url": "/api/2024/classes/bard"
+  },
+  "desc": [
+    "You now regain all your expended uses of Bardic Inspiration when you finish a Short or Long Rest.",
+    "In addition, you can expend a spell slot (no action required) to regain one expended use of Bardic Inspiration."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/font-of-inspiration"
+}

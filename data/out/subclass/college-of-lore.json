@@ -1,0 +1,16 @@
+{
+  "index": "college-of-lore",
+  "class": {
+    "index": "bard",
+    "name": "Bard",
+    "url": "/api/2024/classes/bard"
+  },
+  "name": "College of Lore",
+  "subclass_flavor": "Bard College",
+  "desc": [
+    "Plumb the Depths of Magical Knowledge",
+    "Bards of the College of Lore collect spells and secrets from diverse sources, such as scholarly tomes, mystical rites, and peasant tales. The college's members gather in libraries and universities to share their lore with one another. They also meet at festivals or affairs of state, where they can expose corruption, unravel lies, and poke fun at self-important figures of authority."
+  ],
+  "subclass_levels": "/api/2024/subclasses/college-of-lore/levels",
+  "url": "/api/2024/subclasses/college-of-lore"
+}

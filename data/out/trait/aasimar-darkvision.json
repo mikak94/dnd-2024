@@ -1,0 +1,14 @@
+{
+  "index": "aasimar-darkvision",
+  "name": "Darkvision",
+  "species": [
+    {
+      "index": "aasimar",
+      "name": "Aasimar",
+      "url": "/api/2024/species/aasimar"
+    }
+  ],
+  "subspecies": [],
+  "desc": ["You have Darkvision with a range of 60 feet."],
+  "url": "/api/2024/traits/aasimar-darkvision"
+}

@@ -1,0 +1,32 @@
+{
+  "index": "monk-6",
+  "level": 6,
+  "ability_score_bonuses": 1,
+  "prof_bonus": 3,
+  "features": [
+    {
+      "index": "empowered-strikes",
+      "name": "Empowered Strikes",
+      "url": "/api/2024/features/empowered-strikes"
+    },
+    {
+      "index": "monk-subclass",
+      "name": "Subclass Feature",
+      "url": "/api/2024/features/monk-subclass"
+    }
+  ],
+  "class": {
+    "index": "monk",
+    "name": "Monk",
+    "url": "/api/2024/classes/monk"
+  },
+  "url": "/api/2024/classes/monk/levels/6",
+  "class_specific": {
+    "ki_points": 6,
+    "unarmored_movement": 15,
+    "martial_arts": {
+      "dice_count": 1,
+      "dice_value": 8
+    }
+  }
+}

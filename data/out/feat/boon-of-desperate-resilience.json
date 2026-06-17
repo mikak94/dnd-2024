@@ -1,0 +1,45 @@
+{
+  "index": "boon-of-desperate-resilience",
+  "name": "Boon of Desperate Resilience",
+  "type": "epic-boon",
+  "prerequisites": [
+    {
+      "type": "level",
+      "level": 19
+    }
+  ],
+  "desc": [
+    "You gain the following benefits.",
+    "Ability Score Increase. Increase your Strength or Constitution score by 1, to a maximum of 30.",
+    "Defense of Body and Mind. While you are Bloodied, you have Resistance to every damage type except Force."
+  ],
+  "choices": [
+    {
+      "desc": "Increase your Strength or Constitution score by 1, to a maximum of 30.",
+      "choose": 1,
+      "type": "abilities",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "str",
+              "name": "STR",
+              "url": "/api/2024/ability-scores/str"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "con",
+              "name": "CON",
+              "url": "/api/2024/ability-scores/con"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "url": "/api/2024/feats/boon-of-desperate-resilience"
+}

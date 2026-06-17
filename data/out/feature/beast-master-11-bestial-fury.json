@@ -1,0 +1,21 @@
+{
+  "index": "beast-master-11-bestial-fury",
+  "name": "Bestial Fury",
+  "level": 11,
+  "class": {
+    "index": "ranger",
+    "name": "Ranger",
+    "url": "/api/2024/classes/ranger"
+  },
+  "subclass": {
+    "index": "beast-master",
+    "name": "Beast Master",
+    "url": "/api/2024/subclasses/beast-master"
+  },
+  "desc": [
+    "When you command your Primal Companion beast to take the Beast's Strike action, the beast can use it twice.",
+    "In addition, the first time each turn it hits a creature under the effect of your Hunter's Mark spell, the beast deals extra Force damage equal to the bonus damage of that spell."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/beast-master-11-bestial-fury"
+}

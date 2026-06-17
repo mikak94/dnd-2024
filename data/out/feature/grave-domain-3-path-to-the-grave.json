@@ -1,0 +1,21 @@
+{
+  "index": "grave-domain-3-path-to-the-grave",
+  "name": "Path to the Grave",
+  "level": 3,
+  "class": {
+    "index": "cleric",
+    "name": "Cleric",
+    "url": "/api/2024/classes/cleric"
+  },
+  "subclass": {
+    "index": "grave-domain",
+    "name": "Grave Domain",
+    "url": "/api/2024/subclasses/grave-domain"
+  },
+  "desc": [
+    "As a Bonus Action, you present your Holy Symbol and expend a use of Channel Divinity to curse one creature you can see within 30 feet of yourself until the start of your next turn. While cursed, the creature has Disadvantage on attack rolls and saving throws.",
+    "When you or an ally you can see hits the cursed target with an attack roll, you can end the curse early (no action required) to make the attack deal extra Necrotic or Radiant damage (your choice) equal to your Cleric level."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/grave-domain-3-path-to-the-grave"
+}

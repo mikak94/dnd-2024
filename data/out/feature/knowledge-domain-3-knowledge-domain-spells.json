@@ -1,0 +1,26 @@
+{
+  "index": "knowledge-domain-3-knowledge-domain-spells",
+  "name": "Knowledge Domain Spells",
+  "level": 3,
+  "class": {
+    "index": "cleric",
+    "name": "Cleric",
+    "url": "/api/2024/classes/cleric"
+  },
+  "subclass": {
+    "index": "knowledge-domain",
+    "name": "Knowledge Domain",
+    "url": "/api/2024/subclasses/knowledge-domain"
+  },
+  "desc": [
+    "When you reach a Cleric level specified in the Knowledge Domain Spells table, you thereafter always have the listed spells prepared.",
+    "| Cleric Level | Prepared Spells |",
+    "| --- | --- |",
+    "| 3 | Command, Comprehend Languages, Detect Magic, Detect Thoughts, Identify, Mind Spike |",
+    "| 5 | Dispel Magic, Nondetection, Tongues |",
+    "| 7 | Arcane Eye, Banishment, Confusion |",
+    "| 9 | Legend Lore, Scrying, Synaptic Static |"
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/knowledge-domain-3-knowledge-domain-spells"
+}

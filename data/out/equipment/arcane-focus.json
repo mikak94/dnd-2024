@@ -1,0 +1,18 @@
+{
+  "index": "arcane-focus",
+  "name": "Arcane Focus",
+  "equipment_categories": [
+    {
+      "index": "arcane-foci",
+      "name": "Arcane Foci",
+      "url": "/api/2024/equipment-categories/arcane-foci"
+    },
+    {
+      "index": "adventuring-gear",
+      "name": "Adventuring Gear",
+      "url": "/api/2024/equipment-categories/adventuring-gear"
+    }
+  ],
+  "description": "An Arcane Focus takes one of the forms in the Arcane Focuses table and is bejeweled or carved to channel arcane magic. A Sorcerer, Warlock, or Wizard can use such an item as a Spellcasting Focus.",
+  "url": "/api/2024/equipment/arcane-focus"
+}

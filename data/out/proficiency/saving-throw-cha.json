@@ -1,0 +1,11 @@
+{
+  "index": "saving-throw-cha",
+  "name": "Saving Throw: CHA",
+  "type": "Saving Throws",
+  "reference": {
+    "index": "cha",
+    "name": "CHA",
+    "url": "/api/2024/ability-scores/cha"
+  },
+  "url": "/api/2024/proficiencies/saving-throw-cha"
+}

@@ -1,0 +1,11 @@
+{
+  "index": "scimitars",
+  "name": "Scimitars",
+  "type": "Weapons",
+  "reference": {
+    "index": "scimitar",
+    "name": "Scimitar",
+    "url": "/api/2024/equipment/scimitar"
+  },
+  "url": "/api/2024/proficiencies/scimitars"
+}

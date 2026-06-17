@@ -1,0 +1,20 @@
+{
+  "index": "warrior-of-the-elements-11-stride-of-the-elements",
+  "name": "Stride of the Elements",
+  "level": 11,
+  "class": {
+    "index": "monk",
+    "name": "Monk",
+    "url": "/api/2024/classes/monk"
+  },
+  "subclass": {
+    "index": "warrior-of-the-elements",
+    "name": "Warrior of the Elements",
+    "url": "/api/2024/subclasses/warrior-of-the-elements"
+  },
+  "desc": [
+    "While your Elemental Attunement is active, you also have a Fly Speed and a Swim Speed equal to your Speed."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/warrior-of-the-elements-11-stride-of-the-elements"
+}

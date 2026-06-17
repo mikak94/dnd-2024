@@ -1,0 +1,11 @@
+{
+  "index": "tool-dice",
+  "name": "Tool: Dice",
+  "type": "Tools",
+  "reference": {
+    "index": "dice",
+    "name": "Dice",
+    "url": "/api/2024/equipment/dice"
+  },
+  "url": "/api/2024/proficiencies/tool-dice"
+}

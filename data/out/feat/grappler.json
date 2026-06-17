@@ -1,0 +1,65 @@
+{
+  "index": "grappler",
+  "name": "Grappler",
+  "type": "general",
+  "prerequisites": [
+    {
+      "type": "level",
+      "level": 4
+    },
+    {
+      "type": "ability_score",
+      "ability_score": {
+        "index": "str",
+        "name": "STR",
+        "url": "/api/2024/ability-scores/str"
+      },
+      "minimum_score": 13
+    },
+    {
+      "type": "ability_score",
+      "ability_score": {
+        "index": "dex",
+        "name": "DEX",
+        "url": "/api/2024/ability-scores/dex"
+      },
+      "minimum_score": 13
+    }
+  ],
+  "desc": [
+    "You gain the following benefits.",
+    "Ability Score Increase. Increase your Strength or Dexterity score by 1, to a maximum of 20.",
+    "Punch and Grab. When you hit a creature with an Unarmed Strike as part of the Attack action on your turn, you can use both the Damage and the Grapple option. You can use this benefit only once per turn.",
+    "Attack Advantage. You have Advantage on attack rolls against a creature Grappled by you.",
+    "Fast Wrestler. You don’t have to spend extra movement to move a creature Grappled by you if the creature is your size or smaller."
+  ],
+  "choices": [
+    {
+      "desc": "Increase your Strength or Dexterity score by 1, to a maximum of 20.",
+      "choose": 1,
+      "type": "abilities",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "str",
+              "name": "STR",
+              "url": "/api/2024/ability-scores/str"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "dex",
+              "name": "DEX",
+              "url": "/api/2024/ability-scores/dex"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "url": "/api/2024/feats/grappler"
+}

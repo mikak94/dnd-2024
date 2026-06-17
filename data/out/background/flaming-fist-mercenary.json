@@ -1,0 +1,119 @@
+{
+  "index": "flaming-fist-mercenary",
+  "name": "Flaming Fist Mercenary",
+  "starting_proficiencies": [
+    {
+      "index": "skill-intimidation",
+      "name": "Skill: Intimidation",
+      "url": "/api/2024/proficiencies/skill-intimidation"
+    },
+    {
+      "index": "skill-perception",
+      "name": "Skill: Perception",
+      "url": "/api/2024/proficiencies/skill-perception"
+    },
+    {
+      "index": "smiths-tools",
+      "name": "Smith's Tools",
+      "url": "/api/2024/proficiencies/smiths-tools"
+    }
+  ],
+  "ability_scores": [
+    {
+      "index": "str",
+      "name": "STR",
+      "url": "/api/2024/ability-scores/str"
+    },
+    {
+      "index": "con",
+      "name": "CON",
+      "url": "/api/2024/ability-scores/con"
+    },
+    {
+      "index": "cha",
+      "name": "CHA",
+      "url": "/api/2024/ability-scores/cha"
+    }
+  ],
+  "feat": {
+    "index": "tough",
+    "name": "Tough",
+    "url": "/api/2024/feats/tough"
+  },
+  "starting_equipment_options": [
+    {
+      "desc": "Choose A or B: (A) Mace, Smith's Tools, Fine Clothes, Manacles, Portable Ram, 4 GP; or (B) 50 GP",
+      "choose": 1,
+      "type": "equipment",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "multiple",
+            "items": [
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "mace",
+                  "name": "Mace",
+                  "url": "/api/2024/equipment/mace"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "smiths-tools",
+                  "name": "Smith's Tools",
+                  "url": "/api/2024/equipment/smiths-tools"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "fine-clothes",
+                  "name": "Fine Clothes",
+                  "url": "/api/2024/equipment/fine-clothes"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "manacles",
+                  "name": "Manacles",
+                  "url": "/api/2024/equipment/manacles"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "portable-ram",
+                  "name": "Portable Ram",
+                  "url": "/api/2024/equipment/portable-ram"
+                }
+              },
+              {
+                "option_type": "money",
+                "count": 4,
+                "unit": "GP"
+              }
+            ]
+          },
+          {
+            "option_type": "money",
+            "count": 50,
+            "unit": "GP"
+          }
+        ]
+      }
+    }
+  ],
+  "desc": [
+    "The chief law enforcement branch of Baldur's Gate is the Flaming Fist, a brawny mercenary guild led by the city's grand duke. You once served as a Flaming Fist, where you learned how to preempt trouble with your intimidating stare and, when necessary, absorb deadly blows. Flaming Fist mercenaries, active or retired, are known as some of the toughest, most resilient warriors along the Sword Coast, and you seek to maintain that reputation."
+  ],
+  "url": "/api/2024/backgrounds/flaming-fist-mercenary"
+}

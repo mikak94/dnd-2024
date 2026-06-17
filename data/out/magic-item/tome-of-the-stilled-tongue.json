@@ -1,0 +1,18 @@
+{
+  "index": "tome-of-the-stilled-tongue",
+  "name": "Tome of the Stilled Tongue",
+  "equipment_category": {
+    "index": "wondrous-items",
+    "name": "Wondrous Items",
+    "url": "/api/2024/equipment-categories/wondrous-items"
+  },
+  "rarity": {
+    "name": "Legendary"
+  },
+  "attunement": true,
+  "desc": "This book has a desiccated tongue pinned to its front cover. Five of these tomes exist, and it's unknown which one is the original. The tongue on the first Tome of the Stilled Tongue belonged to a treacherous former servant of the lich Vecna. The tongues pinned to the covers of the four copies came from other spellcasters who crossed Vecna. The first few pages of each tome are filled with indecipherable scrawls. The remaining pages are blank.\n\nWhile attuned to this item, you can use it as a Spellbook and an Arcane Focus. In addition, while holding the tome, you can take a Bonus Action to cast a spell you have written in this tome, without expending a spell slot or using any Verbal or Somatic components. Once used, this property of the tome can't be used again until the next dawn.\n\nOnly you can remove the tongue from the book's cover. If you do so, all spells written in the book are permanently erased.\n\nVecna watches anyone using this tome and can write cryptic messages in it. These messages typically fade away after they are read.",
+  "limited-to": "Wizard",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/tome-of-the-stilled-tongue"
+}

@@ -1,0 +1,15 @@
+{
+  "index": "boots-of-the-winding-path",
+  "name": "Boots of the Winding Path",
+  "equipment_category": {
+    "index": "wondrous-items",
+    "name": "Wondrous Items",
+    "url": "/api/2024/equipment-categories/wondrous-items"
+  },
+  "rarity": { "name": "Uncommon" },
+  "attunement": true,
+  "desc": "While wearing these boots, you can take a Bonus Action to teleport up to 15 feet to an unoccupied space you can see. You must have occupied that space at some point during the current turn.",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/boots-of-the-winding-path"
+}

@@ -1,0 +1,22 @@
+{
+  "index": "spellfire-sorcery-3-spellfire-burst",
+  "name": "Spellfire Burst",
+  "level": 3,
+  "class": {
+    "index": "sorcerer",
+    "name": "Sorcerer",
+    "url": "/api/2024/classes/sorcerer"
+  },
+  "subclass": {
+    "index": "spellfire-sorcery",
+    "name": "Spellfire Sorcery",
+    "url": "/api/2024/subclasses/spellfire-sorcery"
+  },
+  "desc": [
+    "When you spend at least 1 Sorcery Point as part of a Magic action or a Bonus Action on your turn, you can unleash one of the following magical effects of your choice. You can do so only once per turn.",
+    "**Bolstering Flames.** You or one creature you can see within 30 feet of yourself gains Temporary Hit Points equal to 1d4 plus your Charisma modifier.",
+    "**Radiant Fire.** One creature you can see within 30 feet of yourself takes 1d4 Fire or Radiant damage (your choice)."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/spellfire-sorcery-3-spellfire-burst"
+}

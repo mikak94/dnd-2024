@@ -1,0 +1,18 @@
+{
+  "index": "battle-master-18-ultimate-combat-superiority",
+  "name": "Ultimate Combat Superiority",
+  "level": 18,
+  "class": {
+    "index": "fighter",
+    "name": "Fighter",
+    "url": "/api/2024/classes/fighter"
+  },
+  "subclass": {
+    "index": "battle-master",
+    "name": "Battle Master",
+    "url": "/api/2024/subclasses/battle-master"
+  },
+  "desc": ["Your Superiority Die becomes a d12."],
+  "prerequisites": [],
+  "url": "/api/2024/features/battle-master-18-ultimate-combat-superiority"
+}

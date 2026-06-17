@@ -1,0 +1,15 @@
+{
+  "index": "bullseye-lantern",
+  "name": "Bullseye Lantern",
+  "equipment_categories": [
+    {
+      "index": "adventuring-gear",
+      "name": "Adventuring Gear",
+      "url": "/api/2024/equipment-categories/adventuring-gear"
+    }
+  ],
+  "cost": { "quantity": 10, "unit": "gp" },
+  "weight": 2,
+  "description": "A Bullseye Lantern burns Oil as fuel to cast Bright Light in a 60-foot Cone and Dim Light for an additional 60 feet.",
+  "url": "/api/2024/equipment/bullseye-lantern"
+}

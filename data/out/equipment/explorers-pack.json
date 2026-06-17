@@ -1,0 +1,86 @@
+{
+  "index": "explorers-pack",
+  "name": "Explorer's Pack",
+  "equipment_categories": [
+    {
+      "index": "equipment-packs",
+      "name": "Equipment Packs",
+      "url": "/api/2024/equipment-categories/equipment-packs"
+    },
+    {
+      "index": "adventuring-gear",
+      "name": "Adventuring Gear",
+      "url": "/api/2024/equipment-categories/adventuring-gear"
+    }
+  ],
+  "cost": { "quantity": 10, "unit": "gp" },
+  "weight": 55,
+  "description": "An Explorer's Pack contains the following items: Backpack, Bedroll, 2 flasks of Oil, 10 days of Rations, Rope, Tinderbox, 10 Torches, and Waterskin.",
+  "contents": [
+    {
+      "item": {
+        "index": "backpack",
+        "name": "Backpack",
+        "url": "/api/2024/equipment/backpack"
+      },
+      "quantity": 1
+    },
+    {
+      "item": {
+        "index": "bedroll",
+        "name": "Bedroll",
+        "url": "/api/2024/equipment/bedroll"
+      },
+      "quantity": 1
+    },
+    {
+      "item": {
+        "index": "oil",
+        "name": "Oil",
+        "url": "/api/2024/equipment/oil"
+      },
+      "quantity": 2
+    },
+    {
+      "item": {
+        "index": "rations",
+        "name": "Rations",
+        "url": "/api/2024/equipment/rations"
+      },
+      "quantity": 10
+    },
+    {
+      "item": {
+        "index": "rope",
+        "name": "Rope",
+        "url": "/api/2024/equipment/rope"
+      },
+      "quantity": 1
+    },
+    {
+      "item": {
+        "index": "tinderbox",
+        "name": "Tinderbox",
+        "url": "/api/2024/equipment/tinderbox"
+      },
+      "quantity": 1
+    },
+    {
+      "item": {
+        "index": "torch",
+        "name": "Torch",
+        "url": "/api/2024/equipment/torch"
+      },
+      "quantity": 10
+    },
+    {
+      "item": {
+        "index": "waterskin",
+        "name": "Waterskin",
+        "url": "/api/2024/equipment/waterskin"
+      },
+      "quantity": 1
+    }
+  ],
+  "url": "/api/2024/equipment/explorers-pack"
+}

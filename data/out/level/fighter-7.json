@@ -1,0 +1,24 @@
+{
+  "index": "fighter-7",
+  "level": 7,
+  "ability_score_bonuses": 2,
+  "prof_bonus": 3,
+  "features": [
+    {
+      "index": "fighter-subclass",
+      "name": "Subclass Feature",
+      "url": "/api/2024/features/fighter-subclass"
+    }
+  ],
+  "class": {
+    "index": "fighter",
+    "name": "Fighter",
+    "url": "/api/2024/classes/fighter"
+  },
+  "class_specific": {
+    "extra_attacks": 2,
+    "action_surges": 1,
+    "indomitable_uses": 0
+  },
+  "url": "/api/2024/classes/fighter/levels/7"
+}

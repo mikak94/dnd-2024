@@ -1,0 +1,25 @@
+{
+  "index": "durable",
+  "name": "Durable",
+  "type": "general",
+  "prerequisites": [
+    { "type": "level", "level": 4 }
+  ],
+  "desc": [
+    "You gain the following benefits.",
+    "Ability Score Increase. Increase your Constitution score by 1, to a maximum of 20.",
+    "Defy Death. You have Advantage on Death Saving Throws.",
+    "Speedy Recovery. As a Bonus Action, you can expend one of your Hit Point Dice, roll the die, and regain a number of Hit Points equal to the roll."
+  ],
+  "ability_bonuses": [
+    {
+      "ability_score": {
+        "index": "con",
+        "name": "CON",
+        "url": "/api/2024/ability-scores/con"
+      },
+      "bonus": 1
+    }
+  ],
+  "url": "/api/2024/feats/durable"
+}

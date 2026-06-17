@@ -1,0 +1,20 @@
+{
+  "index": "abjurer-14-spell-resistance",
+  "name": "Spell Resistance",
+  "level": 14,
+  "class": {
+    "index": "wizard",
+    "name": "Wizard",
+    "url": "/api/2024/classes/wizard"
+  },
+  "subclass": {
+    "index": "abjurer",
+    "name": "Abjurer",
+    "url": "/api/2024/subclasses/abjurer"
+  },
+  "desc": [
+    "You have Advantage on saving throws against spells, and you have Resistance to the damage of spells."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/abjurer-14-spell-resistance"
+}

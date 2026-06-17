@@ -1,0 +1,15 @@
+{
+  "index": "pouch",
+  "name": "Pouch",
+  "equipment_categories": [
+    {
+      "index": "adventuring-gear",
+      "name": "Adventuring Gear",
+      "url": "/api/2024/equipment-categories/adventuring-gear"
+    }
+  ],
+  "cost": { "quantity": 5, "unit": "sp" },
+  "weight": 1,
+  "description": "A Pouch holds up to 6 pounds within one-fifth of a cubic foot.",
+  "url": "/api/2024/equipment/pouch"
+}

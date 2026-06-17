@@ -1,0 +1,20 @@
+{
+  "index": "banneret-3-group-recovery",
+  "name": "Group Recovery",
+  "level": 3,
+  "class": {
+    "index": "fighter",
+    "name": "Fighter",
+    "url": "/api/2024/classes/fighter"
+  },
+  "subclass": {
+    "index": "banneret",
+    "name": "Banneret",
+    "url": "/api/2024/subclasses/banneret"
+  },
+  "desc": [
+    "When you use your Second Wind to regain Hit Points, you can choose a number of allies within a 30-foot Emanation originating from yourself, up to a number of allies equal to your Charisma modifier (minimum of one). Each of those allies regains Hit Points equal to 1d4 plus your Fighter level. Once you use this ability, you can't use it again until you finish a Short or Long Rest."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/banneret-3-group-recovery"
+}

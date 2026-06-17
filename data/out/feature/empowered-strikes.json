@@ -1,0 +1,15 @@
+{
+  "index": "empowered-strikes",
+  "name": "Empowered Strikes",
+  "level": 6,
+  "class": {
+    "index": "monk",
+    "name": "Monk",
+    "url": "/api/2024/classes/monk"
+  },
+  "desc": [
+    "Whenever you deal damage with your Unarmed Strike, it can deal your choice of Force damage or its normal damage type."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/empowered-strikes"
+}

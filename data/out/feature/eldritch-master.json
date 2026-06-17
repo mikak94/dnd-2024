@@ -1,0 +1,15 @@
+{
+  "index": "eldritch-master",
+  "name": "Eldritch Master",
+  "level": 20,
+  "class": {
+    "index": "warlock",
+    "name": "Warlock",
+    "url": "/api/2024/classes/warlock"
+  },
+  "desc": [
+    "When you use your Magical Cunning feature, you regain all your expended Pact Magic spell slots."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/eldritch-master"
+}

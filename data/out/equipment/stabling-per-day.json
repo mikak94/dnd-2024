@@ -1,0 +1,18 @@
+{
+  "index": "stabling-per-day",
+  "name": "Stabling per day",
+  "equipment_categories": [
+    {
+      "index": "tack-harness-and-drawn-vehicles",
+      "name": "Tack, Harness, and Drawn Vehicles",
+      "url": "/api/2024/equipment-categories/tack-harness-and-drawn-vehicles"
+    },
+    {
+      "index": "mounts-and-vehicles",
+      "name": "Mounts and Vehicles",
+      "url": "/api/2024/equipment-categories/mounts-and-vehicles"
+    }
+  ],
+  "url": "/api/2024/equipment/stabling-per-day",
+  "cost": { "quantity": 5, "unit": "sp" }
+}

@@ -1,0 +1,26 @@
+{
+  "index": "psi-warrior",
+  "class": {
+    "index": "fighter",
+    "name": "Fighter",
+    "url": "/api/2024/classes/fighter"
+  },
+  "name": "Psi Warrior",
+  "subclass_flavor": "Martial Archetype",
+  "desc": [
+    "Augment Physical Might with Psionic Power",
+    "Psi Warriors awaken the power of their minds to augment their physical might. They harness this psionic power to infuse their weapon strikes, lash out with telekinetic energy, and create barriers of mental force."
+  ],
+  "subclass_levels": "/api/2024/subclasses/psi-warrior/levels",
+  "spells": [
+    {
+      "prerequisites": [{ "index": "psi-warrior-18", "type": "level" }],
+      "spell": {
+        "index": "telekinesis",
+        "name": "Telekinesis",
+        "url": "/api/2024/spells/telekinesis"
+      }
+    }
+  ],
+  "url": "/api/2024/subclasses/psi-warrior"
+}

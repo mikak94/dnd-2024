@@ -1,0 +1,20 @@
+{
+  "index": "archfey-patron-3-archfey-spells",
+  "name": "Archfey Spells",
+  "level": 3,
+  "class": {
+    "index": "warlock",
+    "name": "Warlock",
+    "url": "/api/2024/classes/warlock"
+  },
+  "subclass": {
+    "index": "archfey-patron",
+    "name": "Archfey Patron",
+    "url": "/api/2024/subclasses/archfey-patron"
+  },
+  "desc": [
+    "The magic of your patron ensures you always have certain spells ready; when you reach a Warlock level specified in the Archfey Spells table, you thereafter always have the listed spells prepared."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/archfey-patron-3-archfey-spells"
+}

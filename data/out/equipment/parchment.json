@@ -1,0 +1,14 @@
+{
+  "index": "parchment",
+  "name": "Parchment",
+  "equipment_categories": [
+    {
+      "index": "adventuring-gear",
+      "name": "Adventuring Gear",
+      "url": "/api/2024/equipment-categories/adventuring-gear"
+    }
+  ],
+  "cost": { "quantity": 1, "unit": "sp" },
+  "description": "One sheet of Parchment can hold about 250 handwritten words.",
+  "url": "/api/2024/equipment/parchment"
+}

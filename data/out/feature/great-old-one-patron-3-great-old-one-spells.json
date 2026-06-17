@@ -1,0 +1,20 @@
+{
+  "index": "great-old-one-patron-3-great-old-one-spells",
+  "name": "Great Old One Spells",
+  "level": 3,
+  "class": {
+    "index": "warlock",
+    "name": "Warlock",
+    "url": "/api/2024/classes/warlock"
+  },
+  "subclass": {
+    "index": "great-old-one-patron",
+    "name": "Great Old One Patron",
+    "url": "/api/2024/subclasses/great-old-one-patron"
+  },
+  "desc": [
+    "The magic of your patron ensures you always have certain spells ready; when you reach a Warlock level specified in the Great Old One Spells table, you thereafter always have the listed spells prepared."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/great-old-one-patron-3-great-old-one-spells"
+}

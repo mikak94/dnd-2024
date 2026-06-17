@@ -1,0 +1,26 @@
+{
+  "index": "eldritch-invocation-lessons-of-the-first-ones",
+  "name": "Eldritch Invocation: Lessons of the First Ones",
+  "level": 2,
+  "class": {
+    "index": "warlock",
+    "name": "Warlock",
+    "url": "/api/2024/classes/warlock"
+  },
+  "parent": {
+    "index": "eldritch-invocations",
+    "name": "Eldritch Invocations",
+    "url": "/api/2024/features/eldritch-invocations"
+  },
+  "desc": [
+    "You have received knowledge from an elder entity of the multiverse, allowing you to gain one Origin feat of your choice.",
+    "**Repeatable.** You can gain this invocation more than once. Each time you do so, choose a different Origin feat."
+  ],
+  "prerequisites": [
+    {
+      "type": "level",
+      "level": 2
+    }
+  ],
+  "url": "/api/2024/features/eldritch-invocation-lessons-of-the-first-ones"
+}

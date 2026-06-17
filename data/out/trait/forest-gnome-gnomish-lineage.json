@@ -1,0 +1,60 @@
+{
+  "index": "forest-gnome-gnomish-lineage",
+  "name": "Gnomish Lineage",
+  "species": [],
+  "subspecies": [
+    {
+      "index": "forest-gnome",
+      "name": "Forest Gnome",
+      "url": "/api/2024/subspecies/forest-gnome"
+    }
+  ],
+  "desc": [
+    "You know the Minor Illusion cantrip. You also always have the Speak with Animals spell prepared. You can cast it without a spell slot a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest. You can also use any spell slots you have to cast the spell. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the lineage)."
+  ],
+  "parent": {
+    "index": "gnome-gnomish-lineage",
+    "name": "Gnomish Lineage",
+    "url": "/api/2024/traits/gnome-gnomish-lineage"
+  },
+  "trait_specific": {
+    "spellcasting": {
+      "ability": [
+        {
+          "index": "int",
+          "name": "INT",
+          "url": "/api/2024/ability-scores/int"
+        },
+        {
+          "index": "wis",
+          "name": "WIS",
+          "url": "/api/2024/ability-scores/wis"
+        },
+        {
+          "index": "cha",
+          "name": "CHA",
+          "url": "/api/2024/ability-scores/cha"
+        }
+      ],
+      "spells": [
+        {
+          "spell": {
+            "index": "minor-illusion",
+            "name": "Minor Illusion",
+            "url": "/api/2024/spells/minor-illusion"
+          },
+          "level": 1
+        },
+        {
+          "spell": {
+            "index": "speak-with-animals",
+            "name": "Speak with Animals",
+            "url": "/api/2024/spells/speak-with-animals"
+          },
+          "level": 1
+        }
+      ]
+    }
+  },
+  "url": "/api/2024/traits/forest-gnome-gnomish-lineage"
+}

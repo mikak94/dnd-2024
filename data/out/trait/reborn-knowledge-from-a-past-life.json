@@ -1,0 +1,27 @@
+{
+  "index": "reborn-knowledge-from-a-past-life",
+  "name": "Knowledge from a Past Life",
+  "species": [
+    {
+      "index": "reborn",
+      "name": "Reborn",
+      "url": "/api/2024/species/reborn"
+    }
+  ],
+  "subspecies": [],
+  "desc": [
+    "You gain proficiency in one skill of your choice.",
+    "In addition, you can temporarily peer into the past to aid you in the present. When you fail an ability check, you can roll 1d6 and add the number rolled to the d20, potentially turning the failure into a success. You can do this a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest."
+  ],
+  "proficiency_choices": [
+    {
+      "choose": 1,
+      "type": "skills",
+      "from": {
+        "option_set_type": "resource_list",
+        "resource_list_url": "/api/2024/skills"
+      }
+    }
+  ],
+  "url": "/api/2024/traits/reborn-knowledge-from-a-past-life"
+}

@@ -1,0 +1,15 @@
+{
+  "index": "improved-cunning-strike",
+  "name": "Improved Cunning Strike",
+  "level": 11,
+  "class": {
+    "index": "rogue",
+    "name": "Rogue",
+    "url": "/api/2024/classes/rogue"
+  },
+  "desc": [
+    "You can use up to two Cunning Strike effects when you deal Sneak Attack damage, paying the die cost for each effect."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/improved-cunning-strike"
+}

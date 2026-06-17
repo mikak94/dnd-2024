@@ -1,0 +1,16 @@
+{
+  "index": "khoravar-fey-ancestry",
+  "name": "Fey Ancestry",
+  "species": [
+    {
+      "index": "khoravar",
+      "name": "Khoravar",
+      "url": "/api/2024/species/khoravar"
+    }
+  ],
+  "subspecies": [],
+  "desc": [
+    "You have Advantage on saving throws you make to avoid or end the Charmed condition."
+  ],
+  "url": "/api/2024/traits/khoravar-fey-ancestry"
+}

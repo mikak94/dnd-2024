@@ -1,0 +1,15 @@
+{
+  "index": "saddle-of-the-cavalier",
+  "name": "Saddle of the Cavalier",
+  "equipment_category": {
+    "index": "wondrous-items",
+    "name": "Wondrous Items",
+    "url": "/api/2024/equipment-categories/wondrous-items"
+  },
+  "rarity": { "name": "Uncommon" },
+  "attunement": false,
+  "desc": "This saddle confers the following benefits while you are seated in it and astride a mount.\n\nProtected Mount. Attack rolls against the mount have Disadvantage.\n\nSecure Rider. You can't be dismounted against your will. This property is suppressed while you have the Incapacitated condition.",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/saddle-of-the-cavalier"
+}

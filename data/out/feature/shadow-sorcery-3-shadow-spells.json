@@ -1,0 +1,26 @@
+{
+  "index": "shadow-sorcery-3-shadow-spells",
+  "name": "Shadow Spells",
+  "level": 3,
+  "class": {
+    "index": "sorcerer",
+    "name": "Sorcerer",
+    "url": "/api/2024/classes/sorcerer"
+  },
+  "subclass": {
+    "index": "shadow-sorcery",
+    "name": "Shadow Sorcery",
+    "url": "/api/2024/subclasses/shadow-sorcery"
+  },
+  "desc": [
+    "When you reach a Sorcerer level specified in the Shadow Spells table, you thereafter always have the listed spells prepared.",
+    "| Sorcerer Level | Spells |",
+    "| --- | --- |",
+    "| 3 | Bane, Darkness, Inflict Wounds, Pass Without Trace |",
+    "| 5 | Hunger of Hadar, Nondetection |",
+    "| 7 | Greater Invisibility, Phantasmal Killer |",
+    "| 9 | Contagion, Creation |"
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/shadow-sorcery-3-shadow-spells"
+}

@@ -1,0 +1,34 @@
+{
+  "index": "eldritch-invocation-investment-of-the-chain-master",
+  "name": "Eldritch Invocation: Investment of the Chain Master",
+  "level": 5,
+  "class": {
+    "index": "warlock",
+    "name": "Warlock",
+    "url": "/api/2024/classes/warlock"
+  },
+  "parent": {
+    "index": "eldritch-invocations",
+    "name": "Eldritch Invocations",
+    "url": "/api/2024/features/eldritch-invocations"
+  },
+  "desc": [
+    "When you cast Find Familiar, you infuse the summoned familiar with a measure of your eldritch power, granting the creature the following benefits.",
+    "**Aerial or Aquatic.** The familiar gains either a Fly Speed or a Swim Speed (your choice) of 40 feet.",
+    "**Quick Attack.** As a Bonus Action, you can command the familiar to take the Attack action.",
+    "**Necrotic or Radiant Damage.** Whenever the familiar deals Bludgeoning, Piercing, or Slashing damage, you can make it deal Necrotic or Radiant damage instead.",
+    "**Your Save DC.** If the familiar forces a creature to make a saving throw, it uses your spell save DC.",
+    "**Resistance.** When the familiar takes damage, you can take a Reaction to grant it Resistance against that damage."
+  ],
+  "prerequisites": [
+    {
+      "type": "level",
+      "level": 5
+    },
+    {
+      "type": "feature",
+      "feature": "eldritch-invocation-pact-of-the-chain"
+    }
+  ],
+  "url": "/api/2024/features/eldritch-invocation-investment-of-the-chain-master"
+}

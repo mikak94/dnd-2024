@@ -1,0 +1,61 @@
+{
+  "index": "moonbeam",
+  "name": "Moonbeam",
+  "level": 2,
+  "school": {
+    "index": "evocation",
+    "name": "Evocation",
+    "url": "/api/2024/magic-schools/evocation"
+  },
+  "casting_time": "Action",
+  "range": "120 feet",
+  "components": ["V", "S", "M"],
+  "material": "a moonseed leaf",
+  "ritual": false,
+  "concentration": true,
+  "duration": "Concentration, up to 1 minute",
+  "desc": [
+    "A silvery beam of pale light shines down in a 5-foot-radius, 40-foot-high Cylinder centered on a point within range. Until the spell ends, Dim Light fills the Cylinder, and you can take a Magic action on later turns to move the Cylinder up to 60 feet.",
+    "When the Cylinder appears, each creature in it makes a Constitution saving throw. On a failed save, a creature takes 2d10 Radiant damage, and if the creature is shape-shifted (as a result of the Polymorph spell, for example), it reverts to its true form and can't shape-shift until it leaves the Cylinder. On a successful save, a creature takes half as much damage only. A creature also makes this save when the spell's area moves into its space and when it enters the spell's area or ends its turn there. A creature makes this save only once per turn."
+  ],
+  "higher_level": [
+    "Using a Higher-Level Spell Slot. The damage increases by 1d10 for each spell slot level above 2."
+  ],
+  "damage": {
+    "damage_type": {
+      "index": "radiant",
+      "name": "Radiant",
+      "url": "/api/2024/damage-types/radiant"
+    },
+    "damage_at_slot_level": {
+      "2": "2d10",
+      "3": "3d10",
+      "4": "4d10",
+      "5": "5d10",
+      "6": "6d10",
+      "7": "7d10",
+      "8": "8d10",
+      "9": "9d10"
+    }
+  },
+  "dc": {
+    "dc_type": {
+      "index": "con",
+      "name": "CON",
+      "url": "/api/2024/ability-scores/con"
+    },
+    "dc_success": "half"
+  },
+  "area_of_effect": {
+    "type": "cylinder",
+    "size": 5
+  },
+  "classes": [
+    {
+      "index": "druid",
+      "name": "Druid",
+      "url": "/api/2024/classes/druid"
+    }
+  ],
+  "url": "/api/2024/spells/moonbeam"
+}

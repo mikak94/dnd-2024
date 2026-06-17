@@ -1,0 +1,15 @@
+{
+  "index": "potion-of-flying",
+  "name": "Potion of Flying",
+  "equipment_category": {
+    "index": "potions",
+    "name": "Potions",
+    "url": "/api/2024/equipment-categories/potions"
+  },
+  "rarity": { "name": "Very Rare" },
+  "attunement": false,
+  "desc": "When you drink this potion, you gain a Fly Speed equal to your Speed for 1 hour and can hover. If you're in the air when the potion wears off, you fall unless you have some other means of staying aloft.\n\nThis potion's clear liquid floats at the top of its container and has cloudy white impurities drifting in it.",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/potion-of-flying"
+}

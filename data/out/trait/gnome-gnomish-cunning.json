@@ -1,0 +1,12 @@
+{
+  "index": "gnome-gnomish-cunning",
+  "name": "Gnomish Cunning",
+  "species": [
+    { "index": "gnome", "name": "Gnome", "url": "/api/2024/species/gnome" }
+  ],
+  "subspecies": [],
+  "desc": [
+    "You have Advantage on Intelligence, Wisdom, and Charisma saving throws."
+  ],
+  "url": "/api/2024/traits/gnome-gnomish-cunning"
+}

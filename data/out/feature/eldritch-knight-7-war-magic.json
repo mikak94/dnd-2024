@@ -1,0 +1,20 @@
+{
+  "index": "eldritch-knight-7-war-magic",
+  "name": "War Magic",
+  "level": 7,
+  "class": {
+    "index": "fighter",
+    "name": "Fighter",
+    "url": "/api/2024/classes/fighter"
+  },
+  "subclass": {
+    "index": "eldritch-knight",
+    "name": "Eldritch Knight",
+    "url": "/api/2024/subclasses/eldritch-knight"
+  },
+  "desc": [
+    "When you take the Attack action on your turn, you can replace one of the attacks with a casting of one of your Wizard cantrips that has a casting time of an action."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/eldritch-knight-7-war-magic"
+}

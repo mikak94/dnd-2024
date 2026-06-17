@@ -1,0 +1,30 @@
+{
+  "index": "sorcerer-5",
+  "level": 5,
+  "ability_score_bonuses": 1,
+  "prof_bonus": 3,
+  "features": [
+    {
+      "index": "sorcerous-restoration",
+      "name": "Sorcerous Restoration",
+      "url": "/api/2024/features/sorcerous-restoration"
+    }
+  ],
+  "class": {
+    "index": "sorcerer",
+    "name": "Sorcerer",
+    "url": "/api/2024/classes/sorcerer"
+  },
+  "class_specific": {
+    "sorcery_points": 5,
+    "metamagic_known": 2
+  },
+  "spellcasting": {
+    "cantrips_known": 5,
+    "spells_known": 9,
+    "spell_slots_level_1": 4,
+    "spell_slots_level_2": 3,
+    "spell_slots_level_3": 2
+  },
+  "url": "/api/2024/classes/sorcerer/levels/5"
+}

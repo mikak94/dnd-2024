@@ -1,0 +1,12 @@
+{
+  "index": "arrow",
+  "name": "Arrow",
+  "equipment_categories": [
+    {
+      "index": "ammunition",
+      "name": "Ammunition",
+      "url": "/api/2024/equipment-categories/ammunition"
+    }
+  ],
+  "url": "/api/2024/equipment/arrow"
+}

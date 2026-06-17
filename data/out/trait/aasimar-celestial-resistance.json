@@ -1,0 +1,14 @@
+{
+  "index": "aasimar-celestial-resistance",
+  "name": "Celestial Resistance",
+  "species": [
+    {
+      "index": "aasimar",
+      "name": "Aasimar",
+      "url": "/api/2024/species/aasimar"
+    }
+  ],
+  "subspecies": [],
+  "desc": ["You have Resistance to Necrotic damage and Radiant damage."],
+  "url": "/api/2024/traits/aasimar-celestial-resistance"
+}

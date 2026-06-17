@@ -1,0 +1,15 @@
+{
+  "index": "epic-boon-druid",
+  "name": "Epic Boon",
+  "level": 19,
+  "class": {
+    "index": "druid",
+    "name": "Druid",
+    "url": "/api/2024/classes/druid"
+  },
+  "desc": [
+    "You gain an Epic Boon feat or another feat of your choice for which you qualify. Boon of Dimensional Travel is recommended."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/epic-boon-druid"
+}

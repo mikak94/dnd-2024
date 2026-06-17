@@ -1,0 +1,21 @@
+{
+  "index": "phantom-9-voice-of-death",
+  "name": "Voice of Death",
+  "level": 9,
+  "class": {
+    "index": "rogue",
+    "name": "Rogue",
+    "url": "/api/2024/classes/rogue"
+  },
+  "subclass": {
+    "index": "phantom",
+    "name": "Phantom",
+    "url": "/api/2024/subclasses/phantom"
+  },
+  "desc": [
+    "You can cast Speak with Dead once without a spell slot, requiring no spell components and using Dexterity as the spellcasting modifier. You regain the ability to cast it this way when you finish a Short or Long Rest.",
+    "When you cast the spell, you can target one of your soul trinkets from Tokens of the Departed instead of a corpse, allowing the spirit of the creature associated with the trinket to answer."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/phantom-9-voice-of-death"
+}

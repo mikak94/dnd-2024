@@ -1,0 +1,21 @@
+{
+  "index": "light-domain-6-improved-warding-flare",
+  "name": "Improved Warding Flare",
+  "level": 6,
+  "class": {
+    "index": "cleric",
+    "name": "Cleric",
+    "url": "/api/2024/classes/cleric"
+  },
+  "subclass": {
+    "index": "light-domain",
+    "name": "Light Domain",
+    "url": "/api/2024/subclasses/light-domain"
+  },
+  "desc": [
+    "You regain all expended uses of your Warding Flare when you finish a Short or Long Rest.",
+    "In addition, whenever you use Warding Flare, you can give the target of the triggering attack a number of Temporary Hit Points equal to 2d6 plus your Wisdom modifier."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/light-domain-6-improved-warding-flare"
+}

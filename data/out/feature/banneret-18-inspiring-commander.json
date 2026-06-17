@@ -1,0 +1,22 @@
+{
+  "index": "banneret-18-inspiring-commander",
+  "name": "Inspiring Commander",
+  "level": 18,
+  "class": {
+    "index": "fighter",
+    "name": "Fighter",
+    "url": "/api/2024/classes/fighter"
+  },
+  "subclass": {
+    "index": "banneret",
+    "name": "Banneret",
+    "url": "/api/2024/subclasses/banneret"
+  },
+  "desc": [
+    "You gain the following benefits.",
+    "**Bolstered Rally.** The area of effect for both Group Recovery and Rallying Surge is now a 60-foot Emanation.",
+    "**Unshakable Bravery.** You have Immunity to the Charmed and Frightened conditions."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/banneret-18-inspiring-commander"
+}

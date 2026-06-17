@@ -1,0 +1,20 @@
+{
+  "index": "fiend-patron-10-fiendish-resilience",
+  "name": "Fiendish Resilience",
+  "level": 10,
+  "class": {
+    "index": "warlock",
+    "name": "Warlock",
+    "url": "/api/2024/classes/warlock"
+  },
+  "subclass": {
+    "index": "fiend-patron",
+    "name": "Fiend Patron",
+    "url": "/api/2024/subclasses/fiend-patron"
+  },
+  "desc": [
+    "Choose one damage type, other than Force, whenever you finish a Short or Long Rest. You have Resistance to that damage type until you choose a different one with this feature."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/fiend-patron-10-fiendish-resilience"
+}

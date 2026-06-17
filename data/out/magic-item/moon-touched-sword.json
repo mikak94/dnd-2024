@@ -1,0 +1,15 @@
+{
+  "index": "moon-touched-sword",
+  "name": "Moon-Touched Sword",
+  "equipment_category": {
+    "index": "weapons",
+    "name": "Weapons",
+    "url": "/api/2024/equipment-categories/weapons"
+  },
+  "rarity": { "name": "Common" },
+  "attunement": false,
+  "desc": "In Darkness, the unsheathed blade of this weapon sheds moonlight, creating Bright Light in a 15-foot radius and Dim Light for an additional 15 feet.",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/moon-touched-sword"
+}

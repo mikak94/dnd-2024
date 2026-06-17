@@ -1,0 +1,16 @@
+{
+  "index": "beast-master",
+  "class": {
+    "index": "ranger",
+    "name": "Ranger",
+    "url": "/api/2024/classes/ranger"
+  },
+  "name": "Beast Master",
+  "subclass_flavor": "Ranger Archetype",
+  "desc": [
+    "Bond with a Primal Beast",
+    "A Beast Master forms a mystical bond with a special animal, drawing on primal magic and a deep connection to the natural world."
+  ],
+  "subclass_levels": "/api/2024/subclasses/beast-master/levels",
+  "url": "/api/2024/subclasses/beast-master"
+}

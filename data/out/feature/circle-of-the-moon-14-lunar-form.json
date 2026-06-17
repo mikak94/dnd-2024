@@ -1,0 +1,22 @@
+{
+  "index": "circle-of-the-moon-14-lunar-form",
+  "name": "Lunar Form",
+  "level": 14,
+  "class": {
+    "index": "druid",
+    "name": "Druid",
+    "url": "/api/2024/classes/druid"
+  },
+  "subclass": {
+    "index": "circle-of-the-moon",
+    "name": "Circle of the Moon",
+    "url": "/api/2024/subclasses/circle-of-the-moon"
+  },
+  "desc": [
+    "The power of the moon suffuses you, granting you the following benefits.",
+    "**Improved Lunar Radiance.** Once per turn, you can deal an extra 2d10 Radiant damage to a target you hit with a Wild Shape form's attack.",
+    "**Shared Moonlight.** Whenever you use Moonlight Step, you can also teleport one willing creature. That creature must be within 10 feet of you, and you teleport it to an unoccupied space you can see within 10 feet of your destination space."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/circle-of-the-moon-14-lunar-form"
+}

@@ -1,0 +1,20 @@
+{
+  "index": "gloom-stalker-15-shadowy-dodge",
+  "name": "Shadowy Dodge",
+  "level": 15,
+  "class": {
+    "index": "ranger",
+    "name": "Ranger",
+    "url": "/api/2024/classes/ranger"
+  },
+  "subclass": {
+    "index": "gloom-stalker",
+    "name": "Gloom Stalker",
+    "url": "/api/2024/subclasses/gloom-stalker"
+  },
+  "desc": [
+    "When a creature makes an attack roll against you, you can take a Reaction to impose Disadvantage on that roll. Whether the attack hits or misses, you can teleport up to 30 feet to an unoccupied space that you can see."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/gloom-stalker-15-shadowy-dodge"
+}

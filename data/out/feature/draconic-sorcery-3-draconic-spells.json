@@ -1,0 +1,26 @@
+{
+  "index": "draconic-sorcery-3-draconic-spells",
+  "name": "Draconic Spells",
+  "level": 3,
+  "class": {
+    "index": "sorcerer",
+    "name": "Sorcerer",
+    "url": "/api/2024/classes/sorcerer"
+  },
+  "subclass": {
+    "index": "draconic-sorcery",
+    "name": "Draconic Sorcery",
+    "url": "/api/2024/subclasses/draconic-sorcery"
+  },
+  "desc": [
+    "When you reach a Sorcerer level specified in the Draconic Spells table, you thereafter always have the listed spells prepared.",
+    "| Sorcerer Level | Spells |",
+    "| --- | --- |",
+    "| 3 | Alter Self, Chromatic Orb, Command, Dragon's Breath |",
+    "| 5 | Fear, Fly |",
+    "| 7 | Arcane Eye, Charm Monster |",
+    "| 9 | Legend Lore, Summon Dragon |"
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/draconic-sorcery-3-draconic-spells"
+}

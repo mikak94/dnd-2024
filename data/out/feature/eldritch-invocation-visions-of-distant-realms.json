@@ -1,0 +1,23 @@
+{
+  "index": "eldritch-invocation-visions-of-distant-realms",
+  "name": "Eldritch Invocation: Visions of Distant Realms",
+  "level": 9,
+  "class": {
+    "index": "warlock",
+    "name": "Warlock",
+    "url": "/api/2024/classes/warlock"
+  },
+  "parent": {
+    "index": "eldritch-invocations",
+    "name": "Eldritch Invocations",
+    "url": "/api/2024/features/eldritch-invocations"
+  },
+  "desc": ["You can cast Arcane Eye without expending a spell slot."],
+  "prerequisites": [
+    {
+      "type": "level",
+      "level": 9
+    }
+  ],
+  "url": "/api/2024/features/eldritch-invocation-visions-of-distant-realms"
+}

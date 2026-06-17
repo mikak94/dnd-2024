@@ -1,0 +1,32 @@
+{
+  "index": "beast-sense",
+  "name": "Beast Sense",
+  "level": 2,
+  "school": {
+    "index": "divination",
+    "name": "Divination",
+    "url": "/api/2024/magic-schools/divination"
+  },
+  "casting_time": "Action",
+  "range": "Touch",
+  "components": ["S"],
+  "ritual": true,
+  "concentration": true,
+  "duration": "Concentration, up to 1 hour",
+  "desc": [
+    "You touch a willing Beast. For the duration, you can perceive through the Beast's senses as well as your own. When perceiving through the Beast's senses, you benefit from any special senses it has."
+  ],
+  "classes": [
+    {
+      "index": "druid",
+      "name": "Druid",
+      "url": "/api/2024/classes/druid"
+    },
+    {
+      "index": "ranger",
+      "name": "Ranger",
+      "url": "/api/2024/classes/ranger"
+    }
+  ],
+  "url": "/api/2024/spells/beast-sense"
+}

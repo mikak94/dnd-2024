@@ -1,0 +1,13 @@
+{
+  "index": "bard-subclass",
+  "name": "Subclass feature",
+  "level": 14,
+  "class": {
+    "index": "bard",
+    "name": "Bard",
+    "url": "/api/2024/classes/bard"
+  },
+  "desc": ["You gain a feature granted by your Bard subclass."],
+  "prerequisites": [],
+  "url": "/api/2024/features/bard-subclass"
+}

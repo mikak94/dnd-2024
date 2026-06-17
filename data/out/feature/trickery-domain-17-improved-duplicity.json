@@ -1,0 +1,22 @@
+{
+  "index": "trickery-domain-17-improved-duplicity",
+  "name": "Improved Duplicity",
+  "level": 17,
+  "class": {
+    "index": "cleric",
+    "name": "Cleric",
+    "url": "/api/2024/classes/cleric"
+  },
+  "subclass": {
+    "index": "trickery-domain",
+    "name": "Trickery Domain",
+    "url": "/api/2024/subclasses/trickery-domain"
+  },
+  "desc": [
+    "The illusion of your Invoke Duplicity has grown more powerful in the following ways.",
+    "**Shared Distraction.** When you and your allies make attack rolls against a creature within 5 feet of the illusion, the attack rolls have Advantage.",
+    "**Healing Illusion.** When the illusion ends, you or a creature of your choice within 5 feet of it regains a number of Hit Points equal to your Cleric level."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/trickery-domain-17-improved-duplicity"
+}

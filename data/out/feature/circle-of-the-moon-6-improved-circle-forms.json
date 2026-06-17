@@ -1,0 +1,22 @@
+{
+  "index": "circle-of-the-moon-6-improved-circle-forms",
+  "name": "Improved Circle Forms",
+  "level": 6,
+  "class": {
+    "index": "druid",
+    "name": "Druid",
+    "url": "/api/2024/classes/druid"
+  },
+  "subclass": {
+    "index": "circle-of-the-moon",
+    "name": "Circle of the Moon",
+    "url": "/api/2024/subclasses/circle-of-the-moon"
+  },
+  "desc": [
+    "While in a Wild Shape form, you gain the following benefits.",
+    "**Lunar Radiance.** Each of your attacks in a Wild Shape form can deal its normal damage type or Radiant damage. You make this choice each time you hit with those attacks.",
+    "**Increased Toughness.** You can add your Wisdom modifier to your Constitution saving throws."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/circle-of-the-moon-6-improved-circle-forms"
+}

@@ -1,0 +1,14 @@
+{
+  "index": "warm-fungal-clothing",
+  "name": "Warm Fungal Clothing",
+  "equipment_categories": [
+    {
+      "index": "adventuring-gear",
+      "name": "Adventuring Gear",
+      "url": "/api/2024/equipment-categories/adventuring-gear"
+    }
+  ],
+  "cost": { "quantity": 15, "unit": "gp" },
+  "description": "When you're wearing Warm Fungal Clothing, you automatically succeed on saving throws against the effects of extreme cold. See chapter 3 of the Dungeon Master's Guide for rules on extreme cold. One pound of fungus is sewn into Fungal Clothing. This fungus can be eaten as food. Once all the fungus is consumed, this becomes a mundane set of Traveler's Clothes.",
+  "url": "/api/2024/equipment/warm-fungal-clothing"
+}

@@ -1,0 +1,20 @@
+{
+  "index": "illusionist-6-phantasmal-creatures",
+  "name": "Phantasmal Creatures",
+  "level": 6,
+  "class": {
+    "index": "wizard",
+    "name": "Wizard",
+    "url": "/api/2024/classes/wizard"
+  },
+  "subclass": {
+    "index": "illusionist",
+    "name": "Illusionist",
+    "url": "/api/2024/subclasses/illusionist"
+  },
+  "desc": [
+    "You always have the Summon Beast and Summon Fey spells prepared. Whenever you cast either spell, you can change its school to Illusion, which causes the summoned creature to appear spectral. You can cast the Illusion version of each spell without expending a spell slot, but casting it without a slot halves the creature's Hit Points. Once you cast either spell without a spell slot, you must finish a Long Rest before you can cast the spell in that way again."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/illusionist-6-phantasmal-creatures"
+}

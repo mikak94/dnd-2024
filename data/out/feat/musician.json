@@ -1,0 +1,104 @@
+{
+  "index": "musician",
+  "name": "Musician",
+  "type": "origin",
+  "prerequisites": [],
+  "desc": [
+    "You gain the following benefits.",
+    "Instrument Training. You gain proficiency with three Musical Instruments of your choice.",
+    "Encouraging Song. As you finish a Short or Long Rest, you can play a song on a Musical Instrument with which you have proficiency and give Heroic Inspiration to allies who hear the song. The number of allies you can affect in this way equals your Proficiency Bonus."
+  ],
+  "choices": [
+    {
+      "desc": "You gain proficiency with three Musical Instruments of your choice.",
+      "choose": 3,
+      "type": "proficiencies",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "bagpipes",
+              "name": "Bagpipes",
+              "url": "/api/2024/proficiencies/bagpipes"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "drum",
+              "name": "Drum",
+              "url": "/api/2024/proficiencies/drum"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "dulcimer",
+              "name": "Dulcimer",
+              "url": "/api/2024/proficiencies/dulcimer"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "flute",
+              "name": "Flute",
+              "url": "/api/2024/proficiencies/flute"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "horn",
+              "name": "Horn",
+              "url": "/api/2024/proficiencies/horn"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "lute",
+              "name": "Lute",
+              "url": "/api/2024/proficiencies/lute"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "lyre",
+              "name": "Lyre",
+              "url": "/api/2024/proficiencies/lyre"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "pan-flute",
+              "name": "Pan flute",
+              "url": "/api/2024/proficiencies/pan-flute"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "shawm",
+              "name": "Shawm",
+              "url": "/api/2024/proficiencies/shawm"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "viol",
+              "name": "Viol",
+              "url": "/api/2024/proficiencies/viol"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "url": "/api/2024/feats/musician"
+}

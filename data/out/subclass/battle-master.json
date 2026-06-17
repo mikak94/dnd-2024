@@ -1,0 +1,16 @@
+{
+  "index": "battle-master",
+  "class": {
+    "index": "fighter",
+    "name": "Fighter",
+    "url": "/api/2024/classes/fighter"
+  },
+  "name": "Battle Master",
+  "subclass_flavor": "Martial Archetype",
+  "desc": [
+    "Master Sophisticated Battle Maneuvers",
+    "Battle Masters are students of the art of battle, learning martial techniques passed down through generations. The most accomplished Battle Masters are well-rounded figures who combine their carefully honed combat skills with academic study in the fields of history, theory, and the arts."
+  ],
+  "subclass_levels": "/api/2024/subclasses/battle-master/levels",
+  "url": "/api/2024/subclasses/battle-master"
+}

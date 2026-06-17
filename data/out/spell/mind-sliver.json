@@ -1,0 +1,61 @@
+{
+  "index": "mind-sliver",
+  "name": "Mind Sliver",
+  "level": 0,
+  "school": {
+    "index": "enchantment",
+    "name": "Enchantment",
+    "url": "/api/2024/magic-schools/enchantment"
+  },
+  "casting_time": "Action",
+  "range": "60 feet",
+  "components": ["V"],
+  "ritual": false,
+  "concentration": false,
+  "duration": "1 round",
+  "desc": [
+    "You try to temporarily sliver the mind of one creature you can see within range. The target must succeed on an Intelligence saving throw or take 1d6 Psychic damage and subtract 1d4 from the next saving throw it makes before the end of your next turn."
+  ],
+  "higher_level": [
+    "Cantrip Upgrade. The damage increases by 1d6 when you reach levels 5 (2d6), 11 (3d6), and 17 (4d6)."
+  ],
+  "damage": {
+    "damage_type": {
+      "index": "psychic",
+      "name": "Psychic",
+      "url": "/api/2024/damage-types/psychic"
+    },
+    "damage_at_character_level": {
+      "1": "1d6",
+      "5": "2d6",
+      "11": "3d6",
+      "17": "4d6"
+    }
+  },
+  "dc": {
+    "dc_type": {
+      "index": "int",
+      "name": "INT",
+      "url": "/api/2024/ability-scores/int"
+    },
+    "dc_success": "none"
+  },
+  "classes": [
+    {
+      "index": "sorcerer",
+      "name": "Sorcerer",
+      "url": "/api/2024/classes/sorcerer"
+    },
+    {
+      "index": "warlock",
+      "name": "Warlock",
+      "url": "/api/2024/classes/warlock"
+    },
+    {
+      "index": "wizard",
+      "name": "Wizard",
+      "url": "/api/2024/classes/wizard"
+    }
+  ],
+  "url": "/api/2024/spells/mind-sliver"
+}

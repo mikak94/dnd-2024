@@ -1,0 +1,33 @@
+{
+  "index": "paladin-1",
+  "level": 1,
+  "ability_score_bonuses": 0,
+  "prof_bonus": 2,
+  "features": [
+    {
+      "index": "lay-on-hands",
+      "name": "Lay On Hands",
+      "url": "/api/2024/features/lay-on-hands"
+    },
+    {
+      "index": "spellcasting-paladin",
+      "name": "Spellcasting",
+      "url": "/api/2024/features/spellcasting-paladin"
+    },
+    {
+      "index": "weapon-mastery-paladin",
+      "name": "Weapon Mastery",
+      "url": "/api/2024/features/weapon-mastery-paladin"
+    }
+  ],
+  "class": {
+    "index": "paladin",
+    "name": "Paladin",
+    "url": "/api/2024/classes/paladin"
+  },
+  "spellcasting": {
+    "spells_known": 2,
+    "spell_slots_level_1": 2
+  },
+  "url": "/api/2024/classes/paladin/levels/1"
+}

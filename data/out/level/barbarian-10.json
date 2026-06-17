@@ -1,0 +1,24 @@
+{
+  "index": "barbarian-10",
+  "level": 10,
+  "ability_score_bonuses": 2,
+  "prof_bonus": 4,
+  "features": [
+    {
+      "index": "barbarian-subclass-feature-10",
+      "name": "Subclass Feature",
+      "url": "/api/2024/features/barbarian-subclass-feature-10"
+    }
+  ],
+  "class": {
+    "index": "barbarian",
+    "name": "Barbarian",
+    "url": "/api/2024/classes/barbarian"
+  },
+  "class_specific": {
+    "rage_count": 4,
+    "rage_damage_bonus": 3,
+    "brutal_critical_dice": 0
+  },
+  "url": "/api/2024/classes/barbarian/levels/10"
+}

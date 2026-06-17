@@ -1,0 +1,10 @@
+{
+  "index": "truth-serum",
+  "name": "Truth Serum",
+  "type": "ingested",
+  "cost": { "quantity": 150, "unit": "gp" },
+  "desc": [
+    "A creature subjected to Truth Serum must succeed on a DC 11 Constitution saving throw or have the Poisoned condition for 1 hour. The Poisoned creature can't knowingly communicate a lie."
+  ],
+  "url": "/api/2024/poisons/truth-serum"
+}

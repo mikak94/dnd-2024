@@ -1,0 +1,15 @@
+{
+  "index": "potion-of-greater-invisibility",
+  "name": "Potion of Greater Invisibility",
+  "equipment_category": {
+    "index": "potions",
+    "name": "Potions",
+    "url": "/api/2024/equipment-categories/potions"
+  },
+  "rarity": { "name": "Very Rare" },
+  "attunement": false,
+  "desc": "This potion's container looks empty but feels as though it holds liquid. When you drink the potion, you have the Invisible condition for 1 hour.",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/potion-of-greater-invisibility"
+}

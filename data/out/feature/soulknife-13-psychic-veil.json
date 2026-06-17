@@ -1,0 +1,21 @@
+{
+  "index": "soulknife-13-psychic-veil",
+  "name": "Psychic Veil",
+  "level": 13,
+  "class": {
+    "index": "rogue",
+    "name": "Rogue",
+    "url": "/api/2024/classes/rogue"
+  },
+  "subclass": {
+    "index": "soulknife",
+    "name": "Soulknife",
+    "url": "/api/2024/subclasses/soulknife"
+  },
+  "desc": [
+    "You can weave a veil of psychic static to mask yourself. As a Magic action, you gain the Invisible condition for 1 hour or until you dismiss the effect (no action required). This invisibility ends early immediately after you deal damage to a creature or you force a creature to make a saving throw.",
+    "Once you use this feature, you can't do so again until you finish a Long Rest unless you expend a Psionic Energy Die (no action required) to restore your use of it."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/soulknife-13-psychic-veil"
+}

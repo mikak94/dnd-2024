@@ -1,0 +1,11 @@
+{
+  "index": "tool-thieves-tools",
+  "name": "Tool: Thieves' Tools",
+  "type": "Tools",
+  "reference": {
+    "index": "thieves-tools",
+    "name": "Thieves' Tools",
+    "url": "/api/2024/equipment/thieves-tools"
+  },
+  "url": "/api/2024/proficiencies/tool-thieves-tools"
+}

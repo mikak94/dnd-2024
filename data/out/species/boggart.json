@@ -1,0 +1,32 @@
+{
+  "index": "boggart",
+  "name": "Boggart",
+  "size": "Small",
+  "size_description": "about 2–4 feet tall",
+  "speed": 30,
+  "type": "Humanoid",
+  "traits": [
+    {
+      "index": "boggart-darkvision",
+      "name": "Darkvision",
+      "url": "/api/2024/traits/boggart-darkvision"
+    },
+    {
+      "index": "boggart-fey-ancestry",
+      "name": "Fey Ancestry",
+      "url": "/api/2024/traits/boggart-fey-ancestry"
+    },
+    {
+      "index": "boggart-fury-of-the-small",
+      "name": "Fury of the Small",
+      "url": "/api/2024/traits/boggart-fury-of-the-small"
+    },
+    {
+      "index": "boggart-nimble-escape",
+      "name": "Nimble Escape",
+      "url": "/api/2024/traits/boggart-nimble-escape"
+    }
+  ],
+  "subspecies": [],
+  "url": "/api/2024/species/boggart"
+}

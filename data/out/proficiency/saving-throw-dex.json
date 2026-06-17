@@ -1,0 +1,11 @@
+{
+  "index": "saving-throw-dex",
+  "name": "Saving Throw: DEX",
+  "type": "Saving Throws",
+  "reference": {
+    "index": "dex",
+    "name": "DEX",
+    "url": "/api/2024/ability-scores/dex"
+  },
+  "url": "/api/2024/proficiencies/saving-throw-dex"
+}

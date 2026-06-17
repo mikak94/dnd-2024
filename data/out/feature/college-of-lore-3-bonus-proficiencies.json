@@ -1,0 +1,18 @@
+{
+  "index": "college-of-lore-3-bonus-proficiencies",
+  "name": "Bonus Proficiencies",
+  "level": 3,
+  "class": {
+    "index": "bard",
+    "name": "Bard",
+    "url": "/api/2024/classes/bard"
+  },
+  "subclass": {
+    "index": "college-of-lore",
+    "name": "College of Lore",
+    "url": "/api/2024/subclasses/college-of-lore"
+  },
+  "desc": ["You gain proficiency with three skills of your choice."],
+  "prerequisites": [],
+  "url": "/api/2024/features/college-of-lore-3-bonus-proficiencies"
+}

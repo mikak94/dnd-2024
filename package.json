@@ -1,0 +1,30 @@
+{
+  "type": "module",
+  "scripts": {
+    "crawl": "tsx src/pipeline/crawl.ts",
+    "convert": "tsx src/pipeline/convert.ts",
+    "proficiencies": "tsx src/pipeline/proficiencies.ts",
+    "conditions": "tsx src/pipeline/conditions.ts",
+    "languages": "tsx src/pipeline/languages.ts",
+    "validate": "tsx src/pipeline/validate.ts",
+    "test": "vitest run",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "dependencies": {
+    "5e-database": "github:5e-bits/5e-database",
+    "bottleneck": "^2.19.5",
+    "cheerio": "^1.2.0",
+    "turndown": "^7.2.4",
+    "turndown-plugin-gfm": "^1.0.2",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.3",
+    "@types/turndown": "^5.0.6",
+    "prettier": "^3.8.4",
+    "tsx": "^4.22.4",
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.9"
+  }
+}

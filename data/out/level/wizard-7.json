@@ -1,0 +1,24 @@
+{
+  "index": "wizard-7",
+  "level": 7,
+  "ability_score_bonuses": 1,
+  "prof_bonus": 3,
+  "features": [],
+  "class": {
+    "index": "wizard",
+    "name": "Wizard",
+    "url": "/api/2024/classes/wizard"
+  },
+  "class_specific": {
+    "arcane_recovery_levels": 4
+  },
+  "spellcasting": {
+    "cantrips_known": 4,
+    "spells_known": 11,
+    "spell_slots_level_1": 4,
+    "spell_slots_level_2": 3,
+    "spell_slots_level_3": 3,
+    "spell_slots_level_4": 1
+  },
+  "url": "/api/2024/classes/wizard/levels/7"
+}

@@ -1,0 +1,11 @@
+{
+  "index": "longswords",
+  "name": "Longswords",
+  "type": "Weapons",
+  "reference": {
+    "index": "longsword",
+    "name": "Longsword",
+    "url": "/api/2024/equipment/longsword"
+  },
+  "url": "/api/2024/proficiencies/longswords"
+}

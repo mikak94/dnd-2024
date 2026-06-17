@@ -1,0 +1,17 @@
+{
+  "index": "talisman-of-the-sphere",
+  "name": "Talisman of the Sphere",
+  "equipment_category": {
+    "index": "wondrous-items",
+    "name": "Wondrous Items",
+    "url": "/api/2024/equipment-categories/wondrous-items"
+  },
+  "rarity": {
+    "name": "Legendary"
+  },
+  "attunement": true,
+  "desc": "While holding or wearing this talisman, you have Advantage on any Intelligence (Arcana) check you make to control a Sphere of Annihilation. In addition, when you start your turn in control of a Sphere of Annihilation, you can take a Magic action to move it 10 feet plus a number of additional feet equal to 10 times your Intelligence modifier. This movement doesn't have to be in a straight line.",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/talisman-of-the-sphere"
+}

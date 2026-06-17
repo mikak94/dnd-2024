@@ -1,0 +1,21 @@
+{
+  "index": "hollow-warden-3-hollow-warden-spells",
+  "name": "Hollow Warden Spells",
+  "level": 3,
+  "class": {
+    "index": "ranger",
+    "name": "Ranger",
+    "url": "/api/2024/classes/ranger"
+  },
+  "subclass": {
+    "index": "hollow-warden",
+    "name": "Hollow Warden",
+    "url": "/api/2024/subclasses/hollow-warden"
+  },
+  "desc": [
+    "When you reach a Ranger level specified in the Hollow Warden Spells table, you thereafter always have the listed spell prepared.",
+    "| Ranger Level | Spells |\n| --- | --- |\n| 3 | Wrathful Smite |\n| 5 | Alter Self |\n| 9 | Phantom Steed |\n| 13 | Dominate Beast |\n| 17 | Steel Wind Strike |"
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/hollow-warden-3-hollow-warden-spells"
+}

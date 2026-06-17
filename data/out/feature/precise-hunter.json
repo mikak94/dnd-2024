@@ -1,0 +1,15 @@
+{
+  "index": "precise-hunter",
+  "name": "Precise Hunter",
+  "level": 17,
+  "class": {
+    "index": "ranger",
+    "name": "Ranger",
+    "url": "/api/2024/classes/ranger"
+  },
+  "desc": [
+    "You have Advantage on attack rolls against the creature currently marked by your Hunter's Mark."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/precise-hunter"
+}

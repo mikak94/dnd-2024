@@ -1,0 +1,15 @@
+{
+  "index": "armor-of-resistance",
+  "name": "Armor of Resistance",
+  "equipment_category": {
+    "index": "armor",
+    "name": "Armor",
+    "url": "/api/2024/equipment-categories/armor"
+  },
+  "rarity": { "name": "Rare" },
+  "attunement": true,
+  "desc": "You have Resistance to one type of damage while you wear this armor. The DM chooses the type or determines it randomly by rolling on the following table.\n\n| 1d10 | Damage Type |\n| --- | --- |\n| 1 | Acid |\n| 2 | Cold |\n| 3 | Fire |\n| 4 | Force |\n| 5 | Lightning |\n| 6 | Necrotic |\n| 7 | Poison |\n| 8 | Psychic |\n| 9 | Radiant |\n| 10 | Thunder |",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/armor-of-resistance"
+}

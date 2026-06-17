@@ -1,0 +1,107 @@
+{
+  "index": "aberrant-sorcery",
+  "class": {
+    "index": "sorcerer",
+    "name": "Sorcerer",
+    "url": "/api/2024/classes/sorcerer"
+  },
+  "name": "Aberrant Sorcery",
+  "subclass_flavor": "Sorcerous Origin",
+  "desc": [
+    "Wield Unnatural Psionic Power",
+    "An alien influence has wrapped its tendrils around your mind, giving you psionic power. You can now touch other minds with that power and alter the world around you. Will this power shine from you as a hopeful beacon to others? Or will you be a terror to those who feel the stab of your mind?",
+    "Perhaps a psychic wind from the Astral Plane carried psionic energy to you, or you were exposed to the Far Realm's warping influence. Alternatively, you were implanted with a mind flayer tadpole, but your transformation into a mind flayer never occurred; now the tadpole's psionic power is yours. However you acquired this power, your mind is aflame with it."
+  ],
+  "subclass_levels": "/api/2024/subclasses/aberrant-sorcery/levels",
+  "spells": [
+    {
+      "prerequisites": [{ "index": "aberrant-sorcery-3", "type": "level" }],
+      "spell": {
+        "index": "arms-of-hadar",
+        "name": "Arms of Hadar",
+        "url": "/api/2024/spells/arms-of-hadar"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "aberrant-sorcery-3", "type": "level" }],
+      "spell": {
+        "index": "calm-emotions",
+        "name": "Calm Emotions",
+        "url": "/api/2024/spells/calm-emotions"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "aberrant-sorcery-3", "type": "level" }],
+      "spell": {
+        "index": "detect-thoughts",
+        "name": "Detect Thoughts",
+        "url": "/api/2024/spells/detect-thoughts"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "aberrant-sorcery-3", "type": "level" }],
+      "spell": {
+        "index": "dissonant-whispers",
+        "name": "Dissonant Whispers",
+        "url": "/api/2024/spells/dissonant-whispers"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "aberrant-sorcery-3", "type": "level" }],
+      "spell": {
+        "index": "mind-sliver",
+        "name": "Mind Sliver",
+        "url": "/api/2024/spells/mind-sliver"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "aberrant-sorcery-5", "type": "level" }],
+      "spell": {
+        "index": "hunger-of-hadar",
+        "name": "Hunger of Hadar",
+        "url": "/api/2024/spells/hunger-of-hadar"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "aberrant-sorcery-5", "type": "level" }],
+      "spell": {
+        "index": "sending",
+        "name": "Sending",
+        "url": "/api/2024/spells/sending"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "aberrant-sorcery-7", "type": "level" }],
+      "spell": {
+        "index": "evards-black-tentacles",
+        "name": "Evard's Black Tentacles",
+        "url": "/api/2024/spells/evards-black-tentacles"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "aberrant-sorcery-7", "type": "level" }],
+      "spell": {
+        "index": "summon-aberration",
+        "name": "Summon Aberration",
+        "url": "/api/2024/spells/summon-aberration"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "aberrant-sorcery-9", "type": "level" }],
+      "spell": {
+        "index": "rarys-telepathic-bond",
+        "name": "Rary's Telepathic Bond",
+        "url": "/api/2024/spells/rarys-telepathic-bond"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "aberrant-sorcery-9", "type": "level" }],
+      "spell": {
+        "index": "telekinesis",
+        "name": "Telekinesis",
+        "url": "/api/2024/spells/telekinesis"
+      }
+    }
+  ],
+  "url": "/api/2024/subclasses/aberrant-sorcery"
+}

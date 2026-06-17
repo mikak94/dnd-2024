@@ -1,0 +1,95 @@
+{
+  "index": "criminal",
+  "name": "Criminal",
+  "starting_proficiencies": [
+    {
+      "index": "skill-sleight-of-hand",
+      "name": "Skill: Sleight of Hand",
+      "url": "/api/2024/proficiencies/skill-sleight-of-hand"
+    },
+    {
+      "index": "skill-stealth",
+      "name": "Skill: Stealth",
+      "url": "/api/2024/proficiencies/skill-stealth"
+    },
+    {
+      "index": "tool-thieves-tools",
+      "name": "Tool: Thieves' Tools",
+      "url": "/api/2024/proficiencies/tool-thieves-tools"
+    }
+  ],
+  "ability_scores": [
+    { "index": "dex", "name": "DEX", "url": "/api/2024/ability-scores/dex" },
+    { "index": "con", "name": "CON", "url": "/api/2024/ability-scores/con" },
+    { "index": "int", "name": "INT", "url": "/api/2024/ability-scores/int" }
+  ],
+  "feat": { "index": "alert", "name": "Alert", "url": "/api/2024/feats/alert" },
+  "starting_equipment_options": [
+    {
+      "desc": "Choose A or B: (A) 2 Daggers, Thieves' Tools, Crowbar, 2 Pouches, Traveler's Clothes, 16 GP; or (B) 50 GP",
+      "choose": 1,
+      "type": "equipment",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "multiple",
+            "items": [
+              {
+                "option_type": "counted_reference",
+                "count": 2,
+                "of": {
+                  "index": "dagger",
+                  "name": "Dagger",
+                  "url": "/api/2024/equipment/dagger"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "thieves-tools",
+                  "name": "Thieves' Tools",
+                  "url": "/api/2024/equipment/thieves-tools"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "crowbar",
+                  "name": "Crowbar",
+                  "url": "/api/2024/equipment/crowbar"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 2,
+                "of": {
+                  "index": "pouch",
+                  "name": "Pouch",
+                  "url": "/api/2024/equipment/pouch"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "travelers-clothes",
+                  "name": "Traveler's Clothes",
+                  "url": "/api/2024/equipment/travelers-clothes"
+                }
+              },
+              { "option_type": "money", "count": 16, "unit": "GP" }
+            ]
+          },
+          { "option_type": "money", "count": 50, "unit": "GP" }
+        ]
+      }
+    }
+  ],
+  "desc": [
+    "You eked out a living in dark alleyways, cutting purses or burgling shops. Perhaps you were part of a small gang of like-minded wrongdoers who looked out for each other. Or maybe you were a lone wolf, fending for yourself against the local thieves' guild and more fearsome lawbreakers."
+  ],
+  "url": "/api/2024/backgrounds/criminal"
+}

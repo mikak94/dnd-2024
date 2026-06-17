@@ -1,0 +1,65 @@
+{
+  "index": "faerie-fairy-magic",
+  "name": "Fairy Magic",
+  "species": [
+    {
+      "index": "faerie",
+      "name": "Faerie",
+      "url": "/api/2024/species/faerie"
+    }
+  ],
+  "subspecies": [],
+  "desc": [
+    "You know the Druidcraft cantrip.",
+    "Starting at 3rd level, you can cast the Faerie Fire spell with this trait. Starting at 5th level, you can also cast the Enlarge/Reduce spell with this trait. Once you cast Faerie Fire or Enlarge/Reduce with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.",
+    "Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race)."
+  ],
+  "trait_specific": {
+    "spellcasting": {
+      "ability": [
+        {
+          "index": "int",
+          "name": "INT",
+          "url": "/api/2024/ability-scores/int"
+        },
+        {
+          "index": "wis",
+          "name": "WIS",
+          "url": "/api/2024/ability-scores/wis"
+        },
+        {
+          "index": "cha",
+          "name": "CHA",
+          "url": "/api/2024/ability-scores/cha"
+        }
+      ],
+      "spells": [
+        {
+          "spell": {
+            "index": "druidcraft",
+            "name": "Druidcraft",
+            "url": "/api/2024/spells/druidcraft"
+          },
+          "level": 1
+        },
+        {
+          "spell": {
+            "index": "faerie-fire",
+            "name": "Faerie Fire",
+            "url": "/api/2024/spells/faerie-fire"
+          },
+          "level": 3
+        },
+        {
+          "spell": {
+            "index": "enlarge-reduce",
+            "name": "Enlarge/Reduce",
+            "url": "/api/2024/spells/enlarge-reduce"
+          },
+          "level": 5
+        }
+      ]
+    }
+  },
+  "url": "/api/2024/traits/faerie-fairy-magic"
+}

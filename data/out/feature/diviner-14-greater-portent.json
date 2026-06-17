@@ -1,0 +1,20 @@
+{
+  "index": "diviner-14-greater-portent",
+  "name": "Greater Portent",
+  "level": 14,
+  "class": {
+    "index": "wizard",
+    "name": "Wizard",
+    "url": "/api/2024/classes/wizard"
+  },
+  "subclass": {
+    "index": "diviner",
+    "name": "Diviner",
+    "url": "/api/2024/subclasses/diviner"
+  },
+  "desc": [
+    "The visions in your dreams intensify and paint a more accurate picture in your mind of what is to come. Roll three d20s for your Portent feature rather than two."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/diviner-14-greater-portent"
+}

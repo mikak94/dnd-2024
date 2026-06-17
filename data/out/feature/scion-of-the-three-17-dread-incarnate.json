@@ -1,0 +1,22 @@
+{
+  "index": "scion-of-the-three-17-dread-incarnate",
+  "name": "Dread Incarnate",
+  "level": 17,
+  "class": {
+    "index": "rogue",
+    "name": "Rogue",
+    "url": "/api/2024/classes/rogue"
+  },
+  "subclass": {
+    "index": "scion-of-the-three",
+    "name": "Scion of the Three",
+    "url": "/api/2024/subclasses/scion-of-the-three"
+  },
+  "desc": [
+    "You gain the following benefits.",
+    "**Cutthroat.** You regain one expended use of Bloodthirst when you finish a Short Rest.",
+    "**Murderous Intent.** When you roll for your Sneak Attack damage, you can treat a roll of a 1 or 2 on the die as a 3."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/scion-of-the-three-17-dread-incarnate"
+}

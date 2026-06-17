@@ -1,0 +1,15 @@
+{
+  "index": "ability-score-improvement-fighter",
+  "name": "Ability Score Improvement",
+  "level": 12,
+  "class": {
+    "index": "fighter",
+    "name": "Fighter",
+    "url": "/api/2024/classes/fighter"
+  },
+  "desc": [
+    "You gain the Ability Score Improvement feat or another feat of your choice for which you qualify. You gain this feature again at Fighter levels 6, 8, 12, 14, and 16."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/ability-score-improvement-fighter"
+}

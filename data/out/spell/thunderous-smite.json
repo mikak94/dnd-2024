@@ -1,0 +1,56 @@
+{
+  "index": "thunderous-smite",
+  "name": "Thunderous Smite",
+  "level": 1,
+  "school": {
+    "index": "evocation",
+    "name": "Evocation",
+    "url": "/api/2024/magic-schools/evocation"
+  },
+  "casting_time": "Bonus Action, which you take immediately after hitting a target with a Melee weapon or an Unarmed Strike",
+  "range": "Self",
+  "components": ["V"],
+  "ritual": false,
+  "concentration": false,
+  "duration": "Instantaneous",
+  "desc": [
+    "Your strike rings with thunder that is audible within 300 feet of you, and the target takes an extra 2d6 Thunder damage from the attack. Additionally, if the target is a creature, it must succeed on a Strength saving throw or be pushed 10 feet away from you and have the Prone condition."
+  ],
+  "higher_level": [
+    "Using a Higher-Level Spell Slot. The damage increases by 1d6 for each spell slot level above 1."
+  ],
+  "damage": {
+    "damage_type": {
+      "index": "thunder",
+      "name": "Thunder",
+      "url": "/api/2024/damage-types/thunder"
+    },
+    "damage_at_slot_level": {
+      "1": "2d6",
+      "2": "3d6",
+      "3": "4d6",
+      "4": "5d6",
+      "5": "6d6",
+      "6": "7d6",
+      "7": "8d6",
+      "8": "9d6",
+      "9": "10d6"
+    }
+  },
+  "dc": {
+    "dc_type": {
+      "index": "str",
+      "name": "STR",
+      "url": "/api/2024/ability-scores/str"
+    },
+    "dc_success": "none"
+  },
+  "classes": [
+    {
+      "index": "paladin",
+      "name": "Paladin",
+      "url": "/api/2024/classes/paladin"
+    }
+  ],
+  "url": "/api/2024/spells/thunderous-smite"
+}

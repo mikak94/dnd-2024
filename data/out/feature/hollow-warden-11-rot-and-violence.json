@@ -1,0 +1,22 @@
+{
+  "index": "hollow-warden-11-rot-and-violence",
+  "name": "Rot and Violence",
+  "level": 11,
+  "class": {
+    "index": "ranger",
+    "name": "Ranger",
+    "url": "/api/2024/classes/ranger"
+  },
+  "subclass": {
+    "index": "hollow-warden",
+    "name": "Hollow Warden",
+    "url": "/api/2024/subclasses/hollow-warden"
+  },
+  "desc": [
+    "Your dedication to wild eldritch beings alters you further. When transformed using Wrath of the Wild, you gain the following additional benefits.",
+    "**Menacing Aura.** When a creature fails its saving throw against your Unnerving Aura, it also can't regain Hit Points or take Reactions until the start of your next turn.",
+    "**Strangling Roots.** When you hit a creature with an attack roll using a weapon, you can activate the Sap or Slow mastery property in addition to a different mastery property you're using with that weapon."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/hollow-warden-11-rot-and-violence"
+}

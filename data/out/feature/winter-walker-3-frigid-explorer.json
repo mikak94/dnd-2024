@@ -1,0 +1,23 @@
+{
+  "index": "winter-walker-3-frigid-explorer",
+  "name": "Frigid Explorer",
+  "level": 3,
+  "class": {
+    "index": "ranger",
+    "name": "Ranger",
+    "url": "/api/2024/classes/ranger"
+  },
+  "subclass": {
+    "index": "winter-walker",
+    "name": "Winter Walker",
+    "url": "/api/2024/subclasses/winter-walker"
+  },
+  "desc": [
+    "You gain the following benefits.",
+    "**Biting Cold.** Damage from your weapon attacks, Ranger spells, and Ranger features ignores Resistance to Cold damage.",
+    "**Frost Resistance.** You have Resistance to Cold damage.",
+    "**Polar Strikes.** When you hit a creature with an attack roll using a weapon, you can deal an extra 1d4 Cold damage to the target, which can take this extra damage only once per turn. When you reach Ranger level 11, this extra damage increases to 1d6."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/winter-walker-3-frigid-explorer"
+}

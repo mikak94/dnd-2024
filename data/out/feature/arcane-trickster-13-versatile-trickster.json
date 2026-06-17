@@ -1,0 +1,20 @@
+{
+  "index": "arcane-trickster-13-versatile-trickster",
+  "name": "Versatile Trickster",
+  "level": 13,
+  "class": {
+    "index": "rogue",
+    "name": "Rogue",
+    "url": "/api/2024/classes/rogue"
+  },
+  "subclass": {
+    "index": "arcane-trickster",
+    "name": "Arcane Trickster",
+    "url": "/api/2024/subclasses/arcane-trickster"
+  },
+  "desc": [
+    "You gain the ability to distract targets with your Mage Hand. When you use the Trip option of your Cunning Strike on a creature, you can also use that option on another creature within 5 feet of the spectral hand."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/arcane-trickster-13-versatile-trickster"
+}

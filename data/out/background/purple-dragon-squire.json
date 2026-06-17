@@ -1,0 +1,81 @@
+{
+  "index": "purple-dragon-squire",
+  "name": "Purple Dragon Squire",
+  "starting_proficiencies": [
+    {
+      "index": "skill-animal-handling",
+      "name": "Skill: Animal Handling",
+      "url": "/api/2024/proficiencies/skill-animal-handling"
+    },
+    {
+      "index": "skill-insight",
+      "name": "Skill: Insight",
+      "url": "/api/2024/proficiencies/skill-insight"
+    },
+    {
+      "index": "tool-navigators-tools",
+      "name": "Tool: Navigator's Tools",
+      "url": "/api/2024/proficiencies/tool-navigators-tools"
+    }
+  ],
+  "ability_scores": [
+    { "index": "str", "name": "STR", "url": "/api/2024/ability-scores/str" },
+    { "index": "wis", "name": "WIS", "url": "/api/2024/ability-scores/wis" },
+    { "index": "cha", "name": "CHA", "url": "/api/2024/ability-scores/cha" }
+  ],
+  "feat": {
+    "index": "purple-dragon-rook",
+    "name": "Purple Dragon Rook",
+    "url": "/api/2024/feats/purple-dragon-rook"
+  },
+  "starting_equipment_options": [
+    {
+      "desc": "Choose A or B: (A) Spear, Navigator's Tools, Fine Clothes, 9 GP; or (B) 50 GP",
+      "choose": 1,
+      "type": "equipment",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "multiple",
+            "items": [
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "spear",
+                  "name": "Spear",
+                  "url": "/api/2024/equipment/spear"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "navigators-tools",
+                  "name": "Navigator's Tools",
+                  "url": "/api/2024/equipment/navigators-tools"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "fine-clothes",
+                  "name": "Fine Clothes",
+                  "url": "/api/2024/equipment/fine-clothes"
+                }
+              },
+              { "option_type": "money", "count": 9, "unit": "GP" }
+            ]
+          },
+          { "option_type": "money", "count": 50, "unit": "GP" }
+        ]
+      }
+    }
+  ],
+  "desc": [
+    "You've pledged your life to the safety of Cormyr and sought admission to that realm's order of elite warriors: the Purple Dragon Knights. But before you have the chance to join the ranks officially, you must first serve as a knight's squire. You've found a liege willing to take you on and teach you the order's ways. Will you uphold the Purple Dragon Knights' ideals of glory, honor, and strength and prove yourself worthy of knighthood?"
+  ],
+  "url": "/api/2024/backgrounds/purple-dragon-squire"
+}

@@ -1,0 +1,15 @@
+{
+  "index": "gloves-of-missile-snaring",
+  "name": "Gloves of Missile Snaring",
+  "equipment_category": {
+    "index": "wondrous-items",
+    "name": "Wondrous Items",
+    "url": "/api/2024/equipment-categories/wondrous-items"
+  },
+  "rarity": { "name": "Uncommon" },
+  "attunement": true,
+  "desc": "If you're hit by an attack roll made with a Ranged or Thrown weapon while wearing these gloves, you can take a Reaction to reduce the damage by 1d10 plus your Dexterity modifier if you have a free hand. If you reduce the damage to 0, you can catch the ammunition or weapon if it is small enough for you to hold in that hand.",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/gloves-of-missile-snaring"
+}

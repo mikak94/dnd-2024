@@ -1,0 +1,19 @@
+{
+  "index": "lyrandar-skyskiff",
+  "name": "Lyrandar Skyskiff",
+  "equipment_categories": [
+    {
+      "index": "waterborne-vehicles",
+      "name": "Waterborne Vehicles",
+      "url": "/api/2024/equipment-categories/waterborne-vehicles"
+    },
+    {
+      "index": "mounts-and-vehicles",
+      "name": "Mounts and Vehicles",
+      "url": "/api/2024/equipment-categories/mounts-and-vehicles"
+    }
+  ],
+  "url": "/api/2024/equipment/lyrandar-skyskiff",
+  "cost": { "quantity": 20000, "unit": "gp" },
+  "description": "Speed 7 mph (Fly Speed 70 ft. [hover]). Crew 2. Passengers 2. Cargo 1/2 ton. AC 18. HP 150. Damage Threshold 5."
+}

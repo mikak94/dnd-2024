@@ -1,0 +1,15 @@
+{
+  "index": "eyes-of-charming",
+  "name": "Eyes of Charming",
+  "equipment_category": {
+    "index": "wondrous-items",
+    "name": "Wondrous Items",
+    "url": "/api/2024/equipment-categories/wondrous-items"
+  },
+  "rarity": { "name": "Uncommon" },
+  "attunement": true,
+  "desc": "These crystal lenses fit over the eyes. They have 3 charges. While wearing them, you can expend 1 or more charges to cast Charm Person (save DC 13). For 1 charge, you cast the level 1 version of the spell. You increase the spell's level by one for each additional charge you expend. The lenses regain all expended charges daily at dawn.",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/eyes-of-charming"
+}

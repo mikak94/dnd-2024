@@ -1,0 +1,15 @@
+{
+  "index": "acrobatic-movement",
+  "name": "Acrobatic Movement",
+  "level": 9,
+  "class": {
+    "index": "monk",
+    "name": "Monk",
+    "url": "/api/2024/classes/monk"
+  },
+  "desc": [
+    "While you aren't wearing armor or wielding a Shield, you gain the ability to move along vertical surfaces and across liquids on your turn without falling during the movement."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/acrobatic-movement"
+}

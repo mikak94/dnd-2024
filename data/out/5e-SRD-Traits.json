@@ -1,0 +1,3111 @@
+[
+  {
+    "index": "aasimar-celestial-resistance",
+    "name": "Celestial Resistance",
+    "species": [
+      {
+        "index": "aasimar",
+        "name": "Aasimar",
+        "url": "/api/2024/species/aasimar"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "You have Resistance to Necrotic damage and Radiant damage."
+    ],
+    "url": "/api/2024/traits/aasimar-celestial-resistance"
+  },
+  {
+    "index": "aasimar-celestial-revelation",
+    "name": "Celestial Revelation",
+    "species": [
+      {
+        "index": "aasimar",
+        "name": "Aasimar",
+        "url": "/api/2024/species/aasimar"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "When you reach character level 3, you can transform as a Bonus Action using one of the options below (choose the option each time you transform). The transformation lasts for 1 minute or until you end it (no action required). Once you transform, you can't do so again until you finish a Long Rest.",
+      "Once on each of your turns before the transformation ends, you can deal extra damage to one target when you deal damage to it with an attack or a spell. The extra damage equals your Proficiency Bonus, and the extra damage's type is either Necrotic for Necrotic Shroud or Radiant for Heavenly Wings and Inner Radiance.",
+      "Heavenly Wings. Two spectral wings sprout from your back temporarily. Until the transformation ends, you have a Fly Speed equal to your Speed.",
+      "Inner Radiance. Searing light temporarily radiates from your eyes and mouth. For the duration, you shed Bright Light in a 10-foot radius and Dim Light for an additional 10 feet, and at the end of each of your turns, each creature within 10 feet of you takes Radiant damage equal to your Proficiency Bonus.",
+      "Necrotic Shroud. Your eyes briefly become pools of darkness, and flightless wings sprout from your back temporarily. Creatures other than your allies within 10 feet of you must succeed on a Charisma saving throw (DC 8 plus your Charisma modifier and Proficiency Bonus) or have the Frightened condition until the end of your next turn."
+    ],
+    "url": "/api/2024/traits/aasimar-celestial-revelation"
+  },
+  {
+    "index": "aasimar-darkvision",
+    "name": "Darkvision",
+    "species": [
+      {
+        "index": "aasimar",
+        "name": "Aasimar",
+        "url": "/api/2024/species/aasimar"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "You have Darkvision with a range of 60 feet."
+    ],
+    "url": "/api/2024/traits/aasimar-darkvision"
+  },
+  {
+    "index": "aasimar-healing-hands",
+    "name": "Healing Hands",
+    "species": [
+      {
+        "index": "aasimar",
+        "name": "Aasimar",
+        "url": "/api/2024/species/aasimar"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "As a Magic action, you touch a creature and roll a number of d4s equal to your Proficiency Bonus. The creature regains a number of Hit Points equal to the total rolled. Once you use this trait, you can't use it again until you finish a Long Rest."
+    ],
+    "url": "/api/2024/traits/aasimar-healing-hands"
+  },
+  {
+    "index": "aasimar-light-bearer",
+    "name": "Light Bearer",
+    "species": [
+      {
+        "index": "aasimar",
+        "name": "Aasimar",
+        "url": "/api/2024/species/aasimar"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "You know the Light cantrip. Charisma is your spellcasting ability for it."
+    ],
+    "trait_specific": {
+      "spellcasting": {
+        "ability": [
+          {
+            "index": "cha",
+            "name": "CHA",
+            "url": "/api/2024/ability-scores/cha"
+          }
+        ],
+        "spells": [
+          {
+            "spell": {
+              "index": "light",
+              "name": "Light",
+              "url": "/api/2024/spells/light"
+            },
+            "level": 1
+          }
+        ]
+      }
+    },
+    "url": "/api/2024/traits/aasimar-light-bearer"
+  },
+  {
+    "index": "abyssal-fiendish-legacy",
+    "name": "Fiendish Legacy",
+    "species": [],
+    "subspecies": [
+      {
+        "index": "abyssal",
+        "name": "Abyssal",
+        "url": "/api/2024/subspecies/abyssal"
+      }
+    ],
+    "desc": [
+      "Level 1: You have Resistance to Poison damage. You also know the Poison Spray cantrip. Level 3: Ray of Sickness. Level 5: Hold Person. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the legacy)."
+    ],
+    "parent": {
+      "index": "tiefling-fiendish-legacy",
+      "name": "Fiendish Legacy",
+      "url": "/api/2024/traits/tiefling-fiendish-legacy"
+    },
+    "trait_specific": {
+      "spellcasting": {
+        "ability": [
+          {
+            "index": "int",
+            "name": "INT",
+            "url": "/api/2024/ability-scores/int"
+          },
+          {
+            "index": "wis",
+            "name": "WIS",
+            "url": "/api/2024/ability-scores/wis"
+          },
+          {
+            "index": "cha",
+            "name": "CHA",
+            "url": "/api/2024/ability-scores/cha"
+          }
+        ],
+        "spells": [
+          {
+            "spell": {
+              "index": "poison-spray",
+              "name": "Poison Spray",
+              "url": "/api/2024/spells/poison-spray"
+            },
+            "level": 1
+          },
+          {
+            "spell": {
+              "index": "ray-of-sickness",
+              "name": "Ray of Sickness",
+              "url": "/api/2024/spells/ray-of-sickness"
+            },
+            "level": 3
+          },
+          {
+            "spell": {
+              "index": "hold-person",
+              "name": "Hold Person",
+              "url": "/api/2024/spells/hold-person"
+            },
+            "level": 5
+          }
+        ]
+      }
+    },
+    "url": "/api/2024/traits/abyssal-fiendish-legacy"
+  },
+  {
+    "index": "boggart-darkvision",
+    "name": "Darkvision",
+    "species": [
+      {
+        "index": "boggart",
+        "name": "Boggart",
+        "url": "/api/2024/species/boggart"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
+    ],
+    "url": "/api/2024/traits/boggart-darkvision"
+  },
+  {
+    "index": "boggart-fey-ancestry",
+    "name": "Fey Ancestry",
+    "species": [
+      {
+        "index": "boggart",
+        "name": "Boggart",
+        "url": "/api/2024/species/boggart"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "You have advantage on saving throws you make to avoid or end the charmed condition on yourself."
+    ],
+    "url": "/api/2024/traits/boggart-fey-ancestry"
+  },
+  {
+    "index": "boggart-fury-of-the-small",
+    "name": "Fury of the Small",
+    "species": [
+      {
+        "index": "boggart",
+        "name": "Boggart",
+        "url": "/api/2024/species/boggart"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "When you damage a creature with an attack or a spell and the creature's size is larger than yours, you can cause the attack or spell to deal extra damage to the creature. The extra damage equals your proficiency bonus.",
+      "You can use this trait a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest, and you can use it no more than once per turn."
+    ],
+    "url": "/api/2024/traits/boggart-fury-of-the-small"
+  },
+  {
+    "index": "boggart-nimble-escape",
+    "name": "Nimble Escape",
+    "species": [
+      {
+        "index": "boggart",
+        "name": "Boggart",
+        "url": "/api/2024/species/boggart"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "You can take the Disengage or Hide action as a bonus action on each of your turns."
+    ],
+    "url": "/api/2024/traits/boggart-nimble-escape"
+  },
+  {
+    "index": "changeling-changeling-instincts",
+    "name": "Changeling Instincts",
+    "species": [
+      {
+        "index": "changeling",
+        "name": "Changeling",
+        "url": "/api/2024/species/changeling"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "Thanks to your connection to the fey realm, you gain proficiency in two of the following skills of your choice: Deception, Insight, Intimidation, Performance, or Persuasion."
+    ],
+    "proficiency_choices": [
+      {
+        "desc": "Choose two skills from Deception, Insight, Intimidation, Performance, or Persuasion",
+        "choose": 2,
+        "type": "proficiencies",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "skill-deception",
+                "name": "Deception",
+                "url": "/api/2024/proficiencies/skill-deception"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "skill-insight",
+                "name": "Insight",
+                "url": "/api/2024/proficiencies/skill-insight"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "skill-intimidation",
+                "name": "Intimidation",
+                "url": "/api/2024/proficiencies/skill-intimidation"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "skill-performance",
+                "name": "Performance",
+                "url": "/api/2024/proficiencies/skill-performance"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "skill-persuasion",
+                "name": "Persuasion",
+                "url": "/api/2024/proficiencies/skill-persuasion"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "url": "/api/2024/traits/changeling-changeling-instincts"
+  },
+  {
+    "index": "changeling-shape-shifter",
+    "name": "Shape-Shifter",
+    "species": [
+      {
+        "index": "changeling",
+        "name": "Changeling",
+        "url": "/api/2024/species/changeling"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "As an action, you can shape-shift to change your appearance and your voice. You determine the specifics of the changes, including your coloration, hair length, and sex. You can also adjust your height and weight and can change your size between Medium and Small. You can make yourself appear as a member of another playable species, though none of your game statistics change. You can't duplicate the appearance of an individual you've never seen, and you must adopt a form that has the same basic arrangement of limbs that you have. This trait doesn't change your clothing and equipment.",
+      "While shape-shifted with this trait, you have Advantage on Charisma checks.",
+      "You stay in the new form until you take an action to revert to your true form."
+    ],
+    "url": "/api/2024/traits/changeling-shape-shifter"
+  },
+  {
+    "index": "chthonic-fiendish-legacy",
+    "name": "Fiendish Legacy",
+    "species": [],
+    "subspecies": [
+      {
+        "index": "chthonic",
+        "name": "Chthonic",
+        "url": "/api/2024/subspecies/chthonic"
+      }
+    ],
+    "desc": [
+      "Level 1: You have Resistance to Necrotic damage. You also know the Chill Touch cantrip. Level 3: False Life. Level 5: Ray of Enfeeblement. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the legacy)."
+    ],
+    "parent": {
+      "index": "tiefling-fiendish-legacy",
+      "name": "Fiendish Legacy",
+      "url": "/api/2024/traits/tiefling-fiendish-legacy"
+    },
+    "trait_specific": {
+      "spellcasting": {
+        "ability": [
+          {
+            "index": "int",
+            "name": "INT",
+            "url": "/api/2024/ability-scores/int"
+          },
+          {
+            "index": "wis",
+            "name": "WIS",
+            "url": "/api/2024/ability-scores/wis"
+          },
+          {
+            "index": "cha",
+            "name": "CHA",
+            "url": "/api/2024/ability-scores/cha"
+          }
+        ],
+        "spells": [
+          {
+            "spell": {
+              "index": "chill-touch",
+              "name": "Chill Touch",
+              "url": "/api/2024/spells/chill-touch"
+            },
+            "level": 1
+          },
+          {
+            "spell": {
+              "index": "false-life",
+              "name": "False Life",
+              "url": "/api/2024/spells/false-life"
+            },
+            "level": 3
+          },
+          {
+            "spell": {
+              "index": "ray-of-enfeeblement",
+              "name": "Ray of Enfeeblement",
+              "url": "/api/2024/spells/ray-of-enfeeblement"
+            },
+            "level": 5
+          }
+        ]
+      }
+    },
+    "url": "/api/2024/traits/chthonic-fiendish-legacy"
+  },
+  {
+    "index": "dhampir-darkvision",
+    "name": "Darkvision",
+    "species": [
+      {
+        "index": "dhampir",
+        "name": "Dhampir",
+        "url": "/api/2024/species/dhampir"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "You have Darkvision with a range of 60 feet."
+    ],
+    "url": "/api/2024/traits/dhampir-darkvision"
+  },
+  {
+    "index": "dhampir-spider-climb",
+    "name": "Spider Climb",
+    "species": [
+      {
+        "index": "dhampir",
+        "name": "Dhampir",
+        "url": "/api/2024/species/dhampir"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "You have a Climb Speed equal to your Speed. When you reach character level 3, you can move up, down, and across vertical surfaces and along ceilings while leaving your hands free."
+    ],
+    "url": "/api/2024/traits/dhampir-spider-climb"
+  },
+  {
+    "index": "dhampir-trace-of-undeath",
+    "name": "Trace of Undeath",
+    "species": [
+      {
+        "index": "dhampir",
+        "name": "Dhampir",
+        "url": "/api/2024/species/dhampir"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "You have Resistance to Necrotic damage."
+    ],
+    "url": "/api/2024/traits/dhampir-trace-of-undeath"
+  },
+  {
+    "index": "dhampir-vampiric-bite",
+    "name": "Vampiric Bite",
+    "species": [
+      {
+        "index": "dhampir",
+        "name": "Dhampir",
+        "url": "/api/2024/species/dhampir"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "When you use your Unarmed Strike and deal damage, you can choose to bite with your fangs. You deal Piercing damage equal to 1d4 plus your Constitution modifier instead of the normal damage of an Unarmed Strike.",
+      "In addition, when you deal this damage to a creature that isn't a Construct or an Undead, you can empower yourself in one of the following ways:",
+      "Drain. You regain Hit Points equal to the Piercing damage dealt.",
+      "Strengthen. You gain a bonus to the next ability check or attack roll you make within the next minute; the bonus is equal to the Piercing damage dealt.",
+      "You can empower yourself with this trait a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest."
+    ],
+    "url": "/api/2024/traits/dhampir-vampiric-bite"
+  },
+  {
+    "index": "dragonborn-breath-weapon",
+    "name": "Breath Weapon",
+    "species": [
+      {
+        "index": "dragonborn",
+        "name": "Dragonborn",
+        "url": "/api/2024/species/dragonborn"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in either a 15-foot Cone or a 30-foot Line that is 5 feet wide (choose the shape each time). Each creature in that area must make a Dexterity saving throw (DC 8 plus your Constitution modifier and Proficiency Bonus). On a failed save, a creature takes 1d10 damage of the type determined by your Draconic Ancestry trait. On a successful save, a creature takes half as much damage. This damage increases by 1d10 when you reach character levels 5 (2d10), 11 (3d10), and 17 (4d10).",
+      "You can use this Breath Weapon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest."
+    ],
+    "trait_specific": {
+      "breath_weapon": {
+        "name": "Breath Weapon",
+        "desc": "Each creature in the area must make a Dexterity saving throw (DC 8 plus your Constitution modifier and Proficiency Bonus). On a failed save, a creature takes 1d10 damage of the type determined by your Draconic Ancestry trait. On a successful save, a creature takes half as much damage.",
+        "area_of_effect": {
+          "type": "cone",
+          "size": 15
+        },
+        "usage": {
+          "type": "per long rest",
+          "times": 1
+        },
+        "dc": {
+          "dc_type": {
+            "index": "dex",
+            "name": "DEX",
+            "url": "/api/2024/ability-scores/dex"
+          },
+          "success_type": "half"
+        },
+        "damage": [
+          {
+            "damage_type": {
+              "index": "fire",
+              "name": "Fire",
+              "url": "/api/2024/damage-types/fire"
+            },
+            "damage_at_character_level": {
+              "1": "1d10",
+              "5": "2d10",
+              "11": "3d10",
+              "17": "4d10"
+            }
+          }
+        ]
+      }
+    },
+    "url": "/api/2024/traits/dragonborn-breath-weapon"
+  },
+  {
+    "index": "dragonborn-damage-resistance",
+    "name": "Damage Resistance",
+    "species": [
+      {
+        "index": "dragonborn",
+        "name": "Dragonborn",
+        "url": "/api/2024/species/dragonborn"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "You have Resistance to the damage type determined by your Draconic Ancestry trait."
+    ],
+    "url": "/api/2024/traits/dragonborn-damage-resistance"
+  },
+  {
+    "index": "dragonborn-darkvision",
+    "name": "Darkvision",
+    "species": [
+      {
+        "index": "dragonborn",
+        "name": "Dragonborn",
+        "url": "/api/2024/species/dragonborn"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "You have Darkvision with a range of 60 feet."
+    ],
+    "url": "/api/2024/traits/dragonborn-darkvision"
+  },
+  {
+    "index": "dragonborn-draconic-ancestry",
+    "name": "Draconic Ancestry",
+    "species": [
+      {
+        "index": "dragonborn",
+        "name": "Dragonborn",
+        "url": "/api/2024/species/dragonborn"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "Your lineage stems from a dragon progenitor. Choose the kind of dragon from the Draconic Ancestors table. Your choice affects your Breath Weapon and Damage Resistance traits as well as your appearance.",
+      "Draconic Ancestors table: Black — Acid; Blue — Lightning; Brass — Fire; Bronze — Lightning; Copper — Acid; Gold — Fire; Green — Poison; Red — Fire; Silver — Cold; White — Cold."
+    ],
+    "trait_specific": {
+      "subtrait_options": {
+        "desc": "Choose a kind of dragon from the Draconic Ancestors table",
+        "choose": 1,
+        "type": "subtrait",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "dragonborn-draconic-ancestry-black",
+                "name": "Draconic Ancestry (Black)",
+                "url": "/api/2024/traits/dragonborn-draconic-ancestry-black"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "dragonborn-draconic-ancestry-blue",
+                "name": "Draconic Ancestry (Blue)",
+                "url": "/api/2024/traits/dragonborn-draconic-ancestry-blue"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "dragonborn-draconic-ancestry-brass",
+                "name": "Draconic Ancestry (Brass)",
+                "url": "/api/2024/traits/dragonborn-draconic-ancestry-brass"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "dragonborn-draconic-ancestry-bronze",
+                "name": "Draconic Ancestry (Bronze)",
+                "url": "/api/2024/traits/dragonborn-draconic-ancestry-bronze"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "dragonborn-draconic-ancestry-copper",
+                "name": "Draconic Ancestry (Copper)",
+                "url": "/api/2024/traits/dragonborn-draconic-ancestry-copper"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "dragonborn-draconic-ancestry-gold",
+                "name": "Draconic Ancestry (Gold)",
+                "url": "/api/2024/traits/dragonborn-draconic-ancestry-gold"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "dragonborn-draconic-ancestry-green",
+                "name": "Draconic Ancestry (Green)",
+                "url": "/api/2024/traits/dragonborn-draconic-ancestry-green"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "dragonborn-draconic-ancestry-red",
+                "name": "Draconic Ancestry (Red)",
+                "url": "/api/2024/traits/dragonborn-draconic-ancestry-red"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "dragonborn-draconic-ancestry-silver",
+                "name": "Draconic Ancestry (Silver)",
+                "url": "/api/2024/traits/dragonborn-draconic-ancestry-silver"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "dragonborn-draconic-ancestry-white",
+                "name": "Draconic Ancestry (White)",
+                "url": "/api/2024/traits/dragonborn-draconic-ancestry-white"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "url": "/api/2024/traits/dragonborn-draconic-ancestry"
+  },
+  {
+    "index": "dragonborn-draconic-ancestry-black",
+    "name": "Draconic Ancestry (Black)",
+    "species": [
+      {
+        "index": "dragonborn",
+        "name": "Dragonborn",
+        "url": "/api/2024/species/dragonborn"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "Your draconic lineage is that of a Black dragon. Your Breath Weapon and Damage Resistance are associated with Acid damage."
+    ],
+    "parent": {
+      "index": "dragonborn-draconic-ancestry",
+      "name": "Draconic Ancestry",
+      "url": "/api/2024/traits/dragonborn-draconic-ancestry"
+    },
+    "trait_specific": {
+      "damage_type": {
+        "index": "acid",
+        "name": "Acid",
+        "url": "/api/2024/damage-types/acid"
+      }
+    },
+    "url": "/api/2024/traits/dragonborn-draconic-ancestry-black"
+  },
+  {
+    "index": "dragonborn-draconic-ancestry-blue",
+    "name": "Draconic Ancestry (Blue)",
+    "species": [
+      {
+        "index": "dragonborn",
+        "name": "Dragonborn",
+        "url": "/api/2024/species/dragonborn"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "Your draconic lineage is that of a Blue dragon. Your Breath Weapon and Damage Resistance are associated with Lightning damage."
+    ],
+    "parent": {
+      "index": "dragonborn-draconic-ancestry",
+      "name": "Draconic Ancestry",
+      "url": "/api/2024/traits/dragonborn-draconic-ancestry"
+    },
+    "trait_specific": {
+      "damage_type": {
+        "index": "lightning",
+        "name": "Lightning",
+        "url": "/api/2024/damage-types/lightning"
+      }
+    },
+    "url": "/api/2024/traits/dragonborn-draconic-ancestry-blue"
+  },
+  {
+    "index": "dragonborn-draconic-ancestry-brass",
+    "name": "Draconic Ancestry (Brass)",
+    "species": [
+      {
+        "index": "dragonborn",
+        "name": "Dragonborn",
+        "url": "/api/2024/species/dragonborn"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "Your draconic lineage is that of a Brass dragon. Your Breath Weapon and Damage Resistance are associated with Fire damage."
+    ],
+    "parent": {
+      "index": "dragonborn-draconic-ancestry",
+      "name": "Draconic Ancestry",
+      "url": "/api/2024/traits/dragonborn-draconic-ancestry"
+    },
+    "trait_specific": {
+      "damage_type": {
+        "index": "fire",
+        "name": "Fire",
+        "url": "/api/2024/damage-types/fire"
+      }
+    },
+    "url": "/api/2024/traits/dragonborn-draconic-ancestry-brass"
+  },
+  {
+    "index": "dragonborn-draconic-ancestry-bronze",
+    "name": "Draconic Ancestry (Bronze)",
+    "species": [
+      {
+        "index": "dragonborn",
+        "name": "Dragonborn",
+        "url": "/api/2024/species/dragonborn"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "Your draconic lineage is that of a Bronze dragon. Your Breath Weapon and Damage Resistance are associated with Lightning damage."
+    ],
+    "parent": {
+      "index": "dragonborn-draconic-ancestry",
+      "name": "Draconic Ancestry",
+      "url": "/api/2024/traits/dragonborn-draconic-ancestry"
+    },
+    "trait_specific": {
+      "damage_type": {
+        "index": "lightning",
+        "name": "Lightning",
+        "url": "/api/2024/damage-types/lightning"
+      }
+    },
+    "url": "/api/2024/traits/dragonborn-draconic-ancestry-bronze"
+  },
+  {
+    "index": "dragonborn-draconic-ancestry-copper",
+    "name": "Draconic Ancestry (Copper)",
+    "species": [
+      {
+        "index": "dragonborn",
+        "name": "Dragonborn",
+        "url": "/api/2024/species/dragonborn"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "Your draconic lineage is that of a Copper dragon. Your Breath Weapon and Damage Resistance are associated with Acid damage."
+    ],
+    "parent": {
+      "index": "dragonborn-draconic-ancestry",
+      "name": "Draconic Ancestry",
+      "url": "/api/2024/traits/dragonborn-draconic-ancestry"
+    },
+    "trait_specific": {
+      "damage_type": {
+        "index": "acid",
+        "name": "Acid",
+        "url": "/api/2024/damage-types/acid"
+      }
+    },
+    "url": "/api/2024/traits/dragonborn-draconic-ancestry-copper"
+  },
+  {
+    "index": "dragonborn-draconic-ancestry-gold",
+    "name": "Draconic Ancestry (Gold)",
+    "species": [
+      {
+        "index": "dragonborn",
+        "name": "Dragonborn",
+        "url": "/api/2024/species/dragonborn"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "Your draconic lineage is that of a Gold dragon. Your Breath Weapon and Damage Resistance are associated with Fire damage."
+    ],
+    "parent": {
+      "index": "dragonborn-draconic-ancestry",
+      "name": "Draconic Ancestry",
+      "url": "/api/2024/traits/dragonborn-draconic-ancestry"
+    },
+    "trait_specific": {
+      "damage_type": {
+        "index": "fire",
+        "name": "Fire",
+        "url": "/api/2024/damage-types/fire"
+      }
+    },
+    "url": "/api/2024/traits/dragonborn-draconic-ancestry-gold"
+  },
+  {
+    "index": "dragonborn-draconic-ancestry-green",
+    "name": "Draconic Ancestry (Green)",
+    "species": [
+      {
+        "index": "dragonborn",
+        "name": "Dragonborn",
+        "url": "/api/2024/species/dragonborn"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "Your draconic lineage is that of a Green dragon. Your Breath Weapon and Damage Resistance are associated with Poison damage."
+    ],
+    "parent": {
+      "index": "dragonborn-draconic-ancestry",
+      "name": "Draconic Ancestry",
+      "url": "/api/2024/traits/dragonborn-draconic-ancestry"
+    },
+    "trait_specific": {
+      "damage_type": {
+        "index": "poison",
+        "name": "Poison",
+        "url": "/api/2024/damage-types/poison"
+      }
+    },
+    "url": "/api/2024/traits/dragonborn-draconic-ancestry-green"
+  },
+  {
+    "index": "dragonborn-draconic-ancestry-red",
+    "name": "Draconic Ancestry (Red)",
+    "species": [
+      {
+        "index": "dragonborn",
+        "name": "Dragonborn",
+        "url": "/api/2024/species/dragonborn"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "Your draconic lineage is that of a Red dragon. Your Breath Weapon and Damage Resistance are associated with Fire damage."
+    ],
+    "parent": {
+      "index": "dragonborn-draconic-ancestry",
+      "name": "Draconic Ancestry",
+      "url": "/api/2024/traits/dragonborn-draconic-ancestry"
+    },
+    "trait_specific": {
+      "damage_type": {
+        "index": "fire",
+        "name": "Fire",
+        "url": "/api/2024/damage-types/fire"
+      }
+    },
+    "url": "/api/2024/traits/dragonborn-draconic-ancestry-red"
+  },
+  {
+    "index": "dragonborn-draconic-ancestry-silver",
+    "name": "Draconic Ancestry (Silver)",
+    "species": [
+      {
+        "index": "dragonborn",
+        "name": "Dragonborn",
+        "url": "/api/2024/species/dragonborn"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "Your draconic lineage is that of a Silver dragon. Your Breath Weapon and Damage Resistance are associated with Cold damage."
+    ],
+    "parent": {
+      "index": "dragonborn-draconic-ancestry",
+      "name": "Draconic Ancestry",
+      "url": "/api/2024/traits/dragonborn-draconic-ancestry"
+    },
+    "trait_specific": {
+      "damage_type": {
+        "index": "cold",
+        "name": "Cold",
+        "url": "/api/2024/damage-types/cold"
+      }
+    },
+    "url": "/api/2024/traits/dragonborn-draconic-ancestry-silver"
+  },
+  {
+    "index": "dragonborn-draconic-ancestry-white",
+    "name": "Draconic Ancestry (White)",
+    "species": [
+      {
+        "index": "dragonborn",
+        "name": "Dragonborn",
+        "url": "/api/2024/species/dragonborn"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "Your draconic lineage is that of a White dragon. Your Breath Weapon and Damage Resistance are associated with Cold damage."
+    ],
+    "parent": {
+      "index": "dragonborn-draconic-ancestry",
+      "name": "Draconic Ancestry",
+      "url": "/api/2024/traits/dragonborn-draconic-ancestry"
+    },
+    "trait_specific": {
+      "damage_type": {
+        "index": "cold",
+        "name": "Cold",
+        "url": "/api/2024/damage-types/cold"
+      }
+    },
+    "url": "/api/2024/traits/dragonborn-draconic-ancestry-white"
+  },
+  {
+    "index": "dragonborn-draconic-flight",
+    "name": "Draconic Flight",
+    "species": [
+      {
+        "index": "dragonborn",
+        "name": "Dragonborn",
+        "url": "/api/2024/species/dragonborn"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "When you reach character level 5, you can channel draconic magic to give yourself temporary flight. As a Bonus Action, you sprout spectral wings on your back that last for 10 minutes or until you retract the wings (no action required) or have the Incapacitated condition. During that time, you have a Fly Speed equal to your Speed. Your wings appear to be made of the same energy as your Breath Weapon. Once you use this trait, you can't use it again until you finish a Long Rest."
+    ],
+    "url": "/api/2024/traits/dragonborn-draconic-flight"
+  },
+  {
+    "index": "drow-elven-lineage",
+    "name": "Elven Lineage",
+    "species": [],
+    "subspecies": [
+      {
+        "index": "drow",
+        "name": "Drow",
+        "url": "/api/2024/subspecies/drow"
+      }
+    ],
+    "desc": [
+      "Level 1: The range of your Darkvision increases to 120 feet. You also know the Dancing Lights cantrip.",
+      "Level 3: You always have the Faerie Fire spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level.",
+      "Level 5: You always have the Darkness spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level.",
+      "Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells (choose the ability when you select this lineage)."
+    ],
+    "parent": {
+      "index": "elf-elven-lineage",
+      "name": "Elven Lineage",
+      "url": "/api/2024/traits/elf-elven-lineage"
+    },
+    "trait_specific": {
+      "spellcasting": {
+        "ability": [
+          {
+            "index": "int",
+            "name": "INT",
+            "url": "/api/2024/ability-scores/int"
+          },
+          {
+            "index": "wis",
+            "name": "WIS",
+            "url": "/api/2024/ability-scores/wis"
+          },
+          {
+            "index": "cha",
+            "name": "CHA",
+            "url": "/api/2024/ability-scores/cha"
+          }
+        ],
+        "spells": [
+          {
+            "spell": {
+              "index": "dancing-lights",
+              "name": "Dancing Lights",
+              "url": "/api/2024/spells/dancing-lights"
+            },
+            "level": 1
+          },
+          {
+            "spell": {
+              "index": "faerie-fire",
+              "name": "Faerie Fire",
+              "url": "/api/2024/spells/faerie-fire"
+            },
+            "level": 3
+          },
+          {
+            "spell": {
+              "index": "darkness",
+              "name": "Darkness",
+              "url": "/api/2024/spells/darkness"
+            },
+            "level": 5
+          }
+        ]
+      }
+    },
+    "url": "/api/2024/traits/drow-elven-lineage"
+  },
+  {
+    "index": "dwarf-darkvision",
+    "name": "Darkvision",
+    "species": [
+      {
+        "index": "dwarf",
+        "name": "Dwarf",
+        "url": "/api/2024/species/dwarf"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "You have Darkvision with a range of 120 feet."
+    ],
+    "url": "/api/2024/traits/dwarf-darkvision"
+  },
+  {
+    "index": "dwarf-dwarven-resilience",
+    "name": "Dwarven Resilience",
+    "species": [
+      {
+        "index": "dwarf",
+        "name": "Dwarf",
+        "url": "/api/2024/species/dwarf"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "You have Resistance to Poison damage. You also have Advantage on saving throws you make to avoid or end the Poisoned condition."
+    ],
+    "url": "/api/2024/traits/dwarf-dwarven-resilience"
+  },
+  {
+    "index": "dwarf-dwarven-toughness",
+    "name": "Dwarven Toughness",
+    "species": [
+      {
+        "index": "dwarf",
+        "name": "Dwarf",
+        "url": "/api/2024/species/dwarf"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "Your Hit Point maximum increases by 1, and it increases by 1 again whenever you gain a level."
+    ],
+    "url": "/api/2024/traits/dwarf-dwarven-toughness"
+  },
+  {
+    "index": "dwarf-stonecunning",
+    "name": "Stonecunning",
+    "species": [
+      {
+        "index": "dwarf",
+        "name": "Dwarf",
+        "url": "/api/2024/species/dwarf"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "As a Bonus Action, you gain Tremorsense with a range of 60 feet for 10 minutes. You must be on a stone surface or touching a stone surface to use this Tremorsense. The stone can be natural or worked.",
+      "You can use this Bonus Action a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest."
+    ],
+    "url": "/api/2024/traits/dwarf-stonecunning"
+  },
+  {
+    "index": "elf-darkvision",
+    "name": "Darkvision",
+    "species": [
+      {
+        "index": "elf",
+        "name": "Elf",
+        "url": "/api/2024/species/elf"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "You have Darkvision with a range of 60 feet."
+    ],
+    "url": "/api/2024/traits/elf-darkvision"
+  },
+  {
+    "index": "elf-elven-lineage",
+    "name": "Elven Lineage",
+    "species": [
+      {
+        "index": "elf",
+        "name": "Elf",
+        "url": "/api/2024/species/elf"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "You are part of a lineage that grants you supernatural abilities. Choose a lineage from the Elven Lineages table. You gain the level 1 benefit of that lineage.",
+      "When you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level.",
+      "Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the lineage)."
+    ],
+    "url": "/api/2024/traits/elf-elven-lineage"
+  },
+  {
+    "index": "elf-fey-ancestry",
+    "name": "Fey Ancestry",
+    "species": [
+      {
+        "index": "elf",
+        "name": "Elf",
+        "url": "/api/2024/species/elf"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "You have Advantage on saving throws you make to avoid or end the Charmed condition."
+    ],
+    "url": "/api/2024/traits/elf-fey-ancestry"
+  },
+  {
+    "index": "elf-keen-senses",
+    "name": "Keen Senses",
+    "species": [
+      {
+        "index": "elf",
+        "name": "Elf",
+        "url": "/api/2024/species/elf"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "You have proficiency in the Insight, Perception, or Survival skill."
+    ],
+    "proficiency_choices": [
+      {
+        "desc": "Choose one skill: Insight, Perception, or Survival.",
+        "choose": 1,
+        "type": "proficiencies",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "skill-insight",
+                "name": "Insight",
+                "url": "/api/2024/proficiencies/skill-insight"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "skill-perception",
+                "name": "Perception",
+                "url": "/api/2024/proficiencies/skill-perception"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "skill-survival",
+                "name": "Survival",
+                "url": "/api/2024/proficiencies/skill-survival"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "url": "/api/2024/traits/elf-keen-senses"
+  },
+  {
+    "index": "elf-trance",
+    "name": "Trance",
+    "species": [
+      {
+        "index": "elf",
+        "name": "Elf",
+        "url": "/api/2024/species/elf"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "You don't need to sleep, and magic can't put you to sleep. You can finish a Long Rest in 4 hours if you spend those hours in a trancelike meditation, during which you retain consciousness."
+    ],
+    "url": "/api/2024/traits/elf-trance"
+  },
+  {
+    "index": "faerie-fairy-magic",
+    "name": "Fairy Magic",
+    "species": [
+      {
+        "index": "faerie",
+        "name": "Faerie",
+        "url": "/api/2024/species/faerie"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "You know the Druidcraft cantrip.",
+      "Starting at 3rd level, you can cast the Faerie Fire spell with this trait. Starting at 5th level, you can also cast the Enlarge/Reduce spell with this trait. Once you cast Faerie Fire or Enlarge/Reduce with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.",
+      "Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race)."
+    ],
+    "trait_specific": {
+      "spellcasting": {
+        "ability": [
+          {
+            "index": "int",
+            "name": "INT",
+            "url": "/api/2024/ability-scores/int"
+          },
+          {
+            "index": "wis",
+            "name": "WIS",
+            "url": "/api/2024/ability-scores/wis"
+          },
+          {
+            "index": "cha",
+            "name": "CHA",
+            "url": "/api/2024/ability-scores/cha"
+          }
+        ],
+        "spells": [
+          {
+            "spell": {
+              "index": "druidcraft",
+              "name": "Druidcraft",
+              "url": "/api/2024/spells/druidcraft"
+            },
+            "level": 1
+          },
+          {
+            "spell": {
+              "index": "faerie-fire",
+              "name": "Faerie Fire",
+              "url": "/api/2024/spells/faerie-fire"
+            },
+            "level": 3
+          },
+          {
+            "spell": {
+              "index": "enlarge-reduce",
+              "name": "Enlarge/Reduce",
+              "url": "/api/2024/spells/enlarge-reduce"
+            },
+            "level": 5
+          }
+        ]
+      }
+    },
+    "url": "/api/2024/traits/faerie-fairy-magic"
+  },
+  {
+    "index": "faerie-flight",
+    "name": "Flight",
+    "species": [
+      {
+        "index": "faerie",
+        "name": "Faerie",
+        "url": "/api/2024/species/faerie"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "Because of your wings, you have a flying speed equal to your walking speed. You can't use this flying speed if you're wearing medium or heavy armor.",
+      "In addition, Shadowmoor faeries have Darkvision with a range of 120 feet."
+    ],
+    "url": "/api/2024/traits/faerie-flight"
+  },
+  {
+    "index": "flamekin-darkvision",
+    "name": "Darkvision",
+    "species": [
+      {
+        "index": "flamekin",
+        "name": "Flamekin",
+        "url": "/api/2024/species/flamekin"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
+    ],
+    "url": "/api/2024/traits/flamekin-darkvision"
+  },
+  {
+    "index": "flamekin-fire-resistance",
+    "name": "Fire Resistance",
+    "species": [
+      {
+        "index": "flamekin",
+        "name": "Flamekin",
+        "url": "/api/2024/species/flamekin"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "You have resistance to fire damage."
+    ],
+    "url": "/api/2024/traits/flamekin-fire-resistance"
+  },
+  {
+    "index": "flamekin-reach-to-the-blaze",
+    "name": "Reach to the Blaze",
+    "species": [
+      {
+        "index": "flamekin",
+        "name": "Flamekin",
+        "url": "/api/2024/species/flamekin"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "You know the Produce Flame cantrip. Starting at 3rd level, you can cast the Burning Hands spell with this trait. Starting at 5th level, you can also cast the Flame Blade spell with this trait, without requiring a material component. Once you cast Burning Hands or Flame Blade with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.",
+      "Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race)."
+    ],
+    "trait_specific": {
+      "spellcasting": {
+        "ability": [
+          {
+            "index": "int",
+            "name": "INT",
+            "url": "/api/2024/ability-scores/int"
+          },
+          {
+            "index": "wis",
+            "name": "WIS",
+            "url": "/api/2024/ability-scores/wis"
+          },
+          {
+            "index": "cha",
+            "name": "CHA",
+            "url": "/api/2024/ability-scores/cha"
+          }
+        ],
+        "spells": [
+          {
+            "spell": {
+              "index": "produce-flame",
+              "name": "Produce Flame",
+              "url": "/api/2024/spells/produce-flame"
+            },
+            "level": 1
+          },
+          {
+            "spell": {
+              "index": "burning-hands",
+              "name": "Burning Hands",
+              "url": "/api/2024/spells/burning-hands"
+            },
+            "level": 3
+          },
+          {
+            "spell": {
+              "index": "flame-blade",
+              "name": "Flame Blade",
+              "url": "/api/2024/spells/flame-blade"
+            },
+            "level": 5
+          }
+        ]
+      }
+    },
+    "url": "/api/2024/traits/flamekin-reach-to-the-blaze"
+  },
+  {
+    "index": "forest-gnome-gnomish-lineage",
+    "name": "Gnomish Lineage",
+    "species": [],
+    "subspecies": [
+      {
+        "index": "forest-gnome",
+        "name": "Forest Gnome",
+        "url": "/api/2024/subspecies/forest-gnome"
+      }
+    ],
+    "desc": [
+      "You know the Minor Illusion cantrip. You also always have the Speak with Animals spell prepared. You can cast it without a spell slot a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest. You can also use any spell slots you have to cast the spell. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the lineage)."
+    ],
+    "parent": {
+      "index": "gnome-gnomish-lineage",
+      "name": "Gnomish Lineage",
+      "url": "/api/2024/traits/gnome-gnomish-lineage"
+    },
+    "trait_specific": {
+      "spellcasting": {
+        "ability": [
+          {
+            "index": "int",
+            "name": "INT",
+            "url": "/api/2024/ability-scores/int"
+          },
+          {
+            "index": "wis",
+            "name": "WIS",
+            "url": "/api/2024/ability-scores/wis"
+          },
+          {
+            "index": "cha",
+            "name": "CHA",
+            "url": "/api/2024/ability-scores/cha"
+          }
+        ],
+        "spells": [
+          {
+            "spell": {
+              "index": "minor-illusion",
+              "name": "Minor Illusion",
+              "url": "/api/2024/spells/minor-illusion"
+            },
+            "level": 1
+          },
+          {
+            "spell": {
+              "index": "speak-with-animals",
+              "name": "Speak with Animals",
+              "url": "/api/2024/spells/speak-with-animals"
+            },
+            "level": 1
+          }
+        ]
+      }
+    },
+    "url": "/api/2024/traits/forest-gnome-gnomish-lineage"
+  },
+  {
+    "index": "gnome-darkvision",
+    "name": "Darkvision",
+    "species": [
+      {
+        "index": "gnome",
+        "name": "Gnome",
+        "url": "/api/2024/species/gnome"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "You have Darkvision with a range of 60 feet."
+    ],
+    "url": "/api/2024/traits/gnome-darkvision"
+  },
+  {
+    "index": "gnome-gnomish-cunning",
+    "name": "Gnomish Cunning",
+    "species": [
+      {
+        "index": "gnome",
+        "name": "Gnome",
+        "url": "/api/2024/species/gnome"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "You have Advantage on Intelligence, Wisdom, and Charisma saving throws."
+    ],
+    "url": "/api/2024/traits/gnome-gnomish-cunning"
+  },
+  {
+    "index": "gnome-gnomish-lineage",
+    "name": "Gnomish Lineage",
+    "species": [
+      {
+        "index": "gnome",
+        "name": "Gnome",
+        "url": "/api/2024/species/gnome"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "You are part of a lineage that grants you supernatural abilities. Choose one of the following options; whichever one you choose, Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the lineage): Forest Gnome or Rock Gnome."
+    ],
+    "url": "/api/2024/traits/gnome-gnomish-lineage"
+  },
+  {
+    "index": "goliath-giant-ancestry",
+    "name": "Giant Ancestry",
+    "species": [
+      {
+        "index": "goliath",
+        "name": "Goliath",
+        "url": "/api/2024/species/goliath"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "You are descended from Giants. Choose one of the following benefits - a supernatural boon from your ancestry; you can use the chosen benefit a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest:",
+      "Cloud's Jaunt (Cloud Giant). As a Bonus Action, you magically teleport up to 30 feet to an unoccupied space you can see.",
+      "Fire's Burn (Fire Giant). When you hit a target with an attack roll and deal damage to it, you can also deal 1d10 Fire damage to that target.",
+      "Frost's Chill (Frost Giant). When you hit a target with an attack roll and deal damage to it, you can also deal 1d6 Cold damage to that target and reduce its Speed by 10 feet until the start of your next turn.",
+      "Hill's Tumble (Hill Giant). When you hit a Large or smaller creature with an attack roll and deal damage to it, you can give that target the Prone condition.",
+      "Stone's Endurance (Stone Giant). When you take damage, you can take a Reaction to roll 1d12. Add your Constitution modifier to the number rolled and reduce the damage by that total.",
+      "Storm's Thunder (Storm Giant). When you take damage from a creature within 60 feet of you, you can take a Reaction to deal 1d8 Thunder damage to that creature."
+    ],
+    "trait_specific": {
+      "subtrait_options": {
+        "desc": "Choose a Giant Ancestry boon",
+        "choose": 1,
+        "type": "ancestry",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "string",
+              "string": "Cloud's Jaunt (Cloud Giant)"
+            },
+            {
+              "option_type": "string",
+              "string": "Fire's Burn (Fire Giant)"
+            },
+            {
+              "option_type": "string",
+              "string": "Frost's Chill (Frost Giant)"
+            },
+            {
+              "option_type": "string",
+              "string": "Hill's Tumble (Hill Giant)"
+            },
+            {
+              "option_type": "string",
+              "string": "Stone's Endurance (Stone Giant)"
+            },
+            {
+              "option_type": "string",
+              "string": "Storm's Thunder (Storm Giant)"
+            }
+          ]
+        }
+      }
+    },
+    "url": "/api/2024/traits/goliath-giant-ancestry"
+  },
+  {
+    "index": "goliath-large-form",
+    "name": "Large Form",
+    "species": [
+      {
+        "index": "goliath",
+        "name": "Goliath",
+        "url": "/api/2024/species/goliath"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "Starting at character level 5, you can change your size to Large as a Bonus Action if you're in a big enough space. This transformation lasts for 10 minutes or until you end it (no action required). For that duration, you have Advantage on Strength checks, and your Speed increases by 10 feet. Once you use this trait, you can't use it again until you finish a Long Rest."
+    ],
+    "url": "/api/2024/traits/goliath-large-form"
+  },
+  {
+    "index": "goliath-powerful-build",
+    "name": "Powerful Build",
+    "species": [
+      {
+        "index": "goliath",
+        "name": "Goliath",
+        "url": "/api/2024/species/goliath"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "You have Advantage on any ability check you make to end the Grappled condition. You also count as one size larger when determining your carrying capacity."
+    ],
+    "url": "/api/2024/traits/goliath-powerful-build"
+  },
+  {
+    "index": "halfling-brave",
+    "name": "Brave",
+    "species": [
+      {
+        "index": "halfling",
+        "name": "Halfling",
+        "url": "/api/2024/species/halfling"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "You have Advantage on saving throws you make to avoid or end the Frightened condition."
+    ],
+    "url": "/api/2024/traits/halfling-brave"
+  },
+  {
+    "index": "halfling-halfling-nimbleness",
+    "name": "Halfling Nimbleness",
+    "species": [
+      {
+        "index": "halfling",
+        "name": "Halfling",
+        "url": "/api/2024/species/halfling"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "You can move through the space of any creature that is a size larger than you, but you can't stop in the same space."
+    ],
+    "url": "/api/2024/traits/halfling-halfling-nimbleness"
+  },
+  {
+    "index": "halfling-luck",
+    "name": "Luck",
+    "species": [
+      {
+        "index": "halfling",
+        "name": "Halfling",
+        "url": "/api/2024/species/halfling"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "When you roll a 1 on the d20 of a D20 Test, you can reroll the die, and you must use the new roll."
+    ],
+    "url": "/api/2024/traits/halfling-luck"
+  },
+  {
+    "index": "halfling-naturally-stealthy",
+    "name": "Naturally Stealthy",
+    "species": [
+      {
+        "index": "halfling",
+        "name": "Halfling",
+        "url": "/api/2024/species/halfling"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "You can take the Hide action even when you are obscured only by a creature that is at least one size larger than you."
+    ],
+    "url": "/api/2024/traits/halfling-naturally-stealthy"
+  },
+  {
+    "index": "hexblood-darkvision",
+    "name": "Darkvision",
+    "species": [
+      {
+        "index": "hexblood",
+        "name": "Hexblood",
+        "url": "/api/2024/species/hexblood"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "You have Darkvision with a range of 60 feet."
+    ],
+    "url": "/api/2024/traits/hexblood-darkvision"
+  },
+  {
+    "index": "hexblood-eerie-token",
+    "name": "Eerie Token",
+    "species": [
+      {
+        "index": "hexblood",
+        "name": "Hexblood",
+        "url": "/api/2024/species/hexblood"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "As a Bonus Action, you can create a magical token by harmlessly removing a lock of hair, detaching a nail, or using some other method. While the token exists, you gain the following benefits:",
+      "Distant Message. As a Magic action, you can send a telepathic message of 25 words or fewer to a creature holding or carrying the token, as long as you are within 10 miles of it.",
+      "Remote Viewing. If you are within 10 miles of the token, you can take a Magic action to extend your senses through the token for 1 minute, until you have the Incapacitated condition, or until you end this state (no action required). During this state, you can see and hear from the token as if you were located where it is. When this state ends, the token is harmlessly destroyed.",
+      "Unless the token is destroyed early, it lasts until you finish a Long Rest. Once you create a token using this feature, you can't do so again until you finish a Long Rest."
+    ],
+    "url": "/api/2024/traits/hexblood-eerie-token"
+  },
+  {
+    "index": "hexblood-hex-magic",
+    "name": "Hex Magic",
+    "species": [
+      {
+        "index": "hexblood",
+        "name": "Hexblood",
+        "url": "/api/2024/species/hexblood"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "You always have the Disguise Self and Hex spells prepared. You can cast each spell once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select this species)."
+    ],
+    "trait_specific": {
+      "spellcasting": {
+        "ability": [
+          {
+            "index": "int",
+            "name": "INT",
+            "url": "/api/2024/ability-scores/int"
+          },
+          {
+            "index": "wis",
+            "name": "WIS",
+            "url": "/api/2024/ability-scores/wis"
+          },
+          {
+            "index": "cha",
+            "name": "CHA",
+            "url": "/api/2024/ability-scores/cha"
+          }
+        ],
+        "spells": [
+          {
+            "spell": {
+              "index": "disguise-self",
+              "name": "Disguise Self",
+              "url": "/api/2024/spells/disguise-self"
+            },
+            "level": 1
+          },
+          {
+            "spell": {
+              "index": "hex",
+              "name": "Hex",
+              "url": "/api/2024/spells/hex"
+            },
+            "level": 1
+          }
+        ]
+      }
+    },
+    "url": "/api/2024/traits/hexblood-hex-magic"
+  },
+  {
+    "index": "high-elf-elven-lineage",
+    "name": "Elven Lineage",
+    "species": [],
+    "subspecies": [
+      {
+        "index": "high-elf",
+        "name": "High Elf",
+        "url": "/api/2024/subspecies/high-elf"
+      }
+    ],
+    "desc": [
+      "Level 1: You know the Prestidigitation cantrip. Whenever you finish a Long Rest, you can replace that cantrip with a different cantrip from the Wizard spell list.",
+      "Level 3: You always have the Detect Magic spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level.",
+      "Level 5: You always have the Misty Step spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level.",
+      "Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells (choose the ability when you select this lineage)."
+    ],
+    "parent": {
+      "index": "elf-elven-lineage",
+      "name": "Elven Lineage",
+      "url": "/api/2024/traits/elf-elven-lineage"
+    },
+    "trait_specific": {
+      "spellcasting": {
+        "ability": [
+          {
+            "index": "int",
+            "name": "INT",
+            "url": "/api/2024/ability-scores/int"
+          },
+          {
+            "index": "wis",
+            "name": "WIS",
+            "url": "/api/2024/ability-scores/wis"
+          },
+          {
+            "index": "cha",
+            "name": "CHA",
+            "url": "/api/2024/ability-scores/cha"
+          }
+        ],
+        "spells": [
+          {
+            "spell": {
+              "index": "prestidigitation",
+              "name": "Prestidigitation",
+              "url": "/api/2024/spells/prestidigitation"
+            },
+            "level": 1,
+            "swappable_from": [
+              "wizard"
+            ]
+          },
+          {
+            "spell": {
+              "index": "detect-magic",
+              "name": "Detect Magic",
+              "url": "/api/2024/spells/detect-magic"
+            },
+            "level": 3
+          },
+          {
+            "spell": {
+              "index": "misty-step",
+              "name": "Misty Step",
+              "url": "/api/2024/spells/misty-step"
+            },
+            "level": 5
+          }
+        ]
+      }
+    },
+    "url": "/api/2024/traits/high-elf-elven-lineage"
+  },
+  {
+    "index": "human-resourceful",
+    "name": "Resourceful",
+    "species": [
+      {
+        "index": "human",
+        "name": "Human",
+        "url": "/api/2024/species/human"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "You gain Heroic Inspiration whenever you finish a Long Rest."
+    ],
+    "url": "/api/2024/traits/human-resourceful"
+  },
+  {
+    "index": "human-skillful",
+    "name": "Skillful",
+    "species": [
+      {
+        "index": "human",
+        "name": "Human",
+        "url": "/api/2024/species/human"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "You gain proficiency in one skill of your choice."
+    ],
+    "proficiency_choices": [
+      {
+        "desc": "Choose one skill",
+        "choose": 1,
+        "type": "proficiencies",
+        "from": {
+          "option_set_type": "resource_list",
+          "resource_list_url": "/api/2024/proficiencies?type=skills"
+        }
+      }
+    ],
+    "url": "/api/2024/traits/human-skillful"
+  },
+  {
+    "index": "human-versatile",
+    "name": "Versatile",
+    "species": [
+      {
+        "index": "human",
+        "name": "Human",
+        "url": "/api/2024/species/human"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "You gain an Origin feat of your choice. Skilled is recommended."
+    ],
+    "url": "/api/2024/traits/human-versatile"
+  },
+  {
+    "index": "infernal-fiendish-legacy",
+    "name": "Fiendish Legacy",
+    "species": [],
+    "subspecies": [
+      {
+        "index": "infernal",
+        "name": "Infernal",
+        "url": "/api/2024/subspecies/infernal"
+      }
+    ],
+    "desc": [
+      "Level 1: You have Resistance to Fire damage. You also know the Fire Bolt cantrip. Level 3: Hellish Rebuke. Level 5: Darkness. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the legacy)."
+    ],
+    "parent": {
+      "index": "tiefling-fiendish-legacy",
+      "name": "Fiendish Legacy",
+      "url": "/api/2024/traits/tiefling-fiendish-legacy"
+    },
+    "trait_specific": {
+      "spellcasting": {
+        "ability": [
+          {
+            "index": "int",
+            "name": "INT",
+            "url": "/api/2024/ability-scores/int"
+          },
+          {
+            "index": "wis",
+            "name": "WIS",
+            "url": "/api/2024/ability-scores/wis"
+          },
+          {
+            "index": "cha",
+            "name": "CHA",
+            "url": "/api/2024/ability-scores/cha"
+          }
+        ],
+        "spells": [
+          {
+            "spell": {
+              "index": "fire-bolt",
+              "name": "Fire Bolt",
+              "url": "/api/2024/spells/fire-bolt"
+            },
+            "level": 1
+          },
+          {
+            "spell": {
+              "index": "hellish-rebuke",
+              "name": "Hellish Rebuke",
+              "url": "/api/2024/spells/hellish-rebuke"
+            },
+            "level": 3
+          },
+          {
+            "spell": {
+              "index": "darkness",
+              "name": "Darkness",
+              "url": "/api/2024/spells/darkness"
+            },
+            "level": 5
+          }
+        ]
+      }
+    },
+    "url": "/api/2024/traits/infernal-fiendish-legacy"
+  },
+  {
+    "index": "kalashtar-dual-mind",
+    "name": "Dual Mind",
+    "species": [
+      {
+        "index": "kalashtar",
+        "name": "Kalashtar",
+        "url": "/api/2024/species/kalashtar"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "You have Advantage on Wisdom and Charisma saving throws."
+    ],
+    "url": "/api/2024/traits/kalashtar-dual-mind"
+  },
+  {
+    "index": "kalashtar-mental-discipline",
+    "name": "Mental Discipline",
+    "species": [
+      {
+        "index": "kalashtar",
+        "name": "Kalashtar",
+        "url": "/api/2024/species/kalashtar"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "You have Resistance to Psychic damage."
+    ],
+    "url": "/api/2024/traits/kalashtar-mental-discipline"
+  },
+  {
+    "index": "kalashtar-mind-link",
+    "name": "Mind Link",
+    "species": [
+      {
+        "index": "kalashtar",
+        "name": "Kalashtar",
+        "url": "/api/2024/species/kalashtar"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "You have telepathy with a range in feet equal to 10 times your level. When you're using this trait to speak telepathically to a creature, you can take a Magic action to give that creature the ability to speak telepathically with you for 1 hour or until you take another Magic action to end this effect."
+    ],
+    "url": "/api/2024/traits/kalashtar-mind-link"
+  },
+  {
+    "index": "kalashtar-severed-from-dreams",
+    "name": "Severed from Dreams",
+    "species": [
+      {
+        "index": "kalashtar",
+        "name": "Kalashtar",
+        "url": "/api/2024/species/kalashtar"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "You can't be the target of the Dream spell. In addition, when you finish a Long Rest, you gain proficiency in one skill of your choice. This proficiency lasts until you finish another Long Rest."
+    ],
+    "proficiency_choices": [
+      {
+        "desc": "Choose one skill proficiency when you finish a Long Rest",
+        "choose": 1,
+        "type": "proficiencies",
+        "from": {
+          "option_set_type": "resource_list",
+          "resource_list_url": "/api/2024/proficiencies?type=skills"
+        }
+      }
+    ],
+    "url": "/api/2024/traits/kalashtar-severed-from-dreams"
+  },
+  {
+    "index": "khoravar-darkvision",
+    "name": "Darkvision",
+    "species": [
+      {
+        "index": "khoravar",
+        "name": "Khoravar",
+        "url": "/api/2024/species/khoravar"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "You have Darkvision with a range of 60 feet."
+    ],
+    "url": "/api/2024/traits/khoravar-darkvision"
+  },
+  {
+    "index": "khoravar-fey-ancestry",
+    "name": "Fey Ancestry",
+    "species": [
+      {
+        "index": "khoravar",
+        "name": "Khoravar",
+        "url": "/api/2024/species/khoravar"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "You have Advantage on saving throws you make to avoid or end the Charmed condition."
+    ],
+    "url": "/api/2024/traits/khoravar-fey-ancestry"
+  },
+  {
+    "index": "khoravar-fey-gift",
+    "name": "Fey Gift",
+    "species": [
+      {
+        "index": "khoravar",
+        "name": "Khoravar",
+        "url": "/api/2024/species/khoravar"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "You know the Friends cantrip. Whenever you finish a Long Rest, you can replace that cantrip with a different cantrip from the Cleric, Druid, or Wizard spell list. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spell you cast with this trait (chosen when you select this species)."
+    ],
+    "trait_specific": {
+      "spellcasting": {
+        "ability": [
+          {
+            "index": "int",
+            "name": "INT",
+            "url": "/api/2024/ability-scores/int"
+          },
+          {
+            "index": "wis",
+            "name": "WIS",
+            "url": "/api/2024/ability-scores/wis"
+          },
+          {
+            "index": "cha",
+            "name": "CHA",
+            "url": "/api/2024/ability-scores/cha"
+          }
+        ],
+        "spells": [
+          {
+            "spell": {
+              "index": "friends",
+              "name": "Friends",
+              "url": "/api/2024/spells/friends"
+            },
+            "level": 1,
+            "swappable_from": [
+              "cleric",
+              "druid",
+              "wizard"
+            ]
+          }
+        ]
+      }
+    },
+    "url": "/api/2024/traits/khoravar-fey-gift"
+  },
+  {
+    "index": "khoravar-lethargy-resilience",
+    "name": "Lethargy Resilience",
+    "species": [
+      {
+        "index": "khoravar",
+        "name": "Khoravar",
+        "url": "/api/2024/species/khoravar"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "When you fail a saving throw to avoid or end the Unconscious condition, you can succeed instead. Once you use this trait, you can't do so again until you finish 1d4 Long Rests."
+    ],
+    "url": "/api/2024/traits/khoravar-lethargy-resilience"
+  },
+  {
+    "index": "khoravar-skill-versatility",
+    "name": "Skill Versatility",
+    "species": [
+      {
+        "index": "khoravar",
+        "name": "Khoravar",
+        "url": "/api/2024/species/khoravar"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "You gain proficiency in one skill or with one tool of your choice. Whenever you finish a Long Rest, you can replace it with another skill or tool proficiency."
+    ],
+    "proficiency_choices": [
+      {
+        "desc": "Choose one skill or tool proficiency",
+        "choose": 1,
+        "type": "proficiencies",
+        "from": {
+          "option_set_type": "resource_list",
+          "resource_list_url": "/api/2024/proficiencies?type=skills,tools"
+        }
+      }
+    ],
+    "url": "/api/2024/traits/khoravar-skill-versatility"
+  },
+  {
+    "index": "lorwyn-changeling-darkvision",
+    "name": "Darkvision",
+    "species": [
+      {
+        "index": "lorwyn-changeling",
+        "name": "Lorwyn Changeling",
+        "url": "/api/2024/species/lorwyn-changeling"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "You have Darkvision with a range of 120 feet."
+    ],
+    "url": "/api/2024/traits/lorwyn-changeling-darkvision"
+  },
+  {
+    "index": "lorwyn-changeling-delightful-imitator",
+    "name": "Delightful Imitator",
+    "species": [
+      {
+        "index": "lorwyn-changeling",
+        "name": "Lorwyn Changeling",
+        "url": "/api/2024/species/lorwyn-changeling"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "You have proficiency in the Performance skill."
+    ],
+    "proficiencies": [
+      {
+        "index": "skill-performance",
+        "name": "Skill: Performance",
+        "url": "/api/2024/proficiencies/skill-performance"
+      }
+    ],
+    "url": "/api/2024/traits/lorwyn-changeling-delightful-imitator"
+  },
+  {
+    "index": "lorwyn-changeling-shape-self",
+    "name": "Shape Self",
+    "species": [
+      {
+        "index": "lorwyn-changeling",
+        "name": "Lorwyn Changeling",
+        "url": "/api/2024/species/lorwyn-changeling"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "As an action, you can reshape your body to a two-legged Humanoid shape or to a four-legged Beast shape. While you have a Humanoid shape, you can wear clothing and armor made for a Humanoid of your size."
+    ],
+    "url": "/api/2024/traits/lorwyn-changeling-shape-self"
+  },
+  {
+    "index": "lorwyn-changeling-unpredictable-movement",
+    "name": "Unpredictable Movement",
+    "species": [
+      {
+        "index": "lorwyn-changeling",
+        "name": "Lorwyn Changeling",
+        "url": "/api/2024/species/lorwyn-changeling"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "When you roll Initiative and don't have Disadvantage on that roll, you can take the Dash action as a Reaction."
+    ],
+    "url": "/api/2024/traits/lorwyn-changeling-unpredictable-movement"
+  },
+  {
+    "index": "lorwyn-elf-elven-lineage",
+    "name": "Elven Lineage",
+    "species": [],
+    "subspecies": [
+      {
+        "index": "lorwyn-elf",
+        "name": "Lorwyn Elf",
+        "url": "/api/2024/subspecies/lorwyn-elf"
+      }
+    ],
+    "desc": [
+      "Level 1: You know the Thorn Whip cantrip. Whenever you finish a Long Rest, you can replace that cantrip with a different cantrip from the Druid spell list.",
+      "Level 3: You always have the Command spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level.",
+      "Level 5: You always have the Silence spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level.",
+      "Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells (choose the ability when you select this lineage)."
+    ],
+    "parent": {
+      "index": "elf-elven-lineage",
+      "name": "Elven Lineage",
+      "url": "/api/2024/traits/elf-elven-lineage"
+    },
+    "trait_specific": {
+      "spellcasting": {
+        "ability": [
+          {
+            "index": "int",
+            "name": "INT",
+            "url": "/api/2024/ability-scores/int"
+          },
+          {
+            "index": "wis",
+            "name": "WIS",
+            "url": "/api/2024/ability-scores/wis"
+          },
+          {
+            "index": "cha",
+            "name": "CHA",
+            "url": "/api/2024/ability-scores/cha"
+          }
+        ],
+        "spells": [
+          {
+            "spell": {
+              "index": "thorn-whip",
+              "name": "Thorn Whip",
+              "url": "/api/2024/spells/thorn-whip"
+            },
+            "level": 1,
+            "swappable_from": [
+              "druid"
+            ]
+          },
+          {
+            "spell": {
+              "index": "command",
+              "name": "Command",
+              "url": "/api/2024/spells/command"
+            },
+            "level": 3
+          },
+          {
+            "spell": {
+              "index": "silence",
+              "name": "Silence",
+              "url": "/api/2024/spells/silence"
+            },
+            "level": 5
+          }
+        ]
+      }
+    },
+    "url": "/api/2024/traits/lorwyn-elf-elven-lineage"
+  },
+  {
+    "index": "lupin-darkvision",
+    "name": "Darkvision",
+    "species": [
+      {
+        "index": "lupin",
+        "name": "Lupin",
+        "url": "/api/2024/species/lupin"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "You have Darkvision with a range of 60 feet."
+    ],
+    "url": "/api/2024/traits/lupin-darkvision"
+  },
+  {
+    "index": "lupin-feral-pounce",
+    "name": "Feral Pounce",
+    "species": [
+      {
+        "index": "lupin",
+        "name": "Lupin",
+        "url": "/api/2024/species/lupin"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "Your Unarmed Strikes deal Slashing damage instead of Bludgeoning damage. In addition, when you hit a creature with an Unarmed Strike as part of the Attack action on your turn, you can use both the Damage and the Shove options. You can use this benefit only once per turn."
+    ],
+    "url": "/api/2024/traits/lupin-feral-pounce"
+  },
+  {
+    "index": "lupin-howl",
+    "name": "Howl",
+    "species": [
+      {
+        "index": "lupin",
+        "name": "Lupin",
+        "url": "/api/2024/species/lupin"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "As a Bonus Action, you let out an unearthly howl. Each creature of your choice within 15 feet of you must succeed on a Wisdom saving throw (DC 8 plus your Constitution modifier and Proficiency Bonus) or have Disadvantage on attack rolls and saving throws until the start of your next turn.",
+      "You can use this trait a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest."
+    ],
+    "url": "/api/2024/traits/lupin-howl"
+  },
+  {
+    "index": "lupin-werewolf-instincts",
+    "name": "Werewolf Instincts",
+    "species": [
+      {
+        "index": "lupin",
+        "name": "Lupin",
+        "url": "/api/2024/species/lupin"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "You have proficiency in the Perception, Stealth, or Survival skill."
+    ],
+    "proficiency_choices": [
+      {
+        "choose": 1,
+        "type": "proficiencies",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "skill-perception",
+                "name": "Perception",
+                "url": "/api/2024/proficiencies/skill-perception"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "skill-stealth",
+                "name": "Stealth",
+                "url": "/api/2024/proficiencies/skill-stealth"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "skill-survival",
+                "name": "Survival",
+                "url": "/api/2024/proficiencies/skill-survival"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "url": "/api/2024/traits/lupin-werewolf-instincts"
+  },
+  {
+    "index": "orc-adrenaline-rush",
+    "name": "Adrenaline Rush",
+    "species": [
+      {
+        "index": "orc",
+        "name": "Orc",
+        "url": "/api/2024/species/orc"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "You can take the Dash action as a Bonus Action. When you do so, you gain a number of Temporary Hit Points equal to your Proficiency Bonus.",
+      "You can use this trait a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Short or Long Rest."
+    ],
+    "url": "/api/2024/traits/orc-adrenaline-rush"
+  },
+  {
+    "index": "orc-darkvision",
+    "name": "Darkvision",
+    "species": [
+      {
+        "index": "orc",
+        "name": "Orc",
+        "url": "/api/2024/species/orc"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "You have Darkvision with a range of 120 feet."
+    ],
+    "url": "/api/2024/traits/orc-darkvision"
+  },
+  {
+    "index": "orc-relentless-endurance",
+    "name": "Relentless Endurance",
+    "species": [
+      {
+        "index": "orc",
+        "name": "Orc",
+        "url": "/api/2024/species/orc"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "When you are reduced to 0 Hit Points but not killed outright, you can drop to 1 Hit Point instead. Once you use this trait, you can't do so again until you finish a Long Rest."
+    ],
+    "url": "/api/2024/traits/orc-relentless-endurance"
+  },
+  {
+    "index": "reborn-escaped-death",
+    "name": "Escaped Death",
+    "species": [
+      {
+        "index": "reborn",
+        "name": "Reborn",
+        "url": "/api/2024/species/reborn"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "You have Advantage on Death Saving Throws."
+    ],
+    "url": "/api/2024/traits/reborn-escaped-death"
+  },
+  {
+    "index": "reborn-everlasting",
+    "name": "Everlasting",
+    "species": [
+      {
+        "index": "reborn",
+        "name": "Reborn",
+        "url": "/api/2024/species/reborn"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "You don't gain Exhaustion levels from dehydration, malnutrition, or suffocation. You don't need to sleep, and magic can't put you to sleep. You can finish a Long Rest in 4 hours if you spend those hours in an inactive, motionless state, during which you retain consciousness."
+    ],
+    "url": "/api/2024/traits/reborn-everlasting"
+  },
+  {
+    "index": "reborn-knowledge-from-a-past-life",
+    "name": "Knowledge from a Past Life",
+    "species": [
+      {
+        "index": "reborn",
+        "name": "Reborn",
+        "url": "/api/2024/species/reborn"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "You gain proficiency in one skill of your choice.",
+      "In addition, you can temporarily peer into the past to aid you in the present. When you fail an ability check, you can roll 1d6 and add the number rolled to the d20, potentially turning the failure into a success. You can do this a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest."
+    ],
+    "proficiency_choices": [
+      {
+        "choose": 1,
+        "type": "skills",
+        "from": {
+          "option_set_type": "resource_list",
+          "resource_list_url": "/api/2024/skills"
+        }
+      }
+    ],
+    "url": "/api/2024/traits/reborn-knowledge-from-a-past-life"
+  },
+  {
+    "index": "reborn-strange-endurance",
+    "name": "Strange Endurance",
+    "species": [
+      {
+        "index": "reborn",
+        "name": "Reborn",
+        "url": "/api/2024/species/reborn"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "You have Resistance to one of the following damage types of your choice: Cold, Necrotic, or Poison."
+    ],
+    "url": "/api/2024/traits/reborn-strange-endurance"
+  },
+  {
+    "index": "rimekin-cold-fire-magic",
+    "name": "Cold Fire Magic",
+    "species": [
+      {
+        "index": "rimekin",
+        "name": "Rimekin",
+        "url": "/api/2024/species/rimekin"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "You know the Ray of Frost cantrip. When you reach character levels 3 and 5, you learn the Ice Knife spell and the Flame Blade spell, respectively. You always have those spells prepared. You can cast each once without a spell slot, and you regain the ability to cast these spells in this way when you finish a Long Rest. You can also cast the spells using any spell slots you have of the appropriate level. When you cast Flame Blade using this trait, the spell deals Cold damage instead of Fire damage.",
+      "Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells (choose the ability when you select this species)."
+    ],
+    "trait_specific": {
+      "spellcasting": {
+        "ability": [
+          {
+            "index": "int",
+            "name": "INT",
+            "url": "/api/2024/ability-scores/int"
+          },
+          {
+            "index": "wis",
+            "name": "WIS",
+            "url": "/api/2024/ability-scores/wis"
+          },
+          {
+            "index": "cha",
+            "name": "CHA",
+            "url": "/api/2024/ability-scores/cha"
+          }
+        ],
+        "spells": [
+          {
+            "spell": {
+              "index": "ray-of-frost",
+              "name": "Ray of Frost",
+              "url": "/api/2024/spells/ray-of-frost"
+            },
+            "level": 1
+          },
+          {
+            "spell": {
+              "index": "ice-knife",
+              "name": "Ice Knife",
+              "url": "/api/2024/spells/ice-knife"
+            },
+            "level": 3
+          },
+          {
+            "spell": {
+              "index": "flame-blade",
+              "name": "Flame Blade",
+              "url": "/api/2024/spells/flame-blade"
+            },
+            "level": 5
+          }
+        ]
+      }
+    },
+    "url": "/api/2024/traits/rimekin-cold-fire-magic"
+  },
+  {
+    "index": "rimekin-cold-resistance",
+    "name": "Cold Resistance",
+    "species": [
+      {
+        "index": "rimekin",
+        "name": "Rimekin",
+        "url": "/api/2024/species/rimekin"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "You have Resistance to Cold damage."
+    ],
+    "url": "/api/2024/traits/rimekin-cold-resistance"
+  },
+  {
+    "index": "rimekin-darkvision",
+    "name": "Darkvision",
+    "species": [
+      {
+        "index": "rimekin",
+        "name": "Rimekin",
+        "url": "/api/2024/species/rimekin"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "You have Darkvision with a range of 60 feet."
+    ],
+    "url": "/api/2024/traits/rimekin-darkvision"
+  },
+  {
+    "index": "rock-gnome-gnomish-lineage",
+    "name": "Gnomish Lineage",
+    "species": [],
+    "subspecies": [
+      {
+        "index": "rock-gnome",
+        "name": "Rock Gnome",
+        "url": "/api/2024/subspecies/rock-gnome"
+      }
+    ],
+    "desc": [
+      "You know the Mending and Prestidigitation cantrips. In addition, you can spend 10 minutes casting Prestidigitation to create a Tiny clockwork device (AC 5, 1 HP), such as a toy, fire starter, or music box. When you create the device, you determine its function by choosing one effect from Prestidigitation; the device produces that effect whenever you or another creature takes a Bonus Action to activate it with a touch. If the chosen effect has options within it, you choose one of those options for the device when you create it. For example, if you choose the spell's ignite-extinguish effect, you determine whether the device ignites or extinguishes fire; the device doesn't do both. You can have three such devices in existence at a time, and each falls apart 8 hours after its creation or when you dismantle it with a touch as a Utilize action. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the lineage)."
+    ],
+    "parent": {
+      "index": "gnome-gnomish-lineage",
+      "name": "Gnomish Lineage",
+      "url": "/api/2024/traits/gnome-gnomish-lineage"
+    },
+    "trait_specific": {
+      "spellcasting": {
+        "ability": [
+          {
+            "index": "int",
+            "name": "INT",
+            "url": "/api/2024/ability-scores/int"
+          },
+          {
+            "index": "wis",
+            "name": "WIS",
+            "url": "/api/2024/ability-scores/wis"
+          },
+          {
+            "index": "cha",
+            "name": "CHA",
+            "url": "/api/2024/ability-scores/cha"
+          }
+        ],
+        "spells": [
+          {
+            "spell": {
+              "index": "mending",
+              "name": "Mending",
+              "url": "/api/2024/spells/mending"
+            },
+            "level": 1
+          },
+          {
+            "spell": {
+              "index": "prestidigitation",
+              "name": "Prestidigitation",
+              "url": "/api/2024/spells/prestidigitation"
+            },
+            "level": 1
+          }
+        ]
+      }
+    },
+    "url": "/api/2024/traits/rock-gnome-gnomish-lineage"
+  },
+  {
+    "index": "shadowmoor-elf-elven-lineage",
+    "name": "Elven Lineage",
+    "species": [],
+    "subspecies": [
+      {
+        "index": "shadowmoor-elf",
+        "name": "Shadowmoor Elf",
+        "url": "/api/2024/subspecies/shadowmoor-elf"
+      }
+    ],
+    "desc": [
+      "Level 1: The range of your Darkvision increases to 120 feet. You also know the Starry Wisp cantrip.",
+      "Level 3: You always have the Heroism spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level.",
+      "Level 5: You always have the Gentle Repose spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level.",
+      "Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells (choose the ability when you select this lineage)."
+    ],
+    "parent": {
+      "index": "elf-elven-lineage",
+      "name": "Elven Lineage",
+      "url": "/api/2024/traits/elf-elven-lineage"
+    },
+    "trait_specific": {
+      "spellcasting": {
+        "ability": [
+          {
+            "index": "int",
+            "name": "INT",
+            "url": "/api/2024/ability-scores/int"
+          },
+          {
+            "index": "wis",
+            "name": "WIS",
+            "url": "/api/2024/ability-scores/wis"
+          },
+          {
+            "index": "cha",
+            "name": "CHA",
+            "url": "/api/2024/ability-scores/cha"
+          }
+        ],
+        "spells": [
+          {
+            "spell": {
+              "index": "starry-wisp",
+              "name": "Starry Wisp",
+              "url": "/api/2024/spells/starry-wisp"
+            },
+            "level": 1
+          },
+          {
+            "spell": {
+              "index": "heroism",
+              "name": "Heroism",
+              "url": "/api/2024/spells/heroism"
+            },
+            "level": 3
+          },
+          {
+            "spell": {
+              "index": "gentle-repose",
+              "name": "Gentle Repose",
+              "url": "/api/2024/spells/gentle-repose"
+            },
+            "level": 5
+          }
+        ]
+      }
+    },
+    "url": "/api/2024/traits/shadowmoor-elf-elven-lineage"
+  },
+  {
+    "index": "shifter-bestial-instincts",
+    "name": "Bestial Instincts",
+    "species": [
+      {
+        "index": "shifter",
+        "name": "Shifter",
+        "url": "/api/2024/species/shifter"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "Channeling the beast within, you gain proficiency in one of the following skills of your choice: Acrobatics, Athletics, Intimidation, or Survival."
+    ],
+    "proficiency_choices": [
+      {
+        "choose": 1,
+        "type": "proficiencies",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "skill-acrobatics",
+                "name": "Acrobatics",
+                "url": "/api/2024/proficiencies/skill-acrobatics"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "skill-athletics",
+                "name": "Athletics",
+                "url": "/api/2024/proficiencies/skill-athletics"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "skill-intimidation",
+                "name": "Intimidation",
+                "url": "/api/2024/proficiencies/skill-intimidation"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "skill-survival",
+                "name": "Survival",
+                "url": "/api/2024/proficiencies/skill-survival"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "url": "/api/2024/traits/shifter-bestial-instincts"
+  },
+  {
+    "index": "shifter-darkvision",
+    "name": "Darkvision",
+    "species": [
+      {
+        "index": "shifter",
+        "name": "Shifter",
+        "url": "/api/2024/species/shifter"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "You have Darkvision with a range of 60 feet."
+    ],
+    "url": "/api/2024/traits/shifter-darkvision"
+  },
+  {
+    "index": "shifter-shifting",
+    "name": "Shifting",
+    "species": [
+      {
+        "index": "shifter",
+        "name": "Shifter",
+        "url": "/api/2024/species/shifter"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "As a Bonus Action, you can shape-shift to assume a more bestial appearance. This transformation lasts for 1 minute or until you revert to your normal appearance as a Bonus Action. When you shift, you gain Temporary Hit Points equal to 2 times your Proficiency Bonus. You can shift a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.",
+      "Whenever you shift, you gain the benefit of one of the following options (choose when you select this species):",
+      "Beasthide. You gain 1d6 additional Temporary Hit Points. While shifted, you have a +1 bonus to your Armor Class.",
+      "Longtooth. When you shift and as a Bonus Action on your other turns while shifted, you can use your elongated fangs to make an Unarmed Strike. If you hit with this Unarmed Strike and deal damage, you can deal Piercing damage equal to 1d6 plus your Strength modifier, instead of the normal damage of an Unarmed Strike.",
+      "Swiftstride. While you are shifted, your Speed increases by 10 feet. Additionally, you can move up to 10 feet as a Reaction when a creature ends its turn within 5 feet of you. This reactive movement doesn't provoke Opportunity Attack action.",
+      "Wildhunt. While shifted, you have Advantage on Wisdom checks. Additionally, no creature within 30 feet of you can have Advantage on an attack roll against you unless you have the Incapacitated condition."
+    ],
+    "trait_specific": {
+      "subtrait_options": {
+        "choose": 1,
+        "type": "subtrait",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "string",
+              "string": "Beasthide"
+            },
+            {
+              "option_type": "string",
+              "string": "Longtooth"
+            },
+            {
+              "option_type": "string",
+              "string": "Swiftstride"
+            },
+            {
+              "option_type": "string",
+              "string": "Wildhunt"
+            }
+          ]
+        }
+      }
+    },
+    "url": "/api/2024/traits/shifter-shifting"
+  },
+  {
+    "index": "tiefling-darkvision",
+    "name": "Darkvision",
+    "species": [
+      {
+        "index": "tiefling",
+        "name": "Tiefling",
+        "url": "/api/2024/species/tiefling"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "You have Darkvision with a range of 60 feet."
+    ],
+    "url": "/api/2024/traits/tiefling-darkvision"
+  },
+  {
+    "index": "tiefling-fiendish-legacy",
+    "name": "Fiendish Legacy",
+    "species": [
+      {
+        "index": "tiefling",
+        "name": "Tiefling",
+        "url": "/api/2024/species/tiefling"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "You are the recipient of a legacy that grants you supernatural abilities. Choose a legacy from the Fiendish Legacies table. You gain the level 1 benefit of the chosen legacy.",
+      "When you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level.",
+      "Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the legacy)."
+    ],
+    "url": "/api/2024/traits/tiefling-fiendish-legacy"
+  },
+  {
+    "index": "tiefling-otherworldly-presence",
+    "name": "Otherworldly Presence",
+    "species": [
+      {
+        "index": "tiefling",
+        "name": "Tiefling",
+        "url": "/api/2024/species/tiefling"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "You know the Thaumaturgy cantrip. When you cast it with this trait, the spell uses the same spellcasting ability you use for your Fiendish Legacy trait."
+    ],
+    "trait_specific": {
+      "spellcasting": {
+        "ability": [
+          {
+            "index": "int",
+            "name": "INT",
+            "url": "/api/2024/ability-scores/int"
+          },
+          {
+            "index": "wis",
+            "name": "WIS",
+            "url": "/api/2024/ability-scores/wis"
+          },
+          {
+            "index": "cha",
+            "name": "CHA",
+            "url": "/api/2024/ability-scores/cha"
+          }
+        ],
+        "spells": [
+          {
+            "spell": {
+              "index": "thaumaturgy",
+              "name": "Thaumaturgy",
+              "url": "/api/2024/spells/thaumaturgy"
+            },
+            "level": 1
+          }
+        ]
+      }
+    },
+    "url": "/api/2024/traits/tiefling-otherworldly-presence"
+  },
+  {
+    "index": "warforged-construct-resilience",
+    "name": "Construct Resilience",
+    "species": [
+      {
+        "index": "warforged",
+        "name": "Warforged",
+        "url": "/api/2024/species/warforged"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "You have Resistance to Poison damage. You also have Advantage on saving throws to avoid or end the Poisoned condition."
+    ],
+    "url": "/api/2024/traits/warforged-construct-resilience"
+  },
+  {
+    "index": "warforged-integrated-protection",
+    "name": "Integrated Protection",
+    "species": [
+      {
+        "index": "warforged",
+        "name": "Warforged",
+        "url": "/api/2024/species/warforged"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "You gain a +1 bonus to your Armor Class. In addition, armor you have donned can't be removed against your will while you're alive."
+    ],
+    "url": "/api/2024/traits/warforged-integrated-protection"
+  },
+  {
+    "index": "warforged-sentrys-rest",
+    "name": "Sentry's Rest",
+    "species": [
+      {
+        "index": "warforged",
+        "name": "Warforged",
+        "url": "/api/2024/species/warforged"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "You don't need to sleep, and magic can't put you to sleep. You can finish a Long Rest in 6 hours if you spend those hours in an inactive, motionless state. During this time, you appear inert but remain conscious."
+    ],
+    "url": "/api/2024/traits/warforged-sentrys-rest"
+  },
+  {
+    "index": "warforged-specialized-design",
+    "name": "Specialized Design",
+    "species": [
+      {
+        "index": "warforged",
+        "name": "Warforged",
+        "url": "/api/2024/species/warforged"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "You gain one skill proficiency and one tool proficiency of your choice."
+    ],
+    "proficiency_choices": [
+      {
+        "choose": 1,
+        "type": "skills",
+        "from": {
+          "option_set_type": "resource_list",
+          "resource_list_url": "/api/2024/skills"
+        },
+        "desc": "You gain one skill proficiency of your choice."
+      },
+      {
+        "desc": "You gain one tool proficiency of your choice.",
+        "choose": 1,
+        "type": "tools",
+        "from": {
+          "option_set_type": "resource_list",
+          "resource_list_url": "/api/2024/proficiencies?type=tools"
+        }
+      }
+    ],
+    "url": "/api/2024/traits/warforged-specialized-design"
+  },
+  {
+    "index": "warforged-tireless",
+    "name": "Tireless",
+    "species": [
+      {
+        "index": "warforged",
+        "name": "Warforged",
+        "url": "/api/2024/species/warforged"
+      }
+    ],
+    "subspecies": [],
+    "desc": [
+      "You don't gain Exhaustion levels from dehydration, malnutrition, or suffocation."
+    ],
+    "url": "/api/2024/traits/warforged-tireless"
+  },
+  {
+    "index": "wood-elf-elven-lineage",
+    "name": "Elven Lineage",
+    "species": [],
+    "subspecies": [
+      {
+        "index": "wood-elf",
+        "name": "Wood Elf",
+        "url": "/api/2024/subspecies/wood-elf"
+      }
+    ],
+    "desc": [
+      "Level 1: Your Speed increases to 35 feet. You also know the Druidcraft cantrip.",
+      "Level 3: You always have the Longstrider spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level.",
+      "Level 5: You always have the Pass without Trace spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level.",
+      "Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells (choose the ability when you select this lineage)."
+    ],
+    "parent": {
+      "index": "elf-elven-lineage",
+      "name": "Elven Lineage",
+      "url": "/api/2024/traits/elf-elven-lineage"
+    },
+    "trait_specific": {
+      "spellcasting": {
+        "ability": [
+          {
+            "index": "int",
+            "name": "INT",
+            "url": "/api/2024/ability-scores/int"
+          },
+          {
+            "index": "wis",
+            "name": "WIS",
+            "url": "/api/2024/ability-scores/wis"
+          },
+          {
+            "index": "cha",
+            "name": "CHA",
+            "url": "/api/2024/ability-scores/cha"
+          }
+        ],
+        "spells": [
+          {
+            "spell": {
+              "index": "druidcraft",
+              "name": "Druidcraft",
+              "url": "/api/2024/spells/druidcraft"
+            },
+            "level": 1
+          },
+          {
+            "spell": {
+              "index": "longstrider",
+              "name": "Longstrider",
+              "url": "/api/2024/spells/longstrider"
+            },
+            "level": 3
+          },
+          {
+            "spell": {
+              "index": "pass-without-trace",
+              "name": "Pass without Trace",
+              "url": "/api/2024/spells/pass-without-trace"
+            },
+            "level": 5
+          }
+        ]
+      }
+    },
+    "url": "/api/2024/traits/wood-elf-elven-lineage"
+  }
+]

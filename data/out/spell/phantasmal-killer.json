@@ -1,0 +1,59 @@
+{
+  "index": "phantasmal-killer",
+  "name": "Phantasmal Killer",
+  "level": 4,
+  "school": {
+    "index": "illusion",
+    "name": "Illusion",
+    "url": "/api/2024/magic-schools/illusion"
+  },
+  "casting_time": "Action",
+  "range": "120 feet",
+  "components": ["V", "S"],
+  "ritual": false,
+  "concentration": true,
+  "duration": "Concentration, up to 1 minute",
+  "desc": [
+    "You tap into the nightmares of a creature you can see within range and create an illusion of its deepest fears, visible only to that creature. The target makes a Wisdom saving throw. On a failed save, the target takes 4d10 Psychic damage and has Disadvantage on ability checks and attack rolls for the duration. On a successful save, the target takes half as much damage, and the spell ends.",
+    "For the duration, the target makes a Wisdom saving throw at the end of each of its turns. On a failed save, it takes the Psychic damage again. On a successful save, the spell ends."
+  ],
+  "higher_level": [
+    "Using a Higher-Level Spell Slot. The damage increases by 1d10 for each spell slot level above 4."
+  ],
+  "damage": {
+    "damage_type": {
+      "index": "psychic",
+      "name": "Psychic",
+      "url": "/api/2024/damage-types/psychic"
+    },
+    "damage_at_slot_level": {
+      "4": "4d10",
+      "5": "5d10",
+      "6": "6d10",
+      "7": "7d10",
+      "8": "8d10",
+      "9": "9d10"
+    }
+  },
+  "dc": {
+    "dc_type": {
+      "index": "wis",
+      "name": "WIS",
+      "url": "/api/2024/ability-scores/wis"
+    },
+    "dc_success": "half"
+  },
+  "classes": [
+    {
+      "index": "bard",
+      "name": "Bard",
+      "url": "/api/2024/classes/bard"
+    },
+    {
+      "index": "wizard",
+      "name": "Wizard",
+      "url": "/api/2024/classes/wizard"
+    }
+  ],
+  "url": "/api/2024/spells/phantasmal-killer"
+}

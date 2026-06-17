@@ -1,0 +1,63 @@
+{
+  "index": "delayed-blast-fireball",
+  "name": "Delayed Blast Fireball",
+  "level": 7,
+  "school": {
+    "index": "evocation",
+    "name": "Evocation",
+    "url": "/api/2024/magic-schools/evocation"
+  },
+  "casting_time": "Action",
+  "range": "150 feet",
+  "components": ["V", "S", "M"],
+  "material": "a ball of bat guano and sulfur",
+  "ritual": false,
+  "concentration": true,
+  "duration": "Concentration, up to 1 minute",
+  "desc": [
+    "A beam of yellow light flashes from you, then condenses at a chosen point within range as a glowing bead for the duration. When the spell ends, the bead explodes, and each creature in a 20-foot-radius Sphere centered on that point makes a Dexterity saving throw. A creature takes Fire damage equal to the total accumulated damage on a failed save or half as much damage on a successful one.",
+    "The spell's base damage is 12d6, and the damage increases by 1d6 whenever your turn ends and the spell hasn't ended.",
+    "If a creature touches the glowing bead before the spell ends, that creature makes a Dexterity saving throw. On a failed save, the spell ends, causing the bead to explode. On a successful save, the creature can throw the bead up to 40 feet. If the thrown bead enters a creature's space or collides with a solid object, the spell ends, and the bead explodes.",
+    "When the bead explodes, flammable objects in the explosion that aren't being worn or carried start burning."
+  ],
+  "higher_level": [
+    "Using a Higher-Level Spell Slot. The base damage increases by 1d6 for each spell slot level above 7."
+  ],
+  "damage": {
+    "damage_type": {
+      "index": "fire",
+      "name": "Fire",
+      "url": "/api/2024/damage-types/fire"
+    },
+    "damage_at_slot_level": {
+      "7": "12d6",
+      "8": "13d6",
+      "9": "14d6"
+    }
+  },
+  "dc": {
+    "dc_type": {
+      "index": "dex",
+      "name": "DEX",
+      "url": "/api/2024/ability-scores/dex"
+    },
+    "dc_success": "half"
+  },
+  "area_of_effect": {
+    "type": "sphere",
+    "size": 20
+  },
+  "classes": [
+    {
+      "index": "sorcerer",
+      "name": "Sorcerer",
+      "url": "/api/2024/classes/sorcerer"
+    },
+    {
+      "index": "wizard",
+      "name": "Wizard",
+      "url": "/api/2024/classes/wizard"
+    }
+  ],
+  "url": "/api/2024/spells/delayed-blast-fireball"
+}

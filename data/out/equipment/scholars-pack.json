@@ -1,0 +1,86 @@
+{
+  "index": "scholars-pack",
+  "name": "Scholar's Pack",
+  "equipment_categories": [
+    {
+      "index": "equipment-packs",
+      "name": "Equipment Packs",
+      "url": "/api/2024/equipment-categories/equipment-packs"
+    },
+    {
+      "index": "adventuring-gear",
+      "name": "Adventuring Gear",
+      "url": "/api/2024/equipment-categories/adventuring-gear"
+    }
+  ],
+  "cost": { "quantity": 40, "unit": "gp" },
+  "weight": 22,
+  "description": "A Scholar's Pack contains the following items: Backpack, Book, Ink, Ink Pen, Lamp, 10 flasks of Oil, 10 sheets of Parchment, and Tinderbox.",
+  "contents": [
+    {
+      "item": {
+        "index": "backpack",
+        "name": "Backpack",
+        "url": "/api/2024/equipment/backpack"
+      },
+      "quantity": 1
+    },
+    {
+      "item": {
+        "index": "book",
+        "name": "Book",
+        "url": "/api/2024/equipment/book"
+      },
+      "quantity": 1
+    },
+    {
+      "item": {
+        "index": "ink",
+        "name": "Ink",
+        "url": "/api/2024/equipment/ink"
+      },
+      "quantity": 1
+    },
+    {
+      "item": {
+        "index": "ink-pen",
+        "name": "Ink Pen",
+        "url": "/api/2024/equipment/ink-pen"
+      },
+      "quantity": 1
+    },
+    {
+      "item": {
+        "index": "lamp",
+        "name": "Lamp",
+        "url": "/api/2024/equipment/lamp"
+      },
+      "quantity": 1
+    },
+    {
+      "item": {
+        "index": "oil",
+        "name": "Oil",
+        "url": "/api/2024/equipment/oil"
+      },
+      "quantity": 10
+    },
+    {
+      "item": {
+        "index": "parchment",
+        "name": "Parchment",
+        "url": "/api/2024/equipment/parchment"
+      },
+      "quantity": 10
+    },
+    {
+      "item": {
+        "index": "tinderbox",
+        "name": "Tinderbox",
+        "url": "/api/2024/equipment/tinderbox"
+      },
+      "quantity": 1
+    }
+  ],
+  "url": "/api/2024/equipment/scholars-pack"
+}

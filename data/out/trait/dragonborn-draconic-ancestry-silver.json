@@ -1,0 +1,28 @@
+{
+  "index": "dragonborn-draconic-ancestry-silver",
+  "name": "Draconic Ancestry (Silver)",
+  "species": [
+    {
+      "index": "dragonborn",
+      "name": "Dragonborn",
+      "url": "/api/2024/species/dragonborn"
+    }
+  ],
+  "subspecies": [],
+  "desc": [
+    "Your draconic lineage is that of a Silver dragon. Your Breath Weapon and Damage Resistance are associated with Cold damage."
+  ],
+  "parent": {
+    "index": "dragonborn-draconic-ancestry",
+    "name": "Draconic Ancestry",
+    "url": "/api/2024/traits/dragonborn-draconic-ancestry"
+  },
+  "trait_specific": {
+    "damage_type": {
+      "index": "cold",
+      "name": "Cold",
+      "url": "/api/2024/damage-types/cold"
+    }
+  },
+  "url": "/api/2024/traits/dragonborn-draconic-ancestry-silver"
+}

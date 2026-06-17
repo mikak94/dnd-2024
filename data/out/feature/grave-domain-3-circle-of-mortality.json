@@ -1,0 +1,23 @@
+{
+  "index": "grave-domain-3-circle-of-mortality",
+  "name": "Circle of Mortality",
+  "level": 3,
+  "class": {
+    "index": "cleric",
+    "name": "Cleric",
+    "url": "/api/2024/classes/cleric"
+  },
+  "subclass": {
+    "index": "grave-domain",
+    "name": "Grave Domain",
+    "url": "/api/2024/subclasses/grave-domain"
+  },
+  "desc": [
+    "You can manipulate the balance between life and death, granting you the following benefits.",
+    "**Pull of Death.** Once per turn, when you deal damage to a creature that's missing any Hit Points by casting a spell or by hitting with an attack roll, that creature takes an extra 1d4 Necrotic damage. This extra damage increases to 1d6 when you reach Cleric level 11.",
+    "**Return to Life.** You can cast Spare the Dying as a Bonus Action.",
+    "Additionally, when you would normally roll one or more dice to restore Hit Points to a creature at 0 Hit Points with a spell or Channel Divinity, don't roll those dice for the healing; instead, use the highest number possible for each die. For example, instead of restoring 2d4 Hit Points to a creature at 0 Hit Points with a spell, you restore 8."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/grave-domain-3-circle-of-mortality"
+}

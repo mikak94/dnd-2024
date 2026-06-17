@@ -1,0 +1,155 @@
+{
+  "index": "zhentarim-mercenary",
+  "name": "Zhentarim Mercenary",
+  "starting_proficiencies": [
+    {
+      "index": "skill-intimidation",
+      "name": "Skill: Intimidation",
+      "url": "/api/2024/proficiencies/skill-intimidation"
+    },
+    {
+      "index": "skill-perception",
+      "name": "Skill: Perception",
+      "url": "/api/2024/proficiencies/skill-perception"
+    },
+    {
+      "index": "forgery-kit",
+      "name": "Forgery Kit",
+      "url": "/api/2024/proficiencies/forgery-kit"
+    }
+  ],
+  "ability_scores": [
+    {
+      "index": "str",
+      "name": "STR",
+      "url": "/api/2024/ability-scores/str"
+    },
+    {
+      "index": "dex",
+      "name": "DEX",
+      "url": "/api/2024/ability-scores/dex"
+    },
+    {
+      "index": "cha",
+      "name": "CHA",
+      "url": "/api/2024/ability-scores/cha"
+    }
+  ],
+  "feat": {
+    "index": "zhentarim-ruffian",
+    "name": "Zhentarim Ruffian",
+    "url": "/api/2024/feats/zhentarim-ruffian"
+  },
+  "starting_equipment_options": [
+    {
+      "desc": "Choose A or B: (A) Club, Dagger, Forgery Kit, Fine Clothes, Hooded Lantern, Oil (3 flasks), 2 Pouches, String, Tinderbox, 11 GP; or (B) 50 GP",
+      "choose": 1,
+      "type": "equipment",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "multiple",
+            "items": [
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "club",
+                  "name": "Club",
+                  "url": "/api/2024/equipment/club"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "dagger",
+                  "name": "Dagger",
+                  "url": "/api/2024/equipment/dagger"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "forgery-kit",
+                  "name": "Forgery Kit",
+                  "url": "/api/2024/equipment/forgery-kit"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "fine-clothes",
+                  "name": "Fine Clothes",
+                  "url": "/api/2024/equipment/fine-clothes"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "hooded-lantern",
+                  "name": "Hooded Lantern",
+                  "url": "/api/2024/equipment/hooded-lantern"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 3,
+                "of": {
+                  "index": "oil",
+                  "name": "Oil",
+                  "url": "/api/2024/equipment/oil"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 2,
+                "of": {
+                  "index": "pouch",
+                  "name": "Pouch",
+                  "url": "/api/2024/equipment/pouch"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "string",
+                  "name": "String",
+                  "url": "/api/2024/equipment/string"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "tinderbox",
+                  "name": "Tinderbox",
+                  "url": "/api/2024/equipment/tinderbox"
+                }
+              },
+              {
+                "option_type": "money",
+                "count": 11,
+                "unit": "GP"
+              }
+            ]
+          },
+          {
+            "option_type": "money",
+            "count": 50,
+            "unit": "GP"
+          }
+        ]
+      }
+    }
+  ],
+  "desc": [
+    "Maybe you needed the money. Maybe you longed for a family, no matter how dubious. Or maybe you're just good at getting the job done by any means necessary. Whatever your reason, you enlisted with the Zhentarim, the most notorious mercenary guild in the Realms. Though the Zhentarim's leaders insist the organization is more like a family than a shadowy syndicate, few families exhibit as much dishonesty, nepotism, and corruption as this one. You've honed your cunning, reflexes, and blade to climb the guild's ranks."
+  ],
+  "url": "/api/2024/backgrounds/zhentarim-mercenary"
+}

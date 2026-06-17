@@ -1,0 +1,15 @@
+{
+  "index": "bracers-of-defense",
+  "name": "Bracers of Defense",
+  "equipment_category": {
+    "index": "wondrous-items",
+    "name": "Wondrous Items",
+    "url": "/api/2024/equipment-categories/wondrous-items"
+  },
+  "rarity": { "name": "Rare" },
+  "attunement": true,
+  "desc": "While wearing these bracers, you gain a +2 bonus to Armor Class if you are wearing no armor and using no Shield.",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/bracers-of-defense"
+}

@@ -1,0 +1,21 @@
+{
+  "index": "light-domain-3-warding-flare",
+  "name": "Warding Flare",
+  "level": 3,
+  "class": {
+    "index": "cleric",
+    "name": "Cleric",
+    "url": "/api/2024/classes/cleric"
+  },
+  "subclass": {
+    "index": "light-domain",
+    "name": "Light Domain",
+    "url": "/api/2024/subclasses/light-domain"
+  },
+  "desc": [
+    "When a creature that you can see within 30 feet of yourself makes an attack roll, you can take a Reaction to impose Disadvantage on the attack roll, causing light to flare before it hits or misses.",
+    "You can use this feature a number of times equal to your Wisdom modifier (minimum of once). You regain all expended uses when you finish a Long Rest."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/light-domain-3-warding-flare"
+}

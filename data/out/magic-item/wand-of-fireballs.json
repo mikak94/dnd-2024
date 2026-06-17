@@ -1,0 +1,17 @@
+{
+  "index": "wand-of-fireballs",
+  "name": "Wand of Fireballs",
+  "equipment_category": {
+    "index": "wands",
+    "name": "Wands",
+    "url": "/api/2024/equipment-categories/wands"
+  },
+  "rarity": {
+    "name": "Rare"
+  },
+  "attunement": true,
+  "desc": "This wand has 7 charges. While holding it, you can expend no more than 3 charges to cast Fireball (save DC 15) from it. For 1 charge, you cast the level 3 version of the spell. You can increase the spell's level by 1 for each additional charge you expend.\n\nRegaining Charges. The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll 1d20. On a 1, the wand crumbles into ashes and is destroyed.",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/wand-of-fireballs"
+}

@@ -1,0 +1,21 @@
+{
+  "index": "college-of-glamour-14-unbreakable-majesty",
+  "name": "Unbreakable Majesty",
+  "level": 14,
+  "class": {
+    "index": "bard",
+    "name": "Bard",
+    "url": "/api/2024/classes/bard"
+  },
+  "subclass": {
+    "index": "college-of-glamour",
+    "name": "College of Glamour",
+    "url": "/api/2024/subclasses/college-of-glamour"
+  },
+  "desc": [
+    "As a Bonus Action, you can assume a magically majestic presence for 1 minute or until you have the Incapacitated condition. For the duration, whenever any creature hits you with an attack roll for the first time on a turn, the attacker must succeed on a Charisma saving throw against your spell save DC, or the attack misses instead, as the creature recoils from your majesty.",
+    "Once you assume this majestic presence, you can't do so again until you finish a Short or Long Rest."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/college-of-glamour-14-unbreakable-majesty"
+}

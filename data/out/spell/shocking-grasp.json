@@ -1,0 +1,54 @@
+{
+  "index": "shocking-grasp",
+  "name": "Shocking Grasp",
+  "level": 0,
+  "school": {
+    "index": "evocation",
+    "name": "Evocation",
+    "url": "/api/2024/magic-schools/evocation"
+  },
+  "casting_time": "Action",
+  "range": "Touch",
+  "components": ["V", "S"],
+  "ritual": false,
+  "concentration": false,
+  "duration": "Instantaneous",
+  "desc": [
+    "Lightning springs from you to a creature that you try to touch. Make a melee spell attack against the target. On a hit, the target takes 1d8 Lightning damage, and it can't make Opportunity Attacks until the start of its next turn."
+  ],
+  "higher_level": [
+    "Cantrip Upgrade. The damage increases by 1d8 when you reach levels 5 (2d8), 11 (3d8), and 17 (4d8)."
+  ],
+  "attack_type": "melee",
+  "damage": {
+    "damage_type": {
+      "index": "lightning",
+      "name": "Lightning",
+      "url": "/api/2024/damage-types/lightning"
+    },
+    "damage_at_character_level": {
+      "1": "1d8",
+      "5": "2d8",
+      "11": "3d8",
+      "17": "4d8"
+    }
+  },
+  "classes": [
+    {
+      "index": "artificer",
+      "name": "Artificer",
+      "url": "/api/2024/classes/artificer"
+    },
+    {
+      "index": "sorcerer",
+      "name": "Sorcerer",
+      "url": "/api/2024/classes/sorcerer"
+    },
+    {
+      "index": "wizard",
+      "name": "Wizard",
+      "url": "/api/2024/classes/wizard"
+    }
+  ],
+  "url": "/api/2024/spells/shocking-grasp"
+}

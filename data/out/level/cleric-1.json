@@ -1,0 +1,29 @@
+{
+  "index": "cleric-1",
+  "level": 1,
+  "ability_score_bonuses": 0,
+  "prof_bonus": 2,
+  "features": [
+    {
+      "index": "spellcasting-cleric",
+      "name": "Spellcasting",
+      "url": "/api/2024/features/spellcasting-cleric"
+    },
+    {
+      "index": "divine-order",
+      "name": "Divine Order",
+      "url": "/api/2024/features/divine-order"
+    }
+  ],
+  "class": {
+    "index": "cleric",
+    "name": "Cleric",
+    "url": "/api/2024/classes/cleric"
+  },
+  "spellcasting": {
+    "cantrips_known": 3,
+    "spells_known": 4,
+    "spell_slots_level_1": 2
+  },
+  "url": "/api/2024/classes/cleric/levels/1"
+}

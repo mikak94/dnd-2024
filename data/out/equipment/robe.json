@@ -1,0 +1,15 @@
+{
+  "index": "robe",
+  "name": "Robe",
+  "equipment_categories": [
+    {
+      "index": "adventuring-gear",
+      "name": "Adventuring Gear",
+      "url": "/api/2024/equipment-categories/adventuring-gear"
+    }
+  ],
+  "cost": { "quantity": 1, "unit": "gp" },
+  "weight": 4,
+  "description": "A Robe has vocational or ceremonial significance. Some events and locations admit only people wearing a Robe bearing certain colors or symbols.",
+  "url": "/api/2024/equipment/robe"
+}

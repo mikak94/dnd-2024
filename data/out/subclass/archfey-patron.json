@@ -1,0 +1,106 @@
+{
+  "index": "archfey-patron",
+  "class": {
+    "index": "warlock",
+    "name": "Warlock",
+    "url": "/api/2024/classes/warlock"
+  },
+  "name": "Archfey Patron",
+  "subclass_flavor": "Otherworldly Patron",
+  "desc": [
+    "Bargain with Whimsical Fey",
+    "Your pact draws on the power of the Feywild. When you choose this subclass, you might make a deal with an archfey, such as the Prince of Frost; the Queen of Air and Darkness, ruler of the Gloaming Court; Titania of the Summer Court; or an ancient hag. Or you might call on a spectrum of Fey, weaving a web of favors and debts. Whoever they are, your patron is often inscrutable and whimsical."
+  ],
+  "subclass_levels": "/api/2024/subclasses/archfey-patron/levels",
+  "spells": [
+    {
+      "prerequisites": [{ "index": "archfey-patron-3", "type": "level" }],
+      "spell": {
+        "index": "calm-emotions",
+        "name": "Calm Emotions",
+        "url": "/api/2024/spells/calm-emotions"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "archfey-patron-3", "type": "level" }],
+      "spell": {
+        "index": "faerie-fire",
+        "name": "Faerie Fire",
+        "url": "/api/2024/spells/faerie-fire"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "archfey-patron-3", "type": "level" }],
+      "spell": {
+        "index": "misty-step",
+        "name": "Misty Step",
+        "url": "/api/2024/spells/misty-step"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "archfey-patron-3", "type": "level" }],
+      "spell": {
+        "index": "phantasmal-force",
+        "name": "Phantasmal Force",
+        "url": "/api/2024/spells/phantasmal-force"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "archfey-patron-3", "type": "level" }],
+      "spell": {
+        "index": "sleep",
+        "name": "Sleep",
+        "url": "/api/2024/spells/sleep"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "archfey-patron-5", "type": "level" }],
+      "spell": {
+        "index": "blink",
+        "name": "Blink",
+        "url": "/api/2024/spells/blink"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "archfey-patron-5", "type": "level" }],
+      "spell": {
+        "index": "plant-growth",
+        "name": "Plant Growth",
+        "url": "/api/2024/spells/plant-growth"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "archfey-patron-7", "type": "level" }],
+      "spell": {
+        "index": "dominate-beast",
+        "name": "Dominate Beast",
+        "url": "/api/2024/spells/dominate-beast"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "archfey-patron-7", "type": "level" }],
+      "spell": {
+        "index": "greater-invisibility",
+        "name": "Greater Invisibility",
+        "url": "/api/2024/spells/greater-invisibility"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "archfey-patron-9", "type": "level" }],
+      "spell": {
+        "index": "dominate-person",
+        "name": "Dominate Person",
+        "url": "/api/2024/spells/dominate-person"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "archfey-patron-9", "type": "level" }],
+      "spell": {
+        "index": "seeming",
+        "name": "Seeming",
+        "url": "/api/2024/spells/seeming"
+      }
+    }
+  ],
+  "url": "/api/2024/subclasses/archfey-patron"
+}

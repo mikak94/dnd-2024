@@ -1,0 +1,15 @@
+{
+  "index": "cloak-of-displacement",
+  "name": "Cloak of Displacement",
+  "equipment_category": {
+    "index": "wondrous-items",
+    "name": "Wondrous Items",
+    "url": "/api/2024/equipment-categories/wondrous-items"
+  },
+  "rarity": { "name": "Rare" },
+  "attunement": true,
+  "desc": "While you wear this cloak, it magically projects an illusion that makes you appear to be standing in a place near your actual location, causing any creature to have Disadvantage on attack rolls against you. If you take damage, the property ceases to function until the start of your next turn. This property is suppressed while your Speed is 0.",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/cloak-of-displacement"
+}

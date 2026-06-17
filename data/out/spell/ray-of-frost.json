@@ -1,0 +1,54 @@
+{
+  "index": "ray-of-frost",
+  "name": "Ray of Frost",
+  "level": 0,
+  "school": {
+    "index": "evocation",
+    "name": "Evocation",
+    "url": "/api/2024/magic-schools/evocation"
+  },
+  "casting_time": "Action",
+  "range": "60 feet",
+  "components": ["V", "S"],
+  "ritual": false,
+  "concentration": false,
+  "duration": "Instantaneous",
+  "desc": [
+    "A frigid beam of blue-white light streaks toward a creature within range. Make a ranged spell attack against the target. On a hit, it takes 1d8 Cold damage, and its Speed is reduced by 10 feet until the start of your next turn."
+  ],
+  "higher_level": [
+    "Cantrip Upgrade. The damage increases by 1d8 when you reach levels 5 (2d8), 11 (3d8), and 17 (4d8)."
+  ],
+  "attack_type": "ranged",
+  "damage": {
+    "damage_type": {
+      "index": "cold",
+      "name": "Cold",
+      "url": "/api/2024/damage-types/cold"
+    },
+    "damage_at_character_level": {
+      "1": "1d8",
+      "5": "2d8",
+      "11": "3d8",
+      "17": "4d8"
+    }
+  },
+  "classes": [
+    {
+      "index": "artificer",
+      "name": "Artificer",
+      "url": "/api/2024/classes/artificer"
+    },
+    {
+      "index": "sorcerer",
+      "name": "Sorcerer",
+      "url": "/api/2024/classes/sorcerer"
+    },
+    {
+      "index": "wizard",
+      "name": "Wizard",
+      "url": "/api/2024/classes/wizard"
+    }
+  ],
+  "url": "/api/2024/spells/ray-of-frost"
+}

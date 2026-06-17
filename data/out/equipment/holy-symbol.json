@@ -1,0 +1,18 @@
+{
+  "index": "holy-symbol",
+  "name": "Holy Symbol",
+  "equipment_categories": [
+    {
+      "index": "holy-symbols",
+      "name": "Holy Symbols",
+      "url": "/api/2024/equipment-categories/holy-symbols"
+    },
+    {
+      "index": "adventuring-gear",
+      "name": "Adventuring Gear",
+      "url": "/api/2024/equipment-categories/adventuring-gear"
+    }
+  ],
+  "description": "A Holy Symbol takes one of the forms in the Holy Symbol table and is bejeweled or painted to channel divine magic. A Cleric or Paladin can use a Holy Symbol as a Spellcasting Focus.",
+  "url": "/api/2024/equipment/holy-symbol"
+}

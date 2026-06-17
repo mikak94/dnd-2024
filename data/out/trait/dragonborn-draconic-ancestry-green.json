@@ -1,0 +1,28 @@
+{
+  "index": "dragonborn-draconic-ancestry-green",
+  "name": "Draconic Ancestry (Green)",
+  "species": [
+    {
+      "index": "dragonborn",
+      "name": "Dragonborn",
+      "url": "/api/2024/species/dragonborn"
+    }
+  ],
+  "subspecies": [],
+  "desc": [
+    "Your draconic lineage is that of a Green dragon. Your Breath Weapon and Damage Resistance are associated with Poison damage."
+  ],
+  "parent": {
+    "index": "dragonborn-draconic-ancestry",
+    "name": "Draconic Ancestry",
+    "url": "/api/2024/traits/dragonborn-draconic-ancestry"
+  },
+  "trait_specific": {
+    "damage_type": {
+      "index": "poison",
+      "name": "Poison",
+      "url": "/api/2024/damage-types/poison"
+    }
+  },
+  "url": "/api/2024/traits/dragonborn-draconic-ancestry-green"
+}

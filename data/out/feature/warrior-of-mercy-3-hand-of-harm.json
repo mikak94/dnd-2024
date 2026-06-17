@@ -1,0 +1,20 @@
+{
+  "index": "warrior-of-mercy-3-hand-of-harm",
+  "name": "Hand of Harm",
+  "level": 3,
+  "class": {
+    "index": "monk",
+    "name": "Monk",
+    "url": "/api/2024/classes/monk"
+  },
+  "subclass": {
+    "index": "warrior-of-mercy",
+    "name": "Warrior of Mercy",
+    "url": "/api/2024/subclasses/warrior-of-mercy"
+  },
+  "desc": [
+    "Once per turn when you hit a creature with an Unarmed Strike and deal damage, you can expend 1 Focus Point to deal extra Necrotic damage equal to one roll of your Martial Arts die plus your Wisdom modifier."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/warrior-of-mercy-3-hand-of-harm"
+}

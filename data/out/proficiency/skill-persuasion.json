@@ -1,0 +1,11 @@
+{
+  "index": "skill-persuasion",
+  "name": "Skill: Persuasion",
+  "type": "Skills",
+  "reference": {
+    "index": "persuasion",
+    "name": "Persuasion",
+    "url": "/api/2024/skills/persuasion"
+  },
+  "url": "/api/2024/proficiencies/skill-persuasion"
+}

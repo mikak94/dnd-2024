@@ -1,0 +1,20 @@
+{
+  "index": "war-domain-3-war-priest",
+  "name": "War Priest",
+  "level": 3,
+  "class": {
+    "index": "cleric",
+    "name": "Cleric",
+    "url": "/api/2024/classes/cleric"
+  },
+  "subclass": {
+    "index": "war-domain",
+    "name": "War Domain",
+    "url": "/api/2024/subclasses/war-domain"
+  },
+  "desc": [
+    "As a Bonus Action, you can make one attack with a weapon or an Unarmed Strike. You can use this Bonus Action a number of times equal to your Wisdom modifier (minimum of once). You regain all expended uses when you finish a Short or Long Rest."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/war-domain-3-war-priest"
+}

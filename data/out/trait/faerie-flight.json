@@ -1,0 +1,13 @@
+{
+  "index": "faerie-flight",
+  "name": "Flight",
+  "species": [
+    { "index": "faerie", "name": "Faerie", "url": "/api/2024/species/faerie" }
+  ],
+  "subspecies": [],
+  "desc": [
+    "Because of your wings, you have a flying speed equal to your walking speed. You can't use this flying speed if you're wearing medium or heavy armor.",
+    "In addition, Shadowmoor faeries have Darkvision with a range of 120 feet."
+  ],
+  "url": "/api/2024/traits/faerie-flight"
+}

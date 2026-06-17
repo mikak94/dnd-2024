@@ -1,0 +1,51 @@
+{
+  "index": "vicious-mockery",
+  "name": "Vicious Mockery",
+  "level": 0,
+  "school": {
+    "index": "enchantment",
+    "name": "Enchantment",
+    "url": "/api/2024/magic-schools/enchantment"
+  },
+  "casting_time": "Action",
+  "range": "60 feet",
+  "components": ["V"],
+  "ritual": false,
+  "concentration": false,
+  "duration": "Instantaneous",
+  "desc": [
+    "You unleash a string of insults laced with subtle enchantments at one creature you can see or hear within range. The target must succeed on a Wisdom saving throw or take 1d6 Psychic damage and have Disadvantage on the next attack roll it makes before the end of its next turn."
+  ],
+  "higher_level": [
+    "Cantrip Upgrade. The damage increases by 1d6 when you reach levels 5 (2d6), 11 (3d6), and 17 (4d6)."
+  ],
+  "damage": {
+    "damage_type": {
+      "index": "psychic",
+      "name": "Psychic",
+      "url": "/api/2024/damage-types/psychic"
+    },
+    "damage_at_character_level": {
+      "1": "1d6",
+      "5": "2d6",
+      "11": "3d6",
+      "17": "4d6"
+    }
+  },
+  "dc": {
+    "dc_type": {
+      "index": "wis",
+      "name": "WIS",
+      "url": "/api/2024/ability-scores/wis"
+    },
+    "dc_success": "none"
+  },
+  "classes": [
+    {
+      "index": "bard",
+      "name": "Bard",
+      "url": "/api/2024/classes/bard"
+    }
+  ],
+  "url": "/api/2024/spells/vicious-mockery"
+}

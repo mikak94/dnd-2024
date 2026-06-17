@@ -1,0 +1,15 @@
+{
+  "index": "goggles-of-night",
+  "name": "Goggles of Night",
+  "equipment_category": {
+    "index": "wondrous-items",
+    "name": "Wondrous Items",
+    "url": "/api/2024/equipment-categories/wondrous-items"
+  },
+  "rarity": { "name": "Uncommon" },
+  "attunement": false,
+  "desc": "While wearing these dark lenses, you have Darkvision out to 60 feet. If you already have Darkvision, wearing the goggles increases its range by 60 feet.",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/goggles-of-night"
+}

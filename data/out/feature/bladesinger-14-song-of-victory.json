@@ -1,0 +1,20 @@
+{
+  "index": "bladesinger-14-song-of-victory",
+  "name": "Song of Victory",
+  "level": 14,
+  "class": {
+    "index": "wizard",
+    "name": "Wizard",
+    "url": "/api/2024/classes/wizard"
+  },
+  "subclass": {
+    "index": "bladesinger",
+    "name": "Bladesinger",
+    "url": "/api/2024/subclasses/bladesinger"
+  },
+  "desc": [
+    "After you cast a spell that has a casting time of an action, you can make one attack with a weapon as a Bonus Action."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/bladesinger-14-song-of-victory"
+}

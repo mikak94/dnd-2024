@@ -1,0 +1,59 @@
+{
+  "index": "shifter-bestial-instincts",
+  "name": "Bestial Instincts",
+  "species": [
+    {
+      "index": "shifter",
+      "name": "Shifter",
+      "url": "/api/2024/species/shifter"
+    }
+  ],
+  "subspecies": [],
+  "desc": [
+    "Channeling the beast within, you gain proficiency in one of the following skills of your choice: Acrobatics, Athletics, Intimidation, or Survival."
+  ],
+  "proficiency_choices": [
+    {
+      "choose": 1,
+      "type": "proficiencies",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-acrobatics",
+              "name": "Acrobatics",
+              "url": "/api/2024/proficiencies/skill-acrobatics"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-athletics",
+              "name": "Athletics",
+              "url": "/api/2024/proficiencies/skill-athletics"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-intimidation",
+              "name": "Intimidation",
+              "url": "/api/2024/proficiencies/skill-intimidation"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-survival",
+              "name": "Survival",
+              "url": "/api/2024/proficiencies/skill-survival"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "url": "/api/2024/traits/shifter-bestial-instincts"
+}

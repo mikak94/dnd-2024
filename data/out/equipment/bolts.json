@@ -1,0 +1,15 @@
+{
+  "index": "bolts",
+  "name": "Bolts",
+  "equipment_categories": [
+    {
+      "index": "ammunition",
+      "name": "Ammunition",
+      "url": "/api/2024/equipment-categories/ammunition"
+    }
+  ],
+  "cost": { "quantity": 1, "unit": "gp" },
+  "weight": 1.5,
+  "description": "20 Bolts; stored in a Case.",
+  "url": "/api/2024/equipment/bolts"
+}

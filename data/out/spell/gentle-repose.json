@@ -1,0 +1,39 @@
+{
+  "index": "gentle-repose",
+  "name": "Gentle Repose",
+  "level": 2,
+  "school": {
+    "index": "necromancy",
+    "name": "Necromancy",
+    "url": "/api/2024/magic-schools/necromancy"
+  },
+  "casting_time": "Action",
+  "range": "Touch",
+  "components": ["V", "S", "M"],
+  "material": "2 Copper Pieces, which the spell consumes",
+  "ritual": true,
+  "concentration": false,
+  "duration": "10 days",
+  "desc": [
+    "You touch a corpse or other remains. For the duration, the target is protected from decay and can't become Undead.",
+    "The spell also effectively extends the time limit on raising the target from the dead, since days spent under the influence of this spell don't count against the time limit of spells such as Raise Dead."
+  ],
+  "classes": [
+    {
+      "index": "cleric",
+      "name": "Cleric",
+      "url": "/api/2024/classes/cleric"
+    },
+    {
+      "index": "paladin",
+      "name": "Paladin",
+      "url": "/api/2024/classes/paladin"
+    },
+    {
+      "index": "wizard",
+      "name": "Wizard",
+      "url": "/api/2024/classes/wizard"
+    }
+  ],
+  "url": "/api/2024/spells/gentle-repose"
+}

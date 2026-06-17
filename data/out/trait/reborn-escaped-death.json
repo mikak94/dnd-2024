@@ -1,0 +1,10 @@
+{
+  "index": "reborn-escaped-death",
+  "name": "Escaped Death",
+  "species": [
+    { "index": "reborn", "name": "Reborn", "url": "/api/2024/species/reborn" }
+  ],
+  "subspecies": [],
+  "desc": ["You have Advantage on Death Saving Throws."],
+  "url": "/api/2024/traits/reborn-escaped-death"
+}

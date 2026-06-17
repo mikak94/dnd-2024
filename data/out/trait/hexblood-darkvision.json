@@ -1,0 +1,14 @@
+{
+  "index": "hexblood-darkvision",
+  "name": "Darkvision",
+  "species": [
+    {
+      "index": "hexblood",
+      "name": "Hexblood",
+      "url": "/api/2024/species/hexblood"
+    }
+  ],
+  "subspecies": [],
+  "desc": ["You have Darkvision with a range of 60 feet."],
+  "url": "/api/2024/traits/hexblood-darkvision"
+}

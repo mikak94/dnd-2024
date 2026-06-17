@@ -1,0 +1,15 @@
+{
+  "index": "sylvan-talon",
+  "name": "Sylvan Talon",
+  "equipment_category": {
+    "index": "weapons",
+    "name": "Weapons",
+    "url": "/api/2024/equipment-categories/weapons"
+  },
+  "rarity": { "name": "Common" },
+  "attunement": true,
+  "desc": "While this weapon is on your person, you understand the nonwritten communication of all Fey, and they understand yours.\n\nSecret Message. As a Magic action, you can use the weapon to cast Message. Once this property is used, it can't be used again until the next dawn.",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/sylvan-talon"
+}

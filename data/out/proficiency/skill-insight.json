@@ -1,0 +1,11 @@
+{
+  "index": "skill-insight",
+  "name": "Skill: Insight",
+  "type": "Skills",
+  "reference": {
+    "index": "insight",
+    "name": "Insight",
+    "url": "/api/2024/skills/insight"
+  },
+  "url": "/api/2024/proficiencies/skill-insight"
+}

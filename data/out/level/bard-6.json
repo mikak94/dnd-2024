@@ -1,0 +1,26 @@
+{
+  "index": "bard-6",
+  "level": 6,
+  "ability_score_bonuses": 1,
+  "prof_bonus": 3,
+  "features": [
+    {
+      "index": "bard-subclass",
+      "name": "Subclass feature",
+      "url": "/api/2024/features/bard-subclass"
+    }
+  ],
+  "class": {
+    "index": "bard",
+    "name": "Bard",
+    "url": "/api/2024/classes/bard"
+  },
+  "spellcasting": {
+    "cantrips_known": 3,
+    "spells_known": 10,
+    "spell_slots_level_1": 4,
+    "spell_slots_level_2": 3,
+    "spell_slots_level_3": 3
+  },
+  "url": "/api/2024/classes/bard/levels/6"
+}

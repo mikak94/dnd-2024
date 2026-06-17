@@ -1,0 +1,15 @@
+{
+  "index": "ability-score-improvement-barbarian-4",
+  "name": "Ability Score Improvement",
+  "level": 4,
+  "class": {
+    "index": "barbarian",
+    "name": "Barbarian",
+    "url": "/api/2024/classes/barbarian"
+  },
+  "desc": [
+    "You gain the Ability Score Improvement feat or another feat of your choice for which you qualify. You gain this feature again at Barbarian levels 8, 12, and 16."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/ability-score-improvement-barbarian-4"
+}

@@ -1,0 +1,164 @@
+{
+  "index": "haunted-one",
+  "name": "Haunted One",
+  "starting_proficiencies": [
+    {
+      "index": "skill-arcana",
+      "name": "Skill: Arcana",
+      "url": "/api/2024/proficiencies/skill-arcana"
+    },
+    {
+      "index": "skill-survival",
+      "name": "Skill: Survival",
+      "url": "/api/2024/proficiencies/skill-survival"
+    },
+    {
+      "index": "gaming-set",
+      "name": "Gaming Set",
+      "url": "/api/2024/proficiencies/gaming-set"
+    }
+  ],
+  "ability_scores": [
+    {
+      "index": "con",
+      "name": "CON",
+      "url": "/api/2024/ability-scores/con"
+    },
+    {
+      "index": "wis",
+      "name": "WIS",
+      "url": "/api/2024/ability-scores/wis"
+    },
+    {
+      "index": "cha",
+      "name": "CHA",
+      "url": "/api/2024/ability-scores/cha"
+    }
+  ],
+  "feat": {
+    "index": "survivor",
+    "name": "Survivor",
+    "url": "/api/2024/feats/survivor"
+  },
+  "starting_equipment_options": [
+    {
+      "desc": "Choose A or B: (A) Gaming Set (same as above), Crowbar, Holy Water (1 flask), Mirror, Oil (2 flasks), Signal Whistle, Tinderbox, Traveler's Clothes, 5 Torches, Waterskin, and 14 GP; or (B) 50 GP",
+      "choose": 1,
+      "type": "equipment",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "multiple",
+            "items": [
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "gaming-set",
+                  "name": "Gaming Set",
+                  "url": "/api/2024/equipment/gaming-set"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "crowbar",
+                  "name": "Crowbar",
+                  "url": "/api/2024/equipment/crowbar"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "holy-water",
+                  "name": "Holy Water",
+                  "url": "/api/2024/equipment/holy-water"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "mirror",
+                  "name": "Mirror",
+                  "url": "/api/2024/equipment/mirror"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 2,
+                "of": {
+                  "index": "oil",
+                  "name": "Oil",
+                  "url": "/api/2024/equipment/oil"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "signal-whistle",
+                  "name": "Signal Whistle",
+                  "url": "/api/2024/equipment/signal-whistle"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "tinderbox",
+                  "name": "Tinderbox",
+                  "url": "/api/2024/equipment/tinderbox"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "travelers-clothes",
+                  "name": "Traveler's Clothes",
+                  "url": "/api/2024/equipment/travelers-clothes"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 5,
+                "of": {
+                  "index": "torch",
+                  "name": "Torch",
+                  "url": "/api/2024/equipment/torch"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "waterskin",
+                  "name": "Waterskin",
+                  "url": "/api/2024/equipment/waterskin"
+                }
+              },
+              {
+                "option_type": "money",
+                "count": 14,
+                "unit": "GP"
+              }
+            ]
+          },
+          {
+            "option_type": "money",
+            "count": 50,
+            "unit": "GP"
+          }
+        ]
+      }
+    }
+  ],
+  "desc": [
+    "You are haunted by the events of your past. Whether it was a lone terrible incident or an accumulation of painful moments, you bear the unshakable weight of what happened to you. You've tried to bury it and run away from it, to no avail; it can't be slain with a sword or banished via magic. Nevertheless, you persist."
+  ],
+  "url": "/api/2024/backgrounds/haunted-one"
+}

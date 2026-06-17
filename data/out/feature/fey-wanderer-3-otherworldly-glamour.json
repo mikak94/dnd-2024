@@ -1,0 +1,21 @@
+{
+  "index": "fey-wanderer-3-otherworldly-glamour",
+  "name": "Otherworldly Glamour",
+  "level": 3,
+  "class": {
+    "index": "ranger",
+    "name": "Ranger",
+    "url": "/api/2024/classes/ranger"
+  },
+  "subclass": {
+    "index": "fey-wanderer",
+    "name": "Fey Wanderer",
+    "url": "/api/2024/subclasses/fey-wanderer"
+  },
+  "desc": [
+    "Whenever you make a Charisma check, you gain a bonus to the check equal to your Wisdom modifier (Minimum of +1).",
+    "You also gain proficiency in one of these skills of your choice: Deception, Performance, or Persuasion."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/fey-wanderer-3-otherworldly-glamour"
+}

@@ -1,0 +1,20 @@
+{
+  "index": "battle-master-3-student-of-war",
+  "name": "Student of War",
+  "level": 3,
+  "class": {
+    "index": "fighter",
+    "name": "Fighter",
+    "url": "/api/2024/classes/fighter"
+  },
+  "subclass": {
+    "index": "battle-master",
+    "name": "Battle Master",
+    "url": "/api/2024/subclasses/battle-master"
+  },
+  "desc": [
+    "You gain proficiency with one type of Artisan's Tools of your choice, and you gain proficiency in one skill of your choice from the skills available to Fighters at level 1."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/battle-master-3-student-of-war"
+}

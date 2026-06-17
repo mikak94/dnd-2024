@@ -1,0 +1,16 @@
+{
+  "index": "warrior-of-mercy",
+  "class": {
+    "index": "monk",
+    "name": "Monk",
+    "url": "/api/2024/classes/monk"
+  },
+  "name": "Warrior of Mercy",
+  "subclass_flavor": "Monastic Tradition",
+  "desc": [
+    "Manipulate Forces of Life and Death",
+    "Warriors of Mercy manipulate the life force of others. These Monks are wandering physicians, but they bring a swift end to their enemies. They often wear masks, presenting themselves as faceless bringers of life and death."
+  ],
+  "subclass_levels": "/api/2024/subclasses/warrior-of-mercy/levels",
+  "url": "/api/2024/subclasses/warrior-of-mercy"
+}

@@ -1,0 +1,11 @@
+{
+  "index": "cobblers-tools",
+  "name": "Cobbler's Tools",
+  "type": "Artisan's Tools",
+  "reference": {
+    "index": "cobblers-tools",
+    "name": "Cobbler's Tools",
+    "url": "/api/2024/equipment/cobblers-tools"
+  },
+  "url": "/api/2024/proficiencies/cobblers-tools"
+}

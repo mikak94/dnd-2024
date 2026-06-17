@@ -1,0 +1,27 @@
+{
+  "index": "monk-17",
+  "level": 17,
+  "ability_score_bonuses": 4,
+  "prof_bonus": 6,
+  "features": [
+    {
+      "index": "monk-subclass",
+      "name": "Subclass Feature",
+      "url": "/api/2024/features/monk-subclass"
+    }
+  ],
+  "class": {
+    "index": "monk",
+    "name": "Monk",
+    "url": "/api/2024/classes/monk"
+  },
+  "url": "/api/2024/classes/monk/levels/17",
+  "class_specific": {
+    "ki_points": 17,
+    "unarmored_movement": 25,
+    "martial_arts": {
+      "dice_count": 1,
+      "dice_value": 12
+    }
+  }
+}

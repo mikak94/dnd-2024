@@ -1,0 +1,14 @@
+{
+  "index": "antitoxin",
+  "name": "Antitoxin",
+  "equipment_categories": [
+    {
+      "index": "adventuring-gear",
+      "name": "Adventuring Gear",
+      "url": "/api/2024/equipment-categories/adventuring-gear"
+    }
+  ],
+  "cost": { "quantity": 50, "unit": "gp" },
+  "description": "As a Bonus Action, you can drink a vial of Antitoxin to gain Advantage on saving throws to avoid or end the Poisoned condition for 1 hour.",
+  "url": "/api/2024/equipment/antitoxin"
+}

@@ -1,0 +1,119 @@
+{
+  "index": "house-tharashk-heir",
+  "name": "House Tharashk Heir",
+  "starting_proficiencies": [
+    {
+      "index": "skill-perception",
+      "name": "Skill: Perception",
+      "url": "/api/2024/proficiencies/skill-perception"
+    },
+    {
+      "index": "skill-survival",
+      "name": "Skill: Survival",
+      "url": "/api/2024/proficiencies/skill-survival"
+    },
+    {
+      "index": "gaming-set",
+      "name": "Gaming Set",
+      "url": "/api/2024/proficiencies/gaming-set"
+    }
+  ],
+  "ability_scores": [
+    {
+      "index": "con",
+      "name": "CON",
+      "url": "/api/2024/ability-scores/con"
+    },
+    {
+      "index": "int",
+      "name": "INT",
+      "url": "/api/2024/ability-scores/int"
+    },
+    {
+      "index": "wis",
+      "name": "WIS",
+      "url": "/api/2024/ability-scores/wis"
+    }
+  ],
+  "feat": {
+    "index": "mark-of-finding",
+    "name": "Mark of Finding",
+    "url": "/api/2024/feats/mark-of-finding"
+  },
+  "starting_equipment_options": [
+    {
+      "desc": "Choose A or B: (A) Gaming Set (same as above), Climber's Kit, Fine Clothes, Hunting Trap, Manacles, 2 GP; or (B) 50 GP",
+      "choose": 1,
+      "type": "equipment",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "multiple",
+            "items": [
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "gaming-set",
+                  "name": "Gaming Set",
+                  "url": "/api/2024/equipment/gaming-set"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "climbers-kit",
+                  "name": "Climber's Kit",
+                  "url": "/api/2024/equipment/climbers-kit"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "fine-clothes",
+                  "name": "Fine Clothes",
+                  "url": "/api/2024/equipment/fine-clothes"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "hunting-trap",
+                  "name": "Hunting Trap",
+                  "url": "/api/2024/equipment/hunting-trap"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "manacles",
+                  "name": "Manacles",
+                  "url": "/api/2024/equipment/manacles"
+                }
+              },
+              {
+                "option_type": "money",
+                "count": 2,
+                "unit": "GP"
+              }
+            ]
+          },
+          {
+            "option_type": "money",
+            "count": 50,
+            "unit": "GP"
+          }
+        ]
+      }
+    }
+  ],
+  "desc": [
+    "Heirs of other houses lead lives of luxury, but in House Tharashk you learned self-reliance from an early age. What your young house lacks in resources, it makes up for in spirit and determination. Tharashk has a destiny to fulfill, and you have a part in it. Whether in combat or in social interaction, you have learned to play the role of the hunter: study your enemies, exploit their weaknesses, and do whatever it takes to achieve victory."
+  ],
+  "url": "/api/2024/backgrounds/house-tharashk-heir"
+}

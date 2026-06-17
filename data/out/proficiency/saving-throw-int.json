@@ -1,0 +1,11 @@
+{
+  "index": "saving-throw-int",
+  "name": "Saving Throw: INT",
+  "type": "Saving Throws",
+  "reference": {
+    "index": "int",
+    "name": "INT",
+    "url": "/api/2024/ability-scores/int"
+  },
+  "url": "/api/2024/proficiencies/saving-throw-int"
+}

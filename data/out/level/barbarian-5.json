@@ -1,0 +1,29 @@
+{
+  "index": "barbarian-5",
+  "level": 5,
+  "ability_score_bonuses": 1,
+  "prof_bonus": 3,
+  "features": [
+    {
+      "index": "extra-attack-barbarian",
+      "name": "Extra Attack",
+      "url": "/api/2024/features/extra-attack-barbarian"
+    },
+    {
+      "index": "fast-movement",
+      "name": "Fast Movement",
+      "url": "/api/2024/features/fast-movement"
+    }
+  ],
+  "class": {
+    "index": "barbarian",
+    "name": "Barbarian",
+    "url": "/api/2024/classes/barbarian"
+  },
+  "class_specific": {
+    "rage_count": 3,
+    "rage_damage_bonus": 2,
+    "brutal_critical_dice": 0
+  },
+  "url": "/api/2024/classes/barbarian/levels/5"
+}

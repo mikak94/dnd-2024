@@ -1,0 +1,51 @@
+{
+  "index": "elminsters-effulgent-spheres",
+  "name": "Elminster's Effulgent Spheres",
+  "level": 6,
+  "school": {
+    "index": "evocation",
+    "name": "Evocation",
+    "url": "/api/2024/magic-schools/evocation"
+  },
+  "casting_time": "Action",
+  "range": "Self",
+  "components": ["V", "S", "M"],
+  "material": "an opal worth 1,000 GP+",
+  "ritual": false,
+  "concentration": false,
+  "duration": "1 hour",
+  "desc": [
+    "Six chromatic spheres orbit you for the duration.",
+    "While the spheres are present, you can expend spheres to create the following effects:",
+    "Absorb Energy. When you take Acid, Cold, Fire, Lightning, or Thunder damage, you can take a Reaction to expend one sphere and give yourself Resistance to the triggering damage type until the start of your next turn.",
+    "Energy Blast. As a Bonus Action, you send one sphere hurtling toward a target within 120 feet of yourself. Make a ranged spell attack. On a hit, the target takes 3d6 Acid, Cold, Fire, Lightning, or Thunder damage (your choice). Regardless of whether you hit, the sphere is expended.",
+    "The spell ends early if you have no more spheres remaining."
+  ],
+  "higher_level": [
+    "Using a Higher-Level Spell Slot. The number of spheres increases by 1 for every spell slot level above 6."
+  ],
+  "attack_type": "ranged",
+  "damage": {
+    "damage_at_slot_level": {
+      "6": "3d6"
+    }
+  },
+  "classes": [
+    {
+      "index": "druid",
+      "name": "Druid",
+      "url": "/api/2024/classes/druid"
+    },
+    {
+      "index": "sorcerer",
+      "name": "Sorcerer",
+      "url": "/api/2024/classes/sorcerer"
+    },
+    {
+      "index": "wizard",
+      "name": "Wizard",
+      "url": "/api/2024/classes/wizard"
+    }
+  ],
+  "url": "/api/2024/spells/elminsters-effulgent-spheres"
+}

@@ -1,0 +1,21 @@
+{
+  "index": "circle-of-the-sea-14-oceanic-gift",
+  "name": "Oceanic Gift",
+  "level": 14,
+  "class": {
+    "index": "druid",
+    "name": "Druid",
+    "url": "/api/2024/classes/druid"
+  },
+  "subclass": {
+    "index": "circle-of-the-sea",
+    "name": "Circle of the Sea",
+    "url": "/api/2024/subclasses/circle-of-the-sea"
+  },
+  "desc": [
+    "Instead of manifesting the Emanation of Wrath of the Sea around yourself, you can manifest it around one willing creature within 60 feet of yourself. That creature gains all the benefits of the Emanation and uses your spell save DC and Wisdom modifier for it.",
+    "In addition, you can manifest the Emanation around both the other creature and yourself if you expend two uses of your Wild Shape instead of one when manifesting it."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/circle-of-the-sea-14-oceanic-gift"
+}

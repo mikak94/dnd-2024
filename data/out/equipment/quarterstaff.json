@@ -1,0 +1,57 @@
+{
+  "index": "quarterstaff",
+  "name": "Quarterstaff",
+  "equipment_categories": [
+    {
+      "index": "simple-melee-weapons",
+      "name": "Simple Melee Weapons",
+      "url": "/api/2024/equipment-categories/simple-melee-weapons"
+    },
+    {
+      "index": "simple-weapons",
+      "name": "Simple Weapons",
+      "url": "/api/2024/equipment-categories/simple-weapons"
+    },
+    {
+      "index": "melee-weapons",
+      "name": "Melee Weapons",
+      "url": "/api/2024/equipment-categories/melee-weapons"
+    },
+    {
+      "index": "weapons",
+      "name": "Weapons",
+      "url": "/api/2024/equipment-categories/weapons"
+    }
+  ],
+  "cost": { "quantity": 2, "unit": "sp" },
+  "weight": 4,
+  "damage": {
+    "damage_dice": "1d6",
+    "damage_type": {
+      "index": "bludgeoning",
+      "name": "Bludgeoning",
+      "url": "/api/2024/damage-types/bludgeoning"
+    }
+  },
+  "two_handed_damage": {
+    "damage_dice": "1d8",
+    "damage_type": {
+      "index": "bludgeoning",
+      "name": "Bludgeoning",
+      "url": "/api/2024/damage-types/bludgeoning"
+    }
+  },
+  "properties": [
+    {
+      "index": "versatile",
+      "name": "Versatile",
+      "url": "/api/2024/weapon-properties/versatile"
+    }
+  ],
+  "mastery": {
+    "index": "topple",
+    "name": "Topple",
+    "url": "/api/2024/weapon-mastery-properties/topple"
+  },
+  "url": "/api/2024/equipment/quarterstaff"
+}

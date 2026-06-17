@@ -1,0 +1,32 @@
+{
+  "index": "homunculus-servant",
+  "name": "Homunculus Servant",
+  "level": 2,
+  "school": {
+    "index": "conjuration",
+    "name": "Conjuration",
+    "url": "/api/2024/magic-schools/conjuration"
+  },
+  "casting_time": "1 hour",
+  "range": "10 feet",
+  "components": ["V", "S", "M"],
+  "material": "a gem worth 100+ GP",
+  "ritual": true,
+  "concentration": false,
+  "duration": "Instantaneous",
+  "desc": [
+    "You summon a special homunculus in an unoccupied space within range. This creature uses the Homunculus Servant stat block. If you already have a homunculus from this spell, the homunculus is replaced by the new one. You determine the homunculus's appearance, such as a mechanical-looking bird, winged vials, or miniature animate cauldrons.",
+    "Combat The homunculus is an ally to you and your allies. In combat, it shares your Initiative count, but it takes its turn immediately after yours. It obeys your commands (no action required by you). If you don't issue any, it takes the Dodge action and uses its movement to avoid danger."
+  ],
+  "higher_level": [
+    "Using a Higher-Level Spell Slot. Use the spell slot's level for the spell's level in the stat block."
+  ],
+  "classes": [
+    {
+      "index": "artificer",
+      "name": "Artificer",
+      "url": "/api/2024/classes/artificer"
+    }
+  ],
+  "url": "/api/2024/spells/homunculus-servant"
+}

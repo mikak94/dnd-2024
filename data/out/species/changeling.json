@@ -1,0 +1,33 @@
+{
+  "index": "changeling",
+  "name": "Changeling",
+  "size_options": {
+    "desc": "Medium or Small, chosen when you select this species",
+    "choose": 1,
+    "type": "size",
+    "from": {
+      "option_set_type": "options_array",
+      "options": [
+        { "option_type": "size", "size": "Medium" },
+        { "option_type": "size", "size": "Small" }
+      ]
+    }
+  },
+  "size_description": "about 4–7 feet tall if Medium, or about 2–4 feet tall if Small",
+  "speed": 30,
+  "type": "Fey",
+  "traits": [
+    {
+      "index": "changeling-changeling-instincts",
+      "name": "Changeling Instincts",
+      "url": "/api/2024/traits/changeling-changeling-instincts"
+    },
+    {
+      "index": "changeling-shape-shifter",
+      "name": "Shape-Shifter",
+      "url": "/api/2024/traits/changeling-shape-shifter"
+    }
+  ],
+  "subspecies": [],
+  "url": "/api/2024/species/changeling"
+}

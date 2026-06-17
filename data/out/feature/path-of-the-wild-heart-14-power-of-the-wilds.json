@@ -1,0 +1,23 @@
+{
+  "index": "path-of-the-wild-heart-14-power-of-the-wilds",
+  "name": "Power of the Wilds",
+  "level": 14,
+  "class": {
+    "index": "barbarian",
+    "name": "Barbarian",
+    "url": "/api/2024/classes/barbarian"
+  },
+  "subclass": {
+    "index": "path-of-the-wild-heart",
+    "name": "Path of the Wild Heart",
+    "url": "/api/2024/subclasses/path-of-the-wild-heart"
+  },
+  "desc": [
+    "Whenever you activate your Rage, you gain one of the following options of your choice.",
+    "Falcon. While your Rage is active, you have a Fly Speed equal to your Speed if you aren't wearing any armor.",
+    "Lion. While your Rage is active, any of your enemies within 5 feet of you have Disadvantage on attack rolls against targets other than you or another Barbarian who has this option active.",
+    "Ram. While your Rage is active, you can cause a Large or smaller creature to have the Prone condition when you hit it with a melee attack."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/path-of-the-wild-heart-14-power-of-the-wilds"
+}

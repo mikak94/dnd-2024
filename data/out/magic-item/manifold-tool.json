@@ -1,0 +1,15 @@
+{
+  "index": "manifold-tool",
+  "name": "Manifold Tool",
+  "equipment_category": {
+    "index": "wondrous-items",
+    "name": "Wondrous Items",
+    "url": "/api/2024/equipment-categories/wondrous-items"
+  },
+  "rarity": { "name": "Common" },
+  "attunement": true,
+  "desc": "This tool takes the form of a wrench, a screwdriver, or another basic tool. As a Magic action, you can touch the item and transform it into a type of Artisan's Tools of your choice. Whatever form the tool takes, you have proficiency with it when you use it.",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/manifold-tool"
+}

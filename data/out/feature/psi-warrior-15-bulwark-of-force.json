@@ -1,0 +1,21 @@
+{
+  "index": "psi-warrior-15-bulwark-of-force",
+  "name": "Bulwark of Force",
+  "level": 15,
+  "class": {
+    "index": "fighter",
+    "name": "Fighter",
+    "url": "/api/2024/classes/fighter"
+  },
+  "subclass": {
+    "index": "psi-warrior",
+    "name": "Psi Warrior",
+    "url": "/api/2024/subclasses/psi-warrior"
+  },
+  "desc": [
+    "You can shield yourself and others with telekinetic force. As a Bonus Action, you can choose creatures, including yourself, within 30 feet of yourself, up to a number of creatures equal to your Intelligence modifier (minimum of one creature). Each of the chosen creatures has Half Cover for 1 minute or until you have the Incapacitated condition.",
+    "Once you use this feature, you can't do so again until you finish a Long Rest unless you expend a Psionic Energy Die (no action required) to restore your use of it."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/psi-warrior-15-bulwark-of-force"
+}

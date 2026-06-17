@@ -1,0 +1,15 @@
+{
+  "index": "circlet-of-blasting",
+  "name": "Circlet of Blasting",
+  "equipment_category": {
+    "index": "wondrous-items",
+    "name": "Wondrous Items",
+    "url": "/api/2024/equipment-categories/wondrous-items"
+  },
+  "rarity": { "name": "Uncommon" },
+  "attunement": false,
+  "desc": "While wearing this circlet, you can cast Scorching Ray with it (+5 to hit). The circlet can't cast this spell again until the next dawn.",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/circlet-of-blasting"
+}

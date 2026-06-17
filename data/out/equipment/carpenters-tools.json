@@ -1,0 +1,24 @@
+{
+  "index": "carpenters-tools",
+  "name": "Carpenter's Tools",
+  "equipment_categories": [
+    {
+      "index": "artisans-tools",
+      "name": "Artisan's Tools",
+      "url": "/api/2024/equipment-categories/artisans-tools"
+    },
+    {
+      "index": "tools",
+      "name": "Tools",
+      "url": "/api/2024/equipment-categories/tools"
+    }
+  ],
+  "url": "/api/2024/equipment/carpenters-tools",
+  "cost": { "quantity": 8, "unit": "gp" },
+  "weight": 6,
+  "ability": {
+    "index": "str",
+    "name": "STR",
+    "url": "/api/2024/ability-scores/str"
+  }
+}

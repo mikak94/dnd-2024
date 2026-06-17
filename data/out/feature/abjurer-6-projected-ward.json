@@ -1,0 +1,20 @@
+{
+  "index": "abjurer-6-projected-ward",
+  "name": "Projected Ward",
+  "level": 6,
+  "class": {
+    "index": "wizard",
+    "name": "Wizard",
+    "url": "/api/2024/classes/wizard"
+  },
+  "subclass": {
+    "index": "abjurer",
+    "name": "Abjurer",
+    "url": "/api/2024/subclasses/abjurer"
+  },
+  "desc": [
+    "When a creature that you can see within 30 feet of yourself takes damage, you can take a Reaction to cause your Arcane Ward to absorb that damage. If this damage reduces the ward to 0 Hit Points, the warded creature takes any remaining damage. If that creature has any Resistances or Vulnerabilities, apply them before reducing the ward's Hit Points."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/abjurer-6-projected-ward"
+}

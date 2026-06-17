@@ -1,0 +1,10 @@
+{
+  "index": "orc-darkvision",
+  "name": "Darkvision",
+  "species": [
+    { "index": "orc", "name": "Orc", "url": "/api/2024/species/orc" }
+  ],
+  "subspecies": [],
+  "desc": ["You have Darkvision with a range of 120 feet."],
+  "url": "/api/2024/traits/orc-darkvision"
+}

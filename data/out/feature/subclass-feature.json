@@ -1,0 +1,8 @@
+{
+  "index": "subclass-feature",
+  "name": "Subclass Feature",
+  "level": 6,
+  "desc": ["You gain a feature granted by your subclass."],
+  "prerequisites": [],
+  "url": "/api/2024/features/subclass-feature"
+}

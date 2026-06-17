@@ -1,0 +1,21 @@
+{
+  "index": "champion-3-remarkable-athlete",
+  "name": "Remarkable Athlete",
+  "level": 3,
+  "class": {
+    "index": "fighter",
+    "name": "Fighter",
+    "url": "/api/2024/classes/fighter"
+  },
+  "subclass": {
+    "index": "champion",
+    "name": "Champion",
+    "url": "/api/2024/subclasses/champion"
+  },
+  "desc": [
+    "Thanks to your athleticism, you have Advantage on Initiative rolls and Strength (Athletics) checks.",
+    "In addition, immediately after you score a Critical Hit, you can move up to half your Speed without provoking Opportunity Attacks."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/champion-3-remarkable-athlete"
+}

@@ -1,0 +1,11 @@
+{
+  "index": "skill-religion",
+  "name": "Skill: Religion",
+  "type": "Skills",
+  "reference": {
+    "index": "religion",
+    "name": "Religion",
+    "url": "/api/2024/skills/religion"
+  },
+  "url": "/api/2024/proficiencies/skill-religion"
+}

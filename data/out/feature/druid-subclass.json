@@ -1,0 +1,13 @@
+{
+  "index": "druid-subclass",
+  "name": "Subclass Feature",
+  "level": 10,
+  "class": {
+    "index": "druid",
+    "name": "Druid",
+    "url": "/api/2024/classes/druid"
+  },
+  "desc": ["You gain a feature granted by your Druid subclass."],
+  "prerequisites": [],
+  "url": "/api/2024/features/druid-subclass"
+}

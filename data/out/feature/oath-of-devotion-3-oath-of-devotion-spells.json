@@ -1,0 +1,21 @@
+{
+  "index": "oath-of-devotion-3-oath-of-devotion-spells",
+  "name": "Oath of Devotion Spells",
+  "level": 3,
+  "class": {
+    "index": "paladin",
+    "name": "Paladin",
+    "url": "/api/2024/classes/paladin"
+  },
+  "subclass": {
+    "index": "oath-of-devotion",
+    "name": "Oath of Devotion",
+    "url": "/api/2024/subclasses/oath-of-devotion"
+  },
+  "desc": [
+    "The magic of your oath ensures you always have certain spells ready; when you reach a Paladin level specified in the Oath of Devotion Spells table, you thereafter always have the listed spells prepared.",
+    "| Paladin Level | Spells |\n| --- | --- |\n| 3 | Protection from Evil and Good, Shield of Faith |\n| 5 | Aid, Zone of Truth |\n| 9 | Beacon of Hope, Dispel Magic |\n| 13 | Freedom of Movement, Guardian of Faith |\n| 17 | Commune, Flame Strike |"
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/oath-of-devotion-3-oath-of-devotion-spells"
+}

@@ -1,0 +1,20 @@
+{
+  "index": "spellfire-sorcery-14-honed-spellfire",
+  "name": "Honed Spellfire",
+  "level": 14,
+  "class": {
+    "index": "sorcerer",
+    "name": "Sorcerer",
+    "url": "/api/2024/classes/sorcerer"
+  },
+  "subclass": {
+    "index": "spellfire-sorcery",
+    "name": "Spellfire Sorcery",
+    "url": "/api/2024/subclasses/spellfire-sorcery"
+  },
+  "desc": [
+    "Your Spellfire Burst improves. You add your Sorcerer level to the Temporary Hit Points gained from Bolstering Flames, and the damage of your Radiant Fire increases to 1d8."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/spellfire-sorcery-14-honed-spellfire"
+}

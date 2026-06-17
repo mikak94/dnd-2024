@@ -1,0 +1,15 @@
+{
+  "index": "uncanny-dodge",
+  "name": "Uncanny Dodge",
+  "level": 5,
+  "class": {
+    "index": "rogue",
+    "name": "Rogue",
+    "url": "/api/2024/classes/rogue"
+  },
+  "desc": [
+    "When an attacker that you can see hits you with an attack roll, you can take a Reaction to halve the attack's damage against you (round down)."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/uncanny-dodge"
+}

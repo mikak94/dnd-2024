@@ -1,0 +1,20 @@
+{
+  "index": "battle-master-15-relentless",
+  "name": "Relentless",
+  "level": 15,
+  "class": {
+    "index": "fighter",
+    "name": "Fighter",
+    "url": "/api/2024/classes/fighter"
+  },
+  "subclass": {
+    "index": "battle-master",
+    "name": "Battle Master",
+    "url": "/api/2024/subclasses/battle-master"
+  },
+  "desc": [
+    "Once per turn, when you use a maneuver, you can roll 1d8 and use the number rolled instead of expending a Superiority Die."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/battle-master-15-relentless"
+}

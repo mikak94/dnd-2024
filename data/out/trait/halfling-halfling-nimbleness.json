@@ -1,0 +1,16 @@
+{
+  "index": "halfling-halfling-nimbleness",
+  "name": "Halfling Nimbleness",
+  "species": [
+    {
+      "index": "halfling",
+      "name": "Halfling",
+      "url": "/api/2024/species/halfling"
+    }
+  ],
+  "subspecies": [],
+  "desc": [
+    "You can move through the space of any creature that is a size larger than you, but you can't stop in the same space."
+  ],
+  "url": "/api/2024/traits/halfling-halfling-nimbleness"
+}

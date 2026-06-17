@@ -1,0 +1,21 @@
+{
+  "index": "gloom-stalker-3-umbral-sight",
+  "name": "Umbral Sight",
+  "level": 3,
+  "class": {
+    "index": "ranger",
+    "name": "Ranger",
+    "url": "/api/2024/classes/ranger"
+  },
+  "subclass": {
+    "index": "gloom-stalker",
+    "name": "Gloom Stalker",
+    "url": "/api/2024/subclasses/gloom-stalker"
+  },
+  "desc": [
+    "You gain Darkvision with a range of 60 feet. If you already have Darkvision when you gain this feature, its range increases by 60 feet.",
+    "You are also adept at evading creatures that rely on Darkvision. While entirely in Darkness, you have the Invisible condition to any creature that relies on Darkvision to see you in that Darkness."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/gloom-stalker-3-umbral-sight"
+}

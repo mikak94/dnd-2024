@@ -1,0 +1,146 @@
+{
+  "index": "shadowmoor-expert",
+  "name": "Shadowmoor Expert",
+  "starting_proficiencies": [
+    {
+      "index": "skill-acrobatics",
+      "name": "Skill: Acrobatics",
+      "url": "/api/2024/proficiencies/skill-acrobatics"
+    },
+    {
+      "index": "skill-deception",
+      "name": "Skill: Deception",
+      "url": "/api/2024/proficiencies/skill-deception"
+    },
+    {
+      "index": "glassblowers-tools",
+      "name": "Glassblower's Tools",
+      "url": "/api/2024/proficiencies/glassblowers-tools"
+    }
+  ],
+  "ability_scores": [
+    {
+      "index": "dex",
+      "name": "DEX",
+      "url": "/api/2024/ability-scores/dex"
+    },
+    {
+      "index": "int",
+      "name": "INT",
+      "url": "/api/2024/ability-scores/int"
+    },
+    {
+      "index": "cha",
+      "name": "CHA",
+      "url": "/api/2024/ability-scores/cha"
+    }
+  ],
+  "feat": {
+    "index": "shadowmoor-hexer",
+    "name": "Shadowmoor Hexer",
+    "url": "/api/2024/feats/shadowmoor-hexer"
+  },
+  "starting_equipment_options": [
+    {
+      "desc": "Choose A or B: (A) Dagger, Glassblower's Tools, Backpack, Hunting Trap, Lamp, Oil (3 flasks), Traveler's Clothes, Waterskin, 8 GP; or (B) 50 GP",
+      "choose": 1,
+      "type": "equipment",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "multiple",
+            "items": [
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "dagger",
+                  "name": "Dagger",
+                  "url": "/api/2024/equipment/dagger"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "glassblowers-tools",
+                  "name": "Glassblower's Tools",
+                  "url": "/api/2024/equipment/glassblowers-tools"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "backpack",
+                  "name": "Backpack",
+                  "url": "/api/2024/equipment/backpack"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "hunting-trap",
+                  "name": "Hunting Trap",
+                  "url": "/api/2024/equipment/hunting-trap"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "lamp",
+                  "name": "Lamp",
+                  "url": "/api/2024/equipment/lamp"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 3,
+                "of": {
+                  "index": "oil",
+                  "name": "Oil",
+                  "url": "/api/2024/equipment/oil"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "travelers-clothes",
+                  "name": "Traveler's Clothes",
+                  "url": "/api/2024/equipment/travelers-clothes"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "waterskin",
+                  "name": "Waterskin",
+                  "url": "/api/2024/equipment/waterskin"
+                }
+              },
+              {
+                "option_type": "money",
+                "count": 8,
+                "unit": "GP"
+              }
+            ]
+          },
+          {
+            "option_type": "money",
+            "count": 50,
+            "unit": "GP"
+          }
+        ]
+      }
+    }
+  ],
+  "desc": [
+    "You are from Shadowmoor or have studied it for years. It's a gloomy, chaotic place perpetually lit by pale moonlight. You might survive Shadowmoor's merciless conditions thanks to your wit and cunning, or you might keep threats at bay with your brawn and bravery. Regardless of where you tread, you keenly understand that friendship is a rare commodity. You believe that knowing who to trust and who to keep at arm's length isn't just practical - it's often a matter of life or death."
+  ],
+  "url": "/api/2024/backgrounds/shadowmoor-expert"
+}

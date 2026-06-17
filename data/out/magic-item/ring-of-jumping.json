@@ -1,0 +1,15 @@
+{
+  "index": "ring-of-jumping",
+  "name": "Ring of Jumping",
+  "equipment_category": {
+    "index": "rings",
+    "name": "Rings",
+    "url": "/api/2024/equipment-categories/rings"
+  },
+  "rarity": { "name": "Uncommon" },
+  "attunement": true,
+  "desc": "While wearing this ring, you can cast Jump from it, but can target only yourself when you do so.",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/ring-of-jumping"
+}

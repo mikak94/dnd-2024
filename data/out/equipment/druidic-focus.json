@@ -1,0 +1,18 @@
+{
+  "index": "druidic-focus",
+  "name": "Druidic Focus",
+  "equipment_categories": [
+    {
+      "index": "druidic-foci",
+      "name": "Druidic Foci",
+      "url": "/api/2024/equipment-categories/druidic-foci"
+    },
+    {
+      "index": "adventuring-gear",
+      "name": "Adventuring Gear",
+      "url": "/api/2024/equipment-categories/adventuring-gear"
+    }
+  ],
+  "description": "A Druidic Focus takes one of the forms in the Druidic Focuses table and is carved, tied with ribbon, or painted to channel primal magic. A Druid or Ranger can use such an object as a Spellcasting Focus.",
+  "url": "/api/2024/equipment/druidic-focus"
+}

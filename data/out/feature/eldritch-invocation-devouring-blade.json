@@ -1,0 +1,29 @@
+{
+  "index": "eldritch-invocation-devouring-blade",
+  "name": "Eldritch Invocation: Devouring Blade",
+  "level": 12,
+  "class": {
+    "index": "warlock",
+    "name": "Warlock",
+    "url": "/api/2024/classes/warlock"
+  },
+  "parent": {
+    "index": "eldritch-invocations",
+    "name": "Eldritch Invocations",
+    "url": "/api/2024/features/eldritch-invocations"
+  },
+  "desc": [
+    "The Extra Attack of your Thirsting Blade invocation confers two extra attacks rather than one."
+  ],
+  "prerequisites": [
+    {
+      "type": "level",
+      "level": 12
+    },
+    {
+      "type": "feature",
+      "feature": "eldritch-invocation-thirsting-blade"
+    }
+  ],
+  "url": "/api/2024/features/eldritch-invocation-devouring-blade"
+}

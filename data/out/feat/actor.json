@@ -1,0 +1,34 @@
+{
+  "index": "actor",
+  "name": "Actor",
+  "type": "general",
+  "prerequisites": [
+    { "type": "level", "level": 4 },
+    {
+      "type": "ability_score",
+      "ability_score": {
+        "index": "cha",
+        "name": "CHA",
+        "url": "/api/2024/ability-scores/cha"
+      },
+      "minimum_score": 13
+    }
+  ],
+  "desc": [
+    "You gain the following benefits.",
+    "Ability Score Increase. Increase your Charisma score by 1, to a maximum of 20.",
+    "Impersonation. While you're disguised as a real or fictional person, you have Advantage on Charisma (Deception or Performance) checks to convince others that you are that person.",
+    "Mimicry. You can mimic the sounds of other creatures, including speech. A creature that hears the mimicry must succeed on a Wisdom (Insight) check to determine the effect is faked (DC 8 plus your Charisma modifier and Proficiency Bonus)."
+  ],
+  "ability_bonuses": [
+    {
+      "ability_score": {
+        "index": "cha",
+        "name": "CHA",
+        "url": "/api/2024/ability-scores/cha"
+      },
+      "bonus": 1
+    }
+  ],
+  "url": "/api/2024/feats/actor"
+}

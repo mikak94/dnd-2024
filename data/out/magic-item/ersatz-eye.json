@@ -1,0 +1,15 @@
+{
+  "index": "ersatz-eye",
+  "name": "Ersatz Eye",
+  "equipment_category": {
+    "index": "wondrous-items",
+    "name": "Wondrous Items",
+    "url": "/api/2024/equipment-categories/wondrous-items"
+  },
+  "rarity": { "name": "Common" },
+  "attunement": false,
+  "desc": "This magical eye replaces a real one that was lost or removed. While the Ersatz Eye is embedded in your eye socket, you can see through the tiny orb as though it were your natural eye. You can insert or remove the Ersatz Eye as a Magic action, and it can't be removed against your will while you are alive.",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/ersatz-eye"
+}

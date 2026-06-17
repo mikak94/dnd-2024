@@ -1,0 +1,21 @@
+{
+  "index": "celestial-patron-3-healing-light",
+  "name": "Healing Light",
+  "level": 3,
+  "class": {
+    "index": "warlock",
+    "name": "Warlock",
+    "url": "/api/2024/classes/warlock"
+  },
+  "subclass": {
+    "index": "celestial-patron",
+    "name": "Celestial Patron",
+    "url": "/api/2024/subclasses/celestial-patron"
+  },
+  "desc": [
+    "You gain the ability to channel celestial energy to heal wounds. You have a pool of d6s to fuel this healing. The number of dice in the pool equals 1 plus your Warlock level.",
+    "As a Bonus Action, you can heal yourself or one creature you can see within 60 feet of yourself, expending dice from the pool. The maximum number of dice you can expend at once equals your Charisma modifier (minimum of one die). Roll the dice you expend, and restore a number of Hit Points equal to the roll's total. Your pool regains all expended dice when you finish a Long Rest."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/celestial-patron-3-healing-light"
+}

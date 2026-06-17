@@ -1,0 +1,24 @@
+{
+  "index": "barbarian-13",
+  "level": 13,
+  "ability_score_bonuses": 3,
+  "prof_bonus": 5,
+  "features": [
+    {
+      "index": "improved-brutal-strike-13",
+      "name": "Improved Brutal Strike",
+      "url": "/api/2024/features/improved-brutal-strike-13"
+    }
+  ],
+  "class": {
+    "index": "barbarian",
+    "name": "Barbarian",
+    "url": "/api/2024/classes/barbarian"
+  },
+  "class_specific": {
+    "rage_count": 5,
+    "rage_damage_bonus": 3,
+    "brutal_critical_dice": 0
+  },
+  "url": "/api/2024/classes/barbarian/levels/13"
+}

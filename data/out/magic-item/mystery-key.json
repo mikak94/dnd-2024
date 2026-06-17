@@ -1,0 +1,15 @@
+{
+  "index": "mystery-key",
+  "name": "Mystery Key",
+  "equipment_category": {
+    "index": "wondrous-items",
+    "name": "Wondrous Items",
+    "url": "/api/2024/equipment-categories/wondrous-items"
+  },
+  "rarity": { "name": "Common" },
+  "attunement": false,
+  "desc": "A question mark is worked into the head of this key. The key has a 5 percent chance of unlocking any lock into which it's inserted. Once it unlocks something, the key disappears.",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/mystery-key"
+}

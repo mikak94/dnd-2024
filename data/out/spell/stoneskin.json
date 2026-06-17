@@ -1,0 +1,48 @@
+{
+  "index": "stoneskin",
+  "name": "Stoneskin",
+  "level": 4,
+  "school": {
+    "index": "transmutation",
+    "name": "Transmutation",
+    "url": "/api/2024/magic-schools/transmutation"
+  },
+  "casting_time": "Action",
+  "range": "Touch",
+  "components": ["V", "S", "M"],
+  "material": "diamond dust worth 100+ GP, which the spell consumes",
+  "ritual": false,
+  "concentration": true,
+  "duration": "Concentration, up to 1 hour",
+  "desc": [
+    "Until the spell ends, one willing creature you touch has Resistance to Bludgeoning, Piercing, and Slashing damage."
+  ],
+  "classes": [
+    {
+      "index": "artificer",
+      "name": "Artificer",
+      "url": "/api/2024/classes/artificer"
+    },
+    {
+      "index": "druid",
+      "name": "Druid",
+      "url": "/api/2024/classes/druid"
+    },
+    {
+      "index": "ranger",
+      "name": "Ranger",
+      "url": "/api/2024/classes/ranger"
+    },
+    {
+      "index": "sorcerer",
+      "name": "Sorcerer",
+      "url": "/api/2024/classes/sorcerer"
+    },
+    {
+      "index": "wizard",
+      "name": "Wizard",
+      "url": "/api/2024/classes/wizard"
+    }
+  ],
+  "url": "/api/2024/spells/stoneskin"
+}

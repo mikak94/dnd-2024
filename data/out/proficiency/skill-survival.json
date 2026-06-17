@@ -1,0 +1,11 @@
+{
+  "index": "skill-survival",
+  "name": "Skill: Survival",
+  "type": "Skills",
+  "reference": {
+    "index": "survival",
+    "name": "Survival",
+    "url": "/api/2024/skills/survival"
+  },
+  "url": "/api/2024/proficiencies/skill-survival"
+}

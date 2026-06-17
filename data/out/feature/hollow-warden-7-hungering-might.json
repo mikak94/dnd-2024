@@ -1,0 +1,21 @@
+{
+  "index": "hollow-warden-7-hungering-might",
+  "name": "Hungering Might",
+  "level": 7,
+  "class": {
+    "index": "ranger",
+    "name": "Ranger",
+    "url": "/api/2024/classes/ranger"
+  },
+  "subclass": {
+    "index": "hollow-warden",
+    "name": "Hollow Warden",
+    "url": "/api/2024/subclasses/hollow-warden"
+  },
+  "desc": [
+    "You gain a bonus to Constitution saving throws equal to your Wisdom modifier (minimum of +1).",
+    "In addition, once per turn when you hit a creature with an attack roll while you are transformed using Wrath of the Wild, you regain a number of Hit Points equal to 1d10 plus your Wisdom modifier, provided you are Bloodied when you hit."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/hollow-warden-7-hungering-might"
+}

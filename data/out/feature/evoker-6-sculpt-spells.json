@@ -1,0 +1,20 @@
+{
+  "index": "evoker-6-sculpt-spells",
+  "name": "Sculpt Spells",
+  "level": 6,
+  "class": {
+    "index": "wizard",
+    "name": "Wizard",
+    "url": "/api/2024/classes/wizard"
+  },
+  "subclass": {
+    "index": "evoker",
+    "name": "Evoker",
+    "url": "/api/2024/subclasses/evoker"
+  },
+  "desc": [
+    "You can create pockets of relative safety within the effects of your evocations. When you cast an Evocation spell that affects other creatures that you can see, you can choose a number of them equal to 1 plus the spell's level. The chosen creatures automatically succeed on their saving throws against the spell, and they take no damage if they would normally take half damage on a successful save."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/evoker-6-sculpt-spells"
+}

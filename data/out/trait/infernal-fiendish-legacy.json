@@ -1,0 +1,68 @@
+{
+  "index": "infernal-fiendish-legacy",
+  "name": "Fiendish Legacy",
+  "species": [],
+  "subspecies": [
+    {
+      "index": "infernal",
+      "name": "Infernal",
+      "url": "/api/2024/subspecies/infernal"
+    }
+  ],
+  "desc": [
+    "Level 1: You have Resistance to Fire damage. You also know the Fire Bolt cantrip. Level 3: Hellish Rebuke. Level 5: Darkness. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the legacy)."
+  ],
+  "parent": {
+    "index": "tiefling-fiendish-legacy",
+    "name": "Fiendish Legacy",
+    "url": "/api/2024/traits/tiefling-fiendish-legacy"
+  },
+  "trait_specific": {
+    "spellcasting": {
+      "ability": [
+        {
+          "index": "int",
+          "name": "INT",
+          "url": "/api/2024/ability-scores/int"
+        },
+        {
+          "index": "wis",
+          "name": "WIS",
+          "url": "/api/2024/ability-scores/wis"
+        },
+        {
+          "index": "cha",
+          "name": "CHA",
+          "url": "/api/2024/ability-scores/cha"
+        }
+      ],
+      "spells": [
+        {
+          "spell": {
+            "index": "fire-bolt",
+            "name": "Fire Bolt",
+            "url": "/api/2024/spells/fire-bolt"
+          },
+          "level": 1
+        },
+        {
+          "spell": {
+            "index": "hellish-rebuke",
+            "name": "Hellish Rebuke",
+            "url": "/api/2024/spells/hellish-rebuke"
+          },
+          "level": 3
+        },
+        {
+          "spell": {
+            "index": "darkness",
+            "name": "Darkness",
+            "url": "/api/2024/spells/darkness"
+          },
+          "level": 5
+        }
+      ]
+    }
+  },
+  "url": "/api/2024/traits/infernal-fiendish-legacy"
+}

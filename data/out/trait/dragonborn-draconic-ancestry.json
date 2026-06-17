@@ -1,0 +1,109 @@
+{
+  "index": "dragonborn-draconic-ancestry",
+  "name": "Draconic Ancestry",
+  "species": [
+    {
+      "index": "dragonborn",
+      "name": "Dragonborn",
+      "url": "/api/2024/species/dragonborn"
+    }
+  ],
+  "subspecies": [],
+  "desc": [
+    "Your lineage stems from a dragon progenitor. Choose the kind of dragon from the Draconic Ancestors table. Your choice affects your Breath Weapon and Damage Resistance traits as well as your appearance.",
+    "Draconic Ancestors table: Black — Acid; Blue — Lightning; Brass — Fire; Bronze — Lightning; Copper — Acid; Gold — Fire; Green — Poison; Red — Fire; Silver — Cold; White — Cold."
+  ],
+  "trait_specific": {
+    "subtrait_options": {
+      "desc": "Choose a kind of dragon from the Draconic Ancestors table",
+      "choose": 1,
+      "type": "subtrait",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "dragonborn-draconic-ancestry-black",
+              "name": "Draconic Ancestry (Black)",
+              "url": "/api/2024/traits/dragonborn-draconic-ancestry-black"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "dragonborn-draconic-ancestry-blue",
+              "name": "Draconic Ancestry (Blue)",
+              "url": "/api/2024/traits/dragonborn-draconic-ancestry-blue"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "dragonborn-draconic-ancestry-brass",
+              "name": "Draconic Ancestry (Brass)",
+              "url": "/api/2024/traits/dragonborn-draconic-ancestry-brass"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "dragonborn-draconic-ancestry-bronze",
+              "name": "Draconic Ancestry (Bronze)",
+              "url": "/api/2024/traits/dragonborn-draconic-ancestry-bronze"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "dragonborn-draconic-ancestry-copper",
+              "name": "Draconic Ancestry (Copper)",
+              "url": "/api/2024/traits/dragonborn-draconic-ancestry-copper"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "dragonborn-draconic-ancestry-gold",
+              "name": "Draconic Ancestry (Gold)",
+              "url": "/api/2024/traits/dragonborn-draconic-ancestry-gold"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "dragonborn-draconic-ancestry-green",
+              "name": "Draconic Ancestry (Green)",
+              "url": "/api/2024/traits/dragonborn-draconic-ancestry-green"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "dragonborn-draconic-ancestry-red",
+              "name": "Draconic Ancestry (Red)",
+              "url": "/api/2024/traits/dragonborn-draconic-ancestry-red"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "dragonborn-draconic-ancestry-silver",
+              "name": "Draconic Ancestry (Silver)",
+              "url": "/api/2024/traits/dragonborn-draconic-ancestry-silver"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "dragonborn-draconic-ancestry-white",
+              "name": "Draconic Ancestry (White)",
+              "url": "/api/2024/traits/dragonborn-draconic-ancestry-white"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "url": "/api/2024/traits/dragonborn-draconic-ancestry"
+}

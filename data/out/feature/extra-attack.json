@@ -1,0 +1,15 @@
+{
+  "index": "extra-attack",
+  "name": "Extra Attack",
+  "level": 5,
+  "class": {
+    "index": "ranger",
+    "name": "Ranger",
+    "url": "/api/2024/classes/ranger"
+  },
+  "desc": [
+    "You can attack twice instead of once whenever you take the Attack action on your turn."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/extra-attack"
+}

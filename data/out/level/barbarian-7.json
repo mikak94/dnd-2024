@@ -1,0 +1,29 @@
+{
+  "index": "barbarian-7",
+  "level": 7,
+  "ability_score_bonuses": 1,
+  "prof_bonus": 3,
+  "features": [
+    {
+      "index": "feral-instinct",
+      "name": "Feral Instinct",
+      "url": "/api/2024/features/feral-instinct"
+    },
+    {
+      "index": "instinctive-pounce",
+      "name": "Instinctive Pounce",
+      "url": "/api/2024/features/instinctive-pounce"
+    }
+  ],
+  "class": {
+    "index": "barbarian",
+    "name": "Barbarian",
+    "url": "/api/2024/classes/barbarian"
+  },
+  "class_specific": {
+    "rage_count": 4,
+    "rage_damage_bonus": 2,
+    "brutal_critical_dice": 0
+  },
+  "url": "/api/2024/classes/barbarian/levels/7"
+}

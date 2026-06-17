@@ -1,0 +1,14 @@
+{
+  "index": "locking-spellbook",
+  "name": "Locking Spellbook",
+  "equipment_categories": [
+    {
+      "index": "adventuring-gear",
+      "name": "Adventuring Gear",
+      "url": "/api/2024/equipment-categories/adventuring-gear"
+    }
+  ],
+  "cost": { "quantity": 35, "unit": "gp" },
+  "description": "This 100-page leather-bound tome can be used as a Spellbook. It is closed with a lock that comes with a key. As a Utilize action, a creature can try to pick the lock using Thieves' Tools, doing so with a successful DC 15 Dexterity (Sleight of Hand) check.",
+  "url": "/api/2024/equipment/locking-spellbook"
+}

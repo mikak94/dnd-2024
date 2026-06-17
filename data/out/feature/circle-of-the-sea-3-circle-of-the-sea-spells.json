@@ -1,0 +1,26 @@
+{
+  "index": "circle-of-the-sea-3-circle-of-the-sea-spells",
+  "name": "Circle of the Sea Spells",
+  "level": 3,
+  "class": {
+    "index": "druid",
+    "name": "Druid",
+    "url": "/api/2024/classes/druid"
+  },
+  "subclass": {
+    "index": "circle-of-the-sea",
+    "name": "Circle of the Sea",
+    "url": "/api/2024/subclasses/circle-of-the-sea"
+  },
+  "desc": [
+    "When you reach a Druid level specified in the Circle of the Sea Spells table, you thereafter always have the listed spells prepared.",
+    "| Druid Level | Prepared Spells |",
+    "| --- | --- |",
+    "| 3 | Fog Cloud, Gust of Wind, Ray of Frost, Thunderwave |",
+    "| 5 | Lightning Bolt, Water Breathing |",
+    "| 7 | Control Water, Ice Storm |",
+    "| 9 | Conjure Elemental, Hold Monster |"
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/circle-of-the-sea-3-circle-of-the-sea-spells"
+}

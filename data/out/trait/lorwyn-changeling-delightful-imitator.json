@@ -1,0 +1,21 @@
+{
+  "index": "lorwyn-changeling-delightful-imitator",
+  "name": "Delightful Imitator",
+  "species": [
+    {
+      "index": "lorwyn-changeling",
+      "name": "Lorwyn Changeling",
+      "url": "/api/2024/species/lorwyn-changeling"
+    }
+  ],
+  "subspecies": [],
+  "desc": ["You have proficiency in the Performance skill."],
+  "proficiencies": [
+    {
+      "index": "skill-performance",
+      "name": "Skill: Performance",
+      "url": "/api/2024/proficiencies/skill-performance"
+    }
+  ],
+  "url": "/api/2024/traits/lorwyn-changeling-delightful-imitator"
+}

@@ -1,0 +1,38 @@
+{
+  "index": "insidious-rhythm",
+  "name": "Insidious Rhythm",
+  "level": 1,
+  "school": {
+    "index": "enchantment",
+    "name": "Enchantment",
+    "url": "/api/2024/magic-schools/enchantment"
+  },
+  "casting_time": "Action",
+  "range": "120 feet",
+  "components": ["V", "S"],
+  "ritual": false,
+  "concentration": true,
+  "duration": "Concentration, up to 1 minute",
+  "desc": [
+    "One creature of your choice that you can see within range hears a haunting yet catchy tune that continuously repeats in its mind. The target must succeed on a Wisdom saving throw, or it has Disadvantage on Intelligence checks and on Constitution saving throws made to maintain Concentration. At the end of each of its turns, the target repeats the save, ending the spell on itself on a success."
+  ],
+  "higher_level": [
+    "Using a Higher-Level Spell Slot. You can target one additional creature for each spell slot level above 1."
+  ],
+  "dc": {
+    "dc_type": {
+      "index": "wis",
+      "name": "WIS",
+      "url": "/api/2024/ability-scores/wis"
+    },
+    "dc_success": "none"
+  },
+  "classes": [
+    {
+      "index": "bard",
+      "name": "Bard",
+      "url": "/api/2024/classes/bard"
+    }
+  ],
+  "url": "/api/2024/spells/insidious-rhythm"
+}

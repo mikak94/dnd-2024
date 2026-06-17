@@ -1,0 +1,10 @@
+{
+  "index": "human-resourceful",
+  "name": "Resourceful",
+  "species": [
+    { "index": "human", "name": "Human", "url": "/api/2024/species/human" }
+  ],
+  "subspecies": [],
+  "desc": ["You gain Heroic Inspiration whenever you finish a Long Rest."],
+  "url": "/api/2024/traits/human-resourceful"
+}

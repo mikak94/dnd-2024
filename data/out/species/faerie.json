@@ -1,0 +1,22 @@
+{
+  "index": "faerie",
+  "name": "Faerie",
+  "size": "Small",
+  "size_description": "about 2–4 feet tall",
+  "speed": 30,
+  "type": "Fey",
+  "traits": [
+    {
+      "index": "faerie-fairy-magic",
+      "name": "Fairy Magic",
+      "url": "/api/2024/traits/faerie-fairy-magic"
+    },
+    {
+      "index": "faerie-flight",
+      "name": "Flight",
+      "url": "/api/2024/traits/faerie-flight"
+    }
+  ],
+  "subspecies": [],
+  "url": "/api/2024/species/faerie"
+}

@@ -1,0 +1,24 @@
+{
+  "index": "painters-supplies",
+  "name": "Painter's Supplies",
+  "equipment_categories": [
+    {
+      "index": "artisans-tools",
+      "name": "Artisan's Tools",
+      "url": "/api/2024/equipment-categories/artisans-tools"
+    },
+    {
+      "index": "tools",
+      "name": "Tools",
+      "url": "/api/2024/equipment-categories/tools"
+    }
+  ],
+  "url": "/api/2024/equipment/painters-supplies",
+  "cost": { "quantity": 10, "unit": "gp" },
+  "weight": 5,
+  "ability": {
+    "index": "wis",
+    "name": "WIS",
+    "url": "/api/2024/ability-scores/wis"
+  }
+}

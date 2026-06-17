@@ -1,0 +1,22 @@
+{
+  "index": "college-of-valor-3-combat-inspiration",
+  "name": "Combat Inspiration",
+  "level": 3,
+  "class": {
+    "index": "bard",
+    "name": "Bard",
+    "url": "/api/2024/classes/bard"
+  },
+  "subclass": {
+    "index": "college-of-valor",
+    "name": "College of Valor",
+    "url": "/api/2024/subclasses/college-of-valor"
+  },
+  "desc": [
+    "You can use your wit to turn the tide of battle. A creature that has a Bardic Inspiration die from you can use it for one of the following effects.",
+    "Defense. When the creature is hit by an attack roll, that creature can use its Reaction to roll the Bardic Inspiration die and add the number rolled to its AC against that attack, potentially causing the attack to miss.",
+    "Offense. Immediately after the creature hits a target with an attack roll, the creature can roll the Bardic Inspiration die and add the number rolled to the attack's damage against the target."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/college-of-valor-3-combat-inspiration"
+}

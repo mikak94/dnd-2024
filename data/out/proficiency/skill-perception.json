@@ -1,0 +1,11 @@
+{
+  "index": "skill-perception",
+  "name": "Skill: Perception",
+  "type": "Skills",
+  "reference": {
+    "index": "perception",
+    "name": "Perception",
+    "url": "/api/2024/skills/perception"
+  },
+  "url": "/api/2024/proficiencies/skill-perception"
+}

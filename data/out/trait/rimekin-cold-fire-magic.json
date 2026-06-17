@@ -1,0 +1,64 @@
+{
+  "index": "rimekin-cold-fire-magic",
+  "name": "Cold Fire Magic",
+  "species": [
+    {
+      "index": "rimekin",
+      "name": "Rimekin",
+      "url": "/api/2024/species/rimekin"
+    }
+  ],
+  "subspecies": [],
+  "desc": [
+    "You know the Ray of Frost cantrip. When you reach character levels 3 and 5, you learn the Ice Knife spell and the Flame Blade spell, respectively. You always have those spells prepared. You can cast each once without a spell slot, and you regain the ability to cast these spells in this way when you finish a Long Rest. You can also cast the spells using any spell slots you have of the appropriate level. When you cast Flame Blade using this trait, the spell deals Cold damage instead of Fire damage.",
+    "Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells (choose the ability when you select this species)."
+  ],
+  "trait_specific": {
+    "spellcasting": {
+      "ability": [
+        {
+          "index": "int",
+          "name": "INT",
+          "url": "/api/2024/ability-scores/int"
+        },
+        {
+          "index": "wis",
+          "name": "WIS",
+          "url": "/api/2024/ability-scores/wis"
+        },
+        {
+          "index": "cha",
+          "name": "CHA",
+          "url": "/api/2024/ability-scores/cha"
+        }
+      ],
+      "spells": [
+        {
+          "spell": {
+            "index": "ray-of-frost",
+            "name": "Ray of Frost",
+            "url": "/api/2024/spells/ray-of-frost"
+          },
+          "level": 1
+        },
+        {
+          "spell": {
+            "index": "ice-knife",
+            "name": "Ice Knife",
+            "url": "/api/2024/spells/ice-knife"
+          },
+          "level": 3
+        },
+        {
+          "spell": {
+            "index": "flame-blade",
+            "name": "Flame Blade",
+            "url": "/api/2024/spells/flame-blade"
+          },
+          "level": 5
+        }
+      ]
+    }
+  },
+  "url": "/api/2024/traits/rimekin-cold-fire-magic"
+}

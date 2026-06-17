@@ -1,0 +1,53 @@
+{
+  "index": "tiefling",
+  "name": "Tiefling",
+  "size_options": {
+    "choose": 1,
+    "type": "size",
+    "from": {
+      "option_set_type": "options_array",
+      "options": [
+        { "option_type": "size", "size": "Small" },
+        { "option_type": "size", "size": "Medium" }
+      ]
+    }
+  },
+  "size_description": "about 4-7 feet tall (Medium) or about 3-4 feet tall (Small), chosen when you select this species",
+  "speed": 30,
+  "type": "Humanoid",
+  "traits": [
+    {
+      "index": "tiefling-darkvision",
+      "name": "Darkvision",
+      "url": "/api/2024/traits/tiefling-darkvision"
+    },
+    {
+      "index": "tiefling-fiendish-legacy",
+      "name": "Fiendish Legacy",
+      "url": "/api/2024/traits/tiefling-fiendish-legacy"
+    },
+    {
+      "index": "tiefling-otherworldly-presence",
+      "name": "Otherworldly Presence",
+      "url": "/api/2024/traits/tiefling-otherworldly-presence"
+    }
+  ],
+  "subspecies": [
+    {
+      "index": "abyssal",
+      "name": "Abyssal",
+      "url": "/api/2024/subspecies/abyssal"
+    },
+    {
+      "index": "chthonic",
+      "name": "Chthonic",
+      "url": "/api/2024/subspecies/chthonic"
+    },
+    {
+      "index": "infernal",
+      "name": "Infernal",
+      "url": "/api/2024/subspecies/infernal"
+    }
+  ],
+  "url": "/api/2024/species/tiefling"
+}

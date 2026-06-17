@@ -1,0 +1,16 @@
+{
+  "index": "uncanny-metabolism",
+  "name": "Uncanny Metabolism",
+  "level": 2,
+  "class": {
+    "index": "monk",
+    "name": "Monk",
+    "url": "/api/2024/classes/monk"
+  },
+  "desc": [
+    "When you roll Initiative, you can regain all expended Focus Points. When you do so, roll your Martial Arts die, and regain a number of Hit Points equal to your Monk level plus the number rolled.",
+    "Once you use this feature, you can't use it again until you finish a Long Rest."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/uncanny-metabolism"
+}

@@ -1,0 +1,21 @@
+{
+  "index": "gloom-stalker-3-gloom-stalker-spells",
+  "name": "Gloom Stalker Spells",
+  "level": 3,
+  "class": {
+    "index": "ranger",
+    "name": "Ranger",
+    "url": "/api/2024/classes/ranger"
+  },
+  "subclass": {
+    "index": "gloom-stalker",
+    "name": "Gloom Stalker",
+    "url": "/api/2024/subclasses/gloom-stalker"
+  },
+  "desc": [
+    "When you reach a Ranger level specified in the Gloom Stalker spells table, you thereafter always have the listed spells prepared.",
+    "| Ranger Level | Spells |\n| --- | --- |\n| 3 | Disguise Self |\n| 5 | Rope Trick |\n| 9 | Fear |\n| 13 | Greater Invisibility |\n| 17 | Seeming |"
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/gloom-stalker-3-gloom-stalker-spells"
+}

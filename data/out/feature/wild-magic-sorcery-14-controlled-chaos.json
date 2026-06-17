@@ -1,0 +1,20 @@
+{
+  "index": "wild-magic-sorcery-14-controlled-chaos",
+  "name": "Controlled Chaos",
+  "level": 14,
+  "class": {
+    "index": "sorcerer",
+    "name": "Sorcerer",
+    "url": "/api/2024/classes/sorcerer"
+  },
+  "subclass": {
+    "index": "wild-magic-sorcery",
+    "name": "Wild Magic Sorcery",
+    "url": "/api/2024/subclasses/wild-magic-sorcery"
+  },
+  "desc": [
+    "You gain a modicum of control over the surges of your wild magic. Whenever you roll on the Wild Magic Surge table, you can roll twice and use either number."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/wild-magic-sorcery-14-controlled-chaos"
+}

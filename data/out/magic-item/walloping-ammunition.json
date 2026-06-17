@@ -1,0 +1,17 @@
+{
+  "index": "walloping-ammunition",
+  "name": "Walloping Ammunition",
+  "equipment_category": {
+    "index": "weapons",
+    "name": "Weapons",
+    "url": "/api/2024/equipment-categories/weapons"
+  },
+  "rarity": {
+    "name": "Common"
+  },
+  "attunement": false,
+  "desc": "A creature hit by this ammunition must succeed on a DC 10 Strength saving throw or have the Prone condition.",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/walloping-ammunition"
+}

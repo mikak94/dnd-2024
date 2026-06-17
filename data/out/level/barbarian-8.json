@@ -1,0 +1,24 @@
+{
+  "index": "barbarian-8",
+  "level": 8,
+  "ability_score_bonuses": 2,
+  "prof_bonus": 3,
+  "features": [
+    {
+      "index": "ability-score-improvement-barbarian-8",
+      "name": "Ability Score Improvement",
+      "url": "/api/2024/features/ability-score-improvement-barbarian-8"
+    }
+  ],
+  "class": {
+    "index": "barbarian",
+    "name": "Barbarian",
+    "url": "/api/2024/classes/barbarian"
+  },
+  "class_specific": {
+    "rage_count": 4,
+    "rage_damage_bonus": 2,
+    "brutal_critical_dice": 0
+  },
+  "url": "/api/2024/classes/barbarian/levels/8"
+}

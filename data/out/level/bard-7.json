@@ -1,0 +1,27 @@
+{
+  "index": "bard-7",
+  "level": 7,
+  "ability_score_bonuses": 1,
+  "prof_bonus": 3,
+  "features": [
+    {
+      "index": "countercharm",
+      "name": "Countercharm",
+      "url": "/api/2024/features/countercharm"
+    }
+  ],
+  "class": {
+    "index": "bard",
+    "name": "Bard",
+    "url": "/api/2024/classes/bard"
+  },
+  "spellcasting": {
+    "cantrips_known": 3,
+    "spells_known": 11,
+    "spell_slots_level_1": 4,
+    "spell_slots_level_2": 3,
+    "spell_slots_level_3": 3,
+    "spell_slots_level_4": 1
+  },
+  "url": "/api/2024/classes/bard/levels/7"
+}

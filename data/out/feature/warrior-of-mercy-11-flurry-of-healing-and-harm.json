@@ -1,0 +1,22 @@
+{
+  "index": "warrior-of-mercy-11-flurry-of-healing-and-harm",
+  "name": "Flurry of Healing and Harm",
+  "level": 11,
+  "class": {
+    "index": "monk",
+    "name": "Monk",
+    "url": "/api/2024/classes/monk"
+  },
+  "subclass": {
+    "index": "warrior-of-mercy",
+    "name": "Warrior of Mercy",
+    "url": "/api/2024/subclasses/warrior-of-mercy"
+  },
+  "desc": [
+    "When you use Flurry of Blows, you can replace each of the Unarmed Strikes with a use of Hand of Healing without expending Focus Points for the healing.",
+    "In addition, when you make an Unarmed Strike with Flurry of Blows and deal damage, you can use Hand of Harm with that strike without expending a Focus Point for Hand of Harm. You can still use Hand of Harm only once per turn.",
+    "You can use these benefits a total number of times equal to your Wisdom modifier (minimum of once). You regain all expended uses when you finish a Long Rest."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/warrior-of-mercy-11-flurry-of-healing-and-harm"
+}

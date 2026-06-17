@@ -1,0 +1,71 @@
+{
+  "index": "wood-elf-elven-lineage",
+  "name": "Elven Lineage",
+  "species": [],
+  "subspecies": [
+    {
+      "index": "wood-elf",
+      "name": "Wood Elf",
+      "url": "/api/2024/subspecies/wood-elf"
+    }
+  ],
+  "desc": [
+    "Level 1: Your Speed increases to 35 feet. You also know the Druidcraft cantrip.",
+    "Level 3: You always have the Longstrider spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level.",
+    "Level 5: You always have the Pass without Trace spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level.",
+    "Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells (choose the ability when you select this lineage)."
+  ],
+  "parent": {
+    "index": "elf-elven-lineage",
+    "name": "Elven Lineage",
+    "url": "/api/2024/traits/elf-elven-lineage"
+  },
+  "trait_specific": {
+    "spellcasting": {
+      "ability": [
+        {
+          "index": "int",
+          "name": "INT",
+          "url": "/api/2024/ability-scores/int"
+        },
+        {
+          "index": "wis",
+          "name": "WIS",
+          "url": "/api/2024/ability-scores/wis"
+        },
+        {
+          "index": "cha",
+          "name": "CHA",
+          "url": "/api/2024/ability-scores/cha"
+        }
+      ],
+      "spells": [
+        {
+          "spell": {
+            "index": "druidcraft",
+            "name": "Druidcraft",
+            "url": "/api/2024/spells/druidcraft"
+          },
+          "level": 1
+        },
+        {
+          "spell": {
+            "index": "longstrider",
+            "name": "Longstrider",
+            "url": "/api/2024/spells/longstrider"
+          },
+          "level": 3
+        },
+        {
+          "spell": {
+            "index": "pass-without-trace",
+            "name": "Pass without Trace",
+            "url": "/api/2024/spells/pass-without-trace"
+          },
+          "level": 5
+        }
+      ]
+    }
+  },
+  "url": "/api/2024/traits/wood-elf-elven-lineage"
+}

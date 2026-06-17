@@ -1,0 +1,20 @@
+{
+  "index": "champion-10-heroic-warrior",
+  "name": "Heroic Warrior",
+  "level": 10,
+  "class": {
+    "index": "fighter",
+    "name": "Fighter",
+    "url": "/api/2024/classes/fighter"
+  },
+  "subclass": {
+    "index": "champion",
+    "name": "Champion",
+    "url": "/api/2024/subclasses/champion"
+  },
+  "desc": [
+    "The thrill of battle drives you toward victory. During combat, you can give yourself Heroic Inspiration whenever you start your turn without it."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/champion-10-heroic-warrior"
+}

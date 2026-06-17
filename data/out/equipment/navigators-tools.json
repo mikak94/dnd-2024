@@ -1,0 +1,24 @@
+{
+  "index": "navigators-tools",
+  "name": "Navigator's Tools",
+  "equipment_categories": [
+    {
+      "index": "other-tools",
+      "name": "Other Tools",
+      "url": "/api/2024/equipment-categories/other-tools"
+    },
+    {
+      "index": "tools",
+      "name": "Tools",
+      "url": "/api/2024/equipment-categories/tools"
+    }
+  ],
+  "url": "/api/2024/equipment/navigators-tools",
+  "cost": { "quantity": 25, "unit": "gp" },
+  "weight": 2,
+  "ability": {
+    "index": "wis",
+    "name": "WIS",
+    "url": "/api/2024/ability-scores/wis"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "index": "paladin-5",
+  "level": 5,
+  "ability_score_bonuses": 1,
+  "prof_bonus": 3,
+  "features": [
+    {
+      "index": "extra-attack-paladin",
+      "name": "Extra Attack",
+      "url": "/api/2024/features/extra-attack-paladin"
+    },
+    {
+      "index": "faithful-steed",
+      "name": "Faithful Steed",
+      "url": "/api/2024/features/faithful-steed"
+    }
+  ],
+  "class": {
+    "index": "paladin",
+    "name": "Paladin",
+    "url": "/api/2024/classes/paladin"
+  },
+  "spellcasting": {
+    "spells_known": 6,
+    "spell_slots_level_1": 4,
+    "spell_slots_level_2": 2
+  },
+  "url": "/api/2024/classes/paladin/levels/5"
+}

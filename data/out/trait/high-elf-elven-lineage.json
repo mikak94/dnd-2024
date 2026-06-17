@@ -1,0 +1,74 @@
+{
+  "index": "high-elf-elven-lineage",
+  "name": "Elven Lineage",
+  "species": [],
+  "subspecies": [
+    {
+      "index": "high-elf",
+      "name": "High Elf",
+      "url": "/api/2024/subspecies/high-elf"
+    }
+  ],
+  "desc": [
+    "Level 1: You know the Prestidigitation cantrip. Whenever you finish a Long Rest, you can replace that cantrip with a different cantrip from the Wizard spell list.",
+    "Level 3: You always have the Detect Magic spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level.",
+    "Level 5: You always have the Misty Step spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level.",
+    "Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells (choose the ability when you select this lineage)."
+  ],
+  "parent": {
+    "index": "elf-elven-lineage",
+    "name": "Elven Lineage",
+    "url": "/api/2024/traits/elf-elven-lineage"
+  },
+  "trait_specific": {
+    "spellcasting": {
+      "ability": [
+        {
+          "index": "int",
+          "name": "INT",
+          "url": "/api/2024/ability-scores/int"
+        },
+        {
+          "index": "wis",
+          "name": "WIS",
+          "url": "/api/2024/ability-scores/wis"
+        },
+        {
+          "index": "cha",
+          "name": "CHA",
+          "url": "/api/2024/ability-scores/cha"
+        }
+      ],
+      "spells": [
+        {
+          "spell": {
+            "index": "prestidigitation",
+            "name": "Prestidigitation",
+            "url": "/api/2024/spells/prestidigitation"
+          },
+          "level": 1,
+          "swappable_from": [
+            "wizard"
+          ]
+        },
+        {
+          "spell": {
+            "index": "detect-magic",
+            "name": "Detect Magic",
+            "url": "/api/2024/spells/detect-magic"
+          },
+          "level": 3
+        },
+        {
+          "spell": {
+            "index": "misty-step",
+            "name": "Misty Step",
+            "url": "/api/2024/spells/misty-step"
+          },
+          "level": 5
+        }
+      ]
+    }
+  },
+  "url": "/api/2024/traits/high-elf-elven-lineage"
+}

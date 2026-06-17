@@ -1,0 +1,15 @@
+{
+  "index": "ring-of-water-walking",
+  "name": "Ring of Water Walking",
+  "equipment_category": {
+    "index": "rings",
+    "name": "Rings",
+    "url": "/api/2024/equipment-categories/rings"
+  },
+  "rarity": { "name": "Uncommon" },
+  "attunement": false,
+  "desc": "While wearing this ring, you cast Water Walk from it, targeting only yourself.",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/ring-of-water-walking"
+}

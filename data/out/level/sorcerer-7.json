@@ -1,0 +1,31 @@
+{
+  "index": "sorcerer-7",
+  "level": 7,
+  "ability_score_bonuses": 1,
+  "prof_bonus": 3,
+  "features": [
+    {
+      "index": "sorcery-incarnate",
+      "name": "Sorcery Incarnate",
+      "url": "/api/2024/features/sorcery-incarnate"
+    }
+  ],
+  "class": {
+    "index": "sorcerer",
+    "name": "Sorcerer",
+    "url": "/api/2024/classes/sorcerer"
+  },
+  "class_specific": {
+    "sorcery_points": 7,
+    "metamagic_known": 2
+  },
+  "spellcasting": {
+    "cantrips_known": 5,
+    "spells_known": 11,
+    "spell_slots_level_1": 4,
+    "spell_slots_level_2": 3,
+    "spell_slots_level_3": 3,
+    "spell_slots_level_4": 1
+  },
+  "url": "/api/2024/classes/sorcerer/levels/7"
+}

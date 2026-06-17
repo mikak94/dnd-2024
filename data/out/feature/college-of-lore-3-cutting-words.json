@@ -1,0 +1,20 @@
+{
+  "index": "college-of-lore-3-cutting-words",
+  "name": "Cutting Words",
+  "level": 3,
+  "class": {
+    "index": "bard",
+    "name": "Bard",
+    "url": "/api/2024/classes/bard"
+  },
+  "subclass": {
+    "index": "college-of-lore",
+    "name": "College of Lore",
+    "url": "/api/2024/subclasses/college-of-lore"
+  },
+  "desc": [
+    "You learn to use your wit to supernaturally distract, confuse, and otherwise sap the confidence and competence of others. When a creature that you can see within 60 feet of yourself makes a damage roll or succeeds on an ability check or attack roll, you can take a Reaction to expend one use of your Bardic Inspiration; roll your Bardic Inspiration die, and subtract the number rolled from the creature's roll, reducing the damage or potentially turning the success into a failure."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/college-of-lore-3-cutting-words"
+}

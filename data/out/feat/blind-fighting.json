@@ -1,0 +1,8 @@
+{
+  "index": "blind-fighting",
+  "name": "Blind Fighting",
+  "type": "fighting-style",
+  "prerequisites": [{ "type": "other", "desc": "Fighting Style Feature" }],
+  "desc": ["You have Blindsight with a range of 10 feet."],
+  "url": "/api/2024/feats/blind-fighting"
+}

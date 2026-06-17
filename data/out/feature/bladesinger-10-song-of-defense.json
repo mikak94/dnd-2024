@@ -1,0 +1,20 @@
+{
+  "index": "bladesinger-10-song-of-defense",
+  "name": "Song of Defense",
+  "level": 10,
+  "class": {
+    "index": "wizard",
+    "name": "Wizard",
+    "url": "/api/2024/classes/wizard"
+  },
+  "subclass": {
+    "index": "bladesinger",
+    "name": "Bladesinger",
+    "url": "/api/2024/subclasses/bladesinger"
+  },
+  "desc": [
+    "When you take damage while your Bladesong is active, you can take a Reaction to expend one spell slot and reduce the damage taken by an amount equal to five times the spell slot's level."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/bladesinger-10-song-of-defense"
+}

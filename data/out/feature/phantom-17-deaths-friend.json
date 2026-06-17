@@ -1,0 +1,22 @@
+{
+  "index": "phantom-17-deaths-friend",
+  "name": "Death's Friend",
+  "level": 17,
+  "class": {
+    "index": "rogue",
+    "name": "Rogue",
+    "url": "/api/2024/classes/rogue"
+  },
+  "subclass": {
+    "index": "phantom",
+    "name": "Phantom",
+    "url": "/api/2024/subclasses/phantom"
+  },
+  "desc": [
+    "Your association with death has become so close that you gain the following benefits.",
+    "**Death's Lament.** When you use Wails from the Grave, you can deal the feature's Necrotic damage to both the first and the second creature.",
+    "**Draw of Death.** When you roll Initiative, you gain one soul trinket for your Tokens of the Departed if you have none remaining."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/phantom-17-deaths-friend"
+}

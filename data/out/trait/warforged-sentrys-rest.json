@@ -1,0 +1,16 @@
+{
+  "index": "warforged-sentrys-rest",
+  "name": "Sentry's Rest",
+  "species": [
+    {
+      "index": "warforged",
+      "name": "Warforged",
+      "url": "/api/2024/species/warforged"
+    }
+  ],
+  "subspecies": [],
+  "desc": [
+    "You don't need to sleep, and magic can't put you to sleep. You can finish a Long Rest in 6 hours if you spend those hours in an inactive, motionless state. During this time, you appear inert but remain conscious."
+  ],
+  "url": "/api/2024/traits/warforged-sentrys-rest"
+}

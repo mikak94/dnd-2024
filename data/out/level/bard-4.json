@@ -1,0 +1,25 @@
+{
+  "index": "bard-4",
+  "level": 4,
+  "ability_score_bonuses": 1,
+  "prof_bonus": 2,
+  "features": [
+    {
+      "index": "ability-score-improvement-bard",
+      "name": "Ability Score Improvement",
+      "url": "/api/2024/features/ability-score-improvement-bard"
+    }
+  ],
+  "class": {
+    "index": "bard",
+    "name": "Bard",
+    "url": "/api/2024/classes/bard"
+  },
+  "spellcasting": {
+    "cantrips_known": 3,
+    "spells_known": 7,
+    "spell_slots_level_1": 4,
+    "spell_slots_level_2": 3
+  },
+  "url": "/api/2024/classes/bard/levels/4"
+}

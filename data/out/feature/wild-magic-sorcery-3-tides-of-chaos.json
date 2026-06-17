@@ -1,0 +1,21 @@
+{
+  "index": "wild-magic-sorcery-3-tides-of-chaos",
+  "name": "Tides of Chaos",
+  "level": 3,
+  "class": {
+    "index": "sorcerer",
+    "name": "Sorcerer",
+    "url": "/api/2024/classes/sorcerer"
+  },
+  "subclass": {
+    "index": "wild-magic-sorcery",
+    "name": "Wild Magic Sorcery",
+    "url": "/api/2024/subclasses/wild-magic-sorcery"
+  },
+  "desc": [
+    "You can manipulate chaos itself to give yourself Advantage on one D20 Test before you roll the d20. Once you do so, you must cast a Sorcerer spell with a spell slot or finish a Long Rest before you can use this feature again.",
+    "If you do cast a Sorcerer spell with a spell slot before you finish a Long Rest, you automatically roll on the Wild Magic Surge table."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/wild-magic-sorcery-3-tides-of-chaos"
+}

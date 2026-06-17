@@ -1,0 +1,12 @@
+{
+  "index": "orc-relentless-endurance",
+  "name": "Relentless Endurance",
+  "species": [
+    { "index": "orc", "name": "Orc", "url": "/api/2024/species/orc" }
+  ],
+  "subspecies": [],
+  "desc": [
+    "When you are reduced to 0 Hit Points but not killed outright, you can drop to 1 Hit Point instead. Once you use this trait, you can't do so again until you finish a Long Rest."
+  ],
+  "url": "/api/2024/traits/orc-relentless-endurance"
+}

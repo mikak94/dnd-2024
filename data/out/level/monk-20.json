@@ -1,0 +1,27 @@
+{
+  "index": "monk-20",
+  "level": 20,
+  "ability_score_bonuses": 5,
+  "prof_bonus": 6,
+  "features": [
+    {
+      "index": "body-and-mind",
+      "name": "Body and Mind",
+      "url": "/api/2024/features/body-and-mind"
+    }
+  ],
+  "class": {
+    "index": "monk",
+    "name": "Monk",
+    "url": "/api/2024/classes/monk"
+  },
+  "url": "/api/2024/classes/monk/levels/20",
+  "class_specific": {
+    "ki_points": 20,
+    "unarmored_movement": 30,
+    "martial_arts": {
+      "dice_count": 1,
+      "dice_value": 12
+    }
+  }
+}

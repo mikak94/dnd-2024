@@ -1,0 +1,15 @@
+{
+  "index": "elixir-of-health",
+  "name": "Elixir of Health",
+  "equipment_category": {
+    "index": "potions",
+    "name": "Potions",
+    "url": "/api/2024/equipment-categories/potions"
+  },
+  "rarity": { "name": "Rare" },
+  "attunement": false,
+  "desc": "When you drink this potion, you are cured of all magical contagions. In addition, the following conditions end on you: Blinded, Deafened, Paralyzed, and Poisoned.\n\nThe clear, red liquid has tiny bubbles of light in it.",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/elixir-of-health"
+}

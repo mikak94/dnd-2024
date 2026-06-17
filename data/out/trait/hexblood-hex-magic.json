@@ -1,0 +1,55 @@
+{
+  "index": "hexblood-hex-magic",
+  "name": "Hex Magic",
+  "species": [
+    {
+      "index": "hexblood",
+      "name": "Hexblood",
+      "url": "/api/2024/species/hexblood"
+    }
+  ],
+  "subspecies": [],
+  "desc": [
+    "You always have the Disguise Self and Hex spells prepared. You can cast each spell once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select this species)."
+  ],
+  "trait_specific": {
+    "spellcasting": {
+      "ability": [
+        {
+          "index": "int",
+          "name": "INT",
+          "url": "/api/2024/ability-scores/int"
+        },
+        {
+          "index": "wis",
+          "name": "WIS",
+          "url": "/api/2024/ability-scores/wis"
+        },
+        {
+          "index": "cha",
+          "name": "CHA",
+          "url": "/api/2024/ability-scores/cha"
+        }
+      ],
+      "spells": [
+        {
+          "spell": {
+            "index": "disguise-self",
+            "name": "Disguise Self",
+            "url": "/api/2024/spells/disguise-self"
+          },
+          "level": 1
+        },
+        {
+          "spell": {
+            "index": "hex",
+            "name": "Hex",
+            "url": "/api/2024/spells/hex"
+          },
+          "level": 1
+        }
+      ]
+    }
+  },
+  "url": "/api/2024/traits/hexblood-hex-magic"
+}

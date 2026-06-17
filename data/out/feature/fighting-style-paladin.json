@@ -1,0 +1,107 @@
+{
+  "index": "fighting-style-paladin",
+  "name": "Fighting Style",
+  "level": 2,
+  "class": {
+    "index": "paladin",
+    "name": "Paladin",
+    "url": "/api/2024/classes/paladin"
+  },
+  "desc": [
+    "You gain a Fighting Style feat of your choice (see chapter 5). Instead of choosing one of those feats, you can choose the option below.",
+    "Blessed Warrior. You learn two Cleric cantrips of your choice (See the Cleric class's section for a list of Cleric spells). Guidance and Sacred Flame are recommended. The chosen cantrips count as Paladin spells for you, and Charisma is your spellcasting ability for them. Whenever you gain a Paladin level, you can replace one of these cantrips with another Cleric cantrip."
+  ],
+  "prerequisites": [],
+  "feature_specific": {
+    "subfeature_options": {
+      "choose": 1,
+      "type": "feat",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "archery",
+              "name": "Archery",
+              "url": "/api/2024/feats/archery"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "blind-fighting",
+              "name": "Blind Fighting",
+              "url": "/api/2024/feats/blind-fighting"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "defense",
+              "name": "Defense",
+              "url": "/api/2024/feats/defense"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "dueling",
+              "name": "Dueling",
+              "url": "/api/2024/feats/dueling"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "great-weapon-fighting",
+              "name": "Great Weapon Fighting",
+              "url": "/api/2024/feats/great-weapon-fighting"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "interception",
+              "name": "Interception",
+              "url": "/api/2024/feats/interception"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "protection",
+              "name": "Protection",
+              "url": "/api/2024/feats/protection"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "thrown-weapon-fighting",
+              "name": "Thrown Weapon Fighting",
+              "url": "/api/2024/feats/thrown-weapon-fighting"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "two-weapon-fighting",
+              "name": "Two Weapon Fighting",
+              "url": "/api/2024/feats/two-weapon-fighting"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "unarmed-fighting",
+              "name": "Unarmed Fighting",
+              "url": "/api/2024/feats/unarmed-fighting"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "url": "/api/2024/features/fighting-style-paladin"
+}

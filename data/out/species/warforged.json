@@ -1,0 +1,47 @@
+{
+  "index": "warforged",
+  "name": "Warforged",
+  "size_options": {
+    "choose": 1,
+    "type": "size",
+    "from": {
+      "option_set_type": "options_array",
+      "options": [
+        { "option_type": "size", "size": "Small" },
+        { "option_type": "size", "size": "Medium" }
+      ]
+    }
+  },
+  "size_description": "about 6–8 feet tall (Medium) or about 3–4 feet tall (Small), chosen when you select this species",
+  "speed": 30,
+  "type": "Construct",
+  "traits": [
+    {
+      "index": "warforged-construct-resilience",
+      "name": "Construct Resilience",
+      "url": "/api/2024/traits/warforged-construct-resilience"
+    },
+    {
+      "index": "warforged-integrated-protection",
+      "name": "Integrated Protection",
+      "url": "/api/2024/traits/warforged-integrated-protection"
+    },
+    {
+      "index": "warforged-sentrys-rest",
+      "name": "Sentry's Rest",
+      "url": "/api/2024/traits/warforged-sentrys-rest"
+    },
+    {
+      "index": "warforged-specialized-design",
+      "name": "Specialized Design",
+      "url": "/api/2024/traits/warforged-specialized-design"
+    },
+    {
+      "index": "warforged-tireless",
+      "name": "Tireless",
+      "url": "/api/2024/traits/warforged-tireless"
+    }
+  ],
+  "subspecies": [],
+  "url": "/api/2024/species/warforged"
+}

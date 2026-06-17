@@ -1,0 +1,53 @@
+{
+  "index": "heavily-armored",
+  "name": "Heavily Armored",
+  "type": "general",
+  "prerequisites": [
+    {
+      "type": "level",
+      "level": 4
+    },
+    {
+      "type": "proficiency",
+      "proficiency": {
+        "index": "medium-armor",
+        "name": "Medium Armor Training",
+        "url": "/api/2024/proficiencies/medium-armor"
+      }
+    }
+  ],
+  "desc": [
+    "You gain the following benefits.",
+    "Ability Score Increase. Increase your Constitution or Strength score by 1, to a maximum of 20.",
+    "Armor Training. You gain training with Heavy armor."
+  ],
+  "choices": [
+    {
+      "desc": "Increase your Constitution or Strength score by 1, to a maximum of 20.",
+      "choose": 1,
+      "type": "abilities",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "str",
+              "name": "STR",
+              "url": "/api/2024/ability-scores/str"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "con",
+              "name": "CON",
+              "url": "/api/2024/ability-scores/con"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "url": "/api/2024/feats/heavily-armored"
+}

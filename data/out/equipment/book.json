@@ -1,0 +1,15 @@
+{
+  "index": "book",
+  "name": "Book",
+  "equipment_categories": [
+    {
+      "index": "adventuring-gear",
+      "name": "Adventuring Gear",
+      "url": "/api/2024/equipment-categories/adventuring-gear"
+    }
+  ],
+  "cost": { "quantity": 25, "unit": "gp" },
+  "weight": 5,
+  "description": "A Book contains fiction or nonfiction. If you consult an accurate nonfiction Book about its topic, you gain a +5 bonus to Intelligence (Arcana, History, Nature, or Religion) checks you make about that topic.",
+  "url": "/api/2024/equipment/book"
+}

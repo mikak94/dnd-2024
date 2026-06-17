@@ -1,0 +1,15 @@
+{
+  "index": "needles",
+  "name": "Needles",
+  "equipment_categories": [
+    {
+      "index": "ammunition",
+      "name": "Ammunition",
+      "url": "/api/2024/equipment-categories/ammunition"
+    }
+  ],
+  "cost": { "quantity": 1, "unit": "gp" },
+  "weight": 1,
+  "description": "50 Needles; stored in a Pouch.",
+  "url": "/api/2024/equipment/needles"
+}

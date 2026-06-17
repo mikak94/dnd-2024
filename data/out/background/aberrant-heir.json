@@ -1,0 +1,110 @@
+{
+  "index": "aberrant-heir",
+  "name": "Aberrant Heir",
+  "starting_proficiencies": [
+    {
+      "index": "skill-history",
+      "name": "Skill: History",
+      "url": "/api/2024/proficiencies/skill-history"
+    },
+    {
+      "index": "skill-intimidation",
+      "name": "Skill: Intimidation",
+      "url": "/api/2024/proficiencies/skill-intimidation"
+    },
+    {
+      "index": "disguise-kit",
+      "name": "Disguise Kit",
+      "url": "/api/2024/proficiencies/disguise-kit"
+    }
+  ],
+  "ability_scores": [
+    {
+      "index": "str",
+      "name": "STR",
+      "url": "/api/2024/ability-scores/str"
+    },
+    {
+      "index": "con",
+      "name": "CON",
+      "url": "/api/2024/ability-scores/con"
+    },
+    {
+      "index": "cha",
+      "name": "CHA",
+      "url": "/api/2024/ability-scores/cha"
+    }
+  ],
+  "feat": {
+    "index": "aberrant-dragonmark",
+    "name": "Aberrant Dragonmark",
+    "url": "/api/2024/feats/aberrant-dragonmark"
+  },
+  "starting_equipment_options": [
+    {
+      "desc": "Choose A or B: (A) Dagger, Disguise Kit, Costume, Traveler's Clothes, 16 GP; or (B) 50 GP",
+      "choose": 1,
+      "type": "equipment",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "multiple",
+            "items": [
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "dagger",
+                  "name": "Dagger",
+                  "url": "/api/2024/equipment/dagger"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "disguise-kit",
+                  "name": "Disguise Kit",
+                  "url": "/api/2024/equipment/disguise-kit"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "costume",
+                  "name": "Costume",
+                  "url": "/api/2024/equipment/costume"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "travelers-clothes",
+                  "name": "Traveler's Clothes",
+                  "url": "/api/2024/equipment/travelers-clothes"
+                }
+              },
+              {
+                "option_type": "money",
+                "count": 16,
+                "unit": "GP"
+              }
+            ]
+          },
+          {
+            "option_type": "money",
+            "count": 50,
+            "unit": "GP"
+          }
+        ]
+      }
+    }
+  ],
+  "desc": [
+    "Your aberrant dragonmark has made life challenging since it manifested. You might have hidden it successfully for most of your life or managed to avoid notice. Alternatively, you might have encountered suspicion and fear, perhaps coupled with the outright antagonism of one or more dragonmarked houses. You might have formed an association with the House Tarkanan criminal organization (named for one of the most notorious leaders of the aberrant dragonmarked in the War of the Mark twenty-five centuries ago). Or you might struggle to find your own way in the world, relying on your wits and the power of your mark."
+  ],
+  "url": "/api/2024/backgrounds/aberrant-heir"
+}

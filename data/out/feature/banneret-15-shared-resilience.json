@@ -1,0 +1,20 @@
+{
+  "index": "banneret-15-shared-resilience",
+  "name": "Shared Resilience",
+  "level": 15,
+  "class": {
+    "index": "fighter",
+    "name": "Fighter",
+    "url": "/api/2024/classes/fighter"
+  },
+  "subclass": {
+    "index": "banneret",
+    "name": "Banneret",
+    "url": "/api/2024/subclasses/banneret"
+  },
+  "desc": [
+    "When an ally you can see within 60 feet of yourself fails a saving throw, you can take a Reaction to expend a use of your Indomitable feature. The ally can immediately reroll the saving throw with a bonus equal to your Fighter level; the ally must use the new roll."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/banneret-15-shared-resilience"
+}

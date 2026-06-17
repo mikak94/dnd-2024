@@ -1,0 +1,17 @@
+{
+  "index": "boggart-fury-of-the-small",
+  "name": "Fury of the Small",
+  "species": [
+    {
+      "index": "boggart",
+      "name": "Boggart",
+      "url": "/api/2024/species/boggart"
+    }
+  ],
+  "subspecies": [],
+  "desc": [
+    "When you damage a creature with an attack or a spell and the creature's size is larger than yours, you can cause the attack or spell to deal extra damage to the creature. The extra damage equals your proficiency bonus.",
+    "You can use this trait a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest, and you can use it no more than once per turn."
+  ],
+  "url": "/api/2024/traits/boggart-fury-of-the-small"
+}

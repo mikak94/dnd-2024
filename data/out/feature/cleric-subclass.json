@@ -1,0 +1,13 @@
+{
+  "index": "cleric-subclass",
+  "name": "Subclass Feature",
+  "level": 17,
+  "class": {
+    "index": "cleric",
+    "name": "Cleric",
+    "url": "/api/2024/classes/cleric"
+  },
+  "desc": ["You gain a feature granted by your Cleric subclass."],
+  "prerequisites": [],
+  "url": "/api/2024/features/cleric-subclass"
+}

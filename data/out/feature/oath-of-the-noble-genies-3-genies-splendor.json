@@ -1,0 +1,21 @@
+{
+  "index": "oath-of-the-noble-genies-3-genies-splendor",
+  "name": "Genie's Splendor",
+  "level": 3,
+  "class": {
+    "index": "paladin",
+    "name": "Paladin",
+    "url": "/api/2024/classes/paladin"
+  },
+  "subclass": {
+    "index": "oath-of-the-noble-genies",
+    "name": "Oath of the Noble Genies",
+    "url": "/api/2024/subclasses/oath-of-the-noble-genies"
+  },
+  "desc": [
+    "When you aren't wearing any armor, your base Armor Class equals 10 plus your Dexterity and Charisma modifiers. You can use a Shield and still gain this benefit.",
+    "You also gain proficiency in one of the following skills of your choice: Acrobatics, Intimidation, Performance, or Persuasion."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/oath-of-the-noble-genies-3-genies-splendor"
+}

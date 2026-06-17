@@ -1,0 +1,15 @@
+{
+  "index": "extra-attack-paladin",
+  "name": "Extra Attack",
+  "level": 5,
+  "class": {
+    "index": "paladin",
+    "name": "Paladin",
+    "url": "/api/2024/classes/paladin"
+  },
+  "desc": [
+    "You can attack twice instead of once whenever you take the Attack action on your turn."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/extra-attack-paladin"
+}

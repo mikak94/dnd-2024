@@ -1,0 +1,22 @@
+{
+  "index": "gloom-stalker-11-stalkers-flurry",
+  "name": "Stalker's Flurry",
+  "level": 11,
+  "class": {
+    "index": "ranger",
+    "name": "Ranger",
+    "url": "/api/2024/classes/ranger"
+  },
+  "subclass": {
+    "index": "gloom-stalker",
+    "name": "Gloom Stalker",
+    "url": "/api/2024/subclasses/gloom-stalker"
+  },
+  "desc": [
+    "The Psychic damage of your Dreadful Strike becomes 2d8. In addition, when you use the Dreadful Strike effect of your Dread Ambusher feature, you can use one of the following additional effects.",
+    "**Sudden Strike.** You can make another attack with the same weapon against a different creature that is within 5 feet of the original target and that is within the weapon's range.",
+    "**Mass Fear.** The target and each creature within 10 feet of it must make a wisdom saving throw against your spell save DC. On a failed save, a creature has the Frightened condition until the start of your next turn."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/gloom-stalker-11-stalkers-flurry"
+}

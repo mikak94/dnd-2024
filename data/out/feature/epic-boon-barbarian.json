@@ -1,0 +1,15 @@
+{
+  "index": "epic-boon-barbarian",
+  "name": "Epic Boon",
+  "level": 19,
+  "class": {
+    "index": "barbarian",
+    "name": "Barbarian",
+    "url": "/api/2024/classes/barbarian"
+  },
+  "desc": [
+    "You gain an Epic Boon feat or another feat of your choice for which you qualify. Boon of Irresistible Offense is recommended."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/epic-boon-barbarian"
+}

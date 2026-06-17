@@ -1,0 +1,25 @@
+{
+  "index": "rogue-19",
+  "level": 19,
+  "ability_score_bonuses": 5,
+  "prof_bonus": 6,
+  "features": [
+    {
+      "index": "epic-boon",
+      "name": "Epic Boon",
+      "url": "/api/2024/features/epic-boon"
+    }
+  ],
+  "class": {
+    "index": "rogue",
+    "name": "Rogue",
+    "url": "/api/2024/classes/rogue"
+  },
+  "class_specific": {
+    "sneak_attack": {
+      "dice_count": 10,
+      "dice_value": 6
+    }
+  },
+  "url": "/api/2024/classes/rogue/levels/19"
+}

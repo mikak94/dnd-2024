@@ -1,0 +1,15 @@
+{
+  "index": "boots-of-levitation",
+  "name": "Boots of Levitation",
+  "equipment_category": {
+    "index": "wondrous-items",
+    "name": "Wondrous Items",
+    "url": "/api/2024/equipment-categories/wondrous-items"
+  },
+  "rarity": { "name": "Rare" },
+  "attunement": true,
+  "desc": "While you wear these boots, you can cast Levitate on yourself.",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/boots-of-levitation"
+}

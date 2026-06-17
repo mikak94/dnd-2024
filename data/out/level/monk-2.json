@@ -1,0 +1,37 @@
+{
+  "index": "monk-2",
+  "level": 2,
+  "ability_score_bonuses": 0,
+  "prof_bonus": 2,
+  "features": [
+    {
+      "index": "monks-focus",
+      "name": "Monk's Focus",
+      "url": "/api/2024/features/monks-focus"
+    },
+    {
+      "index": "unarmored-movement",
+      "name": "Unarmored Movement",
+      "url": "/api/2024/features/unarmored-movement"
+    },
+    {
+      "index": "uncanny-metabolism",
+      "name": "Uncanny Metabolism",
+      "url": "/api/2024/features/uncanny-metabolism"
+    }
+  ],
+  "class": {
+    "index": "monk",
+    "name": "Monk",
+    "url": "/api/2024/classes/monk"
+  },
+  "url": "/api/2024/classes/monk/levels/2",
+  "class_specific": {
+    "ki_points": 2,
+    "unarmored_movement": 10,
+    "martial_arts": {
+      "dice_count": 1,
+      "dice_value": 6
+    }
+  }
+}

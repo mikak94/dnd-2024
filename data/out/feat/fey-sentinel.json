@@ -1,0 +1,64 @@
+{
+  "index": "fey-sentinel",
+  "name": "Fey Sentinel",
+  "type": "general",
+  "prerequisites": [
+    {
+      "type": "level",
+      "level": 4
+    },
+    {
+      "type": "feat",
+      "feat": {
+        "index": "fey-pact",
+        "name": "Fey Pact",
+        "url": "/api/2024/feats/fey-pact"
+      }
+    }
+  ],
+  "desc": [
+    "You gain the following benefits.",
+    "Ability Score Increase. Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.",
+    "Fading Target. When an enemy misses you with an attack roll, you can take a Reaction to gain the Invisible condition until the start of your next turn or until immediately after you make an attack roll, deal damage, or cast a spell. Once you use this benefit, you can’t do so again until you finish a Long Rest.",
+    "Fey Shift. When you take the Dash action, you can forgo the extra movement to teleport to an unoccupied space you can see within a distance equal to half your Speed instead.",
+    "Nature’s Roots. You always have the Entangle spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast it using any spell slots you have. The spell’s spellcasting ability is the ability increased by this feat.",
+    "When you reach character level 5, you also always have the Plant Growth spell prepared and can cast it the same way."
+  ],
+  "choices": [
+    {
+      "desc": "Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.",
+      "choose": 1,
+      "type": "abilities",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "int",
+              "name": "INT",
+              "url": "/api/2024/ability-scores/int"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "wis",
+              "name": "WIS",
+              "url": "/api/2024/ability-scores/wis"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "cha",
+              "name": "CHA",
+              "url": "/api/2024/ability-scores/cha"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "url": "/api/2024/feats/fey-sentinel"
+}

@@ -1,0 +1,163 @@
+{
+  "index": "eldritch-invocations",
+  "name": "Eldritch Invocations",
+  "level": 1,
+  "class": {
+    "index": "warlock",
+    "name": "Warlock",
+    "url": "/api/2024/classes/warlock"
+  },
+  "desc": [
+    "You have unearthed Eldritch Invocations, pieces of forbidden knowledge that imbue you with an abiding magical ability or other lessons. You gain one invocation of your choice, such as Pact of the Tome. Invocations are described in the \"Eldritch Invocation Options\" section later in this class's description.",
+    "**Prerequisites.** If an invocation has a prerequisite, you must meet it to learn that invocation. For example, if an invocation requires you to be a level 5+ Warlock, you can select the invocation once you reach Warlock level 5.",
+    "**Replacing and Gaining Invocations.** Whenever you gain a Warlock level, you can replace one of your invocations with another one for which you qualify. You can't replace an invocation if it's a prerequisite for another invocation that you have.",
+    "When you gain certain Warlock levels, you gain more invocations of your choice, as shown in the Invocations column of the Warlock Features table.",
+    "You can't pick the same invocation more than once unless its description says otherwise."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/eldritch-invocations",
+  "feature_specific": {
+    "invocations": [
+      {
+        "index": "eldritch-invocation-agonizing-blast",
+        "name": "Eldritch Invocation: Agonizing Blast",
+        "url": "/api/2024/features/eldritch-invocation-agonizing-blast"
+      },
+      {
+        "index": "eldritch-invocation-armor-of-shadows",
+        "name": "Eldritch Invocation: Armor of Shadows",
+        "url": "/api/2024/features/eldritch-invocation-armor-of-shadows"
+      },
+      {
+        "index": "eldritch-invocation-ascendant-step",
+        "name": "Eldritch Invocation: Ascendant Step",
+        "url": "/api/2024/features/eldritch-invocation-ascendant-step"
+      },
+      {
+        "index": "eldritch-invocation-devil-s-sight",
+        "name": "Eldritch Invocation: Devil’s Sight",
+        "url": "/api/2024/features/eldritch-invocation-devil-s-sight"
+      },
+      {
+        "index": "eldritch-invocation-devouring-blade",
+        "name": "Eldritch Invocation: Devouring Blade",
+        "url": "/api/2024/features/eldritch-invocation-devouring-blade"
+      },
+      {
+        "index": "eldritch-invocation-eldritch-mind",
+        "name": "Eldritch Invocation: Eldritch Mind",
+        "url": "/api/2024/features/eldritch-invocation-eldritch-mind"
+      },
+      {
+        "index": "eldritch-invocation-eldritch-smite",
+        "name": "Eldritch Invocation: Eldritch Smite",
+        "url": "/api/2024/features/eldritch-invocation-eldritch-smite"
+      },
+      {
+        "index": "eldritch-invocation-eldritch-spear",
+        "name": "Eldritch Invocation: Eldritch Spear",
+        "url": "/api/2024/features/eldritch-invocation-eldritch-spear"
+      },
+      {
+        "index": "eldritch-invocation-fiendish-vigor",
+        "name": "Eldritch Invocation: Fiendish Vigor",
+        "url": "/api/2024/features/eldritch-invocation-fiendish-vigor"
+      },
+      {
+        "index": "eldritch-invocation-gaze-of-two-minds",
+        "name": "Eldritch Invocation: Gaze of Two Minds",
+        "url": "/api/2024/features/eldritch-invocation-gaze-of-two-minds"
+      },
+      {
+        "index": "eldritch-invocation-gift-of-the-depths",
+        "name": "Eldritch Invocation: Gift of the Depths",
+        "url": "/api/2024/features/eldritch-invocation-gift-of-the-depths"
+      },
+      {
+        "index": "eldritch-invocation-gift-of-the-protectors",
+        "name": "Eldritch Invocation: Gift of the Protectors",
+        "url": "/api/2024/features/eldritch-invocation-gift-of-the-protectors"
+      },
+      {
+        "index": "eldritch-invocation-investment-of-the-chain-master",
+        "name": "Eldritch Invocation: Investment of the Chain Master",
+        "url": "/api/2024/features/eldritch-invocation-investment-of-the-chain-master"
+      },
+      {
+        "index": "eldritch-invocation-lessons-of-the-first-ones",
+        "name": "Eldritch Invocation: Lessons of the First Ones",
+        "url": "/api/2024/features/eldritch-invocation-lessons-of-the-first-ones"
+      },
+      {
+        "index": "eldritch-invocation-lifedrinker",
+        "name": "Eldritch Invocation: Lifedrinker",
+        "url": "/api/2024/features/eldritch-invocation-lifedrinker"
+      },
+      {
+        "index": "eldritch-invocation-mask-of-many-faces",
+        "name": "Eldritch Invocation: Mask of Many Faces",
+        "url": "/api/2024/features/eldritch-invocation-mask-of-many-faces"
+      },
+      {
+        "index": "eldritch-invocation-master-of-myriad-forms",
+        "name": "Eldritch Invocation: Master of Myriad Forms",
+        "url": "/api/2024/features/eldritch-invocation-master-of-myriad-forms"
+      },
+      {
+        "index": "eldritch-invocation-misty-visions",
+        "name": "Eldritch Invocation: Misty Visions",
+        "url": "/api/2024/features/eldritch-invocation-misty-visions"
+      },
+      {
+        "index": "eldritch-invocation-one-with-shadows",
+        "name": "Eldritch Invocation: One with Shadows",
+        "url": "/api/2024/features/eldritch-invocation-one-with-shadows"
+      },
+      {
+        "index": "eldritch-invocation-otherworldly-leap",
+        "name": "Eldritch Invocation: Otherworldly Leap",
+        "url": "/api/2024/features/eldritch-invocation-otherworldly-leap"
+      },
+      {
+        "index": "eldritch-invocation-pact-of-the-blade",
+        "name": "Eldritch Invocation: Pact of the Blade",
+        "url": "/api/2024/features/eldritch-invocation-pact-of-the-blade"
+      },
+      {
+        "index": "eldritch-invocation-pact-of-the-chain",
+        "name": "Eldritch Invocation: Pact of the Chain",
+        "url": "/api/2024/features/eldritch-invocation-pact-of-the-chain"
+      },
+      {
+        "index": "eldritch-invocation-pact-of-the-tome",
+        "name": "Eldritch Invocation: Pact of the Tome",
+        "url": "/api/2024/features/eldritch-invocation-pact-of-the-tome"
+      },
+      {
+        "index": "eldritch-invocation-repelling-blast",
+        "name": "Eldritch Invocation: Repelling Blast",
+        "url": "/api/2024/features/eldritch-invocation-repelling-blast"
+      },
+      {
+        "index": "eldritch-invocation-thirsting-blade",
+        "name": "Eldritch Invocation: Thirsting Blade",
+        "url": "/api/2024/features/eldritch-invocation-thirsting-blade"
+      },
+      {
+        "index": "eldritch-invocation-visions-of-distant-realms",
+        "name": "Eldritch Invocation: Visions of Distant Realms",
+        "url": "/api/2024/features/eldritch-invocation-visions-of-distant-realms"
+      },
+      {
+        "index": "eldritch-invocation-whispers-of-the-grave",
+        "name": "Eldritch Invocation: Whispers of the Grave",
+        "url": "/api/2024/features/eldritch-invocation-whispers-of-the-grave"
+      },
+      {
+        "index": "eldritch-invocation-witch-sight",
+        "name": "Eldritch Invocation: Witch Sight",
+        "url": "/api/2024/features/eldritch-invocation-witch-sight"
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "index": "ring-of-three-wishes",
+  "name": "Ring of Three Wishes",
+  "equipment_category": {
+    "index": "rings",
+    "name": "Rings",
+    "url": "/api/2024/equipment-categories/rings"
+  },
+  "rarity": { "name": "Legendary" },
+  "attunement": false,
+  "desc": "While wearing this ring, you can expend 1 of its 3 charges to cast Wish from it. The ring becomes nonmagical when you use the last charge.",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/ring-of-three-wishes"
+}

@@ -1,0 +1,58 @@
+{
+  "index": "shadow-touched",
+  "name": "Shadow Touched",
+  "type": "general",
+  "prerequisites": [{ "type": "level", "level": 4 }],
+  "desc": [
+    "Your exposure to the Shadowfell's magic grants you the following benefits.",
+    "Ability Score Increase. Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.",
+    "Shadow Magic. Choose one level 1 spell from the Illusion or Necromancy school of magic. You always have that spell and the Invisibility spell prepared. You can cast each of these spells without expending a spell slot. Once you cast either spell in this way, you can't cast that spell in this way again until you finish a Long Rest. You can also cast these spells using spell slots you have of the appropriate level. The spells' spellcasting ability is the ability increased by this feat."
+  ],
+  "choices": [
+    {
+      "desc": "Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20. This is also the spellcasting ability for this feat's spells.",
+      "choose": 1,
+      "type": "abilities",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "int",
+              "name": "INT",
+              "url": "/api/2024/ability-scores/int"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "wis",
+              "name": "WIS",
+              "url": "/api/2024/ability-scores/wis"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "cha",
+              "name": "CHA",
+              "url": "/api/2024/ability-scores/cha"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "desc": "Choose one level 1 spell from the Illusion or Necromancy school of magic (from the spells list). You always have it prepared (the Invisibility spell is also always prepared and is fixed, not chosen).",
+      "choose": 1,
+      "type": "spells",
+      "spell_source": { "level": 1, "schools": ["illusion", "necromancy"] },
+      "from": {
+        "option_set_type": "resource_list",
+        "resource_list_url": "/api/2024/spells"
+      }
+    }
+  ],
+  "url": "/api/2024/feats/shadow-touched"
+}

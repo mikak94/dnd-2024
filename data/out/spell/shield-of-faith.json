@@ -1,0 +1,33 @@
+{
+  "index": "shield-of-faith",
+  "name": "Shield of Faith",
+  "level": 1,
+  "school": {
+    "index": "abjuration",
+    "name": "Abjuration",
+    "url": "/api/2024/magic-schools/abjuration"
+  },
+  "casting_time": "Bonus Action",
+  "range": "60 feet",
+  "components": ["V", "S", "M"],
+  "material": "a prayer scroll",
+  "ritual": false,
+  "concentration": true,
+  "duration": "Concentration, up to 10 minutes",
+  "desc": [
+    "A shimmering field surrounds a creature of your choice within range, granting it a +2 bonus to AC for the duration."
+  ],
+  "classes": [
+    {
+      "index": "cleric",
+      "name": "Cleric",
+      "url": "/api/2024/classes/cleric"
+    },
+    {
+      "index": "paladin",
+      "name": "Paladin",
+      "url": "/api/2024/classes/paladin"
+    }
+  ],
+  "url": "/api/2024/spells/shield-of-faith"
+}

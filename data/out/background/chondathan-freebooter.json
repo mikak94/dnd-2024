@@ -1,0 +1,173 @@
+{
+  "index": "chondathan-freebooter",
+  "name": "Chondathan Freebooter",
+  "starting_proficiencies": [
+    {
+      "index": "skill-athletics",
+      "name": "Skill: Athletics",
+      "url": "/api/2024/proficiencies/skill-athletics"
+    },
+    {
+      "index": "skill-sleight-of-hand",
+      "name": "Skill: Sleight of Hand",
+      "url": "/api/2024/proficiencies/skill-sleight-of-hand"
+    },
+    {
+      "index": "weavers-tools",
+      "name": "Weaver's Tools",
+      "url": "/api/2024/proficiencies/weavers-tools"
+    }
+  ],
+  "ability_scores": [
+    {
+      "index": "str",
+      "name": "STR",
+      "url": "/api/2024/ability-scores/str"
+    },
+    {
+      "index": "dex",
+      "name": "DEX",
+      "url": "/api/2024/ability-scores/dex"
+    },
+    {
+      "index": "wis",
+      "name": "WIS",
+      "url": "/api/2024/ability-scores/wis"
+    }
+  ],
+  "feat": {
+    "index": "skilled",
+    "name": "Skilled",
+    "url": "/api/2024/feats/skilled"
+  },
+  "starting_equipment_options": [
+    {
+      "desc": "Choose A or B: (A) Dagger, Weaver's Tools, Backpack, Ball Bearings, Basket, Bedroll, Bucket, Rations (3 days' worth), Rope, Signal Whistle, Traveler's Clothes, 38 GP; or (B) 50 GP",
+      "choose": 1,
+      "type": "equipment",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "multiple",
+            "items": [
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "dagger",
+                  "name": "Dagger",
+                  "url": "/api/2024/equipment/dagger"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "weavers-tools",
+                  "name": "Weaver's Tools",
+                  "url": "/api/2024/equipment/weavers-tools"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "backpack",
+                  "name": "Backpack",
+                  "url": "/api/2024/equipment/backpack"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "ball-bearings",
+                  "name": "Ball Bearings",
+                  "url": "/api/2024/equipment/ball-bearings"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "basket",
+                  "name": "Basket",
+                  "url": "/api/2024/equipment/basket"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "bedroll",
+                  "name": "Bedroll",
+                  "url": "/api/2024/equipment/bedroll"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "bucket",
+                  "name": "Bucket",
+                  "url": "/api/2024/equipment/bucket"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 3,
+                "of": {
+                  "index": "rations",
+                  "name": "Rations",
+                  "url": "/api/2024/equipment/rations"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "rope",
+                  "name": "Rope",
+                  "url": "/api/2024/equipment/rope"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "signal-whistle",
+                  "name": "Signal Whistle",
+                  "url": "/api/2024/equipment/signal-whistle"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "travelers-clothes",
+                  "name": "Traveler's Clothes",
+                  "url": "/api/2024/equipment/travelers-clothes"
+                }
+              },
+              {
+                "option_type": "money",
+                "count": 38,
+                "unit": "GP"
+              }
+            ]
+          },
+          {
+            "option_type": "money",
+            "count": 50,
+            "unit": "GP"
+          }
+        ]
+      }
+    }
+  ],
+  "desc": [
+    "Though most youths in Chondath accept their four-year term of compulsory military service, you bristled at that authoritarian attempt to control your life. You forsook your nationhood, discarded your given name, and worked as a freebooter with the first ship that would have you. Since then, you've traveled the Vilhon Reach. Though you've never sailed more than a few dozen leagues from land, you make up for it with deep local connections and the breadth of your experiences."
+  ],
+  "url": "/api/2024/backgrounds/chondathan-freebooter"
+}

@@ -1,0 +1,29 @@
+{
+  "index": "sorcerer-3",
+  "level": 3,
+  "ability_score_bonuses": 0,
+  "prof_bonus": 2,
+  "features": [
+    {
+      "index": "sorcerer-subclass",
+      "name": "Sorcerer Subclass",
+      "url": "/api/2024/features/sorcerer-subclass"
+    }
+  ],
+  "class": {
+    "index": "sorcerer",
+    "name": "Sorcerer",
+    "url": "/api/2024/classes/sorcerer"
+  },
+  "class_specific": {
+    "sorcery_points": 3,
+    "metamagic_known": 2
+  },
+  "spellcasting": {
+    "cantrips_known": 4,
+    "spells_known": 6,
+    "spell_slots_level_1": 4,
+    "spell_slots_level_2": 2
+  },
+  "url": "/api/2024/classes/sorcerer/levels/3"
+}

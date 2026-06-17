@@ -1,0 +1,235 @@
+{
+  "index": "warlock",
+  "name": "Warlock",
+  "hit_die": 8,
+  "proficiency_choices": [
+    {
+      "desc": "Choose 2: Arcana, Deception, History, Intimidation, Investigation, Nature, or Religion",
+      "choose": 2,
+      "type": "proficiencies",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-arcana",
+              "name": "Skill: Arcana",
+              "url": "/api/2024/proficiencies/skill-arcana"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-deception",
+              "name": "Skill: Deception",
+              "url": "/api/2024/proficiencies/skill-deception"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-history",
+              "name": "Skill: History",
+              "url": "/api/2024/proficiencies/skill-history"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-intimidation",
+              "name": "Skill: Intimidation",
+              "url": "/api/2024/proficiencies/skill-intimidation"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-investigation",
+              "name": "Skill: Investigation",
+              "url": "/api/2024/proficiencies/skill-investigation"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-nature",
+              "name": "Skill: Nature",
+              "url": "/api/2024/proficiencies/skill-nature"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-religion",
+              "name": "Skill: Religion",
+              "url": "/api/2024/proficiencies/skill-religion"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "proficiencies": [
+    {
+      "index": "light-armor",
+      "name": "Light armor",
+      "url": "/api/2024/proficiencies/light-armor"
+    },
+    {
+      "index": "simple-weapons",
+      "name": "Simple weapons",
+      "url": "/api/2024/proficiencies/simple-weapons"
+    }
+  ],
+  "saving_throws": [
+    {
+      "index": "wis",
+      "name": "WIS",
+      "url": "/api/2024/ability-scores/wis"
+    },
+    {
+      "index": "cha",
+      "name": "CHA",
+      "url": "/api/2024/ability-scores/cha"
+    }
+  ],
+  "starting_equipment": [],
+  "starting_equipment_options": [
+    {
+      "desc": "Choose A or B: (A) Leather Armor, Sickle, 2 Daggers, Arcane Focus (orb), Book (occult lore), Scholar's Pack, and 15 GP; or (B) 100 GP",
+      "choose": 1,
+      "type": "equipment",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "multiple",
+            "items": [
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "leather-armor",
+                  "name": "Leather Armor",
+                  "url": "/api/2024/equipment/leather-armor"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "sickle",
+                  "name": "Sickle",
+                  "url": "/api/2024/equipment/sickle"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 2,
+                "of": {
+                  "index": "dagger",
+                  "name": "Dagger",
+                  "url": "/api/2024/equipment/dagger"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "arcane-focus",
+                  "name": "Arcane Focus (Orb)",
+                  "url": "/api/2024/equipment/arcane-focus"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "book",
+                  "name": "Book (Occult Lore)",
+                  "url": "/api/2024/equipment/book"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "scholars-pack",
+                  "name": "Scholar's Pack",
+                  "url": "/api/2024/equipment/scholars-pack"
+                }
+              },
+              {
+                "option_type": "money",
+                "count": 15,
+                "unit": "GP"
+              }
+            ]
+          },
+          {
+            "option_type": "money",
+            "count": 100,
+            "unit": "GP"
+          }
+        ]
+      }
+    }
+  ],
+  "class_levels": "/api/2024/classes/warlock/levels",
+  "multi_classing": {
+    "prerequisites": [
+      {
+        "ability_score": {
+          "index": "cha",
+          "name": "CHA",
+          "url": "/api/2024/ability-scores/cha"
+        },
+        "minimum_score": 13
+      }
+    ],
+    "proficiencies": [
+      {
+        "index": "light-armor",
+        "name": "Light armor",
+        "url": "/api/2024/proficiencies/light-armor"
+      }
+    ]
+  },
+  "subclasses": [
+    {
+      "index": "archfey-patron",
+      "name": "Archfey Patron",
+      "url": "/api/2024/subclasses/archfey-patron"
+    },
+    {
+      "index": "celestial-patron",
+      "name": "Celestial Patron",
+      "url": "/api/2024/subclasses/celestial-patron"
+    },
+    {
+      "index": "fiend-patron",
+      "name": "Fiend Patron",
+      "url": "/api/2024/subclasses/fiend-patron"
+    },
+    {
+      "index": "great-old-one-patron",
+      "name": "Great Old One Patron",
+      "url": "/api/2024/subclasses/great-old-one-patron"
+    },
+    {
+      "index": "undead-patron",
+      "name": "Undead Patron",
+      "url": "/api/2024/subclasses/undead-patron"
+    }
+  ],
+  "spellcasting": {
+    "level": 1,
+    "spellcasting_ability": {
+      "index": "cha",
+      "name": "CHA",
+      "url": "/api/2024/ability-scores/cha"
+    }
+  },
+  "url": "/api/2024/classes/warlock"
+}

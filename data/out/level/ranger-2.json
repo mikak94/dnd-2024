@@ -1,0 +1,28 @@
+{
+  "index": "ranger-2",
+  "level": 2,
+  "ability_score_bonuses": 0,
+  "prof_bonus": 2,
+  "features": [
+    {
+      "index": "deft-explorer",
+      "name": "Deft Explorer",
+      "url": "/api/2024/features/deft-explorer"
+    },
+    {
+      "index": "fighting-style",
+      "name": "Fighting Style",
+      "url": "/api/2024/features/fighting-style"
+    }
+  ],
+  "class": {
+    "index": "ranger",
+    "name": "Ranger",
+    "url": "/api/2024/classes/ranger"
+  },
+  "spellcasting": {
+    "spells_known": 3,
+    "spell_slots_level_1": 2
+  },
+  "url": "/api/2024/classes/ranger/levels/2"
+}

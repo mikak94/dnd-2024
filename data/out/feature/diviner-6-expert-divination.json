@@ -1,0 +1,20 @@
+{
+  "index": "diviner-6-expert-divination",
+  "name": "Expert Divination",
+  "level": 6,
+  "class": {
+    "index": "wizard",
+    "name": "Wizard",
+    "url": "/api/2024/classes/wizard"
+  },
+  "subclass": {
+    "index": "diviner",
+    "name": "Diviner",
+    "url": "/api/2024/subclasses/diviner"
+  },
+  "desc": [
+    "Casting Divination spells comes so easily to you that it expends only a fraction of your spellcasting efforts. When you cast a Divination spell using a level 2+ spell slot, you regain one expended spell slot. The slot you regain must be of a level lower than the slot you expended and can't be higher than level 5."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/diviner-6-expert-divination"
+}

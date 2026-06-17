@@ -1,0 +1,16 @@
+{
+  "index": "path-of-the-world-tree",
+  "class": {
+    "index": "barbarian",
+    "name": "Barbarian",
+    "url": "/api/2024/classes/barbarian"
+  },
+  "name": "Path of the World Tree",
+  "subclass_flavor": "Primal Path",
+  "desc": [
+    "Trace the Roots and Branches of the Multiverse",
+    "Barbarians who follow the Path of the World Tree connect with the cosmic tree Yggdrasil through their Rage. This tree grows among the Outer Planes, connecting them to each other and the Material Plane. These Barbarians draw on the tree's magic for vitality and as a means of dimensional travel."
+  ],
+  "subclass_levels": "/api/2024/subclasses/path-of-the-world-tree/levels",
+  "url": "/api/2024/subclasses/path-of-the-world-tree"
+}

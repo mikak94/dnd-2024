@@ -1,0 +1,15 @@
+{
+  "index": "reliquary-of-twilight",
+  "name": "Reliquary of Twilight",
+  "equipment_category": {
+    "index": "wondrous-items",
+    "name": "Wondrous Items",
+    "url": "/api/2024/equipment-categories/wondrous-items"
+  },
+  "rarity": { "name": "Uncommon" },
+  "attunement": false,
+  "desc": "This talisman contains a discarded claw, scale, or fang from Isilu, which many believe is the incarnation of the moon in Shadowmoor. While you wear a Reliquary of Twilight, you are immune to the effects of Morningtide.",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/reliquary-of-twilight"
+}

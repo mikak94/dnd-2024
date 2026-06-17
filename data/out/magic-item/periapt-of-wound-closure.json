@@ -1,0 +1,15 @@
+{
+  "index": "periapt-of-wound-closure",
+  "name": "Periapt of Wound Closure",
+  "equipment_category": {
+    "index": "wondrous-items",
+    "name": "Wondrous Items",
+    "url": "/api/2024/equipment-categories/wondrous-items"
+  },
+  "rarity": { "name": "Uncommon" },
+  "attunement": true,
+  "desc": "While wearing this pendant, you gain the following benefits.\n\nLife Preservation. Whenever you make a Death Saving Throw, you can change a roll of 9 or lower to a 10, turning a failed save into a successful one.\n\nNatural Healing Boost. Whenever you roll a Hit Point Die to regain Hit Points, double the number of Hit Points it restores.",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/periapt-of-wound-closure"
+}

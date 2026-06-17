@@ -1,0 +1,17 @@
+{
+  "index": "scion-of-the-three",
+  "class": {
+    "index": "rogue",
+    "name": "Rogue",
+    "url": "/api/2024/classes/rogue"
+  },
+  "name": "Scion of the Three",
+  "subclass_flavor": "Roguish Archetype",
+  "desc": [
+    "Become a Gruesome Agent of Malice",
+    "A Scion of the Three draws power from a group of malevolent gods known in Baldur's Gate as the Dead Three: Bane, a god of tyranny; Bhaal, a god of violence and murder; and Myrkul, a god of death. While some Rogues of this subclass pledge themselves ardently to those three macabre gods, others are thrust on this path by a curse. Either way, a scion's power manifests as various occult gifts, as well as an uncanny talent for striking and terrifying foes.",
+    "Scions of the Three are most common in Baldur's Gate, where the Dead Three lived as mortals before ascending to godhood. Underground cults to Bane, Bhaal, and Myrkul often count Scions of the Three among their most useful agents. Outside Baldur's Gate, secular thieves' guilds such as the Shadow Thieves of Amn or the Xanathar Guild in Waterdeep might call on a Scion of the Three to undertake an especially violent contract."
+  ],
+  "subclass_levels": "/api/2024/subclasses/scion-of-the-three/levels",
+  "url": "/api/2024/subclasses/scion-of-the-three"
+}

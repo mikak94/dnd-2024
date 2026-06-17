@@ -1,0 +1,15 @@
+{
+  "index": "danger-sense",
+  "name": "Danger Sense",
+  "level": 2,
+  "class": {
+    "index": "barbarian",
+    "name": "Barbarian",
+    "url": "/api/2024/classes/barbarian"
+  },
+  "desc": [
+    "You gain an uncanny sense of when things aren't as they should be, giving you an edge when you dodge perils. You have Advantage on Dexterity saving throws unless you have the Incapacitated condition."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/danger-sense"
+}

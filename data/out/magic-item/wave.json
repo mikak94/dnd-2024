@@ -1,0 +1,17 @@
+{
+  "index": "wave",
+  "name": "Wave",
+  "equipment_category": {
+    "index": "weapons",
+    "name": "Weapons",
+    "url": "/api/2024/equipment-categories/weapons"
+  },
+  "rarity": {
+    "name": "Artifact"
+  },
+  "attunement": true,
+  "desc": "Held in the dungeon of White Plume Mountain, Wave is engraved with images of waves, shells, and sea creatures.\n\nYou gain a +3 bonus to attack rolls and damage rolls made with this magic weapon. When you roll a 20 on the d20 for an attack roll with this weapon, the target takes an extra 21 Necrotic damage.\n\nWhile holding Wave, you gain the following benefits:\n\nCombat Ready. You have Advantage on Initiative rolls.\n\nUnderwater Adaptation. A bubble of air forms around your head while you are underwater, allowing you to breathe normally in that environment.\n\nAquatic Command. Wave has 3 charges and regains 1d3 expended charges daily at dawn. While you carry it, you can expend 1 charge to cast Dominate Beast (save DC 20) from it on a Beast that has a Swim Speed.\n\nGlobe of Invulnerability. While holding Wave, you can cast the level 9 version of Globe of Invulnerability from it. Once used, this property can't be used again until the next dawn.\n\nSentience. Wave is a sentient weapon of Neutral alignment, with an Intelligence of 14, a Wisdom of 10, and a Charisma of 18. It has hearing and Darkvision out to 120 feet.\n\nThe weapon communicates telepathically with its wielder and speaks Aquan.\n\nPersonality. Wave zealously encourages mortals to worship sea gods and has a habit of humming sea chanteys. Conflict arises if the wielder fails to further the weapon's objectives in the world.\n\nDestroying Wave. Wave can be destroyed only on the island of Thunderforge, where it was forged. The weapon must be melted down by a storm giant or someone imbued with a storm giant's strength. Destroying Wave angers a god of the sea, who sends powerful agents to attack the island and punish the destroyers.",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/wave"
+}

@@ -1,0 +1,99 @@
+{
+  "index": "spellfire-sorcery",
+  "class": {
+    "index": "sorcerer",
+    "name": "Sorcerer",
+    "url": "/api/2024/classes/sorcerer"
+  },
+  "name": "Spellfire Sorcery",
+  "subclass_flavor": "Sorcerous Origin",
+  "desc": [
+    "Wield Raw Magic",
+    "Your innate power stems from the source of magic itself: the Weave. This connection manifests as a rare ability known as spellfire, and you surge with radiant bursts of this raw magic. Your talent with spellfire allows you to heal allies, sear enemies, and absorb powerful spells.",
+    "Wielders of spellfire tend to have a penchant for wandering. Many travel between cosmopolitan settlements, such as those along the Sword Coast, and wield their magic in service of the common good. Others realize their own strange powers by roaming equally strange lands, from the magic-blasted wastes of the desert of Anauroch to the god-touched wilds of the Old Empires. Wherever they go in the Realms, spellfire Sorcerers are courted by factions with interests in the arcane arts, such as the Harpers, Cult of the Dragon, and Red Wizards."
+  ],
+  "subclass_levels": "/api/2024/subclasses/spellfire-sorcery/levels",
+  "spells": [
+    {
+      "prerequisites": [{ "index": "spellfire-sorcery-3", "type": "level" }],
+      "spell": {
+        "index": "cure-wounds",
+        "name": "Cure Wounds",
+        "url": "/api/2024/spells/cure-wounds"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "spellfire-sorcery-3", "type": "level" }],
+      "spell": {
+        "index": "guiding-bolt",
+        "name": "Guiding Bolt",
+        "url": "/api/2024/spells/guiding-bolt"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "spellfire-sorcery-3", "type": "level" }],
+      "spell": {
+        "index": "lesser-restoration",
+        "name": "Lesser Restoration",
+        "url": "/api/2024/spells/lesser-restoration"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "spellfire-sorcery-3", "type": "level" }],
+      "spell": {
+        "index": "scorching-ray",
+        "name": "Scorching Ray",
+        "url": "/api/2024/spells/scorching-ray"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "spellfire-sorcery-5", "type": "level" }],
+      "spell": {
+        "index": "aura-of-vitality",
+        "name": "Aura of Vitality",
+        "url": "/api/2024/spells/aura-of-vitality"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "spellfire-sorcery-5", "type": "level" }],
+      "spell": {
+        "index": "dispel-magic",
+        "name": "Dispel Magic",
+        "url": "/api/2024/spells/dispel-magic"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "spellfire-sorcery-7", "type": "level" }],
+      "spell": {
+        "index": "fire-shield",
+        "name": "Fire Shield",
+        "url": "/api/2024/spells/fire-shield"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "spellfire-sorcery-7", "type": "level" }],
+      "spell": {
+        "index": "wall-of-fire",
+        "name": "Wall of Fire",
+        "url": "/api/2024/spells/wall-of-fire"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "spellfire-sorcery-9", "type": "level" }],
+      "spell": {
+        "index": "greater-restoration",
+        "name": "Greater Restoration",
+        "url": "/api/2024/spells/greater-restoration"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "spellfire-sorcery-9", "type": "level" }],
+      "spell": {
+        "index": "flame-strike",
+        "name": "Flame Strike",
+        "url": "/api/2024/spells/flame-strike"
+      }
+    }
+  ],
+  "url": "/api/2024/subclasses/spellfire-sorcery"
+}

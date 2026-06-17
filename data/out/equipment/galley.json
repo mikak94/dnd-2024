@@ -1,0 +1,19 @@
+{
+  "index": "galley",
+  "name": "Galley",
+  "equipment_categories": [
+    {
+      "index": "waterborne-vehicles",
+      "name": "Waterborne Vehicles",
+      "url": "/api/2024/equipment-categories/waterborne-vehicles"
+    },
+    {
+      "index": "mounts-and-vehicles",
+      "name": "Mounts and Vehicles",
+      "url": "/api/2024/equipment-categories/mounts-and-vehicles"
+    }
+  ],
+  "url": "/api/2024/equipment/galley",
+  "cost": { "quantity": 30000, "unit": "gp" },
+  "description": "Speed 4 mph. Crew 80. Passengers —. Cargo 150 tons. AC 15. HP 500. Damage Threshold 20."
+}

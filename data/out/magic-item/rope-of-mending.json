@@ -1,0 +1,15 @@
+{
+  "index": "rope-of-mending",
+  "name": "Rope of Mending",
+  "equipment_category": {
+    "index": "wondrous-items",
+    "name": "Wondrous Items",
+    "url": "/api/2024/equipment-categories/wondrous-items"
+  },
+  "rarity": { "name": "Common" },
+  "attunement": false,
+  "desc": "This 50-foot coil of rope can repair itself when cut into any number of smaller pieces. As a Magic action, you can cause all pieces of the rope that are in contact with each other and not otherwise in use to knit back together. A Rope of Mending is forever shortened if a section of it is lost or destroyed.",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/rope-of-mending"
+}

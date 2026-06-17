@@ -1,0 +1,19 @@
+{
+  "index": "keelboat",
+  "name": "Keelboat",
+  "equipment_categories": [
+    {
+      "index": "waterborne-vehicles",
+      "name": "Waterborne Vehicles",
+      "url": "/api/2024/equipment-categories/waterborne-vehicles"
+    },
+    {
+      "index": "mounts-and-vehicles",
+      "name": "Mounts and Vehicles",
+      "url": "/api/2024/equipment-categories/mounts-and-vehicles"
+    }
+  ],
+  "url": "/api/2024/equipment/keelboat",
+  "cost": { "quantity": 3000, "unit": "gp" },
+  "description": "Speed 1 mph. Crew 1. Passengers 6. Cargo 1/2 ton. AC 15. HP 100. Damage Threshold 10."
+}

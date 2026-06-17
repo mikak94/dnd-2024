@@ -1,0 +1,13 @@
+# Cold Caster
+
+Source: Forgotten Realms - Heroes of Faerun
+
+_General Feat (Prerequisite: Level 4+)_
+
+You gain the following benefits.
+
+**Ability Score Increase.** Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.
+
+**Cantrip.** You learn the [Ray of Frost](/spell:ray-of-frost) cantrip. If you already know it, you learn a different Wizard cantrip of your choice. The spell’s spellcasting ability is the ability increased by this feat.
+
+**Frostbite.** Once per turn when you hit a creature with an attack roll and deal Cold damage, you can temporarily negate the creature’s defenses. The creature subtracts 1d4 from the next saving throw it makes before the end of your next turn.

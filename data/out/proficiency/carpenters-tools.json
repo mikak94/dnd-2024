@@ -1,0 +1,11 @@
+{
+  "index": "carpenters-tools",
+  "name": "Carpenter's Tools",
+  "type": "Artisan's Tools",
+  "reference": {
+    "index": "carpenters-tools",
+    "name": "Carpenter's Tools",
+    "url": "/api/2024/equipment/carpenters-tools"
+  },
+  "url": "/api/2024/proficiencies/carpenters-tools"
+}

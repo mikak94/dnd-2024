@@ -1,0 +1,17 @@
+{
+  "index": "amulet-of-proof-against-detection-and-location",
+  "name": "Amulet of Proof against Detection and Location",
+  "equipment_category": {
+    "index": "wondrous-items",
+    "name": "Wondrous Items",
+    "url": "/api/2024/equipment-categories/wondrous-items"
+  },
+  "rarity": {
+    "name": "Uncommon"
+  },
+  "attunement": true,
+  "desc": "While wearing this amulet, you can't be targeted by Divination spells or perceived through magical scrying sensors unless you allow it.",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/amulet-of-proof-against-detection-and-location"
+}

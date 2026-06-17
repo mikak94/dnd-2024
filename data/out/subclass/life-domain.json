@@ -1,0 +1,99 @@
+{
+  "index": "life-domain",
+  "class": {
+    "index": "cleric",
+    "name": "Cleric",
+    "url": "/api/2024/classes/cleric"
+  },
+  "name": "Life Domain",
+  "subclass_flavor": "Divine Domain",
+  "desc": [
+    "Soothe the Hurts of the World",
+    "The Life Domain focuses on the positive energy that helps sustain all life in the multiverse. Clerics who tap into this domain are masters of healing, using that life force to cure many hurts.",
+    "Existence itself relies on the positive energy associated with this domain, so a Cleric of almost any religious tradition might choose it. This domain is particularly associated with agricultural deities, gods of healing or endurance, and gods of home and community. Religious orders of healing also seek the magic of this domain."
+  ],
+  "subclass_levels": "/api/2024/subclasses/life-domain/levels",
+  "spells": [
+    {
+      "prerequisites": [{ "index": "life-domain-3", "type": "level" }],
+      "spell": {
+        "index": "aid",
+        "name": "Aid",
+        "url": "/api/2024/spells/aid"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "life-domain-3", "type": "level" }],
+      "spell": {
+        "index": "bless",
+        "name": "Bless",
+        "url": "/api/2024/spells/bless"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "life-domain-3", "type": "level" }],
+      "spell": {
+        "index": "cure-wounds",
+        "name": "Cure Wounds",
+        "url": "/api/2024/spells/cure-wounds"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "life-domain-3", "type": "level" }],
+      "spell": {
+        "index": "lesser-restoration",
+        "name": "Lesser Restoration",
+        "url": "/api/2024/spells/lesser-restoration"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "life-domain-5", "type": "level" }],
+      "spell": {
+        "index": "mass-healing-word",
+        "name": "Mass Healing Word",
+        "url": "/api/2024/spells/mass-healing-word"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "life-domain-5", "type": "level" }],
+      "spell": {
+        "index": "revivify",
+        "name": "Revivify",
+        "url": "/api/2024/spells/revivify"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "life-domain-7", "type": "level" }],
+      "spell": {
+        "index": "aura-of-life",
+        "name": "Aura of Life",
+        "url": "/api/2024/spells/aura-of-life"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "life-domain-7", "type": "level" }],
+      "spell": {
+        "index": "death-ward",
+        "name": "Death Ward",
+        "url": "/api/2024/spells/death-ward"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "life-domain-9", "type": "level" }],
+      "spell": {
+        "index": "greater-restoration",
+        "name": "Greater Restoration",
+        "url": "/api/2024/spells/greater-restoration"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "life-domain-9", "type": "level" }],
+      "spell": {
+        "index": "mass-cure-wounds",
+        "name": "Mass Cure Wounds",
+        "url": "/api/2024/spells/mass-cure-wounds"
+      }
+    }
+  ],
+  "url": "/api/2024/subclasses/life-domain"
+}

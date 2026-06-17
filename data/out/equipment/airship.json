@@ -1,0 +1,19 @@
+{
+  "index": "airship",
+  "name": "Airship",
+  "equipment_categories": [
+    {
+      "index": "waterborne-vehicles",
+      "name": "Waterborne Vehicles",
+      "url": "/api/2024/equipment-categories/waterborne-vehicles"
+    },
+    {
+      "index": "mounts-and-vehicles",
+      "name": "Mounts and Vehicles",
+      "url": "/api/2024/equipment-categories/mounts-and-vehicles"
+    }
+  ],
+  "url": "/api/2024/equipment/airship",
+  "cost": { "quantity": 40000, "unit": "gp" },
+  "description": "Speed 8 mph. Crew 10. Passengers 20. Cargo 1 ton. AC 13. HP 300. Damage Threshold —."
+}

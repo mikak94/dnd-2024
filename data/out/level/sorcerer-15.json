@@ -1,0 +1,29 @@
+{
+  "index": "sorcerer-15",
+  "level": 15,
+  "ability_score_bonuses": 3,
+  "prof_bonus": 5,
+  "features": [],
+  "class": {
+    "index": "sorcerer",
+    "name": "Sorcerer",
+    "url": "/api/2024/classes/sorcerer"
+  },
+  "class_specific": {
+    "sorcery_points": 15,
+    "metamagic_known": 4
+  },
+  "spellcasting": {
+    "cantrips_known": 6,
+    "spells_known": 18,
+    "spell_slots_level_1": 4,
+    "spell_slots_level_2": 3,
+    "spell_slots_level_3": 3,
+    "spell_slots_level_4": 3,
+    "spell_slots_level_5": 2,
+    "spell_slots_level_6": 1,
+    "spell_slots_level_7": 1,
+    "spell_slots_level_8": 1
+  },
+  "url": "/api/2024/classes/sorcerer/levels/15"
+}

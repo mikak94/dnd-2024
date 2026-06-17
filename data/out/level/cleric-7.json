@@ -1,0 +1,27 @@
+{
+  "index": "cleric-7",
+  "level": 7,
+  "ability_score_bonuses": 1,
+  "prof_bonus": 3,
+  "features": [
+    {
+      "index": "blessed-strikes",
+      "name": "Blessed Strikes",
+      "url": "/api/2024/features/blessed-strikes"
+    }
+  ],
+  "class": {
+    "index": "cleric",
+    "name": "Cleric",
+    "url": "/api/2024/classes/cleric"
+  },
+  "spellcasting": {
+    "cantrips_known": 4,
+    "spells_known": 11,
+    "spell_slots_level_1": 4,
+    "spell_slots_level_2": 3,
+    "spell_slots_level_3": 3,
+    "spell_slots_level_4": 1
+  },
+  "url": "/api/2024/classes/cleric/levels/7"
+}

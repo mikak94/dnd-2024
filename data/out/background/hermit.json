@@ -1,0 +1,137 @@
+{
+  "index": "hermit",
+  "name": "Hermit",
+  "starting_proficiencies": [
+    {
+      "index": "skill-medicine",
+      "name": "Skill: Medicine",
+      "url": "/api/2024/proficiencies/skill-medicine"
+    },
+    {
+      "index": "skill-religion",
+      "name": "Skill: Religion",
+      "url": "/api/2024/proficiencies/skill-religion"
+    },
+    {
+      "index": "herbalism-kit",
+      "name": "Herbalism Kit",
+      "url": "/api/2024/proficiencies/herbalism-kit"
+    }
+  ],
+  "ability_scores": [
+    {
+      "index": "con",
+      "name": "CON",
+      "url": "/api/2024/ability-scores/con"
+    },
+    {
+      "index": "wis",
+      "name": "WIS",
+      "url": "/api/2024/ability-scores/wis"
+    },
+    {
+      "index": "cha",
+      "name": "CHA",
+      "url": "/api/2024/ability-scores/cha"
+    }
+  ],
+  "feat": {
+    "index": "healer",
+    "name": "Healer",
+    "url": "/api/2024/feats/healer"
+  },
+  "starting_equipment_options": [
+    {
+      "desc": "Choose A or B: (A) Quarterstaff, Herbalism Kit, Bedroll, Book (philosophy), Lamp, Oil (3 flasks), Traveler's Clothes, 16 GP; or (B) 50 GP",
+      "choose": 1,
+      "type": "equipment",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "multiple",
+            "items": [
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "quarterstaff",
+                  "name": "Quarterstaff",
+                  "url": "/api/2024/equipment/quarterstaff"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "herbalism-kit",
+                  "name": "Herbalism Kit",
+                  "url": "/api/2024/equipment/herbalism-kit"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "bedroll",
+                  "name": "Bedroll",
+                  "url": "/api/2024/equipment/bedroll"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "book",
+                  "name": "Book",
+                  "url": "/api/2024/equipment/book"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "lamp",
+                  "name": "Lamp",
+                  "url": "/api/2024/equipment/lamp"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 3,
+                "of": {
+                  "index": "oil",
+                  "name": "Oil",
+                  "url": "/api/2024/equipment/oil"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "travelers-clothes",
+                  "name": "Traveler's Clothes",
+                  "url": "/api/2024/equipment/travelers-clothes"
+                }
+              },
+              {
+                "option_type": "money",
+                "count": 16,
+                "unit": "GP"
+              }
+            ]
+          },
+          {
+            "option_type": "money",
+            "count": 50,
+            "unit": "GP"
+          }
+        ]
+      }
+    }
+  ],
+  "desc": [
+    "You spent your early years secluded in a hut or monastery located well beyond the outskirts of the nearest settlement. In those days, your only companions were the creatures of the forest and those who would occasionally visit to bring news of the outside world and supplies. The solitude allowed you to spend many hours pondering the mysteries of creation."
+  ],
+  "url": "/api/2024/backgrounds/hermit"
+}

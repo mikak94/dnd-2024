@@ -1,0 +1,30 @@
+{
+  "index": "druid-14",
+  "level": 14,
+  "ability_score_bonuses": 3,
+  "prof_bonus": 5,
+  "features": [
+    {
+      "index": "druid-subclass",
+      "name": "Subclass Feature",
+      "url": "/api/2024/features/druid-subclass"
+    }
+  ],
+  "class": {
+    "index": "druid",
+    "name": "Druid",
+    "url": "/api/2024/classes/druid"
+  },
+  "spellcasting": {
+    "cantrips_known": 4,
+    "spells_known": 17,
+    "spell_slots_level_1": 4,
+    "spell_slots_level_2": 3,
+    "spell_slots_level_3": 3,
+    "spell_slots_level_4": 3,
+    "spell_slots_level_5": 2,
+    "spell_slots_level_6": 1,
+    "spell_slots_level_7": 1
+  },
+  "url": "/api/2024/classes/druid/levels/14"
+}

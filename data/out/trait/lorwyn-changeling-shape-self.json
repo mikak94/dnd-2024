@@ -1,0 +1,16 @@
+{
+  "index": "lorwyn-changeling-shape-self",
+  "name": "Shape Self",
+  "species": [
+    {
+      "index": "lorwyn-changeling",
+      "name": "Lorwyn Changeling",
+      "url": "/api/2024/species/lorwyn-changeling"
+    }
+  ],
+  "subspecies": [],
+  "desc": [
+    "As an action, you can reshape your body to a two-legged Humanoid shape or to a four-legged Beast shape. While you have a Humanoid shape, you can wear clothing and armor made for a Humanoid of your size."
+  ],
+  "url": "/api/2024/traits/lorwyn-changeling-shape-self"
+}

@@ -1,0 +1,12 @@
+{
+  "index": "dwarf-dwarven-resilience",
+  "name": "Dwarven Resilience",
+  "species": [
+    { "index": "dwarf", "name": "Dwarf", "url": "/api/2024/species/dwarf" }
+  ],
+  "subspecies": [],
+  "desc": [
+    "You have Resistance to Poison damage. You also have Advantage on saving throws you make to avoid or end the Poisoned condition."
+  ],
+  "url": "/api/2024/traits/dwarf-dwarven-resilience"
+}

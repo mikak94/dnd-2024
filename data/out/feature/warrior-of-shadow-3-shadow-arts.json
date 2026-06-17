@@ -1,0 +1,23 @@
+{
+  "index": "warrior-of-shadow-3-shadow-arts",
+  "name": "Shadow Arts",
+  "level": 3,
+  "class": {
+    "index": "monk",
+    "name": "Monk",
+    "url": "/api/2024/classes/monk"
+  },
+  "subclass": {
+    "index": "warrior-of-shadow",
+    "name": "Warrior of Shadow",
+    "url": "/api/2024/subclasses/warrior-of-shadow"
+  },
+  "desc": [
+    "You have learned to draw on the power of the Shadowfell, gaining the following benefits.",
+    "**Darkness.** You can expend 1 Focus Point to cast the Darkness spell without spell components. You can see within the spell's area when you cast it with this feature. While the spell persists, you can move its area of Darkness to a space within 60 feet of yourself at the start of each of your turns.",
+    "**Darkvision.** You gain Darkvision with a range of 60 feet. If you already have Darkvision, its range increases by 60 feet.",
+    "**Shadowy Figments.** You know the Minor Illusion spell. Wisdom is your spellcasting ability for it."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/warrior-of-shadow-3-shadow-arts"
+}

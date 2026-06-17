@@ -1,0 +1,152 @@
+{
+  "index": "oath-of-vengeance",
+  "class": {
+    "index": "paladin",
+    "name": "Paladin",
+    "url": "/api/2024/classes/paladin"
+  },
+  "name": "Oath of Vengeance",
+  "subclass_flavor": "Sacred Oath",
+  "desc": [
+    "Punish Evildoers at Any Cost",
+    "The Oath of Vengeance is a solemn commitment to punish those who have committed grievously evil acts. When evil armies slaughter helpless villagers, when a tyrant defies the will of the gods, when a thieves' guild grows too violent, when a dragon rampages though the countryside - at times like these, Paladins arise and swear the Oath of Vengeance to set right what has gone wrong.",
+    "These Paladins share the following tenets:",
+    "Show the wicked no mercy.",
+    "Fight injustice and its causes.",
+    "Aid those harmed by injustice."
+  ],
+  "subclass_levels": "/api/2024/subclasses/oath-of-vengeance/levels",
+  "spells": [
+    {
+      "prerequisites": [
+        {
+          "index": "oath-of-vengeance-3",
+          "type": "level"
+        }
+      ],
+      "spell": {
+        "index": "bane",
+        "name": "Bane",
+        "url": "/api/2024/spells/bane"
+      }
+    },
+    {
+      "prerequisites": [
+        {
+          "index": "oath-of-vengeance-3",
+          "type": "level"
+        }
+      ],
+      "spell": {
+        "index": "hunter-s-mark",
+        "name": "Hunter's Mark",
+        "url": "/api/2024/spells/hunter-s-mark"
+      }
+    },
+    {
+      "prerequisites": [
+        {
+          "index": "oath-of-vengeance-5",
+          "type": "level"
+        }
+      ],
+      "spell": {
+        "index": "hold-person",
+        "name": "Hold Person",
+        "url": "/api/2024/spells/hold-person"
+      }
+    },
+    {
+      "prerequisites": [
+        {
+          "index": "oath-of-vengeance-5",
+          "type": "level"
+        }
+      ],
+      "spell": {
+        "index": "misty-step",
+        "name": "Misty Step",
+        "url": "/api/2024/spells/misty-step"
+      }
+    },
+    {
+      "prerequisites": [
+        {
+          "index": "oath-of-vengeance-9",
+          "type": "level"
+        }
+      ],
+      "spell": {
+        "index": "haste",
+        "name": "Haste",
+        "url": "/api/2024/spells/haste"
+      }
+    },
+    {
+      "prerequisites": [
+        {
+          "index": "oath-of-vengeance-9",
+          "type": "level"
+        }
+      ],
+      "spell": {
+        "index": "protection-from-energy",
+        "name": "Protection from Energy",
+        "url": "/api/2024/spells/protection-from-energy"
+      }
+    },
+    {
+      "prerequisites": [
+        {
+          "index": "oath-of-vengeance-13",
+          "type": "level"
+        }
+      ],
+      "spell": {
+        "index": "banishment",
+        "name": "Banishment",
+        "url": "/api/2024/spells/banishment"
+      }
+    },
+    {
+      "prerequisites": [
+        {
+          "index": "oath-of-vengeance-13",
+          "type": "level"
+        }
+      ],
+      "spell": {
+        "index": "dimension-door",
+        "name": "Dimension Door",
+        "url": "/api/2024/spells/dimension-door"
+      }
+    },
+    {
+      "prerequisites": [
+        {
+          "index": "oath-of-vengeance-17",
+          "type": "level"
+        }
+      ],
+      "spell": {
+        "index": "hold-monster",
+        "name": "Hold Monster",
+        "url": "/api/2024/spells/hold-monster"
+      }
+    },
+    {
+      "prerequisites": [
+        {
+          "index": "oath-of-vengeance-17",
+          "type": "level"
+        }
+      ],
+      "spell": {
+        "index": "scrying",
+        "name": "Scrying",
+        "url": "/api/2024/spells/scrying"
+      }
+    }
+  ],
+  "url": "/api/2024/subclasses/oath-of-vengeance"
+}

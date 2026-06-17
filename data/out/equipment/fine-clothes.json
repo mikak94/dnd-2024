@@ -1,0 +1,15 @@
+{
+  "index": "fine-clothes",
+  "name": "Fine Clothes",
+  "equipment_categories": [
+    {
+      "index": "adventuring-gear",
+      "name": "Adventuring Gear",
+      "url": "/api/2024/equipment-categories/adventuring-gear"
+    }
+  ],
+  "cost": { "quantity": 15, "unit": "gp" },
+  "weight": 6,
+  "description": "Fine Clothes are made of expensive fabrics and adorned with expertly crafted details. Some events and locations admit only people wearing these clothes.",
+  "url": "/api/2024/equipment/fine-clothes"
+}

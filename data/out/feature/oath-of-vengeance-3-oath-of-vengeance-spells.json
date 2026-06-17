@@ -1,0 +1,21 @@
+{
+  "index": "oath-of-vengeance-3-oath-of-vengeance-spells",
+  "name": "Oath of Vengeance Spells",
+  "level": 3,
+  "class": {
+    "index": "paladin",
+    "name": "Paladin",
+    "url": "/api/2024/classes/paladin"
+  },
+  "subclass": {
+    "index": "oath-of-vengeance",
+    "name": "Oath of Vengeance",
+    "url": "/api/2024/subclasses/oath-of-vengeance"
+  },
+  "desc": [
+    "The magic of your oath ensures you always have certain spells ready; when you reach a Paladin level specified in the Oath of Vengeance Spells table, you thereafter always have the listed spells prepared.",
+    "| Paladin Level | Spells |\n| --- | --- |\n| 3 | Bane, Hunter's Mark |\n| 5 | Hold Person, Misty Step |\n| 9 | Haste, Protection from Energy |\n| 13 | Banishment, Dimension Door |\n| 17 | Hold Monster, Scrying |"
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/oath-of-vengeance-3-oath-of-vengeance-spells"
+}

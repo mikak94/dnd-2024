@@ -1,0 +1,20 @@
+{
+  "index": "college-of-lore-14-peerless-skill",
+  "name": "Peerless Skill",
+  "level": 14,
+  "class": {
+    "index": "bard",
+    "name": "Bard",
+    "url": "/api/2024/classes/bard"
+  },
+  "subclass": {
+    "index": "college-of-lore",
+    "name": "College of Lore",
+    "url": "/api/2024/subclasses/college-of-lore"
+  },
+  "desc": [
+    "When you make an ability check or attack roll and fail, you can expend one use of Bardic Inspiration; roll the Bardic Inspiration die, and add the number rolled to the d20, potentially turning a failure into a success. On a failure, the Bardic Inspiration isn't expended."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/college-of-lore-14-peerless-skill"
+}

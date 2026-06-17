@@ -1,0 +1,109 @@
+{
+  "index": "champion-7-additional-fighting-style",
+  "name": "Additional Fighting Style",
+  "level": 7,
+  "class": {
+    "index": "fighter",
+    "name": "Fighter",
+    "url": "/api/2024/classes/fighter"
+  },
+  "subclass": {
+    "index": "champion",
+    "name": "Champion",
+    "url": "/api/2024/subclasses/champion"
+  },
+  "desc": ["You gain another Fighting Style feat of your choice."],
+  "prerequisites": [],
+  "feature_specific": {
+    "subfeature_options": {
+      "choose": 1,
+      "type": "feat",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "archery",
+              "name": "Archery",
+              "url": "/api/2024/feats/archery"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "blind-fighting",
+              "name": "Blind Fighting",
+              "url": "/api/2024/feats/blind-fighting"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "defense",
+              "name": "Defense",
+              "url": "/api/2024/feats/defense"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "dueling",
+              "name": "Dueling",
+              "url": "/api/2024/feats/dueling"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "great-weapon-fighting",
+              "name": "Great Weapon Fighting",
+              "url": "/api/2024/feats/great-weapon-fighting"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "interception",
+              "name": "Interception",
+              "url": "/api/2024/feats/interception"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "protection",
+              "name": "Protection",
+              "url": "/api/2024/feats/protection"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "thrown-weapon-fighting",
+              "name": "Thrown Weapon Fighting",
+              "url": "/api/2024/feats/thrown-weapon-fighting"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "two-weapon-fighting",
+              "name": "Two Weapon Fighting",
+              "url": "/api/2024/feats/two-weapon-fighting"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "unarmed-fighting",
+              "name": "Unarmed Fighting",
+              "url": "/api/2024/feats/unarmed-fighting"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "url": "/api/2024/features/champion-7-additional-fighting-style"
+}

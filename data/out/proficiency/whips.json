@@ -1,0 +1,11 @@
+{
+  "index": "whips",
+  "name": "Whips",
+  "type": "Weapons",
+  "reference": {
+    "index": "whip",
+    "name": "Whip",
+    "url": "/api/2024/equipment/whip"
+  },
+  "url": "/api/2024/proficiencies/whips"
+}

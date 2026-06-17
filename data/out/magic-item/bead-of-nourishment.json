@@ -1,0 +1,15 @@
+{
+  "index": "bead-of-nourishment",
+  "name": "Bead of Nourishment",
+  "equipment_category": {
+    "index": "wondrous-items",
+    "name": "Wondrous Items",
+    "url": "/api/2024/equipment-categories/wondrous-items"
+  },
+  "rarity": { "name": "Common" },
+  "attunement": false,
+  "desc": "This flavorless, gelatinous bead dissolves on your tongue and provides as much nourishment as 1 day of Rations.",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/bead-of-nourishment"
+}

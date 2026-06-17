@@ -1,0 +1,72 @@
+{
+  "index": "house-kundarak-heir",
+  "name": "House Kundarak Heir",
+  "starting_proficiencies": [
+    {
+      "index": "skill-arcana",
+      "name": "Skill: Arcana",
+      "url": "/api/2024/proficiencies/skill-arcana"
+    },
+    {
+      "index": "skill-investigation",
+      "name": "Skill: Investigation",
+      "url": "/api/2024/proficiencies/skill-investigation"
+    },
+    {
+      "index": "tool-thieves-tools",
+      "name": "Tool: Thieves' Tools",
+      "url": "/api/2024/proficiencies/tool-thieves-tools"
+    }
+  ],
+  "ability_scores": [
+    { "index": "str", "name": "STR", "url": "/api/2024/ability-scores/str" },
+    { "index": "con", "name": "CON", "url": "/api/2024/ability-scores/con" },
+    { "index": "int", "name": "INT", "url": "/api/2024/ability-scores/int" }
+  ],
+  "feat": {
+    "index": "mark-of-warding",
+    "name": "Mark of Warding",
+    "url": "/api/2024/feats/mark-of-warding"
+  },
+  "starting_equipment_options": [
+    {
+      "desc": "Choose A or B: (A) Thieves' Tools, Fine Clothes, 10 GP; or (B) 50 GP",
+      "choose": 1,
+      "type": "equipment",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "multiple",
+            "items": [
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "thieves-tools",
+                  "name": "Thieves' Tools",
+                  "url": "/api/2024/equipment/thieves-tools"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "fine-clothes",
+                  "name": "Fine Clothes",
+                  "url": "/api/2024/equipment/fine-clothes"
+                }
+              },
+              { "option_type": "money", "count": 10, "unit": "GP" }
+            ]
+          },
+          { "option_type": "money", "count": 50, "unit": "GP" }
+        ]
+      }
+    }
+  ],
+  "desc": [
+    "As an heir of House Kundarak, you take great pride in your family and its work of safeguarding the valuables of Khorvaire. Your house has always been a leader among the clans of the Mror Holds. Though it has never held the crown, it has a reputation for professionalism, honor, and order. You might strive to uphold that reputation, you might place your own sense of honor over your family's, or you could rebel against the house's expectations and flout the demands of honor."
+  ],
+  "url": "/api/2024/backgrounds/house-kundarak-heir"
+}

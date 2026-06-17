@@ -1,0 +1,14 @@
+{
+  "index": "kalashtar-dual-mind",
+  "name": "Dual Mind",
+  "species": [
+    {
+      "index": "kalashtar",
+      "name": "Kalashtar",
+      "url": "/api/2024/species/kalashtar"
+    }
+  ],
+  "subspecies": [],
+  "desc": ["You have Advantage on Wisdom and Charisma saving throws."],
+  "url": "/api/2024/traits/kalashtar-dual-mind"
+}

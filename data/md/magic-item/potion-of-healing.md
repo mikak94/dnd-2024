@@ -1,0 +1,22 @@
+# Potion of Healing
+
+Source: Player's Handbook
+
+_Potion, Common_
+
+This potion is a magic item. As a Bonus Action, you can drink it or administer it to another creature within 5 feet of yourself. The creature that drinks the magical red fluid in this vial regains 2d4 + 2 Hit Points.
+
+Source: Dungeon Master's Guide
+
+_Potion, Rarity Varies_
+
+You regain Hit Points when you drink this potion. The number of Hit Points depends on the potion’s rarity, as shown in the table below.
+
+Whatever its potency, the potion’s red liquid glimmers when agitated.
+
+| Potion                       | HP Regained | Rarity    |
+| ---------------------------- | ----------- | --------- |
+| Potion of Healing            | 2d4 + 2     | Common    |
+| Potion of Healing (greater)  | 4d4 + 4     | Uncommon  |
+| Potion of Healing (superior) | 8d4 + 8     | Rare      |
+| Potion of Healing (supreme)  | 10d4 + 20   | Very Rare |

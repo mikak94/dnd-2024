@@ -1,0 +1,15 @@
+{
+  "index": "arcane-apotheosis",
+  "name": "Arcane Apotheosis",
+  "level": 20,
+  "class": {
+    "index": "sorcerer",
+    "name": "Sorcerer",
+    "url": "/api/2024/classes/sorcerer"
+  },
+  "desc": [
+    "While your Innate Sorcery feature is active, you can use one Metamagic option on each of your turns without spending Sorcery Points on it."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/arcane-apotheosis"
+}

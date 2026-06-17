@@ -1,0 +1,24 @@
+{
+  "index": "paladin-7",
+  "level": 7,
+  "ability_score_bonuses": 1,
+  "prof_bonus": 3,
+  "features": [
+    {
+      "index": "subclass-feature-paladin-7",
+      "name": "Subclass Feature",
+      "url": "/api/2024/features/subclass-feature-paladin-7"
+    }
+  ],
+  "class": {
+    "index": "paladin",
+    "name": "Paladin",
+    "url": "/api/2024/classes/paladin"
+  },
+  "spellcasting": {
+    "spells_known": 7,
+    "spell_slots_level_1": 4,
+    "spell_slots_level_2": 3
+  },
+  "url": "/api/2024/classes/paladin/levels/7"
+}

@@ -1,0 +1,20 @@
+{
+  "index": "arcane-trickster-3-mage-hand-legerdemain",
+  "name": "Mage Hand Legerdemain",
+  "level": 3,
+  "class": {
+    "index": "rogue",
+    "name": "Rogue",
+    "url": "/api/2024/classes/rogue"
+  },
+  "subclass": {
+    "index": "arcane-trickster",
+    "name": "Arcane Trickster",
+    "url": "/api/2024/subclasses/arcane-trickster"
+  },
+  "desc": [
+    "When you cast Mage Hand, you can cast it as a Bonus Action, and you can make the spectral hand Invisible. You can control the hand as a Bonus Action, and through it, you can make Dexterity (Sleight of Hand) checks."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/arcane-trickster-3-mage-hand-legerdemain"
+}

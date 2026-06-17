@@ -1,0 +1,7 @@
+# Vendored / generated — not hand-authored.
+node_modules
+package-lock.json
+
+# Crawled HTML source (stage 1) — raw scraped pages, never reformat.
+data/raw
+*.html

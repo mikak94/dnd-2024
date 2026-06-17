@@ -1,0 +1,20 @@
+{
+  "index": "college-of-valor-14-battle-magic",
+  "name": "Battle Magic",
+  "level": 14,
+  "class": {
+    "index": "bard",
+    "name": "Bard",
+    "url": "/api/2024/classes/bard"
+  },
+  "subclass": {
+    "index": "college-of-valor",
+    "name": "College of Valor",
+    "url": "/api/2024/subclasses/college-of-valor"
+  },
+  "desc": [
+    "After you cast a spell that has a casting time of an action, you can make one attack with a weapon as a Bonus Action."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/college-of-valor-14-battle-magic"
+}

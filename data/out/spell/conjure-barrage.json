@@ -1,0 +1,59 @@
+{
+  "index": "conjure-barrage",
+  "name": "Conjure Barrage",
+  "level": 3,
+  "school": {
+    "index": "conjuration",
+    "name": "Conjuration",
+    "url": "/api/2024/magic-schools/conjuration"
+  },
+  "casting_time": "Action",
+  "range": "Self",
+  "components": ["V", "S", "M"],
+  "material": "a Melee or Ranged weapon worth at least 1 CP",
+  "ritual": false,
+  "concentration": false,
+  "duration": "Instantaneous",
+  "desc": [
+    "You brandish the weapon used to cast the spell and conjure similar spectral weapons (or ammunition appropriate to the weapon) that launch forward and then disappear. Each creature of your choice that you can see in a 60-foot Cone makes a Dexterity saving throw, taking 5d8 Force damage on a failed save or half as much damage on a successful one."
+  ],
+  "higher_level": [
+    "Using a Higher-Level Spell Slot. The damage increases by 1d8 for each spell slot level above 3."
+  ],
+  "damage": {
+    "damage_type": {
+      "index": "force",
+      "name": "Force",
+      "url": "/api/2024/damage-types/force"
+    },
+    "damage_at_slot_level": {
+      "3": "5d8",
+      "4": "6d8",
+      "5": "7d8",
+      "6": "8d8",
+      "7": "9d8",
+      "8": "10d8",
+      "9": "11d8"
+    }
+  },
+  "dc": {
+    "dc_type": {
+      "index": "dex",
+      "name": "DEX",
+      "url": "/api/2024/ability-scores/dex"
+    },
+    "dc_success": "half"
+  },
+  "area_of_effect": {
+    "type": "cone",
+    "size": 60
+  },
+  "classes": [
+    {
+      "index": "ranger",
+      "name": "Ranger",
+      "url": "/api/2024/classes/ranger"
+    }
+  ],
+  "url": "/api/2024/spells/conjure-barrage"
+}

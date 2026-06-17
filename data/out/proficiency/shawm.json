@@ -1,0 +1,11 @@
+{
+  "index": "shawm",
+  "name": "Shawm",
+  "type": "Musical Instruments",
+  "reference": {
+    "index": "shawm",
+    "name": "Shawm",
+    "url": "/api/2024/equipment/shawm"
+  },
+  "url": "/api/2024/proficiencies/shawm"
+}

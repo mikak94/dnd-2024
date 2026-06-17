@@ -1,0 +1,20 @@
+{
+  "index": "war-domain-17-avatar-of-battle",
+  "name": "Avatar of Battle",
+  "level": 17,
+  "class": {
+    "index": "cleric",
+    "name": "Cleric",
+    "url": "/api/2024/classes/cleric"
+  },
+  "subclass": {
+    "index": "war-domain",
+    "name": "War Domain",
+    "url": "/api/2024/subclasses/war-domain"
+  },
+  "desc": [
+    "You gain Resistance to Bludgeoning, Piercing, and Slashing damage."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/war-domain-17-avatar-of-battle"
+}

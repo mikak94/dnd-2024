@@ -1,0 +1,15 @@
+{
+  "index": "cloak-of-arachnida",
+  "name": "Cloak of Arachnida",
+  "equipment_category": {
+    "index": "wondrous-items",
+    "name": "Wondrous Items",
+    "url": "/api/2024/equipment-categories/wondrous-items"
+  },
+  "rarity": { "name": "Very Rare" },
+  "attunement": true,
+  "desc": "This fine garment is made of black silk interwoven with faint, silvery threads. While wearing it, you gain the following benefits.\n\nPoison Resistance. You have Resistance to Poison damage.\n\nSpider Climb. You have a Climb Speed equal to your Speed and can move up, down, and across vertical surfaces and along ceilings, while leaving your hands free.\n\nSpider Walk. You can't be caught in webs of any sort and can move through webs as if they were Difficult Terrain.\n\nWeb. You can cast Web (save DC 13). The web created by the spell fills twice its normal area. Once used, this property can't be used again until the next dawn.",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/cloak-of-arachnida"
+}

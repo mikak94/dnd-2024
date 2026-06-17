@@ -1,0 +1,25 @@
+{
+  "index": "paladin-12",
+  "level": 12,
+  "ability_score_bonuses": 3,
+  "prof_bonus": 4,
+  "features": [
+    {
+      "index": "ability-score-improvement",
+      "name": "Ability Score Improvement",
+      "url": "/api/2024/features/ability-score-improvement"
+    }
+  ],
+  "class": {
+    "index": "paladin",
+    "name": "Paladin",
+    "url": "/api/2024/classes/paladin"
+  },
+  "spellcasting": {
+    "spells_known": 10,
+    "spell_slots_level_1": 4,
+    "spell_slots_level_2": 3,
+    "spell_slots_level_3": 3
+  },
+  "url": "/api/2024/classes/paladin/levels/12"
+}

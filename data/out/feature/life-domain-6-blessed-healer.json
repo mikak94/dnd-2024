@@ -1,0 +1,20 @@
+{
+  "index": "life-domain-6-blessed-healer",
+  "name": "Blessed Healer",
+  "level": 6,
+  "class": {
+    "index": "cleric",
+    "name": "Cleric",
+    "url": "/api/2024/classes/cleric"
+  },
+  "subclass": {
+    "index": "life-domain",
+    "name": "Life Domain",
+    "url": "/api/2024/subclasses/life-domain"
+  },
+  "desc": [
+    "The healing spells you cast on others heal you as well. Immediately after you cast a spell with a spell slot that restores Hit Points to one or more creatures other than yourself, you regain Hit Points equal to 2 plus the spell slot's level."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/life-domain-6-blessed-healer"
+}

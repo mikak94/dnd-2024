@@ -1,0 +1,15 @@
+{
+  "index": "superior-inspiration",
+  "name": "Superior Inspiration",
+  "level": 18,
+  "class": {
+    "index": "bard",
+    "name": "Bard",
+    "url": "/api/2024/classes/bard"
+  },
+  "desc": [
+    "When you roll Initiative, you regain expended uses of Bardic Inspiration until you have two if you have fewer than that."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/superior-inspiration"
+}

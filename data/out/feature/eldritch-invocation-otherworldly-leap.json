@@ -1,0 +1,23 @@
+{
+  "index": "eldritch-invocation-otherworldly-leap",
+  "name": "Eldritch Invocation: Otherworldly Leap",
+  "level": 2,
+  "class": {
+    "index": "warlock",
+    "name": "Warlock",
+    "url": "/api/2024/classes/warlock"
+  },
+  "parent": {
+    "index": "eldritch-invocations",
+    "name": "Eldritch Invocations",
+    "url": "/api/2024/features/eldritch-invocations"
+  },
+  "desc": ["You can cast Jump on yourself without expending a spell slot."],
+  "prerequisites": [
+    {
+      "type": "level",
+      "level": 2
+    }
+  ],
+  "url": "/api/2024/features/eldritch-invocation-otherworldly-leap"
+}

@@ -1,0 +1,55 @@
+{
+  "index": "lightning-arrow",
+  "name": "Lightning Arrow",
+  "level": 3,
+  "school": {
+    "index": "transmutation",
+    "name": "Transmutation",
+    "url": "/api/2024/magic-schools/transmutation"
+  },
+  "casting_time": "Bonus Action, which you take immediately after hitting or missing a target with a ranged attack using a weapon",
+  "range": "Self",
+  "components": ["V", "S"],
+  "ritual": false,
+  "concentration": false,
+  "duration": "Instantaneous",
+  "desc": [
+    "As your attack hits or misses the target, the weapon or ammunition you're using transforms into a lightning bolt. Instead of taking any damage or other effects from the attack, the target takes 4d8 Lightning damage on a hit or half as much damage on a miss. Each creature within 10 feet of the target then makes a Dexterity saving throw, taking 2d8 Lightning damage on a failed save or half as much damage on a successful one.",
+    "The weapon or ammunition then returns to its normal form."
+  ],
+  "higher_level": [
+    "Using a Higher-Level Spell Slot. The damage for both effects of the spell increases by 1d8 for each spell slot level above 3."
+  ],
+  "damage": {
+    "damage_type": {
+      "index": "lightning",
+      "name": "Lightning",
+      "url": "/api/2024/damage-types/lightning"
+    },
+    "damage_at_slot_level": {
+      "3": "4d8",
+      "4": "5d8",
+      "5": "6d8",
+      "6": "7d8",
+      "7": "8d8",
+      "8": "9d8",
+      "9": "10d8"
+    }
+  },
+  "dc": {
+    "dc_type": {
+      "index": "dex",
+      "name": "DEX",
+      "url": "/api/2024/ability-scores/dex"
+    },
+    "dc_success": "half"
+  },
+  "classes": [
+    {
+      "index": "ranger",
+      "name": "Ranger",
+      "url": "/api/2024/classes/ranger"
+    }
+  ],
+  "url": "/api/2024/spells/lightning-arrow"
+}

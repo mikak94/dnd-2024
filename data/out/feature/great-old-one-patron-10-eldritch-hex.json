@@ -1,0 +1,20 @@
+{
+  "index": "great-old-one-patron-10-eldritch-hex",
+  "name": "Eldritch Hex",
+  "level": 10,
+  "class": {
+    "index": "warlock",
+    "name": "Warlock",
+    "url": "/api/2024/classes/warlock"
+  },
+  "subclass": {
+    "index": "great-old-one-patron",
+    "name": "Great Old One Patron",
+    "url": "/api/2024/subclasses/great-old-one-patron"
+  },
+  "desc": [
+    "Your alien patron grants you a powerful curse. You always have the Hex spell prepared. When you cast Hex and choose an ability, the target also has Disadvantage on saving throws of the chosen ability for the duration of the spell."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/great-old-one-patron-10-eldritch-hex"
+}

@@ -1,0 +1,13 @@
+{
+  "index": "barbarian-subclass-feature-14",
+  "name": "Subclass Feature",
+  "level": 14,
+  "class": {
+    "index": "barbarian",
+    "name": "Barbarian",
+    "url": "/api/2024/classes/barbarian"
+  },
+  "desc": ["You gain a feature granted by your Barbarian subclass."],
+  "prerequisites": [],
+  "url": "/api/2024/features/barbarian-subclass-feature-14"
+}

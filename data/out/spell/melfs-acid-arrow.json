@@ -1,0 +1,49 @@
+{
+  "index": "melfs-acid-arrow",
+  "name": "Melf's Acid Arrow",
+  "level": 2,
+  "school": {
+    "index": "evocation",
+    "name": "Evocation",
+    "url": "/api/2024/magic-schools/evocation"
+  },
+  "casting_time": "Action",
+  "range": "90 feet",
+  "components": ["V", "S", "M"],
+  "material": "powdered rhubarb leaf",
+  "ritual": false,
+  "concentration": false,
+  "duration": "Instantaneous",
+  "desc": [
+    "A shimmering green arrow streaks toward a target within range and bursts in a spray of acid. Make a ranged spell attack against the target. On a hit, the target takes 4d4 Acid damage and 2d4 Acid damage at the end of its next turn. On a miss, the arrow splashes the target with acid for half as much of the initial damage only."
+  ],
+  "higher_level": [
+    "Using a Higher-Level Spell Slot. The damage (both initial and later) increases by 1d4 for each spell slot level above 2."
+  ],
+  "attack_type": "ranged",
+  "damage": {
+    "damage_type": {
+      "index": "acid",
+      "name": "Acid",
+      "url": "/api/2024/damage-types/acid"
+    },
+    "damage_at_slot_level": {
+      "2": "4d4",
+      "3": "5d4",
+      "4": "6d4",
+      "5": "7d4",
+      "6": "8d4",
+      "7": "9d4",
+      "8": "10d4",
+      "9": "11d4"
+    }
+  },
+  "classes": [
+    {
+      "index": "wizard",
+      "name": "Wizard",
+      "url": "/api/2024/classes/wizard"
+    }
+  ],
+  "url": "/api/2024/spells/melfs-acid-arrow"
+}

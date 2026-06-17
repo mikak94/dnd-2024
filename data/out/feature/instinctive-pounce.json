@@ -1,0 +1,15 @@
+{
+  "index": "instinctive-pounce",
+  "name": "Instinctive Pounce",
+  "level": 7,
+  "class": {
+    "index": "barbarian",
+    "name": "Barbarian",
+    "url": "/api/2024/classes/barbarian"
+  },
+  "desc": [
+    "As part of the Bonus Action you take to enter your Rage, you can move up to half your Speed."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/instinctive-pounce"
+}

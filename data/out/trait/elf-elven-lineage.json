@@ -1,0 +1,66 @@
+{
+  "index": "elf-elven-lineage",
+  "name": "Elven Lineage",
+  "species": [
+    { "index": "elf", "name": "Elf", "url": "/api/2024/species/elf" }
+  ],
+  "subspecies": [],
+  "desc": [
+    "You are part of a lineage that grants you supernatural abilities. Choose a lineage from the Elven Lineages table. You gain the level 1 benefit of that lineage.",
+    "When you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level.",
+    "Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the lineage)."
+  ],
+  "trait_specific": {
+    "subtrait_options": {
+      "desc": "Choose a lineage from the Elven Lineages table.",
+      "choose": 1,
+      "type": "lineage",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "drow",
+              "name": "Drow",
+              "url": "/api/2024/subspecies/drow"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "high-elf",
+              "name": "High Elf",
+              "url": "/api/2024/subspecies/high-elf"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "wood-elf",
+              "name": "Wood Elf",
+              "url": "/api/2024/subspecies/wood-elf"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "lorwyn-elf",
+              "name": "Lorwyn Elf",
+              "url": "/api/2024/subspecies/lorwyn-elf"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "shadowmoor-elf",
+              "name": "Shadowmoor Elf",
+              "url": "/api/2024/subspecies/shadowmoor-elf"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "url": "/api/2024/traits/elf-elven-lineage"
+}

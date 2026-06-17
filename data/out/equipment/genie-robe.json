@@ -1,0 +1,14 @@
+{
+  "index": "genie-robe",
+  "name": "Genie Robe",
+  "equipment_categories": [
+    {
+      "index": "adventuring-gear",
+      "name": "Adventuring Gear",
+      "url": "/api/2024/equipment-categories/adventuring-gear"
+    }
+  ],
+  "cost": { "quantity": 50, "unit": "gp" },
+  "description": "This robe appeals to Elementals associated with a particular Elemental Plane (Air, Earth, Fire, Water). While wearing a Genie Robe, you have Advantage on ability checks made to influence Elementals associated with that plane.",
+  "url": "/api/2024/equipment/genie-robe"
+}

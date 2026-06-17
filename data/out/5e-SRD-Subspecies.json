@@ -1,0 +1,218 @@
+[
+  {
+    "index": "abyssal",
+    "name": "Abyssal",
+    "species": {
+      "index": "tiefling",
+      "name": "Tiefling",
+      "url": "/api/2024/species/tiefling"
+    },
+    "desc": [
+      "The entropy of the Abyss, the chaos of Pandemonium, and the despair of Carceri call to tieflings who have the abyssal legacy. Horns, fur, tusks, and peculiar scents are common physical features of such tieflings, most of whom have the blood of demons coursing through their veins.",
+      "Level 1: You have Resistance to Poison damage. You also know the Poison Spray cantrip. Level 3: Ray of Sickness. Level 5: Hold Person. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the legacy)."
+    ],
+    "traits": [
+      {
+        "index": "abyssal-fiendish-legacy",
+        "name": "Fiendish Legacy",
+        "url": "/api/2024/traits/abyssal-fiendish-legacy"
+      }
+    ],
+    "url": "/api/2024/subspecies/abyssal"
+  },
+  {
+    "index": "chthonic",
+    "name": "Chthonic",
+    "species": {
+      "index": "tiefling",
+      "name": "Tiefling",
+      "url": "/api/2024/species/tiefling"
+    },
+    "desc": [
+      "Tieflings who have the chthonic legacy feel not only the tug of Carceri but also the greed of Gehenna and the gloom of Hades. Some of these tieflings look cadaverous. Others possess the unearthly beauty of a succubus, or they have physical features in common with a night hag, a yugoloth, or some other Neutral Evil fiendish ancestor.",
+      "Level 1: You have Resistance to Necrotic damage. You also know the Chill Touch cantrip. Level 3: False Life. Level 5: Ray of Enfeeblement. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the legacy)."
+    ],
+    "traits": [
+      {
+        "index": "chthonic-fiendish-legacy",
+        "name": "Fiendish Legacy",
+        "url": "/api/2024/traits/chthonic-fiendish-legacy"
+      }
+    ],
+    "url": "/api/2024/subspecies/chthonic"
+  },
+  {
+    "index": "drow",
+    "name": "Drow",
+    "species": {
+      "index": "elf",
+      "name": "Elf",
+      "url": "/api/2024/species/elf"
+    },
+    "desc": [
+      "Drow typically dwell in the Underdark and have been shaped by it. Some drow individuals and societies avoid the Underdark altogether yet carry its magic. In the Eberron setting, for example, drow dwell in rainforests and cyclopean ruins on the continent of Xen'drik.",
+      "Level 1: The range of your Darkvision increases to 120 feet. You also know the Dancing Lights cantrip. Level 3: Faerie Fire. Level 5: Darkness."
+    ],
+    "traits": [
+      {
+        "index": "drow-elven-lineage",
+        "name": "Elven Lineage",
+        "url": "/api/2024/traits/drow-elven-lineage"
+      }
+    ],
+    "url": "/api/2024/subspecies/drow"
+  },
+  {
+    "index": "forest-gnome",
+    "name": "Forest Gnome",
+    "species": {
+      "index": "gnome",
+      "name": "Gnome",
+      "url": "/api/2024/species/gnome"
+    },
+    "desc": [
+      "That magic eventually created the lineages of forest gnomes and rock gnomes.",
+      "Forest Gnome: You know the Minor Illusion cantrip. You also always have the Speak with Animals spell prepared. You can cast it without a spell slot a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest. You can also use any spell slots you have to cast the spell. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the lineage)."
+    ],
+    "traits": [
+      {
+        "index": "forest-gnome-gnomish-lineage",
+        "name": "Gnomish Lineage",
+        "url": "/api/2024/traits/forest-gnome-gnomish-lineage"
+      }
+    ],
+    "url": "/api/2024/subspecies/forest-gnome"
+  },
+  {
+    "index": "high-elf",
+    "name": "High Elf",
+    "species": {
+      "index": "elf",
+      "name": "Elf",
+      "url": "/api/2024/species/elf"
+    },
+    "desc": [
+      "High elves have been infused with the magic of crossings between the Feywild and the Material Plane. On some worlds, high elves refer to themselves by other names. For example, they call themselves sun or moon elves in the Forgotten Realms setting, Silvanesti and Qualinesti in the Dragonlance setting, and Aereni in the Eberron setting.",
+      "Level 1: You know the Prestidigitation cantrip. Whenever you finish a Long Rest, you can replace that cantrip with a different cantrip from the Wizard spell list. Level 3: Detect Magic. Level 5: Misty Step."
+    ],
+    "traits": [
+      {
+        "index": "high-elf-elven-lineage",
+        "name": "Elven Lineage",
+        "url": "/api/2024/traits/high-elf-elven-lineage"
+      }
+    ],
+    "url": "/api/2024/subspecies/high-elf"
+  },
+  {
+    "index": "infernal",
+    "name": "Infernal",
+    "species": {
+      "index": "tiefling",
+      "name": "Tiefling",
+      "url": "/api/2024/species/tiefling"
+    },
+    "desc": [
+      "The infernal legacy connects tieflings not only to Gehenna but also the Nine Hells and the raging battlefields of Acheron. Horns, spines, tails, golden eyes, and a faint odor of sulfur or smoke are common physical features of such tieflings, most of whom trace their ancestry to devils.",
+      "Level 1: You have Resistance to Fire damage. You also know the Fire Bolt cantrip. Level 3: Hellish Rebuke. Level 5: Darkness. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the legacy)."
+    ],
+    "traits": [
+      {
+        "index": "infernal-fiendish-legacy",
+        "name": "Fiendish Legacy",
+        "url": "/api/2024/traits/infernal-fiendish-legacy"
+      }
+    ],
+    "url": "/api/2024/subspecies/infernal"
+  },
+  {
+    "index": "lorwyn-elf",
+    "name": "Lorwyn Elf",
+    "species": {
+      "index": "elf",
+      "name": "Elf",
+      "url": "/api/2024/species/elf"
+    },
+    "desc": [
+      "Elves in the realm of Lorwyn-Shadowmoor possess black, pupilless eyes; curved horns; legs that end in cloven hooves; and pointed ears. The elves of Lorwyn exhibit stark differences physically as well as culturally from their Shadowmoor counterparts.",
+      "The horns of Lorwyn elves are stubby like a goat's or curved like a ram's, but always ridged. Their pointed ears are long and slender.",
+      "In Lorwyn, elves value beauty above all, though what any given elf deems beautiful can seem arbitrary. Some Lorwyn elves assume authority over the land's other peoples, using their fallen empire to support their claims.",
+      "These elves blame the fall of their empire on outside threats, especially the Phyrexian invasion. Though the invasion was the empire's death knell, its people's self-importance and unwillingness to collaborate with other species had already led to the empire's decline.",
+      "Level 1: You know the Thorn Whip cantrip. Whenever you finish a Long Rest, you can replace that cantrip with a different cantrip from the Druid spell list. Level 3: Command. Level 5: Silence."
+    ],
+    "traits": [
+      {
+        "index": "lorwyn-elf-elven-lineage",
+        "name": "Elven Lineage",
+        "url": "/api/2024/traits/lorwyn-elf-elven-lineage"
+      }
+    ],
+    "url": "/api/2024/subspecies/lorwyn-elf"
+  },
+  {
+    "index": "rock-gnome",
+    "name": "Rock Gnome",
+    "species": {
+      "index": "gnome",
+      "name": "Gnome",
+      "url": "/api/2024/species/gnome"
+    },
+    "desc": [
+      "That magic eventually created the lineages of forest gnomes and rock gnomes.",
+      "Rock Gnome: You know the Mending and Prestidigitation cantrips. In addition, you can spend 10 minutes casting Prestidigitation to create a Tiny clockwork device (AC 5, 1 HP), such as a toy, fire starter, or music box. When you create the device, you determine its function by choosing one effect from Prestidigitation; the device produces that effect whenever you or another creature takes a Bonus Action to activate it with a touch. If the chosen effect has options within it, you choose one of those options for the device when you create it. For example, if you choose the spell's ignite-extinguish effect, you determine whether the device ignites or extinguishes fire; the device doesn't do both. You can have three such devices in existence at a time, and each falls apart 8 hours after its creation or when you dismantle it with a touch as a Utilize action. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the lineage)."
+    ],
+    "traits": [
+      {
+        "index": "rock-gnome-gnomish-lineage",
+        "name": "Gnomish Lineage",
+        "url": "/api/2024/traits/rock-gnome-gnomish-lineage"
+      }
+    ],
+    "url": "/api/2024/subspecies/rock-gnome"
+  },
+  {
+    "index": "shadowmoor-elf",
+    "name": "Shadowmoor Elf",
+    "species": {
+      "index": "elf",
+      "name": "Elf",
+      "url": "/api/2024/species/elf"
+    },
+    "desc": [
+      "Elves in the realm of Lorwyn-Shadowmoor possess black, pupilless eyes; curved horns; legs that end in cloven hooves; and pointed ears.",
+      "Shadowmoor elves' horns are long, wavy, and covered with a rough, thorny texture. Their pointed ears are usually longer than those of their Lorwyn counterparts.",
+      "Like Lorwyn elves, Shadowmoor elves protect beauty, though a Shadowmoor elf's definition of \"beautiful\" can be abstract. Many of their kind believe beauty is gained or lost in accordance with one's actions; in particular, they consider heroism and self-sacrifice the highest forms of beauty.",
+      "Bloomseekers are Shadowmoor elves who study and explore Lorwyn. Each one carries a Reliquary of Twilight. Alongside Safewrights - Shadowmoor elves who venture across their realm in search of beautiful things - Bloomseekers are among the most trusted and revered members of their society.",
+      "Level 1: The range of your Darkvision increases to 120 feet. You also know the Starry Wisp cantrip. Level 3: Heroism. Level 5: Gentle Repose."
+    ],
+    "traits": [
+      {
+        "index": "shadowmoor-elf-elven-lineage",
+        "name": "Elven Lineage",
+        "url": "/api/2024/traits/shadowmoor-elf-elven-lineage"
+      }
+    ],
+    "url": "/api/2024/subspecies/shadowmoor-elf"
+  },
+  {
+    "index": "wood-elf",
+    "name": "Wood Elf",
+    "species": {
+      "index": "elf",
+      "name": "Elf",
+      "url": "/api/2024/species/elf"
+    },
+    "desc": [
+      "Wood elves carry the magic of primeval forests within themselves. They are known by many other names, including wild elves, green elves, and forest elves. Grugach are reclusive wood elves of the Greyhawk setting, while the Kagonesti and the Tairnadal are wood elves of the Dragonlance and Eberron settings, respectively.",
+      "Level 1: Your Speed increases to 35 feet. You also know the Druidcraft cantrip. Level 3: Longstrider. Level 5: Pass without Trace."
+    ],
+    "traits": [
+      {
+        "index": "wood-elf-elven-lineage",
+        "name": "Elven Lineage",
+        "url": "/api/2024/traits/wood-elf-elven-lineage"
+      }
+    ],
+    "url": "/api/2024/subspecies/wood-elf"
+  }
+]

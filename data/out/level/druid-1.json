@@ -1,0 +1,34 @@
+{
+  "index": "druid-1",
+  "level": 1,
+  "ability_score_bonuses": 0,
+  "prof_bonus": 2,
+  "features": [
+    {
+      "index": "spellcasting-druid",
+      "name": "Spellcasting",
+      "url": "/api/2024/features/spellcasting-druid"
+    },
+    {
+      "index": "druidic",
+      "name": "Druidic",
+      "url": "/api/2024/features/druidic"
+    },
+    {
+      "index": "primal-order",
+      "name": "Primal Order",
+      "url": "/api/2024/features/primal-order"
+    }
+  ],
+  "class": {
+    "index": "druid",
+    "name": "Druid",
+    "url": "/api/2024/classes/druid"
+  },
+  "spellcasting": {
+    "cantrips_known": 2,
+    "spells_known": 4,
+    "spell_slots_level_1": 2
+  },
+  "url": "/api/2024/classes/druid/levels/1"
+}

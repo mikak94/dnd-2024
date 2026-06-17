@@ -1,0 +1,19 @@
+{
+  "index": "warship",
+  "name": "Warship",
+  "equipment_categories": [
+    {
+      "index": "waterborne-vehicles",
+      "name": "Waterborne Vehicles",
+      "url": "/api/2024/equipment-categories/waterborne-vehicles"
+    },
+    {
+      "index": "mounts-and-vehicles",
+      "name": "Mounts and Vehicles",
+      "url": "/api/2024/equipment-categories/mounts-and-vehicles"
+    }
+  ],
+  "url": "/api/2024/equipment/warship",
+  "cost": { "quantity": 25000, "unit": "gp" },
+  "description": "Speed 2½ mph. Crew 60. Passengers 60. Cargo 200 tons. AC 15. HP 500. Damage Threshold 20."
+}

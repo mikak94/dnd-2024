@@ -1,0 +1,20 @@
+{
+  "index": "aberrant-sorcery-6-psychic-defenses",
+  "name": "Psychic Defenses",
+  "level": 6,
+  "class": {
+    "index": "sorcerer",
+    "name": "Sorcerer",
+    "url": "/api/2024/classes/sorcerer"
+  },
+  "subclass": {
+    "index": "aberrant-sorcery",
+    "name": "Aberrant Sorcery",
+    "url": "/api/2024/subclasses/aberrant-sorcery"
+  },
+  "desc": [
+    "You have Resistance to Psychic damage, and you have Advantage on saving throws to avoid or end the Charmed or Frightened condition."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/aberrant-sorcery-6-psychic-defenses"
+}

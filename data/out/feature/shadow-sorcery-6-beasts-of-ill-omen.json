@@ -1,0 +1,21 @@
+{
+  "index": "shadow-sorcery-6-beasts-of-ill-omen",
+  "name": "Beasts of Ill Omen",
+  "level": 6,
+  "class": {
+    "index": "sorcerer",
+    "name": "Sorcerer",
+    "url": "/api/2024/classes/sorcerer"
+  },
+  "subclass": {
+    "index": "shadow-sorcery",
+    "name": "Shadow Sorcery",
+    "url": "/api/2024/subclasses/shadow-sorcery"
+  },
+  "desc": [
+    "You can call forth a howling creature of shadow to hound your foes. You can spend 3 Sorcery Points to cast Summon Beast as a Bonus Action without expending a spell slot, without preparing the spell, and without Material components. The summoned creature appears as a beast made of shadow, and enemies within 5 feet of the summoned creature have Disadvantage on saving throws against spells you cast.",
+    "Whenever you cast the spell, you can modify it so that it doesn't require Concentration. If you do so, the spell's duration becomes 1 minute for that casting, and the spell ends early if you cast the spell again."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/shadow-sorcery-6-beasts-of-ill-omen"
+}

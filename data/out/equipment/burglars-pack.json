@@ -1,0 +1,110 @@
+{
+  "index": "burglars-pack",
+  "name": "Burglar's Pack",
+  "equipment_categories": [
+    {
+      "index": "equipment-packs",
+      "name": "Equipment Packs",
+      "url": "/api/2024/equipment-categories/equipment-packs"
+    },
+    {
+      "index": "adventuring-gear",
+      "name": "Adventuring Gear",
+      "url": "/api/2024/equipment-categories/adventuring-gear"
+    }
+  ],
+  "cost": { "quantity": 16, "unit": "gp" },
+  "weight": 42,
+  "description": "A Burglar's Pack contains the following items: Backpack, Ball Bearings, Bell, 10 Candles, Crowbar, Hooded Lantern, 7 flasks of Oil, 5 days of Rations, Rope, Tinderbox, and Waterskin.",
+  "contents": [
+    {
+      "item": {
+        "index": "backpack",
+        "name": "Backpack",
+        "url": "/api/2024/equipment/backpack"
+      },
+      "quantity": 1
+    },
+    {
+      "item": {
+        "index": "ball-bearings",
+        "name": "Ball Bearings",
+        "url": "/api/2024/equipment/ball-bearings"
+      },
+      "quantity": 1
+    },
+    {
+      "item": {
+        "index": "bell",
+        "name": "Bell",
+        "url": "/api/2024/equipment/bell"
+      },
+      "quantity": 1
+    },
+    {
+      "item": {
+        "index": "candle",
+        "name": "Candle",
+        "url": "/api/2024/equipment/candle"
+      },
+      "quantity": 10
+    },
+    {
+      "item": {
+        "index": "crowbar",
+        "name": "Crowbar",
+        "url": "/api/2024/equipment/crowbar"
+      },
+      "quantity": 1
+    },
+    {
+      "item": {
+        "index": "hooded-lantern",
+        "name": "Hooded Lantern",
+        "url": "/api/2024/equipment/hooded-lantern"
+      },
+      "quantity": 1
+    },
+    {
+      "item": {
+        "index": "oil",
+        "name": "Oil",
+        "url": "/api/2024/equipment/oil"
+      },
+      "quantity": 7
+    },
+    {
+      "item": {
+        "index": "rations",
+        "name": "Rations",
+        "url": "/api/2024/equipment/rations"
+      },
+      "quantity": 5
+    },
+    {
+      "item": {
+        "index": "rope",
+        "name": "Rope",
+        "url": "/api/2024/equipment/rope"
+      },
+      "quantity": 1
+    },
+    {
+      "item": {
+        "index": "tinderbox",
+        "name": "Tinderbox",
+        "url": "/api/2024/equipment/tinderbox"
+      },
+      "quantity": 1
+    },
+    {
+      "item": {
+        "index": "waterskin",
+        "name": "Waterskin",
+        "url": "/api/2024/equipment/waterskin"
+      },
+      "quantity": 1
+    }
+  ],
+  "url": "/api/2024/equipment/burglars-pack"
+}

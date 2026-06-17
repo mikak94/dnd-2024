@@ -1,0 +1,21 @@
+{
+  "index": "fey-wanderer-11-fey-reinforcements",
+  "name": "Fey Reinforcements",
+  "level": 11,
+  "class": {
+    "index": "ranger",
+    "name": "Ranger",
+    "url": "/api/2024/classes/ranger"
+  },
+  "subclass": {
+    "index": "fey-wanderer",
+    "name": "Fey Wanderer",
+    "url": "/api/2024/subclasses/fey-wanderer"
+  },
+  "desc": [
+    "You can cast Summon Fey without a Material component. You can also cast it once without a spell slot, and you regain the ability to cast it in this way when you finish a Long Rest.",
+    "Whenever you start casting the spell, you can modify it so that it doesn't require Concentration. If you do so, the spell's duration becomes 1 minute for the casting."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/fey-wanderer-11-fey-reinforcements"
+}

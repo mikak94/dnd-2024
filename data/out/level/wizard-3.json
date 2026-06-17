@@ -1,0 +1,28 @@
+{
+  "index": "wizard-3",
+  "level": 3,
+  "ability_score_bonuses": 0,
+  "prof_bonus": 2,
+  "features": [
+    {
+      "index": "wizard-subclass",
+      "name": "Wizard Subclass",
+      "url": "/api/2024/features/wizard-subclass"
+    }
+  ],
+  "class": {
+    "index": "wizard",
+    "name": "Wizard",
+    "url": "/api/2024/classes/wizard"
+  },
+  "class_specific": {
+    "arcane_recovery_levels": 2
+  },
+  "spellcasting": {
+    "cantrips_known": 3,
+    "spells_known": 6,
+    "spell_slots_level_1": 4,
+    "spell_slots_level_2": 2
+  },
+  "url": "/api/2024/classes/wizard/levels/3"
+}

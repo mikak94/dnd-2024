@@ -1,0 +1,16 @@
+{
+  "index": "lorwyn-changeling-unpredictable-movement",
+  "name": "Unpredictable Movement",
+  "species": [
+    {
+      "index": "lorwyn-changeling",
+      "name": "Lorwyn Changeling",
+      "url": "/api/2024/species/lorwyn-changeling"
+    }
+  ],
+  "subspecies": [],
+  "desc": [
+    "When you roll Initiative and don't have Disadvantage on that roll, you can take the Dash action as a Reaction."
+  ],
+  "url": "/api/2024/traits/lorwyn-changeling-unpredictable-movement"
+}

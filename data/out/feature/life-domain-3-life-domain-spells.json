@@ -1,0 +1,26 @@
+{
+  "index": "life-domain-3-life-domain-spells",
+  "name": "Life Domain Spells",
+  "level": 3,
+  "class": {
+    "index": "cleric",
+    "name": "Cleric",
+    "url": "/api/2024/classes/cleric"
+  },
+  "subclass": {
+    "index": "life-domain",
+    "name": "Life Domain",
+    "url": "/api/2024/subclasses/life-domain"
+  },
+  "desc": [
+    "Your connection to this divine domain ensures you always have certain spells ready. When you reach a Cleric level specified in the Life Domain Spells table, you thereafter always have the listed spells prepared.",
+    "| Cleric Level | Prepared Spells |",
+    "| --- | --- |",
+    "| 3 | Aid, Bless, Cure Wounds, Lesser Restoration |",
+    "| 5 | Mass Healing Word, Revivify |",
+    "| 7 | Aura of Life, Death Ward |",
+    "| 9 | Greater Restoration, Mass Cure Wounds |"
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/life-domain-3-life-domain-spells"
+}

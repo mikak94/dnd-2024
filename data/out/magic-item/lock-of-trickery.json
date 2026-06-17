@@ -1,0 +1,15 @@
+{
+  "index": "lock-of-trickery",
+  "name": "Lock of Trickery",
+  "equipment_category": {
+    "index": "wondrous-items",
+    "name": "Wondrous Items",
+    "url": "/api/2024/equipment-categories/wondrous-items"
+  },
+  "rarity": { "name": "Common" },
+  "attunement": false,
+  "desc": "This lock appears to be an ordinary Lock (of the type described in chapter 6 of the Player's Handbook) and comes with a single key. The tumblers in this lock magically adjust to thwart burglars. Dexterity checks made to pick the lock have Disadvantage.",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/lock-of-trickery"
+}

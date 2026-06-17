@@ -1,0 +1,16 @@
+{
+  "index": "action-surge",
+  "name": "Action Surge",
+  "level": 17,
+  "class": {
+    "index": "fighter",
+    "name": "Fighter",
+    "url": "/api/2024/classes/fighter"
+  },
+  "desc": [
+    "You can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action, except the Magic action.",
+    "Once you use this feature, you can't do so again until you finish a Short or Long Rest. Starting at level 17, you can use it twice before a rest but only once on a turn."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/action-surge"
+}

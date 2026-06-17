@@ -1,0 +1,210 @@
+{
+  "index": "circle-of-the-land",
+  "class": {
+    "index": "druid",
+    "name": "Druid",
+    "url": "/api/2024/classes/druid"
+  },
+  "name": "Circle of the Land",
+  "subclass_flavor": "Druid Circle",
+  "desc": [
+    "Celebrate Connection to the Natural World",
+    "The Circle of the Land comprises mystics and sages who safeguard ancient knowledge and rites. These Druids meet within sacred circles of trees or standing stones to whisper primal secrets in Druidic. The circle's wisest members preside as the chief priests of their communities."
+  ],
+  "subclass_levels": "/api/2024/subclasses/circle-of-the-land/levels",
+  "spells": [
+    {
+      "prerequisites": [{ "index": "circle-of-the-land-3", "type": "level" }],
+      "spell": {
+        "index": "blur",
+        "name": "Blur",
+        "url": "/api/2024/spells/blur"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "circle-of-the-land-3", "type": "level" }],
+      "spell": {
+        "index": "burning-hands",
+        "name": "Burning Hands",
+        "url": "/api/2024/spells/burning-hands"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "circle-of-the-land-3", "type": "level" }],
+      "spell": {
+        "index": "fire-bolt",
+        "name": "Fire Bolt",
+        "url": "/api/2024/spells/fire-bolt"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "circle-of-the-land-5", "type": "level" }],
+      "spell": {
+        "index": "fireball",
+        "name": "Fireball",
+        "url": "/api/2024/spells/fireball"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "circle-of-the-land-7", "type": "level" }],
+      "spell": {
+        "index": "blight",
+        "name": "Blight",
+        "url": "/api/2024/spells/blight"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "circle-of-the-land-9", "type": "level" }],
+      "spell": {
+        "index": "wall-of-stone",
+        "name": "Wall of Stone",
+        "url": "/api/2024/spells/wall-of-stone"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "circle-of-the-land-3", "type": "level" }],
+      "spell": {
+        "index": "fog-cloud",
+        "name": "Fog Cloud",
+        "url": "/api/2024/spells/fog-cloud"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "circle-of-the-land-3", "type": "level" }],
+      "spell": {
+        "index": "hold-person",
+        "name": "Hold Person",
+        "url": "/api/2024/spells/hold-person"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "circle-of-the-land-3", "type": "level" }],
+      "spell": {
+        "index": "ray-of-frost",
+        "name": "Ray of Frost",
+        "url": "/api/2024/spells/ray-of-frost"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "circle-of-the-land-5", "type": "level" }],
+      "spell": {
+        "index": "sleet-storm",
+        "name": "Sleet Storm",
+        "url": "/api/2024/spells/sleet-storm"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "circle-of-the-land-7", "type": "level" }],
+      "spell": {
+        "index": "ice-storm",
+        "name": "Ice Storm",
+        "url": "/api/2024/spells/ice-storm"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "circle-of-the-land-9", "type": "level" }],
+      "spell": {
+        "index": "cone-of-cold",
+        "name": "Cone of Cold",
+        "url": "/api/2024/spells/cone-of-cold"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "circle-of-the-land-3", "type": "level" }],
+      "spell": {
+        "index": "misty-step",
+        "name": "Misty Step",
+        "url": "/api/2024/spells/misty-step"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "circle-of-the-land-3", "type": "level" }],
+      "spell": {
+        "index": "shocking-grasp",
+        "name": "Shocking Grasp",
+        "url": "/api/2024/spells/shocking-grasp"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "circle-of-the-land-3", "type": "level" }],
+      "spell": {
+        "index": "sleep",
+        "name": "Sleep",
+        "url": "/api/2024/spells/sleep"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "circle-of-the-land-5", "type": "level" }],
+      "spell": {
+        "index": "lightning-bolt",
+        "name": "Lightning Bolt",
+        "url": "/api/2024/spells/lightning-bolt"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "circle-of-the-land-7", "type": "level" }],
+      "spell": {
+        "index": "freedom-of-movement",
+        "name": "Freedom of Movement",
+        "url": "/api/2024/spells/freedom-of-movement"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "circle-of-the-land-9", "type": "level" }],
+      "spell": {
+        "index": "tree-stride",
+        "name": "Tree Stride",
+        "url": "/api/2024/spells/tree-stride"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "circle-of-the-land-3", "type": "level" }],
+      "spell": {
+        "index": "acid-splash",
+        "name": "Acid Splash",
+        "url": "/api/2024/spells/acid-splash"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "circle-of-the-land-3", "type": "level" }],
+      "spell": {
+        "index": "ray-of-sickness",
+        "name": "Ray of Sickness",
+        "url": "/api/2024/spells/ray-of-sickness"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "circle-of-the-land-3", "type": "level" }],
+      "spell": {
+        "index": "web",
+        "name": "Web",
+        "url": "/api/2024/spells/web"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "circle-of-the-land-5", "type": "level" }],
+      "spell": {
+        "index": "stinking-cloud",
+        "name": "Stinking Cloud",
+        "url": "/api/2024/spells/stinking-cloud"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "circle-of-the-land-7", "type": "level" }],
+      "spell": {
+        "index": "polymorph",
+        "name": "Polymorph",
+        "url": "/api/2024/spells/polymorph"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "circle-of-the-land-9", "type": "level" }],
+      "spell": {
+        "index": "insect-plague",
+        "name": "Insect Plague",
+        "url": "/api/2024/spells/insect-plague"
+      }
+    }
+  ],
+  "url": "/api/2024/subclasses/circle-of-the-land"
+}

@@ -1,0 +1,23 @@
+{
+  "index": "playing-cards",
+  "name": "Playing Cards",
+  "equipment_categories": [
+    {
+      "index": "gaming-sets",
+      "name": "Gaming Sets",
+      "url": "/api/2024/equipment-categories/gaming-sets"
+    },
+    {
+      "index": "tools",
+      "name": "Tools",
+      "url": "/api/2024/equipment-categories/tools"
+    }
+  ],
+  "url": "/api/2024/equipment/playing-cards",
+  "cost": { "quantity": 5, "unit": "sp" },
+  "ability": {
+    "index": "wis",
+    "name": "WIS",
+    "url": "/api/2024/ability-scores/wis"
+  }
+}

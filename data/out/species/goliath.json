@@ -1,0 +1,27 @@
+{
+  "index": "goliath",
+  "name": "Goliath",
+  "size": "Medium",
+  "size_description": "about 7-8 feet tall",
+  "speed": 35,
+  "type": "Humanoid",
+  "traits": [
+    {
+      "index": "goliath-giant-ancestry",
+      "name": "Giant Ancestry",
+      "url": "/api/2024/traits/goliath-giant-ancestry"
+    },
+    {
+      "index": "goliath-large-form",
+      "name": "Large Form",
+      "url": "/api/2024/traits/goliath-large-form"
+    },
+    {
+      "index": "goliath-powerful-build",
+      "name": "Powerful Build",
+      "url": "/api/2024/traits/goliath-powerful-build"
+    }
+  ],
+  "subspecies": [],
+  "url": "/api/2024/species/goliath"
+}

@@ -1,0 +1,15 @@
+{
+  "index": "crossbow-bolt-case",
+  "name": "Crossbow Bolt Case",
+  "equipment_categories": [
+    {
+      "index": "adventuring-gear",
+      "name": "Adventuring Gear",
+      "url": "/api/2024/equipment-categories/adventuring-gear"
+    }
+  ],
+  "cost": { "quantity": 1, "unit": "gp" },
+  "weight": 1,
+  "description": "A Crossbow Bolt Case holds up to 20 Bolts.",
+  "url": "/api/2024/equipment/crossbow-bolt-case"
+}

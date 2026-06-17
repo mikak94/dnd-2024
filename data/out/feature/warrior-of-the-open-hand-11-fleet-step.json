@@ -1,0 +1,20 @@
+{
+  "index": "warrior-of-the-open-hand-11-fleet-step",
+  "name": "Fleet Step",
+  "level": 11,
+  "class": {
+    "index": "monk",
+    "name": "Monk",
+    "url": "/api/2024/classes/monk"
+  },
+  "subclass": {
+    "index": "warrior-of-the-open-hand",
+    "name": "Warrior of the Open Hand",
+    "url": "/api/2024/subclasses/warrior-of-the-open-hand"
+  },
+  "desc": [
+    "When you take a Bonus Action other than Step of the Wind, you can also use Step of the Wind immediately after that Bonus Action."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/warrior-of-the-open-hand-11-fleet-step"
+}

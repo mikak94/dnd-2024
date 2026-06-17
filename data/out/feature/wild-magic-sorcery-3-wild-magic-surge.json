@@ -1,0 +1,21 @@
+{
+  "index": "wild-magic-sorcery-3-wild-magic-surge",
+  "name": "Wild Magic Surge",
+  "level": 3,
+  "class": {
+    "index": "sorcerer",
+    "name": "Sorcerer",
+    "url": "/api/2024/classes/sorcerer"
+  },
+  "subclass": {
+    "index": "wild-magic-sorcery",
+    "name": "Wild Magic Sorcery",
+    "url": "/api/2024/subclasses/wild-magic-sorcery"
+  },
+  "desc": [
+    "Your spellcasting can unleash surges of untamed magic. Once per turn, you can roll 1d20 immediately after you cast a Sorcerer spell with a spell slot. If you roll a 20, roll on the Wild Magic Surge table to create a magical effect.",
+    "If the magical effect is a spell, it is too wild to be affected by your Metamagic."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/wild-magic-sorcery-3-wild-magic-surge"
+}

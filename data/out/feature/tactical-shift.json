@@ -1,0 +1,15 @@
+{
+  "index": "tactical-shift",
+  "name": "Tactical Shift",
+  "level": 5,
+  "class": {
+    "index": "fighter",
+    "name": "Fighter",
+    "url": "/api/2024/classes/fighter"
+  },
+  "desc": [
+    "Whenever you activate your Second Wind with a Bonus Action, you can move up to half your Speed without provoking Opportunity Attacks."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/tactical-shift"
+}

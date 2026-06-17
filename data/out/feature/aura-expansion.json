@@ -1,0 +1,13 @@
+{
+  "index": "aura-expansion",
+  "name": "Aura Expansion",
+  "level": 18,
+  "class": {
+    "index": "paladin",
+    "name": "Paladin",
+    "url": "/api/2024/classes/paladin"
+  },
+  "desc": ["Your Aura of Protection is now a 30-foot Emanation."],
+  "prerequisites": [],
+  "url": "/api/2024/features/aura-expansion"
+}

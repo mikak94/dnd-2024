@@ -1,0 +1,21 @@
+{
+  "index": "bladesinger-3-training-in-war-and-song",
+  "name": "Training in War and Song",
+  "level": 3,
+  "class": {
+    "index": "wizard",
+    "name": "Wizard",
+    "url": "/api/2024/classes/wizard"
+  },
+  "subclass": {
+    "index": "bladesinger",
+    "name": "Bladesinger",
+    "url": "/api/2024/subclasses/bladesinger"
+  },
+  "desc": [
+    "You gain proficiency with all Melee Martial weapons that don't have the Two-Handed or Heavy property. You can use a Melee weapon with which you have proficiency as a Spellcasting Focus for your Wizard spells.",
+    "You also gain proficiency in one of the following skills of your choice: Acrobatics, Athletics, Performance, or Persuasion."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/bladesinger-3-training-in-war-and-song"
+}

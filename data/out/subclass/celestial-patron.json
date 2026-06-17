@@ -1,0 +1,114 @@
+{
+  "index": "celestial-patron",
+  "class": {
+    "index": "warlock",
+    "name": "Warlock",
+    "url": "/api/2024/classes/warlock"
+  },
+  "name": "Celestial Patron",
+  "subclass_flavor": "Otherworldly Patron",
+  "desc": [
+    "Call on the Power of the Heavens",
+    "Your pact draws on the Upper Planes, the realms of everlasting bliss. You might enter an agreement with an empyrean, a couatl, a sphinx, a unicorn, or another heavenly entity. Or you might call on numerous such beings as you pursue goals aligned with theirs. Your pact allows you to experience a hint of the holy light that illuminates the multiverse."
+  ],
+  "subclass_levels": "/api/2024/subclasses/celestial-patron/levels",
+  "spells": [
+    {
+      "prerequisites": [{ "index": "celestial-patron-3", "type": "level" }],
+      "spell": {
+        "index": "aid",
+        "name": "Aid",
+        "url": "/api/2024/spells/aid"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "celestial-patron-3", "type": "level" }],
+      "spell": {
+        "index": "cure-wounds",
+        "name": "Cure Wounds",
+        "url": "/api/2024/spells/cure-wounds"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "celestial-patron-3", "type": "level" }],
+      "spell": {
+        "index": "guiding-bolt",
+        "name": "Guiding Bolt",
+        "url": "/api/2024/spells/guiding-bolt"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "celestial-patron-3", "type": "level" }],
+      "spell": {
+        "index": "lesser-restoration",
+        "name": "Lesser Restoration",
+        "url": "/api/2024/spells/lesser-restoration"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "celestial-patron-3", "type": "level" }],
+      "spell": {
+        "index": "light",
+        "name": "Light",
+        "url": "/api/2024/spells/light"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "celestial-patron-3", "type": "level" }],
+      "spell": {
+        "index": "sacred-flame",
+        "name": "Sacred Flame",
+        "url": "/api/2024/spells/sacred-flame"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "celestial-patron-5", "type": "level" }],
+      "spell": {
+        "index": "daylight",
+        "name": "Daylight",
+        "url": "/api/2024/spells/daylight"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "celestial-patron-5", "type": "level" }],
+      "spell": {
+        "index": "revivify",
+        "name": "Revivify",
+        "url": "/api/2024/spells/revivify"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "celestial-patron-7", "type": "level" }],
+      "spell": {
+        "index": "guardian-of-faith",
+        "name": "Guardian of Faith",
+        "url": "/api/2024/spells/guardian-of-faith"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "celestial-patron-7", "type": "level" }],
+      "spell": {
+        "index": "wall-of-fire",
+        "name": "Wall of Fire",
+        "url": "/api/2024/spells/wall-of-fire"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "celestial-patron-9", "type": "level" }],
+      "spell": {
+        "index": "greater-restoration",
+        "name": "Greater Restoration",
+        "url": "/api/2024/spells/greater-restoration"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "celestial-patron-9", "type": "level" }],
+      "spell": {
+        "index": "summon-celestial",
+        "name": "Summon Celestial",
+        "url": "/api/2024/spells/summon-celestial"
+      }
+    }
+  ],
+  "url": "/api/2024/subclasses/celestial-patron"
+}

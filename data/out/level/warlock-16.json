@@ -1,0 +1,30 @@
+{
+  "index": "warlock-16",
+  "level": 16,
+  "ability_score_bonuses": 4,
+  "prof_bonus": 5,
+  "features": [
+    {
+      "index": "ability-score-improvement",
+      "name": "Ability Score Improvement",
+      "url": "/api/2024/features/ability-score-improvement"
+    }
+  ],
+  "class": {
+    "index": "warlock",
+    "name": "Warlock",
+    "url": "/api/2024/classes/warlock"
+  },
+  "class_specific": {
+    "invocations_known": 9,
+    "mystic_arcanum_level_6": 1,
+    "mystic_arcanum_level_7": 1,
+    "mystic_arcanum_level_8": 1
+  },
+  "spellcasting": {
+    "cantrips_known": 4,
+    "spells_known": 13,
+    "spell_slots_level_5": 3
+  },
+  "url": "/api/2024/classes/warlock/levels/16"
+}

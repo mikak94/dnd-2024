@@ -1,0 +1,15 @@
+{
+  "index": "quiver",
+  "name": "Quiver",
+  "equipment_categories": [
+    {
+      "index": "adventuring-gear",
+      "name": "Adventuring Gear",
+      "url": "/api/2024/equipment-categories/adventuring-gear"
+    }
+  ],
+  "cost": { "quantity": 1, "unit": "gp" },
+  "weight": 1,
+  "description": "A Quiver holds up to 20 Arrows.",
+  "url": "/api/2024/equipment/quiver"
+}

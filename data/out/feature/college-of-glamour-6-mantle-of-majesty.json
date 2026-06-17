@@ -1,0 +1,23 @@
+{
+  "index": "college-of-glamour-6-mantle-of-majesty",
+  "name": "Mantle of Majesty",
+  "level": 6,
+  "class": {
+    "index": "bard",
+    "name": "Bard",
+    "url": "/api/2024/classes/bard"
+  },
+  "subclass": {
+    "index": "college-of-glamour",
+    "name": "College of Glamour",
+    "url": "/api/2024/subclasses/college-of-glamour"
+  },
+  "desc": [
+    "You always have the Command spell prepared.",
+    "As a Bonus Action, you cast Command without expending a spell slot, and you take on an unearthly appearance for 1 minute or until your Concentration ends. During this time, you can cast Command as a Bonus Action without expending a spell slot,",
+    "Any creature Charmed by you automatically fails its saving throw against the Command you cast with this feature.",
+    "Once you use this feature, you can't use it again until you finish a Long Rest. You can also restore your use of it by expending a level 3+ spell slot (no action required)."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/college-of-glamour-6-mantle-of-majesty"
+}

@@ -1,0 +1,45 @@
+{
+  "index": "feign-death",
+  "name": "Feign Death",
+  "level": 3,
+  "school": {
+    "index": "necromancy",
+    "name": "Necromancy",
+    "url": "/api/2024/magic-schools/necromancy"
+  },
+  "casting_time": "Action",
+  "range": "Touch",
+  "components": ["V", "S", "M"],
+  "material": "a pinch of graveyard dirt",
+  "ritual": true,
+  "concentration": false,
+  "duration": "1 hour",
+  "desc": [
+    "You touch a willing creature and put it into a cataleptic state that is indistinguishable from death.",
+    "For the duration, the target appears dead to outward inspection and to spells used to determine the target's status. The target has the Blinded and Incapacitated conditions, and its Speed is 0.",
+    "The target also has Resistance to all damage except Psychic damage, and it has Immunity to the Poisoned condition."
+  ],
+  "classes": [
+    {
+      "index": "bard",
+      "name": "Bard",
+      "url": "/api/2024/classes/bard"
+    },
+    {
+      "index": "cleric",
+      "name": "Cleric",
+      "url": "/api/2024/classes/cleric"
+    },
+    {
+      "index": "druid",
+      "name": "Druid",
+      "url": "/api/2024/classes/druid"
+    },
+    {
+      "index": "wizard",
+      "name": "Wizard",
+      "url": "/api/2024/classes/wizard"
+    }
+  ],
+  "url": "/api/2024/spells/feign-death"
+}

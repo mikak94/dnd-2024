@@ -1,0 +1,54 @@
+{
+  "index": "fire-bolt",
+  "name": "Fire Bolt",
+  "level": 0,
+  "school": {
+    "index": "evocation",
+    "name": "Evocation",
+    "url": "/api/2024/magic-schools/evocation"
+  },
+  "casting_time": "Action",
+  "range": "120 feet",
+  "components": ["V", "S"],
+  "ritual": false,
+  "concentration": false,
+  "duration": "Instantaneous",
+  "desc": [
+    "You hurl a mote of fire at a creature or an object within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 Fire damage. A flammable object hit by this spell starts burning if it isn't being worn or carried."
+  ],
+  "higher_level": [
+    "Cantrip Upgrade. The damage increases by 1d10 when you reach levels 5 (2d10), 11 (3d10), and 17 (4d10)."
+  ],
+  "attack_type": "ranged",
+  "damage": {
+    "damage_type": {
+      "index": "fire",
+      "name": "Fire",
+      "url": "/api/2024/damage-types/fire"
+    },
+    "damage_at_character_level": {
+      "1": "1d10",
+      "5": "2d10",
+      "11": "3d10",
+      "17": "4d10"
+    }
+  },
+  "classes": [
+    {
+      "index": "artificer",
+      "name": "Artificer",
+      "url": "/api/2024/classes/artificer"
+    },
+    {
+      "index": "sorcerer",
+      "name": "Sorcerer",
+      "url": "/api/2024/classes/sorcerer"
+    },
+    {
+      "index": "wizard",
+      "name": "Wizard",
+      "url": "/api/2024/classes/wizard"
+    }
+  ],
+  "url": "/api/2024/spells/fire-bolt"
+}

@@ -1,0 +1,106 @@
+{
+  "index": "magic-initiate",
+  "name": "Magic Initiate",
+  "type": "origin",
+  "prerequisites": [],
+  "repeatable": true,
+  "desc": [
+    "You gain the following benefits.",
+    "Two Cantrips. You learn two cantrips of your choice from the Cleric, Druid, or Wizard spell list. Intelligence, Wisdom, or Charisma is your spellcasting ability for this feat's spells (choose when you select this feat).",
+    "Level 1 Spell. Choose a level 1 spell from the same list you selected for this feat's cantrips. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have.",
+    "Spell Change. Whenever you gain a new level, you can replace one of the spells you chose for this feat with a different spell of the same level from the chosen spell list.",
+    "Repeatable. You can take this feat more than once, but you must choose a different spell list each time."
+  ],
+  "choices": [
+    {
+      "desc": "Choose the spell list for this feat: the Cleric, Druid, or Wizard spell list. Your cantrips and level 1 spell come from this list.",
+      "choose": 1,
+      "type": "classes",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "cleric",
+              "name": "Cleric",
+              "url": "/api/2024/classes/cleric"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "druid",
+              "name": "Druid",
+              "url": "/api/2024/classes/druid"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "wizard",
+              "name": "Wizard",
+              "url": "/api/2024/classes/wizard"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "desc": "Intelligence, Wisdom, or Charisma is your spellcasting ability for this feat's spells (choose when you select this feat).",
+      "choose": 1,
+      "type": "abilities",
+      "ability_use": "spellcasting",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "int",
+              "name": "INT",
+              "url": "/api/2024/ability-scores/int"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "wis",
+              "name": "WIS",
+              "url": "/api/2024/ability-scores/wis"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "cha",
+              "name": "CHA",
+              "url": "/api/2024/ability-scores/cha"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "desc": "Learn two cantrips of your choice from the chosen spell list (Cleric, Druid, or Wizard).",
+      "choose": 2,
+      "type": "spells",
+      "spell_source": { "level": 0, "from_class_choice": true },
+      "from": {
+        "option_set_type": "resource_list",
+        "resource_list_url": "/api/2024/classes/wizard/spells"
+      }
+    },
+    {
+      "desc": "Choose one level 1 spell from the same list you selected for this feat's cantrips.",
+      "choose": 1,
+      "type": "spells",
+      "spell_source": { "level": 1, "from_class_choice": true },
+      "from": {
+        "option_set_type": "resource_list",
+        "resource_list_url": "/api/2024/classes/wizard/spells"
+      }
+    }
+  ],
+  "url": "/api/2024/feats/magic-initiate"
+}

@@ -1,0 +1,32 @@
+{
+  "index": "monk-3",
+  "level": 3,
+  "ability_score_bonuses": 0,
+  "prof_bonus": 2,
+  "features": [
+    {
+      "index": "deflect-attacks",
+      "name": "Deflect Attacks",
+      "url": "/api/2024/features/deflect-attacks"
+    },
+    {
+      "index": "monk-subclass",
+      "name": "Monk Subclass",
+      "url": "/api/2024/features/monk-subclass"
+    }
+  ],
+  "class": {
+    "index": "monk",
+    "name": "Monk",
+    "url": "/api/2024/classes/monk"
+  },
+  "url": "/api/2024/classes/monk/levels/3",
+  "class_specific": {
+    "ki_points": 3,
+    "unarmored_movement": 10,
+    "martial_arts": {
+      "dice_count": 1,
+      "dice_value": 6
+    }
+  }
+}

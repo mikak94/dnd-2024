@@ -1,0 +1,20 @@
+{
+  "index": "assassin-3-assassins-tools",
+  "name": "Assassin's Tools",
+  "level": 3,
+  "class": {
+    "index": "rogue",
+    "name": "Rogue",
+    "url": "/api/2024/classes/rogue"
+  },
+  "subclass": {
+    "index": "assassin",
+    "name": "Assassin",
+    "url": "/api/2024/subclasses/assassin"
+  },
+  "desc": [
+    "You gain a Disguise Kit and a Poisoner's Kit, and you have proficiency with them."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/assassin-3-assassins-tools"
+}

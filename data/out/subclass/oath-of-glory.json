@@ -1,0 +1,102 @@
+{
+  "index": "oath-of-glory",
+  "class": {
+    "index": "paladin",
+    "name": "Paladin",
+    "url": "/api/2024/classes/paladin"
+  },
+  "name": "Oath of Glory",
+  "subclass_flavor": "Sacred Oath",
+  "desc": [
+    "Strive for the Heights of Heroism",
+    "Paladins who take the Oath of Glory believe they and their companions are destined to achieve glory through deeds of heroism. They train diligently and encourage their companions, so that they're all ready when destiny calls.",
+    "These Paladins share the following tenets:",
+    "Endeavor to be known by your deeds.",
+    "Face hardships with courage.",
+    "Inspire others to strive for glory."
+  ],
+  "subclass_levels": "/api/2024/subclasses/oath-of-glory/levels",
+  "spells": [
+    {
+      "prerequisites": [{ "index": "oath-of-glory-3", "type": "level" }],
+      "spell": {
+        "index": "guiding-bolt",
+        "name": "Guiding Bolt",
+        "url": "/api/2024/spells/guiding-bolt"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "oath-of-glory-3", "type": "level" }],
+      "spell": {
+        "index": "heroism",
+        "name": "Heroism",
+        "url": "/api/2024/spells/heroism"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "oath-of-glory-5", "type": "level" }],
+      "spell": {
+        "index": "enhance-ability",
+        "name": "Enhance Ability",
+        "url": "/api/2024/spells/enhance-ability"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "oath-of-glory-5", "type": "level" }],
+      "spell": {
+        "index": "magic-weapon",
+        "name": "Magic Weapon",
+        "url": "/api/2024/spells/magic-weapon"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "oath-of-glory-9", "type": "level" }],
+      "spell": {
+        "index": "haste",
+        "name": "Haste",
+        "url": "/api/2024/spells/haste"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "oath-of-glory-9", "type": "level" }],
+      "spell": {
+        "index": "protection-from-energy",
+        "name": "Protection from Energy",
+        "url": "/api/2024/spells/protection-from-energy"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "oath-of-glory-13", "type": "level" }],
+      "spell": {
+        "index": "compulsion",
+        "name": "Compulsion",
+        "url": "/api/2024/spells/compulsion"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "oath-of-glory-13", "type": "level" }],
+      "spell": {
+        "index": "freedom-of-movement",
+        "name": "Freedom of Movement",
+        "url": "/api/2024/spells/freedom-of-movement"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "oath-of-glory-17", "type": "level" }],
+      "spell": {
+        "index": "legend-lore",
+        "name": "Legend Lore",
+        "url": "/api/2024/spells/legend-lore"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "oath-of-glory-17", "type": "level" }],
+      "spell": {
+        "index": "yolande-s-regal-presence",
+        "name": "Yolande's Regal Presence",
+        "url": "/api/2024/spells/yolande-s-regal-presence"
+      }
+    }
+  ],
+  "url": "/api/2024/subclasses/oath-of-glory"
+}

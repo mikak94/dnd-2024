@@ -1,0 +1,26 @@
+{
+  "index": "soulknife-3-psychic-blades",
+  "name": "Psychic Blades",
+  "level": 3,
+  "class": {
+    "index": "rogue",
+    "name": "Rogue",
+    "url": "/api/2024/classes/rogue"
+  },
+  "subclass": {
+    "index": "soulknife",
+    "name": "Soulknife",
+    "url": "/api/2024/subclasses/soulknife"
+  },
+  "desc": [
+    "You can manifest shimmering blades of psychic energy. Whenever you take the Attack action or make an Opportunity Attack, you can manifest a Psychic Blade in your free hand and make the attack with that blade. The magic blade has the following traits:",
+    "**Weapon Category:** Simple Melee",
+    "**Damage on a Hit:** 1d6 Psychic plus the ability modifier used for the attack roll",
+    "**Properties:** Finesse, Thrown (range 60/120 feet)",
+    "**Mastery:** Vex (you can use this property, and it doesn't count against the number of properties you can use with Weapon Mastery)",
+    "The blade vanishes immediately after it hits or misses its target, and it leaves no mark if it deals damage.",
+    "After you attack with the blade on your turn, you can make a melee or ranged attack with a second psychic blade as a Bonus Action on the same turn if your other hand is free to create it. The damage die of this bonus attack is 1d4 instead of 1d6."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/soulknife-3-psychic-blades"
+}

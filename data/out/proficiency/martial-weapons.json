@@ -1,0 +1,11 @@
+{
+  "index": "martial-weapons",
+  "name": "Martial Weapons",
+  "type": "Weapons",
+  "reference": {
+    "index": "martial-weapons",
+    "name": "Martial Weapons",
+    "url": "/api/2024/equipment-categories/martial-weapons"
+  },
+  "url": "/api/2024/proficiencies/martial-weapons"
+}

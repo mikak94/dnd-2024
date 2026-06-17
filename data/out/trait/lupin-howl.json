@@ -1,0 +1,13 @@
+{
+  "index": "lupin-howl",
+  "name": "Howl",
+  "species": [
+    { "index": "lupin", "name": "Lupin", "url": "/api/2024/species/lupin" }
+  ],
+  "subspecies": [],
+  "desc": [
+    "As a Bonus Action, you let out an unearthly howl. Each creature of your choice within 15 feet of you must succeed on a Wisdom saving throw (DC 8 plus your Constitution modifier and Proficiency Bonus) or have Disadvantage on attack rolls and saving throws until the start of your next turn.",
+    "You can use this trait a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest."
+  ],
+  "url": "/api/2024/traits/lupin-howl"
+}

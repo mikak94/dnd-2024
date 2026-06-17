@@ -1,0 +1,165 @@
+{
+  "index": "expertise",
+  "name": "Expertise",
+  "level": 1,
+  "desc": [
+    "You gain Expertise in two of your skill proficiencies of your choice. Expertise means your Proficiency Bonus is doubled for any ability check you make that uses one of those skill proficiencies."
+  ],
+  "prerequisites": [],
+  "feature_specific": {
+    "expertise_options": {
+      "choose": 2,
+      "type": "proficiency",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-acrobatics",
+              "name": "Skill: Acrobatics",
+              "url": "/api/2024/proficiencies/skill-acrobatics"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-animal-handling",
+              "name": "Skill: Animal Handling",
+              "url": "/api/2024/proficiencies/skill-animal-handling"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-arcana",
+              "name": "Skill: Arcana",
+              "url": "/api/2024/proficiencies/skill-arcana"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-athletics",
+              "name": "Skill: Athletics",
+              "url": "/api/2024/proficiencies/skill-athletics"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-deception",
+              "name": "Skill: Deception",
+              "url": "/api/2024/proficiencies/skill-deception"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-history",
+              "name": "Skill: History",
+              "url": "/api/2024/proficiencies/skill-history"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-insight",
+              "name": "Skill: Insight",
+              "url": "/api/2024/proficiencies/skill-insight"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-intimidation",
+              "name": "Skill: Intimidation",
+              "url": "/api/2024/proficiencies/skill-intimidation"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-investigation",
+              "name": "Skill: Investigation",
+              "url": "/api/2024/proficiencies/skill-investigation"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-medicine",
+              "name": "Skill: Medicine",
+              "url": "/api/2024/proficiencies/skill-medicine"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-nature",
+              "name": "Skill: Nature",
+              "url": "/api/2024/proficiencies/skill-nature"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-perception",
+              "name": "Skill: Perception",
+              "url": "/api/2024/proficiencies/skill-perception"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-performance",
+              "name": "Skill: Performance",
+              "url": "/api/2024/proficiencies/skill-performance"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-persuasion",
+              "name": "Skill: Persuasion",
+              "url": "/api/2024/proficiencies/skill-persuasion"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-religion",
+              "name": "Skill: Religion",
+              "url": "/api/2024/proficiencies/skill-religion"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-sleight-of-hand",
+              "name": "Skill: Sleight of Hand",
+              "url": "/api/2024/proficiencies/skill-sleight-of-hand"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-stealth",
+              "name": "Skill: Stealth",
+              "url": "/api/2024/proficiencies/skill-stealth"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-survival",
+              "name": "Skill: Survival",
+              "url": "/api/2024/proficiencies/skill-survival"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "url": "/api/2024/features/expertise"
+}

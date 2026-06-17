@@ -1,0 +1,20 @@
+{
+  "index": "arcane-trickster-9-magical-ambush",
+  "name": "Magical Ambush",
+  "level": 9,
+  "class": {
+    "index": "rogue",
+    "name": "Rogue",
+    "url": "/api/2024/classes/rogue"
+  },
+  "subclass": {
+    "index": "arcane-trickster",
+    "name": "Arcane Trickster",
+    "url": "/api/2024/subclasses/arcane-trickster"
+  },
+  "desc": [
+    "If you have the Invisible condition when you cast a spell on a creature, it has Disadvantage on any saving throw it makes against the spell on the same turn."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/arcane-trickster-9-magical-ambush"
+}

@@ -1,0 +1,13 @@
+{
+  "index": "monk-subclass",
+  "name": "Subclass Feature",
+  "level": 11,
+  "class": {
+    "index": "monk",
+    "name": "Monk",
+    "url": "/api/2024/classes/monk"
+  },
+  "desc": ["You gain a feature granted by your Monk subclass."],
+  "prerequisites": [],
+  "url": "/api/2024/features/monk-subclass"
+}

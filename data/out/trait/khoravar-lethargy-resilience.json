@@ -1,0 +1,16 @@
+{
+  "index": "khoravar-lethargy-resilience",
+  "name": "Lethargy Resilience",
+  "species": [
+    {
+      "index": "khoravar",
+      "name": "Khoravar",
+      "url": "/api/2024/species/khoravar"
+    }
+  ],
+  "subspecies": [],
+  "desc": [
+    "When you fail a saving throw to avoid or end the Unconscious condition, you can succeed instead. Once you use this trait, you can't do so again until you finish 1d4 Long Rests."
+  ],
+  "url": "/api/2024/traits/khoravar-lethargy-resilience"
+}

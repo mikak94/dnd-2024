@@ -1,0 +1,15 @@
+{
+  "index": "pole-of-collapsing",
+  "name": "Pole of Collapsing",
+  "equipment_category": {
+    "index": "wondrous-items",
+    "name": "Wondrous Items",
+    "url": "/api/2024/equipment-categories/wondrous-items"
+  },
+  "rarity": { "name": "Common" },
+  "attunement": false,
+  "desc": "This item functions as a Pole. While holding it, you can take a Magic action to collapse it into a 1-foot-long rod for ease of storage (the pole's weight doesn't change) or cause the 1-foot-long rod to revert to a Pole. The rod elongates only as far as the surrounding space allows.",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/pole-of-collapsing"
+}

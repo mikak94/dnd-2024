@@ -1,0 +1,16 @@
+{
+  "index": "phantom",
+  "class": {
+    "index": "rogue",
+    "name": "Rogue",
+    "url": "/api/2024/classes/rogue"
+  },
+  "name": "Phantom",
+  "subclass_flavor": "Roguish Archetype",
+  "desc": [
+    "Embrace Death and Wield Ghostly Power",
+    "Some Rogues traverse the veil between life and death, shepherding opponents to the grave and slipping through the world as undetectable as a spirit. In these pursuits, a Rogue might discover a mystical connection to death itself. Such an individual becomes immersed in negative energy, infusing their strikes with deathly energy and stealing knowledge from souls who have passed on. Thieves' guilds value Rogues of this persuasion as highly effective information gatherers and spies."
+  ],
+  "subclass_levels": "/api/2024/subclasses/phantom/levels",
+  "url": "/api/2024/subclasses/phantom"
+}

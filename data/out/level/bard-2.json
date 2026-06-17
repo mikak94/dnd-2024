@@ -1,0 +1,29 @@
+{
+  "index": "bard-2",
+  "level": 2,
+  "ability_score_bonuses": 0,
+  "prof_bonus": 2,
+  "features": [
+    {
+      "index": "expertise-bard",
+      "name": "Expertise",
+      "url": "/api/2024/features/expertise-bard"
+    },
+    {
+      "index": "jack-of-all-trades",
+      "name": "Jack of all Trades",
+      "url": "/api/2024/features/jack-of-all-trades"
+    }
+  ],
+  "class": {
+    "index": "bard",
+    "name": "Bard",
+    "url": "/api/2024/classes/bard"
+  },
+  "spellcasting": {
+    "cantrips_known": 2,
+    "spells_known": 5,
+    "spell_slots_level_1": 3
+  },
+  "url": "/api/2024/classes/bard/levels/2"
+}

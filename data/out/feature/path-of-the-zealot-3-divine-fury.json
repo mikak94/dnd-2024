@@ -1,0 +1,20 @@
+{
+  "index": "path-of-the-zealot-3-divine-fury",
+  "name": "Divine Fury",
+  "level": 3,
+  "class": {
+    "index": "barbarian",
+    "name": "Barbarian",
+    "url": "/api/2024/classes/barbarian"
+  },
+  "subclass": {
+    "index": "path-of-the-zealot",
+    "name": "Path of the Zealot",
+    "url": "/api/2024/subclasses/path-of-the-zealot"
+  },
+  "desc": [
+    "You can channel divine power into your strikes. On each of your turns while your Rage is active, the first creature you hit with a weapon or an Unarmed Strike takes extra damage equal to 1d6 plus half your Barbarian level (round down). The extra damage is Necrotic or Radiant; you choose the type each time you deal the damage."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/path-of-the-zealot-3-divine-fury"
+}

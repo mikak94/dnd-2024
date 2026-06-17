@@ -1,0 +1,10 @@
+{
+  "index": "gnome-darkvision",
+  "name": "Darkvision",
+  "species": [
+    { "index": "gnome", "name": "Gnome", "url": "/api/2024/species/gnome" }
+  ],
+  "subspecies": [],
+  "desc": ["You have Darkvision with a range of 60 feet."],
+  "url": "/api/2024/traits/gnome-darkvision"
+}

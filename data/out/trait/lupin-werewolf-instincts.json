@@ -1,0 +1,51 @@
+{
+  "index": "lupin-werewolf-instincts",
+  "name": "Werewolf Instincts",
+  "species": [
+    {
+      "index": "lupin",
+      "name": "Lupin",
+      "url": "/api/2024/species/lupin"
+    }
+  ],
+  "subspecies": [],
+  "desc": [
+    "You have proficiency in the Perception, Stealth, or Survival skill."
+  ],
+  "proficiency_choices": [
+    {
+      "choose": 1,
+      "type": "proficiencies",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-perception",
+              "name": "Perception",
+              "url": "/api/2024/proficiencies/skill-perception"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-stealth",
+              "name": "Stealth",
+              "url": "/api/2024/proficiencies/skill-stealth"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-survival",
+              "name": "Survival",
+              "url": "/api/2024/proficiencies/skill-survival"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "url": "/api/2024/traits/lupin-werewolf-instincts"
+}

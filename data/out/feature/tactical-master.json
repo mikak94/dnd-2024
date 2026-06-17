@@ -1,0 +1,15 @@
+{
+  "index": "tactical-master",
+  "name": "Tactical Master",
+  "level": 9,
+  "class": {
+    "index": "fighter",
+    "name": "Fighter",
+    "url": "/api/2024/classes/fighter"
+  },
+  "desc": [
+    "When you attack with a weapon whose mastery property you can use, you can replace that property with the Push, Sap, or Slow property for that attack."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/tactical-master"
+}

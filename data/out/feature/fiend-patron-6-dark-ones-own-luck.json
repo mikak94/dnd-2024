@@ -1,0 +1,21 @@
+{
+  "index": "fiend-patron-6-dark-ones-own-luck",
+  "name": "Dark One's Own Luck",
+  "level": 6,
+  "class": {
+    "index": "warlock",
+    "name": "Warlock",
+    "url": "/api/2024/classes/warlock"
+  },
+  "subclass": {
+    "index": "fiend-patron",
+    "name": "Fiend Patron",
+    "url": "/api/2024/subclasses/fiend-patron"
+  },
+  "desc": [
+    "You can call on your fiendish patron to alter fate in your favor. When you make an ability check or a saving throw, you can use this feature to add 1d10 to your roll. You can do so after seeing the roll but before any of the roll's effects occur.",
+    "You can use this feature a number of times equal to your Charisma modifier (minimum of once), but you can use it no more than once per roll. You regain all expended uses when you finish a Long Rest."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/fiend-patron-6-dark-ones-own-luck"
+}

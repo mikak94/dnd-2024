@@ -1,0 +1,15 @@
+{
+  "index": "iron-pot",
+  "name": "Iron Pot",
+  "equipment_categories": [
+    {
+      "index": "adventuring-gear",
+      "name": "Adventuring Gear",
+      "url": "/api/2024/equipment-categories/adventuring-gear"
+    }
+  ],
+  "cost": { "quantity": 2, "unit": "gp" },
+  "weight": 10,
+  "description": "An Iron Pot holds up to 1 gallon.",
+  "url": "/api/2024/equipment/iron-pot"
+}

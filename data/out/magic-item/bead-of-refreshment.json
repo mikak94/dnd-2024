@@ -1,0 +1,15 @@
+{
+  "index": "bead-of-refreshment",
+  "name": "Bead of Refreshment",
+  "equipment_category": {
+    "index": "wondrous-items",
+    "name": "Wondrous Items",
+    "url": "/api/2024/equipment-categories/wondrous-items"
+  },
+  "rarity": { "name": "Common" },
+  "attunement": false,
+  "desc": "This flavorless, gelatinous bead dissolves in liquid, transforming up to a pint of the liquid into fresh, cold drinking water. The bead has no effect on magical liquids or harmful substances such as poison.",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/bead-of-refreshment"
+}

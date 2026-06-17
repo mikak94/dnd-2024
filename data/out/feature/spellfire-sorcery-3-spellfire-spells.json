@@ -1,0 +1,26 @@
+{
+  "index": "spellfire-sorcery-3-spellfire-spells",
+  "name": "Spellfire Spells",
+  "level": 3,
+  "class": {
+    "index": "sorcerer",
+    "name": "Sorcerer",
+    "url": "/api/2024/classes/sorcerer"
+  },
+  "subclass": {
+    "index": "spellfire-sorcery",
+    "name": "Spellfire Sorcery",
+    "url": "/api/2024/subclasses/spellfire-sorcery"
+  },
+  "desc": [
+    "When you reach a Sorcerer level specified in the Spellfire Spells table, you thereafter always have the listed spells prepared.",
+    "| Sorcerer Level | Spells |",
+    "| --- | --- |",
+    "| 3 | Cure Wounds, Guiding Bolt, Lesser Restoration, Scorching Ray |",
+    "| 5 | Aura of Vitality, Dispel Magic |",
+    "| 7 | Fire Shield, Wall of Fire |",
+    "| 9 | Greater Restoration, Flame Strike |"
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/spellfire-sorcery-3-spellfire-spells"
+}

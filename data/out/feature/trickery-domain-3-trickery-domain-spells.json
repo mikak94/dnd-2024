@@ -1,0 +1,26 @@
+{
+  "index": "trickery-domain-3-trickery-domain-spells",
+  "name": "Trickery Domain Spells",
+  "level": 3,
+  "class": {
+    "index": "cleric",
+    "name": "Cleric",
+    "url": "/api/2024/classes/cleric"
+  },
+  "subclass": {
+    "index": "trickery-domain",
+    "name": "Trickery Domain",
+    "url": "/api/2024/subclasses/trickery-domain"
+  },
+  "desc": [
+    "Your connection to this divine domain ensures you always have certain spells ready. When you reach a Cleric level specified in the Trickery Domain Spells table, you thereafter always have the listed spells prepared.",
+    "| Cleric Level | Prepared Spells |",
+    "| --- | --- |",
+    "| 3 | Charm Person, Disguise Self, Invisibility, Pass without Trace |",
+    "| 5 | Hypnotic Pattern, Nondetection |",
+    "| 7 | Confusion, Dimension Door |",
+    "| 9 | Dominate Person, Modify Memory |"
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/trickery-domain-3-trickery-domain-spells"
+}

@@ -1,0 +1,11 @@
+{
+  "index": "shortswords",
+  "name": "Shortswords",
+  "type": "Weapons",
+  "reference": {
+    "index": "shortsword",
+    "name": "Shortsword",
+    "url": "/api/2024/equipment/shortsword"
+  },
+  "url": "/api/2024/proficiencies/shortswords"
+}

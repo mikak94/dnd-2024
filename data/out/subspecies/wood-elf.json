@@ -1,0 +1,17 @@
+{
+  "index": "wood-elf",
+  "name": "Wood Elf",
+  "species": { "index": "elf", "name": "Elf", "url": "/api/2024/species/elf" },
+  "desc": [
+    "Wood elves carry the magic of primeval forests within themselves. They are known by many other names, including wild elves, green elves, and forest elves. Grugach are reclusive wood elves of the Greyhawk setting, while the Kagonesti and the Tairnadal are wood elves of the Dragonlance and Eberron settings, respectively.",
+    "Level 1: Your Speed increases to 35 feet. You also know the Druidcraft cantrip. Level 3: Longstrider. Level 5: Pass without Trace."
+  ],
+  "traits": [
+    {
+      "index": "wood-elf-elven-lineage",
+      "name": "Elven Lineage",
+      "url": "/api/2024/traits/wood-elf-elven-lineage"
+    }
+  ],
+  "url": "/api/2024/subspecies/wood-elf"
+}

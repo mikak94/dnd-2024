@@ -1,0 +1,22 @@
+{
+  "index": "path-of-the-zealot-3-warrior-of-the-gods",
+  "name": "Warrior of the Gods",
+  "level": 3,
+  "class": {
+    "index": "barbarian",
+    "name": "Barbarian",
+    "url": "/api/2024/classes/barbarian"
+  },
+  "subclass": {
+    "index": "path-of-the-zealot",
+    "name": "Path of the Zealot",
+    "url": "/api/2024/subclasses/path-of-the-zealot"
+  },
+  "desc": [
+    "A divine entity helps ensure you can continue the fight. You have a pool of four d12s that you can spend to heal yourself. As a Bonus Action, you can expend dice from the pool, roll them, and regain a number of Hit Points equal to the roll's total.",
+    "Your pool regains all expended dice when you finish a Long Rest.",
+    "The pool's maximum number of dice increases by one when you reach Barbarian levels 6 (5 dice), 12 (6 dice), and 17 (7 dice)."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/path-of-the-zealot-3-warrior-of-the-gods"
+}

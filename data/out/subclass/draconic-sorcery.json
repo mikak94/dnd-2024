@@ -1,0 +1,148 @@
+{
+  "index": "draconic-sorcery",
+  "class": {
+    "index": "sorcerer",
+    "name": "Sorcerer",
+    "url": "/api/2024/classes/sorcerer"
+  },
+  "name": "Draconic Sorcery",
+  "subclass_flavor": "Sorcerous Origin",
+  "desc": [
+    "Breathe the Magic of Dragons",
+    "Your innate magic comes from the gift of a dragon. Perhaps an ancient dragon facing death bequeathed some of its magical power to you or your ancestor. You might have absorbed magic from a site infused with dragons' power. Or perhaps you handled a treasure taken from a dragon's hoard that was steeped in draconic power. Or you might have a dragon for an ancestor."
+  ],
+  "subclass_levels": "/api/2024/subclasses/draconic-sorcery/levels",
+  "spells": [
+    {
+      "prerequisites": [
+        {
+          "index": "draconic-sorcery-3",
+          "type": "level"
+        }
+      ],
+      "spell": {
+        "index": "alter-self",
+        "name": "Alter Self",
+        "url": "/api/2024/spells/alter-self"
+      }
+    },
+    {
+      "prerequisites": [
+        {
+          "index": "draconic-sorcery-3",
+          "type": "level"
+        }
+      ],
+      "spell": {
+        "index": "chromatic-orb",
+        "name": "Chromatic Orb",
+        "url": "/api/2024/spells/chromatic-orb"
+      }
+    },
+    {
+      "prerequisites": [
+        {
+          "index": "draconic-sorcery-3",
+          "type": "level"
+        }
+      ],
+      "spell": {
+        "index": "command",
+        "name": "Command",
+        "url": "/api/2024/spells/command"
+      }
+    },
+    {
+      "prerequisites": [
+        {
+          "index": "draconic-sorcery-3",
+          "type": "level"
+        }
+      ],
+      "spell": {
+        "index": "dragon-s-breath",
+        "name": "Dragon's Breath",
+        "url": "/api/2024/spells/dragon-s-breath"
+      }
+    },
+    {
+      "prerequisites": [
+        {
+          "index": "draconic-sorcery-5",
+          "type": "level"
+        }
+      ],
+      "spell": {
+        "index": "fear",
+        "name": "Fear",
+        "url": "/api/2024/spells/fear"
+      }
+    },
+    {
+      "prerequisites": [
+        {
+          "index": "draconic-sorcery-5",
+          "type": "level"
+        }
+      ],
+      "spell": {
+        "index": "fly",
+        "name": "Fly",
+        "url": "/api/2024/spells/fly"
+      }
+    },
+    {
+      "prerequisites": [
+        {
+          "index": "draconic-sorcery-7",
+          "type": "level"
+        }
+      ],
+      "spell": {
+        "index": "arcane-eye",
+        "name": "Arcane Eye",
+        "url": "/api/2024/spells/arcane-eye"
+      }
+    },
+    {
+      "prerequisites": [
+        {
+          "index": "draconic-sorcery-7",
+          "type": "level"
+        }
+      ],
+      "spell": {
+        "index": "charm-monster",
+        "name": "Charm Monster",
+        "url": "/api/2024/spells/charm-monster"
+      }
+    },
+    {
+      "prerequisites": [
+        {
+          "index": "draconic-sorcery-9",
+          "type": "level"
+        }
+      ],
+      "spell": {
+        "index": "legend-lore",
+        "name": "Legend Lore",
+        "url": "/api/2024/spells/legend-lore"
+      }
+    },
+    {
+      "prerequisites": [
+        {
+          "index": "draconic-sorcery-9",
+          "type": "level"
+        }
+      ],
+      "spell": {
+        "index": "summon-dragon",
+        "name": "Summon Dragon",
+        "url": "/api/2024/spells/summon-dragon"
+      }
+    }
+  ],
+  "url": "/api/2024/subclasses/draconic-sorcery"
+}

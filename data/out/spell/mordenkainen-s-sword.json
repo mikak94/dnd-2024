@@ -1,0 +1,46 @@
+{
+  "index": "mordenkainens-sword",
+  "name": "Mordenkainen's Sword",
+  "level": 7,
+  "school": {
+    "index": "evocation",
+    "name": "Evocation",
+    "url": "/api/2024/magic-schools/evocation"
+  },
+  "casting_time": "Action",
+  "range": "90 feet",
+  "components": ["V", "S", "M"],
+  "material": "a miniature sword worth 250+ GP",
+  "ritual": false,
+  "concentration": true,
+  "duration": "Concentration, up to 1 minute",
+  "desc": [
+    "You create a spectral sword that hovers within range. It lasts for the duration.",
+    "When the sword appears, you make a melee spell attack against a target within 5 feet of the sword. On a hit, the target takes Force damage equal to 4d12 plus your spellcasting ability modifier.",
+    "On your later turns, you can take a Bonus Action to move the sword up to 30 feet to a spot you can see and repeat the attack against the same target or a different one."
+  ],
+  "attack_type": "melee",
+  "damage": {
+    "damage_type": {
+      "index": "force",
+      "name": "Force",
+      "url": "/api/2024/damage-types/force"
+    },
+    "damage_at_slot_level": {
+      "7": "4d12"
+    }
+  },
+  "classes": [
+    {
+      "index": "bard",
+      "name": "Bard",
+      "url": "/api/2024/classes/bard"
+    },
+    {
+      "index": "wizard",
+      "name": "Wizard",
+      "url": "/api/2024/classes/wizard"
+    }
+  ],
+  "url": "/api/2024/spells/mordenkainens-sword"
+}

@@ -1,0 +1,48 @@
+{
+  "index": "aasimar",
+  "name": "Aasimar",
+  "size_options": {
+    "desc": "Medium or Small, chosen when you select this species",
+    "choose": 1,
+    "type": "size",
+    "from": {
+      "option_set_type": "options_array",
+      "options": [
+        { "option_type": "size", "size": "Medium" },
+        { "option_type": "size", "size": "Small" }
+      ]
+    }
+  },
+  "size_description": "about 4-7 feet tall if Medium, or about 2-4 feet tall if Small",
+  "speed": 30,
+  "type": "Humanoid",
+  "traits": [
+    {
+      "index": "aasimar-celestial-resistance",
+      "name": "Celestial Resistance",
+      "url": "/api/2024/traits/aasimar-celestial-resistance"
+    },
+    {
+      "index": "aasimar-darkvision",
+      "name": "Darkvision",
+      "url": "/api/2024/traits/aasimar-darkvision"
+    },
+    {
+      "index": "aasimar-healing-hands",
+      "name": "Healing Hands",
+      "url": "/api/2024/traits/aasimar-healing-hands"
+    },
+    {
+      "index": "aasimar-light-bearer",
+      "name": "Light Bearer",
+      "url": "/api/2024/traits/aasimar-light-bearer"
+    },
+    {
+      "index": "aasimar-celestial-revelation",
+      "name": "Celestial Revelation",
+      "url": "/api/2024/traits/aasimar-celestial-revelation"
+    }
+  ],
+  "subspecies": [],
+  "url": "/api/2024/species/aasimar"
+}

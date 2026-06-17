@@ -1,0 +1,12 @@
+{
+  "index": "reborn-strange-endurance",
+  "name": "Strange Endurance",
+  "species": [
+    { "index": "reborn", "name": "Reborn", "url": "/api/2024/species/reborn" }
+  ],
+  "subspecies": [],
+  "desc": [
+    "You have Resistance to one of the following damage types of your choice: Cold, Necrotic, or Poison."
+  ],
+  "url": "/api/2024/traits/reborn-strange-endurance"
+}

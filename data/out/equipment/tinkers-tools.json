@@ -1,0 +1,24 @@
+{
+  "index": "tinkers-tools",
+  "name": "Tinker's Tools",
+  "equipment_categories": [
+    {
+      "index": "artisans-tools",
+      "name": "Artisan's Tools",
+      "url": "/api/2024/equipment-categories/artisans-tools"
+    },
+    {
+      "index": "tools",
+      "name": "Tools",
+      "url": "/api/2024/equipment-categories/tools"
+    }
+  ],
+  "url": "/api/2024/equipment/tinkers-tools",
+  "cost": { "quantity": 50, "unit": "gp" },
+  "weight": 10,
+  "ability": {
+    "index": "dex",
+    "name": "DEX",
+    "url": "/api/2024/ability-scores/dex"
+  }
+}

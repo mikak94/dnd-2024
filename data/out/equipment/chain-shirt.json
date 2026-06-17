@@ -1,0 +1,21 @@
+{
+  "index": "chain-shirt",
+  "name": "Chain Shirt",
+  "equipment_categories": [
+    {
+      "index": "medium-armor",
+      "name": "Medium Armor",
+      "url": "/api/2024/equipment-categories/medium-armor"
+    },
+    {
+      "index": "armor",
+      "name": "Armor",
+      "url": "/api/2024/equipment-categories/armor"
+    }
+  ],
+  "url": "/api/2024/equipment/chain-shirt",
+  "cost": { "quantity": 50, "unit": "gp" },
+  "weight": 20,
+  "armor_class": { "base": 13, "dex_bonus": true, "max_bonus": 2 },
+  "stealth_disadvantage": false
+}

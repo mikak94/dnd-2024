@@ -1,0 +1,20 @@
+{
+  "index": "fiend-patron-3-dark-ones-blessing",
+  "name": "Dark One's Blessing",
+  "level": 3,
+  "class": {
+    "index": "warlock",
+    "name": "Warlock",
+    "url": "/api/2024/classes/warlock"
+  },
+  "subclass": {
+    "index": "fiend-patron",
+    "name": "Fiend Patron",
+    "url": "/api/2024/subclasses/fiend-patron"
+  },
+  "desc": [
+    "When you reduce an enemy to 0 Hit Points, you gain Temporary Hit Points equal to your Charisma modifier plus your Warlock level (minimum of 1 Temporary Hit Point). You also gain this benefit if someone else reduces an enemy within 10 feet of you to 0 Hit Points."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/fiend-patron-3-dark-ones-blessing"
+}

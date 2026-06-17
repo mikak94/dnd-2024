@@ -1,0 +1,15 @@
+{
+  "index": "cap-of-vanishing",
+  "name": "Cap of Vanishing",
+  "equipment_category": {
+    "index": "wondrous-items",
+    "name": "Wondrous Items",
+    "url": "/api/2024/equipment-categories/wondrous-items"
+  },
+  "rarity": { "name": "Uncommon" },
+  "attunement": true,
+  "desc": "This cap has 3 charges and regains all expended charges daily at dawn. While wearing the cap, you can take a Magic action and expend 1 charge to give yourself the Invisible condition for 10 minutes. The effect ends early if the hat is removed, or immediately after you make an attack roll, deal damage, or cast a spell.",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/cap-of-vanishing"
+}

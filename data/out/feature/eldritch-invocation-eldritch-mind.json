@@ -1,0 +1,20 @@
+{
+  "index": "eldritch-invocation-eldritch-mind",
+  "name": "Eldritch Invocation: Eldritch Mind",
+  "level": 1,
+  "class": {
+    "index": "warlock",
+    "name": "Warlock",
+    "url": "/api/2024/classes/warlock"
+  },
+  "parent": {
+    "index": "eldritch-invocations",
+    "name": "Eldritch Invocations",
+    "url": "/api/2024/features/eldritch-invocations"
+  },
+  "desc": [
+    "You have Advantage on Constitution saving throws that you make to maintain Concentration."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/eldritch-invocation-eldritch-mind"
+}

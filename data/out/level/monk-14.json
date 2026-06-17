@@ -1,0 +1,27 @@
+{
+  "index": "monk-14",
+  "level": 14,
+  "ability_score_bonuses": 3,
+  "prof_bonus": 5,
+  "features": [
+    {
+      "index": "disciplined-survivor",
+      "name": "Disciplined Survivor",
+      "url": "/api/2024/features/disciplined-survivor"
+    }
+  ],
+  "class": {
+    "index": "monk",
+    "name": "Monk",
+    "url": "/api/2024/classes/monk"
+  },
+  "url": "/api/2024/classes/monk/levels/14",
+  "class_specific": {
+    "ki_points": 14,
+    "unarmored_movement": 25,
+    "martial_arts": {
+      "dice_count": 1,
+      "dice_value": 10
+    }
+  }
+}

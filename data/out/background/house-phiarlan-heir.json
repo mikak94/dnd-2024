@@ -1,0 +1,92 @@
+{
+  "index": "house-phiarlan-heir",
+  "name": "House Phiarlan Heir",
+  "starting_proficiencies": [
+    {
+      "index": "skill-deception",
+      "name": "Skill: Deception",
+      "url": "/api/2024/proficiencies/skill-deception"
+    },
+    {
+      "index": "skill-stealth",
+      "name": "Skill: Stealth",
+      "url": "/api/2024/proficiencies/skill-stealth"
+    },
+    {
+      "index": "disguise-kit",
+      "name": "Disguise Kit",
+      "url": "/api/2024/proficiencies/disguise-kit"
+    }
+  ],
+  "ability_scores": [
+    {
+      "index": "dex",
+      "name": "DEX",
+      "url": "/api/2024/ability-scores/dex"
+    },
+    {
+      "index": "wis",
+      "name": "WIS",
+      "url": "/api/2024/ability-scores/wis"
+    },
+    {
+      "index": "cha",
+      "name": "CHA",
+      "url": "/api/2024/ability-scores/cha"
+    }
+  ],
+  "feat": {
+    "index": "mark-of-shadow",
+    "name": "Mark of Shadow",
+    "url": "/api/2024/feats/mark-of-shadow"
+  },
+  "starting_equipment_options": [
+    {
+      "desc": "Choose A or B: (A) Disguise Kit, Fine Clothes, 10 GP; or (B) 50 GP",
+      "choose": 1,
+      "type": "equipment",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "multiple",
+            "items": [
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "disguise-kit",
+                  "name": "Disguise Kit",
+                  "url": "/api/2024/equipment/disguise-kit"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "fine-clothes",
+                  "name": "Fine Clothes",
+                  "url": "/api/2024/equipment/fine-clothes"
+                }
+              },
+              {
+                "option_type": "money",
+                "count": 10,
+                "unit": "GP"
+              }
+            ]
+          },
+          {
+            "option_type": "money",
+            "count": 50,
+            "unit": "GP"
+          }
+        ]
+      }
+    }
+  ],
+  "desc": [
+    "Though you have seen wealth, fame, and beauty as a child of House Phiarlan, you consider knowledge (and the power it brings) the greatest treasure of all. You might pursue that power as an artist or performer, always alert for secrets even as you regale the world with story, song, acrobatics, or art. Or you might foster ties to the secretive espionage arm of your house: the Serpentine Table."
+  ],
+  "url": "/api/2024/backgrounds/house-phiarlan-heir"
+}

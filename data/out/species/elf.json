@@ -1,0 +1,60 @@
+{
+  "index": "elf",
+  "name": "Elf",
+  "size": "Medium",
+  "size_description": "about 5-6 feet tall",
+  "speed": 30,
+  "type": "Humanoid",
+  "age": "Elves live for around 750 years, and they don't sleep but instead enter a trance when they need to rest.",
+  "traits": [
+    {
+      "index": "elf-darkvision",
+      "name": "Darkvision",
+      "url": "/api/2024/traits/elf-darkvision"
+    },
+    {
+      "index": "elf-elven-lineage",
+      "name": "Elven Lineage",
+      "url": "/api/2024/traits/elf-elven-lineage"
+    },
+    {
+      "index": "elf-fey-ancestry",
+      "name": "Fey Ancestry",
+      "url": "/api/2024/traits/elf-fey-ancestry"
+    },
+    {
+      "index": "elf-keen-senses",
+      "name": "Keen Senses",
+      "url": "/api/2024/traits/elf-keen-senses"
+    },
+    {
+      "index": "elf-trance",
+      "name": "Trance",
+      "url": "/api/2024/traits/elf-trance"
+    }
+  ],
+  "subspecies": [
+    { "index": "drow", "name": "Drow", "url": "/api/2024/subspecies/drow" },
+    {
+      "index": "high-elf",
+      "name": "High Elf",
+      "url": "/api/2024/subspecies/high-elf"
+    },
+    {
+      "index": "wood-elf",
+      "name": "Wood Elf",
+      "url": "/api/2024/subspecies/wood-elf"
+    },
+    {
+      "index": "lorwyn-elf",
+      "name": "Lorwyn Elf",
+      "url": "/api/2024/subspecies/lorwyn-elf"
+    },
+    {
+      "index": "shadowmoor-elf",
+      "name": "Shadowmoor Elf",
+      "url": "/api/2024/subspecies/shadowmoor-elf"
+    }
+  ],
+  "url": "/api/2024/species/elf"
+}

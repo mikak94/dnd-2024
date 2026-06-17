@@ -1,0 +1,15 @@
+{
+  "index": "epic-boon-bard",
+  "name": "Epic Boon",
+  "level": 19,
+  "class": {
+    "index": "bard",
+    "name": "Bard",
+    "url": "/api/2024/classes/bard"
+  },
+  "desc": [
+    "You gain an Epic Boon feat or another feat of your choice for which you qualify. Boon of Spell Recall is recommended."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/epic-boon-bard"
+}

@@ -1,0 +1,31 @@
+{
+  "index": "warlock-17",
+  "level": 17,
+  "ability_score_bonuses": 4,
+  "prof_bonus": 6,
+  "features": [
+    {
+      "index": "mystic-arcanum",
+      "name": "Mystic Arcanum (Level 9 Spell)",
+      "url": "/api/2024/features/mystic-arcanum"
+    }
+  ],
+  "class": {
+    "index": "warlock",
+    "name": "Warlock",
+    "url": "/api/2024/classes/warlock"
+  },
+  "class_specific": {
+    "invocations_known": 9,
+    "mystic_arcanum_level_6": 1,
+    "mystic_arcanum_level_7": 1,
+    "mystic_arcanum_level_8": 1,
+    "mystic_arcanum_level_9": 1
+  },
+  "spellcasting": {
+    "cantrips_known": 4,
+    "spells_known": 14,
+    "spell_slots_level_5": 4
+  },
+  "url": "/api/2024/classes/warlock/levels/17"
+}

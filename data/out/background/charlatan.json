@@ -1,0 +1,101 @@
+{
+  "index": "charlatan",
+  "name": "Charlatan",
+  "starting_proficiencies": [
+    {
+      "index": "skill-deception",
+      "name": "Skill: Deception",
+      "url": "/api/2024/proficiencies/skill-deception"
+    },
+    {
+      "index": "skill-sleight-of-hand",
+      "name": "Skill: Sleight of Hand",
+      "url": "/api/2024/proficiencies/skill-sleight-of-hand"
+    },
+    {
+      "index": "forgery-kit",
+      "name": "Forgery Kit",
+      "url": "/api/2024/proficiencies/forgery-kit"
+    }
+  ],
+  "ability_scores": [
+    {
+      "index": "dex",
+      "name": "DEX",
+      "url": "/api/2024/ability-scores/dex"
+    },
+    {
+      "index": "con",
+      "name": "CON",
+      "url": "/api/2024/ability-scores/con"
+    },
+    {
+      "index": "cha",
+      "name": "CHA",
+      "url": "/api/2024/ability-scores/cha"
+    }
+  ],
+  "feat": {
+    "index": "skilled",
+    "name": "Skilled",
+    "url": "/api/2024/feats/skilled"
+  },
+  "starting_equipment_options": [
+    {
+      "desc": "Choose A or B: (A) Forgery Kit, Costume, Fine Clothes, 15 GP; or (B) 50 GP",
+      "choose": 1,
+      "type": "equipment",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "multiple",
+            "items": [
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "forgery-kit",
+                  "name": "Forgery Kit",
+                  "url": "/api/2024/equipment/forgery-kit"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "costume",
+                  "name": "Costume",
+                  "url": "/api/2024/equipment/costume"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "fine-clothes",
+                  "name": "Fine Clothes",
+                  "url": "/api/2024/equipment/fine-clothes"
+                }
+              },
+              {
+                "option_type": "money",
+                "count": 15,
+                "unit": "GP"
+              }
+            ]
+          },
+          {
+            "option_type": "money",
+            "count": 50,
+            "unit": "GP"
+          }
+        ]
+      }
+    }
+  ],
+  "desc": [
+    "Once you were old enough to order an ale, you soon had a favorite stool in every tavern within ten miles of where you were born. As you traveled the circuit from public house to watering hole, you learned to prey on unfortunates who were in the market for a comforting lie or two—perhaps a sham potion or forged ancestry records."
+  ],
+  "url": "/api/2024/backgrounds/charlatan"
+}

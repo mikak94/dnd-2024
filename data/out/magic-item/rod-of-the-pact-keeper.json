@@ -1,0 +1,16 @@
+{
+  "index": "rod-of-the-pact-keeper",
+  "name": "Rod of the Pact Keeper",
+  "equipment_category": {
+    "index": "wondrous-items",
+    "name": "Wondrous Items",
+    "url": "/api/2024/equipment-categories/wondrous-items"
+  },
+  "rarity": { "name": "Varies" },
+  "attunement": true,
+  "limited-to": "Warlock",
+  "desc": "While holding this rod, you gain a bonus to spell attack rolls and to the saving throw DCs of your Warlock spells. The bonus is determined by the rod's rarity.\n\nIn addition, you can regain one spell slot as a Magic action while holding the rod. You can't use this property again until you finish a Long Rest.",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/rod-of-the-pact-keeper"
+}

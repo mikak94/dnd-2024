@@ -1,0 +1,21 @@
+{
+  "index": "circle-of-the-stars-10-twinkling-constellations",
+  "name": "Twinkling Constellations",
+  "level": 10,
+  "class": {
+    "index": "druid",
+    "name": "Druid",
+    "url": "/api/2024/classes/druid"
+  },
+  "subclass": {
+    "index": "circle-of-the-stars",
+    "name": "Circle of the Stars",
+    "url": "/api/2024/subclasses/circle-of-the-stars"
+  },
+  "desc": [
+    "The constellations of your Starry Form improve. The 1d8 of the Archer and the Chalice becomes 2d8, and while the Dragon is active, you have a Fly Speed of 20 feet and can hover.",
+    "Moreover, at the start of each of your turns while in your Starry Form, you can change which constellation glimmers on your body."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/circle-of-the-stars-10-twinkling-constellations"
+}

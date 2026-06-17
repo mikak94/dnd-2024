@@ -1,0 +1,149 @@
+{
+  "index": "war-domain",
+  "class": {
+    "index": "cleric",
+    "name": "Cleric",
+    "url": "/api/2024/classes/cleric"
+  },
+  "name": "War Domain",
+  "subclass_flavor": "Divine Domain",
+  "desc": [
+    "Inspire Valor and Smite Foes",
+    "War has many manifestations. It can make heroes of ordinary people. It can be desperate and horrific, with acts of cruelty and cowardice eclipsing instances of excellence and courage. Clerics who tap into the magic of the War Domain excel in battle, inspiring others to fight the good fight or offering acts of violence as prayers.",
+    "Gods of the War Domain watch over warriors and reward them for their great deeds. They include champions of honor and chivalry as well as gods of destruction and pillage. Other war gods take a more neutral stance, promoting war in all its manifestations and supporting warriors in any circumstance."
+  ],
+  "subclass_levels": "/api/2024/subclasses/war-domain/levels",
+  "spells": [
+    {
+      "prerequisites": [
+        {
+          "index": "war-domain-3",
+          "type": "level"
+        }
+      ],
+      "spell": {
+        "index": "guiding-bolt",
+        "name": "Guiding Bolt",
+        "url": "/api/2024/spells/guiding-bolt"
+      }
+    },
+    {
+      "prerequisites": [
+        {
+          "index": "war-domain-3",
+          "type": "level"
+        }
+      ],
+      "spell": {
+        "index": "magic-weapon",
+        "name": "Magic Weapon",
+        "url": "/api/2024/spells/magic-weapon"
+      }
+    },
+    {
+      "prerequisites": [
+        {
+          "index": "war-domain-3",
+          "type": "level"
+        }
+      ],
+      "spell": {
+        "index": "shield-of-faith",
+        "name": "Shield of Faith",
+        "url": "/api/2024/spells/shield-of-faith"
+      }
+    },
+    {
+      "prerequisites": [
+        {
+          "index": "war-domain-3",
+          "type": "level"
+        }
+      ],
+      "spell": {
+        "index": "spiritual-weapon",
+        "name": "Spiritual Weapon",
+        "url": "/api/2024/spells/spiritual-weapon"
+      }
+    },
+    {
+      "prerequisites": [
+        {
+          "index": "war-domain-5",
+          "type": "level"
+        }
+      ],
+      "spell": {
+        "index": "crusader-s-mantle",
+        "name": "Crusader's Mantle",
+        "url": "/api/2024/spells/crusader-s-mantle"
+      }
+    },
+    {
+      "prerequisites": [
+        {
+          "index": "war-domain-5",
+          "type": "level"
+        }
+      ],
+      "spell": {
+        "index": "spirit-guardians",
+        "name": "Spirit Guardians",
+        "url": "/api/2024/spells/spirit-guardians"
+      }
+    },
+    {
+      "prerequisites": [
+        {
+          "index": "war-domain-7",
+          "type": "level"
+        }
+      ],
+      "spell": {
+        "index": "fire-shield",
+        "name": "Fire Shield",
+        "url": "/api/2024/spells/fire-shield"
+      }
+    },
+    {
+      "prerequisites": [
+        {
+          "index": "war-domain-7",
+          "type": "level"
+        }
+      ],
+      "spell": {
+        "index": "freedom-of-movement",
+        "name": "Freedom of Movement",
+        "url": "/api/2024/spells/freedom-of-movement"
+      }
+    },
+    {
+      "prerequisites": [
+        {
+          "index": "war-domain-9",
+          "type": "level"
+        }
+      ],
+      "spell": {
+        "index": "hold-monster",
+        "name": "Hold Monster",
+        "url": "/api/2024/spells/hold-monster"
+      }
+    },
+    {
+      "prerequisites": [
+        {
+          "index": "war-domain-9",
+          "type": "level"
+        }
+      ],
+      "spell": {
+        "index": "steel-wind-strike",
+        "name": "Steel Wind Strike",
+        "url": "/api/2024/spells/steel-wind-strike"
+      }
+    }
+  ],
+  "url": "/api/2024/subclasses/war-domain"
+}

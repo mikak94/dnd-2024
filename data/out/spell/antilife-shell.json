@@ -1,0 +1,32 @@
+{
+  "index": "antilife-shell",
+  "name": "Antilife Shell",
+  "level": 5,
+  "school": {
+    "index": "abjuration",
+    "name": "Abjuration",
+    "url": "/api/2024/magic-schools/abjuration"
+  },
+  "casting_time": "Action",
+  "range": "Self",
+  "components": ["V", "S"],
+  "ritual": false,
+  "concentration": true,
+  "duration": "Concentration, up to 1 hour",
+  "desc": [
+    "An aura extends from you in a 10-foot Emanation for the duration. The aura prevents creatures other than Constructs and Undead from passing or reaching through it. An affected creature can cast spells or make attacks with Ranged or Reach weapons through the barrier.",
+    "If you move so that an affected creature is forced to pass through the barrier, the spell ends."
+  ],
+  "area_of_effect": {
+    "type": "sphere",
+    "size": 10
+  },
+  "classes": [
+    {
+      "index": "druid",
+      "name": "Druid",
+      "url": "/api/2024/classes/druid"
+    }
+  ],
+  "url": "/api/2024/spells/antilife-shell"
+}

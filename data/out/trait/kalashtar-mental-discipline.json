@@ -1,0 +1,14 @@
+{
+  "index": "kalashtar-mental-discipline",
+  "name": "Mental Discipline",
+  "species": [
+    {
+      "index": "kalashtar",
+      "name": "Kalashtar",
+      "url": "/api/2024/species/kalashtar"
+    }
+  ],
+  "subspecies": [],
+  "desc": ["You have Resistance to Psychic damage."],
+  "url": "/api/2024/traits/kalashtar-mental-discipline"
+}

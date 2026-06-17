@@ -1,0 +1,29 @@
+{
+  "index": "fighter-5",
+  "level": 5,
+  "ability_score_bonuses": 1,
+  "prof_bonus": 3,
+  "features": [
+    {
+      "index": "extra-attack-fighter",
+      "name": "Extra Attack",
+      "url": "/api/2024/features/extra-attack-fighter"
+    },
+    {
+      "index": "tactical-shift",
+      "name": "Tactical Shift",
+      "url": "/api/2024/features/tactical-shift"
+    }
+  ],
+  "class": {
+    "index": "fighter",
+    "name": "Fighter",
+    "url": "/api/2024/classes/fighter"
+  },
+  "class_specific": {
+    "extra_attacks": 2,
+    "action_surges": 1,
+    "indomitable_uses": 0
+  },
+  "url": "/api/2024/classes/fighter/levels/5"
+}

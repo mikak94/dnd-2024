@@ -1,0 +1,146 @@
+{
+  "index": "knight-of-the-gauntlet",
+  "name": "Knight Of The Gauntlet",
+  "starting_proficiencies": [
+    {
+      "index": "skill-athletics",
+      "name": "Skill: Athletics",
+      "url": "/api/2024/proficiencies/skill-athletics"
+    },
+    {
+      "index": "skill-medicine",
+      "name": "Skill: Medicine",
+      "url": "/api/2024/proficiencies/skill-medicine"
+    },
+    {
+      "index": "smiths-tools",
+      "name": "Smith's Tools",
+      "url": "/api/2024/proficiencies/smiths-tools"
+    }
+  ],
+  "ability_scores": [
+    {
+      "index": "str",
+      "name": "STR",
+      "url": "/api/2024/ability-scores/str"
+    },
+    {
+      "index": "int",
+      "name": "INT",
+      "url": "/api/2024/ability-scores/int"
+    },
+    {
+      "index": "wis",
+      "name": "WIS",
+      "url": "/api/2024/ability-scores/wis"
+    }
+  ],
+  "feat": {
+    "index": "tyro-of-the-gauntlet",
+    "name": "Tyro of the Gauntlet",
+    "url": "/api/2024/feats/tyro-of-the-gauntlet"
+  },
+  "starting_equipment_options": [
+    {
+      "desc": "Choose A or B: (A) Spear, Smith's Tools, Bullseye Lantern, Holy Symbol, Manacles, Oil (5 flasks), Tinderbox, Traveler's Clothes, 9 GP; or (B) 50 GP",
+      "choose": 1,
+      "type": "equipment",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "multiple",
+            "items": [
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "spear",
+                  "name": "Spear",
+                  "url": "/api/2024/equipment/spear"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "smiths-tools",
+                  "name": "Smith's Tools",
+                  "url": "/api/2024/equipment/smiths-tools"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "bullseye-lantern",
+                  "name": "Bullseye Lantern",
+                  "url": "/api/2024/equipment/bullseye-lantern"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "holy-symbol",
+                  "name": "Holy Symbol",
+                  "url": "/api/2024/equipment/holy-symbol"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "manacles",
+                  "name": "Manacles",
+                  "url": "/api/2024/equipment/manacles"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 5,
+                "of": {
+                  "index": "oil",
+                  "name": "Oil",
+                  "url": "/api/2024/equipment/oil"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "tinderbox",
+                  "name": "Tinderbox",
+                  "url": "/api/2024/equipment/tinderbox"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "travelers-clothes",
+                  "name": "Traveler's Clothes",
+                  "url": "/api/2024/equipment/travelers-clothes"
+                }
+              },
+              {
+                "option_type": "money",
+                "count": 9,
+                "unit": "GP"
+              }
+            ]
+          },
+          {
+            "option_type": "money",
+            "count": 50,
+            "unit": "GP"
+          }
+        ]
+      }
+    }
+  ],
+  "desc": [
+    "Not all who answer the call of a higher power are content to pore over scripture in a stuffy temple apse. You chose the path of the holy warrior by joining the Order of the Gauntlet. As a knight of the Gauntlet, you exercise righteous scorn for the forces of evil, unswerving camaraderie for your siblings in arms, and heartfelt compassion for the survivors of war. With weapon and holy symbol in hand, you've sworn not to rest until the light of justice has vanquished the shadow of chaos across Faerûn."
+  ],
+  "url": "/api/2024/backgrounds/knight-of-the-gauntlet"
+}

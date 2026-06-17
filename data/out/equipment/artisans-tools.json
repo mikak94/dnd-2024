@@ -1,0 +1,18 @@
+{
+  "index": "artisans-tools",
+  "name": "Artisan's Tools",
+  "equipment_categories": [
+    {
+      "index": "artisans-tools",
+      "name": "Artisan's Tools",
+      "url": "/api/2024/equipment-categories/artisans-tools"
+    },
+    {
+      "index": "tools",
+      "name": "Tools",
+      "url": "/api/2024/equipment-categories/tools"
+    }
+  ],
+  "description": "A category of tools, each focused on crafting items and pursuing a trade; backgrounds grant a choice of one kind. Each requires a separate proficiency.",
+  "url": "/api/2024/equipment/artisans-tools"
+}

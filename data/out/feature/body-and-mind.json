@@ -1,0 +1,15 @@
+{
+  "index": "body-and-mind",
+  "name": "Body and Mind",
+  "level": 20,
+  "class": {
+    "index": "monk",
+    "name": "Monk",
+    "url": "/api/2024/classes/monk"
+  },
+  "desc": [
+    "You have developed your body and mind to new heights. Your Dexterity and Wisdom scores increase by 4, to a maximum of 25."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/body-and-mind"
+}

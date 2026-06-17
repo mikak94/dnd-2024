@@ -1,0 +1,52 @@
+{
+  "index": "khoravar-fey-gift",
+  "name": "Fey Gift",
+  "species": [
+    {
+      "index": "khoravar",
+      "name": "Khoravar",
+      "url": "/api/2024/species/khoravar"
+    }
+  ],
+  "subspecies": [],
+  "desc": [
+    "You know the Friends cantrip. Whenever you finish a Long Rest, you can replace that cantrip with a different cantrip from the Cleric, Druid, or Wizard spell list. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spell you cast with this trait (chosen when you select this species)."
+  ],
+  "trait_specific": {
+    "spellcasting": {
+      "ability": [
+        {
+          "index": "int",
+          "name": "INT",
+          "url": "/api/2024/ability-scores/int"
+        },
+        {
+          "index": "wis",
+          "name": "WIS",
+          "url": "/api/2024/ability-scores/wis"
+        },
+        {
+          "index": "cha",
+          "name": "CHA",
+          "url": "/api/2024/ability-scores/cha"
+        }
+      ],
+      "spells": [
+        {
+          "spell": {
+            "index": "friends",
+            "name": "Friends",
+            "url": "/api/2024/spells/friends"
+          },
+          "level": 1,
+          "swappable_from": [
+            "cleric",
+            "druid",
+            "wizard"
+          ]
+        }
+      ]
+    }
+  },
+  "url": "/api/2024/traits/khoravar-fey-gift"
+}

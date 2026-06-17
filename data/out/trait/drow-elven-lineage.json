@@ -1,0 +1,71 @@
+{
+  "index": "drow-elven-lineage",
+  "name": "Elven Lineage",
+  "species": [],
+  "subspecies": [
+    {
+      "index": "drow",
+      "name": "Drow",
+      "url": "/api/2024/subspecies/drow"
+    }
+  ],
+  "desc": [
+    "Level 1: The range of your Darkvision increases to 120 feet. You also know the Dancing Lights cantrip.",
+    "Level 3: You always have the Faerie Fire spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level.",
+    "Level 5: You always have the Darkness spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level.",
+    "Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells (choose the ability when you select this lineage)."
+  ],
+  "parent": {
+    "index": "elf-elven-lineage",
+    "name": "Elven Lineage",
+    "url": "/api/2024/traits/elf-elven-lineage"
+  },
+  "trait_specific": {
+    "spellcasting": {
+      "ability": [
+        {
+          "index": "int",
+          "name": "INT",
+          "url": "/api/2024/ability-scores/int"
+        },
+        {
+          "index": "wis",
+          "name": "WIS",
+          "url": "/api/2024/ability-scores/wis"
+        },
+        {
+          "index": "cha",
+          "name": "CHA",
+          "url": "/api/2024/ability-scores/cha"
+        }
+      ],
+      "spells": [
+        {
+          "spell": {
+            "index": "dancing-lights",
+            "name": "Dancing Lights",
+            "url": "/api/2024/spells/dancing-lights"
+          },
+          "level": 1
+        },
+        {
+          "spell": {
+            "index": "faerie-fire",
+            "name": "Faerie Fire",
+            "url": "/api/2024/spells/faerie-fire"
+          },
+          "level": 3
+        },
+        {
+          "spell": {
+            "index": "darkness",
+            "name": "Darkness",
+            "url": "/api/2024/spells/darkness"
+          },
+          "level": 5
+        }
+      ]
+    }
+  },
+  "url": "/api/2024/traits/drow-elven-lineage"
+}

@@ -1,0 +1,98 @@
+{
+  "index": "circle-of-the-sea",
+  "class": {
+    "index": "druid",
+    "name": "Druid",
+    "url": "/api/2024/classes/druid"
+  },
+  "name": "Circle of the Sea",
+  "subclass_flavor": "Druid Circle",
+  "desc": [
+    "Become One with Tides and Storms",
+    "Druids of the Circle of the Sea draw on the tempestuous forces of oceans and storms. Some view themselves as embodiments of nature's wrath, seeking vengeance against those who despoil nature. Others seek mystical unity with nature by attuning themselves to the ebb and flow of the tides, following the rush of currents and waves and listening to the inscrutable whispers and roars of the winds."
+  ],
+  "subclass_levels": "/api/2024/subclasses/circle-of-the-sea/levels",
+  "spells": [
+    {
+      "prerequisites": [{ "index": "circle-of-the-sea-3", "type": "level" }],
+      "spell": {
+        "index": "fog-cloud",
+        "name": "Fog Cloud",
+        "url": "/api/2024/spells/fog-cloud"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "circle-of-the-sea-3", "type": "level" }],
+      "spell": {
+        "index": "gust-of-wind",
+        "name": "Gust of Wind",
+        "url": "/api/2024/spells/gust-of-wind"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "circle-of-the-sea-3", "type": "level" }],
+      "spell": {
+        "index": "ray-of-frost",
+        "name": "Ray of Frost",
+        "url": "/api/2024/spells/ray-of-frost"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "circle-of-the-sea-3", "type": "level" }],
+      "spell": {
+        "index": "thunderwave",
+        "name": "Thunderwave",
+        "url": "/api/2024/spells/thunderwave"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "circle-of-the-sea-5", "type": "level" }],
+      "spell": {
+        "index": "lightning-bolt",
+        "name": "Lightning Bolt",
+        "url": "/api/2024/spells/lightning-bolt"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "circle-of-the-sea-5", "type": "level" }],
+      "spell": {
+        "index": "water-breathing",
+        "name": "Water Breathing",
+        "url": "/api/2024/spells/water-breathing"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "circle-of-the-sea-7", "type": "level" }],
+      "spell": {
+        "index": "control-water",
+        "name": "Control Water",
+        "url": "/api/2024/spells/control-water"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "circle-of-the-sea-7", "type": "level" }],
+      "spell": {
+        "index": "ice-storm",
+        "name": "Ice Storm",
+        "url": "/api/2024/spells/ice-storm"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "circle-of-the-sea-9", "type": "level" }],
+      "spell": {
+        "index": "conjure-elemental",
+        "name": "Conjure Elemental",
+        "url": "/api/2024/spells/conjure-elemental"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "circle-of-the-sea-9", "type": "level" }],
+      "spell": {
+        "index": "hold-monster",
+        "name": "Hold Monster",
+        "url": "/api/2024/spells/hold-monster"
+      }
+    }
+  ],
+  "url": "/api/2024/subclasses/circle-of-the-sea"
+}

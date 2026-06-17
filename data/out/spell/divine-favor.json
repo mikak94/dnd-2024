@@ -1,0 +1,27 @@
+{
+  "index": "divine-favor",
+  "name": "Divine Favor",
+  "level": 1,
+  "school": {
+    "index": "transmutation",
+    "name": "Transmutation",
+    "url": "/api/2024/magic-schools/transmutation"
+  },
+  "casting_time": "Bonus Action",
+  "range": "Self",
+  "components": ["V", "S"],
+  "ritual": false,
+  "concentration": false,
+  "duration": "1 minute",
+  "desc": [
+    "Until the spell ends, your attacks with weapons deal an extra 1d4 Radiant damage on a hit."
+  ],
+  "classes": [
+    {
+      "index": "paladin",
+      "name": "Paladin",
+      "url": "/api/2024/classes/paladin"
+    }
+  ],
+  "url": "/api/2024/spells/divine-favor"
+}

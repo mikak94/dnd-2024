@@ -1,0 +1,22 @@
+{
+  "index": "path-of-the-world-tree-3-vitality-of-the-tree",
+  "name": "Vitality of the Tree",
+  "level": 3,
+  "class": {
+    "index": "barbarian",
+    "name": "Barbarian",
+    "url": "/api/2024/classes/barbarian"
+  },
+  "subclass": {
+    "index": "path-of-the-world-tree",
+    "name": "Path of the World Tree",
+    "url": "/api/2024/subclasses/path-of-the-world-tree"
+  },
+  "desc": [
+    "Your Rage taps into the life force of the World Tree. You gain the following benefits.",
+    "Vitality Surge. When you activate your Rage, you gain a number of Temporary Hit Points equal to your Barbarian level.",
+    "Life-Giving Force. At the start of each of your turns while your Rage is active, you can choose another creature within 10 feet of yourself to gain Temporary Hit Points. To determine the number of Temporary Hit Points, roll a number of d6s equal to your Rage Damage bonus, and add them together. If any of these Temporary Hit Points remain when your Rage ends, they vanish."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/path-of-the-world-tree-3-vitality-of-the-tree"
+}

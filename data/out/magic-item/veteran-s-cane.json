@@ -1,0 +1,17 @@
+{
+  "index": "veteran-s-cane",
+  "name": "Veteran's Cane",
+  "equipment_category": {
+    "index": "wondrous-items",
+    "name": "Wondrous Items",
+    "url": "/api/2024/equipment-categories/wondrous-items"
+  },
+  "rarity": {
+    "name": "Common"
+  },
+  "attunement": false,
+  "desc": "As a Bonus Action, you can transform this walking cane into an ordinary Longsword or change the Longsword back into a walking cane. In either case, you must be holding the item.",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/veteran-s-cane"
+}

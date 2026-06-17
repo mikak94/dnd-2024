@@ -1,0 +1,32 @@
+{
+  "index": "kalashtar",
+  "name": "Kalashtar",
+  "size": "Medium",
+  "size_description": "about 6–7 feet tall",
+  "speed": 30,
+  "type": "Aberration",
+  "traits": [
+    {
+      "index": "kalashtar-dual-mind",
+      "name": "Dual Mind",
+      "url": "/api/2024/traits/kalashtar-dual-mind"
+    },
+    {
+      "index": "kalashtar-mental-discipline",
+      "name": "Mental Discipline",
+      "url": "/api/2024/traits/kalashtar-mental-discipline"
+    },
+    {
+      "index": "kalashtar-mind-link",
+      "name": "Mind Link",
+      "url": "/api/2024/traits/kalashtar-mind-link"
+    },
+    {
+      "index": "kalashtar-severed-from-dreams",
+      "name": "Severed from Dreams",
+      "url": "/api/2024/traits/kalashtar-severed-from-dreams"
+    }
+  ],
+  "subspecies": [],
+  "url": "/api/2024/species/kalashtar"
+}

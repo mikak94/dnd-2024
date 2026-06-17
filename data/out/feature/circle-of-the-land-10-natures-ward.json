@@ -1,0 +1,26 @@
+{
+  "index": "circle-of-the-land-10-natures-ward",
+  "name": "Nature's Ward",
+  "level": 10,
+  "class": {
+    "index": "druid",
+    "name": "Druid",
+    "url": "/api/2024/classes/druid"
+  },
+  "subclass": {
+    "index": "circle-of-the-land",
+    "name": "Circle of the Land",
+    "url": "/api/2024/subclasses/circle-of-the-land"
+  },
+  "desc": [
+    "You are immune to the Poisoned condition, and you have Resistance to a damage type associated with your current land choice in the Circle Spells feature, as shown in the Nature's Ward table.",
+    "| Land Type | Resistance |",
+    "| --- | --- |",
+    "| Arid | Fire |",
+    "| Polar | Cold |",
+    "| Temperate | Lightning |",
+    "| Tropical | Poison |"
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/circle-of-the-land-10-natures-ward"
+}

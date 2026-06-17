@@ -1,0 +1,13 @@
+{
+  "index": "subclass-feature-paladin-7",
+  "name": "Subclass Feature",
+  "level": 7,
+  "class": {
+    "index": "paladin",
+    "name": "Paladin",
+    "url": "/api/2024/classes/paladin"
+  },
+  "desc": ["You gain a feature granted by your Paladin subclass."],
+  "prerequisites": [],
+  "url": "/api/2024/features/subclass-feature-paladin-7"
+}

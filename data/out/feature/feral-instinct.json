@@ -1,0 +1,15 @@
+{
+  "index": "feral-instinct",
+  "name": "Feral Instinct",
+  "level": 7,
+  "class": {
+    "index": "barbarian",
+    "name": "Barbarian",
+    "url": "/api/2024/classes/barbarian"
+  },
+  "desc": [
+    "Your instincts are so honed that you have Advantage on Initiative rolls."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/feral-instinct"
+}

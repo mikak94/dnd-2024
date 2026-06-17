@@ -1,0 +1,15 @@
+{
+  "index": "slippers-of-spider-climbing",
+  "name": "Slippers of Spider Climbing",
+  "equipment_category": {
+    "index": "wondrous-items",
+    "name": "Wondrous Items",
+    "url": "/api/2024/equipment-categories/wondrous-items"
+  },
+  "rarity": { "name": "Uncommon" },
+  "attunement": true,
+  "desc": "While you wear these light shoes, you can move up, down, and across vertical surfaces and along ceilings, while leaving your hands free. You have a Climb Speed equal to your Speed. However, the slippers don't allow you to move this way on a slippery surface, such as one covered by ice or oil.",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/slippers-of-spider-climbing"
+}

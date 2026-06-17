@@ -1,0 +1,103 @@
+{
+  "index": "elemental-adept",
+  "name": "Elemental Adept",
+  "type": "general",
+  "prerequisites": [
+    { "type": "level", "level": 4 },
+    { "type": "spellcasting" }
+  ],
+  "repeatable": true,
+  "desc": [
+    "You gain the following benefits.",
+    "Ability Score Increase. Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.",
+    "Energy Mastery. Choose one of the following damage types: Acid, Cold, Fire, Lightning, or Thunder. Spells you cast ignore Resistance to damage of the chosen type. In addition, when you roll damage for a spell you cast that deals damage of that type, you can treat any 1 on a damage die as a 2.",
+    "Repeatable. You can take this feat more than once, but you must choose a different damage type each time for Energy Mastery."
+  ],
+  "choices": [
+    {
+      "desc": "Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.",
+      "choose": 1,
+      "type": "abilities",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "int",
+              "name": "INT",
+              "url": "/api/2024/ability-scores/int"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "wis",
+              "name": "WIS",
+              "url": "/api/2024/ability-scores/wis"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "cha",
+              "name": "CHA",
+              "url": "/api/2024/ability-scores/cha"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "desc": "Choose one of the following damage types: Acid, Cold, Fire, Lightning, or Thunder.",
+      "choose": 1,
+      "type": "damage_types",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "acid",
+              "name": "Acid",
+              "url": "/api/2024/damage-types/acid"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "cold",
+              "name": "Cold",
+              "url": "/api/2024/damage-types/cold"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "fire",
+              "name": "Fire",
+              "url": "/api/2024/damage-types/fire"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "lightning",
+              "name": "Lightning",
+              "url": "/api/2024/damage-types/lightning"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "thunder",
+              "name": "Thunder",
+              "url": "/api/2024/damage-types/thunder"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "url": "/api/2024/feats/elemental-adept"
+}

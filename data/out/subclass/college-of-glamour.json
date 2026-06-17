@@ -1,0 +1,42 @@
+{
+  "index": "college-of-glamour",
+  "class": {
+    "index": "bard",
+    "name": "Bard",
+    "url": "/api/2024/classes/bard"
+  },
+  "name": "College of Glamour",
+  "subclass_flavor": "Bard College",
+  "desc": [
+    "Weave Beguiling Fey Magic",
+    "The College of Glamour traces its origins to the beguiling magic of the Feywild. Bards who study this magic weave threads of beauty and terror into their songs and stories, and the mightiest among them can cloak themselves in otherworldly majesty. Their performances stir up wistful longing for forgotten innocence, evoke unconscious memories of longheld fears, and tug at the emotions of even the most hard-hearted listeners."
+  ],
+  "subclass_levels": "/api/2024/subclasses/college-of-glamour/levels",
+  "spells": [
+    {
+      "prerequisites": [{ "index": "college-of-glamour-3", "type": "level" }],
+      "spell": {
+        "index": "charm-person",
+        "name": "Charm Person",
+        "url": "/api/2024/spells/charm-person"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "college-of-glamour-3", "type": "level" }],
+      "spell": {
+        "index": "mirror-image",
+        "name": "Mirror Image",
+        "url": "/api/2024/spells/mirror-image"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "college-of-glamour-6", "type": "level" }],
+      "spell": {
+        "index": "command",
+        "name": "Command",
+        "url": "/api/2024/spells/command"
+      }
+    }
+  ],
+  "url": "/api/2024/subclasses/college-of-glamour"
+}

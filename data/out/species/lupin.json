@@ -1,0 +1,42 @@
+{
+  "index": "lupin",
+  "name": "Lupin",
+  "size_options": {
+    "choose": 1,
+    "type": "size",
+    "from": {
+      "option_set_type": "options_array",
+      "options": [
+        { "option_type": "size", "size": "Small" },
+        { "option_type": "size", "size": "Medium" }
+      ]
+    }
+  },
+  "size_description": "about 4–7 feet tall (Medium) or about 2–4 feet tall (Small), chosen when you select this species",
+  "speed": 30,
+  "type": "Humanoid",
+  "traits": [
+    {
+      "index": "lupin-darkvision",
+      "name": "Darkvision",
+      "url": "/api/2024/traits/lupin-darkvision"
+    },
+    {
+      "index": "lupin-feral-pounce",
+      "name": "Feral Pounce",
+      "url": "/api/2024/traits/lupin-feral-pounce"
+    },
+    {
+      "index": "lupin-howl",
+      "name": "Howl",
+      "url": "/api/2024/traits/lupin-howl"
+    },
+    {
+      "index": "lupin-werewolf-instincts",
+      "name": "Werewolf Instincts",
+      "url": "/api/2024/traits/lupin-werewolf-instincts"
+    }
+  ],
+  "subspecies": [],
+  "url": "/api/2024/species/lupin"
+}

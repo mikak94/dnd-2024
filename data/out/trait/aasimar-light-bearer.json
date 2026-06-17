@@ -1,0 +1,37 @@
+{
+  "index": "aasimar-light-bearer",
+  "name": "Light Bearer",
+  "species": [
+    {
+      "index": "aasimar",
+      "name": "Aasimar",
+      "url": "/api/2024/species/aasimar"
+    }
+  ],
+  "subspecies": [],
+  "desc": [
+    "You know the Light cantrip. Charisma is your spellcasting ability for it."
+  ],
+  "trait_specific": {
+    "spellcasting": {
+      "ability": [
+        {
+          "index": "cha",
+          "name": "CHA",
+          "url": "/api/2024/ability-scores/cha"
+        }
+      ],
+      "spells": [
+        {
+          "spell": {
+            "index": "light",
+            "name": "Light",
+            "url": "/api/2024/spells/light"
+          },
+          "level": 1
+        }
+      ]
+    }
+  },
+  "url": "/api/2024/traits/aasimar-light-bearer"
+}

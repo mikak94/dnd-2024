@@ -1,0 +1,12 @@
+{
+  "index": "reborn-everlasting",
+  "name": "Everlasting",
+  "species": [
+    { "index": "reborn", "name": "Reborn", "url": "/api/2024/species/reborn" }
+  ],
+  "subspecies": [],
+  "desc": [
+    "You don't gain Exhaustion levels from dehydration, malnutrition, or suffocation. You don't need to sleep, and magic can't put you to sleep. You can finish a Long Rest in 4 hours if you spend those hours in an inactive, motionless state, during which you retain consciousness."
+  ],
+  "url": "/api/2024/traits/reborn-everlasting"
+}

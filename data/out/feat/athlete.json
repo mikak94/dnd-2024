@@ -1,0 +1,65 @@
+{
+  "index": "athlete",
+  "name": "Athlete",
+  "type": "general",
+  "prerequisites": [
+    {
+      "type": "level",
+      "level": 4
+    },
+    {
+      "type": "ability_score",
+      "ability_score": {
+        "index": "str",
+        "name": "STR",
+        "url": "/api/2024/ability-scores/str"
+      },
+      "minimum_score": 13
+    },
+    {
+      "type": "ability_score",
+      "ability_score": {
+        "index": "dex",
+        "name": "DEX",
+        "url": "/api/2024/ability-scores/dex"
+      },
+      "minimum_score": 13
+    }
+  ],
+  "desc": [
+    "You gain the following benefits.",
+    "Ability Score Increase. Increase your Strength or Dexterity score by 1, to a maximum of 20.",
+    "Climb Speed. You gain a Climb Speed equal to your Speed.",
+    "Hop Up. When you have the Prone condition, you can right yourself with only 5 feet of movement.",
+    "Jumping. You can make a running Long or High Jump after moving only 5 feet."
+  ],
+  "choices": [
+    {
+      "desc": "Increase your Strength or Dexterity score by 1, to a maximum of 20.",
+      "choose": 1,
+      "type": "abilities",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "str",
+              "name": "STR",
+              "url": "/api/2024/ability-scores/str"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "dex",
+              "name": "DEX",
+              "url": "/api/2024/ability-scores/dex"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "url": "/api/2024/feats/athlete"
+}

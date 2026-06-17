@@ -1,0 +1,20 @@
+{
+  "index": "great-old-one-patron-3-psychic-spells",
+  "name": "Psychic Spells",
+  "level": 3,
+  "class": {
+    "index": "warlock",
+    "name": "Warlock",
+    "url": "/api/2024/classes/warlock"
+  },
+  "subclass": {
+    "index": "great-old-one-patron",
+    "name": "Great Old One Patron",
+    "url": "/api/2024/subclasses/great-old-one-patron"
+  },
+  "desc": [
+    "When you cast a Warlock spell that deals damage, you can change its damage type to Psychic. In addition, when you cast a Warlock spell that is an Enchantment or Illusion, you can do so without Verbal or Somatic components."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/great-old-one-patron-3-psychic-spells"
+}

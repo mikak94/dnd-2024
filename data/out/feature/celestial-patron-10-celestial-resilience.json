@@ -1,0 +1,20 @@
+{
+  "index": "celestial-patron-10-celestial-resilience",
+  "name": "Celestial Resilience",
+  "level": 10,
+  "class": {
+    "index": "warlock",
+    "name": "Warlock",
+    "url": "/api/2024/classes/warlock"
+  },
+  "subclass": {
+    "index": "celestial-patron",
+    "name": "Celestial Patron",
+    "url": "/api/2024/subclasses/celestial-patron"
+  },
+  "desc": [
+    "You gain Temporary Hit Points whenever you use your Magical Cunning feature or finish a Short or Long Rest. These Temporary Hit Points equal your Warlock level plus your Charisma modifier. Additionally, choose up to five creatures you can see when you gain the points. Those creatures each gain Temporary Hit Points equal to half your Warlock level plus your Charisma modifier."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/celestial-patron-10-celestial-resilience"
+}

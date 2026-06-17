@@ -1,0 +1,15 @@
+{
+  "index": "clockwork-amulet",
+  "name": "Clockwork Amulet",
+  "equipment_category": {
+    "index": "wondrous-items",
+    "name": "Wondrous Items",
+    "url": "/api/2024/equipment-categories/wondrous-items"
+  },
+  "rarity": { "name": "Common" },
+  "attunement": false,
+  "desc": "This copper amulet contains tiny interlocking gears and is powered by magic from Mechanus, a plane of clockwork predictability. Faint ticking and whirring noises emanate from within.\n\nWhen you make an attack roll while wearing the amulet, you can forgo rolling the d20 to get a 10 on the die. Once used, this property can't be used again until the next dawn.",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/clockwork-amulet"
+}

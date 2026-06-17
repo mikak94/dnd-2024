@@ -1,0 +1,15 @@
+{
+  "index": "signature-spells",
+  "name": "Signature Spells",
+  "level": 20,
+  "class": {
+    "index": "wizard",
+    "name": "Wizard",
+    "url": "/api/2024/classes/wizard"
+  },
+  "desc": [
+    "Choose two level 3 spells in your spellbook as your signature spells. You always have these spells prepared, and you can cast each of them once at level 3 without expending a spell slot. When you do so, you can't cast them in this way again until you finish a Short or Long Rest. To cast either spell at a higher level, you must expend a spell slot."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/signature-spells"
+}

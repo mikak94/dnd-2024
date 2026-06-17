@@ -1,0 +1,33 @@
+{
+  "index": "ranger-1",
+  "level": 1,
+  "ability_score_bonuses": 0,
+  "prof_bonus": 2,
+  "features": [
+    {
+      "index": "spellcasting-ranger",
+      "name": "Spellcasting",
+      "url": "/api/2024/features/spellcasting-ranger"
+    },
+    {
+      "index": "favored-enemy",
+      "name": "Favored Enemy",
+      "url": "/api/2024/features/favored-enemy"
+    },
+    {
+      "index": "weapon-mastery",
+      "name": "Weapon Mastery",
+      "url": "/api/2024/features/weapon-mastery"
+    }
+  ],
+  "class": {
+    "index": "ranger",
+    "name": "Ranger",
+    "url": "/api/2024/classes/ranger"
+  },
+  "spellcasting": {
+    "spells_known": 2,
+    "spell_slots_level_1": 2
+  },
+  "url": "/api/2024/classes/ranger/levels/1"
+}

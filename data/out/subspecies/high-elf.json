@@ -1,0 +1,17 @@
+{
+  "index": "high-elf",
+  "name": "High Elf",
+  "species": { "index": "elf", "name": "Elf", "url": "/api/2024/species/elf" },
+  "desc": [
+    "High elves have been infused with the magic of crossings between the Feywild and the Material Plane. On some worlds, high elves refer to themselves by other names. For example, they call themselves sun or moon elves in the Forgotten Realms setting, Silvanesti and Qualinesti in the Dragonlance setting, and Aereni in the Eberron setting.",
+    "Level 1: You know the Prestidigitation cantrip. Whenever you finish a Long Rest, you can replace that cantrip with a different cantrip from the Wizard spell list. Level 3: Detect Magic. Level 5: Misty Step."
+  ],
+  "traits": [
+    {
+      "index": "high-elf-elven-lineage",
+      "name": "Elven Lineage",
+      "url": "/api/2024/traits/high-elf-elven-lineage"
+    }
+  ],
+  "url": "/api/2024/subspecies/high-elf"
+}

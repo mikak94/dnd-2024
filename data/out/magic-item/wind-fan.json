@@ -1,0 +1,17 @@
+{
+  "index": "wind-fan",
+  "name": "Wind Fan",
+  "equipment_category": {
+    "index": "wondrous-items",
+    "name": "Wondrous Items",
+    "url": "/api/2024/equipment-categories/wondrous-items"
+  },
+  "rarity": {
+    "name": "Uncommon"
+  },
+  "attunement": false,
+  "desc": "While holding this fan, you can cast Gust of Wind (save DC 13) from it. Each subsequent time the fan is used before the next dawn, it has a cumulative 20 percent chance of not working; if the fan fails to work, it tears into useless, nonmagical tatters.",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/wind-fan"
+}

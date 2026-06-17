@@ -1,0 +1,15 @@
+{
+  "index": "evasion",
+  "name": "Evasion",
+  "level": 7,
+  "class": {
+    "index": "rogue",
+    "name": "Rogue",
+    "url": "/api/2024/classes/rogue"
+  },
+  "desc": [
+    "You can nimbly dodge out of the way of certain dangers. When you're subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw and only half damage if you fail. You can't use this feature if you have the Incapacitated condition."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/evasion"
+}

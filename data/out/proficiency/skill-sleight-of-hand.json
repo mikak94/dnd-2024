@@ -1,0 +1,11 @@
+{
+  "index": "skill-sleight-of-hand",
+  "name": "Skill: Sleight of Hand",
+  "type": "Skills",
+  "reference": {
+    "index": "sleight-of-hand",
+    "name": "Sleight of Hand",
+    "url": "/api/2024/skills/sleight-of-hand"
+  },
+  "url": "/api/2024/proficiencies/skill-sleight-of-hand"
+}

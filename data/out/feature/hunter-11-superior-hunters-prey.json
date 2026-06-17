@@ -1,0 +1,20 @@
+{
+  "index": "hunter-11-superior-hunters-prey",
+  "name": "Superior Hunter's Prey",
+  "level": 11,
+  "class": {
+    "index": "ranger",
+    "name": "Ranger",
+    "url": "/api/2024/classes/ranger"
+  },
+  "subclass": {
+    "index": "hunter",
+    "name": "Hunter",
+    "url": "/api/2024/subclasses/hunter"
+  },
+  "desc": [
+    "Once per turn when you deal damage to a creature marked by your Hunter's Mark, you can also deal that spell's extra damage to a different creature that you can see within 30 feet of the first creature."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/hunter-11-superior-hunters-prey"
+}

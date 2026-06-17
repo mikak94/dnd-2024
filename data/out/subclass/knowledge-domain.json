@@ -1,0 +1,139 @@
+{
+  "index": "knowledge-domain",
+  "class": {
+    "index": "cleric",
+    "name": "Cleric",
+    "url": "/api/2024/classes/cleric"
+  },
+  "name": "Knowledge Domain",
+  "subclass_flavor": "Divine Domain",
+  "desc": [
+    "Unearth Secrets and Master the Mind",
+    "The Knowledge Domain values learning and understanding above all. Clerics who tap into this domain study esoteric lore, collect old tomes, delve into secret places, and examine the processes of the mind. To them, knowledge is more valuable than material wealth, and learning is an act of worship. Libraries, universities, and other educational institutions also draw on the power of the Knowledge Domain.",
+    "Gods of knowledge vary from masters of arcane magic to patrons of craft and invention. In Faerun, Clerics of the Knowledge Domain worship deities of learning and ingenuity such as Oghma and Gond, among many others."
+  ],
+  "subclass_levels": "/api/2024/subclasses/knowledge-domain/levels",
+  "spells": [
+    {
+      "prerequisites": [{ "index": "knowledge-domain-3", "type": "level" }],
+      "spell": {
+        "index": "command",
+        "name": "Command",
+        "url": "/api/2024/spells/command"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "knowledge-domain-3", "type": "level" }],
+      "spell": {
+        "index": "comprehend-languages",
+        "name": "Comprehend Languages",
+        "url": "/api/2024/spells/comprehend-languages"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "knowledge-domain-3", "type": "level" }],
+      "spell": {
+        "index": "detect-magic",
+        "name": "Detect Magic",
+        "url": "/api/2024/spells/detect-magic"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "knowledge-domain-3", "type": "level" }],
+      "spell": {
+        "index": "detect-thoughts",
+        "name": "Detect Thoughts",
+        "url": "/api/2024/spells/detect-thoughts"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "knowledge-domain-3", "type": "level" }],
+      "spell": {
+        "index": "identify",
+        "name": "Identify",
+        "url": "/api/2024/spells/identify"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "knowledge-domain-3", "type": "level" }],
+      "spell": {
+        "index": "mind-spike",
+        "name": "Mind Spike",
+        "url": "/api/2024/spells/mind-spike"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "knowledge-domain-5", "type": "level" }],
+      "spell": {
+        "index": "dispel-magic",
+        "name": "Dispel Magic",
+        "url": "/api/2024/spells/dispel-magic"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "knowledge-domain-5", "type": "level" }],
+      "spell": {
+        "index": "nondetection",
+        "name": "Nondetection",
+        "url": "/api/2024/spells/nondetection"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "knowledge-domain-5", "type": "level" }],
+      "spell": {
+        "index": "tongues",
+        "name": "Tongues",
+        "url": "/api/2024/spells/tongues"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "knowledge-domain-7", "type": "level" }],
+      "spell": {
+        "index": "arcane-eye",
+        "name": "Arcane Eye",
+        "url": "/api/2024/spells/arcane-eye"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "knowledge-domain-7", "type": "level" }],
+      "spell": {
+        "index": "banishment",
+        "name": "Banishment",
+        "url": "/api/2024/spells/banishment"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "knowledge-domain-7", "type": "level" }],
+      "spell": {
+        "index": "confusion",
+        "name": "Confusion",
+        "url": "/api/2024/spells/confusion"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "knowledge-domain-9", "type": "level" }],
+      "spell": {
+        "index": "legend-lore",
+        "name": "Legend Lore",
+        "url": "/api/2024/spells/legend-lore"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "knowledge-domain-9", "type": "level" }],
+      "spell": {
+        "index": "scrying",
+        "name": "Scrying",
+        "url": "/api/2024/spells/scrying"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "knowledge-domain-9", "type": "level" }],
+      "spell": {
+        "index": "synaptic-static",
+        "name": "Synaptic Static",
+        "url": "/api/2024/spells/synaptic-static"
+      }
+    }
+  ],
+  "url": "/api/2024/subclasses/knowledge-domain"
+}

@@ -1,0 +1,98 @@
+{
+  "index": "undead-patron",
+  "class": {
+    "index": "warlock",
+    "name": "Warlock",
+    "url": "/api/2024/classes/warlock"
+  },
+  "name": "Undead Patron",
+  "subclass_flavor": "Otherworldly Patron",
+  "desc": [
+    "Defy Death for Profane Power",
+    "You've made a pact with a creature that defies the cycle of life and death: a powerful lich, a vampire, or another entity of undeath. Having once been mortal, these ancient patrons know firsthand the paths of ambition and the routes past the doors of death. They eagerly share this profane knowledge and other secrets with those who work their will among the living."
+  ],
+  "subclass_levels": "/api/2024/subclasses/undead-patron/levels",
+  "spells": [
+    {
+      "prerequisites": [{ "index": "undead-patron-3", "type": "level" }],
+      "spell": {
+        "index": "bane",
+        "name": "Bane",
+        "url": "/api/2024/spells/bane"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "undead-patron-3", "type": "level" }],
+      "spell": {
+        "index": "blindness-deafness",
+        "name": "Blindness/Deafness",
+        "url": "/api/2024/spells/blindness-deafness"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "undead-patron-3", "type": "level" }],
+      "spell": {
+        "index": "phantasmal-force",
+        "name": "Phantasmal Force",
+        "url": "/api/2024/spells/phantasmal-force"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "undead-patron-3", "type": "level" }],
+      "spell": {
+        "index": "ray-of-sickness",
+        "name": "Ray of Sickness",
+        "url": "/api/2024/spells/ray-of-sickness"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "undead-patron-5", "type": "level" }],
+      "spell": {
+        "index": "speak-with-dead",
+        "name": "Speak with Dead",
+        "url": "/api/2024/spells/speak-with-dead"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "undead-patron-5", "type": "level" }],
+      "spell": {
+        "index": "summon-undead",
+        "name": "Summon Undead",
+        "url": "/api/2024/spells/summon-undead"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "undead-patron-7", "type": "level" }],
+      "spell": {
+        "index": "greater-invisibility",
+        "name": "Greater Invisibility",
+        "url": "/api/2024/spells/greater-invisibility"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "undead-patron-7", "type": "level" }],
+      "spell": {
+        "index": "phantasmal-killer",
+        "name": "Phantasmal Killer",
+        "url": "/api/2024/spells/phantasmal-killer"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "undead-patron-9", "type": "level" }],
+      "spell": {
+        "index": "antilife-shell",
+        "name": "Antilife Shell",
+        "url": "/api/2024/spells/antilife-shell"
+      }
+    },
+    {
+      "prerequisites": [{ "index": "undead-patron-9", "type": "level" }],
+      "spell": {
+        "index": "cloudkill",
+        "name": "Cloudkill",
+        "url": "/api/2024/spells/cloudkill"
+      }
+    }
+  ],
+  "url": "/api/2024/subclasses/undead-patron"
+}

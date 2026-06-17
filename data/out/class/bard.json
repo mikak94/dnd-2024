@@ -1,0 +1,333 @@
+{
+  "index": "bard",
+  "name": "Bard",
+  "hit_die": 8,
+  "proficiency_choices": [
+    {
+      "desc": "Choose any 3 skills",
+      "choose": 3,
+      "type": "proficiencies",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-acrobatics",
+              "name": "Skill: Acrobatics",
+              "url": "/api/2024/proficiencies/skill-acrobatics"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-animal-handling",
+              "name": "Skill: Animal Handling",
+              "url": "/api/2024/proficiencies/skill-animal-handling"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-arcana",
+              "name": "Skill: Arcana",
+              "url": "/api/2024/proficiencies/skill-arcana"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-athletics",
+              "name": "Skill: Athletics",
+              "url": "/api/2024/proficiencies/skill-athletics"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-deception",
+              "name": "Skill: Deception",
+              "url": "/api/2024/proficiencies/skill-deception"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-history",
+              "name": "Skill: History",
+              "url": "/api/2024/proficiencies/skill-history"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-insight",
+              "name": "Skill: Insight",
+              "url": "/api/2024/proficiencies/skill-insight"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-intimidation",
+              "name": "Skill: Intimidation",
+              "url": "/api/2024/proficiencies/skill-intimidation"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-investigation",
+              "name": "Skill: Investigation",
+              "url": "/api/2024/proficiencies/skill-investigation"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-medicine",
+              "name": "Skill: Medicine",
+              "url": "/api/2024/proficiencies/skill-medicine"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-nature",
+              "name": "Skill: Nature",
+              "url": "/api/2024/proficiencies/skill-nature"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-perception",
+              "name": "Skill: Perception",
+              "url": "/api/2024/proficiencies/skill-perception"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-performance",
+              "name": "Skill: Performance",
+              "url": "/api/2024/proficiencies/skill-performance"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-persuasion",
+              "name": "Skill: Persuasion",
+              "url": "/api/2024/proficiencies/skill-persuasion"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-religion",
+              "name": "Skill: Religion",
+              "url": "/api/2024/proficiencies/skill-religion"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-sleight-of-hand",
+              "name": "Skill: Sleight of Hand",
+              "url": "/api/2024/proficiencies/skill-sleight-of-hand"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-stealth",
+              "name": "Skill: Stealth",
+              "url": "/api/2024/proficiencies/skill-stealth"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-survival",
+              "name": "Skill: Survival",
+              "url": "/api/2024/proficiencies/skill-survival"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "desc": "Choose 3 Musical Instruments",
+      "choose": 3,
+      "type": "proficiencies",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "musical-instrument",
+              "name": "Musical Instrument",
+              "url": "/api/2024/proficiencies/musical-instrument"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "proficiencies": [
+    {
+      "index": "light-armor",
+      "name": "Light armor",
+      "url": "/api/2024/proficiencies/light-armor"
+    },
+    {
+      "index": "simple-weapons",
+      "name": "Simple weapons",
+      "url": "/api/2024/proficiencies/simple-weapons"
+    }
+  ],
+  "saving_throws": [
+    {
+      "index": "dex",
+      "name": "DEX",
+      "url": "/api/2024/ability-scores/dex"
+    },
+    {
+      "index": "cha",
+      "name": "CHA",
+      "url": "/api/2024/ability-scores/cha"
+    }
+  ],
+  "starting_equipment": [],
+  "starting_equipment_options": [
+    {
+      "desc": "Choose A or B: (A) Leather Armor, 2 Daggers, Musical Instrument of your choice, Entertainer's Pack, and 19 GP; or (B) 90 GP",
+      "choose": 1,
+      "type": "equipment",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "multiple",
+            "items": [
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "leather-armor",
+                  "name": "Leather Armor",
+                  "url": "/api/2024/equipment/leather-armor"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 2,
+                "of": {
+                  "index": "dagger",
+                  "name": "Dagger",
+                  "url": "/api/2024/equipment/dagger"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "musical-instrument",
+                  "name": "Musical Instrument",
+                  "url": "/api/2024/equipment/musical-instrument"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "entertainers-pack",
+                  "name": "Entertainer's Pack",
+                  "url": "/api/2024/equipment/entertainers-pack"
+                }
+              },
+              {
+                "option_type": "money",
+                "count": 19,
+                "unit": "GP"
+              }
+            ]
+          },
+          {
+            "option_type": "money",
+            "count": 90,
+            "unit": "GP"
+          }
+        ]
+      }
+    }
+  ],
+  "class_levels": "/api/2024/classes/bard/levels",
+  "multi_classing": {
+    "prerequisites": [
+      {
+        "ability_score": {
+          "index": "cha",
+          "name": "CHA",
+          "url": "/api/2024/ability-scores/cha"
+        },
+        "minimum_score": 13
+      }
+    ],
+    "proficiencies": [
+      {
+        "index": "light-armor",
+        "name": "Light armor",
+        "url": "/api/2024/proficiencies/light-armor"
+      },
+      {
+        "index": "musical-instrument",
+        "name": "Musical Instrument",
+        "url": "/api/2024/proficiencies/musical-instrument"
+      }
+    ]
+  },
+  "subclasses": [
+    {
+      "index": "college-of-dance",
+      "name": "College of Dance",
+      "url": "/api/2024/subclasses/college-of-dance"
+    },
+    {
+      "index": "college-of-glamour",
+      "name": "College of Glamour",
+      "url": "/api/2024/subclasses/college-of-glamour"
+    },
+    {
+      "index": "college-of-lore",
+      "name": "College of Lore",
+      "url": "/api/2024/subclasses/college-of-lore"
+    },
+    {
+      "index": "college-of-spirits",
+      "name": "College of Spirits",
+      "url": "/api/2024/subclasses/college-of-spirits"
+    },
+    {
+      "index": "college-of-the-moon",
+      "name": "College of the Moon",
+      "url": "/api/2024/subclasses/college-of-the-moon"
+    },
+    {
+      "index": "college-of-valor",
+      "name": "College of Valor",
+      "url": "/api/2024/subclasses/college-of-valor"
+    }
+  ],
+  "spellcasting": {
+    "level": 1,
+    "spellcasting_ability": {
+      "index": "cha",
+      "name": "CHA",
+      "url": "/api/2024/ability-scores/cha"
+    }
+  },
+  "url": "/api/2024/classes/bard"
+}

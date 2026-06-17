@@ -1,0 +1,15 @@
+{
+  "index": "aura-of-courage",
+  "name": "Aura of Courage",
+  "level": 10,
+  "class": {
+    "index": "paladin",
+    "name": "Paladin",
+    "url": "/api/2024/classes/paladin"
+  },
+  "desc": [
+    "You and your allies have Immunity to the Frightened condition while in your Aura of Protection. If a Frightened ally enters the aura, that condition has no effect on that ally while there."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/aura-of-courage"
+}

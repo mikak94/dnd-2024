@@ -1,0 +1,21 @@
+{
+  "index": "metamagic-twinned-spell",
+  "name": "Metamagic: Twinned Spell",
+  "level": 2,
+  "class": {
+    "index": "sorcerer",
+    "name": "Sorcerer",
+    "url": "/api/2024/classes/sorcerer"
+  },
+  "parent": {
+    "index": "metamagic",
+    "name": "Metamagic",
+    "url": "/api/2024/features/metamagic"
+  },
+  "desc": [
+    "Cost: 1 Sorcery Point",
+    "When you cast a spell, such as Charm Person, that can be cast with a higher-level spell slot to target an additional creature, you can spend 1 Sorcery Point to increase the spell's effective level by 1."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/metamagic-twinned-spell"
+}

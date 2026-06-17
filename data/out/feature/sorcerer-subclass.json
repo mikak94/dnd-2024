@@ -1,0 +1,15 @@
+{
+  "index": "sorcerer-subclass",
+  "name": "Sorcerer Subclass",
+  "level": 3,
+  "class": {
+    "index": "sorcerer",
+    "name": "Sorcerer",
+    "url": "/api/2024/classes/sorcerer"
+  },
+  "desc": [
+    "You gain a Sorcerer subclass of your choice. The Aberrant Sorcery, Clockwork Sorcery, Draconic Sorcery, and Wild Magic Sorcery subclasses are detailed after this class's description. A subclass is a specialization that grants you features at certain Sorcerer levels. For the rest of your career, you gain each of your subclass's features that are of your Sorcerer level or lower."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/sorcerer-subclass"
+}

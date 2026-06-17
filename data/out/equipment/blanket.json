@@ -1,0 +1,15 @@
+{
+  "index": "blanket",
+  "name": "Blanket",
+  "equipment_categories": [
+    {
+      "index": "adventuring-gear",
+      "name": "Adventuring Gear",
+      "url": "/api/2024/equipment-categories/adventuring-gear"
+    }
+  ],
+  "cost": { "quantity": 5, "unit": "sp" },
+  "weight": 3,
+  "description": "While wrapped in a blanket, you have Advantage on saving throws against extreme cold (see the Dungeon Master's Guide).",
+  "url": "/api/2024/equipment/blanket"
+}

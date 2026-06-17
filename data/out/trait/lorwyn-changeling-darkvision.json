@@ -1,0 +1,14 @@
+{
+  "index": "lorwyn-changeling-darkvision",
+  "name": "Darkvision",
+  "species": [
+    {
+      "index": "lorwyn-changeling",
+      "name": "Lorwyn Changeling",
+      "url": "/api/2024/species/lorwyn-changeling"
+    }
+  ],
+  "subspecies": [],
+  "desc": ["You have Darkvision with a range of 120 feet."],
+  "url": "/api/2024/traits/lorwyn-changeling-darkvision"
+}

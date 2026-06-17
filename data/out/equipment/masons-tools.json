@@ -1,0 +1,24 @@
+{
+  "index": "masons-tools",
+  "name": "Mason's Tools",
+  "equipment_categories": [
+    {
+      "index": "artisans-tools",
+      "name": "Artisan's Tools",
+      "url": "/api/2024/equipment-categories/artisans-tools"
+    },
+    {
+      "index": "tools",
+      "name": "Tools",
+      "url": "/api/2024/equipment-categories/tools"
+    }
+  ],
+  "url": "/api/2024/equipment/masons-tools",
+  "cost": { "quantity": 10, "unit": "gp" },
+  "weight": 8,
+  "ability": {
+    "index": "str",
+    "name": "STR",
+    "url": "/api/2024/ability-scores/str"
+  }
+}

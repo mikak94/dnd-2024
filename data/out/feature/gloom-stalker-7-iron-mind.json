@@ -1,0 +1,20 @@
+{
+  "index": "gloom-stalker-7-iron-mind",
+  "name": "Iron Mind",
+  "level": 7,
+  "class": {
+    "index": "ranger",
+    "name": "Ranger",
+    "url": "/api/2024/classes/ranger"
+  },
+  "subclass": {
+    "index": "gloom-stalker",
+    "name": "Gloom Stalker",
+    "url": "/api/2024/subclasses/gloom-stalker"
+  },
+  "desc": [
+    "You have honed your ability to resist mind-altering powers. You gain proficiency in Wisdom saving throws. If you already have this proficiency, you instead gain proficiency in Intelligence or Charisma saving throws (your choice)."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/gloom-stalker-7-iron-mind"
+}

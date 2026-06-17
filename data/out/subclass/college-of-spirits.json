@@ -1,0 +1,26 @@
+{
+  "index": "college-of-spirits",
+  "class": {
+    "index": "bard",
+    "name": "Bard",
+    "url": "/api/2024/classes/bard"
+  },
+  "name": "College of Spirits",
+  "subclass_flavor": "Bard College",
+  "desc": [
+    "Call Forth Spirits from Beyond the Grave",
+    "Bards of the College of Spirits conjure legendary spirits to change the world. But such entities are capricious, and what a Bard summons isn't always entirely under their control."
+  ],
+  "subclass_levels": "/api/2024/subclasses/college-of-spirits/levels",
+  "spells": [
+    {
+      "prerequisites": [{ "index": "college-of-spirits-6", "type": "level" }],
+      "spell": {
+        "index": "spirit-guardians",
+        "name": "Spirit Guardians",
+        "url": "/api/2024/spells/spirit-guardians"
+      }
+    }
+  ],
+  "url": "/api/2024/subclasses/college-of-spirits"
+}

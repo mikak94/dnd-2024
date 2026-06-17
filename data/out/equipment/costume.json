@@ -1,0 +1,15 @@
+{
+  "index": "costume",
+  "name": "Costume",
+  "equipment_categories": [
+    {
+      "index": "adventuring-gear",
+      "name": "Adventuring Gear",
+      "url": "/api/2024/equipment-categories/adventuring-gear"
+    }
+  ],
+  "cost": { "quantity": 5, "unit": "gp" },
+  "weight": 4,
+  "description": "While wearing a Costume, you have Advantage on any ability check you make to impersonate the person or type of person it represents.",
+  "url": "/api/2024/equipment/costume"
+}

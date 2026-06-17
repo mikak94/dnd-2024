@@ -1,0 +1,13 @@
+{
+  "index": "fighter-subclass",
+  "name": "Subclass Feature",
+  "level": 10,
+  "class": {
+    "index": "fighter",
+    "name": "Fighter",
+    "url": "/api/2024/classes/fighter"
+  },
+  "desc": ["You gain a feature granted by your Fighter subclass."],
+  "prerequisites": [],
+  "url": "/api/2024/features/fighter-subclass"
+}

@@ -1,0 +1,39 @@
+{
+  "index": "gnome",
+  "name": "Gnome",
+  "size": "Small",
+  "size_description": "about 3-4 feet tall",
+  "speed": 30,
+  "type": "Humanoid",
+  "age": "Gnomes live around 425 years.",
+  "traits": [
+    {
+      "index": "gnome-darkvision",
+      "name": "Darkvision",
+      "url": "/api/2024/traits/gnome-darkvision"
+    },
+    {
+      "index": "gnome-gnomish-cunning",
+      "name": "Gnomish Cunning",
+      "url": "/api/2024/traits/gnome-gnomish-cunning"
+    },
+    {
+      "index": "gnome-gnomish-lineage",
+      "name": "Gnomish Lineage",
+      "url": "/api/2024/traits/gnome-gnomish-lineage"
+    }
+  ],
+  "subspecies": [
+    {
+      "index": "forest-gnome",
+      "name": "Forest Gnome",
+      "url": "/api/2024/subspecies/forest-gnome"
+    },
+    {
+      "index": "rock-gnome",
+      "name": "Rock Gnome",
+      "url": "/api/2024/subspecies/rock-gnome"
+    }
+  ],
+  "url": "/api/2024/species/gnome"
+}

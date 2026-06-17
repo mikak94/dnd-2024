@@ -1,0 +1,25 @@
+{
+  "index": "paladin-10",
+  "level": 10,
+  "ability_score_bonuses": 2,
+  "prof_bonus": 4,
+  "features": [
+    {
+      "index": "aura-of-courage",
+      "name": "Aura of Courage",
+      "url": "/api/2024/features/aura-of-courage"
+    }
+  ],
+  "class": {
+    "index": "paladin",
+    "name": "Paladin",
+    "url": "/api/2024/classes/paladin"
+  },
+  "spellcasting": {
+    "spells_known": 9,
+    "spell_slots_level_1": 4,
+    "spell_slots_level_2": 3,
+    "spell_slots_level_3": 2
+  },
+  "url": "/api/2024/classes/paladin/levels/10"
+}

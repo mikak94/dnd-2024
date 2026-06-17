@@ -1,0 +1,27 @@
+{
+  "index": "ranger-20",
+  "level": 20,
+  "ability_score_bonuses": 5,
+  "prof_bonus": 6,
+  "features": [
+    {
+      "index": "foe-slayer",
+      "name": "Foe Slayer",
+      "url": "/api/2024/features/foe-slayer"
+    }
+  ],
+  "class": {
+    "index": "ranger",
+    "name": "Ranger",
+    "url": "/api/2024/classes/ranger"
+  },
+  "spellcasting": {
+    "spells_known": 15,
+    "spell_slots_level_1": 4,
+    "spell_slots_level_2": 3,
+    "spell_slots_level_3": 3,
+    "spell_slots_level_4": 3,
+    "spell_slots_level_5": 2
+  },
+  "url": "/api/2024/classes/ranger/levels/20"
+}

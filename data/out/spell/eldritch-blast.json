@@ -1,0 +1,44 @@
+{
+  "index": "eldritch-blast",
+  "name": "Eldritch Blast",
+  "level": 0,
+  "school": {
+    "index": "evocation",
+    "name": "Evocation",
+    "url": "/api/2024/magic-schools/evocation"
+  },
+  "casting_time": "Action",
+  "range": "120 feet",
+  "components": ["V", "S"],
+  "ritual": false,
+  "concentration": false,
+  "duration": "Instantaneous",
+  "desc": [
+    "You hurl a beam of crackling energy. Make a ranged spell attack against one creature or object in range. On a hit, the target takes 1d10 Force damage."
+  ],
+  "higher_level": [
+    "Cantrip Upgrade. The spell creates two beams at level 5, three beams at level 11, and four beams at level 17. You can direct the beams at the same target or at different ones. Make a separate attack roll for each beam."
+  ],
+  "attack_type": "ranged",
+  "damage": {
+    "damage_type": {
+      "index": "force",
+      "name": "Force",
+      "url": "/api/2024/damage-types/force"
+    },
+    "damage_at_character_level": {
+      "1": "1d10",
+      "5": "2d10",
+      "11": "3d10",
+      "17": "4d10"
+    }
+  },
+  "classes": [
+    {
+      "index": "warlock",
+      "name": "Warlock",
+      "url": "/api/2024/classes/warlock"
+    }
+  ],
+  "url": "/api/2024/spells/eldritch-blast"
+}

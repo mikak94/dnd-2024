@@ -1,0 +1,21 @@
+{
+  "index": "grave-domain-6-sentinel-at-deaths-door",
+  "name": "Sentinel at Death's Door",
+  "level": 6,
+  "class": {
+    "index": "cleric",
+    "name": "Cleric",
+    "url": "/api/2024/classes/cleric"
+  },
+  "subclass": {
+    "index": "grave-domain",
+    "name": "Grave Domain",
+    "url": "/api/2024/subclasses/grave-domain"
+  },
+  "desc": [
+    "When you or a Bloodied creature you can see within 60 feet of yourself is hit with an attack roll, you can take a Reaction to halve that attack's damage (round down). If the triggering attack roll was a Critical Hit, any effects triggered by a Critical Hit are canceled.",
+    "You can use this feature a number of times equal to your Wisdom modifier (minimum of once). You regain all expended uses when you finish a Long Rest."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/grave-domain-6-sentinel-at-deaths-door"
+}

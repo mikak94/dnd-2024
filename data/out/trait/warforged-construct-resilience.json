@@ -1,0 +1,16 @@
+{
+  "index": "warforged-construct-resilience",
+  "name": "Construct Resilience",
+  "species": [
+    {
+      "index": "warforged",
+      "name": "Warforged",
+      "url": "/api/2024/species/warforged"
+    }
+  ],
+  "subspecies": [],
+  "desc": [
+    "You have Resistance to Poison damage. You also have Advantage on saving throws to avoid or end the Poisoned condition."
+  ],
+  "url": "/api/2024/traits/warforged-construct-resilience"
+}

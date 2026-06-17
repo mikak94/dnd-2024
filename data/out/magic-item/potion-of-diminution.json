@@ -1,0 +1,15 @@
+{
+  "index": "potion-of-diminution",
+  "name": "Potion of Diminution",
+  "equipment_category": {
+    "index": "potions",
+    "name": "Potions",
+    "url": "/api/2024/equipment-categories/potions"
+  },
+  "rarity": { "name": "Rare" },
+  "attunement": false,
+  "desc": "When you drink this potion, you gain the \"reduce\" effect of the Enlarge/Reduce spell for 1d4 hours (no Concentration required).\n\nThe red in the potion's liquid continuously contracts to a tiny bead and then expands to color the clear liquid around it. Shaking the bottle fails to interrupt this process.",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/potion-of-diminution"
+}

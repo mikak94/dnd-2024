@@ -1,0 +1,14 @@
+{
+  "index": "dhampir-darkvision",
+  "name": "Darkvision",
+  "species": [
+    {
+      "index": "dhampir",
+      "name": "Dhampir",
+      "url": "/api/2024/species/dhampir"
+    }
+  ],
+  "subspecies": [],
+  "desc": ["You have Darkvision with a range of 60 feet."],
+  "url": "/api/2024/traits/dhampir-darkvision"
+}

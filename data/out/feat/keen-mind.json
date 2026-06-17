@@ -1,0 +1,87 @@
+{
+  "index": "keen-mind",
+  "name": "Keen Mind",
+  "type": "general",
+  "prerequisites": [
+    { "type": "level", "level": 4 },
+    {
+      "type": "ability_score",
+      "ability_score": {
+        "index": "int",
+        "name": "INT",
+        "url": "/api/2024/ability-scores/int"
+      },
+      "minimum_score": 13
+    }
+  ],
+  "desc": [
+    "You gain the following benefits.",
+    "Ability Score Increase. Increase your Intelligence score by 1, to a maximum of 20.",
+    "Lore Knowledge. Choose one of the following skills: Arcana, History, Investigation, Nature, or Religion. If you lack proficiency in the chosen skill, you gain proficiency in it, and if you already have proficiency in it, you gain Expertise in it.",
+    "Quick Study. You can take the Study action as a Bonus Action."
+  ],
+  "ability_bonuses": [
+    {
+      "ability_score": {
+        "index": "int",
+        "name": "INT",
+        "url": "/api/2024/ability-scores/int"
+      },
+      "bonus": 1
+    }
+  ],
+  "choices": [
+    {
+      "desc": "Choose one of the following skills: Arcana, History, Investigation, Nature, or Religion. If you lack proficiency in the chosen skill, you gain proficiency in it, and if you already have proficiency in it, you gain Expertise in it.",
+      "choose": 1,
+      "type": "proficiencies",
+      "grants": "proficiency_or_expertise",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-arcana",
+              "name": "Skill: Arcana",
+              "url": "/api/2024/proficiencies/skill-arcana"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-history",
+              "name": "Skill: History",
+              "url": "/api/2024/proficiencies/skill-history"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-investigation",
+              "name": "Skill: Investigation",
+              "url": "/api/2024/proficiencies/skill-investigation"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-nature",
+              "name": "Skill: Nature",
+              "url": "/api/2024/proficiencies/skill-nature"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-religion",
+              "name": "Skill: Religion",
+              "url": "/api/2024/proficiencies/skill-religion"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "url": "/api/2024/feats/keen-mind"
+}

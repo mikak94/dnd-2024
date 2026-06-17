@@ -1,0 +1,19 @@
+{
+  "index": "longship",
+  "name": "Longship",
+  "equipment_categories": [
+    {
+      "index": "waterborne-vehicles",
+      "name": "Waterborne Vehicles",
+      "url": "/api/2024/equipment-categories/waterborne-vehicles"
+    },
+    {
+      "index": "mounts-and-vehicles",
+      "name": "Mounts and Vehicles",
+      "url": "/api/2024/equipment-categories/mounts-and-vehicles"
+    }
+  ],
+  "url": "/api/2024/equipment/longship",
+  "cost": { "quantity": 10000, "unit": "gp" },
+  "description": "Speed 3 mph. Crew 40. Passengers 150. Cargo 10 tons. AC 15. HP 300. Damage Threshold 15."
+}

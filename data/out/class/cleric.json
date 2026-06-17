@@ -1,0 +1,235 @@
+{
+  "index": "cleric",
+  "name": "Cleric",
+  "hit_die": 8,
+  "proficiency_choices": [
+    {
+      "desc": "Choose 2: History, Insight, Medicine, Persuasion, or Religion",
+      "choose": 2,
+      "type": "proficiencies",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-history",
+              "name": "Skill: History",
+              "url": "/api/2024/proficiencies/skill-history"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-insight",
+              "name": "Skill: Insight",
+              "url": "/api/2024/proficiencies/skill-insight"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-medicine",
+              "name": "Skill: Medicine",
+              "url": "/api/2024/proficiencies/skill-medicine"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-persuasion",
+              "name": "Skill: Persuasion",
+              "url": "/api/2024/proficiencies/skill-persuasion"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-religion",
+              "name": "Skill: Religion",
+              "url": "/api/2024/proficiencies/skill-religion"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "proficiencies": [
+    {
+      "index": "light-armor",
+      "name": "Light armor",
+      "url": "/api/2024/proficiencies/light-armor"
+    },
+    {
+      "index": "medium-armor",
+      "name": "Medium armor",
+      "url": "/api/2024/proficiencies/medium-armor"
+    },
+    {
+      "index": "shields",
+      "name": "Shields",
+      "url": "/api/2024/proficiencies/shields"
+    },
+    {
+      "index": "simple-weapons",
+      "name": "Simple weapons",
+      "url": "/api/2024/proficiencies/simple-weapons"
+    }
+  ],
+  "saving_throws": [
+    {
+      "index": "wis",
+      "name": "WIS",
+      "url": "/api/2024/ability-scores/wis"
+    },
+    {
+      "index": "cha",
+      "name": "CHA",
+      "url": "/api/2024/ability-scores/cha"
+    }
+  ],
+  "starting_equipment": [],
+  "starting_equipment_options": [
+    {
+      "desc": "Choose A or B: (A) Chain Shirt, Shield, Mace, Holy Symbol, Priest's Pack, and 7 GP; or (B) 110 GP",
+      "choose": 1,
+      "type": "equipment",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "multiple",
+            "items": [
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "chain-shirt",
+                  "name": "Chain Shirt",
+                  "url": "/api/2024/equipment/chain-shirt"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "shield",
+                  "name": "Shield",
+                  "url": "/api/2024/equipment/shield"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "mace",
+                  "name": "Mace",
+                  "url": "/api/2024/equipment/mace"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "holy-symbol",
+                  "name": "Holy Symbol",
+                  "url": "/api/2024/equipment/holy-symbol"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "priests-pack",
+                  "name": "Priest's Pack",
+                  "url": "/api/2024/equipment/priests-pack"
+                }
+              },
+              {
+                "option_type": "money",
+                "count": 7,
+                "unit": "GP"
+              }
+            ]
+          },
+          {
+            "option_type": "money",
+            "count": 110,
+            "unit": "GP"
+          }
+        ]
+      }
+    }
+  ],
+  "class_levels": "/api/2024/classes/cleric/levels",
+  "multi_classing": {
+    "prerequisites": [
+      {
+        "ability_score": {
+          "index": "wis",
+          "name": "WIS",
+          "url": "/api/2024/ability-scores/wis"
+        },
+        "minimum_score": 13
+      }
+    ],
+    "proficiencies": [
+      {
+        "index": "light-armor",
+        "name": "Light armor",
+        "url": "/api/2024/proficiencies/light-armor"
+      },
+      {
+        "index": "medium-armor",
+        "name": "Medium armor",
+        "url": "/api/2024/proficiencies/medium-armor"
+      },
+      {
+        "index": "shields",
+        "name": "Shields",
+        "url": "/api/2024/proficiencies/shields"
+      }
+    ]
+  },
+  "subclasses": [
+    {
+      "index": "grave-domain",
+      "name": "Grave Domain",
+      "url": "/api/2024/subclasses/grave-domain"
+    },
+    {
+      "index": "knowledge-domain",
+      "name": "Knowledge Domain",
+      "url": "/api/2024/subclasses/knowledge-domain"
+    },
+    {
+      "index": "life-domain",
+      "name": "Life Domain",
+      "url": "/api/2024/subclasses/life-domain"
+    },
+    {
+      "index": "light-domain",
+      "name": "Light Domain",
+      "url": "/api/2024/subclasses/light-domain"
+    },
+    {
+      "index": "trickery-domain",
+      "name": "Trickery Domain",
+      "url": "/api/2024/subclasses/trickery-domain"
+    },
+    {
+      "index": "war-domain",
+      "name": "War Domain",
+      "url": "/api/2024/subclasses/war-domain"
+    }
+  ],
+  "spellcasting": {
+    "level": 1,
+    "spellcasting_ability": {
+      "index": "wis",
+      "name": "WIS",
+      "url": "/api/2024/ability-scores/wis"
+    }
+  },
+  "url": "/api/2024/classes/cleric"
+}

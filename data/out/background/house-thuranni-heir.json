@@ -1,0 +1,101 @@
+{
+  "index": "house-thuranni-heir",
+  "name": "House Thuranni Heir",
+  "starting_proficiencies": [
+    {
+      "index": "skill-performance",
+      "name": "Skill: Performance",
+      "url": "/api/2024/proficiencies/skill-performance"
+    },
+    {
+      "index": "skill-stealth",
+      "name": "Skill: Stealth",
+      "url": "/api/2024/proficiencies/skill-stealth"
+    },
+    {
+      "index": "musical-instrument",
+      "name": "Musical Instrument",
+      "url": "/api/2024/proficiencies/musical-instrument"
+    }
+  ],
+  "ability_scores": [
+    {
+      "index": "dex",
+      "name": "DEX",
+      "url": "/api/2024/ability-scores/dex"
+    },
+    {
+      "index": "int",
+      "name": "INT",
+      "url": "/api/2024/ability-scores/int"
+    },
+    {
+      "index": "cha",
+      "name": "CHA",
+      "url": "/api/2024/ability-scores/cha"
+    }
+  ],
+  "feat": {
+    "index": "mark-of-shadow",
+    "name": "Mark of Shadow",
+    "url": "/api/2024/feats/mark-of-shadow"
+  },
+  "starting_equipment_options": [
+    {
+      "desc": "Choose A or B: (A) Musical Instrument (same as above), Costume, Fine Clothes, 13 GP; or (B) 50 GP",
+      "choose": 1,
+      "type": "equipment",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "multiple",
+            "items": [
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "musical-instrument",
+                  "name": "Musical Instrument",
+                  "url": "/api/2024/equipment/musical-instrument"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "costume",
+                  "name": "Costume",
+                  "url": "/api/2024/equipment/costume"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "fine-clothes",
+                  "name": "Fine Clothes",
+                  "url": "/api/2024/equipment/fine-clothes"
+                }
+              },
+              {
+                "option_type": "money",
+                "count": 13,
+                "unit": "GP"
+              }
+            ]
+          },
+          {
+            "option_type": "money",
+            "count": 50,
+            "unit": "GP"
+          }
+        ]
+      }
+    }
+  ],
+  "desc": [
+    "Given House Thuranni's short history and focus on espionage, its leaders expect you to further the interests of the house at every opportunity. During the house's formative years as an independent entity, every move you make has been watched closely. This isn't to say that every Thuranni heir must actively spy at the behest of house elders. But even the house's most insular artists and artisans must keep up with current political events and pass on or collect information when asked."
+  ],
+  "url": "/api/2024/backgrounds/house-thuranni-heir"
+}

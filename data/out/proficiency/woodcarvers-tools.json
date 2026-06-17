@@ -1,0 +1,11 @@
+{
+  "index": "woodcarvers-tools",
+  "name": "Woodcarver's Tools",
+  "type": "Artisan's Tools",
+  "reference": {
+    "index": "woodcarvers-tools",
+    "name": "Woodcarver's Tools",
+    "url": "/api/2024/equipment/woodcarvers-tools"
+  },
+  "url": "/api/2024/proficiencies/woodcarvers-tools"
+}

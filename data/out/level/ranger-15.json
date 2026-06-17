@@ -1,0 +1,26 @@
+{
+  "index": "ranger-15",
+  "level": 15,
+  "ability_score_bonuses": 3,
+  "prof_bonus": 5,
+  "features": [
+    {
+      "index": "subclass-feature",
+      "name": "Subclass Feature",
+      "url": "/api/2024/features/subclass-feature"
+    }
+  ],
+  "class": {
+    "index": "ranger",
+    "name": "Ranger",
+    "url": "/api/2024/classes/ranger"
+  },
+  "spellcasting": {
+    "spells_known": 12,
+    "spell_slots_level_1": 4,
+    "spell_slots_level_2": 3,
+    "spell_slots_level_3": 3,
+    "spell_slots_level_4": 2
+  },
+  "url": "/api/2024/classes/ranger/levels/15"
+}

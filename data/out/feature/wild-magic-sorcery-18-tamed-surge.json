@@ -1,0 +1,21 @@
+{
+  "index": "wild-magic-sorcery-18-tamed-surge",
+  "name": "Tamed Surge",
+  "level": 18,
+  "class": {
+    "index": "sorcerer",
+    "name": "Sorcerer",
+    "url": "/api/2024/classes/sorcerer"
+  },
+  "subclass": {
+    "index": "wild-magic-sorcery",
+    "name": "Wild Magic Sorcery",
+    "url": "/api/2024/subclasses/wild-magic-sorcery"
+  },
+  "desc": [
+    "Immediately after you cast a Sorcerer spell with a spell slot, you can create an effect of your choice from the Wild Magic Surge table instead of rolling on that table. You can choose any effect in the table except for the final row, and if the chosen effect involves a roll, you must make it.",
+    "Once you use this feature, you can't do so again until you finish a Long Rest."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/wild-magic-sorcery-18-tamed-surge"
+}

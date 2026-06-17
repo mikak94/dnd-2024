@@ -1,0 +1,22 @@
+{
+  "index": "assassin-9-infiltration-expertise",
+  "name": "Infiltration Expertise",
+  "level": 9,
+  "class": {
+    "index": "rogue",
+    "name": "Rogue",
+    "url": "/api/2024/classes/rogue"
+  },
+  "subclass": {
+    "index": "assassin",
+    "name": "Assassin",
+    "url": "/api/2024/subclasses/assassin"
+  },
+  "desc": [
+    "You are an expert at the following techniques that aid your infiltrations.",
+    "**Masterful Mimicry.** You can unerringly mimic another person's speech, handwriting or both if you have spent at least 1 hour studying them.",
+    "**Roving Aim.** Your speed isn't reduced to 0 by using Steady Aim."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/assassin-9-infiltration-expertise"
+}

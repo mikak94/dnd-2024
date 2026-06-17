@@ -1,0 +1,209 @@
+{
+  "index": "mulhorandi-tomb-raider",
+  "name": "Mulhorandi Tomb Raider",
+  "starting_proficiencies": [
+    {
+      "index": "skill-investigation",
+      "name": "Skill: Investigation",
+      "url": "/api/2024/proficiencies/skill-investigation"
+    },
+    {
+      "index": "skill-religion",
+      "name": "Skill: Religion",
+      "url": "/api/2024/proficiencies/skill-religion"
+    },
+    {
+      "index": "masons-tools",
+      "name": "Mason's Tools",
+      "url": "/api/2024/proficiencies/masons-tools"
+    }
+  ],
+  "ability_scores": [
+    {
+      "index": "dex",
+      "name": "DEX",
+      "url": "/api/2024/ability-scores/dex"
+    },
+    {
+      "index": "con",
+      "name": "CON",
+      "url": "/api/2024/ability-scores/con"
+    },
+    {
+      "index": "int",
+      "name": "INT",
+      "url": "/api/2024/ability-scores/int"
+    }
+  ],
+  "feat": {
+    "index": "lucky",
+    "name": "Lucky",
+    "url": "/api/2024/feats/lucky"
+  },
+  "starting_equipment_options": [
+    {
+      "desc": "Choose A or B: (A) Dagger, Light Hammer, Mason's Tools, Backpack, Bedroll, Crowbar, Ladder, Pole, 2 Pouches, Rope, String, Tinderbox, 5 Torches, Traveler's Clothes, Waterskin, 26 GP; or (B) 50 GP",
+      "choose": 1,
+      "type": "equipment",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "multiple",
+            "items": [
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "dagger",
+                  "name": "Dagger",
+                  "url": "/api/2024/equipment/dagger"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "light-hammer",
+                  "name": "Light Hammer",
+                  "url": "/api/2024/equipment/light-hammer"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "masons-tools",
+                  "name": "Mason's Tools",
+                  "url": "/api/2024/equipment/masons-tools"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "backpack",
+                  "name": "Backpack",
+                  "url": "/api/2024/equipment/backpack"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "bedroll",
+                  "name": "Bedroll",
+                  "url": "/api/2024/equipment/bedroll"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "crowbar",
+                  "name": "Crowbar",
+                  "url": "/api/2024/equipment/crowbar"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "ladder",
+                  "name": "Ladder",
+                  "url": "/api/2024/equipment/ladder"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "pole",
+                  "name": "Pole",
+                  "url": "/api/2024/equipment/pole"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 2,
+                "of": {
+                  "index": "pouch",
+                  "name": "Pouch",
+                  "url": "/api/2024/equipment/pouch"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "rope",
+                  "name": "Rope",
+                  "url": "/api/2024/equipment/rope"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "string",
+                  "name": "String",
+                  "url": "/api/2024/equipment/string"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "tinderbox",
+                  "name": "Tinderbox",
+                  "url": "/api/2024/equipment/tinderbox"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 5,
+                "of": {
+                  "index": "torch",
+                  "name": "Torch",
+                  "url": "/api/2024/equipment/torch"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "travelers-clothes",
+                  "name": "Traveler's Clothes",
+                  "url": "/api/2024/equipment/travelers-clothes"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "waterskin",
+                  "name": "Waterskin",
+                  "url": "/api/2024/equipment/waterskin"
+                }
+              },
+              {
+                "option_type": "money",
+                "count": 26,
+                "unit": "GP"
+              }
+            ]
+          },
+          {
+            "option_type": "money",
+            "count": 50,
+            "unit": "GP"
+          }
+        ]
+      }
+    }
+  ],
+  "desc": [
+    "You grew up in a land of living god-kings, and as a child you were told countless stories of ancient empires and buried cities. In these tales, Mulhorand was a land overflowing with forgotten riches—priceless treasures awaiting anyone cunning and brave enough to seek them out. You've taken it upon yourself to explore your homeland's crypts, tombs, and pyramids to reclaim your people's relics."
+  ],
+  "url": "/api/2024/backgrounds/mulhorandi-tomb-raider"
+}

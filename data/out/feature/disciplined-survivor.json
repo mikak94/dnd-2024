@@ -1,0 +1,16 @@
+{
+  "index": "disciplined-survivor",
+  "name": "Disciplined Survivor",
+  "level": 14,
+  "class": {
+    "index": "monk",
+    "name": "Monk",
+    "url": "/api/2024/classes/monk"
+  },
+  "desc": [
+    "Your physical and mental discipline grant you proficiency in all saving throws.",
+    "Additionally, whenever you make a saving throw and fail, you can expend 1 Focus Point to reroll it, and you must use the new roll."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/disciplined-survivor"
+}

@@ -1,0 +1,846 @@
+[
+  {
+    "index": "alchemists-supplies",
+    "name": "Alchemist's Supplies",
+    "type": "Artisan's Tools",
+    "reference": {
+      "index": "alchemists-supplies",
+      "name": "Alchemist's Supplies",
+      "url": "/api/2024/equipment/alchemists-supplies"
+    },
+    "url": "/api/2024/proficiencies/alchemists-supplies"
+  },
+  {
+    "index": "all-armor",
+    "name": "All armor",
+    "type": "Armor",
+    "reference": {
+      "index": "armor",
+      "name": "Armor",
+      "url": "/api/2024/equipment-categories/armor"
+    },
+    "url": "/api/2024/proficiencies/all-armor"
+  },
+  {
+    "index": "artisans-tools",
+    "name": "Artisan's Tools",
+    "type": "Artisan's Tools",
+    "url": "/api/2024/proficiencies/artisans-tools"
+  },
+  {
+    "index": "bagpipes",
+    "name": "Bagpipes",
+    "type": "Musical Instruments",
+    "reference": {
+      "index": "bagpipes",
+      "name": "Bagpipes",
+      "url": "/api/2024/equipment/bagpipes"
+    },
+    "url": "/api/2024/proficiencies/bagpipes"
+  },
+  {
+    "index": "brewers-supplies",
+    "name": "Brewer's Supplies",
+    "type": "Artisan's Tools",
+    "reference": {
+      "index": "brewers-supplies",
+      "name": "Brewer's Supplies",
+      "url": "/api/2024/equipment/brewers-supplies"
+    },
+    "url": "/api/2024/proficiencies/brewers-supplies"
+  },
+  {
+    "index": "carpenters-tools",
+    "name": "Carpenter's Tools",
+    "type": "Artisan's Tools",
+    "reference": {
+      "index": "carpenters-tools",
+      "name": "Carpenter's Tools",
+      "url": "/api/2024/equipment/carpenters-tools"
+    },
+    "url": "/api/2024/proficiencies/carpenters-tools"
+  },
+  {
+    "index": "cartographers-tools",
+    "name": "Cartographer's Tools",
+    "type": "Artisan's Tools",
+    "reference": {
+      "index": "cartographers-tools",
+      "name": "Cartographer's Tools",
+      "url": "/api/2024/equipment/cartographers-tools"
+    },
+    "url": "/api/2024/proficiencies/cartographers-tools"
+  },
+  {
+    "index": "cobblers-tools",
+    "name": "Cobbler's Tools",
+    "type": "Artisan's Tools",
+    "reference": {
+      "index": "cobblers-tools",
+      "name": "Cobbler's Tools",
+      "url": "/api/2024/equipment/cobblers-tools"
+    },
+    "url": "/api/2024/proficiencies/cobblers-tools"
+  },
+  {
+    "index": "cooks-utensils",
+    "name": "Cook's Utensils",
+    "type": "Artisan's Tools",
+    "reference": {
+      "index": "cooks-utensils",
+      "name": "Cook's Utensils",
+      "url": "/api/2024/equipment/cooks-utensils"
+    },
+    "url": "/api/2024/proficiencies/cooks-utensils"
+  },
+  {
+    "index": "disguise-kit",
+    "name": "Disguise Kit",
+    "type": "Artisan's Tools",
+    "reference": {
+      "index": "disguise-kit",
+      "name": "Disguise Kit",
+      "url": "/api/2024/equipment/disguise-kit"
+    },
+    "url": "/api/2024/proficiencies/disguise-kit"
+  },
+  {
+    "index": "drum",
+    "name": "Drum",
+    "type": "Musical Instruments",
+    "reference": {
+      "index": "drum",
+      "name": "Drum",
+      "url": "/api/2024/equipment/drum"
+    },
+    "url": "/api/2024/proficiencies/drum"
+  },
+  {
+    "index": "dulcimer",
+    "name": "Dulcimer",
+    "type": "Musical Instruments",
+    "reference": {
+      "index": "dulcimer",
+      "name": "Dulcimer",
+      "url": "/api/2024/equipment/dulcimer"
+    },
+    "url": "/api/2024/proficiencies/dulcimer"
+  },
+  {
+    "index": "flute",
+    "name": "Flute",
+    "type": "Musical Instruments",
+    "reference": {
+      "index": "flute",
+      "name": "Flute",
+      "url": "/api/2024/equipment/flute"
+    },
+    "url": "/api/2024/proficiencies/flute"
+  },
+  {
+    "index": "forgery-kit",
+    "name": "Forgery Kit",
+    "type": "Artisan's Tools",
+    "reference": {
+      "index": "forgery-kit",
+      "name": "Forgery Kit",
+      "url": "/api/2024/equipment/forgery-kit"
+    },
+    "url": "/api/2024/proficiencies/forgery-kit"
+  },
+  {
+    "index": "gaming-set",
+    "name": "Gaming Set",
+    "type": "Tools",
+    "url": "/api/2024/proficiencies/gaming-set"
+  },
+  {
+    "index": "glassblowers-tools",
+    "name": "Glassblower's Tools",
+    "type": "Artisan's Tools",
+    "reference": {
+      "index": "glassblowers-tools",
+      "name": "Glassblower's Tools",
+      "url": "/api/2024/equipment/glassblowers-tools"
+    },
+    "url": "/api/2024/proficiencies/glassblowers-tools"
+  },
+  {
+    "index": "hand-crossbows",
+    "name": "Hand crossbows",
+    "type": "Weapons",
+    "reference": {
+      "index": "hand-crossbow",
+      "name": "Hand Crossbow",
+      "url": "/api/2024/equipment/hand-crossbow"
+    },
+    "url": "/api/2024/proficiencies/hand-crossbows"
+  },
+  {
+    "index": "heavy-armor",
+    "name": "Heavy Armor",
+    "type": "Armor",
+    "reference": {
+      "index": "heavy-armor",
+      "name": "Heavy Armor",
+      "url": "/api/2024/equipment-categories/heavy-armor"
+    },
+    "url": "/api/2024/proficiencies/heavy-armor"
+  },
+  {
+    "index": "herbalism-kit",
+    "name": "Herbalism Kit",
+    "type": "Other",
+    "reference": {
+      "index": "herbalism-kit",
+      "name": "Herbalism Kit",
+      "url": "/api/2024/equipment/herbalism-kit"
+    },
+    "url": "/api/2024/proficiencies/herbalism-kit"
+  },
+  {
+    "index": "horn",
+    "name": "Horn",
+    "type": "Musical Instruments",
+    "reference": {
+      "index": "horn",
+      "name": "Horn",
+      "url": "/api/2024/equipment/horn"
+    },
+    "url": "/api/2024/proficiencies/horn"
+  },
+  {
+    "index": "jewelers-tools",
+    "name": "Jeweler's Tools",
+    "type": "Artisan's Tools",
+    "reference": {
+      "index": "jewelers-tools",
+      "name": "Jeweler's Tools",
+      "url": "/api/2024/equipment/jewelers-tools"
+    },
+    "url": "/api/2024/proficiencies/jewelers-tools"
+  },
+  {
+    "index": "leatherworkers-tools",
+    "name": "Leatherworker's Tools",
+    "type": "Artisan's Tools",
+    "reference": {
+      "index": "leatherworkers-tools",
+      "name": "Leatherworker's Tools",
+      "url": "/api/2024/equipment/leatherworkers-tools"
+    },
+    "url": "/api/2024/proficiencies/leatherworkers-tools"
+  },
+  {
+    "index": "light-armor",
+    "name": "Light Armor",
+    "type": "Armor",
+    "reference": {
+      "index": "light-armor",
+      "name": "Light Armor",
+      "url": "/api/2024/equipment-categories/light-armor"
+    },
+    "url": "/api/2024/proficiencies/light-armor"
+  },
+  {
+    "index": "longswords",
+    "name": "Longswords",
+    "type": "Weapons",
+    "reference": {
+      "index": "longsword",
+      "name": "Longsword",
+      "url": "/api/2024/equipment/longsword"
+    },
+    "url": "/api/2024/proficiencies/longswords"
+  },
+  {
+    "index": "lute",
+    "name": "Lute",
+    "type": "Musical Instruments",
+    "reference": {
+      "index": "lute",
+      "name": "Lute",
+      "url": "/api/2024/equipment/lute"
+    },
+    "url": "/api/2024/proficiencies/lute"
+  },
+  {
+    "index": "lyre",
+    "name": "Lyre",
+    "type": "Musical Instruments",
+    "reference": {
+      "index": "lyre",
+      "name": "Lyre",
+      "url": "/api/2024/equipment/lyre"
+    },
+    "url": "/api/2024/proficiencies/lyre"
+  },
+  {
+    "index": "martial-weapons",
+    "name": "Martial Weapons",
+    "type": "Weapons",
+    "reference": {
+      "index": "martial-weapons",
+      "name": "Martial Weapons",
+      "url": "/api/2024/equipment-categories/martial-weapons"
+    },
+    "url": "/api/2024/proficiencies/martial-weapons"
+  },
+  {
+    "index": "martial-weapons-finesse",
+    "name": "Martial Weapons (Finesse)",
+    "type": "Weapons",
+    "url": "/api/2024/proficiencies/martial-weapons-finesse"
+  },
+  {
+    "index": "martial-weapons-light",
+    "name": "Martial Weapons (Light)",
+    "type": "Weapons",
+    "url": "/api/2024/proficiencies/martial-weapons-light"
+  },
+  {
+    "index": "masons-tools",
+    "name": "Mason's Tools",
+    "type": "Artisan's Tools",
+    "reference": {
+      "index": "masons-tools",
+      "name": "Mason's Tools",
+      "url": "/api/2024/equipment/masons-tools"
+    },
+    "url": "/api/2024/proficiencies/masons-tools"
+  },
+  {
+    "index": "medium-armor",
+    "name": "Medium Armor",
+    "type": "Armor",
+    "reference": {
+      "index": "medium-armor",
+      "name": "Medium Armor",
+      "url": "/api/2024/equipment-categories/medium-armor"
+    },
+    "url": "/api/2024/proficiencies/medium-armor"
+  },
+  {
+    "index": "musical-instrument",
+    "name": "Musical Instrument",
+    "type": "Musical Instruments",
+    "url": "/api/2024/proficiencies/musical-instrument"
+  },
+  {
+    "index": "painters-supplies",
+    "name": "Painter's Supplies",
+    "type": "Artisan's Tools",
+    "reference": {
+      "index": "painters-supplies",
+      "name": "Painter's Supplies",
+      "url": "/api/2024/equipment/painters-supplies"
+    },
+    "url": "/api/2024/proficiencies/painters-supplies"
+  },
+  {
+    "index": "pan-flute",
+    "name": "Pan flute",
+    "type": "Musical Instruments",
+    "reference": {
+      "index": "pan-flute",
+      "name": "Pan flute",
+      "url": "/api/2024/equipment/pan-flute"
+    },
+    "url": "/api/2024/proficiencies/pan-flute"
+  },
+  {
+    "index": "potters-tools",
+    "name": "Potter's Tools",
+    "type": "Artisan's Tools",
+    "reference": {
+      "index": "potters-tools",
+      "name": "Potter's Tools",
+      "url": "/api/2024/equipment/potters-tools"
+    },
+    "url": "/api/2024/proficiencies/potters-tools"
+  },
+  {
+    "index": "rapiers",
+    "name": "Rapiers",
+    "type": "Weapons",
+    "reference": {
+      "index": "rapier",
+      "name": "Rapier",
+      "url": "/api/2024/equipment/rapier"
+    },
+    "url": "/api/2024/proficiencies/rapiers"
+  },
+  {
+    "index": "saving-throw-cha",
+    "name": "Saving Throw: CHA",
+    "type": "Saving Throws",
+    "reference": {
+      "index": "cha",
+      "name": "CHA",
+      "url": "/api/2024/ability-scores/cha"
+    },
+    "url": "/api/2024/proficiencies/saving-throw-cha"
+  },
+  {
+    "index": "saving-throw-con",
+    "name": "Saving Throw: CON",
+    "type": "Saving Throws",
+    "reference": {
+      "index": "con",
+      "name": "CON",
+      "url": "/api/2024/ability-scores/con"
+    },
+    "url": "/api/2024/proficiencies/saving-throw-con"
+  },
+  {
+    "index": "saving-throw-dex",
+    "name": "Saving Throw: DEX",
+    "type": "Saving Throws",
+    "reference": {
+      "index": "dex",
+      "name": "DEX",
+      "url": "/api/2024/ability-scores/dex"
+    },
+    "url": "/api/2024/proficiencies/saving-throw-dex"
+  },
+  {
+    "index": "saving-throw-int",
+    "name": "Saving Throw: INT",
+    "type": "Saving Throws",
+    "reference": {
+      "index": "int",
+      "name": "INT",
+      "url": "/api/2024/ability-scores/int"
+    },
+    "url": "/api/2024/proficiencies/saving-throw-int"
+  },
+  {
+    "index": "saving-throw-str",
+    "name": "Saving Throw: STR",
+    "type": "Saving Throws",
+    "reference": {
+      "index": "str",
+      "name": "STR",
+      "url": "/api/2024/ability-scores/str"
+    },
+    "url": "/api/2024/proficiencies/saving-throw-str"
+  },
+  {
+    "index": "saving-throw-wis",
+    "name": "Saving Throw: WIS",
+    "type": "Saving Throws",
+    "reference": {
+      "index": "wis",
+      "name": "WIS",
+      "url": "/api/2024/ability-scores/wis"
+    },
+    "url": "/api/2024/proficiencies/saving-throw-wis"
+  },
+  {
+    "index": "scimitars",
+    "name": "Scimitars",
+    "type": "Weapons",
+    "reference": {
+      "index": "scimitar",
+      "name": "Scimitar",
+      "url": "/api/2024/equipment/scimitar"
+    },
+    "url": "/api/2024/proficiencies/scimitars"
+  },
+  {
+    "index": "shawm",
+    "name": "Shawm",
+    "type": "Musical Instruments",
+    "reference": {
+      "index": "shawm",
+      "name": "Shawm",
+      "url": "/api/2024/equipment/shawm"
+    },
+    "url": "/api/2024/proficiencies/shawm"
+  },
+  {
+    "index": "shields",
+    "name": "Shields",
+    "type": "Armor",
+    "reference": {
+      "index": "shield",
+      "name": "Shield",
+      "url": "/api/2024/equipment/shield"
+    },
+    "url": "/api/2024/proficiencies/shields"
+  },
+  {
+    "index": "shortswords",
+    "name": "Shortswords",
+    "type": "Weapons",
+    "reference": {
+      "index": "shortsword",
+      "name": "Shortsword",
+      "url": "/api/2024/equipment/shortsword"
+    },
+    "url": "/api/2024/proficiencies/shortswords"
+  },
+  {
+    "index": "simple-weapons",
+    "name": "Simple Weapons",
+    "type": "Weapons",
+    "reference": {
+      "index": "simple-weapons",
+      "name": "Simple Weapons",
+      "url": "/api/2024/equipment-categories/simple-weapons"
+    },
+    "url": "/api/2024/proficiencies/simple-weapons"
+  },
+  {
+    "index": "skill-acrobatics",
+    "name": "Skill: Acrobatics",
+    "type": "Skills",
+    "reference": {
+      "index": "acrobatics",
+      "name": "Acrobatics",
+      "url": "/api/2024/skills/acrobatics"
+    },
+    "url": "/api/2024/proficiencies/skill-acrobatics"
+  },
+  {
+    "index": "skill-animal-handling",
+    "name": "Skill: Animal Handling",
+    "type": "Skills",
+    "reference": {
+      "index": "animal-handling",
+      "name": "Animal Handling",
+      "url": "/api/2024/skills/animal-handling"
+    },
+    "url": "/api/2024/proficiencies/skill-animal-handling"
+  },
+  {
+    "index": "skill-arcana",
+    "name": "Skill: Arcana",
+    "type": "Skills",
+    "reference": {
+      "index": "arcana",
+      "name": "Arcana",
+      "url": "/api/2024/skills/arcana"
+    },
+    "url": "/api/2024/proficiencies/skill-arcana"
+  },
+  {
+    "index": "skill-athletics",
+    "name": "Skill: Athletics",
+    "type": "Skills",
+    "reference": {
+      "index": "athletics",
+      "name": "Athletics",
+      "url": "/api/2024/skills/athletics"
+    },
+    "url": "/api/2024/proficiencies/skill-athletics"
+  },
+  {
+    "index": "skill-deception",
+    "name": "Skill: Deception",
+    "type": "Skills",
+    "reference": {
+      "index": "deception",
+      "name": "Deception",
+      "url": "/api/2024/skills/deception"
+    },
+    "url": "/api/2024/proficiencies/skill-deception"
+  },
+  {
+    "index": "skill-history",
+    "name": "Skill: History",
+    "type": "Skills",
+    "reference": {
+      "index": "history",
+      "name": "History",
+      "url": "/api/2024/skills/history"
+    },
+    "url": "/api/2024/proficiencies/skill-history"
+  },
+  {
+    "index": "skill-insight",
+    "name": "Skill: Insight",
+    "type": "Skills",
+    "reference": {
+      "index": "insight",
+      "name": "Insight",
+      "url": "/api/2024/skills/insight"
+    },
+    "url": "/api/2024/proficiencies/skill-insight"
+  },
+  {
+    "index": "skill-intimidation",
+    "name": "Skill: Intimidation",
+    "type": "Skills",
+    "reference": {
+      "index": "intimidation",
+      "name": "Intimidation",
+      "url": "/api/2024/skills/intimidation"
+    },
+    "url": "/api/2024/proficiencies/skill-intimidation"
+  },
+  {
+    "index": "skill-investigation",
+    "name": "Skill: Investigation",
+    "type": "Skills",
+    "reference": {
+      "index": "investigation",
+      "name": "Investigation",
+      "url": "/api/2024/skills/investigation"
+    },
+    "url": "/api/2024/proficiencies/skill-investigation"
+  },
+  {
+    "index": "skill-medicine",
+    "name": "Skill: Medicine",
+    "type": "Skills",
+    "reference": {
+      "index": "medicine",
+      "name": "Medicine",
+      "url": "/api/2024/skills/medicine"
+    },
+    "url": "/api/2024/proficiencies/skill-medicine"
+  },
+  {
+    "index": "skill-nature",
+    "name": "Skill: Nature",
+    "type": "Skills",
+    "reference": {
+      "index": "nature",
+      "name": "Nature",
+      "url": "/api/2024/skills/nature"
+    },
+    "url": "/api/2024/proficiencies/skill-nature"
+  },
+  {
+    "index": "skill-perception",
+    "name": "Skill: Perception",
+    "type": "Skills",
+    "reference": {
+      "index": "perception",
+      "name": "Perception",
+      "url": "/api/2024/skills/perception"
+    },
+    "url": "/api/2024/proficiencies/skill-perception"
+  },
+  {
+    "index": "skill-performance",
+    "name": "Skill: Performance",
+    "type": "Skills",
+    "reference": {
+      "index": "performance",
+      "name": "Performance",
+      "url": "/api/2024/skills/performance"
+    },
+    "url": "/api/2024/proficiencies/skill-performance"
+  },
+  {
+    "index": "skill-persuasion",
+    "name": "Skill: Persuasion",
+    "type": "Skills",
+    "reference": {
+      "index": "persuasion",
+      "name": "Persuasion",
+      "url": "/api/2024/skills/persuasion"
+    },
+    "url": "/api/2024/proficiencies/skill-persuasion"
+  },
+  {
+    "index": "skill-religion",
+    "name": "Skill: Religion",
+    "type": "Skills",
+    "reference": {
+      "index": "religion",
+      "name": "Religion",
+      "url": "/api/2024/skills/religion"
+    },
+    "url": "/api/2024/proficiencies/skill-religion"
+  },
+  {
+    "index": "skill-sleight-of-hand",
+    "name": "Skill: Sleight of Hand",
+    "type": "Skills",
+    "reference": {
+      "index": "sleight-of-hand",
+      "name": "Sleight of Hand",
+      "url": "/api/2024/skills/sleight-of-hand"
+    },
+    "url": "/api/2024/proficiencies/skill-sleight-of-hand"
+  },
+  {
+    "index": "skill-stealth",
+    "name": "Skill: Stealth",
+    "type": "Skills",
+    "reference": {
+      "index": "stealth",
+      "name": "Stealth",
+      "url": "/api/2024/skills/stealth"
+    },
+    "url": "/api/2024/proficiencies/skill-stealth"
+  },
+  {
+    "index": "skill-survival",
+    "name": "Skill: Survival",
+    "type": "Skills",
+    "reference": {
+      "index": "survival",
+      "name": "Survival",
+      "url": "/api/2024/skills/survival"
+    },
+    "url": "/api/2024/proficiencies/skill-survival"
+  },
+  {
+    "index": "smiths-tools",
+    "name": "Smith's Tools",
+    "type": "Artisan's Tools",
+    "reference": {
+      "index": "smiths-tools",
+      "name": "Smith's Tools",
+      "url": "/api/2024/equipment/smiths-tools"
+    },
+    "url": "/api/2024/proficiencies/smiths-tools"
+  },
+  {
+    "index": "tinkers-tools",
+    "name": "Tinker's Tools",
+    "type": "Artisan's Tools",
+    "reference": {
+      "index": "tinkers-tools",
+      "name": "Tinker's Tools",
+      "url": "/api/2024/equipment/tinkers-tools"
+    },
+    "url": "/api/2024/proficiencies/tinkers-tools"
+  },
+  {
+    "index": "tool-calligraphers-supplies",
+    "name": "Tool: Calligrapher's Supplies",
+    "type": "Tools",
+    "reference": {
+      "index": "calligraphers-supplies",
+      "name": "Calligrapher's Supplies",
+      "url": "/api/2024/equipment/calligraphers-supplies"
+    },
+    "url": "/api/2024/proficiencies/tool-calligraphers-supplies"
+  },
+  {
+    "index": "tool-dice",
+    "name": "Tool: Dice",
+    "type": "Tools",
+    "reference": {
+      "index": "dice",
+      "name": "Dice",
+      "url": "/api/2024/equipment/dice"
+    },
+    "url": "/api/2024/proficiencies/tool-dice"
+  },
+  {
+    "index": "tool-dragonchess",
+    "name": "Tool: Dragonchess",
+    "type": "Tools",
+    "reference": {
+      "index": "dragonchess",
+      "name": "Dragonchess",
+      "url": "/api/2024/equipment/dragonchess"
+    },
+    "url": "/api/2024/proficiencies/tool-dragonchess"
+  },
+  {
+    "index": "tool-navigators-tools",
+    "name": "Tool: Navigator's Tools",
+    "type": "Tools",
+    "reference": {
+      "index": "navigators-tools",
+      "name": "Navigator's Tools",
+      "url": "/api/2024/equipment/navigators-tools"
+    },
+    "url": "/api/2024/proficiencies/tool-navigators-tools"
+  },
+  {
+    "index": "tool-playing-cards",
+    "name": "Tool: Playing Cards",
+    "type": "Tools",
+    "reference": {
+      "index": "playing-cards",
+      "name": "Playing Cards",
+      "url": "/api/2024/equipment/playing-cards"
+    },
+    "url": "/api/2024/proficiencies/tool-playing-cards"
+  },
+  {
+    "index": "tool-poisoners-kit",
+    "name": "Tool: Poisoner's Kit",
+    "type": "Tools",
+    "reference": {
+      "index": "poisoners-kit",
+      "name": "Poisoner's Kit",
+      "url": "/api/2024/equipment/poisoners-kit"
+    },
+    "url": "/api/2024/proficiencies/tool-poisoners-kit"
+  },
+  {
+    "index": "tool-thieves-tools",
+    "name": "Tool: Thieves' Tools",
+    "type": "Tools",
+    "reference": {
+      "index": "thieves-tools",
+      "name": "Thieves' Tools",
+      "url": "/api/2024/equipment/thieves-tools"
+    },
+    "url": "/api/2024/proficiencies/tool-thieves-tools"
+  },
+  {
+    "index": "tool-three-dragon-ante",
+    "name": "Tool: Three-Dragon Ante",
+    "type": "Tools",
+    "reference": {
+      "index": "three-dragon-ante",
+      "name": "Three-Dragon Ante",
+      "url": "/api/2024/equipment/three-dragon-ante"
+    },
+    "url": "/api/2024/proficiencies/tool-three-dragon-ante"
+  },
+  {
+    "index": "viol",
+    "name": "Viol",
+    "type": "Musical Instruments",
+    "reference": {
+      "index": "viol",
+      "name": "Viol",
+      "url": "/api/2024/equipment/viol"
+    },
+    "url": "/api/2024/proficiencies/viol"
+  },
+  {
+    "index": "weavers-tools",
+    "name": "Weaver's Tools",
+    "type": "Artisan's Tools",
+    "reference": {
+      "index": "weavers-tools",
+      "name": "Weaver's Tools",
+      "url": "/api/2024/equipment/weavers-tools"
+    },
+    "url": "/api/2024/proficiencies/weavers-tools"
+  },
+  {
+    "index": "whips",
+    "name": "Whips",
+    "type": "Weapons",
+    "reference": {
+      "index": "whip",
+      "name": "Whip",
+      "url": "/api/2024/equipment/whip"
+    },
+    "url": "/api/2024/proficiencies/whips"
+  },
+  {
+    "index": "woodcarvers-tools",
+    "name": "Woodcarver's Tools",
+    "type": "Artisan's Tools",
+    "reference": {
+      "index": "woodcarvers-tools",
+      "name": "Woodcarver's Tools",
+      "url": "/api/2024/equipment/woodcarvers-tools"
+    },
+    "url": "/api/2024/proficiencies/woodcarvers-tools"
+  }
+]

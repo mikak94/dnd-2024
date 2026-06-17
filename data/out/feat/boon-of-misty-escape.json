@@ -1,0 +1,54 @@
+{
+  "index": "boon-of-misty-escape",
+  "name": "Boon of Misty Escape",
+  "type": "epic-boon",
+  "prerequisites": [
+    {
+      "type": "level",
+      "level": 19
+    }
+  ],
+  "desc": [
+    "You gain the following benefits.",
+    "Ability Score Increase. Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 30.",
+    "Gaseous Form. If you drop to 0 Hit Points but aren’t killed outright, you can instead drop to 1 Hit Point and cast Gaseous Form without expending a spell slot (no action required). When you cast this spell this way, you can target only yourself, your Fly Speed is 20 feet, and you regain 10 Hit Points at the start of each of your turns for the spell’s duration. The spell’s spellcasting ability is the ability increased by this feat.",
+    "Once you use this benefit, you can’t do so again until you finish a Long Rest."
+  ],
+  "choices": [
+    {
+      "desc": "Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 30.",
+      "choose": 1,
+      "type": "abilities",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "int",
+              "name": "INT",
+              "url": "/api/2024/ability-scores/int"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "wis",
+              "name": "WIS",
+              "url": "/api/2024/ability-scores/wis"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "cha",
+              "name": "CHA",
+              "url": "/api/2024/ability-scores/cha"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "url": "/api/2024/feats/boon-of-misty-escape"
+}

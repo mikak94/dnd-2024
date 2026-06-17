@@ -1,0 +1,65 @@
+{
+  "index": "speedy",
+  "name": "Speedy",
+  "type": "general",
+  "prerequisites": [
+    {
+      "type": "level",
+      "level": 4
+    },
+    {
+      "type": "ability_score",
+      "ability_score": {
+        "index": "dex",
+        "name": "DEX",
+        "url": "/api/2024/ability-scores/dex"
+      },
+      "minimum_score": 13
+    },
+    {
+      "type": "ability_score",
+      "ability_score": {
+        "index": "con",
+        "name": "CON",
+        "url": "/api/2024/ability-scores/con"
+      },
+      "minimum_score": 13
+    }
+  ],
+  "desc": [
+    "You gain the following benefits.",
+    "Ability Score Increase. Increase your Dexterity or Constitution score by 1, to a maximum of 20.",
+    "Speed Increase. Your Speed increases by 10 feet.",
+    "Dash over Difficult Terrain. When you take the Dash action on your turn, Difficult Terrain doesn't cost you extra movement for the rest of that turn.",
+    "Agile Movement. Opportunity Attacks have Disadvantage against you."
+  ],
+  "choices": [
+    {
+      "desc": "Increase your Dexterity or Constitution score by 1, to a maximum of 20.",
+      "choose": 1,
+      "type": "abilities",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "dex",
+              "name": "DEX",
+              "url": "/api/2024/ability-scores/dex"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "con",
+              "name": "CON",
+              "url": "/api/2024/ability-scores/con"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "url": "/api/2024/feats/speedy"
+}

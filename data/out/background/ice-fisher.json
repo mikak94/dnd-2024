@@ -1,0 +1,173 @@
+{
+  "index": "ice-fisher",
+  "name": "Ice Fisher",
+  "starting_proficiencies": [
+    {
+      "index": "skill-animal-handling",
+      "name": "Skill: Animal Handling",
+      "url": "/api/2024/proficiencies/skill-animal-handling"
+    },
+    {
+      "index": "skill-athletics",
+      "name": "Skill: Athletics",
+      "url": "/api/2024/proficiencies/skill-athletics"
+    },
+    {
+      "index": "woodcarvers-tools",
+      "name": "Woodcarver's Tools",
+      "url": "/api/2024/proficiencies/woodcarvers-tools"
+    }
+  ],
+  "ability_scores": [
+    {
+      "index": "str",
+      "name": "STR",
+      "url": "/api/2024/ability-scores/str"
+    },
+    {
+      "index": "dex",
+      "name": "DEX",
+      "url": "/api/2024/ability-scores/dex"
+    },
+    {
+      "index": "con",
+      "name": "CON",
+      "url": "/api/2024/ability-scores/con"
+    }
+  ],
+  "feat": {
+    "index": "alert",
+    "name": "Alert",
+    "url": "/api/2024/feats/alert"
+  },
+  "starting_equipment_options": [
+    {
+      "desc": "Choose A or B: (A) Woodcarver's Tools, Basket, Block and Tackle, Bucket, Chain, Hunting Trap, Net, Pole, Rations (3 days' worth), Rope, Traveler's Clothes, 32 GP; or (B) 50 GP",
+      "choose": 1,
+      "type": "equipment",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "multiple",
+            "items": [
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "woodcarvers-tools",
+                  "name": "Woodcarver's Tools",
+                  "url": "/api/2024/equipment/woodcarvers-tools"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "basket",
+                  "name": "Basket",
+                  "url": "/api/2024/equipment/basket"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "block-and-tackle",
+                  "name": "Block and Tackle",
+                  "url": "/api/2024/equipment/block-and-tackle"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "bucket",
+                  "name": "Bucket",
+                  "url": "/api/2024/equipment/bucket"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "chain",
+                  "name": "Chain",
+                  "url": "/api/2024/equipment/chain"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "hunting-trap",
+                  "name": "Hunting Trap",
+                  "url": "/api/2024/equipment/hunting-trap"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "net",
+                  "name": "Net",
+                  "url": "/api/2024/equipment/net"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "pole",
+                  "name": "Pole",
+                  "url": "/api/2024/equipment/pole"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 3,
+                "of": {
+                  "index": "rations",
+                  "name": "Rations",
+                  "url": "/api/2024/equipment/rations"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "rope",
+                  "name": "Rope",
+                  "url": "/api/2024/equipment/rope"
+                }
+              },
+              {
+                "option_type": "counted_reference",
+                "count": 1,
+                "of": {
+                  "index": "travelers-clothes",
+                  "name": "Traveler's Clothes",
+                  "url": "/api/2024/equipment/travelers-clothes"
+                }
+              },
+              {
+                "option_type": "money",
+                "count": 32,
+                "unit": "GP"
+              }
+            ]
+          },
+          {
+            "option_type": "money",
+            "count": 50,
+            "unit": "GP"
+          }
+        ]
+      }
+    }
+  ],
+  "desc": [
+    "You come from a proud line of ice fishers out of Ten-Towns in Icewind Dale. Catching knucklehead trout isn't the most glorious trade in the North, but it's an honest living. You've trained your senses for the slightest tug on the line, wrestled big trout out of ice-covered lakes, and gutted enough knucklehead trout to feed your village many times over. These experiences have toughened your body and mind for a life of adventuring."
+  ],
+  "url": "/api/2024/backgrounds/ice-fisher"
+}

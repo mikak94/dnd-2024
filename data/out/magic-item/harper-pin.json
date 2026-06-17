@@ -1,0 +1,15 @@
+{
+  "index": "harper-pin",
+  "name": "Harper Pin",
+  "equipment_category": {
+    "index": "wondrous-items",
+    "name": "Wondrous Items",
+    "url": "/api/2024/equipment-categories/wondrous-items"
+  },
+  "rarity": { "name": "Varies" },
+  "attunement": true,
+  "desc": "When you attune to this pin, choose a Harper persona (see the Forgotten Realms: Heroes of Faerun for examples), including an alignment and a creature type. While wearing this pin, you register as that persona when targeted by magic to determine your creature type, alignment, or location.\n\nThe type of pin determines its rarity and effects.\n\nSilver Harper Pin. When you attune to this pin, you can devise a general line of thought of 25 words or fewer. While you wear this pin, a creature that reads your thoughts detects your preprogrammed line of thought instead. A creature that takes the Study action while reading your thoughts makes a DC 13 Intelligence (Investigation) check. On a successful check, it becomes aware that the detected thoughts are preprogrammed.\n\nGolden Harper Pin. While wearing this pin, you can cast the Nondetection spell on yourself. The duration of this spell is permanent until you disable the effect (no action required), you remove the pin, or you are no longer attuned to the pin.",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/harper-pin"
+}

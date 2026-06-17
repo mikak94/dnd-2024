@@ -1,0 +1,23 @@
+{
+  "index": "college-of-spirits-6-empowered-channeling",
+  "name": "Empowered Channeling",
+  "level": 6,
+  "class": {
+    "index": "bard",
+    "name": "Bard",
+    "url": "/api/2024/classes/bard"
+  },
+  "subclass": {
+    "index": "college-of-spirits",
+    "name": "College of Spirits",
+    "url": "/api/2024/subclasses/college-of-spirits"
+  },
+  "desc": [
+    "Your ability to channel spirits improves. You gain the following benefits.",
+    "Power from Beyond. Once per turn, when you cast a Bard spell with a spell slot that deals damage or restores Hit Points, roll 1d6. You gain a bonus equal to the number rolled to one of the spell's damage rolls or to the total Hit Points the spell restores.",
+    "Spiritual Manifestation. You always have the Spirit Guardians spell prepared. You can cast the spell once without a spell slot, and you regain the ability to cast it in this way when you finish a Long Rest.",
+    "Whenever you cast the spell, you can modify it so the spirits also guard against worldly threats. When you cast the spell in this way, you and allies within the spell's Emanation have Half Cover. Once you modify the spell in this way, you can't do so again until you finish a Short or Long Rest."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/college-of-spirits-6-empowered-channeling"
+}

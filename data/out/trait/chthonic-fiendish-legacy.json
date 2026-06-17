@@ -1,0 +1,68 @@
+{
+  "index": "chthonic-fiendish-legacy",
+  "name": "Fiendish Legacy",
+  "species": [],
+  "subspecies": [
+    {
+      "index": "chthonic",
+      "name": "Chthonic",
+      "url": "/api/2024/subspecies/chthonic"
+    }
+  ],
+  "desc": [
+    "Level 1: You have Resistance to Necrotic damage. You also know the Chill Touch cantrip. Level 3: False Life. Level 5: Ray of Enfeeblement. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the legacy)."
+  ],
+  "parent": {
+    "index": "tiefling-fiendish-legacy",
+    "name": "Fiendish Legacy",
+    "url": "/api/2024/traits/tiefling-fiendish-legacy"
+  },
+  "trait_specific": {
+    "spellcasting": {
+      "ability": [
+        {
+          "index": "int",
+          "name": "INT",
+          "url": "/api/2024/ability-scores/int"
+        },
+        {
+          "index": "wis",
+          "name": "WIS",
+          "url": "/api/2024/ability-scores/wis"
+        },
+        {
+          "index": "cha",
+          "name": "CHA",
+          "url": "/api/2024/ability-scores/cha"
+        }
+      ],
+      "spells": [
+        {
+          "spell": {
+            "index": "chill-touch",
+            "name": "Chill Touch",
+            "url": "/api/2024/spells/chill-touch"
+          },
+          "level": 1
+        },
+        {
+          "spell": {
+            "index": "false-life",
+            "name": "False Life",
+            "url": "/api/2024/spells/false-life"
+          },
+          "level": 3
+        },
+        {
+          "spell": {
+            "index": "ray-of-enfeeblement",
+            "name": "Ray of Enfeeblement",
+            "url": "/api/2024/spells/ray-of-enfeeblement"
+          },
+          "level": 5
+        }
+      ]
+    }
+  },
+  "url": "/api/2024/traits/chthonic-fiendish-legacy"
+}

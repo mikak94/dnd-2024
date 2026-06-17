@@ -1,0 +1,26 @@
+{
+  "index": "light-domain-3-light-domain-spells",
+  "name": "Light Domain Spells",
+  "level": 3,
+  "class": {
+    "index": "cleric",
+    "name": "Cleric",
+    "url": "/api/2024/classes/cleric"
+  },
+  "subclass": {
+    "index": "light-domain",
+    "name": "Light Domain",
+    "url": "/api/2024/subclasses/light-domain"
+  },
+  "desc": [
+    "Your connection to this divine domain ensures you always have certain spells ready. When you reach a Cleric level specified in the Light Domain Spells table, you thereafter always have the listed spells prepared.",
+    "| Cleric Level | Prepared Spells |",
+    "| --- | --- |",
+    "| 3 | Burning Hands, Faerie Fire, Scorching Ray, See Invisibility |",
+    "| 5 | Daylight, Fireball |",
+    "| 7 | Arcane Eye, Wall of Fire |",
+    "| 9 | Flame Strike, Scrying |"
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/light-domain-3-light-domain-spells"
+}

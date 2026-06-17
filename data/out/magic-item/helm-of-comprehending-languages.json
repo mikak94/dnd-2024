@@ -1,0 +1,15 @@
+{
+  "index": "helm-of-comprehending-languages",
+  "name": "Helm of Comprehending Languages",
+  "equipment_category": {
+    "index": "wondrous-items",
+    "name": "Wondrous Items",
+    "url": "/api/2024/equipment-categories/wondrous-items"
+  },
+  "rarity": { "name": "Uncommon" },
+  "attunement": false,
+  "desc": "While wearing this helm, you can cast Comprehend Languages from it.",
+  "variant": false,
+  "variants": [],
+  "url": "/api/2024/magic-items/helm-of-comprehending-languages"
+}

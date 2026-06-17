@@ -1,0 +1,19 @@
+{
+  "index": "lyrandar-air-cruiser",
+  "name": "Lyrandar Air Cruiser",
+  "equipment_categories": [
+    {
+      "index": "waterborne-vehicles",
+      "name": "Waterborne Vehicles",
+      "url": "/api/2024/equipment-categories/waterborne-vehicles"
+    },
+    {
+      "index": "mounts-and-vehicles",
+      "name": "Mounts and Vehicles",
+      "url": "/api/2024/equipment-categories/mounts-and-vehicles"
+    }
+  ],
+  "url": "/api/2024/equipment/lyrandar-air-cruiser",
+  "cost": { "quantity": 50000, "unit": "gp" },
+  "description": "Speed 10 mph (Fly Speed 100 ft. [hover]). Crew 10. Passengers 40. Cargo 2 tons. AC 16. HP 600. Damage Threshold 20."
+}

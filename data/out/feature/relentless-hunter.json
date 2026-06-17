@@ -1,0 +1,13 @@
+{
+  "index": "relentless-hunter",
+  "name": "Relentless Hunter",
+  "level": 13,
+  "class": {
+    "index": "ranger",
+    "name": "Ranger",
+    "url": "/api/2024/classes/ranger"
+  },
+  "desc": ["Taking damage can't break your Concentration on Hunter's Mark."],
+  "prerequisites": [],
+  "url": "/api/2024/features/relentless-hunter"
+}

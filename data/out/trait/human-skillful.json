@@ -1,0 +1,25 @@
+{
+  "index": "human-skillful",
+  "name": "Skillful",
+  "species": [
+    {
+      "index": "human",
+      "name": "Human",
+      "url": "/api/2024/species/human"
+    }
+  ],
+  "subspecies": [],
+  "desc": ["You gain proficiency in one skill of your choice."],
+  "proficiency_choices": [
+    {
+      "desc": "Choose one skill",
+      "choose": 1,
+      "type": "proficiencies",
+      "from": {
+        "option_set_type": "resource_list",
+        "resource_list_url": "/api/2024/proficiencies?type=skills"
+      }
+    }
+  ],
+  "url": "/api/2024/traits/human-skillful"
+}

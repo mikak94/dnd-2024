@@ -1,0 +1,16 @@
+{
+  "index": "champion",
+  "class": {
+    "index": "fighter",
+    "name": "Fighter",
+    "url": "/api/2024/classes/fighter"
+  },
+  "name": "Champion",
+  "subclass_flavor": "Martial Archetype",
+  "desc": [
+    "Pursue Physical Excellence in Combat",
+    "A Champion focuses on the development of martial prowess in a relentless pursuit of victory. Champions combine rigorous training with physical excellence to deal devastating blows, withstand peril, and garner glory. Whether in athletic contests or bloody battle, Champions strive for the crown of the victor."
+  ],
+  "subclass_levels": "/api/2024/subclasses/champion/levels",
+  "url": "/api/2024/subclasses/champion"
+}

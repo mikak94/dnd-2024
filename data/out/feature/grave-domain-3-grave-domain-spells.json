@@ -1,0 +1,26 @@
+{
+  "index": "grave-domain-3-grave-domain-spells",
+  "name": "Grave Domain Spells",
+  "level": 3,
+  "class": {
+    "index": "cleric",
+    "name": "Cleric",
+    "url": "/api/2024/classes/cleric"
+  },
+  "subclass": {
+    "index": "grave-domain",
+    "name": "Grave Domain",
+    "url": "/api/2024/subclasses/grave-domain"
+  },
+  "desc": [
+    "Your connection to this divine domain ensures you always have certain spells ready. When you reach a Cleric level specified in the Grave Domain Spells table, you thereafter always have the listed spells prepared.",
+    "| Cleric Level | Spells |",
+    "| --- | --- |",
+    "| 3 | Detect Evil and Good, False Life, Gentle Repose, Ray of Enfeeblement, Spare the Dying |",
+    "| 5 | Revivify, Vampiric Touch |",
+    "| 7 | Blight, Death Ward |",
+    "| 9 | Dispel Evil and Good, Raise Dead |"
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/grave-domain-3-grave-domain-spells"
+}

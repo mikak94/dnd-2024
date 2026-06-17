@@ -1,0 +1,20 @@
+{
+  "index": "warrior-of-the-elements-3-manipulate-elements",
+  "name": "Manipulate Elements",
+  "level": 3,
+  "class": {
+    "index": "monk",
+    "name": "Monk",
+    "url": "/api/2024/classes/monk"
+  },
+  "subclass": {
+    "index": "warrior-of-the-elements",
+    "name": "Warrior of the Elements",
+    "url": "/api/2024/subclasses/warrior-of-the-elements"
+  },
+  "desc": [
+    "You know the Elementalism spell. Wisdom is your spellcasting ability for it."
+  ],
+  "prerequisites": [],
+  "url": "/api/2024/features/warrior-of-the-elements-3-manipulate-elements"
+}

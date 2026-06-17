@@ -1,0 +1,64 @@
+{
+  "index": "cold-caster",
+  "name": "Cold Caster",
+  "type": "general",
+  "prerequisites": [
+    {
+      "type": "level",
+      "level": 4
+    }
+  ],
+  "desc": [
+    "You gain the following benefits.",
+    "Ability Score Increase. Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.",
+    "Cantrip. You learn the Ray of Frost cantrip. If you already know it, you learn a different Wizard cantrip of your choice. The spell’s spellcasting ability is the ability increased by this feat.",
+    "Frostbite. Once per turn when you hit a creature with an attack roll and deal Cold damage, you can temporarily negate the creature’s defenses. The creature subtracts 1d4 from the next saving throw it makes before the end of your next turn."
+  ],
+  "choices": [
+    {
+      "desc": "Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.",
+      "choose": 1,
+      "type": "abilities",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "int",
+              "name": "INT",
+              "url": "/api/2024/ability-scores/int"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "wis",
+              "name": "WIS",
+              "url": "/api/2024/ability-scores/wis"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "cha",
+              "name": "CHA",
+              "url": "/api/2024/ability-scores/cha"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "desc": "You learn the Ray of Frost cantrip. If you already know it, you learn a different Wizard cantrip of your choice.",
+      "choose": 1,
+      "type": "spells",
+      "spell_source": { "level": 0, "classes": ["wizard"] },
+      "from": {
+        "option_set_type": "resource_list",
+        "resource_list_url": "/api/2024/classes/wizard/spells"
+      }
+    }
+  ],
+  "url": "/api/2024/feats/cold-caster"
+}
