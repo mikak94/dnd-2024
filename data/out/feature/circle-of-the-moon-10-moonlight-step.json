@@ -17,5 +17,11 @@
     "You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest. You can also regain uses by expending a level 2+ spell slot for each use you want to restore (no action required)."
   ],
   "prerequisites": [],
+  "activation": {
+    "action_type": "bonus_action"
+  },
+  "recharge": {
+    "condition": "long_rest"
+  },
   "url": "/api/2024/features/circle-of-the-moon-10-moonlight-step"
 }

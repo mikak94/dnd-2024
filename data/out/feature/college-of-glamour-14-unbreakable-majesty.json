@@ -17,5 +17,12 @@
     "Once you assume this majestic presence, you can't do so again until you finish a Short or Long Rest."
   ],
   "prerequisites": [],
+  "activation": {
+    "action_type": "bonus_action"
+  },
+  "recharge": {
+    "condition": "short_or_long_rest",
+    "uses": 1
+  },
   "url": "/api/2024/features/college-of-glamour-14-unbreakable-majesty"
 }

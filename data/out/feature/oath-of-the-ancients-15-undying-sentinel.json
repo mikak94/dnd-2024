@@ -17,5 +17,12 @@
     "Additionally, you can't be aged magically, and you cease visibly aging."
   ],
   "prerequisites": [],
+  "activation": {
+    "action_type": "special"
+  },
+  "recharge": {
+    "condition": "long_rest",
+    "uses": 1
+  },
   "url": "/api/2024/features/oath-of-the-ancients-15-undying-sentinel"
 }

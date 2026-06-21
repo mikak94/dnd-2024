@@ -19,5 +19,27 @@
     "Wolf. While your Rage is active, your allies have Advantage on attack rolls against any enemy of yours within 5 feet of you."
   ],
   "prerequisites": [],
+  "feature_specific": {
+    "benefit_options": {
+      "choose": 1,
+      "benefits": [
+        {
+          "type": "passive",
+          "name": "Bear",
+          "desc": "While your Rage is active, you have Resistance to every damage type except Force, Necrotic, Psychic, and Radiant."
+        },
+        {
+          "type": "passive",
+          "name": "Eagle",
+          "desc": "When you activate your Rage, you can take the Disengage and Dash actions as part of that Bonus Action. While your Rage is active, you can take a Bonus Action to take both of those actions."
+        },
+        {
+          "type": "passive",
+          "name": "Wolf",
+          "desc": "While your Rage is active, your allies have Advantage on attack rolls against any enemy of yours within 5 feet of you."
+        }
+      ]
+    }
+  },
   "url": "/api/2024/features/path-of-the-wild-heart-3-rage-of-the-wilds"
 }

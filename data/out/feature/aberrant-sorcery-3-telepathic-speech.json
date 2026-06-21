@@ -17,5 +17,8 @@
     "The telepathic connection lasts for a number of minutes equal to your Sorcerer level. It ends early if you use this ability to form a connection with a different creature."
   ],
   "prerequisites": [],
+  "activation": {
+    "action_type": "bonus_action"
+  },
   "url": "/api/2024/features/aberrant-sorcery-3-telepathic-speech"
 }

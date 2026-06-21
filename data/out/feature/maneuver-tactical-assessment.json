@@ -21,5 +21,9 @@
     "When you make an Intelligence (History or Investigation) check or a Wisdom (Insight) check, you can expend one Superiority Die and add that die to the ability check."
   ],
   "prerequisites": [],
+  "activation": {
+    "action_type": "special",
+    "cost": "superiority_die"
+  },
   "url": "/api/2024/features/maneuver-tactical-assessment"
 }

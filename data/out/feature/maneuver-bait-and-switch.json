@@ -22,5 +22,9 @@
     "Roll the Superiority Die. Until the start of your next turn, you or the other creature (your choice) gains a bonus to AC equal to the number rolled."
   ],
   "prerequisites": [],
+  "activation": {
+    "action_type": "special",
+    "cost": "superiority_die"
+  },
   "url": "/api/2024/features/maneuver-bait-and-switch"
 }

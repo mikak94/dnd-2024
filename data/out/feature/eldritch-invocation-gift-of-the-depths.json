@@ -22,5 +22,24 @@
       "level": 5
     }
   ],
+  "recharge": {
+    "condition": "long_rest",
+    "uses": 1
+  },
+  "feature_specific": {
+    "spellcasting": {
+      "spells": [
+        {
+          "spell": {
+            "index": "water-breathing",
+            "name": "Water Breathing",
+            "url": "/api/2024/spells/water-breathing"
+          },
+          "usage": "per_long_rest",
+          "times": 1
+        }
+      ]
+    }
+  },
   "url": "/api/2024/features/eldritch-invocation-gift-of-the-depths"
 }

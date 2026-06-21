@@ -16,5 +16,8 @@
     "After you cast a spell that has a casting time of an action, you can make one attack with a weapon as a Bonus Action."
   ],
   "prerequisites": [],
+  "activation": {
+    "action_type": "bonus_action"
+  },
   "url": "/api/2024/features/college-of-valor-14-battle-magic"
 }

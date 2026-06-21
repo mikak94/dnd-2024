@@ -17,5 +17,12 @@
     "Once you use this feature, you can't use it again until you finish a Long Rest."
   ],
   "prerequisites": [],
+  "activation": {
+    "action_type": "special"
+  },
+  "recharge": {
+    "condition": "long_rest",
+    "uses": 1
+  },
   "url": "/api/2024/features/celestial-patron-14-searing-vengeance"
 }

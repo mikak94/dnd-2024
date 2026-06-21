@@ -14,10 +14,17 @@
   },
   "desc": [
     "Your connection to undeath saturates your body. You gain the following benefits.",
-    "**Necrotic Resilience.** You have Resistance to Necrotic damage. While using your Form of Dread, you have Immunity to Necrotic damage.",
-    "**Unholy Resuscitation.** If you drop to 0 Hit Points and don't die outright, you can cause your body to erupt with deathly energy. Each creature of your choice in a 30-foot Emanation originating from you makes a Constitution saving throw against your spell save DC, taking Necrotic damage equal to 2d10 plus your Charisma modifier on a failed save or half as much damage on a successful one. Your Hit Points then change to twice your Warlock level, and you gain 1 Exhaustion level.",
+    "Necrotic Resilience. You have Resistance to Necrotic damage. While using your Form of Dread, you have Immunity to Necrotic damage.",
+    "Unholy Resuscitation. If you drop to 0 Hit Points and don't die outright, you can cause your body to erupt with deathly energy. Each creature of your choice in a 30-foot Emanation originating from you makes a Constitution saving throw against your spell save DC, taking Necrotic damage equal to 2d10 plus your Charisma modifier on a failed save or half as much damage on a successful one. Your Hit Points then change to twice your Warlock level, and you gain 1 Exhaustion level.",
     "Once you use this benefit, you can't use it again until you finish a Short or Long Rest."
   ],
   "prerequisites": [],
+  "activation": {
+    "action_type": "special"
+  },
+  "recharge": {
+    "condition": "short_or_long_rest",
+    "uses": 1
+  },
   "url": "/api/2024/features/undead-patron-10-necrotic-husk"
 }

@@ -17,5 +17,12 @@
     "Once you use this feature, you can't use it again until you finish a Long Rest unless you expend a use of your Rage (no action required) to restore your use of it."
   ],
   "prerequisites": [],
+  "activation": {
+    "action_type": "bonus_action"
+  },
+  "recharge": {
+    "condition": "long_rest",
+    "uses": 1
+  },
   "url": "/api/2024/features/path-of-the-zealot-10-zealous-presence"
 }

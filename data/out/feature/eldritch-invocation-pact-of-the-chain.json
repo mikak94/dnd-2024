@@ -32,5 +32,8 @@
       ]
     }
   },
+  "activation": {
+    "action_type": "action"
+  },
   "url": "/api/2024/features/eldritch-invocation-pact-of-the-chain"
 }

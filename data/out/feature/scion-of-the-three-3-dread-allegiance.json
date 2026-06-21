@@ -14,11 +14,11 @@
   },
   "desc": [
     "Choose one of the Dead Three: Bane, Bhaal, or Myrkul. You gain Resistance to one type of damage and the ability to cast a cantrip, as detailed in the table below; Intelligence is your spellcasting ability for this cantrip. When you finish a Long Rest, you can change your choice.",
-    "| God | Damage Resistance | Cantrip |",
-    "| --- | --- | --- |",
-    "| Bane | Psychic | Minor Illusion |",
-    "| Bhaal | Poison | Blade Ward |",
-    "| Myrkul | Necrotic | Chill Touch |"
+    "| God    | Damage Resistance | Cantrip                                 |",
+    "| ------ | ----------------- | --------------------------------------- |",
+    "| Bane   | Psychic           | Minor Illusion |",
+    "| Bhaal  | Poison            | Blade Ward     |",
+    "| Myrkul | Necrotic          | Chill Touch    |"
   ],
   "prerequisites": [],
   "url": "/api/2024/features/scion-of-the-three-3-dread-allegiance"

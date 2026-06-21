@@ -15,8 +15,8 @@
   "desc": [
     "Your patron grants you the ability to move between the boundaries of the planes. You can cast Misty Step without expending a spell slot a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.",
     "In addition, whenever you cast that spell, you can choose one of the following additional effects.",
-    "**Refreshing Step.** Immediately after you teleport, you or one creature you can see within 10 feet of yourself gains 1d10 Temporary Hit Points.",
-    "**Taunting Step.** Creatures within 5 feet of the space you left must succeed on a Wisdom saving throw against your spell save DC or have Disadvantage on attack rolls against creatures other than you until the start of your next turn."
+    "Refreshing Step. Immediately after you teleport, you or one creature you can see within 10 feet of yourself gains 1d10 Temporary Hit Points.",
+    "Taunting Step. Creatures within 5 feet of the space you left must succeed on a Wisdom saving throw against your spell save DC or have Disadvantage on attack rolls against creatures other than you until the start of your next turn."
   ],
   "prerequisites": [],
   "feature_specific": {
@@ -29,6 +29,21 @@
             "url": "/api/2024/spells/misty-step"
           },
           "usage": "per_long_rest"
+        }
+      ]
+    },
+    "benefit_options": {
+      "choose": 1,
+      "benefits": [
+        {
+          "type": "passive",
+          "name": "Refreshing Step",
+          "desc": "Immediately after you teleport, you or one creature you can see within 10 feet of yourself gains 1d10 Temporary Hit Points."
+        },
+        {
+          "type": "passive",
+          "name": "Taunting Step",
+          "desc": "Creatures within 5 feet of the space you left must succeed on a Wisdom saving throw against your spell save DC or have Disadvantage on attack rolls against creatures other than you until the start of your next turn."
         }
       ]
     }

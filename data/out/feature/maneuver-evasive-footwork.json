@@ -21,5 +21,9 @@
     "As a Bonus Action, you can expend one Superiority Die and take the Disengage action. You also roll the die and add the number rolled to your AC until the start of your next turn."
   ],
   "prerequisites": [],
+  "activation": {
+    "action_type": "bonus_action",
+    "cost": "superiority_die"
+  },
   "url": "/api/2024/features/maneuver-evasive-footwork"
 }

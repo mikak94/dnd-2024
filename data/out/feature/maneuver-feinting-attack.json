@@ -21,5 +21,9 @@
     "As a Bonus Action, you can expend one Superiority Die to feint, choosing one creature within 5 feet of yourself as your target. You have Advantage on your next attack roll against that target this turn. If that attack hits, add the Superiority Die to the attack's damage roll."
   ],
   "prerequisites": [],
+  "activation": {
+    "action_type": "bonus_action",
+    "cost": "superiority_die"
+  },
   "url": "/api/2024/features/maneuver-feinting-attack"
 }

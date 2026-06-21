@@ -15,14 +15,33 @@
   "desc": [
     "The spirits of the dead are drawn to you, and echoes of their past lives magically manifest as strange curios with resonant power.",
     "You gain two soul trinkets. A soul trinket is a Tiny object (the DM determines the trinket's form or has you roll on the Trinkets table in the Player's Handbook to generate it). If you move more than 30 feet from a trinket, the trinket immediately teleports to you, appearing somewhere on your person.",
-    "**Using Soul Trinkets.** You can use soul trinkets in the following ways:",
-    "**Death's Knell.** When you deal Sneak Attack damage on your turn, you can destroy one soul trinket and immediately use Wails from the Grave without expending a use of that feature.",
-    "**Life Essence.** While you have at least one soul trinket, you have Advantage on Death Saving Throws and Constitution saving throws.",
-    "**Spirit Query.** You can take a Magic action to destroy one soul trinket and immediately cast the Augury spell, requiring no spell components and using Constitution as the spellcasting modifier. If you know the creature with which the trinket is associated, you can ask the creature's spirit one question instead of casting the spell. In this case, the spirit appears to you and answers as concisely as possible in a language it knew in life.",
-    "**Gaining Additional Soul Trinkets.** When a creature you can see within 30 feet of you dies, you can take a Reaction to gain another soul trinket, claiming a sliver of that creature's departing spirit. The new trinket appears somewhere on your person.",
+    "Using Soul Trinkets. You can use soul trinkets in the following ways:",
+    "Death's Knell. When you deal Sneak Attack damage on your turn, you can destroy one soul trinket and immediately use Wails from the Grave without expending a use of that feature.",
+    "Life Essence. While you have at least one soul trinket, you have Advantage on Death Saving Throws and Constitution saving throws.",
+    "Spirit Query. You can take a Magic action to destroy one soul trinket and immediately cast the Augury spell, requiring no spell components and using Constitution as the spellcasting modifier. If you know the creature with which the trinket is associated, you can ask the creature's spirit one question instead of casting the spell. In this case, the spirit appears to you and answers as concisely as possible in a language it knew in life.",
+    "Gaining Additional Soul Trinkets. When a creature you can see within 30 feet of you dies, you can take a Reaction to gain another soul trinket, claiming a sliver of that creature's departing spirit. The new trinket appears somewhere on your person.",
     "You can have a maximum of two soul trinkets at a time. If you try to gain a soul trinket while at your maximum, one of your existing trinkets is immediately destroyed and replaced by the new trinket. The maximum number of soul trinkets you can have increases when you reach Rogue levels 13 (three trinkets) and 17 (four trinkets).",
     "Whenever you finish a Long Rest with fewer than two soul trinkets, you gain soul trinkets until you have two."
   ],
   "prerequisites": [],
+  "feature_specific": {
+    "spellcasting": {
+      "ability": {
+        "index": "con",
+        "name": "CON",
+        "url": "/api/2024/ability-scores/con"
+      },
+      "spells": [
+        {
+          "spell": {
+            "index": "augury",
+            "name": "Augury",
+            "url": "/api/2024/spells/augury"
+          },
+          "usage": "at_will"
+        }
+      ]
+    }
+  },
   "url": "/api/2024/features/phantom-9-tokens-of-the-departed"
 }

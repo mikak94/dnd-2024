@@ -17,5 +17,9 @@
     "When you manifest the Emanation and as a Bonus Action on your subsequent turns, you can choose another creature you can see in the Emanation. The target must succeed on a Constitution saving throw against your spell save DC or take Cold damage and, if the creature is Large or smaller, be pushed up to 15 feet away from you. To determine this damage, roll a number of d6s equal to your Wisdom modifier (minimum of one die)."
   ],
   "prerequisites": [],
+  "activation": {
+    "action_type": "bonus_action",
+    "cost": "wild_shape"
+  },
   "url": "/api/2024/features/circle-of-the-sea-3-wrath-of-the-sea"
 }

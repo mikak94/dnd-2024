@@ -18,5 +18,9 @@
     "You can end this effect early (no action required). This effect also ends if you aren't carrying the weapon."
   ],
   "prerequisites": [],
+  "activation": {
+    "action_type": "free_action",
+    "cost": "channel_divinity"
+  },
   "url": "/api/2024/features/oath-of-devotion-3-sacred-weapon"
 }

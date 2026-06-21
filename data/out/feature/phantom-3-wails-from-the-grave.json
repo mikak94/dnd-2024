@@ -17,5 +17,8 @@
     "You can use this feature a number of times equal to your Dexterity modifier (minimum of once), and you regain all expended uses when you finish a Long Rest."
   ],
   "prerequisites": [],
+  "recharge": {
+    "condition": "long_rest"
+  },
   "url": "/api/2024/features/phantom-3-wails-from-the-grave"
 }

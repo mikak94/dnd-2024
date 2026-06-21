@@ -17,6 +17,9 @@
     "In addition, whenever you cast Misty Step, you can bring along one willing creature you can see within 5 feet of yourself. That creature teleports to an unoccupied space of your choice within 5 feet of your destination space."
   ],
   "prerequisites": [],
+  "recharge": {
+    "condition": "long_rest"
+  },
   "feature_specific": {
     "spellcasting": {
       "spells": [

@@ -15,9 +15,26 @@
   "desc": [
     "You can cast Misty Step as a Reaction in response to taking damage.",
     "In addition, the following effects are now among your Steps of the Fey options.",
-    "**Disappearing Step.** You have the Invisible condition until the start of your next turn or until immediately after you make an attack roll, deal damage, or cast a spell.",
-    "**Dreadful Step.** Creatures within 5 feet of the space you left or the space you appear in (your choice) must succeed on a Wisdom saving throw against your spell save DC or take 2d10 Psychic damage."
+    "Disappearing Step. You have the Invisible condition until the start of your next turn or until immediately after you make an attack roll, deal damage, or cast a spell.",
+    "Dreadful Step. Creatures within 5 feet of the space you left or the space you appear in (your choice) must succeed on a Wisdom saving throw against your spell save DC or take 2d10 Psychic damage."
   ],
   "prerequisites": [],
+  "activation": {
+    "action_type": "reaction"
+  },
+  "feature_specific": {
+    "spellcasting": {
+      "spells": [
+        {
+          "spell": {
+            "index": "misty-step",
+            "name": "Misty Step",
+            "url": "/api/2024/spells/misty-step"
+          },
+          "usage": "at_will"
+        }
+      ]
+    }
+  },
   "url": "/api/2024/features/archfey-patron-6-misty-escape"
 }

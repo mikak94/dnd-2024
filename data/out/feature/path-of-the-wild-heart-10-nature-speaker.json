@@ -16,5 +16,24 @@
     "You can cast the Commune with Nature spell but only as a Ritual. Wisdom is your spellcasting ability for it."
   ],
   "prerequisites": [],
+  "feature_specific": {
+    "spellcasting": {
+      "ability": {
+        "index": "wis",
+        "name": "WIS",
+        "url": "/api/2024/ability-scores/wis"
+      },
+      "spells": [
+        {
+          "spell": {
+            "index": "commune-with-nature",
+            "name": "Commune With Nature",
+            "url": "/api/2024/spells/commune-with-nature"
+          },
+          "usage": "at_will"
+        }
+      ]
+    }
+  },
   "url": "/api/2024/features/path-of-the-wild-heart-10-nature-speaker"
 }

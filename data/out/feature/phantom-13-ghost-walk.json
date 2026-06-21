@@ -14,10 +14,17 @@
   },
   "desc": [
     "As a Bonus Action, you assume a spectral form, gaining the benefits below for 10 minutes or until you end them (no action required). Once you use this feature, you can't use it again until you finish a Long Rest unless you destroy one of your soul trinkets from Tokens of the Departed (no action required) to restore your use of it.",
-    "**Flight.** You gain a Fly Speed of 10 feet and can hover.",
-    "**Hazy Form.** Attack rolls have Disadvantage against you.",
-    "**Incorporeal Movement.** You can move through creatures and objects as if they were Difficult Terrain, but you take 1d10 Force damage if you end your turn inside a creature or an object."
+    "Flight. You gain a Fly Speed of 10 feet and can hover.",
+    "Hazy Form. Attack rolls have Disadvantage against you.",
+    "Incorporeal Movement. You can move through creatures and objects as if they were Difficult Terrain, but you take 1d10 Force damage if you end your turn inside a creature or an object."
   ],
   "prerequisites": [],
+  "activation": {
+    "action_type": "bonus_action"
+  },
+  "recharge": {
+    "condition": "long_rest",
+    "uses": 1
+  },
   "url": "/api/2024/features/phantom-13-ghost-walk"
 }

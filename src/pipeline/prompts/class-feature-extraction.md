@@ -34,8 +34,11 @@ Output **only** the JSON object per feature — no prose, no Markdown fences in 
 - **class** — the given class object (table below). Base-class features have **no `subclass`** field.
 - **desc** — the prose under the matching `### Level N: <name>` section, as an array of
   paragraph strings. Strip Markdown emphasis but keep bold labels inline. Stop at the next
-  `###` header. If the section contains a table (e.g. a Fighting Style or metamagic list),
-  summarize it in prose and capture the options in `feature_specific` (below).
+  `###` header. If a table's options ARE captured in `feature_specific` (e.g. a Fighting Style
+  or metamagic list), summarize it in prose. Otherwise — any table the schema does NOT model
+  (a spell-by-level list, a random d6/d12 effect table, a "roll on the table" menu) — **preserve
+  it verbatim in `desc`** (keep the Markdown table rows or numbered list); never drop or
+  lossy-summarize table data.
 - **Subclass-marker entries** — a manifest entry whose name is `"<Class> Subclass"` (e.g. the
   level-3 "Barbarian Subclass") or `"Subclass Feature"` (the later "you gain a subclass
   feature" levels) is a placeholder, not a described feature. Emit it with a short **generic
@@ -45,6 +48,10 @@ Output **only** the JSON object per feature — no prose, no Markdown fences in 
   - `"Subclass Feature"` → `["You gain a feature granted by your <Class> subclass."]`
 - **prerequisites** — `[]` unless a `**Prerequisite:**` line appears in the section (rare for
   base-class features). Same shapes as `feature-extraction.md`.
+- **activation** / **recharge** — follow `feature-extraction.md`'s
+  [Activation & recharge](feature-extraction.md#activation--recharge) rules. Most base-class
+  features are passive, but active ones (Bardic Inspiration, Flurry of Blows, Channel Divinity,
+  Wild Shape, …) carry an explicit action type and often a recharge condition.
 - **feature_specific** — include ONLY when the feature presents a choice the schema models.
   Most of the choice-bearing base-class features live here — **Fighting Style**, **Expertise**,
   **Weapon Mastery** — so follow the rules + option tables in `feature-extraction.md`'s
@@ -57,6 +64,9 @@ Output **only** the JSON object per feature — no prose, no Markdown fences in 
   `feature-extraction.md`'s [Spell grants](feature-extraction.md#spell-grants-feature_specificspellcasting)
   section. **Skip** "of your choice" picks (Mystic Arcanum, Spell Mastery) and the
   patron/domain/circle "_X_ Spells" tables (those live on the subclass `spells` list).
+- **feature_specific.benefit_options** — for "choose one of the following benefits" features,
+  follow `feature-extraction.md`'s [Benefit options](feature-extraction.md#benefit-options-feature_specificbenefit_options)
+  rules. Base-class features rarely use this pattern, but apply it when they do.
 - **url** — `/api/2024/features/<index>`.
 
 ## Exact class references

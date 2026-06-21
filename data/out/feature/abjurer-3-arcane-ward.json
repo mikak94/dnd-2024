@@ -18,5 +18,9 @@
     "Once you create the ward, you can't create it again until you finish a Long Rest."
   ],
   "prerequisites": [],
+  "recharge": {
+    "condition": "long_rest",
+    "uses": 1
+  },
   "url": "/api/2024/features/abjurer-3-arcane-ward"
 }

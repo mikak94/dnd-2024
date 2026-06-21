@@ -17,5 +17,9 @@
     "If you do cast a Sorcerer spell with a spell slot before you finish a Long Rest, you automatically roll on the Wild Magic Surge table."
   ],
   "prerequisites": [],
+  "recharge": {
+    "condition": "long_rest",
+    "uses": 1
+  },
   "url": "/api/2024/features/wild-magic-sorcery-3-tides-of-chaos"
 }

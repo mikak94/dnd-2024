@@ -17,5 +17,9 @@
     "None of this feature's movement provokes Opportunity Attacks."
   ],
   "prerequisites": [],
+  "activation": {
+    "action_type": "reaction",
+    "cost": "bardic_inspiration"
+  },
   "url": "/api/2024/features/college-of-dance-6-inspiring-movement"
 }

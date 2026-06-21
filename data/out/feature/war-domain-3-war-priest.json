@@ -16,5 +16,11 @@
     "As a Bonus Action, you can make one attack with a weapon or an Unarmed Strike. You can use this Bonus Action a number of times equal to your Wisdom modifier (minimum of once). You regain all expended uses when you finish a Short or Long Rest."
   ],
   "prerequisites": [],
+  "activation": {
+    "action_type": "bonus_action"
+  },
+  "recharge": {
+    "condition": "short_or_long_rest"
+  },
   "url": "/api/2024/features/war-domain-3-war-priest"
 }

@@ -17,5 +17,12 @@
     "Once you use this feature, you can't use it again until you finish a Short or Long Rest unless you expend a Pact Magic spell slot (no action required) to restore your use of it."
   ],
   "prerequisites": [],
+  "activation": {
+    "action_type": "special"
+  },
+  "recharge": {
+    "condition": "short_or_long_rest",
+    "uses": 1
+  },
   "url": "/api/2024/features/great-old-one-patron-6-clairvoyant-combatant"
 }

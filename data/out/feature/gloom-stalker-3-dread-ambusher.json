@@ -14,9 +14,9 @@
   },
   "desc": [
     "You have mastered the art of creating fearsome ambushes, granting you the following benefits.",
-    "**Ambusher's Leap.** At the start of your first turn of each combat, your speed increases by 10 feet until the end of that turn.",
-    "**Dreadful Strike.** When you attack a creature and hit it with a weapon, you can deal an extra 2d6 Psychic damage. You can use this benefit only once per turn, you can use it a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.",
-    "**Initiative Bonus.** When you roll Initiative, you can add your Wisdom modifier to the roll."
+    "Ambusher's Leap. At the start of your first turn of each combat, your speed increases by 10 feet until the end of that turn.",
+    "Dreadful Strike. When you attack a creature and hit it with a weapon, you can deal an extra 2d6 Psychic damage. You can use this benefit only once per turn, you can use it a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.",
+    "Initiative Bonus. When you roll Initiative, you can add your Wisdom modifier to the roll."
   ],
   "prerequisites": [],
   "url": "/api/2024/features/gloom-stalker-3-dread-ambusher"

@@ -17,5 +17,12 @@
     "Once you use this feature, you can't do so again until you finish a Long Rest unless you spend 5 Sorcery Points (no action required) to restore your use of it."
   ],
   "prerequisites": [],
+  "activation": {
+    "action_type": "action"
+  },
+  "recharge": {
+    "condition": "long_rest",
+    "uses": 1
+  },
   "url": "/api/2024/features/aberrant-sorcery-18-warping-implosion"
 }

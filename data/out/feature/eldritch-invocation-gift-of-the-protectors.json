@@ -27,5 +27,9 @@
       "feature": "eldritch-invocation-pact-of-the-tome"
     }
   ],
+  "recharge": {
+    "condition": "long_rest",
+    "uses": 1
+  },
   "url": "/api/2024/features/eldritch-invocation-gift-of-the-protectors"
 }

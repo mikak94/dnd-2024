@@ -57,6 +57,8 @@ As a Bonus Action, you can expend a use of Bardic Inspiration, rolling your Bard
     "You always have the Charm Person and Mirror Image spells prepared. In addition...",
   ],
   "prerequisites": [], // empty array if no prerequisites
+  // "activation": { ... },  // omit for passive features — see Activation & recharge
+  // "recharge": { ... },    // omit when unlimited — see Activation & recharge
   "url": "/api/2024/features/college-of-glamour-3-beguiling-magic",
 }
 ```
@@ -72,14 +74,16 @@ As a Bonus Action, you can expend a use of Bardic Inspiration, rolling your Bard
 - **class** — derived from filename prefix, mapped to exact class object.
 - **subclass** — derived from filename and subclass name in H1, mapped to exact subclass object.
 - **parent** — for Eldritch Invocations or Metamagic options, reference to the main feature (e.g., `eldritch-invocations`). Omit for normal subclass features.
-- **desc** — feature description paragraphs as array of strings. Strip Markdown emphasis but keep bold labels inline. Stop at the next `### Level` header or end of file.
+- **desc** — feature description paragraphs as array of strings. Strip Markdown emphasis but keep bold labels inline. Stop at the next `### Level` header or end of file. If the section contains a table or option list whose entries are NOT modeled in `feature_specific` (a circle/land spell-by-level table, a random d6/d12 effect table, a "roll on the table" menu, etc.), **preserve it verbatim in `desc`** (keep the Markdown table rows or numbered list) — never drop or lossy-summarize table data. Only summarize a table in prose when its options ARE captured in `feature_specific`.
 - **prerequisites** — parse from "Prerequisite:" or "Prerequisites:" lines if present. Each prerequisite is an object:
   - `{ "type": "level", "level": 5 }` for level requirements
   - `{ "type": "feature", "feature": "pact-of-the-blade" }` for feature requirements
   - `{ "type": "spell", "spell": "eldritch-blast" }` for spell requirements
   - `{ "type": "proficiency", "proficiency": "martial-weapons" }` for proficiency requirements
   - Empty array `[]` if no prerequisites.
-- **feature_specific** — when the feature's prose presents a **"choose N from a closed set"** over one of the taxonomies in [Option choices](#option-choices-feature_specific), emit the structured options there. Omit for standard features.
+- **activation** — how the character activates this feature. Emit ONLY for features that require an action to use; omit for passive/always-on features (resistances, proficiency grants, flat bonuses, etc.). See [Activation & recharge](#activation--recharge).
+- **recharge** — when the feature's uses reset. Emit ONLY for features with a stated cap ("once per Short Rest", "a number of times equal to your Proficiency Bonus per Long Rest"). See [Activation & recharge](#activation--recharge).
+- **feature_specific** — when the feature's prose presents a **"choose N from a closed set"** over one of the taxonomies in [Option choices](#option-choices-feature_specific), OR a **"choose one of the following benefits"** menu (see [Benefit options](#benefit-options-feature_specificbenefit_options)), emit the structured data there. Omit for standard features.
 - **url** — `/api/2024/features/<index>`.
 
 ## Exact class references
@@ -98,6 +102,143 @@ As a Bonus Action, you can expend a use of Bardic Inspiration, rolling your Bard
 | sorcerer  | `{"index":"sorcerer","name":"Sorcerer","url":"/api/2024/classes/sorcerer"}`    |
 | warlock   | `{"index":"warlock","name":"Warlock","url":"/api/2024/classes/warlock"}`       |
 | wizard    | `{"index":"wizard","name":"Wizard","url":"/api/2024/classes/wizard"}`          |
+
+## Activation & recharge
+
+### `activation`
+
+Emit `activation` whenever the character must explicitly choose to use a feature by spending an
+action. Do **not** emit it for features that trigger automatically, grant passive bonuses, or add
+to an existing action (e.g. "when you hit with an attack, you can also …").
+
+```jsonc
+"activation": {
+  "action_type": "bonus_action",  // "action" | "bonus_action" | "reaction" | "free_action" | "special"
+  "cost": "bardic_inspiration",   // omit when the action type alone is the cost
+}
+```
+
+**`action_type` rules:**
+
+| Text phrase                                      | `action_type`  |
+| ------------------------------------------------ | -------------- |
+| "As a Bonus Action, …" / "you can … as a Bonus Action" | `"bonus_action"` |
+| "As an Action, …" / "you can use your action to …"     | `"action"`       |
+| "As a Reaction, …"                              | `"reaction"`   |
+| "as part of the Attack action" / "as part of another action" | `"free_action"` |
+| Non-standard timing ("when you roll initiative", "on your turn") | `"special"` |
+
+**`cost` rules** — emit only these canonical tokens; anything else stays in `desc` only:
+
+| Text phrase                            | `cost` token          |
+| -------------------------------------- | --------------------- |
+| "expend a use of Bardic Inspiration" / "expend a Bardic Inspiration die" | `"bardic_inspiration"` |
+| "expend your Channel Divinity"         | `"channel_divinity"`  |
+| "expend 1 Focus Point" / "spend Focus Points" | `"focus_point"` |
+| "expend a Psionic Energy die" / "spend Psionic Energy dice" | `"psionic_energy"` |
+| "enter a Rage" (per use)               | `"rage"`              |
+| "spend Sorcery Points"                 | `"sorcery_point"`     |
+| "expend a spell slot"                  | `"spell_slot"`        |
+| "expend a Superiority Die"             | `"superiority_die"`   |
+| "use your Wild Shape"                  | `"wild_shape"`        |
+
+When a feature has BOTH an action type AND a cost (e.g. "As a Bonus Action, you can expend a use
+of Bardic Inspiration …"), emit both. When the feature has a cost but no explicit action type
+(e.g. "You can expend Focus Points to …" with no stated action), use `"special"`.
+
+### `recharge`
+
+Emit `recharge` when the feature has a **stated limit on uses** that **resets** on a rest or similar
+event. Do not emit for:
+- Unlimited use ("whenever you do X, you can …" with no cap)
+- Once-per-activation-cost features where the cost itself limits use (Focus Point, spell slot, etc.)
+- "Until you start a Short or Long Rest" duration language (that's a **duration**, not a recharge)
+
+```jsonc
+"recharge": {
+  "condition": "short_or_long_rest",  // "short_rest" | "long_rest" | "short_or_long_rest" | "dawn" | "turn"
+  "uses": 1,                          // omit when count is variable (stays in desc)
+}
+```
+
+**`condition` rules:**
+
+| Text phrase                                     | `condition`            |
+| ----------------------------------------------- | ---------------------- |
+| "until you finish a Short Rest"                 | `"short_rest"`         |
+| "until you finish a Long Rest"                  | `"long_rest"`          |
+| "until you finish a Short or Long Rest"         | `"short_or_long_rest"` |
+| "at dawn" / "each dawn"                         | `"dawn"`               |
+| "until the start/end of your next turn"         | `"turn"`               |
+
+**`uses` rules:** set to the stated integer ("once" → 1, "twice" → 2). Omit when the count is
+expressed as a formula ("a number of times equal to your Proficiency Bonus", "your Charisma
+modifier times per Long Rest") — leave those details in `desc`.
+
+### When both `activation` and `recharge` apply
+
+Most active features need both. The Third Eye: "As a Bonus Action … You can't use this feature
+again until you finish a Short or Long Rest" →
+
+```jsonc
+"activation": { "action_type": "bonus_action" },
+"recharge":   { "condition": "short_or_long_rest", "uses": 1 },
+```
+
+Bardic Inspiration: "As a Bonus Action, you can inspire another creature …" (no stated hard cap
+beyond the die economy, which tracks separately on level records) → emit `activation` only, no
+`recharge`.
+
+## Benefit options (`feature_specific.benefit_options`)
+
+Some features offer a **"choose one of the following benefits"** menu where the options are
+heterogeneous — mixing passive mechanical benefits (Darkvision, read any language) with spell
+casts (See Invisibility). These are NOT a closed entity list (unlike Fighting Style / Expertise /
+Weapon Mastery), so use `benefit_options` instead of `subfeature_options`.
+
+Emit `feature_specific.benefit_options` when:
+- ✅ The selection happens **at activation time** — "choose one of the following options" each time
+  you use the feature, or "whenever you activate your Rage, you gain one of the following options
+  of your choice." This is a runtime per-use pick, not a character-creation choice.
+- ✅ The options are inline (not entity refs — not Fighting Style feats, skill proficiencies, etc.).
+
+Do NOT emit for:
+- ❌ **Permanent or semi-permanent picks** made once (even if changeable): "You gain one of the
+  following options of your choice" with no per-activation trigger (Blessed Strikes, Elemental
+  Fury, Aspect of the Wilds "Whenever you finish a Long Rest, you can change your choice") —
+  leave those in `desc` only. The difference from The Third Eye is that the user doesn't choose
+  on every activation; they pick once and keep it.
+- ❌ Patron/domain/circle spell tables or "always prepared" lists (modeled elsewhere).
+- ❌ "choose N from a closed set" of named entities (Fighting Style / Expertise / Weapon Mastery
+  → use `subfeature_options` instead).
+
+### Shape
+
+```jsonc
+"feature_specific": {
+  "benefit_options": {
+    "choose": 1,
+    "benefits": [
+      { "type": "passive", "name": "Darkvision", "desc": "You gain Darkvision with a range of 120 feet." },
+      { "type": "passive", "name": "Greater Comprehension", "desc": "You can read any language." },
+      { "type": "spell", "name": "See Invisibility", "spell": { "index": "see-invisibility", "name": "See Invisibility", "url": "/api/2024/spells/see-invisibility" } }
+    ]
+  }
+}
+```
+
+**Benefit `type` rules:**
+
+- `"passive"` — a fixed mechanical effect with no spell cast. Set `desc` to the one-sentence
+  summary from the text (keep bold label in `name`, strip it from `desc`).
+- `"spell"` — the option is "cast \<Spell\> without expending a spell slot" or similar. Set `spell`
+  to the real spell entity ref. The `desc` field is optional (omit if the name is self-explanatory).
+  Do **not** add a `casting_time_override` — the casting time for a spell benefit is always the
+  feature's own `activation.action_type` (a Bonus Action feature casts its spell benefit as a
+  Bonus Action, regardless of the spell's normal casting time).
+
+Verify the spell file `data/out/spell/<index>.json` exists before referencing it. Never invent a
+spell that isn't in the dataset.
 
 ## Worked example
 
@@ -159,9 +300,83 @@ Output (`data/out/feature/college-of-glamour-3-mantle-of-inspiration.json`):
     "As a Bonus Action, you can expend a use of Bardic Inspiration, rolling your Bardic Inspiration die..."
   ],
   "prerequisites": [],
+  "activation": { "action_type": "bonus_action", "cost": "bardic_inspiration" },
   "url": "/api/2024/features/college-of-glamour-3-mantle-of-inspiration"
 }
 ```
+
+### The Third Eye (benefit_options example)
+
+Input (`data/md/subclass/wizard--diviner.md`):
+
+```
+### level 10: The Third Eye
+
+You can increase your powers of perception. As a Bonus Action, choose one of the following
+benefits, which lasts until you start a Short or Long Rest. You can't use this feature again
+until you finish a Short or Long Rest.
+
+**Darkvision.** You gain Darkvision with a range of 120 feet.
+
+**Greater Comprehension.** You can read any language.
+
+**See Invisibility.** You can cast See Invisibility without expending a spell slot.
+```
+
+Output (`data/out/feature/diviner-10-the-third-eye.json`):
+
+```json
+{
+  "index": "diviner-10-the-third-eye",
+  "name": "The Third Eye",
+  "level": 10,
+  "class": {
+    "index": "wizard",
+    "name": "Wizard",
+    "url": "/api/2024/classes/wizard"
+  },
+  "subclass": {
+    "index": "diviner",
+    "name": "Diviner",
+    "url": "/api/2024/subclasses/diviner"
+  },
+  "desc": [
+    "You can increase your powers of perception. As a Bonus Action, choose one of the following benefits, which lasts until you start a Short or Long Rest. You can't use this feature again until you finish a Short or Long Rest.",
+    "Darkvision. You gain Darkvision with a range of 120 feet.",
+    "Greater Comprehension. You can read any language.",
+    "See Invisibility. You can cast See Invisibility without expending a spell slot."
+  ],
+  "prerequisites": [],
+  "activation": { "action_type": "bonus_action" },
+  "recharge": { "condition": "short_or_long_rest", "uses": 1 },
+  "feature_specific": {
+    "benefit_options": {
+      "choose": 1,
+      "benefits": [
+        { "type": "passive", "name": "Darkvision", "desc": "You gain Darkvision with a range of 120 feet." },
+        { "type": "passive", "name": "Greater Comprehension", "desc": "You can read any language." },
+        {
+          "type": "spell",
+          "name": "See Invisibility",
+          "spell": {
+            "index": "see-invisibility",
+            "name": "See Invisibility",
+            "url": "/api/2024/spells/see-invisibility"
+          }
+        }
+      ]
+    }
+  },
+  "url": "/api/2024/features/diviner-10-the-third-eye"
+}
+```
+
+Key points:
+- `activation.action_type` is `"bonus_action"` (the feature costs a Bonus Action).
+- `recharge` is set because "You can't use this feature again until you finish a Short or Long Rest."
+- The "lasts until you start a Short or Long Rest" phrase is a **duration**, not the recharge — it goes in `desc` only.
+- See Invisibility is a `"spell"` benefit. Its normal casting time (Action) is irrelevant here — casting it as part of The Third Eye costs a Bonus Action because that's the feature's `activation.action_type`.
+- No `casting_time_override` on the spell benefit — the rule is implicit: spell benefits cost the feature's action type.
 
 ## Prerequisite parsing example
 
@@ -318,17 +533,33 @@ list the spell on the sheet.
 - ✅ **Emit** when the text names the spell(s) you gain — "cast _Silent Image_ without expending a
   spell slot", "always have _Charm Person_ and _Mirror Image_ prepared", "you learn the _Find
   Familiar_ spell and can cast it … without expending a spell slot".
+- ✅ **Emit even when the cast is conditional or resource-gated**, as long as the feature is what
+  gives you access to a spell you wouldn't otherwise have: "**you can cast** _Misty Step_ as a
+  Reaction", "immediately after you cast an Enchantment spell, **you can cast** _Misty Step_ without a
+  slot", "you can cast _Commune with Nature_ but only as a Ritual", "spend 3 Sorcery Points to
+  **cast** _Summon Beast_ … **without preparing the spell**". The trigger/cost stays in `desc`; the
+  grant is still real. Pick `usage` by the cap (no per-rest cap → `at_will`; once-per-rest →
+  `per_long_rest` + `times`). Name the `ability` only when the text states one explicitly.
 - ❌ **Skip — patron/domain/circle spell tables.** A feature named "_<X>_ Spells" (e.g. Fiend
   Spells, Grave Domain Spells, Archfey Spells) that grants a **table** of always-prepared spells by
   level is **already captured on the subclass's `spells` list** — do **not** duplicate it here.
 - ❌ **Skip — "of your choice" / "choose one".** "Learn two spells of your choice", "choose any
   Cleric spell" (Magical Discoveries, Spell Mastery, Mystic Arcanum) is a _pick_, not a fixed
   grant. This also covers **"choose one of the following benefits"** features where casting a named
-  spell is merely one option among several (e.g. the Diviner's _The Third Eye_ — Darkvision /
-  Greater Comprehension / See Invisibility): the spell isn't granted outright, so emit no
-  `spellcasting` — leave it in `desc` only.
-- ❌ **Skip — conditional riders.** "When you cast an Enchantment spell, …", "After you cast a
-  spell, …" modify your own casting; they grant no spell.
+  spell is one option among several (e.g. the Diviner's _The Third Eye_): use
+  `feature_specific.benefit_options` for those — see [Benefit options](#benefit-options-feature_specificbenefit_options).
+- ❌ **Skip — pure riders where the named spell is only the _trigger_.** "**When you cast** _Divine
+  Smite_, you and your allies gain Half Cover", "**when you cast** _Hunter's Mark_, you gain Temp HP",
+  "**when you cast** _Find Familiar_, the familiar gains …", "modify it so _Summon Aberration_ doesn't
+  require Concentration". Here the spell is cast by some _other_ source and this feature just adds an
+  effect or modifies it — it grants no new way to cast the spell. (Contrast the ✅ "you can cast _X_"
+  cases above: the distinction is **"you can cast _X_"** = grant vs **"when you cast _X_, …"** = rider.)
+- ❌ **Skip — alternate casting of a spell you already have prepared.** When the named spell is
+  already on the subclass's `spells` table (a domain/patron/circle always-prepared spell) and the
+  feature only lets you cast it via a different resource — "expend a use of Channel Divinity to cast
+  _Shield of Faith_ rather than a spell slot" (War Domain's War God's Blessing) — it grants no new
+  spell access; the spell is already surfaced from the subclass list. Keep the alternate-cast method
+  in `desc` only. (Contrast _Summon Beast_ above, which is NOT on the Shadow Sorcery list → grant.)
 
 ### Fields
 
@@ -349,6 +580,11 @@ For each granted spell, emit `{ spell, usage, times?, self_only? }`:
      `times` when the count is a variable (an ability modifier) and leave that detail in `desc`.
   3. `"at_will"` — "cast _X_ without expending a spell slot" with **no** stated per-rest limit.
 - **self_only** — `true` when the free cast targets only you ("on yourself"). Omit otherwise.
+- **casting_time_override** — present **only** when the text explicitly states the spell is cast
+  with a different action type than its own `casting_time` (e.g. "you can cast \<X\> as a Bonus
+  Action" when the spell normally costs an Action). Values: `"action"` | `"bonus_action"` |
+  `"reaction"`. Omit in the common case (the spell is cast normally). For `benefit_options` spell
+  entries, do **not** set this — the casting time is the feature's `activation.action_type`.
 - **ability** (on the parent `spellcasting` object) — omit; the spell uses the granting class's own
   spellcasting ability. Include only if the text names a specific, different ability.
 

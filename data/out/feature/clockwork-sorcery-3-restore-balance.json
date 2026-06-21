@@ -17,5 +17,11 @@
     "You can use this feature a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a Long Rest."
   ],
   "prerequisites": [],
+  "activation": {
+    "action_type": "reaction"
+  },
+  "recharge": {
+    "condition": "long_rest"
+  },
   "url": "/api/2024/features/clockwork-sorcery-3-restore-balance"
 }

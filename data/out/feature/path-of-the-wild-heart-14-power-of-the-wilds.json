@@ -19,5 +19,27 @@
     "Ram. While your Rage is active, you can cause a Large or smaller creature to have the Prone condition when you hit it with a melee attack."
   ],
   "prerequisites": [],
+  "feature_specific": {
+    "benefit_options": {
+      "choose": 1,
+      "benefits": [
+        {
+          "type": "passive",
+          "name": "Falcon",
+          "desc": "While your Rage is active, you have a Fly Speed equal to your Speed if you aren't wearing any armor."
+        },
+        {
+          "type": "passive",
+          "name": "Lion",
+          "desc": "While your Rage is active, any of your enemies within 5 feet of you have Disadvantage on attack rolls against targets other than you or another Barbarian who has this option active."
+        },
+        {
+          "type": "passive",
+          "name": "Ram",
+          "desc": "While your Rage is active, you can cause a Large or smaller creature to have the Prone condition when you hit it with a melee attack."
+        }
+      ]
+    }
+  },
   "url": "/api/2024/features/path-of-the-wild-heart-14-power-of-the-wilds"
 }

@@ -17,5 +17,24 @@
     "Whenever you start casting the spell, you can modify it so that it doesn't require Concentration. If you do so, the spell's duration becomes 1 minute for the casting."
   ],
   "prerequisites": [],
+  "recharge": {
+    "condition": "long_rest",
+    "uses": 1
+  },
+  "feature_specific": {
+    "spellcasting": {
+      "spells": [
+        {
+          "spell": {
+            "index": "summon-fey",
+            "name": "Summon Fey",
+            "url": "/api/2024/spells/summon-fey"
+          },
+          "usage": "per_long_rest",
+          "times": 1
+        }
+      ]
+    }
+  },
   "url": "/api/2024/features/fey-wanderer-11-fey-reinforcements"
 }

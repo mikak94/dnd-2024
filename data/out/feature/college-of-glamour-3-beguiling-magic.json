@@ -18,6 +18,10 @@
     "Once you use this benefit, you can't use it again until you finish a Long Rest. You can also restore your use of it by expending one use of your Bardic Inspiration (no action required)."
   ],
   "prerequisites": [],
+  "recharge": {
+    "condition": "long_rest",
+    "uses": 1
+  },
   "feature_specific": {
     "spellcasting": {
       "spells": [

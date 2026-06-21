@@ -14,10 +14,29 @@
   },
   "desc": [
     "You know how to conduct yourself with grace as a noble ambassador. You gain the following benefits.",
-    "**Comprehension.** You can cast the Comprehend Languages spell but only as a Ritual. Charisma is your spellcasting ability for it.",
-    "**Polyglot.** You learn one language from the language tables in the Player's Handbook or chapter 2 of this book. When you finish a Long Rest, you can replace a language learned from this benefit with another language you have heard, seen signed, or read in the past 24 hours.",
-    "**Well Spoken.** You gain proficiency in one of the following skills of your choice: Insight, Intimidation, Persuasion, or Performance."
+    "Comprehension. You can cast the Comprehend Languages spell but only as a Ritual. Charisma is your spellcasting ability for it.",
+    "Polyglot. You learn one language from the language tables in the Player's Handbook or chapter 2 of this book. When you finish a Long Rest, you can replace a language learned from this benefit with another language you have heard, seen signed, or read in the past 24 hours.",
+    "Well Spoken. You gain proficiency in one of the following skills of your choice: Insight, Intimidation, Persuasion, or Performance."
   ],
   "prerequisites": [],
+  "feature_specific": {
+    "spellcasting": {
+      "ability": {
+        "index": "cha",
+        "name": "CHA",
+        "url": "/api/2024/ability-scores/cha"
+      },
+      "spells": [
+        {
+          "spell": {
+            "index": "comprehend-languages",
+            "name": "Comprehend Languages",
+            "url": "/api/2024/spells/comprehend-languages"
+          },
+          "usage": "at_will"
+        }
+      ]
+    }
+  },
   "url": "/api/2024/features/banneret-3-knightly-envoy"
 }

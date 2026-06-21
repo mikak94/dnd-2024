@@ -18,5 +18,8 @@
     "Your bond with the weapon ends if you use this feature’s Bonus Action again, if the weapon is more than 5 feet away from you for 1 minute or more, or if you die. A conjured weapon disappears when the bond ends."
   ],
   "prerequisites": [],
+  "activation": {
+    "action_type": "bonus_action"
+  },
   "url": "/api/2024/features/eldritch-invocation-pact-of-the-blade"
 }

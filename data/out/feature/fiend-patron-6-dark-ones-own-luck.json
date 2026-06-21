@@ -17,5 +17,11 @@
     "You can use this feature a number of times equal to your Charisma modifier (minimum of once), but you can use it no more than once per roll. You regain all expended uses when you finish a Long Rest."
   ],
   "prerequisites": [],
+  "activation": {
+    "action_type": "special"
+  },
+  "recharge": {
+    "condition": "long_rest"
+  },
   "url": "/api/2024/features/fiend-patron-6-dark-ones-own-luck"
 }

@@ -16,5 +16,32 @@
     "You can cast the Beast Sense and Speak with Animals spells but only as Rituals. Wisdom is your spellcasting ability for them."
   ],
   "prerequisites": [],
+  "feature_specific": {
+    "spellcasting": {
+      "ability": {
+        "index": "wis",
+        "name": "WIS",
+        "url": "/api/2024/ability-scores/wis"
+      },
+      "spells": [
+        {
+          "spell": {
+            "index": "beast-sense",
+            "name": "Beast Sense",
+            "url": "/api/2024/spells/beast-sense"
+          },
+          "usage": "at_will"
+        },
+        {
+          "spell": {
+            "index": "speak-with-animals",
+            "name": "Speak with Animals",
+            "url": "/api/2024/spells/speak-with-animals"
+          },
+          "usage": "at_will"
+        }
+      ]
+    }
+  },
   "url": "/api/2024/features/path-of-the-wild-heart-3-animal-speaker"
 }

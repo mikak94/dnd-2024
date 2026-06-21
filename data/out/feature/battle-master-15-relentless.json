@@ -16,5 +16,9 @@
     "Once per turn, when you use a maneuver, you can roll 1d8 and use the number rolled instead of expending a Superiority Die."
   ],
   "prerequisites": [],
+  "recharge": {
+    "condition": "turn",
+    "uses": 1
+  },
   "url": "/api/2024/features/battle-master-15-relentless"
 }

@@ -17,5 +17,9 @@
     "As a Bonus Action, you can move the Cube up to 60 feet to ground within 120 feet of yourself."
   ],
   "prerequisites": [],
+  "activation": {
+    "action_type": "action",
+    "cost": "wild_shape"
+  },
   "url": "/api/2024/features/circle-of-the-land-14-natures-sanctuary"
 }

@@ -21,5 +21,9 @@
     "When you make a Dexterity (Stealth) check or an Initiative roll, you can expend one Superiority Die and add the die to the roll, unless you have the Incapacitated condition."
   ],
   "prerequisites": [],
+  "activation": {
+    "action_type": "special",
+    "cost": "superiority_die"
+  },
   "url": "/api/2024/features/maneuver-ambush"
 }

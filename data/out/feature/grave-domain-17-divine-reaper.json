@@ -14,9 +14,13 @@
   },
   "desc": [
     "Your deep connection to this domain renders you a hallowed harbinger of death, granting you the following benefits.",
-    "**Enhanced Necromancy.** When you cast a spell of level 5 or lower from the Necromancy school that targets one creature, or when you cast a spell from the Grave Domain Spells table, you can expend a use of Channel Divinity to target a second creature within the spell's range. If the spell requires costly or consumed Material components, you must provide Material components for each target.",
-    "**Keeper of Souls.** When an enemy dies within 60 feet of you, you or one creature you can see within 60 feet of yourself regains Hit Points equal to twice your Cleric level. You can't use this feature if you have the Incapacitated condition. Once you use this feature, you can't use it again until you finish a Short or Long Rest, unless you expend a level 6+ spell slot (no action required) to restore your use of it."
+    "Enhanced Necromancy. When you cast a spell of level 5 or lower from the Necromancy school that targets one creature, or when you cast a spell from the Grave Domain Spells table, you can expend a use of Channel Divinity to target a second creature within the spell's range. If the spell requires costly or consumed Material components, you must provide Material components for each target.",
+    "Keeper of Souls. When an enemy dies within 60 feet of you, you or one creature you can see within 60 feet of yourself regains Hit Points equal to twice your Cleric level. You can't use this feature if you have the Incapacitated condition. Once you use this feature, you can't use it again until you finish a Short or Long Rest, unless you expend a level 6+ spell slot (no action required) to restore your use of it."
   ],
   "prerequisites": [],
+  "recharge": {
+    "condition": "short_or_long_rest",
+    "uses": 1
+  },
   "url": "/api/2024/features/grave-domain-17-divine-reaper"
 }

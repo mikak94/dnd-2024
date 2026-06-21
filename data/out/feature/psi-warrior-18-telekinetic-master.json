@@ -17,6 +17,10 @@
     "Once you cast the spell with this feature, you can't do so in this way again until you finish a Long Rest unless you expend a Psionic Energy Die (no action required) to restore your use of it."
   ],
   "prerequisites": [],
+  "recharge": {
+    "condition": "long_rest",
+    "uses": 1
+  },
   "feature_specific": {
     "spellcasting": {
       "ability": {

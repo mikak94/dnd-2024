@@ -17,13 +17,12 @@
     "When you cast the spell, you can target one of your soul trinkets from Tokens of the Departed instead of a corpse, allowing the spirit of the creature associated with the trinket to answer."
   ],
   "prerequisites": [],
+  "recharge": {
+    "condition": "short_or_long_rest",
+    "uses": 1
+  },
   "feature_specific": {
     "spellcasting": {
-      "ability": {
-        "index": "dex",
-        "name": "DEX",
-        "url": "/api/2024/ability-scores/dex"
-      },
       "spells": [
         {
           "spell": {

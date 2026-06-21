@@ -17,5 +17,19 @@
     "You also know the Minor Illusion cantrip. If you already know it, you learn a different Wizard cantrip of your choice. The cantrip doesn't count against your number of cantrips known. You can create both a sound and an image with a single casting of Minor Illusion, and you can cast it as a Bonus Action."
   ],
   "prerequisites": [],
+  "feature_specific": {
+    "spellcasting": {
+      "spells": [
+        {
+          "spell": {
+            "index": "minor-illusion",
+            "name": "Minor Illusion",
+            "url": "/api/2024/spells/minor-illusion"
+          },
+          "usage": "at_will"
+        }
+      ]
+    }
+  },
   "url": "/api/2024/features/illusionist-3-improved-illusions"
 }

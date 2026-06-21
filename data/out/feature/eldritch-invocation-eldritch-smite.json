@@ -25,5 +25,13 @@
       "feature": "eldritch-invocation-pact-of-the-blade"
     }
   ],
+  "activation": {
+    "action_type": "special",
+    "cost": "spell_slot"
+  },
+  "recharge": {
+    "condition": "turn",
+    "uses": 1
+  },
   "url": "/api/2024/features/eldritch-invocation-eldritch-smite"
 }

@@ -17,5 +17,12 @@
     "Once you use this feature, you can't use it again until you finish a Short or Long Rest. You can also restore your use of it by expending a level 2+ spell slot (no action required)."
   ],
   "prerequisites": [],
+  "activation": {
+    "action_type": "reaction"
+  },
+  "recharge": {
+    "condition": "short_or_long_rest",
+    "uses": 1
+  },
   "url": "/api/2024/features/illusionist-10-illusory-self"
 }

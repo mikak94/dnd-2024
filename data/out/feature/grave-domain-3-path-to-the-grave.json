@@ -17,5 +17,12 @@
     "When you or an ally you can see hits the cursed target with an attack roll, you can end the curse early (no action required) to make the attack deal extra Necrotic or Radiant damage (your choice) equal to your Cleric level."
   ],
   "prerequisites": [],
+  "activation": {
+    "action_type": "bonus_action",
+    "cost": "channel_divinity"
+  },
+  "recharge": {
+    "condition": "short_or_long_rest"
+  },
   "url": "/api/2024/features/grave-domain-3-path-to-the-grave"
 }

@@ -17,5 +17,13 @@
     "Once you use this feature, you can't use it again until you finish a Long Rest."
   ],
   "prerequisites": [],
+  "activation": {
+    "action_type": "action",
+    "cost": "focus_point"
+  },
+  "recharge": {
+    "condition": "long_rest",
+    "uses": 1
+  },
   "url": "/api/2024/features/warrior-of-mercy-17-hand-of-ultimate-mercy"
 }

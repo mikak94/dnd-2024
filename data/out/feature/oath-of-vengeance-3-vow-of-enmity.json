@@ -17,5 +17,9 @@
     "If the creature drops to 0 Hit Points before the vow ends, you can transfer the vow to a different creature within 30 feet of yourself (no action required)."
   ],
   "prerequisites": [],
+  "activation": {
+    "action_type": "free_action",
+    "cost": "channel_divinity"
+  },
   "url": "/api/2024/features/oath-of-vengeance-3-vow-of-enmity"
 }

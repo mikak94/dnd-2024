@@ -17,5 +17,11 @@
     "You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest."
   ],
   "prerequisites": [],
+  "activation": {
+    "action_type": "action"
+  },
+  "recharge": {
+    "condition": "long_rest"
+  },
   "url": "/api/2024/features/light-domain-17-corona-of-light"
 }

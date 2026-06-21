@@ -34,7 +34,8 @@
             "name": "Dispel Magic",
             "url": "/api/2024/spells/dispel-magic"
           },
-          "usage": "always_prepared"
+          "usage": "always_prepared",
+          "casting_time_override": "bonus_action"
         }
       ]
     }

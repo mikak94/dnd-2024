@@ -12,5 +12,9 @@
     "Once you use this feature, you can't do so again until you finish a Long Rest."
   ],
   "prerequisites": [],
+  "recharge": {
+    "condition": "long_rest",
+    "uses": 1
+  },
   "url": "/api/2024/features/arcane-recovery"
 }

@@ -16,5 +16,9 @@
     "When you take damage while your Bladesong is active, you can take a Reaction to expend one spell slot and reduce the damage taken by an amount equal to five times the spell slot's level."
   ],
   "prerequisites": [],
+  "activation": {
+    "action_type": "reaction",
+    "cost": "spell_slot"
+  },
   "url": "/api/2024/features/bladesinger-10-song-of-defense"
 }

@@ -18,5 +18,8 @@
     "You can use these benefits a total number of times equal to your Wisdom modifier (minimum of once). You regain all expended uses when you finish a Long Rest."
   ],
   "prerequisites": [],
+  "recharge": {
+    "condition": "long_rest"
+  },
   "url": "/api/2024/features/warrior-of-mercy-11-flurry-of-healing-and-harm"
 }

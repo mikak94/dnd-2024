@@ -17,5 +17,9 @@
     "Each foretelling roll can be used only once. When you finish a Long Rest, you lose any unused foretelling rolls."
   ],
   "prerequisites": [],
+  "recharge": {
+    "condition": "long_rest",
+    "uses": 2
+  },
   "url": "/api/2024/features/diviner-3-portent"
 }

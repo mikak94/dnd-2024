@@ -12,5 +12,11 @@
     "Once you use this feature, you can't do so again until you finish a Short or Long Rest. Starting at level 17, you can use it twice before a rest but only once on a turn."
   ],
   "prerequisites": [],
+  "activation": {
+    "action_type": "special"
+  },
+  "recharge": {
+    "condition": "short_or_long_rest"
+  },
   "url": "/api/2024/features/action-surge"
 }

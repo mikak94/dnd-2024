@@ -25,5 +25,9 @@
       "feature": "eldritch-invocation-pact-of-the-blade"
     }
   ],
+  "recharge": {
+    "condition": "turn",
+    "uses": 1
+  },
   "url": "/api/2024/features/eldritch-invocation-lifedrinker"
 }

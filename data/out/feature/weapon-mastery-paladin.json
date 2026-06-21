@@ -19,310 +19,44 @@
       "from": {
         "option_set_type": "options_array",
         "options": [
-          {
-            "option_type": "reference",
-            "item": {
-              "index": "battleaxe",
-              "name": "Battleaxe",
-              "url": "/api/2024/equipment/battleaxe"
-            }
-          },
-          {
-            "option_type": "reference",
-            "item": {
-              "index": "blowgun",
-              "name": "Blowgun",
-              "url": "/api/2024/equipment/blowgun"
-            }
-          },
-          {
-            "option_type": "reference",
-            "item": {
-              "index": "club",
-              "name": "Club",
-              "url": "/api/2024/equipment/club"
-            }
-          },
-          {
-            "option_type": "reference",
-            "item": {
-              "index": "dagger",
-              "name": "Dagger",
-              "url": "/api/2024/equipment/dagger"
-            }
-          },
-          {
-            "option_type": "reference",
-            "item": {
-              "index": "dart",
-              "name": "Dart",
-              "url": "/api/2024/equipment/dart"
-            }
-          },
-          {
-            "option_type": "reference",
-            "item": {
-              "index": "flail",
-              "name": "Flail",
-              "url": "/api/2024/equipment/flail"
-            }
-          },
-          {
-            "option_type": "reference",
-            "item": {
-              "index": "glaive",
-              "name": "Glaive",
-              "url": "/api/2024/equipment/glaive"
-            }
-          },
-          {
-            "option_type": "reference",
-            "item": {
-              "index": "greataxe",
-              "name": "Greataxe",
-              "url": "/api/2024/equipment/greataxe"
-            }
-          },
-          {
-            "option_type": "reference",
-            "item": {
-              "index": "greatclub",
-              "name": "Greatclub",
-              "url": "/api/2024/equipment/greatclub"
-            }
-          },
-          {
-            "option_type": "reference",
-            "item": {
-              "index": "greatsword",
-              "name": "Greatsword",
-              "url": "/api/2024/equipment/greatsword"
-            }
-          },
-          {
-            "option_type": "reference",
-            "item": {
-              "index": "halberd",
-              "name": "Halberd",
-              "url": "/api/2024/equipment/halberd"
-            }
-          },
-          {
-            "option_type": "reference",
-            "item": {
-              "index": "hand-crossbow",
-              "name": "Hand Crossbow",
-              "url": "/api/2024/equipment/hand-crossbow"
-            }
-          },
-          {
-            "option_type": "reference",
-            "item": {
-              "index": "handaxe",
-              "name": "Handaxe",
-              "url": "/api/2024/equipment/handaxe"
-            }
-          },
-          {
-            "option_type": "reference",
-            "item": {
-              "index": "heavy-crossbow",
-              "name": "Heavy Crossbow",
-              "url": "/api/2024/equipment/heavy-crossbow"
-            }
-          },
-          {
-            "option_type": "reference",
-            "item": {
-              "index": "javelin",
-              "name": "Javelin",
-              "url": "/api/2024/equipment/javelin"
-            }
-          },
-          {
-            "option_type": "reference",
-            "item": {
-              "index": "lance",
-              "name": "Lance",
-              "url": "/api/2024/equipment/lance"
-            }
-          },
-          {
-            "option_type": "reference",
-            "item": {
-              "index": "light-crossbow",
-              "name": "Light Crossbow",
-              "url": "/api/2024/equipment/light-crossbow"
-            }
-          },
-          {
-            "option_type": "reference",
-            "item": {
-              "index": "light-hammer",
-              "name": "Light Hammer",
-              "url": "/api/2024/equipment/light-hammer"
-            }
-          },
-          {
-            "option_type": "reference",
-            "item": {
-              "index": "longbow",
-              "name": "Longbow",
-              "url": "/api/2024/equipment/longbow"
-            }
-          },
-          {
-            "option_type": "reference",
-            "item": {
-              "index": "longsword",
-              "name": "Longsword",
-              "url": "/api/2024/equipment/longsword"
-            }
-          },
-          {
-            "option_type": "reference",
-            "item": {
-              "index": "mace",
-              "name": "Mace",
-              "url": "/api/2024/equipment/mace"
-            }
-          },
-          {
-            "option_type": "reference",
-            "item": {
-              "index": "maul",
-              "name": "Maul",
-              "url": "/api/2024/equipment/maul"
-            }
-          },
-          {
-            "option_type": "reference",
-            "item": {
-              "index": "morningstar",
-              "name": "Morningstar",
-              "url": "/api/2024/equipment/morningstar"
-            }
-          },
-          {
-            "option_type": "reference",
-            "item": {
-              "index": "musket",
-              "name": "Musket",
-              "url": "/api/2024/equipment/musket"
-            }
-          },
-          {
-            "option_type": "reference",
-            "item": {
-              "index": "pike",
-              "name": "Pike",
-              "url": "/api/2024/equipment/pike"
-            }
-          },
-          {
-            "option_type": "reference",
-            "item": {
-              "index": "pistol",
-              "name": "Pistol",
-              "url": "/api/2024/equipment/pistol"
-            }
-          },
-          {
-            "option_type": "reference",
-            "item": {
-              "index": "quarterstaff",
-              "name": "Quarterstaff",
-              "url": "/api/2024/equipment/quarterstaff"
-            }
-          },
-          {
-            "option_type": "reference",
-            "item": {
-              "index": "rapier",
-              "name": "Rapier",
-              "url": "/api/2024/equipment/rapier"
-            }
-          },
-          {
-            "option_type": "reference",
-            "item": {
-              "index": "scimitar",
-              "name": "Scimitar",
-              "url": "/api/2024/equipment/scimitar"
-            }
-          },
-          {
-            "option_type": "reference",
-            "item": {
-              "index": "shortbow",
-              "name": "Shortbow",
-              "url": "/api/2024/equipment/shortbow"
-            }
-          },
-          {
-            "option_type": "reference",
-            "item": {
-              "index": "shortsword",
-              "name": "Shortsword",
-              "url": "/api/2024/equipment/shortsword"
-            }
-          },
-          {
-            "option_type": "reference",
-            "item": {
-              "index": "sickle",
-              "name": "Sickle",
-              "url": "/api/2024/equipment/sickle"
-            }
-          },
-          {
-            "option_type": "reference",
-            "item": {
-              "index": "sling",
-              "name": "Sling",
-              "url": "/api/2024/equipment/sling"
-            }
-          },
-          {
-            "option_type": "reference",
-            "item": {
-              "index": "spear",
-              "name": "Spear",
-              "url": "/api/2024/equipment/spear"
-            }
-          },
-          {
-            "option_type": "reference",
-            "item": {
-              "index": "trident",
-              "name": "Trident",
-              "url": "/api/2024/equipment/trident"
-            }
-          },
-          {
-            "option_type": "reference",
-            "item": {
-              "index": "war-pick",
-              "name": "War Pick",
-              "url": "/api/2024/equipment/war-pick"
-            }
-          },
-          {
-            "option_type": "reference",
-            "item": {
-              "index": "warhammer",
-              "name": "Warhammer",
-              "url": "/api/2024/equipment/warhammer"
-            }
-          },
-          {
-            "option_type": "reference",
-            "item": {
-              "index": "whip",
-              "name": "Whip",
-              "url": "/api/2024/equipment/whip"
-            }
-          }
+          { "option_type": "reference", "item": { "index": "battleaxe", "name": "Battleaxe", "url": "/api/2024/equipment/battleaxe" } },
+          { "option_type": "reference", "item": { "index": "blowgun", "name": "Blowgun", "url": "/api/2024/equipment/blowgun" } },
+          { "option_type": "reference", "item": { "index": "club", "name": "Club", "url": "/api/2024/equipment/club" } },
+          { "option_type": "reference", "item": { "index": "dagger", "name": "Dagger", "url": "/api/2024/equipment/dagger" } },
+          { "option_type": "reference", "item": { "index": "dart", "name": "Dart", "url": "/api/2024/equipment/dart" } },
+          { "option_type": "reference", "item": { "index": "flail", "name": "Flail", "url": "/api/2024/equipment/flail" } },
+          { "option_type": "reference", "item": { "index": "glaive", "name": "Glaive", "url": "/api/2024/equipment/glaive" } },
+          { "option_type": "reference", "item": { "index": "greataxe", "name": "Greataxe", "url": "/api/2024/equipment/greataxe" } },
+          { "option_type": "reference", "item": { "index": "greatclub", "name": "Greatclub", "url": "/api/2024/equipment/greatclub" } },
+          { "option_type": "reference", "item": { "index": "greatsword", "name": "Greatsword", "url": "/api/2024/equipment/greatsword" } },
+          { "option_type": "reference", "item": { "index": "halberd", "name": "Halberd", "url": "/api/2024/equipment/halberd" } },
+          { "option_type": "reference", "item": { "index": "hand-crossbow", "name": "Hand Crossbow", "url": "/api/2024/equipment/hand-crossbow" } },
+          { "option_type": "reference", "item": { "index": "handaxe", "name": "Handaxe", "url": "/api/2024/equipment/handaxe" } },
+          { "option_type": "reference", "item": { "index": "heavy-crossbow", "name": "Heavy Crossbow", "url": "/api/2024/equipment/heavy-crossbow" } },
+          { "option_type": "reference", "item": { "index": "javelin", "name": "Javelin", "url": "/api/2024/equipment/javelin" } },
+          { "option_type": "reference", "item": { "index": "lance", "name": "Lance", "url": "/api/2024/equipment/lance" } },
+          { "option_type": "reference", "item": { "index": "light-crossbow", "name": "Light Crossbow", "url": "/api/2024/equipment/light-crossbow" } },
+          { "option_type": "reference", "item": { "index": "light-hammer", "name": "Light Hammer", "url": "/api/2024/equipment/light-hammer" } },
+          { "option_type": "reference", "item": { "index": "longbow", "name": "Longbow", "url": "/api/2024/equipment/longbow" } },
+          { "option_type": "reference", "item": { "index": "longsword", "name": "Longsword", "url": "/api/2024/equipment/longsword" } },
+          { "option_type": "reference", "item": { "index": "mace", "name": "Mace", "url": "/api/2024/equipment/mace" } },
+          { "option_type": "reference", "item": { "index": "maul", "name": "Maul", "url": "/api/2024/equipment/maul" } },
+          { "option_type": "reference", "item": { "index": "morningstar", "name": "Morningstar", "url": "/api/2024/equipment/morningstar" } },
+          { "option_type": "reference", "item": { "index": "musket", "name": "Musket", "url": "/api/2024/equipment/musket" } },
+          { "option_type": "reference", "item": { "index": "pike", "name": "Pike", "url": "/api/2024/equipment/pike" } },
+          { "option_type": "reference", "item": { "index": "pistol", "name": "Pistol", "url": "/api/2024/equipment/pistol" } },
+          { "option_type": "reference", "item": { "index": "quarterstaff", "name": "Quarterstaff", "url": "/api/2024/equipment/quarterstaff" } },
+          { "option_type": "reference", "item": { "index": "rapier", "name": "Rapier", "url": "/api/2024/equipment/rapier" } },
+          { "option_type": "reference", "item": { "index": "scimitar", "name": "Scimitar", "url": "/api/2024/equipment/scimitar" } },
+          { "option_type": "reference", "item": { "index": "shortbow", "name": "Shortbow", "url": "/api/2024/equipment/shortbow" } },
+          { "option_type": "reference", "item": { "index": "shortsword", "name": "Shortsword", "url": "/api/2024/equipment/shortsword" } },
+          { "option_type": "reference", "item": { "index": "sickle", "name": "Sickle", "url": "/api/2024/equipment/sickle" } },
+          { "option_type": "reference", "item": { "index": "sling", "name": "Sling", "url": "/api/2024/equipment/sling" } },
+          { "option_type": "reference", "item": { "index": "spear", "name": "Spear", "url": "/api/2024/equipment/spear" } },
+          { "option_type": "reference", "item": { "index": "trident", "name": "Trident", "url": "/api/2024/equipment/trident" } },
+          { "option_type": "reference", "item": { "index": "war-pick", "name": "War Pick", "url": "/api/2024/equipment/war-pick" } },
+          { "option_type": "reference", "item": { "index": "warhammer", "name": "Warhammer", "url": "/api/2024/equipment/warhammer" } },
+          { "option_type": "reference", "item": { "index": "whip", "name": "Whip", "url": "/api/2024/equipment/whip" } }
         ]
       }
     }

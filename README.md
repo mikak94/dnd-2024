@@ -267,6 +267,50 @@ kept as separate entities (their own schema + `5e-SRD-Subspecies.json`); only th
 shared. `subspecies-extraction.md` is the shared per-subspecies rule set applied within that
 pass, not a standalone run.
 
+## Model-change workflow
+
+When an entity schema is updated (new fields, changed shape), the output JSON files for that
+category must be regenerated from their source Markdown — not patched in-place. The LLM re-reads
+the same Markdown with the updated extraction prompt and produces a fresh result, so the output
+stays consistent with "Markdown + prompt → same JSON" as the invariant.
+
+**Only re-extract the affected subset.** New fields are almost always additive, and most files
+won't gain new data (a feature that's passive and unlimited needs no `activation` or `recharge`).
+Re-extract only files where the new fields could be non-empty — look at the prompt rules to
+identify those cases, then target those files. Running the full category is also safe (all stages
+skip existing files by default), but deleting only the affected outputs is faster.
+
+### Steps
+
+1. **Update the schema** (`src/pipeline/schemas/<entity>-2024.ts`).
+2. **Update the extraction prompt** (`src/pipeline/prompts/<entity>-extraction.md`) with new
+   field rules, decision rules, and a worked example.
+3. **Identify affected outputs** — files where the new fields would be non-empty:
+   - Search the source Markdown for the triggering patterns (action phrases, recharge conditions,
+     "choose one of the following" menus, …).
+   - Delete only those `data/out/<entity>/<slug>.json` files.
+4. **Re-extract** — run extraction subagents on the affected source files, using the updated
+   prompt. Subagents re-read the Markdown cold (no peeking at the prior JSON); the prompt + source
+   is the ground truth.
+5. **Validate** — `npm run validate <entity>` to check schema conformance and referential
+   integrity. No regressions means no prior field was dropped and all cross-references still resolve.
+
+### Finding affected outputs (example: feature activation/recharge)
+
+```sh
+# Features that describe a Bonus Action activation
+grep -rl "Bonus Action" data/md/subclass/ data/md/class/ | sort
+
+# Features with a "Short or Long Rest" recharge
+grep -rl "Short or Long Rest\|Short Rest\|Long Rest" data/md/subclass/ data/md/class/ | sort
+
+# "choose one of the following benefits" features
+grep -rl "choose one of the following" data/md/subclass/ data/md/class/ | sort
+```
+
+Each matching source file may produce multiple feature records; delete the outputs for all
+features extracted from that file, then re-run extraction on it.
+
 ## Schema Notes
 
 - **2014-compatible**: Schemas follow the 2014 5e-database structure for compatibility, diverging only where 2024 logic doesn't fit

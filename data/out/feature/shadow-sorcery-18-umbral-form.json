@@ -14,9 +14,13 @@
   },
   "desc": [
     "When you use Innate Sorcery, you can adopt a shadowy form, gaining the benefits below while your Innate Sorcery is active or until you end the form (no action required). Once you use this feature, you can't use it again until you finish a Long Rest unless you spend 6 Sorcery Points (no action required) to restore your use of it.",
-    "**Incorporeal Movement.** You can move through creatures and objects as if they were Difficult Terrain, but you take 1d10 Force damage if you end your turn inside a creature or an object.",
-    "**Shadow Resilience.** You have Resistance to all damage except Force and Radiant damage."
+    "Incorporeal Movement. You can move through creatures and objects as if they were Difficult Terrain, but you take 1d10 Force damage if you end your turn inside a creature or an object.",
+    "Shadow Resilience. You have Resistance to all damage except Force and Radiant damage."
   ],
   "prerequisites": [],
+  "recharge": {
+    "condition": "long_rest",
+    "uses": 1
+  },
   "url": "/api/2024/features/shadow-sorcery-18-umbral-form"
 }

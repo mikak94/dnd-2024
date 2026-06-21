@@ -17,5 +17,9 @@
     "When you use your Flurry of Blows, you can replace one of the Unarmed Strikes with a use of this feature without expending a Focus Point for the healing."
   ],
   "prerequisites": [],
+  "activation": {
+    "action_type": "action",
+    "cost": "focus_point"
+  },
   "url": "/api/2024/features/warrior-of-mercy-3-hand-of-healing"
 }

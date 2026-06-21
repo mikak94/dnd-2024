@@ -14,10 +14,43 @@
   },
   "desc": [
     "You can increase your powers of perception. As a Bonus Action, choose one of the following benefits, which lasts until you start a Short or Long Rest. You can't use this feature again until you finish a Short or Long Rest.",
-    "**Darkvision.** You gain Darkvision with a range of 120 feet.",
-    "**Greater Comprehension.** You can read any language.",
-    "**See Invisibility.** You can cast See Invisibility without expending a spell slot."
+    "Darkvision. You gain Darkvision with a range of 120 feet.",
+    "Greater Comprehension. You can read any language.",
+    "See Invisibility. You can cast See Invisibility without expending a spell slot."
   ],
   "prerequisites": [],
+  "activation": {
+    "action_type": "bonus_action"
+  },
+  "recharge": {
+    "condition": "short_or_long_rest",
+    "uses": 1
+  },
+  "feature_specific": {
+    "benefit_options": {
+      "choose": 1,
+      "benefits": [
+        {
+          "type": "passive",
+          "name": "Darkvision",
+          "desc": "You gain Darkvision with a range of 120 feet."
+        },
+        {
+          "type": "passive",
+          "name": "Greater Comprehension",
+          "desc": "You can read any language."
+        },
+        {
+          "type": "spell",
+          "name": "See Invisibility",
+          "spell": {
+            "index": "see-invisibility",
+            "name": "See Invisibility",
+            "url": "/api/2024/spells/see-invisibility"
+          }
+        }
+      ]
+    }
+  },
   "url": "/api/2024/features/diviner-10-the-third-eye"
 }

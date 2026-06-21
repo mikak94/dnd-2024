@@ -17,5 +17,23 @@
     "Whenever you cast the spell, you can modify it so that it doesn't require Concentration. If you do so, the spell's duration becomes 1 minute for that casting, and the spell ends early if you cast the spell again."
   ],
   "prerequisites": [],
+  "activation": {
+    "action_type": "bonus_action",
+    "cost": "sorcery_point"
+  },
+  "feature_specific": {
+    "spellcasting": {
+      "spells": [
+        {
+          "spell": {
+            "index": "summon-beast",
+            "name": "Summon Beast",
+            "url": "/api/2024/spells/summon-beast"
+          },
+          "usage": "at_will"
+        }
+      ]
+    }
+  },
   "url": "/api/2024/features/shadow-sorcery-6-beasts-of-ill-omen"
 }

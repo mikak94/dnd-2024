@@ -12,5 +12,11 @@
     "You can use this feature twice before a Long Rest starting at level 13 and three times before a Long Rest starting at level 17."
   ],
   "prerequisites": [],
+  "activation": {
+    "action_type": "special"
+  },
+  "recharge": {
+    "condition": "long_rest"
+  },
   "url": "/api/2024/features/indomitable"
 }

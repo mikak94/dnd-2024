@@ -14,9 +14,11 @@
   },
   "desc": [
     "When you reach a Ranger level specified in the Fey Wanderer spells table, you thereafter always have the listed spells prepared.",
-    "| Ranger Level | Spell |\n| --- | --- |\n| 3 | Charm Person |\n| 5 | Misty Step |\n| 9 | Summon Fey |\n| 13 | Dimension Door |\n| 17 | Mislead |",
+    "Fey Wanderer Spells",
+    "| Ranger Level | Spell |\n| ------------ | --------------------------------------- |\n| 3            | Charm Person     |\n| 5            | Misty Step         |\n| 9            | Summon Fey         |\n| 13           | Dimension Door |\n| 17           | Mislead               |",
     "You also possess a fey blessing. Choose it from the Feywild Gifts table or determine it randomly.",
-    "| 1d6 | Gift |\n| --- | --- |\n| 1 | Illusory butterflies flutter around you while you take a Short or Long Rest. |\n| 2 | Flowers bloom from your hair each dawn. |\n| 3 | You faintly smell of cinnamon, lavender, nutmeg, or another comforting herb or spice. |\n| 4 | Your shadow dances while no one is looking directly at it. |\n| 5 | Horns or antlers sprout from your head. |\n| 6 | Your skin and hair change color each dawn. |"
+    "Feywild Gifts",
+    "| 1d6 | Gift |\n| --- | ------------------------------------------------------------------------------------- |\n| 1   | Illusory butterflies flutter around you while you take a Short or Long Rest.          |\n| 2   | Flowers bloom from your hair each dawn.                                               |\n| 3   | You faintly smell of cinnamon, lavender, nutmeg, or another comforting herb or spice. |\n| 4   | Your shadow dances while no one is looking directly at it.                            |\n| 5   | Horns or antlers sprout from your head.                                               |\n| 6   | Your skin and hair change color each dawn.                                            |"
   ],
   "prerequisites": [],
   "url": "/api/2024/features/fey-wanderer-3-fey-wanderer-spells"

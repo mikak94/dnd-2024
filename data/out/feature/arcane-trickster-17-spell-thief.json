@@ -18,5 +18,12 @@
     "Once you steal a spell with this feature, you can't use this feature again until you finish a Long Rest."
   ],
   "prerequisites": [],
+  "activation": {
+    "action_type": "reaction"
+  },
+  "recharge": {
+    "condition": "long_rest",
+    "uses": 1
+  },
   "url": "/api/2024/features/arcane-trickster-17-spell-thief"
 }

@@ -14,8 +14,8 @@
   },
   "desc": [
     "You gain the following benefits.",
-    "**Eyes of the Dark.** You have Darkvision with a range of 120 feet and Blindsight with a range of 10 feet. In addition, if a spell you cast creates an area of Darkness, you can see normally through that spell's Darkness.",
-    "**Strength of the Grave.** If you would drop to 0 Hit Points and not die outright, you can make a Charisma saving throw (DC 5 plus the damage taken). On a successful save, your Hit Points instead change to a number equal to your Charisma modifier plus your Sorcerer level. After you succeed on this save, you can't use this benefit again until you finish a Long Rest."
+    "Eyes of the Dark. You have Darkvision with a range of 120 feet and Blindsight with a range of 10 feet. In addition, if a spell you cast creates an area of Darkness, you can see normally through that spell's Darkness.",
+    "Strength of the Grave. If you would drop to 0 Hit Points and not die outright, you can make a Charisma saving throw (DC 5 plus the damage taken). On a successful save, your Hit Points instead change to a number equal to your Charisma modifier plus your Sorcerer level. After you succeed on this save, you can't use this benefit again until you finish a Long Rest."
   ],
   "prerequisites": [],
   "url": "/api/2024/features/shadow-sorcery-3-power-of-shadow"

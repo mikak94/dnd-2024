@@ -17,5 +17,20 @@
     "Whenever you start casting the spell, you can modify it so that it doesn't require Concentration. If you do so, the spell's duration becomes 1 minute for that casting."
   ],
   "prerequisites": [],
+  "feature_specific": {
+    "spellcasting": {
+      "spells": [
+        {
+          "spell": {
+            "index": "summon-dragon",
+            "name": "Summon Dragon",
+            "url": "/api/2024/spells/summon-dragon"
+          },
+          "usage": "per_long_rest",
+          "times": 1
+        }
+      ]
+    }
+  },
   "url": "/api/2024/features/draconic-sorcery-18-dragon-companion"
 }

@@ -14,5 +14,8 @@
     "Whenever you gain a Warlock level, you can replace one of your arcanum spells with another Warlock spell of the same level."
   ],
   "prerequisites": [],
+  "recharge": {
+    "condition": "long_rest"
+  },
   "url": "/api/2024/features/mystic-arcanum"
 }

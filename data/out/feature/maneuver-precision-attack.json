@@ -21,5 +21,9 @@
     "When you miss with an attack roll, you can expend one Superiority Die, roll that die, and add it to the attack roll, potentially causing the attack to hit."
   ],
   "prerequisites": [],
+  "activation": {
+    "action_type": "special",
+    "cost": "superiority_die"
+  },
   "url": "/api/2024/features/maneuver-precision-attack"
 }

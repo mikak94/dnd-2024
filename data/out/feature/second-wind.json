@@ -13,5 +13,11 @@
     "When you reach certain Fighter levels, you gain more uses of this feature, as shown in the Second Wind column of the Fighter Features table."
   ],
   "prerequisites": [],
+  "activation": {
+    "action_type": "bonus_action"
+  },
+  "recharge": {
+    "condition": "short_or_long_rest"
+  },
   "url": "/api/2024/features/second-wind"
 }

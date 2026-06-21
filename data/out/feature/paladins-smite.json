@@ -8,7 +8,8 @@
     "url": "/api/2024/classes/paladin"
   },
   "desc": [
-    "You always have the Divine Smite spell prepared. You can cast it without expending a spell slot, but you must finish a Long Rest before you can cast it this way again."
+    "You always have the Divine Smite spell prepared.",
+    "You can cast it without expending a spell slot, but you must finish a Long Rest before you can cast it this way again."
   ],
   "prerequisites": [],
   "feature_specific": {

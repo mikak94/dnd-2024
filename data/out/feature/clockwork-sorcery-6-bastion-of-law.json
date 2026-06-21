@@ -17,5 +17,9 @@
     "The ward lasts until you finish a Long Rest or until you use this feature again."
   ],
   "prerequisites": [],
+  "activation": {
+    "action_type": "action",
+    "cost": "sorcery_point"
+  },
   "url": "/api/2024/features/clockwork-sorcery-6-bastion-of-law"
 }

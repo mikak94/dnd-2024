@@ -12,8 +12,10 @@
     "You have 2 Sorcery Points, and you gain more as you reach higher levels, as shown in the Sorcery Points column of the Sorcerer Features table. You can't have more Sorcery Points than the number shown in the table for your level. You regain all expended Sorcery Points when you finish a Long Rest.",
     "You can use your Sorcery Points to fuel the options below, along with other features, such as Metamagic, that use those points.",
     "Converting Spell Slots to Sorcery Points. You can expend a spell slot to gain a number of Sorcery Points equal to the slot's level (no action required).",
-    "Creating Spell Slots. As a Bonus Action, you can transform unexpended Sorcery Points into one spell slot. The cost to create a spell slot of a given level is: level 1 costs 2 points (minimum Sorcerer level 2), level 2 costs 3 points (minimum level 3), level 3 costs 5 points (minimum level 5), level 4 costs 6 points (minimum level 7), and level 5 costs 7 points (minimum level 9). You can create a spell slot no higher than level 5.",
-    "Any spell slot you create with this feature vanishes when you finish a Long Rest."
+    "Creating Spell Slots. As a Bonus Action, you can transform unexpended Sorcery Points into one spell slot. The Creating Spell Slots table shows the cost of creating a spell slot of a given level, and it lists the minimum Sorcerer level you must be to create a slot. You can create a spell slot no higher than level 5.",
+    "Any spell slot you create with this feature vanishes when you finish a Long Rest.",
+    "##### Creating Spell Slots",
+    "| Spell Slot Level | Sorcery Point Cost | Min. Sorcerer Level |\n| ---------------- | ------------------ | ------------------- |\n| 1                | 2                  | 2                   |\n| 2                | 3                  | 3                   |\n| 3                | 5                  | 5                   |\n| 4                | 6                  | 7                   |\n| 5                | 7                  | 9                   |"
   ],
   "prerequisites": [],
   "url": "/api/2024/features/font-of-magic"

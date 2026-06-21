@@ -12,5 +12,22 @@
     "When you cast the spell in this way, the familiar is Fey and disappears when you finish a Long Rest."
   ],
   "prerequisites": [],
+  "activation": {
+    "action_type": "action"
+  },
+  "feature_specific": {
+    "spellcasting": {
+      "spells": [
+        {
+          "spell": {
+            "index": "find-familiar",
+            "name": "Find Familiar",
+            "url": "/api/2024/spells/find-familiar"
+          },
+          "usage": "at_will"
+        }
+      ]
+    }
+  },
   "url": "/api/2024/features/wild-companion"
 }

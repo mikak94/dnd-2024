@@ -16,5 +16,12 @@
     "You can expend a use of your Channel Divinity to cast Shield of Faith or Spiritual Weapon rather than expending a spell slot. When you cast either spell in this way, the spell doesn't require Concentration. Instead the spell lasts for 1 minute, but it ends early if you cast that spell again, have the Incapacitated condition, or die."
   ],
   "prerequisites": [],
+  "activation": {
+    "action_type": "special",
+    "cost": "channel_divinity"
+  },
+  "recharge": {
+    "condition": "short_or_long_rest"
+  },
   "url": "/api/2024/features/war-domain-6-war-gods-blessing"
 }

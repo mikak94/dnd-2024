@@ -16,5 +16,12 @@
     "As a Magic action, you can expend one use of your Channel Divinity to manifest your magical knowledge. Choose one spell from the Divination school on the Knowledge Domain Spells table that you have prepared. As part of that action, you cast that spell without expending a spell slot or needing Material components."
   ],
   "prerequisites": [],
+  "activation": {
+    "action_type": "action",
+    "cost": "channel_divinity"
+  },
+  "recharge": {
+    "condition": "short_or_long_rest"
+  },
   "url": "/api/2024/features/knowledge-domain-3-mind-magic"
 }

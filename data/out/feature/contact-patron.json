@@ -12,6 +12,10 @@
     "Once you cast the spell with this feature, you can't do so in this way again until you finish a Long Rest."
   ],
   "prerequisites": [],
+  "recharge": {
+    "condition": "long_rest",
+    "uses": 1
+  },
   "feature_specific": {
     "spellcasting": {
       "spells": [
