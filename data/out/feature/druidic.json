@@ -12,5 +12,19 @@
     "You can use Druidic to leave hidden messages. You and others who know Druidic automatically spot such a message. Others spot the message's presence with a successful DC 15 Intelligence (Investigation) check but can't decipher it without magic."
   ],
   "prerequisites": [],
+  "feature_specific": {
+    "spellcasting": {
+      "spells": [
+        {
+          "spell": {
+            "index": "speak-with-animals",
+            "name": "Speak with Animals",
+            "url": "/api/2024/spells/speak-with-animals"
+          },
+          "usage": "always_prepared"
+        }
+      ]
+    }
+  },
   "url": "/api/2024/features/druidic"
 }

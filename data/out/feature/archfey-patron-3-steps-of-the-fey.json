@@ -19,5 +19,19 @@
     "**Taunting Step.** Creatures within 5 feet of the space you left must succeed on a Wisdom saving throw against your spell save DC or have Disadvantage on attack rolls against creatures other than you until the start of your next turn."
   ],
   "prerequisites": [],
+  "feature_specific": {
+    "spellcasting": {
+      "spells": [
+        {
+          "spell": {
+            "index": "misty-step",
+            "name": "Misty Step",
+            "url": "/api/2024/spells/misty-step"
+          },
+          "usage": "per_long_rest"
+        }
+      ]
+    }
+  },
   "url": "/api/2024/features/archfey-patron-3-steps-of-the-fey"
 }

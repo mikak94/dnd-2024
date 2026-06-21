@@ -19,5 +19,20 @@
       "level": 2
     }
   ],
+  "feature_specific": {
+    "spellcasting": {
+      "spells": [
+        {
+          "spell": {
+            "index": "jump",
+            "name": "Jump",
+            "url": "/api/2024/spells/jump"
+          },
+          "usage": "at_will",
+          "self_only": true
+        }
+      ]
+    }
+  },
   "url": "/api/2024/features/eldritch-invocation-otherworldly-leap"
 }

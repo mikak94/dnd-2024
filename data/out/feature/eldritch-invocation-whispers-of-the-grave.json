@@ -19,5 +19,19 @@
       "level": 7
     }
   ],
+  "feature_specific": {
+    "spellcasting": {
+      "spells": [
+        {
+          "spell": {
+            "index": "speak-with-dead",
+            "name": "Speak with Dead",
+            "url": "/api/2024/spells/speak-with-dead"
+          },
+          "usage": "at_will"
+        }
+      ]
+    }
+  },
   "url": "/api/2024/features/eldritch-invocation-whispers-of-the-grave"
 }

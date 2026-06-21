@@ -11,5 +11,27 @@
     "You have mastered two of the Words of Creation: the words of life and death. You therefore always have the Power Word: Heal and Power Word: Kill spells prepared. When you cast either spell, you can target a second creature with it if that creature is within 10 feet of the first target."
   ],
   "prerequisites": [],
+  "feature_specific": {
+    "spellcasting": {
+      "spells": [
+        {
+          "spell": {
+            "index": "power-word-heal",
+            "name": "Power Word Heal",
+            "url": "/api/2024/spells/power-word-heal"
+          },
+          "usage": "always_prepared"
+        },
+        {
+          "spell": {
+            "index": "power-word-kill",
+            "name": "Power Word Kill",
+            "url": "/api/2024/spells/power-word-kill"
+          },
+          "usage": "always_prepared"
+        }
+      ]
+    }
+  },
   "url": "/api/2024/features/words-of-creation"
 }

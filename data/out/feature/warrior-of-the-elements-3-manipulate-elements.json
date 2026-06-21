@@ -16,5 +16,24 @@
     "You know the Elementalism spell. Wisdom is your spellcasting ability for it."
   ],
   "prerequisites": [],
+  "feature_specific": {
+    "spellcasting": {
+      "ability": {
+        "index": "wis",
+        "name": "WIS",
+        "url": "/api/2024/ability-scores/wis"
+      },
+      "spells": [
+        {
+          "spell": {
+            "index": "elementalism",
+            "name": "Elementalism",
+            "url": "/api/2024/spells/elementalism"
+          },
+          "usage": "at_will"
+        }
+      ]
+    }
+  },
   "url": "/api/2024/features/warrior-of-the-elements-3-manipulate-elements"
 }

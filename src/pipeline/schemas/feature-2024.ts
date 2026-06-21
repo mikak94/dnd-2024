@@ -21,7 +21,51 @@ export const FeaturePrerequisiteSchema = z.strictObject({
   proficiency: z.string().optional(),
 });
 
-/** Feature-specific data for features with choosable options. */
+/**
+ * One spell a feature lets you cast outside your normal spellcasting — the 2024
+ * "free spellcasting" features: an Eldritch Invocation (Armor of Shadows → cast
+ * Mage Armor without a slot) or a subclass grant (Great Old One's Eldritch Hex →
+ * always have Hex prepared). The exact rules text stays in `desc`; this is the
+ * machine-readable grant so a character builder can surface the spell.
+ */
+export const FeatureSpellGrantSchema = z.strictObject({
+  spell: APIReferenceSchema.describe('the granted spell, referencing the real spell entity'),
+  usage: z
+    .enum(['at_will', 'per_long_rest', 'always_prepared'])
+    .describe(
+      'how the feature lets you cast it: at_will = cast without a spell slot any number of ' +
+        'times; per_long_rest = a limited number of free (slotless) casts per Long Rest (see ' +
+        '`times`); always_prepared = the spell is always prepared and cast with normal spell slots',
+    ),
+  times: z
+    .number()
+    .int()
+    .min(1)
+    .optional()
+    .describe('free casts per Long Rest when usage is per_long_rest (e.g. Water Breathing: 1)'),
+  self_only: z
+    .boolean()
+    .optional()
+    .describe('true when the free cast may target only yourself (Armor of Shadows, Ascendant Step)'),
+});
+
+/**
+ * Spells a feature confers the ability to cast. Present only when the feature
+ * grants specific, named spells; a "choose a spell to learn" pick or a
+ * conditional "when you cast a [school] spell" rider is NOT modeled here.
+ */
+export const FeatureSpellcastingSchema = z.strictObject({
+  ability: APIReferenceSchema.optional().describe(
+    "the spellcasting ability for these spells; omit to use the granting class's own " +
+      "spellcasting ability (the usual case — an invocation uses the Warlock's Charisma)",
+  ),
+  spells: z
+    .array(FeatureSpellGrantSchema)
+    .min(1)
+    .describe('the specific spells the feature grants, each with how it can be cast'),
+});
+
+/** Feature-specific data for features with choosable options or granted spells. */
 export const FeatureSpecificSchema = z.strictObject({
   subfeature_options: z
     .strictObject({
@@ -49,6 +93,7 @@ export const FeatureSpecificSchema = z.strictObject({
     })
     .optional(),
   invocations: z.array(APIReferenceSchema).optional(),
+  spellcasting: FeatureSpellcastingSchema.optional(),
 });
 
 export const FeatureSchema = z.strictObject({

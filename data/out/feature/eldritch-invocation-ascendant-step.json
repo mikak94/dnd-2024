@@ -19,5 +19,20 @@
       "level": 5
     }
   ],
+  "feature_specific": {
+    "spellcasting": {
+      "spells": [
+        {
+          "spell": {
+            "index": "levitate",
+            "name": "Levitate",
+            "url": "/api/2024/spells/levitate"
+          },
+          "usage": "at_will",
+          "self_only": true
+        }
+      ]
+    }
+  },
   "url": "/api/2024/features/eldritch-invocation-ascendant-step"
 }

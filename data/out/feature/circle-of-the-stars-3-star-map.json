@@ -26,5 +26,27 @@
     "| 6 | A glass disk etched with constellations |"
   ],
   "prerequisites": [],
+  "feature_specific": {
+    "spellcasting": {
+      "spells": [
+        {
+          "spell": {
+            "index": "guidance",
+            "name": "Guidance",
+            "url": "/api/2024/spells/guidance"
+          },
+          "usage": "always_prepared"
+        },
+        {
+          "spell": {
+            "index": "guiding-bolt",
+            "name": "Guiding Bolt",
+            "url": "/api/2024/spells/guiding-bolt"
+          },
+          "usage": "always_prepared"
+        }
+      ]
+    }
+  },
   "url": "/api/2024/features/circle-of-the-stars-3-star-map"
 }

@@ -12,5 +12,19 @@
     "The number of times you can cast the spell without a spell slot increases when you reach certain Ranger Levels, as shown in the Favored Enemy column of the Ranger Features table."
   ],
   "prerequisites": [],
+  "feature_specific": {
+    "spellcasting": {
+      "spells": [
+        {
+          "spell": {
+            "index": "hunter-s-mark",
+            "name": "Hunter's Mark",
+            "url": "/api/2024/spells/hunter-s-mark"
+          },
+          "usage": "always_prepared"
+        }
+      ]
+    }
+  },
   "url": "/api/2024/features/favored-enemy"
 }

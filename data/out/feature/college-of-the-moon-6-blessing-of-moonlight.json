@@ -18,5 +18,19 @@
     "Once you use this feature to modify a casting of Moonbeam, you can't use it again until you finish a Long Rest."
   ],
   "prerequisites": [],
+  "feature_specific": {
+    "spellcasting": {
+      "spells": [
+        {
+          "spell": {
+            "index": "moonbeam",
+            "name": "Moonbeam",
+            "url": "/api/2024/spells/moonbeam"
+          },
+          "usage": "always_prepared"
+        }
+      ]
+    }
+  },
   "url": "/api/2024/features/college-of-the-moon-6-blessing-of-moonlight"
 }

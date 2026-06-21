@@ -16,5 +16,20 @@
     "You can cast Mage Armor on yourself without expending a spell slot."
   ],
   "prerequisites": [],
+  "feature_specific": {
+    "spellcasting": {
+      "spells": [
+        {
+          "spell": {
+            "index": "mage-armor",
+            "name": "Mage Armor",
+            "url": "/api/2024/spells/mage-armor"
+          },
+          "usage": "at_will",
+          "self_only": true
+        }
+      ]
+    }
+  },
   "url": "/api/2024/features/eldritch-invocation-armor-of-shadows"
 }

@@ -310,6 +310,28 @@
       "When you cast either spell with a spell slot, that slot isn't expended if the spell fails to stop a spell."
     ],
     "prerequisites": [],
+    "feature_specific": {
+      "spellcasting": {
+        "spells": [
+          {
+            "spell": {
+              "index": "counterspell",
+              "name": "Counterspell",
+              "url": "/api/2024/spells/counterspell"
+            },
+            "usage": "always_prepared"
+          },
+          {
+            "spell": {
+              "index": "dispel-magic",
+              "name": "Dispel Magic",
+              "url": "/api/2024/spells/dispel-magic"
+            },
+            "usage": "always_prepared"
+          }
+        ]
+      }
+    },
     "url": "/api/2024/features/abjurer-10-spell-breaker"
   },
   {
@@ -625,6 +647,20 @@
       "Your patron grants you the ability to weave your magic with teleportation. Immediately after you cast an Enchantment or Illusion spell using an action and a spell slot, you can cast Misty Step as part of the same action and without expending a spell slot."
     ],
     "prerequisites": [],
+    "feature_specific": {
+      "spellcasting": {
+        "spells": [
+          {
+            "spell": {
+              "index": "misty-step",
+              "name": "Misty Step",
+              "url": "/api/2024/spells/misty-step"
+            },
+            "usage": "at_will"
+          }
+        ]
+      }
+    },
     "url": "/api/2024/features/archfey-patron-14-bewitching-magic"
   },
   {
@@ -668,6 +704,20 @@
       "**Taunting Step.** Creatures within 5 feet of the space you left must succeed on a Wisdom saving throw against your spell save DC or have Disadvantage on attack rolls against creatures other than you until the start of your next turn."
     ],
     "prerequisites": [],
+    "feature_specific": {
+      "spellcasting": {
+        "spells": [
+          {
+            "spell": {
+              "index": "misty-step",
+              "name": "Misty Step",
+              "url": "/api/2024/spells/misty-step"
+            },
+            "usage": "per_long_rest"
+          }
+        ]
+      }
+    },
     "url": "/api/2024/features/archfey-patron-3-steps-of-the-fey"
   },
   {
@@ -806,7 +856,9 @@
       "name": "Paladin",
       "url": "/api/2024/classes/paladin"
     },
-    "desc": ["Your Aura of Protection is now a 30-foot Emanation."],
+    "desc": [
+      "Your Aura of Protection is now a 30-foot Emanation."
+    ],
     "prerequisites": [],
     "url": "/api/2024/features/aura-expansion"
   },
@@ -993,7 +1045,9 @@
       "name": "Barbarian",
       "url": "/api/2024/classes/barbarian"
     },
-    "desc": ["You gain a feature granted by your Barbarian subclass."],
+    "desc": [
+      "You gain a feature granted by your Barbarian subclass."
+    ],
     "prerequisites": [],
     "url": "/api/2024/features/barbarian-subclass-feature-10"
   },
@@ -1006,7 +1060,9 @@
       "name": "Barbarian",
       "url": "/api/2024/classes/barbarian"
     },
-    "desc": ["You gain a feature granted by your Barbarian subclass."],
+    "desc": [
+      "You gain a feature granted by your Barbarian subclass."
+    ],
     "prerequisites": [],
     "url": "/api/2024/features/barbarian-subclass-feature-14"
   },
@@ -1019,7 +1075,9 @@
       "name": "Barbarian",
       "url": "/api/2024/classes/barbarian"
     },
-    "desc": ["You gain a feature granted by your Barbarian subclass."],
+    "desc": [
+      "You gain a feature granted by your Barbarian subclass."
+    ],
     "prerequisites": [],
     "url": "/api/2024/features/barbarian-subclass-feature-6"
   },
@@ -1032,7 +1090,9 @@
       "name": "Bard",
       "url": "/api/2024/classes/bard"
     },
-    "desc": ["You gain a feature granted by your Bard subclass."],
+    "desc": [
+      "You gain a feature granted by your Bard subclass."
+    ],
     "prerequisites": [],
     "url": "/api/2024/features/bard-subclass"
   },
@@ -1069,7 +1129,9 @@
       "name": "Battle Master",
       "url": "/api/2024/subclasses/battle-master"
     },
-    "desc": ["Your Superiority Die becomes a d10."],
+    "desc": [
+      "Your Superiority Die becomes a d10."
+    ],
     "prerequisites": [],
     "url": "/api/2024/features/battle-master-10-improved-combat-superiority"
   },
@@ -1107,7 +1169,9 @@
       "name": "Battle Master",
       "url": "/api/2024/subclasses/battle-master"
     },
-    "desc": ["Your Superiority Die becomes a d12."],
+    "desc": [
+      "Your Superiority Die becomes a d12."
+    ],
     "prerequisites": [],
     "url": "/api/2024/features/battle-master-18-ultimate-combat-superiority"
   },
@@ -1823,7 +1887,9 @@
       "name": "Champion",
       "url": "/api/2024/subclasses/champion"
     },
-    "desc": ["You gain another Fighting Style feat of your choice."],
+    "desc": [
+      "You gain another Fighting Style feat of your choice."
+    ],
     "prerequisites": [],
     "feature_specific": {
       "subfeature_options": {
@@ -2387,6 +2453,28 @@
       "| 6 | A glass disk etched with constellations |"
     ],
     "prerequisites": [],
+    "feature_specific": {
+      "spellcasting": {
+        "spells": [
+          {
+            "spell": {
+              "index": "guidance",
+              "name": "Guidance",
+              "url": "/api/2024/spells/guidance"
+            },
+            "usage": "always_prepared"
+          },
+          {
+            "spell": {
+              "index": "guiding-bolt",
+              "name": "Guiding Bolt",
+              "url": "/api/2024/spells/guiding-bolt"
+            },
+            "usage": "always_prepared"
+          }
+        ]
+      }
+    },
     "url": "/api/2024/features/circle-of-the-stars-3-star-map"
   },
   {
@@ -2446,7 +2534,9 @@
       "name": "Cleric",
       "url": "/api/2024/classes/cleric"
     },
-    "desc": ["You gain a feature granted by your Cleric subclass."],
+    "desc": [
+      "You gain a feature granted by your Cleric subclass."
+    ],
     "prerequisites": [],
     "url": "/api/2024/features/cleric-subclass"
   },
@@ -2698,6 +2788,28 @@
       "Once you use this benefit, you can't use it again until you finish a Long Rest. You can also restore your use of it by expending one use of your Bardic Inspiration (no action required)."
     ],
     "prerequisites": [],
+    "feature_specific": {
+      "spellcasting": {
+        "spells": [
+          {
+            "spell": {
+              "index": "charm-person",
+              "name": "Charm Person",
+              "url": "/api/2024/spells/charm-person"
+            },
+            "usage": "always_prepared"
+          },
+          {
+            "spell": {
+              "index": "mirror-image",
+              "name": "Mirror Image",
+              "url": "/api/2024/spells/mirror-image"
+            },
+            "usage": "always_prepared"
+          }
+        ]
+      }
+    },
     "url": "/api/2024/features/college-of-glamour-3-beguiling-magic"
   },
   {
@@ -2741,6 +2853,20 @@
       "Once you use this feature, you can't use it again until you finish a Long Rest. You can also restore your use of it by expending a level 3+ spell slot (no action required)."
     ],
     "prerequisites": [],
+    "feature_specific": {
+      "spellcasting": {
+        "spells": [
+          {
+            "spell": {
+              "index": "command",
+              "name": "Command",
+              "url": "/api/2024/spells/command"
+            },
+            "usage": "always_prepared"
+          }
+        ]
+      }
+    },
     "url": "/api/2024/features/college-of-glamour-6-mantle-of-majesty"
   },
   {
@@ -2777,7 +2903,9 @@
       "name": "College of Lore",
       "url": "/api/2024/subclasses/college-of-lore"
     },
-    "desc": ["You gain proficiency with three skills of your choice."],
+    "desc": [
+      "You gain proficiency with three skills of your choice."
+    ],
     "prerequisites": [],
     "url": "/api/2024/features/college-of-lore-3-bonus-proficiencies"
   },
@@ -2862,6 +2990,20 @@
       "Spiritual Focus. You employ tools that aid you in channeling spirits. You gain a Gaming Set (playing cards). You have proficiency with this Gaming Set, and you can use it or one of the following items as a Spellcasting Focus for your Bard spells: Arcane Focus (crystal or orb), Candle, or Ink Pen."
     ],
     "prerequisites": [],
+    "feature_specific": {
+      "spellcasting": {
+        "spells": [
+          {
+            "spell": {
+              "index": "guidance",
+              "name": "Guidance",
+              "url": "/api/2024/spells/guidance"
+            },
+            "usage": "at_will"
+          }
+        ]
+      }
+    },
     "url": "/api/2024/features/college-of-spirits-3-channeler"
   },
   {
@@ -2920,6 +3062,20 @@
       "Whenever you cast the spell, you can modify it so the spirits also guard against worldly threats. When you cast the spell in this way, you and allies within the spell's Emanation have Half Cover. Once you modify the spell in this way, you can't do so again until you finish a Short or Long Rest."
     ],
     "prerequisites": [],
+    "feature_specific": {
+      "spellcasting": {
+        "spells": [
+          {
+            "spell": {
+              "index": "spirit-guardians",
+              "name": "Spirit Guardians",
+              "url": "/api/2024/spells/spirit-guardians"
+            },
+            "usage": "always_prepared"
+          }
+        ]
+      }
+    },
     "url": "/api/2024/features/college-of-spirits-6-empowered-channeling"
   },
   {
@@ -3007,6 +3163,20 @@
       "Once you use this feature to modify a casting of Moonbeam, you can't use it again until you finish a Long Rest."
     ],
     "prerequisites": [],
+    "feature_specific": {
+      "spellcasting": {
+        "spells": [
+          {
+            "spell": {
+              "index": "moonbeam",
+              "name": "Moonbeam",
+              "url": "/api/2024/spells/moonbeam"
+            },
+            "usage": "always_prepared"
+          }
+        ]
+      }
+    },
     "url": "/api/2024/features/college-of-the-moon-6-blessing-of-moonlight"
   },
   {
@@ -3107,6 +3277,20 @@
       "Once you cast the spell with this feature, you can't do so in this way again until you finish a Long Rest."
     ],
     "prerequisites": [],
+    "feature_specific": {
+      "spellcasting": {
+        "spells": [
+          {
+            "spell": {
+              "index": "contact-other-plane",
+              "name": "Contact Other Plane",
+              "url": "/api/2024/spells/contact-other-plane"
+            },
+            "usage": "always_prepared"
+          }
+        ]
+      }
+    },
     "url": "/api/2024/features/contact-patron"
   },
   {
@@ -3308,6 +3492,20 @@
       "**See Invisibility.** You can cast See Invisibility without expending a spell slot."
     ],
     "prerequisites": [],
+    "feature_specific": {
+      "spellcasting": {
+        "spells": [
+          {
+            "spell": {
+              "index": "see-invisibility",
+              "name": "See Invisibility",
+              "url": "/api/2024/spells/see-invisibility"
+            },
+            "usage": "at_will"
+          }
+        ]
+      }
+    },
     "url": "/api/2024/features/diviner-10-the-third-eye"
   },
   {
@@ -3511,7 +3709,9 @@
       "name": "Druid",
       "url": "/api/2024/classes/druid"
     },
-    "desc": ["You gain a feature granted by your Druid subclass."],
+    "desc": [
+      "You gain a feature granted by your Druid subclass."
+    ],
     "prerequisites": [],
     "url": "/api/2024/features/druid-subclass"
   },
@@ -3529,6 +3729,20 @@
       "You can use Druidic to leave hidden messages. You and others who know Druidic automatically spot such a message. Others spot the message's presence with a successful DC 15 Intelligence (Investigation) check but can't decipher it without magic."
     ],
     "prerequisites": [],
+    "feature_specific": {
+      "spellcasting": {
+        "spells": [
+          {
+            "spell": {
+              "index": "speak-with-animals",
+              "name": "Speak with Animals",
+              "url": "/api/2024/spells/speak-with-animals"
+            },
+            "usage": "always_prepared"
+          }
+        ]
+      }
+    },
     "url": "/api/2024/features/druidic"
   },
   {
@@ -3575,6 +3789,21 @@
       "You can cast Mage Armor on yourself without expending a spell slot."
     ],
     "prerequisites": [],
+    "feature_specific": {
+      "spellcasting": {
+        "spells": [
+          {
+            "spell": {
+              "index": "mage-armor",
+              "name": "Mage Armor",
+              "url": "/api/2024/spells/mage-armor"
+            },
+            "usage": "at_will",
+            "self_only": true
+          }
+        ]
+      }
+    },
     "url": "/api/2024/features/eldritch-invocation-armor-of-shadows"
   },
   {
@@ -3600,6 +3829,21 @@
         "level": 5
       }
     ],
+    "feature_specific": {
+      "spellcasting": {
+        "spells": [
+          {
+            "spell": {
+              "index": "levitate",
+              "name": "Levitate",
+              "url": "/api/2024/spells/levitate"
+            },
+            "usage": "at_will",
+            "self_only": true
+          }
+        ]
+      }
+    },
     "url": "/api/2024/features/eldritch-invocation-ascendant-step"
   },
   {
@@ -3754,6 +3998,21 @@
         "level": 2
       }
     ],
+    "feature_specific": {
+      "spellcasting": {
+        "spells": [
+          {
+            "spell": {
+              "index": "false-life",
+              "name": "False Life",
+              "url": "/api/2024/spells/false-life"
+            },
+            "usage": "at_will",
+            "self_only": true
+          }
+        ]
+      }
+    },
     "url": "/api/2024/features/eldritch-invocation-fiendish-vigor"
   },
   {
@@ -3942,13 +4201,29 @@
       "name": "Eldritch Invocations",
       "url": "/api/2024/features/eldritch-invocations"
     },
-    "desc": ["You can cast Disguise Self without expending a spell slot."],
+    "desc": [
+      "You can cast Disguise Self without expending a spell slot."
+    ],
     "prerequisites": [
       {
         "type": "level",
         "level": 2
       }
     ],
+    "feature_specific": {
+      "spellcasting": {
+        "spells": [
+          {
+            "spell": {
+              "index": "disguise-self",
+              "name": "Disguise Self",
+              "url": "/api/2024/spells/disguise-self"
+            },
+            "usage": "at_will"
+          }
+        ]
+      }
+    },
     "url": "/api/2024/features/eldritch-invocation-mask-of-many-faces"
   },
   {
@@ -3965,13 +4240,29 @@
       "name": "Eldritch Invocations",
       "url": "/api/2024/features/eldritch-invocations"
     },
-    "desc": ["You can cast Alter Self without expending a spell slot."],
+    "desc": [
+      "You can cast Alter Self without expending a spell slot."
+    ],
     "prerequisites": [
       {
         "type": "level",
         "level": 5
       }
     ],
+    "feature_specific": {
+      "spellcasting": {
+        "spells": [
+          {
+            "spell": {
+              "index": "alter-self",
+              "name": "Alter Self",
+              "url": "/api/2024/spells/alter-self"
+            },
+            "usage": "at_will"
+          }
+        ]
+      }
+    },
     "url": "/api/2024/features/eldritch-invocation-master-of-myriad-forms"
   },
   {
@@ -3988,13 +4279,29 @@
       "name": "Eldritch Invocations",
       "url": "/api/2024/features/eldritch-invocations"
     },
-    "desc": ["You can cast Silent Image without expending a spell slot."],
+    "desc": [
+      "You can cast Silent Image without expending a spell slot."
+    ],
     "prerequisites": [
       {
         "type": "level",
         "level": 2
       }
     ],
+    "feature_specific": {
+      "spellcasting": {
+        "spells": [
+          {
+            "spell": {
+              "index": "silent-image",
+              "name": "Silent Image",
+              "url": "/api/2024/spells/silent-image"
+            },
+            "usage": "at_will"
+          }
+        ]
+      }
+    },
     "url": "/api/2024/features/eldritch-invocation-misty-visions"
   },
   {
@@ -4020,6 +4327,21 @@
         "level": 5
       }
     ],
+    "feature_specific": {
+      "spellcasting": {
+        "spells": [
+          {
+            "spell": {
+              "index": "invisibility",
+              "name": "Invisibility",
+              "url": "/api/2024/spells/invisibility"
+            },
+            "usage": "at_will",
+            "self_only": true
+          }
+        ]
+      }
+    },
     "url": "/api/2024/features/eldritch-invocation-one-with-shadows"
   },
   {
@@ -4036,13 +4358,30 @@
       "name": "Eldritch Invocations",
       "url": "/api/2024/features/eldritch-invocations"
     },
-    "desc": ["You can cast Jump on yourself without expending a spell slot."],
+    "desc": [
+      "You can cast Jump on yourself without expending a spell slot."
+    ],
     "prerequisites": [
       {
         "type": "level",
         "level": 2
       }
     ],
+    "feature_specific": {
+      "spellcasting": {
+        "spells": [
+          {
+            "spell": {
+              "index": "jump",
+              "name": "Jump",
+              "url": "/api/2024/spells/jump"
+            },
+            "usage": "at_will",
+            "self_only": true
+          }
+        ]
+      }
+    },
     "url": "/api/2024/features/eldritch-invocation-otherworldly-leap"
   },
   {
@@ -4087,6 +4426,20 @@
       "Additionally, when you take the Attack action, you can forgo one of your own attacks to allow your familiar to make one attack of its own with its Reaction."
     ],
     "prerequisites": [],
+    "feature_specific": {
+      "spellcasting": {
+        "spells": [
+          {
+            "spell": {
+              "index": "find-familiar",
+              "name": "Find Familiar",
+              "url": "/api/2024/spells/find-familiar"
+            },
+            "usage": "at_will"
+          }
+        ]
+      }
+    },
     "url": "/api/2024/features/eldritch-invocation-pact-of-the-chain"
   },
   {
@@ -4180,13 +4533,29 @@
       "name": "Eldritch Invocations",
       "url": "/api/2024/features/eldritch-invocations"
     },
-    "desc": ["You can cast Arcane Eye without expending a spell slot."],
+    "desc": [
+      "You can cast Arcane Eye without expending a spell slot."
+    ],
     "prerequisites": [
       {
         "type": "level",
         "level": 9
       }
     ],
+    "feature_specific": {
+      "spellcasting": {
+        "spells": [
+          {
+            "spell": {
+              "index": "arcane-eye",
+              "name": "Arcane Eye",
+              "url": "/api/2024/spells/arcane-eye"
+            },
+            "usage": "at_will"
+          }
+        ]
+      }
+    },
     "url": "/api/2024/features/eldritch-invocation-visions-of-distant-realms"
   },
   {
@@ -4203,13 +4572,29 @@
       "name": "Eldritch Invocations",
       "url": "/api/2024/features/eldritch-invocations"
     },
-    "desc": ["You can cast Speak with Dead without expending a spell slot."],
+    "desc": [
+      "You can cast Speak with Dead without expending a spell slot."
+    ],
     "prerequisites": [
       {
         "type": "level",
         "level": 7
       }
     ],
+    "feature_specific": {
+      "spellcasting": {
+        "spells": [
+          {
+            "spell": {
+              "index": "speak-with-dead",
+              "name": "Speak with Dead",
+              "url": "/api/2024/spells/speak-with-dead"
+            },
+            "usage": "at_will"
+          }
+        ]
+      }
+    },
     "url": "/api/2024/features/eldritch-invocation-whispers-of-the-grave"
   },
   {
@@ -4226,7 +4611,9 @@
       "name": "Eldritch Invocations",
       "url": "/api/2024/features/eldritch-invocations"
     },
-    "desc": ["You have Truesight with a range of 30 feet."],
+    "desc": [
+      "You have Truesight with a range of 30 feet."
+    ],
     "prerequisites": [
       {
         "type": "level",
@@ -5249,6 +5636,20 @@
       "You can also cast the spell once without expending a spell slot, and you regain your ability to do so when you finish a Long Rest."
     ],
     "prerequisites": [],
+    "feature_specific": {
+      "spellcasting": {
+        "spells": [
+          {
+            "spell": {
+              "index": "find-steed",
+              "name": "Find Steed",
+              "url": "/api/2024/spells/find-steed"
+            },
+            "usage": "always_prepared"
+          }
+        ]
+      }
+    },
     "url": "/api/2024/features/faithful-steed"
   },
   {
@@ -5280,6 +5681,20 @@
       "The number of times you can cast the spell without a spell slot increases when you reach certain Ranger Levels, as shown in the Favored Enemy column of the Ranger Features table."
     ],
     "prerequisites": [],
+    "feature_specific": {
+      "spellcasting": {
+        "spells": [
+          {
+            "spell": {
+              "index": "hunter-s-mark",
+              "name": "Hunter's Mark",
+              "url": "/api/2024/spells/hunter-s-mark"
+            },
+            "usage": "always_prepared"
+          }
+        ]
+      }
+    },
     "url": "/api/2024/features/favored-enemy"
   },
   {
@@ -5352,6 +5767,20 @@
       "In addition, whenever you cast Misty Step, you can bring along one willing creature you can see within 5 feet of yourself. That creature teleports to an unoccupied space of your choice within 5 feet of your destination space."
     ],
     "prerequisites": [],
+    "feature_specific": {
+      "spellcasting": {
+        "spells": [
+          {
+            "spell": {
+              "index": "misty-step",
+              "name": "Misty Step",
+              "url": "/api/2024/spells/misty-step"
+            },
+            "usage": "per_long_rest"
+          }
+        ]
+      }
+    },
     "url": "/api/2024/features/fey-wanderer-15-misty-wanderer"
   },
   {
@@ -5550,7 +5979,9 @@
       "name": "Fighter",
       "url": "/api/2024/classes/fighter"
     },
-    "desc": ["You gain a feature granted by your Fighter subclass."],
+    "desc": [
+      "You gain a feature granted by your Fighter subclass."
+    ],
     "prerequisites": [],
     "url": "/api/2024/features/fighter-subclass"
   },
@@ -5884,7 +6315,9 @@
       "name": "Ranger",
       "url": "/api/2024/classes/ranger"
     },
-    "desc": ["The damage die of your Hunter's Mark is a d10 rather than a d6."],
+    "desc": [
+      "The damage die of your Hunter's Mark is a d10 rather than a d6."
+    ],
     "prerequisites": [],
     "url": "/api/2024/features/foe-slayer"
   },
@@ -6182,6 +6615,20 @@
       "Your alien patron grants you a powerful curse. You always have the Hex spell prepared. When you cast Hex and choose an ability, the target also has Disadvantage on saving throws of the chosen ability for the duration of the spell."
     ],
     "prerequisites": [],
+    "feature_specific": {
+      "spellcasting": {
+        "spells": [
+          {
+            "spell": {
+              "index": "hex",
+              "name": "Hex",
+              "url": "/api/2024/spells/hex"
+            },
+            "usage": "always_prepared"
+          }
+        ]
+      }
+    },
     "url": "/api/2024/features/great-old-one-patron-10-eldritch-hex"
   },
   {
@@ -6655,6 +7102,28 @@
       "You always have the Summon Beast and Summon Fey spells prepared. Whenever you cast either spell, you can change its school to Illusion, which causes the summoned creature to appear spectral. You can cast the Illusion version of each spell without expending a spell slot, but casting it without a slot halves the creature's Hit Points. Once you cast either spell without a spell slot, you must finish a Long Rest before you can cast the spell in that way again."
     ],
     "prerequisites": [],
+    "feature_specific": {
+      "spellcasting": {
+        "spells": [
+          {
+            "spell": {
+              "index": "summon-beast",
+              "name": "Summon Beast",
+              "url": "/api/2024/spells/summon-beast"
+            },
+            "usage": "always_prepared"
+          },
+          {
+            "spell": {
+              "index": "summon-fey",
+              "name": "Summon Fey",
+              "url": "/api/2024/spells/summon-fey"
+            },
+            "usage": "always_prepared"
+          }
+        ]
+      }
+    },
     "url": "/api/2024/features/illusionist-6-phantasmal-creatures"
   },
   {
@@ -8054,7 +8523,9 @@
       "name": "Monk",
       "url": "/api/2024/classes/monk"
     },
-    "desc": ["You gain a feature granted by your Monk subclass."],
+    "desc": [
+      "You gain a feature granted by your Monk subclass."
+    ],
     "prerequisites": [],
     "url": "/api/2024/features/monk-subclass"
   },
@@ -8738,6 +9209,20 @@
       "You always have the Divine Smite spell prepared. You can cast it without expending a spell slot, but you must finish a Long Rest before you can cast it this way again."
     ],
     "prerequisites": [],
+    "feature_specific": {
+      "spellcasting": {
+        "spells": [
+          {
+            "spell": {
+              "index": "divine-smite",
+              "name": "Divine Smite",
+              "url": "/api/2024/spells/divine-smite"
+            },
+            "usage": "always_prepared"
+          }
+        ]
+      }
+    },
     "url": "/api/2024/features/paladins-smite"
   },
   {
@@ -9283,6 +9768,26 @@
       "When you cast the spell, you can target one of your soul trinkets from Tokens of the Departed instead of a corpse, allowing the spirit of the creature associated with the trinket to answer."
     ],
     "prerequisites": [],
+    "feature_specific": {
+      "spellcasting": {
+        "ability": {
+          "index": "dex",
+          "name": "DEX",
+          "url": "/api/2024/ability-scores/dex"
+        },
+        "spells": [
+          {
+            "spell": {
+              "index": "speak-with-dead",
+              "name": "Speak with Dead",
+              "url": "/api/2024/spells/speak-with-dead"
+            },
+            "usage": "per_long_rest",
+            "times": 1
+          }
+        ]
+      }
+    },
     "url": "/api/2024/features/phantom-9-voice-of-death"
   },
   {
@@ -9408,6 +9913,25 @@
       "Once you cast the spell with this feature, you can't do so in this way again until you finish a Long Rest unless you expend a Psionic Energy Die (no action required) to restore your use of it."
     ],
     "prerequisites": [],
+    "feature_specific": {
+      "spellcasting": {
+        "ability": {
+          "index": "int",
+          "name": "INT",
+          "url": "/api/2024/ability-scores/int"
+        },
+        "spells": [
+          {
+            "spell": {
+              "index": "telekinesis",
+              "name": "Telekinesis",
+              "url": "/api/2024/spells/telekinesis"
+            },
+            "usage": "always_prepared"
+          }
+        ]
+      }
+    },
     "url": "/api/2024/features/psi-warrior-18-telekinetic-master"
   },
   {
@@ -9534,7 +10058,9 @@
       "name": "Ranger",
       "url": "/api/2024/classes/ranger"
     },
-    "desc": ["Taking damage can't break your Concentration on Hunter's Mark."],
+    "desc": [
+      "Taking damage can't break your Concentration on Hunter's Mark."
+    ],
     "prerequisites": [],
     "url": "/api/2024/features/relentless-hunter"
   },
@@ -10503,7 +11029,9 @@
     "index": "subclass-feature",
     "name": "Subclass Feature",
     "level": 6,
-    "desc": ["You gain a feature granted by your subclass."],
+    "desc": [
+      "You gain a feature granted by your subclass."
+    ],
     "prerequisites": [],
     "url": "/api/2024/features/subclass-feature"
   },
@@ -10516,7 +11044,9 @@
       "name": "Paladin",
       "url": "/api/2024/classes/paladin"
     },
-    "desc": ["You gain a feature granted by your Paladin subclass."],
+    "desc": [
+      "You gain a feature granted by your Paladin subclass."
+    ],
     "prerequisites": [],
     "url": "/api/2024/features/subclass-feature-paladin-7"
   },
@@ -11375,6 +11905,33 @@
       "**Shadowy Figments.** You know the Minor Illusion spell. Wisdom is your spellcasting ability for it."
     ],
     "prerequisites": [],
+    "feature_specific": {
+      "spellcasting": {
+        "ability": {
+          "index": "wis",
+          "name": "WIS",
+          "url": "/api/2024/ability-scores/wis"
+        },
+        "spells": [
+          {
+            "spell": {
+              "index": "darkness",
+              "name": "Darkness",
+              "url": "/api/2024/spells/darkness"
+            },
+            "usage": "at_will"
+          },
+          {
+            "spell": {
+              "index": "minor-illusion",
+              "name": "Minor Illusion",
+              "url": "/api/2024/spells/minor-illusion"
+            },
+            "usage": "at_will"
+          }
+        ]
+      }
+    },
     "url": "/api/2024/features/warrior-of-shadow-3-shadow-arts"
   },
   {
@@ -11480,6 +12037,25 @@
       "You know the Elementalism spell. Wisdom is your spellcasting ability for it."
     ],
     "prerequisites": [],
+    "feature_specific": {
+      "spellcasting": {
+        "ability": {
+          "index": "wis",
+          "name": "WIS",
+          "url": "/api/2024/ability-scores/wis"
+        },
+        "spells": [
+          {
+            "spell": {
+              "index": "elementalism",
+              "name": "Elementalism",
+              "url": "/api/2024/spells/elementalism"
+            },
+            "usage": "at_will"
+          }
+        ]
+      }
+    },
     "url": "/api/2024/features/warrior-of-the-elements-3-manipulate-elements"
   },
   {
@@ -12826,6 +13402,28 @@
       "You have mastered two of the Words of Creation: the words of life and death. You therefore always have the Power Word: Heal and Power Word: Kill spells prepared. When you cast either spell, you can target a second creature with it if that creature is within 10 feet of the first target."
     ],
     "prerequisites": [],
+    "feature_specific": {
+      "spellcasting": {
+        "spells": [
+          {
+            "spell": {
+              "index": "power-word-heal",
+              "name": "Power Word Heal",
+              "url": "/api/2024/spells/power-word-heal"
+            },
+            "usage": "always_prepared"
+          },
+          {
+            "spell": {
+              "index": "power-word-kill",
+              "name": "Power Word Kill",
+              "url": "/api/2024/spells/power-word-kill"
+            },
+            "usage": "always_prepared"
+          }
+        ]
+      }
+    },
     "url": "/api/2024/features/words-of-creation"
   }
 ]

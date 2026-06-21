@@ -52,6 +52,11 @@ Output **only** the JSON object per feature — no prose, no Markdown fences in 
   count comes from this class's prose; Weapon Mastery is melee-only when the prose says "Melee").
   Omit otherwise — most base-class features have no choice, and a generic record that states no
   count gets none.
+- **feature_specific.spellcasting** — when a base-class feature lets you cast a **named spell**
+  (e.g. Ranger's Favored Enemy → Hunter's Mark, Paladin's Faithful Steed → Find Steed), emit it per
+  `feature-extraction.md`'s [Spell grants](feature-extraction.md#spell-grants-feature_specificspellcasting)
+  section. **Skip** "of your choice" picks (Mystic Arcanum, Spell Mastery) and the
+  patron/domain/circle "_X_ Spells" tables (those live on the subclass `spells` list).
 - **url** — `/api/2024/features/<index>`.
 
 ## Exact class references

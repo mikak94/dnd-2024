@@ -19,5 +19,19 @@
       "level": 9
     }
   ],
+  "feature_specific": {
+    "spellcasting": {
+      "spells": [
+        {
+          "spell": {
+            "index": "arcane-eye",
+            "name": "Arcane Eye",
+            "url": "/api/2024/spells/arcane-eye"
+          },
+          "usage": "at_will"
+        }
+      ]
+    }
+  },
   "url": "/api/2024/features/eldritch-invocation-visions-of-distant-realms"
 }

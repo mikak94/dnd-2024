@@ -12,5 +12,19 @@
     "Once you cast the spell with this feature, you can't do so in this way again until you finish a Long Rest."
   ],
   "prerequisites": [],
+  "feature_specific": {
+    "spellcasting": {
+      "spells": [
+        {
+          "spell": {
+            "index": "contact-other-plane",
+            "name": "Contact Other Plane",
+            "url": "/api/2024/spells/contact-other-plane"
+          },
+          "usage": "always_prepared"
+        }
+      ]
+    }
+  },
   "url": "/api/2024/features/contact-patron"
 }

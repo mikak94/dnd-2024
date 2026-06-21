@@ -19,5 +19,19 @@
       "level": 2
     }
   ],
+  "feature_specific": {
+    "spellcasting": {
+      "spells": [
+        {
+          "spell": {
+            "index": "silent-image",
+            "name": "Silent Image",
+            "url": "/api/2024/spells/silent-image"
+          },
+          "usage": "at_will"
+        }
+      ]
+    }
+  },
   "url": "/api/2024/features/eldritch-invocation-misty-visions"
 }

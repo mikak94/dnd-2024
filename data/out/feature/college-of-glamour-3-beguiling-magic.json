@@ -18,5 +18,27 @@
     "Once you use this benefit, you can't use it again until you finish a Long Rest. You can also restore your use of it by expending one use of your Bardic Inspiration (no action required)."
   ],
   "prerequisites": [],
+  "feature_specific": {
+    "spellcasting": {
+      "spells": [
+        {
+          "spell": {
+            "index": "charm-person",
+            "name": "Charm Person",
+            "url": "/api/2024/spells/charm-person"
+          },
+          "usage": "always_prepared"
+        },
+        {
+          "spell": {
+            "index": "mirror-image",
+            "name": "Mirror Image",
+            "url": "/api/2024/spells/mirror-image"
+          },
+          "usage": "always_prepared"
+        }
+      ]
+    }
+  },
   "url": "/api/2024/features/college-of-glamour-3-beguiling-magic"
 }

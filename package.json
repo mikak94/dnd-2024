@@ -1,4 +1,5 @@
 {
+  "name": "dnd-2024",
   "type": "module",
   "scripts": {
     "crawl": "tsx src/pipeline/crawl.ts",

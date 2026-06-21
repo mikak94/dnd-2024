@@ -305,6 +305,90 @@ ranged — drop the **R** rows when the prose says "Melee"):
 > Scaling counts (the Fighter/Barbarian tables grant more masteries at higher levels) are tracked
 > per-level on the Level records, not here — use the base count stated in this feature's prose.
 
+## Spell grants (`feature_specific.spellcasting`)
+
+Some features let you **cast specific, named spells** outside your normal spellcasting — an
+Eldritch Invocation ("You can cast _Mage Armor_ on yourself without expending a spell slot"), or a
+subclass grant ("You always have the _Hex_ spell prepared"). Capture these as
+`feature_specific.spellcasting` **in addition to** leaving the prose in `desc`, so a builder can
+list the spell on the sheet.
+
+**Only emit `spellcasting` for a grant of one or more _named_ spells.** Read the prose:
+
+- ✅ **Emit** when the text names the spell(s) you gain — "cast _Silent Image_ without expending a
+  spell slot", "always have _Charm Person_ and _Mirror Image_ prepared", "you learn the _Find
+  Familiar_ spell and can cast it … without expending a spell slot".
+- ❌ **Skip — patron/domain/circle spell tables.** A feature named "_<X>_ Spells" (e.g. Fiend
+  Spells, Grave Domain Spells, Archfey Spells) that grants a **table** of always-prepared spells by
+  level is **already captured on the subclass's `spells` list** — do **not** duplicate it here.
+- ❌ **Skip — "of your choice".** "Learn two spells of your choice", "choose any Cleric spell"
+  (Magical Discoveries, Spell Mastery, Mystic Arcanum) is a _pick_, not a fixed grant — leave it in
+  `desc` only.
+- ❌ **Skip — conditional riders.** "When you cast an Enchantment spell, …", "After you cast a
+  spell, …" modify your own casting; they grant no spell.
+
+### Fields
+
+For each granted spell, emit `{ spell, usage, times?, self_only? }`:
+
+- **spell** — the real spell entity ref. Slugify the spell name and confirm the file
+  `data/out/spell/<index>.json` exists; `url` = `/api/2024/spells/<index>`. Never invent a spell
+  that isn't in the dataset.
+- **usage** —
+  - `"at_will"` — cast "without expending a spell slot" with **no** stated per-rest limit.
+  - `"per_long_rest"` — a **limited** number of free (slotless) casts ("**once** without expending
+    a spell slot", "a number of times equal to your … modifier … regain … on a Long Rest"); set
+    **`times`** to that count (use `1` for "once"; omit if the count is a variable like an ability
+    modifier and note it stays in `desc`).
+  - `"always_prepared"` — "you always have _X_ prepared" (cast with your normal spell slots).
+- **self_only** — `true` when the free cast targets only you ("on yourself"). Omit otherwise.
+- **ability** (on the parent `spellcasting` object) — omit; the spell uses the granting class's own
+  spellcasting ability. Include only if the text names a specific, different ability.
+
+When a feature grants several spells with the same economy, list them all (Beguiling Magic →
+`Charm Person` + `Mirror Image`, both `always_prepared`).
+
+### Examples
+
+`eldritch-invocation-armor-of-shadows` — "You can cast Mage Armor on yourself without expending a
+spell slot.":
+
+```jsonc
+"feature_specific": {
+  "spellcasting": {
+    "spells": [
+      { "spell": { "index": "mage-armor", "name": "Mage Armor", "url": "/api/2024/spells/mage-armor" }, "usage": "at_will", "self_only": true }
+    ]
+  }
+}
+```
+
+`eldritch-invocation-gift-of-the-depths` — "You can also cast Water Breathing once without
+expending a spell slot." → `usage: "per_long_rest"`, `times: 1` (the swim-speed half stays in
+`desc`):
+
+```jsonc
+"feature_specific": {
+  "spellcasting": {
+    "spells": [
+      { "spell": { "index": "water-breathing", "name": "Water Breathing", "url": "/api/2024/spells/water-breathing" }, "usage": "per_long_rest", "times": 1 }
+    ]
+  }
+}
+```
+
+`great-old-one-patron-10-eldritch-hex` — "You always have the Hex spell prepared.":
+
+```jsonc
+"feature_specific": {
+  "spellcasting": {
+    "spells": [
+      { "spell": { "index": "hex", "name": "Hex", "url": "/api/2024/spells/hex" }, "usage": "always_prepared" }
+    ]
+  }
+}
+```
+
 ## Parent-linked option records (Invocations / Metamagic / Maneuvers)
 
 A few features grant a pick from a large, class-specific list that has **no entities yet** — the
@@ -334,6 +418,10 @@ The options live on dedicated sources:
   - "Level N+ Warlock" → `{ "type": "level", "level": N }`.
   - "<Name> Invocation" (a prereq invocation, e.g. "Pact of the Blade Invocation") → `{ "type": "feature", "feature": "eldritch-invocation-<slug>" }` (use the SAME index convention so it points at the real record).
   - A free-text condition that isn't a level/feature/spell/proficiency (e.g. "a Warlock Cantrip That Deals Damage") can't be expressed by the prerequisite schema — omit it (it stays in `desc`). `[]` if no prerequisite line.
+- **feature_specific** — when the option lets you cast a **named spell** (many invocations do —
+  Armor of Shadows → Mage Armor, Misty Visions → Silent Image), emit
+  `feature_specific.spellcasting` per [Spell grants](#spell-grants-feature_specificspellcasting).
+  Omit for options that grant no spell.
 - **url** — `/api/2024/features/<index>`.
 
 ### Wiring the parent's `feature_specific`

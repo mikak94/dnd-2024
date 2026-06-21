@@ -16,5 +16,27 @@
     "You always have the Summon Beast and Summon Fey spells prepared. Whenever you cast either spell, you can change its school to Illusion, which causes the summoned creature to appear spectral. You can cast the Illusion version of each spell without expending a spell slot, but casting it without a slot halves the creature's Hit Points. Once you cast either spell without a spell slot, you must finish a Long Rest before you can cast the spell in that way again."
   ],
   "prerequisites": [],
+  "feature_specific": {
+    "spellcasting": {
+      "spells": [
+        {
+          "spell": {
+            "index": "summon-beast",
+            "name": "Summon Beast",
+            "url": "/api/2024/spells/summon-beast"
+          },
+          "usage": "always_prepared"
+        },
+        {
+          "spell": {
+            "index": "summon-fey",
+            "name": "Summon Fey",
+            "url": "/api/2024/spells/summon-fey"
+          },
+          "usage": "always_prepared"
+        }
+      ]
+    }
+  },
   "url": "/api/2024/features/illusionist-6-phantasmal-creatures"
 }

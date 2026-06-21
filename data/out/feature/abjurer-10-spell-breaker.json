@@ -17,5 +17,27 @@
     "When you cast either spell with a spell slot, that slot isn't expended if the spell fails to stop a spell."
   ],
   "prerequisites": [],
+  "feature_specific": {
+    "spellcasting": {
+      "spells": [
+        {
+          "spell": {
+            "index": "counterspell",
+            "name": "Counterspell",
+            "url": "/api/2024/spells/counterspell"
+          },
+          "usage": "always_prepared"
+        },
+        {
+          "spell": {
+            "index": "dispel-magic",
+            "name": "Dispel Magic",
+            "url": "/api/2024/spells/dispel-magic"
+          },
+          "usage": "always_prepared"
+        }
+      ]
+    }
+  },
   "url": "/api/2024/features/abjurer-10-spell-breaker"
 }

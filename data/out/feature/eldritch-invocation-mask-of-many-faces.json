@@ -19,5 +19,19 @@
       "level": 2
     }
   ],
+  "feature_specific": {
+    "spellcasting": {
+      "spells": [
+        {
+          "spell": {
+            "index": "disguise-self",
+            "name": "Disguise Self",
+            "url": "/api/2024/spells/disguise-self"
+          },
+          "usage": "at_will"
+        }
+      ]
+    }
+  },
   "url": "/api/2024/features/eldritch-invocation-mask-of-many-faces"
 }

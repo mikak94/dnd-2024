@@ -18,5 +18,19 @@
     "Additionally, when you take the Attack action, you can forgo one of your own attacks to allow your familiar to make one attack of its own with its Reaction."
   ],
   "prerequisites": [],
+  "feature_specific": {
+    "spellcasting": {
+      "spells": [
+        {
+          "spell": {
+            "index": "find-familiar",
+            "name": "Find Familiar",
+            "url": "/api/2024/spells/find-familiar"
+          },
+          "usage": "at_will"
+        }
+      ]
+    }
+  },
   "url": "/api/2024/features/eldritch-invocation-pact-of-the-chain"
 }

@@ -12,5 +12,19 @@
     "You can also cast the spell once without expending a spell slot, and you regain your ability to do so when you finish a Long Rest."
   ],
   "prerequisites": [],
+  "feature_specific": {
+    "spellcasting": {
+      "spells": [
+        {
+          "spell": {
+            "index": "find-steed",
+            "name": "Find Steed",
+            "url": "/api/2024/spells/find-steed"
+          },
+          "usage": "always_prepared"
+        }
+      ]
+    }
+  },
   "url": "/api/2024/features/faithful-steed"
 }
