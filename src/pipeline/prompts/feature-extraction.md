@@ -321,9 +321,12 @@ list the spell on the sheet.
 - ❌ **Skip — patron/domain/circle spell tables.** A feature named "_<X>_ Spells" (e.g. Fiend
   Spells, Grave Domain Spells, Archfey Spells) that grants a **table** of always-prepared spells by
   level is **already captured on the subclass's `spells` list** — do **not** duplicate it here.
-- ❌ **Skip — "of your choice".** "Learn two spells of your choice", "choose any Cleric spell"
-  (Magical Discoveries, Spell Mastery, Mystic Arcanum) is a _pick_, not a fixed grant — leave it in
-  `desc` only.
+- ❌ **Skip — "of your choice" / "choose one".** "Learn two spells of your choice", "choose any
+  Cleric spell" (Magical Discoveries, Spell Mastery, Mystic Arcanum) is a _pick_, not a fixed
+  grant. This also covers **"choose one of the following benefits"** features where casting a named
+  spell is merely one option among several (e.g. the Diviner's _The Third Eye_ — Darkvision /
+  Greater Comprehension / See Invisibility): the spell isn't granted outright, so emit no
+  `spellcasting` — leave it in `desc` only.
 - ❌ **Skip — conditional riders.** "When you cast an Enchantment spell, …", "After you cast a
   spell, …" modify your own casting; they grant no spell.
 
@@ -334,13 +337,17 @@ For each granted spell, emit `{ spell, usage, times?, self_only? }`:
 - **spell** — the real spell entity ref. Slugify the spell name and confirm the file
   `data/out/spell/<index>.json` exists; `url` = `/api/2024/spells/<index>`. Never invent a spell
   that isn't in the dataset.
-- **usage** —
-  - `"at_will"` — cast "without expending a spell slot" with **no** stated per-rest limit.
-  - `"per_long_rest"` — a **limited** number of free (slotless) casts ("**once** without expending
-    a spell slot", "a number of times equal to your … modifier … regain … on a Long Rest"); set
-    **`times`** to that count (use `1` for "once"; omit if the count is a variable like an ability
-    modifier and note it stays in `desc`).
-  - `"always_prepared"` — "you always have _X_ prepared" (cast with your normal spell slots).
+- **usage** — a feature often states more than one economy for the same spell; decide by this
+  **priority** (the first that applies wins; any remaining economy stays in `desc`):
+  1. `"always_prepared"` — the prose says "you always have _X_ prepared" / "always have _X_ ready".
+     **This wins even when the feature ALSO grants a limited number of slotless casts** (e.g. "You
+     always have Hunter's Mark prepared. You can cast it twice without expending a spell slot …" →
+     `always_prepared`). Being always prepared is the headline; the free-cast count stays in `desc`.
+  2. `"per_long_rest"` — the spell is granted **only** as a limited number of free (slotless) casts
+     and is **not** also said to be always prepared ("you can cast _X_ **once** without expending a
+     spell slot, regaining … on a Long Rest"). Set **`times`** to a fixed integer ("once" → 1); omit
+     `times` when the count is a variable (an ability modifier) and leave that detail in `desc`.
+  3. `"at_will"` — "cast _X_ without expending a spell slot" with **no** stated per-rest limit.
 - **self_only** — `true` when the free cast targets only you ("on yourself"). Omit otherwise.
 - **ability** (on the parent `spellcasting` object) — omit; the spell uses the granting class's own
   spellcasting ability. Include only if the text names a specific, different ability.
