@@ -4130,6 +4130,25 @@
         "level": 2
       }
     ],
+    "repeatable": true,
+    "choices": [
+      {
+        "desc": "Choose one of your known Warlock cantrips that deals damage.",
+        "choose": 1,
+        "type": "spells",
+        "spell_source": {
+          "level": 0,
+          "classes": [
+            "warlock"
+          ],
+          "deals_damage": true
+        },
+        "from": {
+          "option_set_type": "resource_list",
+          "resource_list_url": "/api/2024/classes/warlock/spells"
+        }
+      }
+    ],
     "url": "/api/2024/features/eldritch-invocation-agonizing-blast"
   },
   {
@@ -4342,6 +4361,26 @@
         "level": 2
       }
     ],
+    "repeatable": true,
+    "choices": [
+      {
+        "desc": "Choose one of your known Warlock cantrips that deals damage and has a range of 10+ feet.",
+        "choose": 1,
+        "type": "spells",
+        "spell_source": {
+          "level": 0,
+          "classes": [
+            "warlock"
+          ],
+          "deals_damage": true,
+          "min_range_feet": 10
+        },
+        "from": {
+          "option_set_type": "resource_list",
+          "resource_list_url": "/api/2024/classes/warlock/spells"
+        }
+      }
+    ],
     "url": "/api/2024/features/eldritch-invocation-eldritch-spear"
   },
   {
@@ -4549,6 +4588,18 @@
       {
         "type": "level",
         "level": 2
+      }
+    ],
+    "repeatable": true,
+    "choices": [
+      {
+        "desc": "Choose one Origin feat.",
+        "choose": 1,
+        "type": "feats",
+        "from": {
+          "option_set_type": "resource_list",
+          "resource_list_url": "/api/2024/feats?type=origin"
+        }
       }
     ],
     "url": "/api/2024/features/eldritch-invocation-lessons-of-the-first-ones"
@@ -4891,6 +4942,25 @@
       {
         "type": "level",
         "level": 2
+      }
+    ],
+    "repeatable": true,
+    "choices": [
+      {
+        "desc": "Choose one of your known Warlock cantrips that requires an attack roll.",
+        "choose": 1,
+        "type": "spells",
+        "spell_source": {
+          "level": 0,
+          "classes": [
+            "warlock"
+          ],
+          "requires_attack_roll": true
+        },
+        "from": {
+          "option_set_type": "resource_list",
+          "resource_list_url": "/api/2024/classes/warlock/spells"
+        }
       }
     ],
     "url": "/api/2024/features/eldritch-invocation-repelling-blast"

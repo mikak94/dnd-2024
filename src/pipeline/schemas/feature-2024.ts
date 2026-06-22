@@ -1,4 +1,5 @@
 import * as z from 'zod/v4';
+import { ChoiceSchema } from './common-2024.ts';
 
 /**
  * 2024-edition Feature schema (2014-compatible structure).
@@ -201,6 +202,24 @@ export const FeatureSchema = z.strictObject({
   ),
   desc: z.array(z.string()).describe('feature description paragraphs'),
   prerequisites: z.array(FeaturePrerequisiteSchema).describe('empty if none'),
+  repeatable: z
+    .boolean()
+    .optional()
+    .describe(
+      'true if the feature is Repeatable ("You can gain this invocation more than once") — ' +
+        'so a builder may grant it multiple times; omit otherwise',
+    ),
+  choices: z
+    .array(ChoiceSchema)
+    .optional()
+    .describe(
+      'in-feature player picks captured as the shared recursive ChoiceSchema (mirrors ' +
+        "Feat.choices) — e.g. an invocation's \"choose one of your known Warlock cantrips that …\" " +
+        '(a spells choice with `spell_source`) or "choose an Origin feat" (a feats resource_list). ' +
+        'Omit if the feature has none. Distinct from feature_specific.subfeature_options/' +
+        'expertise_options, which model closed enumerated entity sets (Fighting Style / Expertise / ' +
+        'Weapon Mastery).',
+    ),
   activation: FeatureActivationSchema.optional().describe(
     'how to activate this feature; omit for passive/always-on features',
   ),

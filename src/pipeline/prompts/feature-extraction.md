@@ -57,6 +57,8 @@ As a Bonus Action, you can expend a use of Bardic Inspiration, rolling your Bard
     "You always have the Charm Person and Mirror Image spells prepared. In addition...",
   ],
   "prerequisites": [], // empty array if no prerequisites
+  // "repeatable": true,     // omit unless the section has a "Repeatable." note — see Repeatable & choices
+  // "choices": [ ... ],     // omit unless the feature has an in-feature pick — see Repeatable & choices
   // "activation": { ... },  // omit for passive features — see Activation & recharge
   // "recharge": { ... },    // omit when unlimited — see Activation & recharge
   "url": "/api/2024/features/college-of-glamour-3-beguiling-magic",
@@ -84,6 +86,8 @@ As a Bonus Action, you can expend a use of Bardic Inspiration, rolling your Bard
 - **activation** — how the character activates this feature. Emit ONLY for features that require an action to use; omit for passive/always-on features (resistances, proficiency grants, flat bonuses, etc.). See [Activation & recharge](#activation--recharge).
 - **recharge** — when the feature's uses reset. Emit ONLY for features with a stated cap ("once per Short Rest", "a number of times equal to your Proficiency Bonus per Long Rest"). See [Activation & recharge](#activation--recharge).
 - **feature_specific** — when the feature's prose presents a **"choose N from a closed set"** over one of the taxonomies in [Option choices](#option-choices-feature_specific), OR a **"choose one of the following benefits"** menu (see [Benefit options](#benefit-options-feature_specificbenefit_options)), emit the structured data there. Omit for standard features.
+- **repeatable** — `true` when the section carries a **"Repeatable."** note ("You can gain this invocation more than once"); omit otherwise. See [Repeatable & choices](#repeatable--choices).
+- **choices** — for in-feature player picks expressed as the shared `ChoiceSchema` (an invocation's "choose one of your known Warlock cantrips that …", or "choose an Origin feat"). Omit when the feature has none. See [Repeatable & choices](#repeatable--choices). This is distinct from `feature_specific.subfeature_options`/`expertise_options`, which model **closed enumerated entity sets** (Fighting Style / Expertise / Weapon Mastery).
 - **url** — `/api/2024/features/<index>`.
 
 ## Exact class references
@@ -239,6 +243,69 @@ Do NOT emit for:
 
 Verify the spell file `data/out/spell/<index>.json` exists before referencing it. Never invent a
 spell that isn't in the dataset.
+
+## Repeatable & choices
+
+Some features (mostly Eldritch Invocations) can be taken more than once and/or require the
+player to make a pick when they take them. Two independent fields capture this:
+
+### `repeatable`
+
+Set `"repeatable": true` whenever the section contains a **"Repeatable."** note — the exact
+sentence is "You can gain this invocation more than once. Each time you do so, choose a different
+…". Omit the field otherwise. Keep the "Repeatable." sentence in `desc` as well (it's still prose).
+
+Four invocations are repeatable: Agonizing Blast, Eldritch Spear, Repelling Blast, and Lessons of
+the First Ones.
+
+### `choices`
+
+When a feature tells the player to **choose something** as part of taking it — and the pick is NOT
+one of the closed enumerated sets in [Option choices](#option-choices-feature_specific) (Fighting
+Style / Expertise / Weapon Mastery, which use `feature_specific`) — capture it as a `choices`
+array of `ChoiceSchema` (the same shape used by Feat `choices` and Trait `feat_options`). Leave the
+prose in `desc` too. Each distinct pick is one Choice.
+
+**A "choose one of your known Warlock cantrips that …" pick (Agonizing Blast / Eldritch Spear /
+Repelling Blast)** is a `type: "spells"` choice. The pool is the Warlock cantrip list
+(`resource_list_url: "/api/2024/classes/warlock/spells"`); the eligibility clause becomes a
+structured `spell_source` so a builder can narrow the picker to eligible **known** cantrips:
+
+| Prose clause                                       | `spell_source` field             |
+| -------------------------------------------------- | -------------------------------- |
+| a Warlock cantrip (always)                         | `"level": 0, "classes": ["warlock"]` |
+| "that requires an attack roll" (Repelling Blast)   | `"requires_attack_roll": true`   |
+| "that deals damage" (Agonizing / Eldritch Spear)   | `"deals_damage": true`           |
+| "has a range of 10+ feet" (Eldritch Spear)         | `"min_range_feet": 10`           |
+
+```jsonc
+"choices": [
+  {
+    "desc": "Choose one of your known Warlock cantrips that requires an attack roll.",
+    "choose": 1,
+    "type": "spells",
+    "spell_source": { "level": 0, "classes": ["warlock"], "requires_attack_roll": true },
+    "from": { "option_set_type": "resource_list", "resource_list_url": "/api/2024/classes/warlock/spells" }
+  }
+]
+```
+
+**A "choose an Origin feat" pick (Lessons of the First Ones)** is a `type: "feats"` choice over a
+`resource_list` (identical to the Human Versatile trait's `feat_options`):
+
+```jsonc
+"choices": [
+  {
+    "desc": "Choose one Origin feat.",
+    "choose": 1,
+    "type": "feats",
+    "from": { "option_set_type": "resource_list", "resource_list_url": "/api/2024/feats?type=origin" }
+  }
+]
+```
+
+Do **not** emit `choices` for a non-pick — Devil's Sight, Eldritch Mind, Pact of the Blade's "weapon
+of your choice" detail that isn't drawn from a referenceable set, etc. stay in `desc` only.
 
 ## Worked example
 
@@ -665,6 +732,14 @@ The options live on dedicated sources:
   Armor of Shadows → Mage Armor, Misty Visions → Silent Image), emit
   `feature_specific.spellcasting` per [Spell grants](#spell-grants-feature_specificspellcasting).
   Omit for options that grant no spell.
+- **repeatable** — `true` when the option has a **"Repeatable."** note (Agonizing Blast, Eldritch
+  Spear, Repelling Blast, Lessons of the First Ones); omit otherwise. See
+  [Repeatable & choices](#repeatable--choices).
+- **choices** — when the option says **"Choose one of your known Warlock cantrips that …"**
+  (Agonizing Blast → `deals_damage`; Eldritch Spear → `deals_damage` + `min_range_feet: 10`;
+  Repelling Blast → `requires_attack_roll`) or **"gain one Origin feat of your choice"** (Lessons of
+  the First Ones), emit the `ChoiceSchema` pick per [Repeatable & choices](#repeatable--choices).
+  Omit for options with no pick.
 - **url** — `/api/2024/features/<index>`.
 
 ### Wiring the parent's `feature_specific`

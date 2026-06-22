@@ -318,6 +318,53 @@ function checkFeatureRefs(
       }
     }
   }
+  // Validate the shared `choices` (mirrors checkFeatRefs): options_array item refs
+  // resolve against their sets, and a spells-type `spell_source` names real classes/
+  // schools/spells. resource_list `from`s carry only a URL string, so nothing to check.
+  for (const choice of feature.choices ?? []) {
+    const from = choice.from as {
+      option_set_type?: string;
+      options?: unknown[];
+    };
+    if (from?.option_set_type === 'options_array') {
+      for (const opt of from.options ?? []) {
+        const item = (opt as { item?: { index?: unknown; url?: unknown } })
+          ?.item;
+        if (
+          item &&
+          typeof item.index === 'string' &&
+          typeof item.url === 'string'
+        ) {
+          checkFeatureOptionRef({ index: item.index, url: item.url }, errors);
+        }
+      }
+    }
+    const ss = (
+      choice as {
+        spell_source?: {
+          classes?: string[];
+          schools?: string[];
+          also_spells?: string[];
+        };
+      }
+    ).spell_source;
+    if (!ss) continue;
+    for (const c of ss.classes ?? []) {
+      if (!SHIPPED_CLASSES.has(c)) {
+        errors.push(`unknown spell_source class '${c}'`);
+      }
+    }
+    for (const sc of ss.schools ?? []) {
+      if (!SHIPPED_SCHOOLS.has(sc)) {
+        errors.push(`unknown spell_source school '${sc}'`);
+      }
+    }
+    for (const sp of ss.also_spells ?? []) {
+      if (!SPELLS.has(sp)) {
+        errors.push(`unknown spell_source also_spells spell '${sp}'`);
+      }
+    }
+  }
   return { errors, warnings };
 }
 

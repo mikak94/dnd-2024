@@ -123,8 +123,9 @@ const OptionSetSchema = z.union([
  * For a spells-type choice, a structured description of which spells are
  * selectable, so a builder can enumerate them instead of parsing the desc prose.
  * The pool is the spell list filtered by `level` (exact) or `max_level` (≤), then
- * by `classes` / `schools` / `casting_time` / `ritual_only`, with any `also_spells`
- * unioned in. `from_class_choice` marks the case where the class to draw from is
+ * by `classes` / `schools` / `casting_time` / `ritual_only` / `requires_attack_roll` /
+ * `deals_damage` / `min_range_feet`, with any `also_spells` unioned in.
+ * `from_class_choice` marks the case where the class to draw from is
  * itself the player's pick in another (`classes`) choice on the same feat (Magic
  * Initiate). Provide exactly one of `level` / `max_level`.
  */
@@ -166,6 +167,24 @@ export const SpellSourceSchema = z.strictObject({
     .optional()
     .describe(
       'restrict to spells with this casting time (Genie Magic: "a casting time of an action"); omit for no restriction',
+    ),
+  requires_attack_roll: z
+    .boolean()
+    .optional()
+    .describe(
+      'true when only spells that require an attack roll qualify — i.e. the spell has an `attack_type` (Repelling Blast: "a cantrip that requires an attack roll"). Omit for no restriction.',
+    ),
+  deals_damage: z
+    .boolean()
+    .optional()
+    .describe(
+      'true when only damage-dealing spells qualify — i.e. the spell has a `damage` block (Agonizing Blast / Eldritch Spear: "a cantrip that deals damage"). Omit for no restriction.',
+    ),
+  min_range_feet: z
+    .number()
+    .optional()
+    .describe(
+      'minimum spell range in feet, for "a range of N+ feet" (Eldritch Spear: "a range of 10+ feet" → 10). Excludes Self/Touch spells. Omit for no restriction.',
     ),
   also_spells: z
     .array(z.string())
