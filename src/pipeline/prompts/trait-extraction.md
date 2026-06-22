@@ -39,6 +39,7 @@ be `{ "index": "<that index>", "name": "<trait name>", "url": "/api/2024/traits/
   "proficiencies": [], // optional; omit if none
   "proficiency_choices": null, // optional array of Choice (one per pick); omit if none
   "language_options": null, // optional Choice; omit if none
+  "feat_options": null, // optional Choice; "an Origin feat of your choice" -> a feats resource_list; omit if none
   "parent": null, // optional; e.g. a Draconic Ancestry variant -> its parent trait
   "trait_specific": {
     // optional; only the relevant sub-keys
@@ -74,6 +75,20 @@ be `{ "index": "<that index>", "name": "<trait name>", "url": "/api/2024/traits/
   Design ("one skill proficiency **and** one tool proficiency of your choice") is two entries: a
   skill choice (`type: "skills"`) and a tool choice (`type: "tools"`). Omit the field if none.
 - **language_options** — a single `Choice` when the trait says "choose N language(s)". Omit if none.
+- **feat_options** — a single `Choice` when the trait grants **a feat of the player's choice** (Human's
+  Versatile: "You gain an Origin feat of your choice"). Model it as a `resource_list` over the relevant
+  feat category — Origin feats are `type: "origin"` in the feats dataset, so the pool URL is
+  `/api/2024/feats?type=origin`. `choose` is the number granted (1 for Versatile). A "recommended" feat
+  named in the prose (Versatile names Skilled) is flavor — keep it in `desc`, don't narrow the pool to it.
+  Omit the field if the trait grants no feat pick. Shape:
+  ```jsonc
+  {
+    "desc": "Choose one Origin feat",
+    "choose": 1,
+    "type": "feats",
+    "from": { "option_set_type": "resource_list", "resource_list_url": "/api/2024/feats?type=origin" }
+  }
+  ```
 - **parent** — for a variant trait that rolls up under a broader one, a ref to the parent
   trait. Two cases: a specific Draconic Ancestry under "Draconic Ancestry"; and a lineage/legacy
   subspecies' benefit trait under the species' "<X> Lineage"/"<X> Legacy" trait (e.g.
@@ -146,6 +161,21 @@ spellcasting ability for these spells (choose … when you select this lineage).
   }
 }
 ```
+
+## Worked example — feat choice (`human-versatile`)
+
+Source prose: "**Versatile.** You gain an Origin feat of your choice. Skilled is recommended." →
+
+```json
+"feat_options": {
+  "desc": "Choose one Origin feat",
+  "choose": 1,
+  "type": "feats",
+  "from": { "option_set_type": "resource_list", "resource_list_url": "/api/2024/feats?type=origin" }
+}
+```
+
+(The "Skilled is recommended" hint stays in `desc`; the pool is all Origin feats, not just Skilled.)
 
 ## Exact damage-type references (for breath weapons / damage_type)
 

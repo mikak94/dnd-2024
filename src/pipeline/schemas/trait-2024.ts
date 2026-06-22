@@ -103,6 +103,9 @@ export const TraitSchema = z.strictObject({
       'one Choice per distinct proficiency pick the trait offers; usually one, but e.g. Warforged Specialized Design grants a separate skill choice AND tool choice. Omit if none.',
     ),
   language_options: ChoiceSchema.optional(),
+  feat_options: ChoiceSchema.optional().describe(
+    'a single Choice when the trait grants a feat of the player\'s choice (Human Versatile: "an Origin feat of your choice"). Model as a resource_list over the relevant feat category, e.g. from.resource_list_url "/api/2024/feats?type=origin". Omit when the trait grants no feat pick.',
+  ),
   parent: APIReferenceSchema.optional().describe(
     'e.g. Draconic Ancestry (Black) -> Draconic Ancestry',
   ),
