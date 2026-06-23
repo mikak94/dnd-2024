@@ -12,9 +12,15 @@ import * as z from 'zod/v4';
  * mixing zod-root (5e-database) and zod/v4 schema instances in the parser.
  */
 export const APIReferenceSchema = z.strictObject({
-  index: z.string(),
+  index: z
+    .string()
+    .describe(`slug, in kebab-case, strip "'", e.g. tasha's -> tashas`),
   name: z.string(),
-  url: z.string(),
+  url: z
+    .string()
+    .describe(
+      `url, in the following format /api/2024/<category>/<index> \n categories list: proficiencies, ability-scores, feats, equipment, backgrounds, classes, subclasses, conditions, equipment-categories, damage-types, weapon-properties, weapon-mastery-properties, spells, features, languages, magic-items, poisons, skills, traits, species, subspecies, magic-schools`,
+    ),
 });
 
 export const AreaOfEffectSchema = z.strictObject({
@@ -133,62 +139,73 @@ export const SpellSourceSchema = z.strictObject({
   level: z
     .number()
     .optional()
+
     .describe('exact spell level to draw from; 0 = cantrip'),
   max_level: z
     .number()
     .optional()
+
     .describe(
       'maximum spell level, for "a level N or lower spell" (Boon of Siberys)',
     ),
   classes: z
     .array(z.string())
     .optional()
+
     .describe(
       'class index(es) whose spell list to draw from; omit for any class',
     ),
   schools: z
     .array(z.string())
     .optional()
+
     .describe('magic-school index(es) to filter by; omit for any school'),
   from_class_choice: z
     .boolean()
     .optional()
+
     .describe(
       "true when the class to draw from is the player's pick in this feat's own classes choice (Magic Initiate)",
     ),
   ritual_only: z
     .boolean()
     .optional()
+
     .describe(
       'true when only spells with the Ritual tag qualify (Ritual Caster)',
     ),
   casting_time: z
     .enum(['action', 'bonus_action', 'reaction'])
     .optional()
+
     .describe(
       'restrict to spells with this casting time (Genie Magic: "a casting time of an action"); omit for no restriction',
     ),
   requires_attack_roll: z
     .boolean()
     .optional()
+
     .describe(
       'true when only spells that require an attack roll qualify — i.e. the spell has an `attack_type` (Repelling Blast: "a cantrip that requires an attack roll"). Omit for no restriction.',
     ),
   deals_damage: z
     .boolean()
     .optional()
+
     .describe(
       'true when only damage-dealing spells qualify — i.e. the spell has a `damage` block (Agonizing Blast / Eldritch Spear: "a cantrip that deals damage"). Omit for no restriction.',
     ),
   min_range_feet: z
     .number()
     .optional()
+
     .describe(
       'minimum spell range in feet, for "a range of N+ feet" (Eldritch Spear: "a range of 10+ feet" → 10). Excludes Self/Touch spells. Omit for no restriction.',
     ),
   also_spells: z
     .array(z.string())
     .optional()
+
     .describe(
       "explicit spell indexes added to the pool on top of the filtered list — a feat-specific list the filters can't express (Boon of Siberys's Siberys Dragonmark Spells table)",
     ),
@@ -203,12 +220,14 @@ export const ChoiceSchema: z.ZodType<any> = z.lazy(() =>
     grants: z
       .enum(['proficiency', 'expertise', 'proficiency_or_expertise'])
       .optional()
+
       .describe(
         'for a proficiencies-type choice, what the pick confers: a plain proficiency, Expertise (you already have the proficiency), or proficiency-if-lacking-else-Expertise (Keen Mind, Observant). Omit (= proficiency) for non-proficiency choices.',
       ),
     ability_use: z
       .enum(['increase', 'spellcasting', 'hit_points'])
       .optional()
+
       .describe(
         "for an abilities-type choice, what picking the ability does: raise that score by 1 (increase), set this feat's spellcasting ability (spellcasting), or set the ability for a hit-point calculation (hit_points). Omit (= increase) for an ordinary Ability Score Increase.",
       ),

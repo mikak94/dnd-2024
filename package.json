@@ -17,6 +17,7 @@
     "5e-database": "github:5e-bits/5e-database",
     "bottleneck": "^2.19.5",
     "cheerio": "^1.2.0",
+    "openai": "^6.44.0",
     "turndown": "^7.2.4",
     "turndown-plugin-gfm": "^1.0.2",
     "zod": "^4.4.3"

@@ -30,7 +30,12 @@ export const ProficiencyChoiceSchema = z.strictObject({
             type: z.string(),
             from: z.strictObject({
               option_set_type: z.string(),
-              options: z.array(z.unknown()),
+              options: z.array(
+                z.strictObject({
+                  option_type: z.literal('reference'),
+                  item: APIReferenceSchema,
+                }),
+              ),
             }),
           })
           .optional(),
@@ -69,7 +74,13 @@ export const MulticlassingSchema = z.strictObject({
       choose: z.number(),
       from: z.strictObject({
         option_set_type: z.string(),
-        options: z.array(z.unknown()),
+        options: z.array(
+          z.strictObject({
+            option_type: z.literal('ability_minimum'),
+            ability_score: APIReferenceSchema,
+            minimum_score: z.number().int(),
+          }),
+        ),
       }),
     })
     .optional(),
@@ -84,12 +95,6 @@ export const ClassSchema = z.strictObject({
   proficiency_choices: z.array(ProficiencyChoiceSchema),
   proficiencies: z.array(APIReferenceSchema),
   saving_throws: z.array(APIReferenceSchema),
-  starting_equipment: z.array(
-    z.strictObject({
-      equipment: APIReferenceSchema,
-      quantity: z.number(),
-    }),
-  ),
   starting_equipment_options: z.array(ChoiceSchema).optional(),
   class_levels: z.string().describe('URL: /api/2024/classes/<index>/levels'),
   multi_classing: MulticlassingSchema.optional(),

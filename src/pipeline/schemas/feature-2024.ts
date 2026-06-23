@@ -36,7 +36,13 @@ export const FeaturePrerequisiteSchema = z.strictObject({
  *   "rage" | "sorcery_point" | "spell_slot" | "superiority_die" | "wild_shape"
  */
 export const FeatureActivationSchema = z.strictObject({
-  action_type: z.enum(['action', 'bonus_action', 'reaction', 'free_action', 'special']),
+  action_type: z.enum([
+    'action',
+    'bonus_action',
+    'reaction',
+    'free_action',
+    'special',
+  ]),
   cost: z
     .enum([
       'bardic_inspiration',
@@ -50,7 +56,9 @@ export const FeatureActivationSchema = z.strictObject({
       'wild_shape',
     ])
     .optional()
-    .describe('resource expended on activation; omit when the action type alone is the cost'),
+    .describe(
+      'resource expended on activation; omit when the action type alone is the cost',
+    ),
 });
 
 /**
@@ -64,13 +72,21 @@ export const FeatureActivationSchema = z.strictObject({
  * that detail in `desc`.
  */
 export const FeatureRechargeSchema = z.strictObject({
-  condition: z.enum(['short_rest', 'long_rest', 'short_or_long_rest', 'dawn', 'turn']),
+  condition: z.enum([
+    'short_rest',
+    'long_rest',
+    'short_or_long_rest',
+    'dawn',
+    'turn',
+  ]),
   uses: z
     .number()
     .int()
     .min(1)
     .optional()
-    .describe('fixed uses per recharge; omit when count is variable (stays in desc)'),
+    .describe(
+      'fixed uses per recharge; omit when count is variable (stays in desc)',
+    ),
 });
 
 /**
@@ -81,7 +97,9 @@ export const FeatureRechargeSchema = z.strictObject({
  * machine-readable grant so a character builder can surface the spell.
  */
 export const FeatureSpellGrantSchema = z.strictObject({
-  spell: APIReferenceSchema.describe('the granted spell, referencing the real spell entity'),
+  spell: APIReferenceSchema.describe(
+    'the granted spell, referencing the real spell entity',
+  ),
   usage: z
     .enum(['at_will', 'per_long_rest', 'always_prepared'])
     .describe(
@@ -94,18 +112,22 @@ export const FeatureSpellGrantSchema = z.strictObject({
     .int()
     .min(1)
     .optional()
-    .describe('free casts per Long Rest when usage is per_long_rest (e.g. Water Breathing: 1)'),
+    .describe(
+      'free casts per Long Rest when usage is per_long_rest (e.g. Water Breathing: 1)',
+    ),
   self_only: z
     .boolean()
     .optional()
-    .describe('true when the free cast may target only yourself (Armor of Shadows, Ascendant Step)'),
+    .describe(
+      'true when the free cast may target only yourself (Armor of Shadows, Ascendant Step)',
+    ),
   casting_time_override: z
     .enum(['action', 'bonus_action', 'reaction'])
     .optional()
     .describe(
-      "present when the feature explicitly casts this spell with a different action type than the " +
+      'present when the feature explicitly casts this spell with a different action type than the ' +
         "spell's own casting_time (e.g. an invocation that lets you cast an Action spell as a " +
-        'Bonus Action). For benefit_options spells the override is the feature\'s activation.action_type — ' +
+        "Bonus Action). For benefit_options spells the override is the feature's activation.action_type — " +
         'do not also set this field there.',
     ),
 });
@@ -123,7 +145,9 @@ export const FeatureSpellcastingSchema = z.strictObject({
   spells: z
     .array(FeatureSpellGrantSchema)
     .min(1)
-    .describe('the specific spells the feature grants, each with how it can be cast'),
+    .describe(
+      'the specific spells the feature grants, each with how it can be cast',
+    ),
 });
 
 /**
@@ -136,14 +160,23 @@ export const FeatureSpellcastingSchema = z.strictObject({
 export const FeatureBenefitSchema = z.union([
   z.strictObject({
     type: z.literal('passive'),
-    name: z.string().describe('short label for the benefit (same as the bold heading in the text)'),
+    name: z
+      .string()
+      .describe(
+        'short label for the benefit (same as the bold heading in the text)',
+      ),
     desc: z.string().describe('one-sentence description of the benefit'),
   }),
   z.strictObject({
     type: z.literal('spell'),
     name: z.string().describe('short label (usually the spell name)'),
-    desc: z.string().optional().describe('one-sentence description if needed beyond the spell name'),
-    spell: APIReferenceSchema.describe('the spell cast as part of this benefit'),
+    desc: z
+      .string()
+      .optional()
+      .describe('one-sentence description if needed beyond the spell name'),
+    spell: APIReferenceSchema.describe(
+      'the spell cast as part of this benefit',
+    ),
   }),
 ]);
 
@@ -153,7 +186,11 @@ export const FeatureBenefitSchema = z.union([
  * Present only when the feature explicitly offers such a pick; omit for standard features.
  */
 export const FeatureBenefitOptionsSchema = z.strictObject({
-  choose: z.number().int().min(1).describe('number of benefits to choose (usually 1)'),
+  choose: z
+    .number()
+    .int()
+    .min(1)
+    .describe('number of benefits to choose (usually 1)'),
   benefits: z.array(FeatureBenefitSchema).min(2),
 });
 
@@ -180,7 +217,12 @@ export const FeatureSpecificSchema = z.strictObject({
       type: z.string(),
       from: z.strictObject({
         option_set_type: z.string(),
-        options: z.array(z.unknown()),
+        options: z.array(
+          z.strictObject({
+            option_type: z.literal('reference'),
+            item: APIReferenceSchema,
+          }),
+        ),
       }),
     })
     .optional(),
@@ -214,7 +256,7 @@ export const FeatureSchema = z.strictObject({
     .optional()
     .describe(
       'in-feature player picks captured as the shared recursive ChoiceSchema (mirrors ' +
-        "Feat.choices) — e.g. an invocation's \"choose one of your known Warlock cantrips that …\" " +
+        'Feat.choices) — e.g. an invocation\'s "choose one of your known Warlock cantrips that …" ' +
         '(a spells choice with `spell_source`) or "choose an Origin feat" (a feats resource_list). ' +
         'Omit if the feature has none. Distinct from feature_specific.subfeature_options/' +
         'expertise_options, which model closed enumerated entity sets (Fighting Style / Expertise / ' +

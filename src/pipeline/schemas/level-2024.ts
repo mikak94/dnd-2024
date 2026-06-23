@@ -74,9 +74,6 @@ export const ClassSpecificSchema = z.union([
   WizardSpecificSchema,
 ]);
 
-/** Subclass-specific progression (varies by subclass). */
-export const SubclassSpecificSchema = z.record(z.string(), z.unknown());
-
 /** Spellcasting progression at a given level. */
 export const LevelSpellcastingSchema = z.strictObject({
   cantrips_known: z.number().optional(),
@@ -107,7 +104,6 @@ export const LevelSchema = z.strictObject({
   ),
   spellcasting: LevelSpellcastingSchema.optional(),
   subclass: APIReferenceSchema.optional(),
-  subclass_specific: SubclassSpecificSchema.optional(),
   url: z.string().describe('/api/2024/classes/<class>/levels/<level>'),
 });
 
