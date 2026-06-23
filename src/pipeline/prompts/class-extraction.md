@@ -392,9 +392,9 @@ Output (`data/out/class/barbarian.json`):
   "class_levels": "/api/2024/classes/barbarian/levels",
   "subclasses": [
     {
-      "index": "berserker",
-      "name": "Berserker",
-      "url": "/api/2024/subclasses/berserker"
+      "index": "path-of-the-berserker",
+      "name": "Path of the Berserker",
+      "url": "/api/2024/subclasses/path-of-the-berserker"
     }
   ],
   "url": "/api/2024/classes/barbarian"
