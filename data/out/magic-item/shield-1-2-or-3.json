@@ -11,5 +11,9 @@
   "desc": "While holding this Shield, you have a bonus to Armor Class determined by the Shield's rarity, in addition to the Shield's normal bonus to AC.",
   "variant": false,
   "variants": [],
+  "combat": {
+    "applies_to": "shield",
+    "scales_with_rarity": true
+  },
   "url": "/api/2024/magic-items/shield-1-2-or-3"
 }

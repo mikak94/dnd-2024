@@ -6,12 +6,14 @@
     "name": "Weapons",
     "url": "/api/2024/equipment-categories/weapons"
   },
-  "rarity": {
-    "name": "Varies"
-  },
+  "rarity": { "name": "Varies" },
   "attunement": false,
   "desc": "You have a bonus to attack rolls and damage rolls made with this magic weapon. The bonus is determined by the weapon's rarity.",
   "variant": false,
   "variants": [],
+  "combat": {
+    "applies_to": "weapon",
+    "scales_with_rarity": true
+  },
   "url": "/api/2024/magic-items/weapon-1-2-or-3"
 }

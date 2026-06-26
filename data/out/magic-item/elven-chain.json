@@ -11,5 +11,9 @@
   "desc": "You gain a +1 bonus to Armor Class while you wear this armor. You are considered trained with this armor even if you lack training with Medium or Heavy armor.",
   "variant": false,
   "variants": [],
-  "url": "/api/2024/magic-items/elven-chain"
+  "url": "/api/2024/magic-items/elven-chain",
+  "combat": {
+    "applies_to": "armor",
+    "ac_bonus": 1
+  }
 }

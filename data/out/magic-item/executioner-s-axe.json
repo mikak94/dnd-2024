@@ -11,5 +11,10 @@
   "desc": "You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon.\n\nAny Humanoid you hit with the weapon takes an extra 2d6 Slashing damage, and you gain Temporary Hit Points equal to the extra damage dealt.",
   "variant": false,
   "variants": [],
-  "url": "/api/2024/magic-items/executioner-s-axe"
+  "url": "/api/2024/magic-items/executioner-s-axe",
+  "combat": {
+    "applies_to": "weapon",
+    "attack_bonus": 1,
+    "damage_bonus": 1
+  }
 }

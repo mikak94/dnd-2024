@@ -11,5 +11,10 @@
   "desc": "You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon.\n\nThe weapon deals an extra 3d6 damage of the weapon's type if the target is a Dragon.",
   "variant": false,
   "variants": [],
-  "url": "/api/2024/magic-items/dragon-slayer"
+  "url": "/api/2024/magic-items/dragon-slayer",
+  "combat": {
+    "applies_to": "weapon",
+    "attack_bonus": 1,
+    "damage_bonus": 1
+  }
 }

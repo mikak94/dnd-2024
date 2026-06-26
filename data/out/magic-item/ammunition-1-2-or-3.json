@@ -6,12 +6,14 @@
     "name": "Weapons",
     "url": "/api/2024/equipment-categories/weapons"
   },
-  "rarity": {
-    "name": "Varies"
-  },
+  "rarity": { "name": "Varies" },
   "attunement": false,
   "desc": "You have a bonus to attack rolls and damage rolls made with this piece of magic ammunition. The bonus is determined by the rarity of the ammunition. Once it hits a target, the ammunition is no longer magical.\n\nThis ammunition is typically found or sold in quantities of ten or twenty pieces. Ten pieces of this ammunition are equivalent in value to a potion of the same rarity.",
   "variant": false,
   "variants": [],
+  "combat": {
+    "applies_to": "ammunition",
+    "scales_with_rarity": true
+  },
   "url": "/api/2024/magic-items/ammunition-1-2-or-3"
 }

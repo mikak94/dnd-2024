@@ -11,5 +11,10 @@
   "desc": "You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon. In addition, you can make one attack with it as a Bonus Action on each of your turns.",
   "variant": false,
   "variants": [],
+  "combat": {
+    "applies_to": "weapon",
+    "attack_bonus": 2,
+    "damage_bonus": 2
+  },
   "url": "/api/2024/magic-items/scimitar-of-speed"
 }

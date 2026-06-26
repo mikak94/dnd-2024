@@ -11,5 +11,8 @@
   "desc": "Wisps of harmless, odorless smoke rise from this armor while it is worn.",
   "variant": false,
   "variants": [],
+  "combat": {
+    "applies_to": "armor"
+  },
   "url": "/api/2024/magic-items/smoldering-armor"
 }

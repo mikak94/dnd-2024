@@ -6,12 +6,13 @@
     "name": "Weapons",
     "url": "/api/2024/equipment-categories/weapons"
   },
-  "rarity": {
-    "name": "Uncommon"
-  },
+  "rarity": { "name": "Uncommon" },
   "attunement": false,
   "desc": "This weapon or piece of ammunition is made of adamantine, one of the hardest substances in existence. Whenever this weapon or piece of ammunition hits an object, the hit is a Critical Hit.",
   "variant": false,
   "variants": [],
+  "combat": {
+    "applies_to": "weapon"
+  },
   "url": "/api/2024/magic-items/adamantine-weapon"
 }

@@ -11,5 +11,10 @@
   "desc": "This magic weapon grants a +1 bonus to attack and damage rolls made with it, and it returns to your hand immediately after you use it to make a ranged attack roll.",
   "variant": false,
   "variants": [],
+  "combat": {
+    "applies_to": "weapon",
+    "attack_bonus": 1,
+    "damage_bonus": 1
+  },
   "url": "/api/2024/magic-items/returning-weapon"
 }

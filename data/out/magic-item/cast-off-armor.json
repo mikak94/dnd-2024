@@ -11,5 +11,8 @@
   "desc": "You can doff this armor as a Magic action.",
   "variant": false,
   "variants": [],
+  "combat": {
+    "applies_to": "armor"
+  },
   "url": "/api/2024/magic-items/cast-off-armor"
 }

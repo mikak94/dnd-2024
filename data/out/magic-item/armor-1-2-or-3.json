@@ -11,5 +11,9 @@
   "desc": "You have a bonus to Armor Class while wearing this armor. The bonus is determined by its rarity.",
   "variant": false,
   "variants": [],
+  "combat": {
+    "applies_to": "armor",
+    "scales_with_rarity": true
+  },
   "url": "/api/2024/magic-items/armor-1-2-or-3"
 }

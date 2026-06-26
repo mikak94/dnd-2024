@@ -6,12 +6,18 @@
     "name": "Weapons",
     "url": "/api/2024/equipment-categories/weapons"
   },
-  "rarity": {
-    "name": "Rare"
-  },
+  "rarity": { "name": "Rare" },
   "attunement": false,
   "desc": "This magic weapon deals an extra 2d6 damage to any creature it hits. This extra damage is of the same type as the weapon's normal damage.",
   "variant": false,
   "variants": [],
+  "combat": {
+    "applies_to": "weapon",
+    "extra_damage": [
+      {
+        "dice": "2d6"
+      }
+    ]
+  },
   "url": "/api/2024/magic-items/vicious-weapon"
 }

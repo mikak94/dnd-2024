@@ -671,6 +671,11 @@ function checkMagicItemRefs(
       warnings.push(`variant '${v.index}' not in magic-items set`);
     }
   }
+  for (const ed of item.combat?.extra_damage ?? []) {
+    if (ed.damage_type && !SHIPPED_DAMAGE_TYPES.has(ed.damage_type.index)) {
+      errors.push(`unknown combat extra_damage damage_type '${ed.damage_type.index}'`);
+    }
+  }
   return { errors, warnings };
 }
 

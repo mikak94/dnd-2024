@@ -11,5 +11,8 @@
   "desc": "This armor never gets dirty.",
   "variant": false,
   "variants": [],
+  "combat": {
+    "applies_to": "armor"
+  },
   "url": "/api/2024/magic-items/armor-of-gleaming"
 }

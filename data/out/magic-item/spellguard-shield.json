@@ -11,5 +11,8 @@
   "desc": "While holding this Shield, you have Advantage on saving throws against spells and other magical effects, and spell attack rolls have Disadvantage against you.",
   "variant": false,
   "variants": [],
+  "combat": {
+    "applies_to": "shield"
+  },
   "url": "/api/2024/magic-items/spellguard-shield"
 }

@@ -11,5 +11,8 @@
   "desc": "In Darkness, the unsheathed blade of this weapon sheds moonlight, creating Bright Light in a 15-foot radius and Dim Light for an additional 15 feet.",
   "variant": false,
   "variants": [],
+  "combat": {
+    "applies_to": "weapon"
+  },
   "url": "/api/2024/magic-items/moon-touched-sword"
 }

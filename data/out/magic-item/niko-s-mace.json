@@ -11,5 +11,8 @@
   "desc": "This Mace has 6 charges and regains 1d6 expended charges daily at dawn. While holding the Mace, you can expend 1 of its charges to cast Summon Celestial (+9 to hit with spell attacks).",
   "variant": false,
   "variants": [],
+  "combat": {
+    "applies_to": "weapon"
+  },
   "url": "/api/2024/magic-items/niko-s-mace"
 }

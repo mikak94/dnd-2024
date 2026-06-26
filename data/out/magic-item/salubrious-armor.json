@@ -11,5 +11,8 @@
   "desc": "Whenever you regain Hit Points while wearing this armor, it takes on a reddish tint and you gain a +1 bonus to Armor Class until the end of your next turn.",
   "variant": false,
   "variants": [],
+  "combat": {
+    "applies_to": "armor"
+  },
   "url": "/api/2024/magic-items/salubrious-armor"
 }
