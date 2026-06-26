@@ -63,6 +63,9 @@ const EXTRA_EQUIPMENT_CATEGORIES = new Set([
   'mounts-and-other-animals',
   'tack-harness-and-drawn-vehicles',
   'waterborne-vehicles',
+  // 5e-database lumps Scrolls under wondrous items; we split them out so consumable
+  // scrolls are distinguishable from worn wondrous items (Scroll → `scrolls`).
+  'scrolls',
 ]);
 const EQUIPMENT_CATEGORIES = new Set([
   ...SHIPPED_EQUIPMENT_CATEGORIES,
@@ -658,7 +661,7 @@ function checkMagicItemRefs(
   if (item.url !== `/api/2024/magic-items/${item.index}`) {
     errors.push(`url/index mismatch: ${item.url} vs index ${item.index}`);
   }
-  if (!SHIPPED_EQUIPMENT_CATEGORIES.has(item.equipment_category.index)) {
+  if (!EQUIPMENT_CATEGORIES.has(item.equipment_category.index)) {
     errors.push(
       `unknown equipment_category '${item.equipment_category.index}'`,
     );

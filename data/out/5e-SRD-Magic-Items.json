@@ -5348,15 +5348,15 @@
     "index": "scroll-of-protection",
     "name": "Scroll of Protection",
     "equipment_category": {
-      "index": "wondrous-items",
-      "name": "Wondrous Items",
-      "url": "/api/2024/equipment-categories/wondrous-items"
+      "index": "scrolls",
+      "name": "Scrolls",
+      "url": "/api/2024/equipment-categories/scrolls"
     },
     "rarity": {
       "name": "Rare"
     },
     "attunement": false,
-    "desc": "Each Scroll of Protection works against creatures of a specific creature type chosen by the DM or determined by rolling on the following table.\n\n| 1d100 | Creature Type |\n| --- | --- |\n| 01-10 | Aberrations |\n| 11-15 | Beasts |\n| 16-20 | Celestials |\n| 21-25 | Constructs |\n| 26-35 | Dragons |\n| 36-45 | Elementals |\n| 46-50 | Humanoids |\n| 51-60 | Fey |\n| 61-70 | Fiends |\n| 71-75 | Giants |\n| 76-80 | Monstrosities |\n| 81-85 | Oozes |\n| 86-90 | Plants |\n| 91-00 | Undead |\n\nUsing a Magic action to read the scroll creates a 5-foot Emanation originating from you. For 5 minutes, creatures of the specified type can't enter or affect anything in the area. However, if you move in such a way that a creature of the specified type would be inside the area, the effect ends.\n\nAs a Magic action, a creature within 5 feet of the Emanation can attempt to overcome it, which forces the creature to make a DC 15 Charisma saving throw. On a successful save, the creature ceases to be affected by the Emanation.",
+    "desc": "Each Scroll of Protection works against creatures of a specific creature type chosen by the DM or determined by rolling on the following table.\n\n| 1d100 | Creature Type |\n| ----- | ------------- |\n| 01-10 | Aberrations   |\n| 11-15 | Beasts        |\n| 16-20 | Celestials    |\n| 21-25 | Constructs    |\n| 26-35 | Dragons       |\n| 36-45 | Elementals    |\n| 46-50 | Humanoids     |\n| 51-60 | Fey           |\n| 61-70 | Fiends        |\n| 71-75 | Giants        |\n| 76-80 | Monstrosities |\n| 81-85 | Oozes         |\n| 86-90 | Plants        |\n| 91-00 | Undead        |\n\nUsing a Magic action to read the scroll creates a 5-foot Emanation originating from you. For 5 minutes, creatures of the specified type can't enter or affect anything in the area. However, if you move in such a way that a creature of the specified type would be inside the area, the effect ends.\n\nAs a Magic action, a creature within 5 feet of the Emanation can attempt to overcome it, which forces the creature to make a DC 15 Charisma saving throw. On a successful save, the creature ceases to be affected by the Emanation.",
     "variant": false,
     "variants": [],
     "url": "/api/2024/magic-items/scroll-of-protection"
@@ -5365,15 +5365,15 @@
     "index": "scroll-of-titan-summoning",
     "name": "Scroll of Titan Summoning",
     "equipment_category": {
-      "index": "wondrous-items",
-      "name": "Wondrous Items",
-      "url": "/api/2024/equipment-categories/wondrous-items"
+      "index": "scrolls",
+      "name": "Scrolls",
+      "url": "/api/2024/equipment-categories/scrolls"
     },
     "rarity": {
       "name": "Legendary"
     },
     "attunement": false,
-    "desc": "When you take a Magic action to read this scroll, a particular titan named in the scroll appears in an unoccupied space on the ground or in water that you can see within 1 mile of yourself. The DM picks a suitable titan or determines it randomly by rolling on the table below (see the Monster Manual for the creature's stat block).\n\nThe titan is Hostile toward all other creatures and disappears when it drops to 0 Hit Points. If the titan is summoned into a space that isn't large enough to contain it, the summoning fails, and the scroll is wasted.\n\n| 1d100 | Titan |\n| --- | --- |\n| 01-15 | Animal Lord |\n| 16-30 | Blob of Annihilation |\n| 31-45 | Colossus |\n| 46-60 | Elemental Cataclysm |\n| 61-75 | Empyrean |\n| 76-90 | Kraken (a kraken requires a body of water large enough to contain it, or the summoning fails and the scroll is wasted) |\n| 91-00 | Tarrasque |",
+    "desc": "When you take a Magic action to read this scroll, a particular titan named in the scroll appears in an unoccupied space on the ground or in water that you can see within 1 mile of yourself. The DM picks a suitable titan or determines it randomly by rolling on the table below (see the Monster Manual for the creature's stat block).\n\nThe titan is Hostile toward all other creatures and disappears when it drops to 0 Hit Points. If the titan is summoned into a space that isn't large enough to contain it, the summoning fails, and the scroll is wasted.\n\n| 1d100 | Titan                                                                                                                  |\n| ----- | ---------------------------------------------------------------------------------------------------------------------- |\n| 01-15 | Animal Lord                                                                                                            |\n| 16-30 | Blob of Annihilation                                                                                                   |\n| 31-45 | Colossus                                                                                                               |\n| 46-60 | Elemental Cataclysm                                                                                                    |\n| 61-75 | Empyrean                                                                                                               |\n| 76-90 | Kraken (a kraken requires a body of water large enough to contain it, or the summoning fails and the scroll is wasted) |\n| 91-00 | Tarrasque                                                                                                              |",
     "variant": false,
     "variants": [],
     "url": "/api/2024/magic-items/scroll-of-titan-summoning"
@@ -5592,15 +5592,15 @@
     "index": "spell-scroll",
     "name": "Spell Scroll",
     "equipment_category": {
-      "index": "wondrous-items",
-      "name": "Wondrous Items",
-      "url": "/api/2024/equipment-categories/wondrous-items"
+      "index": "scrolls",
+      "name": "Scrolls",
+      "url": "/api/2024/equipment-categories/scrolls"
     },
     "rarity": {
       "name": "Varies"
     },
     "attunement": false,
-    "desc": "A Spell Scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your spell list, you can read the scroll and cast its spell without Material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the scroll crumbles to dust. If the casting is interrupted, the scroll isn't lost.\n\nIf the spell is on your spell list but of a higher level than you can normally cast, you make an ability check using your spellcasting ability to determine whether you cast the spell. The DC equals 10 plus the spell's level. On a failed check, the spell disappears from the scroll with no other effect.\n\nThe level of the spell on the scroll determines the spell's saving throw DC and attack bonus, as well as the scroll's rarity, as shown in the following table.\n\n| Spell Level | Rarity | Save DC | Attack Bonus |\n| --- | --- | --- | --- |\n| Cantrip | Common | 13 | +5 |\n| 1 | Common | 13 | +5 |\n| 2 | Uncommon | 13 | +5 |\n| 3 | Uncommon | 15 | +7 |\n| 4 | Rare | 15 | +7 |\n| 5 | Rare | 17 | +9 |\n| 6 | Very Rare | 17 | +9 |\n| 7 | Very Rare | 18 | +10 |\n| 8 | Very Rare | 18 | +10 |\n| 9 | Legendary | 19 | +11 |\n\nCopying a Scroll into a Spellbook. A Wizard spell on a Spell Scroll can be copied into a spellbook. When a spell is copied in this way, the copier must succeed on an Intelligence (Arcana) check with a DC equal to 10 plus the spell's level. On a successful check, the spell is copied. Whether the check succeeds or fails, the Spell Scroll is destroyed.",
+    "desc": "A Spell Scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your spell list, you can read the scroll and cast its spell without Material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the scroll crumbles to dust. If the casting is interrupted, the scroll isn't lost.\n\nIf the spell is on your spell list but of a higher level than you can normally cast, you make an ability check using your spellcasting ability to determine whether you cast the spell. The DC equals 10 plus the spell's level. On a failed check, the spell disappears from the scroll with no other effect.\n\nThe level of the spell on the scroll determines the spell's saving throw DC and attack bonus, as well as the scroll's rarity, as shown in the following table.\n\n| Spell Level | Rarity    | Save DC | Attack Bonus |\n| ----------- | --------- | ------- | ------------ |\n| Cantrip     | Common    | 13      | +5           |\n| 1           | Common    | 13      | +5           |\n| 2           | Uncommon  | 13      | +5           |\n| 3           | Uncommon  | 15      | +7           |\n| 4           | Rare      | 15      | +7           |\n| 5           | Rare      | 17      | +9           |\n| 6           | Very Rare | 17      | +9           |\n| 7           | Very Rare | 18      | +10          |\n| 8           | Very Rare | 18      | +10          |\n| 9           | Legendary | 19      | +11          |\n\nCopying a Scroll into a Spellbook. A Wizard spell on a Spell Scroll can be copied into a spellbook. When a spell is copied in this way, the copier must succeed on an Intelligence (Arcana) check with a DC equal to 10 plus the spell's level. On a successful check, the spell is copied. Whether the check succeeds or fails, the Spell Scroll is destroyed.",
     "variant": false,
     "variants": [],
     "url": "/api/2024/magic-items/spell-scroll"

@@ -81,7 +81,7 @@ export const MagicItemSchema = z.strictObject({
   index: z.string().describe("kebab-case slug, e.g. 'bag-of-holding'"),
   name: z.string(),
   equipment_category: APIReferenceSchema.describe(
-    'one equipment-categories ref: armor/weapons/potions/rings/wands/staffs/wondrous-items',
+    'one equipment-categories ref: armor/weapons/potions/rings/wands/staffs/scrolls/wondrous-items',
   ),
   rarity: RaritySchema,
   attunement: z.boolean().describe('true if the item Requires Attunement'),

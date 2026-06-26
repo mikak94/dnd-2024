@@ -57,13 +57,14 @@ const SRD_REF: Record<string, string> = {
   'weapon-mastery-properties': 'Weapon-Mastery-Properties',
 };
 
-// Mounts/vehicles categories we coin (5e-database ships none); kept in sync with
+// Categories we coin (5e-database ships none); kept in sync with
 // EXTRA_EQUIPMENT_CATEGORIES in validate.ts.
 const EXTRA_EQUIPMENT_CATEGORIES = [
   'mounts-and-vehicles',
   'mounts-and-other-animals',
   'tack-harness-and-drawn-vehicles',
   'waterborne-vehicles',
+  'scrolls',
 ];
 
 const coreFile = path.join(OUT, '5e-SRD-Species.json');

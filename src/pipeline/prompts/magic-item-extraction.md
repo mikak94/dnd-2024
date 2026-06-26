@@ -75,8 +75,8 @@ bodies into `desc`.
 - **equipment_category** — map the **leading word(s)** of the italic line (before the first
   `(` or `,`) to **one** equipment-categories ref (table below). `Armor`→`armor`,
   `Weapon`→`weapons`, `Ammunition`→`weapons`, `Ring`→`rings`, `Potion`/`Oil`→`potions`,
-  `Wand`→`wands`, `Staff`→`staffs`, and **everything else** (`Wondrous Item`, `Scroll`, `Rod`,
-  …) → `wondrous-items`.
+  `Wand`→`wands`, `Staff`→`staffs`, `Scroll`→`scrolls`, and **everything else** (`Wondrous Item`,
+  `Rod`, …) → `wondrous-items`.
 - **rarity** — `{ "name": <rarity> }` from the italic line, after the category and before any
   `(Requires Attunement)`. Keep one of `Common`, `Uncommon`, `Rare`, `Very Rare`, `Legendary`,
   `Artifact`; normalize `Rarity Varies` → `Varies`. (If the line gives a compound rarity, use
@@ -194,7 +194,8 @@ Worked combat examples:
 | Ring                                 | `rings`          | Rings          |
 | Wand                                 | `wands`          | Wands          |
 | Staff                                | `staffs`         | Staffs         |
-| Wondrous Item / Scroll / Rod / other | `wondrous-items` | Wondrous Items |
+| Scroll                               | `scrolls`        | Scrolls        |
+| Wondrous Item / Rod / other          | `wondrous-items` | Wondrous Items |
 
 ## Worked example
 
