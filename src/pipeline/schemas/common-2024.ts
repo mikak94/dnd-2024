@@ -39,6 +39,58 @@ export const DamageSchema = z.strictObject({
   damage_dice: z.string(),
 });
 
+/**
+ * A feature's or feat's effect on Armor Class, made machine-readable so a builder
+ * can fold it into the computed AC instead of parsing prose. Two shapes,
+ * discriminated by `calculation`:
+ *
+ *  - `unarmored_defense` — while you wear no armor, your base AC becomes `base`
+ *    plus the modifiers of the listed `abilities` (Barbarian 10+Dex+Con, Monk
+ *    10+Dex+Wis, Draconic Resilience / Dazzling Footwork / Genie's Splendor
+ *    10+Dex+Cha). `shield_allowed` says whether a Shield may still be added on top
+ *    (Barbarian/Paladin yes, Monk/Bard no — those say "or wielding a Shield").
+ *  - `flat_bonus` — a flat +N to AC, gated by `armor`: 'armored' applies only while
+ *    wearing Light/Medium/Heavy armor (Defense Fighting Style), 'unarmored' only
+ *    while wearing none, 'any' unconditionally.
+ *
+ * A bonus granted only by an activated form/stance carries the owning entity's
+ * `activation`; a builder applies passive effects (no activation) automatically and
+ * treats activated ones (Wrath of the Wild) as situational.
+ *
+ * Leave the effect in `desc` (do NOT model it here) when its value depends on a
+ * player choice the entity itself defines (Infernal Bulwark's "the ability
+ * increased by this feat"), or when it is random/temporary or only sets AC inside a
+ * special form (Wild Shape, a Wild Magic surge, a Reaction like Defensive Duelist).
+ */
+export const ArmorClassEffectSchema = z.union([
+  z.strictObject({
+    calculation: z.literal('unarmored_defense'),
+    base: z.number().int().describe('flat starting value, almost always 10'),
+    abilities: z
+      .array(APIReferenceSchema)
+      .min(1)
+      .describe(
+        'ability-scores refs whose modifiers add to `base` while unarmored, in display order (e.g. [dex, con])',
+      ),
+    shield_allowed: z
+      .boolean()
+      .describe('true if a Shield may still be added on top of this formula'),
+  }),
+  z.strictObject({
+    calculation: z.literal('flat_bonus'),
+    bonus: z
+      .number()
+      .int()
+      .describe('flat AC bonus at the level gained; later level-scaling stays in desc'),
+    armor: z
+      .enum(['any', 'armored', 'unarmored'])
+      .describe(
+        "when it applies: 'armored' = only while wearing Light/Medium/Heavy armor, " +
+          "'unarmored' = only while wearing no armor, 'any' = unconditional",
+      ),
+  }),
+]);
+
 // An option may nest a Choice or a `multiple` bundle of options, so this is
 // recursive — defer resolution with z.lazy (same approach as common.ts).
 const OptionSchema: z.ZodType<any> = z.lazy(() =>

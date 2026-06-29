@@ -67,6 +67,9 @@ Output **only** the JSON object per feature — no prose, no Markdown fences in 
 - **feature_specific.benefit_options** — for "choose one of the following benefits" features,
   follow `feature-extraction.md`'s [Benefit options](feature-extraction.md#benefit-options-feature_specificbenefit_options)
   rules. Base-class features rarely use this pattern, but apply it when they do.
+- **armor_class** — follow `feature-extraction.md`'s [Armor Class](feature-extraction.md#armor-class-armor_class)
+  rules. The base-class case is **Unarmored Defense** (Barbarian: 10 + DEX + CON, Shield allowed;
+  Monk: 10 + DEX + WIS, no Shield) → a `unarmored_defense` effect. Omit for features that don't change AC.
 - **url** — `/api/2024/features/<index>`.
 
 ## Exact class references

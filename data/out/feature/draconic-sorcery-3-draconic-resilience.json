@@ -17,5 +17,22 @@
     "Parts of you are also covered by dragon-like scales. While you aren't wearing armor, your base Armor Class equals 10 plus your Dexterity and Charisma modifiers."
   ],
   "prerequisites": [],
+  "armor_class": {
+    "calculation": "unarmored_defense",
+    "base": 10,
+    "abilities": [
+      {
+        "index": "dex",
+        "name": "DEX",
+        "url": "/api/2024/ability-scores/dex"
+      },
+      {
+        "index": "cha",
+        "name": "CHA",
+        "url": "/api/2024/ability-scores/cha"
+      }
+    ],
+    "shield_allowed": true
+  },
   "url": "/api/2024/features/draconic-sorcery-3-draconic-resilience"
 }

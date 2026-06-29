@@ -11,5 +11,22 @@
     "While you aren't wearing armor or wielding a Shield, your base Armor Class equals 10 plus your Dexterity and Wisdom modifiers."
   ],
   "prerequisites": [],
+  "armor_class": {
+    "calculation": "unarmored_defense",
+    "base": 10,
+    "abilities": [
+      {
+        "index": "dex",
+        "name": "DEX",
+        "url": "/api/2024/ability-scores/dex"
+      },
+      {
+        "index": "wis",
+        "name": "WIS",
+        "url": "/api/2024/ability-scores/wis"
+      }
+    ],
+    "shield_allowed": false
+  },
   "url": "/api/2024/features/unarmored-defense-monk"
 }

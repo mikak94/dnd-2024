@@ -17,5 +17,22 @@
     "You also gain proficiency in one of the following skills of your choice: Acrobatics, Intimidation, Performance, or Persuasion."
   ],
   "prerequisites": [],
+  "armor_class": {
+    "calculation": "unarmored_defense",
+    "base": 10,
+    "abilities": [
+      {
+        "index": "dex",
+        "name": "DEX",
+        "url": "/api/2024/ability-scores/dex"
+      },
+      {
+        "index": "cha",
+        "name": "CHA",
+        "url": "/api/2024/ability-scores/cha"
+      }
+    ],
+    "shield_allowed": true
+  },
   "url": "/api/2024/features/oath-of-the-noble-genies-3-genies-splendor"
 }

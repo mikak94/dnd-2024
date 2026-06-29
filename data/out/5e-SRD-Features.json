@@ -2963,6 +2963,23 @@
       "Bardic Damage. You can use Dexterity instead of Strength for the attack rolls of your Unarmed Strikes. When you deal damage with an Unarmed Strike, you can deal Bludgeoning damage equal to a roll of your Bardic Inspiration die plus your Dexterity modifier, instead of the strike's normal damage. This roll doesn't expend the die."
     ],
     "prerequisites": [],
+    "armor_class": {
+      "calculation": "unarmored_defense",
+      "base": 10,
+      "abilities": [
+        {
+          "index": "dex",
+          "name": "DEX",
+          "url": "/api/2024/ability-scores/dex"
+        },
+        {
+          "index": "cha",
+          "name": "CHA",
+          "url": "/api/2024/ability-scores/cha"
+        }
+      ],
+      "shield_allowed": false
+    },
     "url": "/api/2024/features/college-of-dance-3-dazzling-footwork"
   },
   {
@@ -4012,6 +4029,23 @@
       "Parts of you are also covered by dragon-like scales. While you aren't wearing armor, your base Armor Class equals 10 plus your Dexterity and Charisma modifiers."
     ],
     "prerequisites": [],
+    "armor_class": {
+      "calculation": "unarmored_defense",
+      "base": 10,
+      "abilities": [
+        {
+          "index": "dex",
+          "name": "DEX",
+          "url": "/api/2024/ability-scores/dex"
+        },
+        {
+          "index": "cha",
+          "name": "CHA",
+          "url": "/api/2024/ability-scores/cha"
+        }
+      ],
+      "shield_allowed": true
+    },
     "url": "/api/2024/features/draconic-sorcery-3-draconic-resilience"
   },
   {
@@ -7455,6 +7489,11 @@
     "activation": {
       "action_type": "bonus_action"
     },
+    "armor_class": {
+      "calculation": "flat_bonus",
+      "bonus": 1,
+      "armor": "any"
+    },
     "url": "/api/2024/features/hollow-warden-3-wrath-of-the-wild"
   },
   {
@@ -9886,6 +9925,23 @@
       "You also gain proficiency in one of the following skills of your choice: Acrobatics, Intimidation, Performance, or Persuasion."
     ],
     "prerequisites": [],
+    "armor_class": {
+      "calculation": "unarmored_defense",
+      "base": 10,
+      "abilities": [
+        {
+          "index": "dex",
+          "name": "DEX",
+          "url": "/api/2024/ability-scores/dex"
+        },
+        {
+          "index": "cha",
+          "name": "CHA",
+          "url": "/api/2024/ability-scores/cha"
+        }
+      ],
+      "shield_allowed": true
+    },
     "url": "/api/2024/features/oath-of-the-noble-genies-3-genies-splendor"
   },
   {
@@ -12558,6 +12614,23 @@
       "While you aren't wearing any armor, your base Armor Class equals 10 plus your Dexterity and Constitution modifiers. You can use a Shield and still gain this benefit."
     ],
     "prerequisites": [],
+    "armor_class": {
+      "calculation": "unarmored_defense",
+      "base": 10,
+      "abilities": [
+        {
+          "index": "dex",
+          "name": "DEX",
+          "url": "/api/2024/ability-scores/dex"
+        },
+        {
+          "index": "con",
+          "name": "CON",
+          "url": "/api/2024/ability-scores/con"
+        }
+      ],
+      "shield_allowed": true
+    },
     "url": "/api/2024/features/unarmored-defense-barbarian"
   },
   {
@@ -12573,6 +12646,23 @@
       "While you aren't wearing armor or wielding a Shield, your base Armor Class equals 10 plus your Dexterity and Wisdom modifiers."
     ],
     "prerequisites": [],
+    "armor_class": {
+      "calculation": "unarmored_defense",
+      "base": 10,
+      "abilities": [
+        {
+          "index": "dex",
+          "name": "DEX",
+          "url": "/api/2024/ability-scores/dex"
+        },
+        {
+          "index": "wis",
+          "name": "WIS",
+          "url": "/api/2024/ability-scores/wis"
+        }
+      ],
+      "shield_allowed": false
+    },
     "url": "/api/2024/features/unarmored-defense-monk"
   },
   {

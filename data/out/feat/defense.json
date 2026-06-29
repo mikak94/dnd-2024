@@ -2,9 +2,12 @@
   "index": "defense",
   "name": "Defense",
   "type": "fighting-style",
-  "prerequisites": [{ "type": "other", "desc": "Fighting Style Feature" }],
+  "prerequisites": [
+    { "type": "other", "desc": "Fighting Style Feature" }
+  ],
   "desc": [
     "While you're wearing Light, Medium, or Heavy armor, you gain a +1 bonus to Armor Class."
   ],
+  "armor_class": { "calculation": "flat_bonus", "bonus": 1, "armor": "armored" },
   "url": "/api/2024/feats/defense"
 }

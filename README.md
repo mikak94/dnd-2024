@@ -292,6 +292,15 @@ skip existing files by default), but deleting only the affected outputs is faste
 4. **Re-extract** — run extraction subagents on the affected source files, using the updated
    prompt. Subagents re-read the Markdown cold (no peeking at the prior JSON); the prompt + source
    is the ground truth.
+
+   > **Clean-room extraction (hard rule).** Each extraction subagent's output must be a pure
+   > function of **(extraction prompt) + (the entity's own source Markdown)** — nothing else. When
+   > dispatching, give the subagent only the path to the prompt and the path to the source file and
+   > have it read them itself; do **not** paste the prior JSON, a diff, "expected" field values, or
+   > findings from your own analysis into its instructions. Any modeling knowledge a subagent needs
+   > belongs in the prompt (rules + worked examples), not in the dispatch message — that is what
+   > keeps `Markdown + prompt → same JSON` reproducible and prompt-driven. If a subagent can't
+   > produce the right field from prompt + source alone, fix the prompt, don't coach the subagent.
 5. **Validate** — `npm run validate <entity>` to check schema conformance and referential
    integrity. No regressions means no prior field was dropped and all cross-references still resolve.
 
@@ -316,6 +325,7 @@ features extracted from that file, then re-run extraction on it.
 - **2014-compatible**: Schemas follow the 2014 5e-database structure for compatibility, diverging only where 2024 logic doesn't fit
 - **Features / Traits / Subspecies are separate entities**: each gets its own schema and `5e-SRD-*.json`, even though Traits and Subspecies are extracted from their parent's source page (the source is shared; the entities are not embedded in the output)
 - **Features (class + subclass)**: subclass features come from subclass pages; base-class features are driven from each class's Level manifest so their indexes match the Level→feature refs. A few mechanics that 6 classes reference by an identical bare index — Ability Score Improvement, Epic Boon, Subclass Feature, Expertise, Weapon Mastery — are single **classless** Feature records; class-specific ones like Spellcasting are per-class (`spellcasting-wizard`, …)
+- **armor_class** (Features & Feats): a shared `ArmorClassEffectSchema` (`common-2024.ts`) makes a feature's/feat's effect on AC machine-readable so a builder folds it into the computed AC instead of parsing prose. Two shapes by `calculation`: `unarmored_defense` (base + ability mods while unarmored — Barbarian/Monk and the subclass variants Draconic Resilience / Dazzling Footwork / Genie's Splendor, plus `shield_allowed`) and `flat_bonus` (a +N gated by `armor: any|armored|unarmored` — the Defense Fighting Style is `armored +1`). Choice-dependent (Infernal Bulwark), random, Reaction, or special-form (Wild Shape) AC effects stay in `desc`. A bonus from an activated form (Wrath of the Wild) carries the entity's `activation` too.
 - **class_specific**: Discriminated union for per-class progression values (rage_count, ki_points, etc.)
 - **Prerequisites**: Features take level/feature/spell/proficiency prerequisites; Feats use a tagged-union prerequisite keyed by `type` (level / ability_score / proficiency / feat / …)
 - **2024 renames**: `races`/`subraces`/`racial_traits` → `species`/`subspecies`/`traits`

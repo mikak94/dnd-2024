@@ -1,5 +1,5 @@
 import * as z from 'zod/v4';
-import { ChoiceSchema } from './common-2024.ts';
+import { ArmorClassEffectSchema, ChoiceSchema } from './common-2024.ts';
 
 /**
  * 2024-edition Feat schema.
@@ -83,6 +83,12 @@ export const FeatSchema = z.strictObject({
     .array(ChoiceSchema)
     .optional()
     .describe('structured in-feat player picks; omit if the feat has none'),
+  armor_class: ArmorClassEffectSchema.optional().describe(
+    "the feat's effect on Armor Class — e.g. the Defense Fighting Style's +1 while " +
+      'armored (a flat_bonus). Omit for feats that do not change AC, or whose AC effect ' +
+      "is choice-dependent (Infernal Bulwark's ability is the one this feat raised) or a " +
+      'Reaction (Defensive Duelist) — those stay in desc',
+  ),
   url: z.string().describe('/api/2024/feats/<index>'),
 });
 

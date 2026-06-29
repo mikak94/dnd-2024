@@ -11,5 +11,22 @@
     "While you aren't wearing any armor, your base Armor Class equals 10 plus your Dexterity and Constitution modifiers. You can use a Shield and still gain this benefit."
   ],
   "prerequisites": [],
+  "armor_class": {
+    "calculation": "unarmored_defense",
+    "base": 10,
+    "abilities": [
+      {
+        "index": "dex",
+        "name": "DEX",
+        "url": "/api/2024/ability-scores/dex"
+      },
+      {
+        "index": "con",
+        "name": "CON",
+        "url": "/api/2024/ability-scores/con"
+      }
+    ],
+    "shield_allowed": true
+  },
   "url": "/api/2024/features/unarmored-defense-barbarian"
 }

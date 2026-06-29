@@ -88,6 +88,7 @@ As a Bonus Action, you can expend a use of Bardic Inspiration, rolling your Bard
 - **feature_specific** — when the feature's prose presents a **"choose N from a closed set"** over one of the taxonomies in [Option choices](#option-choices-feature_specific), OR a **"choose one of the following benefits"** menu (see [Benefit options](#benefit-options-feature_specificbenefit_options)), emit the structured data there. Omit for standard features.
 - **repeatable** — `true` when the section carries a **"Repeatable."** note ("You can gain this invocation more than once"); omit otherwise. See [Repeatable & choices](#repeatable--choices).
 - **choices** — for in-feature player picks expressed as the shared `ChoiceSchema` (an invocation's "choose one of your known Warlock cantrips that …", or "choose an Origin feat"). Omit when the feature has none. See [Repeatable & choices](#repeatable--choices). This is distinct from `feature_specific.subfeature_options`/`expertise_options`, which model **closed enumerated entity sets** (Fighting Style / Expertise / Weapon Mastery).
+- **armor_class** — the feature's effect on Armor Class, when it has a *deterministic* one (an Unarmored Defense formula or a flat bonus). Omit otherwise. See [Armor Class](#armor-class-armor_class).
 - **url** — `/api/2024/features/<index>`.
 
 ## Exact class references
@@ -192,6 +193,54 @@ again until you finish a Short or Long Rest" →
 Bardic Inspiration: "As a Bonus Action, you can inspire another creature …" (no stated hard cap
 beyond the die economy, which tracks separately on level records) → emit `activation` only, no
 `recharge`.
+
+## Armor Class (`armor_class`)
+
+Set `armor_class` when the feature changes how Armor Class is computed in a **deterministic** way. Two shapes, discriminated by `calculation`:
+
+- **`unarmored_defense`** — "while you aren't wearing armor, your base Armor Class equals B plus your <Ability> modifier (plus your <Ability> modifier)". This is the Barbarian/Monk Unarmored Defense pattern and its subclass variants. Fields:
+  - `base` — B (almost always 10).
+  - `abilities` — the ability-score refs added to `base`, **in the order written** (DEX first). Use the reference objects in the table below, verbatim.
+  - `shield_allowed` — `true` only if the text also permits a Shield ("You can use a Shield and still gain this benefit"); `false` when it says "while you aren't wearing armor **or wielding a Shield**".
+- **`flat_bonus`** — "you gain a +N bonus to Armor Class". Fields: `bonus` (integer N at the level gained — later scaling stays in `desc`) and `armor`: `"armored"` (only while wearing Light/Medium/Heavy armor), `"unarmored"` (only while wearing none), or `"any"` (unconditional). When the bonus is granted only by an activated form/stance, ALSO emit the feature's `activation` as usual — `armor_class` and `activation` coexist.
+
+**Leave the effect in `desc` and OMIT `armor_class`** when it is choice-dependent (the ability isn't fixed), random, or only sets AC inside a special form — a Wild Shape AC ("your AC equals 13 + your Wisdom modifier"), a die-roll bonus (Bait and Switch's Superiority Die to AC), or a random surge-table row. A separate creature's stat-block AC (a companion/summon) is that creature's, not the character's — never model it here.
+
+### Ability-score references (copy verbatim)
+
+| Ability | Object |
+| --- | --- |
+| Strength | `{"index":"str","name":"STR","url":"/api/2024/ability-scores/str"}` |
+| Dexterity | `{"index":"dex","name":"DEX","url":"/api/2024/ability-scores/dex"}` |
+| Constitution | `{"index":"con","name":"CON","url":"/api/2024/ability-scores/con"}` |
+| Intelligence | `{"index":"int","name":"INT","url":"/api/2024/ability-scores/int"}` |
+| Wisdom | `{"index":"wis","name":"WIS","url":"/api/2024/ability-scores/wis"}` |
+| Charisma | `{"index":"cha","name":"CHA","url":"/api/2024/ability-scores/cha"}` |
+
+### Examples
+
+Draconic Resilience — _"While you aren't wearing armor, your base Armor Class equals 10 plus your Dexterity and Charisma modifiers."_ (no Shield clause → a Shield is still allowed):
+
+```jsonc
+"armor_class": {
+  "calculation": "unarmored_defense",
+  "base": 10,
+  "abilities": [
+    { "index": "dex", "name": "DEX", "url": "/api/2024/ability-scores/dex" },
+    { "index": "cha", "name": "CHA", "url": "/api/2024/ability-scores/cha" }
+  ],
+  "shield_allowed": true
+}
+```
+
+Monk Unarmored Defense — _"While you aren't wearing armor or wielding a Shield, your base Armor Class equals 10 plus your Dexterity and Wisdom modifiers."_ → same shape with `abilities` `[dex, wis]` and `"shield_allowed": false`.
+
+Wrath of the Wild (Ancient Armor) — _"You gain a +1 bonus to AC … This bonus increases to +2 when you reach Ranger level 11"_, granted by a Bonus-Action transformation → record the level-3 value and keep `activation`:
+
+```jsonc
+"activation": { "action_type": "bonus_action" },
+"armor_class": { "calculation": "flat_bonus", "bonus": 1, "armor": "any" }
+```
 
 ## Benefit options (`feature_specific.benefit_options`)
 

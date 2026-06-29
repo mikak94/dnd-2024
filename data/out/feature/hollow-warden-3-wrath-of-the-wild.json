@@ -19,8 +19,7 @@
     "Unnerving Aura. When you transform and at the start of each of your subsequent turns, each creature of your choice in a 10-foot Emanation originating from you makes a Wisdom saving throw against your spell save DC. On a failed save, a creature has the Frightened condition until the start of your next turn."
   ],
   "prerequisites": [],
-  "activation": {
-    "action_type": "bonus_action"
-  },
+  "activation": { "action_type": "bonus_action" },
+  "armor_class": { "calculation": "flat_bonus", "bonus": 1, "armor": "any" },
   "url": "/api/2024/features/hollow-warden-3-wrath-of-the-wild"
 }

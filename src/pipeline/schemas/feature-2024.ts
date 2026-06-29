@@ -1,5 +1,5 @@
 import * as z from 'zod/v4';
-import { ChoiceSchema } from './common-2024.ts';
+import { ArmorClassEffectSchema, ChoiceSchema } from './common-2024.ts';
 
 /**
  * 2024-edition Feature schema (2014-compatible structure).
@@ -267,6 +267,11 @@ export const FeatureSchema = z.strictObject({
   ),
   recharge: FeatureRechargeSchema.optional().describe(
     'when uses reset; omit for unlimited-use or per-activation-cost-only features',
+  ),
+  armor_class: ArmorClassEffectSchema.optional().describe(
+    "the feature's effect on Armor Class (Unarmored Defense formula or flat bonus); " +
+      'omit for features that do not change AC, or whose AC effect is choice-dependent/' +
+      'temporary (those stay in desc)',
   ),
   feature_specific: FeatureSpecificSchema.optional().describe(
     'for features with options',

@@ -75,6 +75,7 @@ Source: Player's Handbook
 - **ability_bonuses** — fixed ability-score increases the feat ALWAYS grants (the ability is not chooseable), as `[{ "ability_score": <ref>, "bonus": 1 }]`. Use this for "Increase your Charisma by 1" / "Increase your Strength by 1, to a maximum of 30" — a single named ability with no "or" and no "of your choice". A _chooseable_ increase ("Strength or Dexterity", "of your choice") is NOT this — it's a `choices` entry. Omit the field if the feat grants no fixed increase. (A line is exactly one or the other, never both.)
 - **choices** — structured player picks the feat offers. See [Option choices](#option-choices-choices). Omit the field entirely if the feat has none.
 - **repeatable** — `true` if the feat's text says it's **Repeatable** (e.g. "Repeatable. You can take this feat more than once."). Omit the field otherwise (most feats can be taken only once).
+- **armor_class** — the feat's effect on Armor Class, when it has a *deterministic, passive* one. Two shapes (discriminated by `calculation`); omit the field when neither applies. See [Armor Class](#armor-class-armor_class).
 - **url** — `/api/2024/feats/<index>`.
 
 ## slugify
@@ -92,6 +93,28 @@ trim leading/trailing `-`. E.g. "Tavern Brawler" → `tavern-brawler`.
 | Intelligence | `{"index":"int","name":"INT","url":"/api/2024/ability-scores/int"}` |
 | Wisdom       | `{"index":"wis","name":"WIS","url":"/api/2024/ability-scores/wis"}` |
 | Charisma     | `{"index":"cha","name":"CHA","url":"/api/2024/ability-scores/cha"}` |
+
+## Armor Class (`armor_class`)
+
+Set `armor_class` when the feat changes how Armor Class is computed in a **deterministic, passive** way. Two shapes, discriminated by `calculation`:
+
+- **`flat_bonus`** — "you gain a +N bonus to Armor Class". Fields: `bonus` (the integer N at the level gained — later scaling stays in `desc`) and `armor`:
+  - `"armored"` — applies only "while you're wearing Light, Medium, or Heavy armor" (the Defense Fighting Style).
+  - `"unarmored"` — applies only while wearing no armor.
+  - `"any"` — unconditional.
+- **`unarmored_defense`** — "while you aren't wearing armor, your base Armor Class equals B plus your <Ability> modifier (plus your <Ability> modifier)". Fields: `base` (B, almost always 10), `abilities` (the ability-score refs added to base, in the order written — DEX first), and `shield_allowed` (`true` only if the text also permits a Shield, e.g. "You can use a Shield and still gain this benefit"; `false` when it says "or wielding a Shield").
+
+**Leave the effect in `desc` and OMIT `armor_class`** when:
+- the bonus depends on a player choice the feat itself defines — e.g. Infernal Bulwark: "plus the modifier of the ability increased by this feat" (the ability isn't fixed);
+- the bonus is a Reaction, temporary, or random (Defensive Duelist adds your Proficiency Bonus as a Reaction; Mythal-Touched's +2 is one row of a random surge table).
+
+### Worked example — Defense Fighting Style (`data/out/feat/defense.json`)
+
+Input prose: _"While you're wearing Light, Medium, or Heavy armor, you gain a +1 bonus to Armor Class."_
+
+```json
+"armor_class": { "calculation": "flat_bonus", "bonus": 1, "armor": "armored" }
+```
 
 ## Worked example
 
